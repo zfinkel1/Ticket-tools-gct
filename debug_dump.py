@@ -35,8 +35,33 @@ def dump_simple(context, slug, url):
     page.close()
 
 
+def dump_tixr_via_scraperapi():
+    """Use ScraperAPI to fetch Tixr homepage (bypasses DataDome)."""
+    import os, urllib.request, urllib.parse
+    api_key = os.environ.get("SCRAPERAPI_KEY")
+    if not api_key:
+        print("  [tixr] SCRAPERAPI_KEY not set, skipping")
+        return
+    params = urllib.parse.urlencode({
+        "api_key": api_key,
+        "url": "https://www.tixr.com/",
+        "render": "true",
+        "premium": "true",
+    })
+    url = f"https://api.scraperapi.com?{params}"
+    print(f"  [tixr] fetching via ScraperAPI...")
+    try:
+        req = urllib.request.Request(url)
+        with urllib.request.urlopen(req, timeout=90) as r:
+            html = r.read().decode("utf-8", errors="ignore")
+        (out_dir / "tixr-chicago.html").write_text(html, encoding="utf-8")
+        print(f"  [tixr] saved {len(html)} chars to debug/tixr-chicago.html")
+    except Exception as e:
+        print(f"  [tixr] ScraperAPI failed: {e}")
+
+
 def dump_tixr_chicago(context):
-    """Search 'chicago' on Tixr, filter by City, dump results."""
+    """(unused — replaced by dump_tixr_via_scraperapi)"""
     page = context.new_page()
     if STEALTH:
         try:
@@ -116,9 +141,9 @@ with sync_playwright() as p:
     print("[dump] Rivers Casino Des Plaines")
     dump_simple(context, "rivers-desplaines", "https://www.riverscasino.com/desplaines/entertainment/event-center")
 
-    print("[dump] Tixr Chicago search")
-    dump_tixr_chicago(context)
-
     browser.close()
+
+print("[dump] Tixr via ScraperAPI")
+dump_tixr_via_scraperapi()
 
 print("[done]")

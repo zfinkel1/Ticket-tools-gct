@@ -20,6 +20,8 @@ jobs:
           playwright install --with-deps chromium
 
       - run: python debug_dump.py
+        env:
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
 
       - name: Commit dump
         run: |
