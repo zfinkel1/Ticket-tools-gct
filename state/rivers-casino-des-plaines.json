@@ -1,6 +1,6 @@
 {
   "site": "Rivers Casino Des Plaines",
-  "last_run": "2026-04-23T20:34:11.394462Z",
+  "last_run": "2026-04-23T20:56:05.523602Z",
   "count": 6,
   "events": [
     {
@@ -14,35 +14,35 @@
       "slug": "little-river-band",
       "name": "Little River Band",
       "location": "Rivers Casino Des Plaines",
-      "date": "",
+      "date": "FRI, MAY 8",
       "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/little-river-band"
     },
     {
       "slug": "the-calling",
       "name": "The Calling",
       "location": "Rivers Casino Des Plaines",
-      "date": "",
+      "date": "FRI, JUN 12",
       "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/the-calling"
     },
     {
       "slug": "gin-blossoms",
       "name": "Gin Blossoms",
       "location": "Rivers Casino Des Plaines",
-      "date": "",
+      "date": "FRI, JUN 19",
       "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/gin-blossoms"
     },
     {
       "slug": "midwest-film-fest",
       "name": "Midwest Film Festival",
       "location": "Rivers Casino Des Plaines",
-      "date": "",
+      "date": "WED, JUL 22",
       "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/midwest-film-fest"
     },
     {
       "slug": "38-special",
       "name": "38 Special",
       "location": "Rivers Casino Des Plaines",
-      "date": "",
+      "date": "FRI, AUG 21",
       "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/38-special"
     }
   ]
