@@ -31,10 +31,11 @@ jobs:
         run: |
           git config user.name "frontgate-watcher"
           git config user.email "actions@users.noreply.github.com"
-          if git diff --quiet state/events.json; then
+          git add state/events.json
+          # Check staged changes (catches both new files and modifications)
+          if git diff --cached --quiet; then
             echo "No state changes"
           else
-            git add state/events.json
             git commit -m "state: update events snapshot [skip ci]"
             git push
           fi
