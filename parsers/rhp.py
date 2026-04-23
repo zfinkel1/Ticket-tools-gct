@@ -30,7 +30,7 @@ def parse(site):
         slug = m.group("slug")
         url = m.group("url")
         name = html_lib.unescape(m.group("name")).strip()
-        date = _date_before(html, m.start())
+        date = _date_near(html, m.start(), m.end())
         events.append({
             "slug": slug,
             "name": name,
@@ -50,11 +50,25 @@ def parse(site):
     return unique
 
 
-def _date_before(html, pos):
-    """Look back ~1500 chars for the last eventMonth div's text content."""
-    snippet = html[max(0, pos - 1500):pos]
+def _date_near(html, start, end):
+    """
+    Find the event date. In RHP list layout the date lives inside the anchor
+    (after `end`); in grid layout the date div comes just before the h4/anchor
+    (before `start`). Check after first, fall back to before.
+    """
+    # Look forward up to 1500 chars (inside the anchor / event card)
+    forward = html[end:end + 1500]
+    m = re.search(
+        r'class\s*=\s*"[^"]*eventMonth[^"]*"[^>]*>\s*([^<]+?)\s*</div>',
+        forward,
+    )
+    if m:
+        return m.group(1).strip()
+
+    # Look backward
+    snippet = html[max(0, start - 1500):start]
     matches = re.findall(
-        r'class="[^"]*eventMonth[^"]*"[^>]*>\s*([^<]+?)\s*</div>',
+        r'class\s*=\s*"[^"]*eventMonth[^"]*"[^>]*>\s*([^<]+?)\s*</div>',
         snippet,
     )
     if matches:
