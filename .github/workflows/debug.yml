@@ -16,7 +16,7 @@ jobs:
           python-version: "3.11"
 
       - run: |
-          pip install playwright==1.48.0
+          pip install playwright==1.48.0 playwright-stealth==1.0.6
           playwright install --with-deps chromium
 
       - run: python debug_dump.py

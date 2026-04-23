@@ -6,6 +6,11 @@ Commits to debug/{slug}.html
 
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+try:
+    from playwright_stealth import stealth_sync
+    STEALTH = True
+except ImportError:
+    STEALTH = False
 
 out_dir = Path(__file__).parent / "debug"
 out_dir.mkdir(exist_ok=True)
@@ -33,6 +38,12 @@ def dump_simple(context, slug, url):
 def dump_tixr_chicago(context):
     """Search 'chicago' on Tixr, filter by City, dump results."""
     page = context.new_page()
+    if STEALTH:
+        try:
+            stealth_sync(page)
+            print("  [tixr] stealth enabled")
+        except Exception as e:
+            print(f"  [tixr] stealth failed: {e}")
     page.goto("https://www.tixr.com/", timeout=45_000, wait_until="domcontentloaded")
     page.wait_for_load_state("networkidle", timeout=20_000)
 
