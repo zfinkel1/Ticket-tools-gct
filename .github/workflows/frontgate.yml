@@ -1,0 +1,40 @@
+name: FrontGate Event Watcher
+
+on:
+  schedule:
+    # Every hour on the hour (UTC)
+    - cron: "0 * * * *"
+  workflow_dispatch:  # also allow manual trigger
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # needed to commit updated state
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run watcher
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
+        run: python frontgate_watcher.py
+
+      - name: Commit state changes
+        run: |
+          git config user.name "frontgate-watcher"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet state/events.json; then
+            echo "No state changes"
+          else
+            git add state/events.json
+            git commit -m "state: update events snapshot [skip ci]"
+            git push
+          fi
