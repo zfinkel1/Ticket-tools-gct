@@ -36,26 +36,26 @@ def dump_simple(context, slug, url):
 
 
 def dump_tixr_via_scraperapi():
-    """Use ScraperAPI to fetch Tixr homepage (bypasses DataDome)."""
+    """Hit Tixr's city search API via ScraperAPI (bypasses DataDome)."""
     import os, urllib.request, urllib.parse
     api_key = os.environ.get("SCRAPERAPI_KEY")
     if not api_key:
         print("  [tixr] SCRAPERAPI_KEY not set, skipping")
         return
+    target = "https://www.tixr.com/api/events?city=chicago&page=1&pageSize=50"
     params = urllib.parse.urlencode({
         "api_key": api_key,
-        "url": "https://www.tixr.com/",
-        "render": "true",
+        "url": target,
         "premium": "true",
     })
     url = f"https://api.scraperapi.com?{params}"
-    print(f"  [tixr] fetching via ScraperAPI...")
+    print(f"  [tixr] fetching {target} via ScraperAPI...")
     try:
         req = urllib.request.Request(url)
         with urllib.request.urlopen(req, timeout=90) as r:
-            html = r.read().decode("utf-8", errors="ignore")
-        (out_dir / "tixr-chicago.html").write_text(html, encoding="utf-8")
-        print(f"  [tixr] saved {len(html)} chars to debug/tixr-chicago.html")
+            body = r.read().decode("utf-8", errors="ignore")
+        (out_dir / "tixr-chicago.json").write_text(body, encoding="utf-8")
+        print(f"  [tixr] saved {len(body)} chars to debug/tixr-chicago.json")
     except Exception as e:
         print(f"  [tixr] ScraperAPI failed: {e}")
 
