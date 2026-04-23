@@ -62,10 +62,12 @@ def parse(site):
     for m in pattern.finditer(html):
         href = m.group(1)
         slug = href.rsplit("/", 1)[-1]
-        # Look backward from this match for the most recent h3 and h5
+        # Look backward from this match for the most recent h3 + date
         window = html[max(0, m.start() - 2500):m.start()]
         name = _last_tag_text(window, "h3")
-        date = _last_tag_text(window, "h5")
+        # Date lives in an h5 (featured card) OR a p.GridItemCommon__TextDate (grid card).
+        # Take whichever is closer (appears later in the window).
+        date = _find_date(window)
         if not name:
             continue
         events.append({
@@ -96,6 +98,28 @@ def _last_tag_text(html, tag):
     if matches:
         return html_lib.unescape(matches[-1]).strip()
     return ""
+
+
+def _find_date(html):
+    """
+    Rivers has two card layouts:
+      Featured — <h5 class="Text-sldlea-0-h5 ...">Fri, Jul 31 @ 8PM</h5>
+      Grid     — <p class="... GridItemCommon__TextDate...">FRI, JUN 19</p>
+    Take whichever appears latest in the window (closest to the event link).
+    """
+    candidates = []
+    for m in re.finditer(r"<h5[^>]*>([^<]+)</h5>", html, re.IGNORECASE):
+        candidates.append((m.start(), m.group(1)))
+    for m in re.finditer(
+        r'<p[^>]*class="[^"]*GridItemCommon__TextDate[^"]*"[^>]*>([^<]+)</p>',
+        html,
+        re.IGNORECASE,
+    ):
+        candidates.append((m.start(), m.group(1)))
+    if not candidates:
+        return ""
+    candidates.sort(key=lambda c: c[0])
+    return html_lib.unescape(candidates[-1][1]).strip()
 
 
 def _base_url(url):
