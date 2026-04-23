@@ -21,9 +21,7 @@ SITES = [
     },
     {
         "name": "Rivers Casino Des Plaines",
-        "parser": "playwright",
+        "parser": "rivers",
         "url": "https://www.riverscasino.com/desplaines/entertainment/event-center",
-        # Leave selectors empty — falls back to "any anchor with /event/ in href".
-        # We'll tighten once we see what the site actually returns.
     },
 ]
