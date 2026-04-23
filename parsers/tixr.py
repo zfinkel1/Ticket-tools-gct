@@ -15,7 +15,8 @@ import json
 import os
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 
 def parse(site):
@@ -48,12 +49,14 @@ def parse(site):
         name = (ev.get("name") or "").strip()
         url = ev.get("url") or ""
         venue = (ev.get("venue") or {}).get("name") or ""
-        ts = ev.get("startDate")  # ms since epoch
+        ts = ev.get("startDate")  # ms since epoch (UTC)
         date = ""
         if ts:
             try:
-                dt = datetime.fromtimestamp(ts / 1000)
-                date = dt.strftime("%a, %b %d at %I:%M %p")
+                venue_tz = (ev.get("venue") or {}).get("timezone") or "America/Chicago"
+                dt = datetime.fromtimestamp(ts / 1000, tz=timezone.utc).astimezone(ZoneInfo(venue_tz))
+                # Use %#I on Windows or %-I on Unix for no leading zero; lstrip fallback is portable
+                date = dt.strftime("%a, %b %d at %I:%M %p %Z").replace(" 0", " ")
             except Exception:
                 pass
 
