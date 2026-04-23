@@ -1,6 +1,385 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-04-23T19:46:47.867524Z",
-  "count": 0,
-  "events": []
+  "last_run": "2026-04-23T19:54:19.896073Z",
+  "count": 54,
+  "events": [
+    {
+      "slug": "o-2",
+      "name": "((( O )))",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/o-2/sleeping-village/chicago--illinois/"
+    },
+    {
+      "slug": "thursday-presents-full-city-devolucion",
+      "name": "Thursday presents&#8230;Full City Devolución",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/thursday-presents-full-city-devolucion/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "friko-something-worth-waiting-for",
+      "name": "Friko: Something Worth Waiting For",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/friko-something-worth-waiting-for/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "clan-of-xymox-cold-cave",
+      "name": "Clan of Xymox &#038; Cold Cave",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/clan-of-xymox-cold-cave/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "the-reverend-horton-heat",
+      "name": "The Reverend Horton Heat",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/the-reverend-horton-heat/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "the-lemon-twigs",
+      "name": "The Lemon Twigs",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/the-lemon-twigs/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "the-new-pornographers",
+      "name": "The New Pornographers",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/the-new-pornographers/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "newdad-freak-slug",
+      "name": "NewDad",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/newdad-freak-slug/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "vnv-nation",
+      "name": "VNV Nation",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/vnv-nation/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "the-afghan-whigs-40th-anniversary-tour",
+      "name": "The Afghan Whigs 40th Anniversary Tour with Mercury Rev",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/the-afghan-whigs-40th-anniversary-tour/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "inner-wave-los-mesoneros",
+      "name": "Inner Wave &#038; Los Mesoneros",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/inner-wave-los-mesoneros/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "searows-death-in-the-business-of-whaling",
+      "name": "Searows: Death in the Business of Whaling",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/searows-death-in-the-business-of-whaling/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "hot-in-herre-2000s-dance-party",
+      "name": "Hot In Herre: 2000s Dance Party",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/hot-in-herre-2000s-dance-party/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "yebba-2",
+      "name": "Yebba",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/yebba-2/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "yebba",
+      "name": "Yebba",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/yebba/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "the-27th-annual-grabby-awards",
+      "name": "The 27th Annual Grabby Awards",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/the-27th-annual-grabby-awards/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "furball-iml-chicago",
+      "name": "Furball: IML Chicago",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/furball-iml-chicago/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "iml-queen-2",
+      "name": "IML Queen!",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/iml-queen-2/all-building-event/chicago-illinois/"
+    },
+    {
+      "slug": "kitty-kat-ball",
+      "name": "Kitty Kat Ball",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/kitty-kat-ball/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "kevin-morby",
+      "name": "Kevin Morby",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/kevin-morby/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "terror",
+      "name": "Terror",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/terror/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "jane-remover",
+      "name": "Jane Remover",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/jane-remover/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "jane-remover-2",
+      "name": "Jane Remover",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/jane-remover-2/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "underscores-galleria-north-american-chapter",
+      "name": "underscores: Galleria &#8211; North American Chapter",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/underscores-galleria-north-american-chapter/radius/chicago-illinois/"
+    },
+    {
+      "slug": "boots-pride-edition-2",
+      "name": "BOOTS: Pride Edition",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/boots-pride-edition-2/all-building-event/chicago-illinois/"
+    },
+    {
+      "slug": "kim-gordon",
+      "name": "Kim Gordon",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/kim-gordon/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "horse-meat-disco-pride",
+      "name": "Horse Meat Disco: Pride",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/horse-meat-disco-pride/all-building-event/chicago-illinois/"
+    },
+    {
+      "slug": "blue-earth-sound-ep-release-show",
+      "name": "Blue Earth Sound (EP Release Show)",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/blue-earth-sound-ep-release-show/top-note-theatre/chicago-illinois/"
+    },
+    {
+      "slug": "blue-earth-sound-ep-release-show-2",
+      "name": "Blue Earth Sound (EP Release Show)",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/blue-earth-sound-ep-release-show-2/top-note-theatre/chicago-illinois/"
+    },
+    {
+      "slug": "neo-reunion-2026",
+      "name": "Neo Reunion 2026",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/neo-reunion-2026/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "jeff-rosenstock",
+      "name": "J​eff Rosenstock",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/jeff-rosenstock/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "jeff-rosenstock-2",
+      "name": "J​eff Rosenstock",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/jeff-rosenstock-2/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "jeff-rosenstock-3",
+      "name": "J​eff Rosenstock",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/jeff-rosenstock-3/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "jeff-rosenstock-4",
+      "name": "J​eff Rosenstock",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/jeff-rosenstock-4/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "jeff-rosenstock-5",
+      "name": "J​eff Rosenstock",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/jeff-rosenstock-5/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "jeff-rosenstock-6",
+      "name": "J​eff Rosenstock",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/jeff-rosenstock-6/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "pavement",
+      "name": "Pavement",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/pavement/the-salt-shed/chicago-illinois/"
+    },
+    {
+      "slug": "jeff-rosenstock-7",
+      "name": "J​eff Rosenstock",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/jeff-rosenstock-7/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "jeff-rosenstock-8",
+      "name": "J​eff Rosenstock",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/jeff-rosenstock-8/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "good-hangs",
+      "name": "Good Hangs",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/good-hangs/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "eagles-of-death-metal-death-by-sexy-20th-anniversary-tour",
+      "name": "Eagles of Death Metal: Death By Sexy 20th Anniversary Tour",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/eagles-of-death-metal-death-by-sexy-20th-anniversary-tour/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "pond",
+      "name": "Pond",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/pond/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "peter-hook-the-light-north-american-tour-2026",
+      "name": "Peter Hook &#038; The Light &#8211; North American Tour 2026",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/peter-hook-the-light-north-american-tour-2026/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "peter-hook-the-light-north-american-tour-2026-2",
+      "name": "Peter Hook &#038; The Light &#8211; North American Tour 2026",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/peter-hook-the-light-north-american-tour-2026-2/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "cabaret-voltaire",
+      "name": "Cabaret Voltaire",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/cabaret-voltaire/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "cabaret-voltaire-2",
+      "name": "Cabaret Voltaire",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/cabaret-voltaire-2/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "culture-wars",
+      "name": "Culture Wars",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/culture-wars/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "cold-waves-xiv-friday",
+      "name": "Cold Waves XIV",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/cold-waves-xiv-friday/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "michael-shannon-jason-narducy-and-friends-play-r-e-m-s-lifes-rich-pageant-3",
+      "name": "Michael Shannon &#038; Jason Narducy and Friends play R.E.M.’s Lifes Rich Pageant",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/michael-shannon-jason-narducy-and-friends-play-r-e-m-s-lifes-rich-pageant-3/riviera-theatre/chicago--illinois/"
+    },
+    {
+      "slug": "cold-waves-xiv-saturday",
+      "name": "Cold Waves XIV",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/cold-waves-xiv-saturday/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "cold-waves-xiv-sunday",
+      "name": "Cold Waves XIV",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/cold-waves-xiv-sunday/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "deca-joins",
+      "name": "deca joins",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/deca-joins/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "lambrini-girls",
+      "name": "Lambrini Girls",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/lambrini-girls/the-vic/chicago-illinois/"
+    },
+    {
+      "slug": "book-of-love",
+      "name": "Book of Love",
+      "location": "",
+      "date": "",
+      "url": "https://metrochicago.com/event/book-of-love/metro-chicago/chicago-illinois/"
+    }
+  ]
 }
