@@ -24,4 +24,13 @@ SITES = [
         "parser": "rivers",
         "url": "https://www.riverscasino.com/desplaines/entertainment/event-center",
     },
+    {
+        "name": "Tixr — Chicago",
+        "parser": "tixr",
+        "city": "chicago",
+        "page_size": 50,
+        # ScraperAPI free tier is ~100 premium requests/month. Check once every
+        # 6 hours = 120/month (close but fine). If we burn through, bump higher.
+        "min_interval_hours": 6,
+    },
 ]

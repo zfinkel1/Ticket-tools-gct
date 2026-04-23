@@ -30,6 +30,7 @@ jobs:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
           FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
         run: python watcher.py
 
       - name: Commit state changes

@@ -142,6 +142,22 @@ def main():
             exit_code = 1
             continue
 
+        # Optional throttling: skip sites that ran recently
+        min_hrs = site.get("min_interval_hours")
+        if min_hrs:
+            state = load_state(site)
+            last = state.get("last_run")
+            if last:
+                from datetime import timezone
+                try:
+                    last_dt = datetime.fromisoformat(last.replace("Z", "+00:00"))
+                    age_hrs = (datetime.now(timezone.utc) - last_dt).total_seconds() / 3600
+                    if age_hrs < min_hrs:
+                        print(f"[info] Skipping {name}: last run {age_hrs:.1f}h ago, throttle {min_hrs}h")
+                        continue
+                except Exception:
+                    pass
+
         print(f"\n[info] Checking {name} ({parser_type})")
         try:
             current = parser(site)
