@@ -1,147 +1,147 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-04-23T21:49:56.183944Z",
+  "last_run": "2026-04-24T07:21:13.825342Z",
   "count": 20,
   "events": [
-    {
-      "slug": "176516",
-      "name": "AntoneNow",
-      "location": "Ramova Loft",
-      "date": "Thu, Apr 23 at 11:30 PM",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/antonenow-176516"
-    },
-    {
-      "slug": "187011",
-      "name": "ALTURA | Thursday Latin Rooftop",
-      "location": "Joy District",
-      "date": "Thu, Apr 23 at 11:00 PM",
-      "url": "https://www.tixr.com/groups/acro/events/altura-thursday-latin-rooftop-187011"
-    },
     {
       "slug": "186362",
       "name": "RINOVRSE | Rino Bar",
       "location": "RiNo Bar",
-      "date": "Fri, Apr 24 at 04:00 AM",
+      "date": "Thu, Apr 23 at 11:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/rinovrse-rino-bar-186362"
     },
     {
       "slug": "159180",
       "name": "Snarky Puppy",
       "location": "Ramova Theatre ",
-      "date": "Sat, Apr 25 at 01:00 AM",
+      "date": "Fri, Apr 24 at 8:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/snarky-puppy-159180"
     },
     {
       "slug": "184710",
       "name": "NUBES - LATIN ROOFTOP PARTY (21+)",
       "location": "ROOF on theWit",
-      "date": "Sat, Apr 25 at 02:00 AM",
+      "date": "Fri, Apr 24 at 9:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/nubes-latin-rooftop-party-21--184710"
     },
     {
       "slug": "183031",
       "name": "DJ ORMA EL CLúB Tour | Chicago, IL",
       "location": "Galeria Chicago",
-      "date": "Sat, Apr 25 at 03:00 AM",
+      "date": "Fri, Apr 24 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/dj-orma-el-cl-b-tour-chicago-il-183031"
     },
     {
       "slug": "185780",
       "name": "MIA | Latin Day Club | Reserv Rooftop",
       "location": "Reserv",
-      "date": "Sat, Apr 25 at 05:00 PM",
+      "date": "Sat, Apr 25 at 12:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/mia-latin-day-club-reserv-rooftop-185780"
     },
     {
       "slug": "167436",
       "name": "PEEKABOO",
       "location": "Ramova Theatre ",
-      "date": "Sun, Apr 26 at 03:00 AM",
+      "date": "Sat, Apr 25 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/peekaboo-167436"
     },
     {
       "slug": "183032",
       "name": "DJ ORMA EL CLúB Tour | Chicago, IL",
       "location": "Galeria Chicago",
-      "date": "Sun, Apr 26 at 03:00 AM",
+      "date": "Sat, Apr 25 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/dj-orma-el-cl-b-tour-chicago-il-183032"
     },
     {
       "slug": "180423",
       "name": "MAD Frequencies: Vol. 3",
       "location": "Ramova Loft",
-      "date": "Sun, Apr 26 at 02:00 AM",
+      "date": "Sat, Apr 25 at 9:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/mad-frequencies-vol-3-180423"
     },
     {
       "slug": "184724",
       "name": "Cielo Rooftop Saturdays (21+)",
       "location": "Reserv",
-      "date": "Sun, Apr 26 at 01:00 AM",
+      "date": "Sat, Apr 25 at 8:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/cielo-rooftop-saturdays-21--184724"
     },
     {
       "slug": "179825",
       "name": "LA CURA SUNDAYS - SUEÑOS TICKET GIVEAWAY (21+)",
       "location": "Gold Coast Social",
-      "date": "Sun, Apr 26 at 04:00 PM",
+      "date": "Sun, Apr 26 at 11:00 AM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/la-cura-sundays-sue-os-ticket-giveaway-21--179825"
     },
     {
       "slug": "178270",
       "name": "DND x MTG: A Crossover Adventure in Lorwyn",
       "location": "Ramova Loft",
-      "date": "Sun, Apr 26 at 05:00 PM",
+      "date": "Sun, Apr 26 at 12:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/dnd-x-mtg-a-crossover-adventure-in-lorwyn-178270"
     },
     {
       "slug": "174551",
       "name": "CANCELLED: Neisha Neshae",
       "location": "Ramova Loft",
-      "date": "Fri, May 01 at 12:30 AM",
+      "date": "Thu, Apr 30 at 7:30 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/cancelled-neisha-neshae-174551"
     },
     {
       "slug": "182814",
       "name": "Michael Damani",
       "location": "Ramova Loft",
-      "date": "Sat, May 02 at 01:00 AM",
+      "date": "Fri, May 1 at 8:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/michael-damani-182814"
     },
     {
       "slug": "183569",
       "name": "Road To Sueños | DJ MIRIAM & DJ CHAVA",
       "location": "Galeria Chicago",
-      "date": "Sat, May 02 at 03:00 AM",
+      "date": "Fri, May 1 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-dj-miriam-dj-chava-183569"
     },
     {
       "slug": "178213",
       "name": "Sango",
       "location": "Ramova Theatre ",
-      "date": "Sat, May 02 at 03:30 AM",
+      "date": "Fri, May 1 at 10:30 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/sango-178213"
     },
     {
       "slug": "185887",
       "name": "Dakiti | Yacht Party",
       "location": "Anita Dee Yacht",
-      "date": "Sat, May 02 at 07:00 PM",
+      "date": "Sat, May 2 at 2:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/dakiti-yacht-party-185887"
     },
     {
       "slug": "184726",
       "name": "Cielo Rooftop Saturdays - Cinco De Mayo (21+)",
       "location": "Reserv",
-      "date": "Sun, May 03 at 03:00 AM",
+      "date": "Sat, May 2 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/cielo-rooftop-saturdays-cinco-de-mayo-21--184726"
     },
     {
       "slug": "179828",
       "name": "LA CURA BRUNCH SUNDAYS (21+)",
       "location": "Gold Coast Social",
-      "date": "Sun, May 03 at 04:00 PM",
+      "date": "Sun, May 3 at 11:00 AM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/la-cura-brunch-sundays-21--179828"
+    },
+    {
+      "slug": "183642",
+      "name": "Mañanitas | Road To Sueños @ Recess",
+      "location": "Recess",
+      "date": "Sun, May 3 at 10:10 AM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/ma-anitas-road-to-sue-os-recess-183642"
+    },
+    {
+      "slug": "181232",
+      "name": "Breaking Sound Chicago at Broken Shaker 05/06",
+      "location": "Broken Shaker at Freehand Chicago",
+      "date": "Wed, May 6 at 7:00 PM CDT",
+      "url": "https://www.tixr.com/groups/breakingsoundchicago/events/breaking-sound-chicago-at-broken-shaker-05-06-181232"
     }
   ]
 }

@@ -1,22 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-04-24T02:50:16.677274Z",
-  "count": 54,
+  "last_run": "2026-04-24T07:21:06.296939Z",
+  "count": 52,
   "events": [
-    {
-      "slug": "o-2",
-      "name": "((( O )))",
-      "location": "",
-      "date": "Wed, Apr 22",
-      "url": "https://metrochicago.com/event/o-2/sleeping-village/chicago--illinois/"
-    },
-    {
-      "slug": "thursday-presents-full-city-devolucion",
-      "name": "Thursday presents&#8230;Full City Devolución",
-      "location": "",
-      "date": "Thu, Apr 23",
-      "url": "https://metrochicago.com/event/thursday-presents-full-city-devolucion/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "friko-something-worth-waiting-for",
       "name": "Friko: Something Worth Waiting For",
