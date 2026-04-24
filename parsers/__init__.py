@@ -1,5 +1,5 @@
 # Parser registry — maps parser type name to implementation.
-from . import frontgate, rhp, playwright_generic, rivers, tixr
+from . import frontgate, rhp, playwright_generic, rivers, tixr, taogroup
 
 PARSERS = {
     "frontgate": frontgate.parse,
@@ -7,6 +7,7 @@ PARSERS = {
     "playwright": playwright_generic.parse,
     "rivers":     rivers.parse,
     "tixr":       tixr.parse,
+    "taogroup":   taogroup.parse,
 }
 
 # Which parsers need Playwright installed in CI.

@@ -33,4 +33,9 @@ SITES = [
         # 6 hours = 120/month (close but fine). If we burn through, bump higher.
         "min_interval_hours": 6,
     },
+    {
+        "name": "TAO Nightclub Chicago",
+        "parser": "taogroup",
+        "venue_id": 131,
+    },
 ]
