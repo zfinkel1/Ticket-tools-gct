@@ -1,0 +1,77 @@
+{
+  "site": "TAO Nightclub Chicago",
+  "last_run": "2026-04-24T17:38:56.764909Z",
+  "count": 10,
+  "events": [
+    {
+      "slug": "225026",
+      "name": "Nick Rockwell",
+      "location": "TAO Nightclub Chicago",
+      "date": "Sat, May 30, 2026",
+      "url": "https://taogroup.com/event/5-30-2026-nick-rockwell-tao-nightclub/"
+    },
+    {
+      "slug": "225024",
+      "name": "Diox",
+      "location": "TAO Nightclub Chicago",
+      "date": "Fri, May 29, 2026",
+      "url": "https://taogroup.com/event/5-29-2026-diox-tao-nightclub/"
+    },
+    {
+      "slug": "225022",
+      "name": "E Rock",
+      "location": "TAO Nightclub Chicago",
+      "date": "Sat, May 16, 2026",
+      "url": "https://taogroup.com/event/5-16-2026-e-rock-tao-nightclub/"
+    },
+    {
+      "slug": "225020",
+      "name": "Mel Debarge",
+      "location": "TAO Nightclub Chicago",
+      "date": "Sat, May 9, 2026",
+      "url": "https://taogroup.com/event/5-9-2026-mel-debarge-tao-nightclub/"
+    },
+    {
+      "slug": "225018",
+      "name": "Do Not Disturb",
+      "location": "TAO Nightclub Chicago",
+      "date": "Fri, May 8, 2026",
+      "url": "https://taogroup.com/event/5-8-2026-do-not-disturb-tao-nightclub/"
+    },
+    {
+      "slug": "225016",
+      "name": "Metro",
+      "location": "TAO Nightclub Chicago",
+      "date": "Sat, May 2, 2026",
+      "url": "https://taogroup.com/event/5-2-2026-metro-tao-nightclub/"
+    },
+    {
+      "slug": "225014",
+      "name": "Kyle Cooke",
+      "location": "TAO Nightclub Chicago",
+      "date": "Fri, May 1, 2026",
+      "url": "https://taogroup.com/event/5-1-2026-diox-tao-nightclub/"
+    },
+    {
+      "slug": "221837",
+      "name": "Nathan Scott",
+      "location": "TAO Nightclub Chicago",
+      "date": "Sat, Apr 25, 2026",
+      "url": "https://taogroup.com/event/4-25-2026-nathan-scott-tao-nightclub/"
+    },
+    {
+      "slug": "221823",
+      "name": "Nick Rockwell",
+      "location": "TAO Nightclub Chicago",
+      "date": "Fri, Apr 24, 2026",
+      "url": "https://taogroup.com/event/4-24-2026-nick-rockwell-tao-nightclub/"
+    },
+    {
+      "slug": "218018",
+      "name": "KSHMR",
+      "location": "TAO Nightclub Chicago",
+      "date": "Fri, May 15, 2026",
+      "url": "https://taogroup.com/event/5-15-2026-kshmr-tao-nightclub/"
+    }
+  ]
+}
