@@ -1,15 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-04-24T07:21:13.825342Z",
+  "last_run": "2026-04-24T14:01:29.252008Z",
   "count": 20,
   "events": [
-    {
-      "slug": "186362",
-      "name": "RINOVRSE | Rino Bar",
-      "location": "RiNo Bar",
-      "date": "Thu, Apr 23 at 11:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/rinovrse-rino-bar-186362"
-    },
     {
       "slug": "159180",
       "name": "Snarky Puppy",
@@ -142,6 +135,13 @@
       "location": "Broken Shaker at Freehand Chicago",
       "date": "Wed, May 6 at 7:00 PM CDT",
       "url": "https://www.tixr.com/groups/breakingsoundchicago/events/breaking-sound-chicago-at-broken-shaker-05-06-181232"
+    },
+    {
+      "slug": "183097",
+      "name": "Virgin Whores",
+      "location": "Ramova Loft",
+      "date": "Fri, May 8 at 7:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/virgin-whores-183097"
     }
   ]
 }
