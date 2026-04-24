@@ -17,7 +17,9 @@ To find a venue_id, hit:
 
 import html as html_lib
 import json
+import re
 import urllib.request
+from datetime import datetime, timedelta
 
 
 def parse(site):
@@ -32,6 +34,9 @@ def parse(site):
     with urllib.request.urlopen(req, timeout=30) as r:
         data = json.loads(r.read().decode("utf-8", errors="ignore"))
 
+    # Drop events older than yesterday — the Tao API returns lots of past events
+    cutoff = datetime.now() - timedelta(days=1)
+
     events = []
     for ev in data:
         eid = ev.get("id")
@@ -39,20 +44,21 @@ def parse(site):
             continue
         title = html_lib.unescape((ev.get("title") or {}).get("rendered") or "").strip()
         link = ev.get("link") or ""
-        # acf.event_title.display_title is often cleaner than the URL-style title
         acf = ev.get("acf") or {}
         event_title = ((acf.get("event_title") or {}).get("display_title") or "").strip()
-        if event_title:
-            display = html_lib.unescape(event_title)
-        else:
-            display = title
+        display = html_lib.unescape(event_title) if event_title else title
 
-        # Try to pull a date — title often has "M/D/YYYY" prefix
+        # Parse M/D/YYYY prefix from title; skip if past
         date = ""
-        # Most Tao titles start with "M/D/YYYY – "
-        parts = title.split("–", 1) if "–" in title else title.split("-", 1)
-        if parts and "/" in parts[0]:
-            date = parts[0].strip()
+        m = re.match(r'\s*(\d{1,2})/(\d{1,2})/(\d{4})', title)
+        if m:
+            try:
+                dt = datetime(int(m.group(3)), int(m.group(1)), int(m.group(2)))
+                if dt < cutoff:
+                    continue
+                date = dt.strftime("%a, %b %d, %Y").replace(" 0", " ")
+            except Exception:
+                date = m.group(0).strip()
 
         events.append({
             "slug": str(eid),
