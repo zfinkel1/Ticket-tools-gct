@@ -1,29 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-04-25T02:51:34.962377Z",
+  "last_run": "2026-04-25T09:11:43.607399Z",
   "count": 20,
   "events": [
-    {
-      "slug": "159180",
-      "name": "Snarky Puppy",
-      "location": "Ramova Theatre ",
-      "date": "Fri, Apr 24 at 8:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/snarky-puppy-159180"
-    },
-    {
-      "slug": "184710",
-      "name": "NUBES - LATIN ROOFTOP PARTY (21+)",
-      "location": "ROOF on theWit",
-      "date": "Fri, Apr 24 at 9:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/nubes-latin-rooftop-party-21--184710"
-    },
-    {
-      "slug": "183031",
-      "name": "DJ ORMA EL CLúB Tour | Chicago, IL",
-      "location": "Galeria Chicago",
-      "date": "Fri, Apr 24 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/dj-orma-el-cl-b-tour-chicago-il-183031"
-    },
     {
       "slug": "185780",
       "name": "MIA | Latin Day Club | Reserv Rooftop",
@@ -142,6 +121,27 @@
       "location": "Ramova Loft",
       "date": "Fri, May 8 at 7:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/virgin-whores-183097"
+    },
+    {
+      "slug": "184066",
+      "name": "Más EDM: Road to Sueños",
+      "location": "Ramova Theatre ",
+      "date": "Fri, May 8 at 9:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/m-s-edm-road-to-sue-os-184066"
+    },
+    {
+      "slug": "183582",
+      "name": "Road To Sueños | Sazòn Party",
+      "location": "Reserv",
+      "date": "Sat, May 9 at 5:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-saz-n-party-183582"
+    },
+    {
+      "slug": "183580",
+      "name": "Road To Sueños | J Santos, Gio Sandz & MDOK",
+      "location": "Giant Pennywhistle",
+      "date": "Sat, May 9 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-j-santos-gio-sandz-mdok-183580"
     }
   ]
 }
