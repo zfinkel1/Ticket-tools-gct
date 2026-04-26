@@ -1,15 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-04-25T22:39:54.701408Z",
+  "last_run": "2026-04-26T06:11:58.398251Z",
   "count": 20,
   "events": [
-    {
-      "slug": "185780",
-      "name": "MIA | Latin Day Club | Reserv Rooftop",
-      "location": "Reserv",
-      "date": "Sat, Apr 25 at 12:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/mia-latin-day-club-reserv-rooftop-185780"
-    },
     {
       "slug": "167436",
       "name": "PEEKABOO",
@@ -142,6 +135,13 @@
       "location": "Giant Pennywhistle",
       "date": "Sat, May 9 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-j-santos-gio-sandz-mdok-183580"
+    },
+    {
+      "slug": "175241",
+      "name": "Said The Sky",
+      "location": "Ramova Theatre ",
+      "date": "Sat, May 9 at 9:30 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/said-the-sky-175241"
     }
   ]
 }
