@@ -1,36 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-04-26T06:11:58.398251Z",
+  "last_run": "2026-04-26T14:23:48.530410Z",
   "count": 20,
   "events": [
-    {
-      "slug": "167436",
-      "name": "PEEKABOO",
-      "location": "Ramova Theatre ",
-      "date": "Sat, Apr 25 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/peekaboo-167436"
-    },
-    {
-      "slug": "183032",
-      "name": "DJ ORMA EL CLúB Tour | Chicago, IL",
-      "location": "Galeria Chicago",
-      "date": "Sat, Apr 25 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/dj-orma-el-cl-b-tour-chicago-il-183032"
-    },
-    {
-      "slug": "180423",
-      "name": "MAD Frequencies: Vol. 3",
-      "location": "Ramova Loft",
-      "date": "Sat, Apr 25 at 9:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/mad-frequencies-vol-3-180423"
-    },
-    {
-      "slug": "184724",
-      "name": "Cielo Rooftop Saturdays (21+)",
-      "location": "Reserv",
-      "date": "Sat, Apr 25 at 8:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/cielo-rooftop-saturdays-21--184724"
-    },
     {
       "slug": "179825",
       "name": "LA CURA SUNDAYS - SUEÑOS TICKET GIVEAWAY (21+)",
@@ -142,6 +114,34 @@
       "location": "Ramova Theatre ",
       "date": "Sat, May 9 at 9:30 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/said-the-sky-175241"
+    },
+    {
+      "slug": "185593",
+      "name": "Cielo Rooftop Saturdays (21+)",
+      "location": "Reserv",
+      "date": "Sat, May 9 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/cielo-rooftop-saturdays-21--185593"
+    },
+    {
+      "slug": "179829",
+      "name": "LA CURA BRUNCH SUNDAYS (21+)",
+      "location": "Gold Coast Social",
+      "date": "Sun, May 10 at 11:00 AM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/la-cura-brunch-sundays-21--179829"
+    },
+    {
+      "slug": "167626",
+      "name": "Emo Orchestra ft The Spill Canvas",
+      "location": "Ramova Theatre ",
+      "date": "Sun, May 10 at 7:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/emo-orchestra-ft-the-spill-canvas-167626"
+    },
+    {
+      "slug": "179263",
+      "name": "Academy Order",
+      "location": "Ramova Loft",
+      "date": "Thu, May 14 at 6:30 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/academy-order-179263"
     }
   ]
 }
