@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-04-26T14:23:48.530410Z",
+  "last_run": "2026-04-26T21:55:47.782596Z",
   "count": 20,
   "events": [
     {
@@ -23,6 +23,13 @@
       "location": "Ramova Loft",
       "date": "Thu, Apr 30 at 7:30 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/cancelled-neisha-neshae-174551"
+    },
+    {
+      "slug": "187405",
+      "name": "RINOVRSE | Rino Bar",
+      "location": "RiNo Bar",
+      "date": "Thu, Apr 30 at 11:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/rinovrse-rino-bar-187405"
     },
     {
       "slug": "182814",
@@ -135,13 +142,6 @@
       "location": "Ramova Theatre ",
       "date": "Sun, May 10 at 7:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/emo-orchestra-ft-the-spill-canvas-167626"
-    },
-    {
-      "slug": "179263",
-      "name": "Academy Order",
-      "location": "Ramova Loft",
-      "date": "Thu, May 14 at 6:30 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/academy-order-179263"
     }
   ]
 }
