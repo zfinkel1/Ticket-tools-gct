@@ -58,9 +58,15 @@ def save_state(site, events):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def send_email(to_addr, from_addr, subject, html_body, api_key):
+def send_email(to_addrs, from_addr, subject, html_body, api_key):
+    """to_addrs: comma-separated string OR list of email addresses."""
+    if isinstance(to_addrs, str):
+        recipients = [a.strip() for a in to_addrs.split(",") if a.strip()]
+    else:
+        recipients = [a.strip() for a in to_addrs if a.strip()]
+
     payload = {
-        "personalizations": [{"to": [{"email": to_addr}]}],
+        "personalizations": [{"to": [{"email": addr} for addr in recipients]}],
         "from": {"email": from_addr, "name": "Ticket Tools GCT"},
         "subject": subject,
         "content": [{"type": "text/html", "value": html_body}],
