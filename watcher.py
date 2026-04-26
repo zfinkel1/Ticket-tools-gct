@@ -197,7 +197,7 @@ def main():
         html = build_email(new_by_site)
         try:
             status = send_email(
-                to_addr=alert_email,
+                to_addrs=alert_email,
                 from_addr=from_email,
                 subject=f"[Tickets] {total} new event{'s' if total != 1 else ''} across {len(new_by_site)} site{'s' if len(new_by_site) != 1 else ''}",
                 html_body=html,
