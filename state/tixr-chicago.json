@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-04-27T11:18:57.522452Z",
+  "last_run": "2026-04-27T18:21:22.616565Z",
   "count": 20,
   "events": [
     {
@@ -46,11 +46,25 @@
       "url": "https://www.tixr.com/groups/acro/events/dakiti-yacht-party-185887"
     },
     {
+      "slug": "187486",
+      "name": "MIA | Latin Day Club | Reserv Rooftop",
+      "location": "Reserv",
+      "date": "Sat, May 2 at 2:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/mia-latin-day-club-reserv-rooftop-187486"
+    },
+    {
       "slug": "184726",
       "name": "Cielo Rooftop Saturdays - Cinco De Mayo (21+)",
       "location": "Reserv",
       "date": "Sat, May 2 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/cielo-rooftop-saturdays-cinco-de-mayo-21--184726"
+    },
+    {
+      "slug": "187495",
+      "name": "La Casita Pop-up",
+      "location": "Galeria Chicago",
+      "date": "Sat, May 2 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/la-casita-pop-up-187495"
     },
     {
       "slug": "179828",
@@ -128,20 +142,6 @@
       "location": "Ramova Theatre ",
       "date": "Sun, May 10 at 7:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/emo-orchestra-ft-the-spill-canvas-167626"
-    },
-    {
-      "slug": "179263",
-      "name": "Academy Order",
-      "location": "Ramova Loft",
-      "date": "Thu, May 14 at 6:30 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/academy-order-179263"
-    },
-    {
-      "slug": "183583",
-      "name": "Road To Sueños | DJ SMIRF + DJ OROZCO",
-      "location": "RiNo Bar",
-      "date": "Thu, May 14 at 11:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-dj-smirf-dj-orozco-183583"
     }
   ]
 }
