@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-04-27T15:20:06.459629Z",
-  "count": 51,
+  "last_run": "2026-04-27T17:07:48.435062Z",
+  "count": 52,
   "events": [
     {
       "slug": "clan-of-xymox-cold-cave",
@@ -268,6 +268,13 @@
       "location": "",
       "date": "Fri, Aug 21",
       "url": "https://metrochicago.com/event/eagles-of-death-metal-death-by-sexy-20th-anniversary-tour/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "nitzer-ebb",
+      "name": "Nitzer Ebb",
+      "location": "",
+      "date": "Sat, Aug 22",
+      "url": "https://metrochicago.com/event/nitzer-ebb/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "pond",
