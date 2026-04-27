@@ -1,22 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-04-26T21:55:47.782596Z",
+  "last_run": "2026-04-27T04:01:45.906719Z",
   "count": 20,
   "events": [
-    {
-      "slug": "179825",
-      "name": "LA CURA SUNDAYS - SUEÑOS TICKET GIVEAWAY (21+)",
-      "location": "Gold Coast Social",
-      "date": "Sun, Apr 26 at 11:00 AM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/la-cura-sundays-sue-os-ticket-giveaway-21--179825"
-    },
-    {
-      "slug": "178270",
-      "name": "DND x MTG: A Crossover Adventure in Lorwyn",
-      "location": "Ramova Loft",
-      "date": "Sun, Apr 26 at 12:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/dnd-x-mtg-a-crossover-adventure-in-lorwyn-178270"
-    },
     {
       "slug": "174551",
       "name": "CANCELLED: Neisha Neshae",
@@ -142,6 +128,20 @@
       "location": "Ramova Theatre ",
       "date": "Sun, May 10 at 7:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/emo-orchestra-ft-the-spill-canvas-167626"
+    },
+    {
+      "slug": "179263",
+      "name": "Academy Order",
+      "location": "Ramova Loft",
+      "date": "Thu, May 14 at 6:30 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/academy-order-179263"
+    },
+    {
+      "slug": "183583",
+      "name": "Road To Sueños | DJ SMIRF + DJ OROZCO",
+      "location": "RiNo Bar",
+      "date": "Thu, May 14 at 11:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-dj-smirf-dj-orozco-183583"
     }
   ]
 }

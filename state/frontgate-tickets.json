@@ -1,22 +1,8 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-04-27T00:06:02.072323Z",
+  "last_run": "2026-04-27T04:01:32.476380Z",
   "count": 100,
   "events": [
-    {
-      "slug": "sick-new-world",
-      "name": "Sick New World",
-      "location": "Las Vegas, NV",
-      "date": "April 25, 2026",
-      "url": "https://www.frontgatetickets.com/events/sick-new-world"
-    },
-    {
-      "slug": "forbidden-kingdom",
-      "name": "Forbidden Kingdom",
-      "location": "Orlando, FL",
-      "date": "April 25, 2026",
-      "url": "https://www.frontgatetickets.com/events/forbidden-kingdom"
-    },
     {
       "slug": "beachlife-festival",
       "name": "BeachLife Festival",
@@ -702,6 +688,20 @@
       "location": "Miami, FL",
       "date": "October 16, 2026",
       "url": "https://www.frontgatetickets.com/events/iii-points"
+    },
+    {
+      "slug": "hulaween",
+      "name": "Hulaween",
+      "location": "Live Oak, FL",
+      "date": "October 22, 2026",
+      "url": "https://www.frontgatetickets.com/events/hulaween"
+    },
+    {
+      "slug": "sick-new-world-texas",
+      "name": "Sick New World Texas",
+      "location": "Fort Worth, TX",
+      "date": "October 24, 2026",
+      "url": "https://www.frontgatetickets.com/events/sick-new-world-texas"
     }
   ]
 }
