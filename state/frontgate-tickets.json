@@ -1,6 +1,6 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-04-28T13:14:47.837030Z",
+  "last_run": "2026-04-28T15:44:47.131007Z",
   "count": 100,
   "events": [
     {
@@ -261,6 +261,13 @@
       "location": "Chicago, IL",
       "date": "June 26, 2026",
       "url": "https://www.frontgatetickets.com/events/james-hype-chicago-skyline-session"
+    },
+    {
+      "slug": "day-trip-festival-long-beach",
+      "name": "Day Trip Festival Long Beach",
+      "location": "Long Beach, CA",
+      "date": "June 27, 2026",
+      "url": "https://www.frontgatetickets.com/events/day-trip-festival-long-beach"
     },
     {
       "slug": "beyond-wonderland-pnw",
@@ -695,13 +702,6 @@
       "location": "Live Oak, FL",
       "date": "October 22, 2026",
       "url": "https://www.frontgatetickets.com/events/hulaween"
-    },
-    {
-      "slug": "sick-new-world-texas",
-      "name": "Sick New World Texas",
-      "location": "Fort Worth, TX",
-      "date": "October 24, 2026",
-      "url": "https://www.frontgatetickets.com/events/sick-new-world-texas"
     }
   ]
 }
