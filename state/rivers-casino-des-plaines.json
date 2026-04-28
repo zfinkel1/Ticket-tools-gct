@@ -1,7 +1,7 @@
 {
   "site": "Rivers Casino Des Plaines",
-  "last_run": "2026-04-28T15:44:51.426487Z",
-  "count": 6,
+  "last_run": "2026-04-28T17:23:25.063252Z",
+  "count": 5,
   "events": [
     {
       "slug": "blackberry-smoke",
@@ -16,13 +16,6 @@
       "location": "Rivers Casino Des Plaines",
       "date": "FRI, MAY 8",
       "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/little-river-band"
-    },
-    {
-      "slug": "the-calling",
-      "name": "The Calling",
-      "location": "Rivers Casino Des Plaines",
-      "date": "FRI, JUN 12",
-      "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/the-calling"
     },
     {
       "slug": "gin-blossoms",
