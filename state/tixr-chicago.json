@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-04-28T17:23:32.766180Z",
+  "last_run": "2026-04-28T23:40:11.831170Z",
   "count": 20,
   "events": [
     {
@@ -81,6 +81,13 @@
       "url": "https://www.tixr.com/groups/acro/events/ma-anitas-road-to-sue-os-recess-183642"
     },
     {
+      "slug": "187774",
+      "name": "RINOVRSE | Cinco De Mayo | Rino Bar",
+      "location": "RiNo Bar",
+      "date": "Tue, May 5 at 11:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/rinovrse-cinco-de-mayo-rino-bar-187774"
+    },
+    {
       "slug": "181232",
       "name": "Breaking Sound Chicago at Broken Shaker 05/06",
       "location": "Broken Shaker at Freehand Chicago",
@@ -135,13 +142,6 @@
       "location": "Gold Coast Social",
       "date": "Sun, May 10 at 11:00 AM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/la-cura-bichotas-brunch-21--179829"
-    },
-    {
-      "slug": "167626",
-      "name": "Emo Orchestra ft The Spill Canvas",
-      "location": "Ramova Theatre ",
-      "date": "Sun, May 10 at 7:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/emo-orchestra-ft-the-spill-canvas-167626"
     }
   ]
 }
