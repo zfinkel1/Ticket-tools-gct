@@ -1,8 +1,15 @@
 {
   "site": "TAO Nightclub Chicago",
-  "last_run": "2026-04-29T20:11:51.762167Z",
-  "count": 8,
+  "last_run": "2026-04-29T21:20:26.472661Z",
+  "count": 9,
   "events": [
+    {
+      "slug": "226298",
+      "name": "Danny Avila",
+      "location": "TAO Nightclub Chicago",
+      "date": "Fri, Jun 26, 2026",
+      "url": "https://taogroup.com/event/6-26-2026-danny-avila-tao-nightclub/"
+    },
     {
       "slug": "225026",
       "name": "Nick Rockwell",
