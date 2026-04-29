@@ -1,0 +1,22 @@
+name: Weekly Summary
+
+on:
+  schedule:
+    # Every Monday at 14:00 UTC = 9 AM Central (CDT) / 8 AM CST.
+    - cron: "0 14 * * 1"
+  workflow_dispatch:  # also allow manual trigger
+
+jobs:
+  summarize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Send weekly summary
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
+        run: python weekly_summary.py
