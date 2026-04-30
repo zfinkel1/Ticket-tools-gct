@@ -1,6 +1,6 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-04-30T21:07:47.496960Z",
+  "last_run": "2026-04-30T22:10:26.464969Z",
   "count": 100,
   "events": [
     {
@@ -303,6 +303,13 @@
       "location": "Orillia, ON",
       "date": "July 3, 2026",
       "url": "https://www.frontgatetickets.com/events/mariposa-folk-festival"
+    },
+    {
+      "slug": "vintage-culture-at-lakefront-green",
+      "name": "Vintage Culture at Lakefront Green",
+      "location": "Chicago, IL",
+      "date": "July 5, 2026",
+      "url": "https://www.frontgatetickets.com/events/vintage-culture-at-lakefront-green"
     },
     {
       "slug": "windy-city-smokeout",
@@ -695,13 +702,6 @@
       "location": "Live Oak, FL",
       "date": "October 22, 2026",
       "url": "https://www.frontgatetickets.com/events/hulaween"
-    },
-    {
-      "slug": "sick-new-world-texas",
-      "name": "Sick New World Texas",
-      "location": "Fort Worth, TX",
-      "date": "October 24, 2026",
-      "url": "https://www.frontgatetickets.com/events/sick-new-world-texas"
     }
   ]
 }
