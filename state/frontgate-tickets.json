@@ -1,6 +1,6 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-04-30T16:58:00.379553Z",
+  "last_run": "2026-04-30T18:16:45.191129Z",
   "count": 100,
   "events": [
     {
@@ -170,13 +170,6 @@
       "location": "Chicago, IL",
       "date": "June 6, 2026",
       "url": "https://www.frontgatetickets.com/events/beyond-wonderland-chicago"
-    },
-    {
-      "slug": "minneapolis-rodeo",
-      "name": "Minneapolis Rodeo",
-      "location": "Minneapolis, MN",
-      "date": "June 6, 2026",
-      "url": "https://www.frontgatetickets.com/events/minneapolis-rodeo"
     },
     {
       "slug": "bonnaroo",
@@ -702,6 +695,13 @@
       "location": "Live Oak, FL",
       "date": "October 22, 2026",
       "url": "https://www.frontgatetickets.com/events/hulaween"
+    },
+    {
+      "slug": "sick-new-world-texas",
+      "name": "Sick New World Texas",
+      "location": "Fort Worth, TX",
+      "date": "October 24, 2026",
+      "url": "https://www.frontgatetickets.com/events/sick-new-world-texas"
     }
   ]
 }
