@@ -38,4 +38,10 @@ SITES = [
         "parser": "taogroup",
         "venue_id": 131,
     },
+    {
+        "name": "Salt Shed",
+        "parser": "ticketmaster",
+        # Indoor venue + Outdoor fairgrounds — both are TM-sold
+        "venue_ids": ["KovZ917AI5F", "KovZ917Amf0"],
+    },
 ]
