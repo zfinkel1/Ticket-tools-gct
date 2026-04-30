@@ -1,0 +1,497 @@
+{
+  "site": "Salt Shed",
+  "last_run": "2026-04-30T21:07:56.744686Z",
+  "count": 70,
+  "events": [
+    {
+      "slug": "vv1A7ZkuFGkdc2A1k",
+      "name": "SOLD OUT - XRT Presents - St. Paul & The Broken Bones",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, May 1, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/sold-out-xrt-presents-st-paul-chicago-illinois-05-01-2026/event/04006348ED3C5286"
+    },
+    {
+      "slug": "vv1A7ZkuvGkd1TfbL",
+      "name": "The Midnight: Time Machines with New Constellations",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sat, May 2, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/the-midnight-time-machines-with-new-chicago-illinois-05-02-2026/event/04006341CAFD461F"
+    },
+    {
+      "slug": "vv178Z_dGkRLeywE",
+      "name": "Joost Klein: World Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Tue, May 5, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/joost-klein-world-tour-chicago-illinois-05-05-2026/event/0400643BDF0B9CA7"
+    },
+    {
+      "slug": "vv178ZbsGkSbDf9O",
+      "name": "Alter Bridge - What Lies Within Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Wed, May 6, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/alter-bridge-what-lies-within-tour-chicago-illinois-05-06-2026/event/0400631CD8ED45E0"
+    },
+    {
+      "slug": "vvG18Zbc2IONrW",
+      "name": "Mac DeMarco with Mock Media",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Thu, May 7, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/mac-demarco-with-mock-media-chicago-illinois-05-07-2026/event/040062D3E88237BD"
+    },
+    {
+      "slug": "vv1F8Z_eQKjxZdCua",
+      "name": "Disclosure Live",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Fri, May 8, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/disclosure-live-chicago-illinois-05-08-2026/event/0400642693722DC8"
+    },
+    {
+      "slug": "vv167Zk8JPvZA5d26e",
+      "name": "Disclosure Live",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, May 9, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/disclosure-live-chicago-illinois-05-09-2026/event/04006426941A2E61"
+    },
+    {
+      "slug": "vv1A7Zk8gGkdVeuIR",
+      "name": "Disclosure Live",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sun, May 10, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/disclosure-live-chicago-illinois-05-10-2026/event/04006435F408DA2F"
+    },
+    {
+      "slug": "vv178ZbzGkSPs5cQ",
+      "name": "Timmy Trumpet",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, May 15, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/timmy-trumpet-chicago-illinois-05-15-2026/event/0400638CE5C4BB5A"
+    },
+    {
+      "slug": "vv1A7ZkC7GkeE_UwH",
+      "name": "Yellowcard: The Up Up Down Down Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, May 16, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/yellowcard-the-up-up-down-down-chicago-illinois-05-16-2026/event/04006384A7676CBC"
+    },
+    {
+      "slug": "vv178Z_7Gkl6ny3B",
+      "name": "The KidLAROI - A Perfect World Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Fri, May 22, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/the-kidlaroi-a-perfect-world-tour-chicago-illinois-05-22-2026/event/0400644AC7AB94BA"
+    },
+    {
+      "slug": "vv178Z_dGkBELMND",
+      "name": "Warm Love Cool Dreams - 2 DAY PASS",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, May 23, 2026 · 2:00 PM",
+      "url": "https://www.ticketmaster.com/warm-love-cool-dreams-2-day-chicago-illinois-05-23-2026/event/0400643EA77F78FB"
+    },
+    {
+      "slug": "vv178Z_dGkBEQMNx",
+      "name": "Warm Love Cool Dreams- The Jesus and Mary Chain, Tortoise, Smerz +More",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, May 23, 2026 · 2:00 PM",
+      "url": "https://www.ticketmaster.com/warm-love-cool-dreams-the-jesus-chicago-illinois-05-23-2026/event/0400643EA76B78E2"
+    },
+    {
+      "slug": "vv178Z_dGkBEq9NE",
+      "name": "Warm Love Cool Dreams - Courtney Barnett, Toro y Moi, Whitney +More",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sun, May 24, 2026 · 2:00 PM",
+      "url": "https://www.ticketmaster.com/warm-love-cool-dreams-courtney-barnett-chicago-illinois-05-24-2026/event/0400643EA77578E7"
+    },
+    {
+      "slug": "vv178ZbYGkSr03-_",
+      "name": "BELLE & SEBASTIAN: TIGERMILK + CLASSIC SONGS",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Thu, May 28, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/belle-sebastian-tigermilk-classic-songs-chicago-illinois-05-28-2026/event/0400630CDE912859"
+    },
+    {
+      "slug": "vv178ZbYGkSL6wxO",
+      "name": "SOLD OUT-BELLE & SEBASTIAN: IF YOU'RE FEELING SINISTER + CLASSIC SONGS",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, May 29, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/sold-outbelle-sebastian-if-youre-feeling-chicago-illinois-05-29-2026/event/0400630CDF1F28A0"
+    },
+    {
+      "slug": "vv178ZbYGkSLC3xN",
+      "name": "Belle & Sebastian - 2 Day General Admission Pass (VALID 5/28-5/29)",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, May 29, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/belle-sebastian-2-day-general-admission-chicago-illinois-05-29-2026/event/0400630CDF3928A3"
+    },
+    {
+      "slug": "vv1kvZv0fxGAuWJLV",
+      "name": "Of The Trees - Park Service",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, May 30, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/of-the-trees-park-service-chicago-illinois-05-30-2026/event/040064522DF667F4"
+    },
+    {
+      "slug": "rZ7HnEZ1Af-48N",
+      "name": "SummerSalt Market",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sun, May 31, 2026 · 11:00 AM",
+      "url": "https://www.ticketweb.com/event/summersalt-market-the-salt-shed-outdoors-fairgrounds-tickets/14855423"
+    },
+    {
+      "slug": "vv1A7Zk8YGkeld9xy",
+      "name": "Claypool Gold feat: Primus, Les Claypool's Frog Brigade & The Claypool",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Wed, Jun 3, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/claypool-gold-feat-primus-les-claypools-chicago-illinois-06-03-2026/event/04006430AB0D78B9"
+    },
+    {
+      "slug": "vv178Z_kGkIe9Qim",
+      "name": "Q101 Presents - Bleachers Forever",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Fri, Jun 5, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/q101-presents-bleachers-forever-chicago-illinois-06-05-2026/event/0400646A025DAB2E"
+    },
+    {
+      "slug": "vv1k8Z_67aG7iGvX",
+      "name": "Bleachers Forever",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sun, Jun 7, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/bleachers-forever-chicago-illinois-06-07-2026/event/0400647109B0C07E"
+    },
+    {
+      "slug": "vv178Z_7GkRGSzgZ",
+      "name": "James Blake - Trying Times Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Mon, Jun 8, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/james-blake-trying-times-tour-chicago-illinois-06-08-2026/event/0400644BCCCF8D40"
+    },
+    {
+      "slug": "vv1A7ZkodGkdm0zSM",
+      "name": "Sierra Ferrell presented by Heineken",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Wed, Jun 10, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/sierra-ferrell-presented-by-heineken-chicago-illinois-06-10-2026/event/04006443EE938CF7"
+    },
+    {
+      "slug": "vv1A7ZkoAGkdIwnnT",
+      "name": "Lupe Fiasco - Food & Liquor 20th Anniversary Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Thu, Jun 11, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/lupe-fiasco-food-liquor-20th-anniversary-chicago-illinois-06-11-2026/event/04006445E8CAAABF"
+    },
+    {
+      "slug": "vv1A7ZkobGkecWgZT",
+      "name": "Lupe Fiasco - Food & Liquor 20th Anniversary Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, Jun 12, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/lupe-fiasco-food-liquor-20th-anniversary-chicago-illinois-06-12-2026/event/04006458ADF7503F"
+    },
+    {
+      "slug": "vv1A7Zko7GkexEgOU",
+      "name": "The Hold Steady - Boys and Girls in America 20",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, Jun 13, 2026 · 4:00 PM",
+      "url": "https://www.ticketmaster.com/the-hold-steady-boys-and-girls-chicago-illinois-06-13-2026/event/04006444A29F5836"
+    },
+    {
+      "slug": "vv1A7ZkCeGkdx3tak",
+      "name": "Amyl and the Sniffers with Party Dozen",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sun, Jun 14, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/amyl-and-the-sniffers-with-party-chicago-illinois-06-14-2026/event/04006382E24A9246"
+    },
+    {
+      "slug": "vv1A7Zko0GkdnbWn3",
+      "name": "Marcus King Band - Darling Blue Tour Pt. 2",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Fri, Jun 19, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/marcus-king-band-darling-blue-tour-chicago-illinois-06-19-2026/event/04006464EA63DA92"
+    },
+    {
+      "slug": "vv178Z_AGklVGGQM",
+      "name": "Tash Sultana - North American Tour 2026",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sat, Jun 20, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/tash-sultana-north-american-tour-2026-chicago-illinois-06-20-2026/event/0400645AF430C6B7"
+    },
+    {
+      "slug": "vv1A7Zk34GkdYMsiC",
+      "name": "Something For The Summer Party - Black Yacht Weekend Finale",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sun, Jun 21, 2026 · 3:00 PM",
+      "url": "https://www.ticketmaster.com/something-for-the-summer-party-black-chicago-illinois-06-21-2026/event/04006495F0DF1B0E"
+    },
+    {
+      "slug": "vv178ZbMGknY4kFi",
+      "name": "The Dead South with Amigo The Devil",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Thu, Jun 25, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/the-dead-south-with-amigo-the-chicago-illinois-06-25-2026/event/0400637AB054622C"
+    },
+    {
+      "slug": "vv1FvZv0Os__Z7G5aC",
+      "name": "Kurt Vile and the Violators",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, Jun 26, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/kurt-vile-and-the-violators-chicago-illinois-06-26-2026/event/040064831659BA8D"
+    },
+    {
+      "slug": "vv178Z_7GknR3k_2",
+      "name": "Wale & Smino - Everything Is A Lot? The Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Wed, Jul 1, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/wale-smino-everything-is-a-lot-chicago-illinois-07-01-2026/event/0400644AAF48664F"
+    },
+    {
+      "slug": "vv178Z_kGkzsDGio",
+      "name": "Ella Mai: Do You Still Love Me? Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Fri, Jul 10, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/ella-mai-do-you-still-love-chicago-illinois-07-10-2026/event/0400646E31ECCB11"
+    },
+    {
+      "slug": "vv178ZbzGkR-mc5p",
+      "name": "93XRT PRESENTS - Royel Otis",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Mon, Jul 13, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/93xrt-presents-royel-otis-chicago-illinois-07-13-2026/event/0400638BE1BAD2D6"
+    },
+    {
+      "slug": "vv178ZbzGkSVlimb",
+      "name": "93XRT PRESENTS - Royel Otis",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Tue, Jul 14, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/93xrt-presents-royel-otis-chicago-illinois-07-14-2026/event/0400638CF4AECB98"
+    },
+    {
+      "slug": "vv1A7ZkoAGkd2Hyxf",
+      "name": "The Black Keys: PEACHES 'N KREAM",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Thu, Jul 16, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/the-black-keys-peaches-n-kream-chicago-illinois-07-16-2026/event/04006445CFF39894"
+    },
+    {
+      "slug": "vv178Z_FGkVscjXM",
+      "name": "The 19th Annual Silver Room Sound System Block Party",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, Jul 18, 2026 · 12:00 PM",
+      "url": "https://www.ticketmaster.com/the-19th-annual-silver-room-sound-chicago-illinois-07-18-2026/event/0400648D31B5CFB7"
+    },
+    {
+      "slug": "vv1A7Zk8YGkd4HalD",
+      "name": "KALEO with Dawes - Way Down We Go Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Tue, Jul 21, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/kaleo-with-dawes-way-down-we-chicago-illinois-07-21-2026/event/04006430D5F09AFB"
+    },
+    {
+      "slug": "vv1A7Zk8IGkd5RpGv",
+      "name": "Pavement with Nap Eyes",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Wed, Jul 22, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/pavement-with-nap-eyes-chicago-illinois-07-22-2026/event/04006428CBBD6301"
+    },
+    {
+      "slug": "vv1A7Zk3FGketakcX",
+      "name": "JACK WHITE LIVE 2026",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Fri, Jul 24, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/jack-white-live-2026-chicago-illinois-07-24-2026/event/04006488A9246B7E"
+    },
+    {
+      "slug": "vv1A7Zk3pGkduwLuo",
+      "name": "Houndmouth with Rayland Baxter",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, Jul 25, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/houndmouth-with-rayland-baxter-chicago-illinois-07-25-2026/event/04006496CDC9F351"
+    },
+    {
+      "slug": "vv178Z_AGklMViIb",
+      "name": "Slightly Stoopid - presented by SMKFLWR & Rythm Cannabis",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sun, Jul 26, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/slightly-stoopid-presented-by-smkflwr-rythm-chicago-illinois-07-26-2026/event/0400645AF7D2CA18"
+    },
+    {
+      "slug": "vv178Z_6GkTCDjf2",
+      "name": "Max McNown - The Summer Vacation Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Wed, Aug 5, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/max-mcnown-the-summer-vacation-tour-chicago-illinois-08-05-2026/event/0400647FCEEDC50F"
+    },
+    {
+      "slug": "vv1kvZv0qYGA1R5iJ",
+      "name": "Jack Harlow - Monica Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sat, Aug 8, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/jack-harlow-monica-tour-chicago-illinois-08-08-2026/event/040064770ABCBB26"
+    },
+    {
+      "slug": "vv1A7Zko0GkdlVusk",
+      "name": "Modest Mouse",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Wed, Aug 12, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/modest-mouse-chicago-illinois-08-12-2026/event/04006464EBD0DC46"
+    },
+    {
+      "slug": "vv1A7Zko0Gkdl2cmZ",
+      "name": "Big Thief - Somersault Slide 360 Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Thu, Aug 13, 2026 · 6:15 PM",
+      "url": "https://www.ticketmaster.com/big-thief-somersault-slide-360-tour-chicago-illinois-08-13-2026/event/04006464EB3EDB80"
+    },
+    {
+      "slug": "vv178Z_dGkSp1lCf",
+      "name": "American Football With Afternoon Bike Ride",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, Aug 14, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/american-football-with-afternoon-bike-ride-chicago-illinois-08-14-2026/event/0400643CD62AB394"
+    },
+    {
+      "slug": "vv178Z_7GkMNm51I",
+      "name": "Billy Currington & Kip Moore",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Fri, Aug 21, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/billy-currington-kip-moore-chicago-illinois-08-21-2026/event/0400644DE3B8B2A8"
+    },
+    {
+      "slug": "vv178Z_6GkmHnI22",
+      "name": "Galantis with TELYKAST",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, Aug 22, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/galantis-with-telykast-chicago-illinois-08-22-2026/event/0400647BBCAA83CF"
+    },
+    {
+      "slug": "vv178Z_kGkIkaQy7",
+      "name": "NEEDTOBREATHE: The Long Surrender Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Thu, Aug 27, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-chicago-illinois-08-27-2026/event/0400646A0625AE44"
+    },
+    {
+      "slug": "vv178Z_dGkRMunYm",
+      "name": "Yacht Rock Revue - Primetime",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Fri, Sep 11, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/yacht-rock-revue-primetime-chicago-illinois-09-11-2026/event/0400643BF736AC2E"
+    },
+    {
+      "slug": "vv1A7Zk37Gkdft5Ao",
+      "name": "Sam Barber - The American Route Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, Sep 12, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/sam-barber-the-american-route-tour-chicago-illinois-09-12-2026/event/04006484D4A4B151"
+    },
+    {
+      "slug": "vv1A7Zk8UGkdKkeUf",
+      "name": "Bikini Kill with Ganser",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Mon, Sep 14, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/bikini-kill-with-ganser-chicago-illinois-09-14-2026/event/04006436D3182D94"
+    },
+    {
+      "slug": "vv178Z_aGkRi5xk1",
+      "name": "LP - All Is Not Lost Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Tue, Sep 15, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/lp-all-is-not-lost-tour-chicago-illinois-09-15-2026/event/0400649BEC2E218A"
+    },
+    {
+      "slug": "vv1A7Zk3bGkenGBSd",
+      "name": "Liz Phair & Sleater-Kinney: The Flannel and The Fury 2026",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Thu, Sep 17, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/liz-phair-sleaterkinney-the-flannel-and-chicago-illinois-09-17-2026/event/04006498AA33ACC3"
+    },
+    {
+      "slug": "vv178Z_AGkRjEcFO",
+      "name": "Tucker Wetmore: The Brunette World Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Fri, Sep 18, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/tucker-wetmore-the-brunette-world-tour-chicago-illinois-09-18-2026/event/0400645BDC9ED220"
+    },
+    {
+      "slug": "vv167ZkoEZZZA8ka6u",
+      "name": "Two Door Cinema Club - Tourist History 15th Anniversary Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Thu, Sep 24, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-chicago-illinois-09-24-2026/event/04006467000F586C"
+    },
+    {
+      "slug": "vv178Z_7GkM5JtXh",
+      "name": "Thee Sacred Souls, LA LOM, & The Womack Sisters",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, Sep 26, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/thee-sacred-souls-la-lom-the-chicago-illinois-09-26-2026/event/0400644DCB9A9F9B"
+    },
+    {
+      "slug": "vv178Z_eGkSxi9_N",
+      "name": "Cavetown with Chloe Moriondo - Running With Scissors Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sun, Sep 27, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/cavetown-with-chloe-moriondo-running-with-chicago-illinois-09-27-2026/event/0400642CE2B17663"
+    },
+    {
+      "slug": "vv1A7Zko_Gkeyirew",
+      "name": "Koe Wetzel: The Night Champion World Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Thu, Oct 8, 2026 · 5:45 PM",
+      "url": "https://www.ticketmaster.com/koe-wetzel-the-night-champion-world-chicago-illinois-10-08-2026/event/04006459B9B1E0B2"
+    },
+    {
+      "slug": "vv178Z_aGkSQEZBj",
+      "name": "Interpol - North America Tour 2026 with DIIV",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sun, Oct 11, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/interpol-north-america-tour-2026-with-chicago-illinois-10-11-2026/event/0400649CDA9C0E9C"
+    },
+    {
+      "slug": "vv1A7ZkosGkdTKD4f",
+      "name": "Jesse Welles - Presented by XRT",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sat, Oct 17, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/jesse-welles-presented-by-xrt-chicago-illinois-10-17-2026/event/04006471FF4FB554"
+    },
+    {
+      "slug": "vv1A7ZkoMGkeB3pBb",
+      "name": "Sammy Rae & The Friends with special guest Melt",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, Oct 23, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-chicago-illinois-10-23-2026/event/04006477BA496E98"
+    },
+    {
+      "slug": "vv1A7ZkoVGkewnMGL",
+      "name": "Fruit Bats",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sat, Oct 24, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/fruit-bats-chicago-illinois-10-24-2026/event/04006474B2AB731F"
+    },
+    {
+      "slug": "vv1A7Zk38GkeOTpyZ",
+      "name": "Geese - Getting Killed Again Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sat, Oct 31, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/geese-getting-killed-again-tour-chicago-illinois-10-31-2026/event/04006490A0FD6E40"
+    },
+    {
+      "slug": "vv178Z_aGkRGd_NX",
+      "name": "Geese - Getting Killed Again Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sun, Nov 1, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/geese-getting-killed-again-tour-chicago-illinois-11-01-2026/event/0400649BCC0D98FE"
+    },
+    {
+      "slug": "vv1kvZv00aGACHUYR",
+      "name": "Palace - USA & Canada Tour 2026",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, Nov 13, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/palace-usa-canada-tour-2026-chicago-illinois-11-13-2026/event/040064909EF36C2F"
+    },
+    {
+      "slug": "vv178ZbwGklTPKsE",
+      "name": "Sabaton: Legends on Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Tue, Nov 24, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67"
+    }
+  ]
+}
