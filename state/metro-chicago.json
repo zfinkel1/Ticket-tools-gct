@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-04-30T04:57:17.497014Z",
-  "count": 52,
+  "last_run": "2026-04-30T07:31:33.460114Z",
+  "count": 51,
   "events": [
-    {
-      "slug": "clan-of-xymox-cold-cave",
-      "name": "Clan of Xymox &#038; Cold Cave",
-      "location": "",
-      "date": "Wed, Apr 29",
-      "url": "https://metrochicago.com/event/clan-of-xymox-cold-cave/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "the-reverend-horton-heat",
       "name": "The Reverend Horton Heat",
