@@ -14,6 +14,7 @@ Required env vars:
   FROM_EMAIL
 """
 
+import html
 import json
 import os
 import re
@@ -26,6 +27,7 @@ from pathlib import Path
 
 from parsers import PARSERS
 from sites import SITES
+from enrich.spotify import enrich_event, format_followers, popularity_label
 
 STATE_DIR = Path(__file__).parent / "state"
 
@@ -84,23 +86,63 @@ def send_email(to_addrs, from_addr, subject, html_body, api_key):
         return r.status
 
 
+def _enrichment_html(e):
+    enr = e.get("enrichment") or {}
+    if not enr:
+        return ""
+    pop = enr.get("popularity")
+    followers = enr.get("followers")
+    label_color = popularity_label(pop)
+    parts = []
+    if label_color:
+        label, color = label_color
+        parts.append(
+            f'<span style="display:inline-block;background:{color};color:#fff;'
+            f'font-size:10px;font-weight:800;padding:2px 7px;border-radius:4px;'
+            f'letter-spacing:0.04em;text-transform:uppercase;">{label} {pop}</span>'
+        )
+    if followers:
+        parts.append(
+            f'<span style="font-size:11px;color:#666;font-weight:600;">'
+            f'{format_followers(followers)} followers</span>'
+        )
+    genres = enr.get("genres") or []
+    if genres:
+        parts.append(
+            f'<span style="font-size:11px;color:#999;">{", ".join(genres[:2])}</span>'
+        )
+    if not parts:
+        return ""
+    return (
+        '<div style="margin-top:6px;display:flex;gap:8px;align-items:center;'
+        'flex-wrap:wrap;">' + "".join(parts) + "</div>"
+    )
+
+
 def build_email(by_site):
     """by_site: {site_name: [new_events]}"""
     total = sum(len(v) for v in by_site.values())
     sections = []
     for site_name, events in by_site.items():
+        # Sort: HOT/Strong first, then by popularity desc, then unknown last
+        events = sorted(
+            events,
+            key=lambda e: -(((e.get("enrichment") or {}).get("popularity")) or -1),
+        )
         rows = []
         for e in events:
-            name = e.get("name", "Unnamed")
+            name = html.unescape(e.get("name", "Unnamed"))
             date = e.get("date") or "TBA"
             loc = e.get("location") or ""
             url = e.get("url", "#")
+            enrichment_html = _enrichment_html(e)
             rows.append(f"""
               <tr><td style="padding:14px 16px;border-bottom:1px solid #eee;">
                 <div style="font-size:15px;font-weight:700;color:#0d1b3e;margin-bottom:4px;">
                   <a href="{url}" style="color:#0d1b3e;text-decoration:none;">{name} →</a>
                 </div>
                 <div style="font-size:13px;color:#666;">{date}{' · ' + loc if loc else ''}</div>
+                {enrichment_html}
               </td></tr>
             """)
         sections.append(f"""
@@ -194,6 +236,13 @@ def main():
 
     if new_by_site:
         total = sum(len(v) for v in new_by_site.values())
+        # Enrich new events with Spotify popularity / followers
+        for site_name, events in new_by_site.items():
+            for ev in events:
+                try:
+                    enrich_event(ev)
+                except Exception as e:
+                    print(f"[warn] enrich failed for {ev.get('name','?')}: {e}")
         html = build_email(new_by_site)
         try:
             status = send_email(

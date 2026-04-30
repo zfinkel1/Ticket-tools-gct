@@ -5,6 +5,7 @@ what's being watched and what's currently tracked, even if no new events were
 detected during the week. Hits the same recipients as the alert emails.
 """
 
+import html
 import json
 import os
 import sys
@@ -12,6 +13,8 @@ import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+
+from enrich.spotify import enrich_event, format_followers, popularity_label
 
 STATE_DIR = Path(__file__).parent / "state"
 
@@ -66,19 +69,40 @@ def build_email(sites):
     total = sum(s["count"] for s in sites)
     sections = []
     for s in sites:
-        # Take up to 5 sample upcoming events
+        # Take up to 5 sample upcoming events; enrich so we surface popularity
+        samples = s["events"][:5]
+        for ev in samples:
+            try:
+                enrich_event(ev)
+            except Exception:
+                pass
         sample_rows = []
-        for e in s["events"][:5]:
-            name = e.get("name", "Unnamed")
+        for e in samples:
+            name = html.unescape(e.get("name", "Unnamed"))
             date = e.get("date") or "TBA"
             url = e.get("url", "#")
             loc = e.get("location") or ""
+            enr = e.get("enrichment") or {}
+            badge_html = ""
+            label_color = popularity_label(enr.get("popularity"))
+            if label_color:
+                lbl, color = label_color
+                badge_html = (
+                    f'<span style="display:inline-block;background:{color};color:#fff;'
+                    f'font-size:9px;font-weight:800;padding:1px 5px;border-radius:3px;'
+                    f'margin-left:6px;letter-spacing:0.04em;">{lbl} {enr.get("popularity")}</span>'
+                )
+            followers_html = ""
+            if enr.get("followers"):
+                followers_html = (
+                    f' &middot; <span style="color:#888;">{format_followers(enr["followers"])} followers</span>'
+                )
             sample_rows.append(f"""
               <tr><td style="padding:10px 14px;border-bottom:1px solid #eee;">
                 <div style="font-size:13px;font-weight:700;color:#0d1b3e;margin-bottom:2px;">
-                  <a href="{url}" style="color:#0d1b3e;text-decoration:none;">{name}</a>
+                  <a href="{url}" style="color:#0d1b3e;text-decoration:none;">{name}</a>{badge_html}
                 </div>
-                <div style="font-size:11px;color:#666;">{date}{' &middot; ' + loc if loc else ''}</div>
+                <div style="font-size:11px;color:#666;">{date}{' &middot; ' + loc if loc else ''}{followers_html}</div>
               </td></tr>
             """)
 
