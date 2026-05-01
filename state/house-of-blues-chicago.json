@@ -1,0 +1,497 @@
+{
+  "site": "House of Blues Chicago",
+  "last_run": "2026-05-01T14:37:44.847525Z",
+  "count": 70,
+  "events": [
+    {
+      "slug": "vv1A7Zk8gGkdikuoZ",
+      "name": "Elmiene - Sounds for Someone Tour",
+      "location": "House of Blues Chicago",
+      "date": "Fri, May 1, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/elmiene-sounds-for-someone-tour-chicago-illinois-05-01-2026/event/04006435EC18D440"
+    },
+    {
+      "slug": "vv178ZbMGkSJ9FxF",
+      "name": "Bloodywood: System Of A Brown Tour 2026",
+      "location": "House of Blues Chicago",
+      "date": "Sat, May 2, 2026 · 5:30 PM",
+      "url": "https://www.ticketmaster.com/bloodywood-system-of-a-brown-tour-chicago-illinois-05-02-2026/event/0400637CE65C8888"
+    },
+    {
+      "slug": "vv1A7ZkobGkd1dhFb",
+      "name": "The Pharcyde",
+      "location": "House of Blues Chicago",
+      "date": "Sun, May 3, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/the-pharcyde-chicago-illinois-05-03-2026/event/04006458CA0DB218"
+    },
+    {
+      "slug": "vv178Z_aGkMqGEW7",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, May 7, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-05-07-2026/event/0400649DDD327F44"
+    },
+    {
+      "slug": "vv1A7ZkodGkdMea1o",
+      "name": "Next Showcase USA",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Sat, May 9, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/next-showcase-usa-chicago-illinois-05-09-2026/event/04006443F7089291"
+    },
+    {
+      "slug": "vv1A7ZkofGkdhUZDu",
+      "name": "Cozy Worldwide: Throwback and Current R&B / Hip Hop Party - 21+",
+      "location": "House of Blues Chicago",
+      "date": "Sat, May 9, 2026 · 9:00 PM",
+      "url": "https://www.ticketmaster.com/cozy-worldwide-throwback-and-current-rb-chicago-illinois-05-09-2026/event/04006454DBD80ECD"
+    },
+    {
+      "slug": "vv1A7ZkC7GkdWSlFI",
+      "name": "World Famous Gospel Brunch at House of Blues (CHI)",
+      "location": "House of Blues Chicago",
+      "date": "Sun, May 10, 2026 · 10:00 AM",
+      "url": "https://www.ticketmaster.com/world-famous-gospel-brunch-at-house-chicago-illinois-05-10-2026/event/04006384FDCEB228"
+    },
+    {
+      "slug": "vv1A7ZkC7GkdWXDaN",
+      "name": "World Famous Gospel Brunch at House of Blues (CHI)",
+      "location": "House of Blues Chicago",
+      "date": "Sun, May 10, 2026 · 12:30 PM",
+      "url": "https://www.ticketmaster.com/world-famous-gospel-brunch-at-house-chicago-illinois-05-10-2026/event/04006384FDFBB263"
+    },
+    {
+      "slug": "vv1A7Zko7GkddWML0",
+      "name": "fakemink: a Terrible Beauty . - The Tour",
+      "location": "House of Blues Chicago",
+      "date": "Sun, May 10, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/fakemink-a-terrible-beauty-the-tour-chicago-illinois-05-10-2026/event/04006444C3F777E4"
+    },
+    {
+      "slug": "vv1A7ZkooGkd5zHb7",
+      "name": "Wage War - It Calls Me By Name Tour",
+      "location": "House of Blues Chicago",
+      "date": "Tue, May 12, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/wage-war-it-calls-me-by-chicago-illinois-05-12-2026/event/04006451CBE3C604"
+    },
+    {
+      "slug": "vv178Z_AGknzLzEh",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, May 14, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-05-14-2026/event/0400645AB87F89DB"
+    },
+    {
+      "slug": "vv1A7ZkGyGkewE72z",
+      "name": "The Paper Kites - If You Go There, I Hope You Find It",
+      "location": "House of Blues Chicago",
+      "date": "Thu, May 14, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/the-paper-kites-if-you-go-chicago-illinois-05-14-2026/event/04006339B29C43F8"
+    },
+    {
+      "slug": "vv1A7Zk8MGkesmhXZ",
+      "name": "Qveen Herby - Isle of Qveen Tour",
+      "location": "House of Blues Chicago",
+      "date": "Fri, May 15, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/qveen-herby-isle-of-qveen-tour-chicago-illinois-05-15-2026/event/04006437B1B9BF80"
+    },
+    {
+      "slug": "vv1A7Zk8IGkdbnp0i",
+      "name": "Free Throw - Moments Before The Wind Tour",
+      "location": "House of Blues Chicago",
+      "date": "Sun, May 17, 2026 · 5:00 PM",
+      "url": "https://www.ticketmaster.com/free-throw-moments-before-the-wind-chicago-illinois-05-17-2026/event/04006428D8A9692C"
+    },
+    {
+      "slug": "vv178Z_AGknzOzEE",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, May 21, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-05-21-2026/event/0400645AB88389E7"
+    },
+    {
+      "slug": "vv1A7ZkCeGkduMFpC",
+      "name": "Arm's Length: There's A Whole World... Tour - North America 2026",
+      "location": "House of Blues Chicago",
+      "date": "Thu, May 21, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/arms-length-theres-a-whole-world-chicago-illinois-05-21-2026/event/04006382CDDC858E"
+    },
+    {
+      "slug": "vv178ZbzGkl1Hy5L",
+      "name": "Archspire: Long Roads Big Loads Tour",
+      "location": "House of Blues Chicago",
+      "date": "Fri, May 22, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/archspire-long-roads-big-loads-tour-chicago-illinois-05-22-2026/event/0400638ACAF392DF"
+    },
+    {
+      "slug": "vv1A7Zk39Gkd3X4Mb",
+      "name": "IML BLUF Social Saturday",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Sat, May 23, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/iml-bluf-social-saturday-chicago-illinois-05-23-2026/event/04006497D2F95DD8"
+    },
+    {
+      "slug": "vv178Z_6GkY6hszS",
+      "name": "Trap Bingo",
+      "location": "House of Blues Chicago",
+      "date": "Sat, May 23, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/trap-bingo-chicago-illinois-05-23-2026/event/0400647C076F1E33"
+    },
+    {
+      "slug": "vv1kvZv0GOGAC_5_Z",
+      "name": "GKL & CircuitMOM Present: Alex Acosta, Dani Toro, & Doggpound",
+      "location": "Backporch Stage at House of Blues Chicago",
+      "date": "Sun, May 24, 2026 · 9:00 PM",
+      "url": "https://www.ticketmaster.com/gkl-circuitmom-present-alex-acosta-dani-chicago-illinois-05-24-2026/event/040064320E64B640"
+    },
+    {
+      "slug": "vv178ZbzGkl6dFT3",
+      "name": "ESTEMAN & DANIELA SPALLA - AMORIO USA TOUR",
+      "location": "House of Blues Chicago",
+      "date": "Tue, May 26, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/esteman-daniela-spalla-amorio-usa-tour-chicago-illinois-05-26-2026/event/0400638AC70C8FD2"
+    },
+    {
+      "slug": "vv1kvZv0roGACGd6a",
+      "name": "Sam Yo",
+      "location": "House of Blues Chicago",
+      "date": "Wed, May 27, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/sam-yo-chicago-illinois-05-27-2026/event/040064791E3031C9"
+    },
+    {
+      "slug": "vv178Z_AGknz-zEi",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, May 28, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-05-28-2026/event/0400645AB88789EC"
+    },
+    {
+      "slug": "vv1A7Zko_GkdEG0m-",
+      "name": "Here Come the Mummies",
+      "location": "House of Blues Chicago",
+      "date": "Thu, May 28, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/here-come-the-mummies-chicago-illinois-05-28-2026/event/04006459E7324BA1"
+    },
+    {
+      "slug": "vv178Z_6GkTEVLG3",
+      "name": "WGCI Tone Kapone Day with special guest Jacquees",
+      "location": "House of Blues Chicago",
+      "date": "Fri, May 29, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/wgci-tone-kapone-day-with-special-chicago-illinois-05-29-2026/event/0400647FE7D1F312"
+    },
+    {
+      "slug": "vv178Z_7GkYeECQP",
+      "name": "The Knocks x Dragonette x Aquaria REVELATION",
+      "location": "House of Blues Chicago",
+      "date": "Sat, May 30, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/the-knocks-x-dragonette-x-aquaria-chicago-illinois-05-30-2026/event/0400644C029CE6A5"
+    },
+    {
+      "slug": "vv1A7ZkoAGkeDcbNj",
+      "name": "House of Burlesque",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Sat, May 30, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/house-of-burlesque-chicago-illinois-05-30-2026/event/04006445BBB588DC"
+    },
+    {
+      "slug": "vv178Z_aGkR94cZY",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, Jun 4, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-06-04-2026/event/0400649BD756D030"
+    },
+    {
+      "slug": "vv1A7Zk3kGkdfzhVE",
+      "name": "Reggae Bash World Tour",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Jun 5, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/reggae-bash-world-tour-chicago-illinois-06-05-2026/event/04006486D4E1BD27"
+    },
+    {
+      "slug": "vv1kvZv0PvGA1uwqe",
+      "name": "Saved By The 90's",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Jun 6, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/saved-by-the-90s-chicago-illinois-06-06-2026/event/040064941A372742"
+    },
+    {
+      "slug": "vv178Z_kGkIZyQIG",
+      "name": "Alex Isley -- When The City Sleeps",
+      "location": "House of Blues Chicago",
+      "date": "Sun, Jun 7, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/alex-isley-when-the-city-sleeps-chicago-illinois-06-07-2026/event/0400646A00E5AA0C"
+    },
+    {
+      "slug": "vv178Z_7GkMBGifJ",
+      "name": "The Cab",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Jun 12, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/the-cab-chicago-illinois-06-12-2026/event/0400644DFA32C526"
+    },
+    {
+      "slug": "vv1A7ZkoIGkdFaJlG",
+      "name": "Noise Complaints Presents The Late Night R&B Experience Tour",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Jun 13, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/noise-complaints-presents-the-late-night-chicago-illinois-06-13-2026/event/04006468C8266ACC"
+    },
+    {
+      "slug": "vv178Z_aGkR9pcZX",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, Jun 18, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-06-18-2026/event/0400649BD75AD03E"
+    },
+    {
+      "slug": "vv1A7ZkoKGkeB5__W",
+      "name": "Black Friday - The Official Juneteenth Black Yacht Weekend After Party",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Jun 19, 2026 · 9:00 PM",
+      "url": "https://www.ticketmaster.com/black-friday-the-official-juneteenth-black-chicago-illinois-06-19-2026/event/04006453BA2D967D"
+    },
+    {
+      "slug": "vv1kvZv0PxGA1SqSc",
+      "name": "Elevate Social x Kevin White: AfroRave",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Jun 20, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/elevate-social-x-kevin-white-afrorave-chicago-illinois-06-20-2026/event/040064962ACDDCED"
+    },
+    {
+      "slug": "vv1FvZv0084kZ7287v",
+      "name": "Corbyn Besson and Soulidified: The Pop'n Out Tour",
+      "location": "House of Blues Chicago",
+      "date": "Thu, Jun 25, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/corbyn-besson-and-soulidified-the-popn-chicago-illinois-06-25-2026/event/040064910546EF30"
+    },
+    {
+      "slug": "vv178Z_FGkXYLEmD",
+      "name": "The Taylor Party: Taylor Swift Night - (21+)",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Jun 26, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/the-taylor-party-taylor-swift-night-chicago-illinois-06-26-2026/event/0400648FB07E7BBB"
+    },
+    {
+      "slug": "vv1F8Z_aft-bZd21A",
+      "name": "Mike Sherm",
+      "location": "House of Blues Chicago",
+      "date": "Sun, Jun 28, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/mike-sherm-chicago-illinois-06-28-2026/event/0400649529858E94"
+    },
+    {
+      "slug": "vv178Z_aGkR99cvC",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, Jul 9, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-07-09-2026/event/0400649BD75ED04E"
+    },
+    {
+      "slug": "vv1FvZv0jZ0xZ7Ck2d",
+      "name": "Waterboyz Presents: Chris Travis Performing Live!",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Jul 10, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/waterboyz-presents-chris-travis-performing-live-chicago-illinois-07-10-2026/event/040064700922D5E2"
+    },
+    {
+      "slug": "vv178Z_FGkl7ZbVh",
+      "name": "Down Rodeo & Stone Tribute Pilots",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Jul 11, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/down-rodeo-stone-tribute-pilots-chicago-illinois-07-11-2026/event/0400648AC4018D1B"
+    },
+    {
+      "slug": "vv178Z_7GkwybQ18",
+      "name": "idobi Radio Summer School w/ Honey Revenge & more",
+      "location": "House of Blues Chicago",
+      "date": "Thu, Jul 16, 2026 · 5:00 PM",
+      "url": "https://www.ticketmaster.com/idobi-radio-summer-school-w-honey-chicago-illinois-07-16-2026/event/0400644CB961A290"
+    },
+    {
+      "slug": "vv178Z_aGkR9bcvP",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, Jul 16, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-07-16-2026/event/0400649BD762D065"
+    },
+    {
+      "slug": "vv1A7ZkooGkegGaT8",
+      "name": "Flyleaf with Lacey Sturm - 20th Anniversary Tour",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Jul 17, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/flyleaf-with-lacey-sturm-20th-anniversary-chicago-illinois-07-17-2026/event/04006451B5309FD0"
+    },
+    {
+      "slug": "vv1A7Zko_GkdqzNEg",
+      "name": "Flyleaf with Lacey Sturm - 20th Anniversary Tour",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Jul 18, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/flyleaf-with-lacey-sturm-20th-anniversary-chicago-illinois-07-18-2026/event/04006459DDE239F5"
+    },
+    {
+      "slug": "vv178Z_kGkROzbnp",
+      "name": "JINJER Duel North America 2026",
+      "location": "House of Blues Chicago",
+      "date": "Sun, Jul 19, 2026 · 5:00 PM",
+      "url": "https://www.ticketmaster.com/jinjer-duel-north-america-2026-chicago-illinois-07-19-2026/event/0400646BE0E18A96"
+    },
+    {
+      "slug": "vv178Z_aGkR9_Wvs",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, Jul 23, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-07-23-2026/event/0400649BD767D071"
+    },
+    {
+      "slug": "vv178Z_aGkR9hue7",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, Aug 6, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-08-06-2026/event/0400649BD76CD084"
+    },
+    {
+      "slug": "vv1A7ZkozGkdB-BbF",
+      "name": "Jon B.",
+      "location": "House of Blues Chicago",
+      "date": "Thu, Aug 6, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/jon-b-chicago-illinois-08-06-2026/event/04006478FA87A608"
+    },
+    {
+      "slug": "vv1A7Zk3oGkeywtU5",
+      "name": "The Subliminal Verses - A Midwest Tribute To Slipknot",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Aug 7, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/the-subliminal-verses-a-midwest-tribute-chicago-illinois-08-07-2026/event/04006491B9CA9D8B"
+    },
+    {
+      "slug": "vv178Z_aGkmJc_yx",
+      "name": "Belmont",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Aug 8, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/belmont-chicago-illinois-08-08-2026/event/0400649BA6B59E62"
+    },
+    {
+      "slug": "vv178Z_aGkR9jqef",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, Aug 13, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-08-13-2026/event/0400649BD771D094"
+    },
+    {
+      "slug": "vv1F8Z_a0Pp8Zd5k1",
+      "name": "Zhamira",
+      "location": "House of Blues Chicago",
+      "date": "Thu, Aug 13, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/zhamira-chicago-illinois-08-13-2026/event/0400649925590A59"
+    },
+    {
+      "slug": "vv1A7Zko3Gkd-kmyV",
+      "name": "The Dear Hunter - The Road to Sunya Tour 2026",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Aug 14, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/the-dear-hunter-the-road-to-chicago-illinois-08-14-2026/event/04006452E11AEE74"
+    },
+    {
+      "slug": "vv178Z_6GkTY7suE",
+      "name": "JUTES - Smile You're on Tour",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Aug 15, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/jutes-smile-youre-on-tour-chicago-illinois-08-15-2026/event/0400647FF0131367"
+    },
+    {
+      "slug": "vv178Z_kGknTx9rw",
+      "name": "CHIODOS: IT'S NOT YOU, IT'S ME TOUR",
+      "location": "House of Blues Chicago",
+      "date": "Sun, Aug 16, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chiodos-its-not-you-its-me-chicago-illinois-08-16-2026/event/0400646ABF8977B2"
+    },
+    {
+      "slug": "vv1A7Zk3pGkd8Q2NA",
+      "name": "WILLIS",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Aug 21, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/willis-chicago-illinois-08-21-2026/event/04006496D068F8C5"
+    },
+    {
+      "slug": "vv178Z_aGkR9qqet",
+      "name": "Chicago Comedy Club",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, Aug 27, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-08-27-2026/event/0400649BD775D0A9"
+    },
+    {
+      "slug": "vv1A7ZkoIGkdvzk8t",
+      "name": "KPop Club Night",
+      "location": "House of Blues Chicago",
+      "date": "Thu, Aug 27, 2026 · 11:00 PM",
+      "url": "https://www.ticketmaster.com/kpop-club-night-chicago-illinois-08-27-2026/event/04006468C1E06429"
+    },
+    {
+      "slug": "vv1A7ZkoIGkde5k3Q",
+      "name": "KPop Club Night",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Aug 28, 2026 · 11:00 PM",
+      "url": "https://www.ticketmaster.com/kpop-club-night-chicago-illinois-08-28-2026/event/04006468C22C649A"
+    },
+    {
+      "slug": "vv178Z_dGkRZbbGm",
+      "name": "Ten - Pearl Jam Tribute Band",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Aug 29, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/ten-pearl-jam-tribute-band-chicago-illinois-08-29-2026/event/0400643BC061832E"
+    },
+    {
+      "slug": "vv1A7ZkoVGkeBGEiW",
+      "name": "Tinlicker North America 2026",
+      "location": "House of Blues Chicago",
+      "date": "Wed, Sep 16, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/tinlicker-north-america-2026-chicago-illinois-09-16-2026/event/04006474BA327B3D"
+    },
+    {
+      "slug": "vv1A7Zk3vGkew2ITl",
+      "name": "Hulvey - \"Could Be Tonight\" Tour",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Sep 19, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/hulvey-could-be-tonight-tour-chicago-illinois-09-19-2026/event/04006481B23E8FEB"
+    },
+    {
+      "slug": "vv1A7Zk34GkeSOaAx",
+      "name": "DYING FETUS & SANGUISUGABOGG",
+      "location": "House of Blues Chicago",
+      "date": "Sun, Sep 27, 2026 · 5:30 PM",
+      "url": "https://www.ticketmaster.com/dying-fetus-sanguisugabogg-chicago-illinois-09-27-2026/event/04006495B3809162"
+    },
+    {
+      "slug": "vv1A7ZkooGkeMC18q",
+      "name": "gnash",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Oct 2, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/gnash-chicago-illinois-10-02-2026/event/04006451B738A41D"
+    },
+    {
+      "slug": "vv1A7Zk3oGkeXbBuR",
+      "name": "Streetlight Manifesto: The Presence of the Past Tour",
+      "location": "House of Blues Chicago",
+      "date": "Sun, Oct 25, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/streetlight-manifesto-the-presence-of-the-chicago-illinois-10-25-2026/event/04006491BE63A36F"
+    },
+    {
+      "slug": "vv1A7Zk38GkeXZ_vV",
+      "name": "Winyah",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Oct 30, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/winyah-chicago-illinois-10-30-2026/event/04006490BE019074"
+    },
+    {
+      "slug": "vv178Z_6Gks2ZoPa",
+      "name": "Akeem Ali - The Texture Tour",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Oct 31, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/akeem-ali-the-texture-tour-chicago-illinois-10-31-2026/event/0400647C4F011949"
+    },
+    {
+      "slug": "vv1A7Zk3kGkdNxqha",
+      "name": "The Pineapple Thief",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Nov 27, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/the-pineapple-thief-chicago-illinois-11-27-2026/event/04006486E389D6C9"
+    }
+  ]
+}
