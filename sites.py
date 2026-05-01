@@ -44,4 +44,30 @@ SITES = [
         # Indoor venue + Outdoor fairgrounds — both are TM-sold
         "venue_ids": ["KovZ917AI5F", "KovZ917Amf0"],
     },
+    {
+        "name": "Byline Bank Aragon Ballroom",
+        "parser": "ticketmaster",
+        "venue_ids": ["KovZpZAFdJnA"],
+    },
+    {
+        "name": "Rosemont Theatre",
+        "parser": "ticketmaster",
+        "venue_ids": ["KovZpa2BOe"],
+    },
+    {
+        "name": "House of Blues Chicago",
+        "parser": "ticketmaster",
+        # Main room + Foundation Room + Backporch Stage all run through TM
+        "venue_ids": ["KovZpZAEAIlA", "KovZ917AR_1", "KovZ917ARgJ"],
+    },
+    {
+        "name": "Park West",
+        "parser": "ticketmaster",
+        "venue_ids": ["KovZpZAan6AA"],
+    },
+    {
+        "name": "Thalia Hall",
+        "parser": "ticketmaster",
+        "venue_ids": ["KovZpZAJntvA"],
+    },
 ]
