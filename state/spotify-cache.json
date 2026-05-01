@@ -8,5 +8,25 @@
       "url": "https://open.spotify.com/artist/0VdtUZhe3F9gmvog8iaAV7",
       "genres": []
     }
+  },
+  "emo orchestra": {
+    "cached_at": 1777632352.8675725,
+    "data": {
+      "name": "The Spill Canvas",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/4W8SeWrRZUburGZyp5JwYj",
+      "genres": []
+    }
+  },
+  "academy order": {
+    "cached_at": 1777632354.1777167,
+    "data": {
+      "name": "Academy Order",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/70HdvpDHrgOWt2TOgDIUEW",
+      "genres": []
+    }
   }
 }
