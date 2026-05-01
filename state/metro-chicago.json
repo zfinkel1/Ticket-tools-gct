@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-01T14:37:39.252178Z",
-  "count": 51,
+  "last_run": "2026-05-01T15:40:43.744000Z",
+  "count": 52,
   "events": [
     {
       "slug": "the-reverend-horton-heat",
@@ -156,6 +156,13 @@
       "location": "",
       "date": "Tue, Jun 23",
       "url": "https://metrochicago.com/event/kim-gordon/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "super-sapphic-v",
+      "name": "Super Sapphic V",
+      "location": "",
+      "date": "Fri, Jun 26",
+      "url": "https://metrochicago.com/event/super-sapphic-v/all-building-event/chicago-illinois/"
     },
     {
       "slug": "horse-meat-disco-pride",

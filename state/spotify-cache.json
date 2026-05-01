@@ -28,5 +28,25 @@
       "url": "https://open.spotify.com/artist/70HdvpDHrgOWt2TOgDIUEW",
       "genres": []
     }
+  },
+  "super sapphic v": {
+    "cached_at": 1777650050.7245545,
+    "data": {
+      "name": "saapphic",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/5EcBC1vb1frVKdIqgob1cV",
+      "genres": []
+    }
+  },
+  "collective soul": {
+    "cached_at": 1777650051.9056976,
+    "data": {
+      "name": "Collective Soul",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/4e5V1Q2dKCzbLVMQ8qbTn6",
+      "genres": []
+    }
   }
 }
