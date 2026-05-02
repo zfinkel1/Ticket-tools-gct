@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-02T03:52:25.652031Z",
-  "count": 52,
+  "last_run": "2026-05-02T08:00:33.535894Z",
+  "count": 51,
   "events": [
-    {
-      "slug": "the-reverend-horton-heat",
-      "name": "The Reverend Horton Heat",
-      "location": "",
-      "date": "Fri, May 01",
-      "url": "https://metrochicago.com/event/the-reverend-horton-heat/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "the-lemon-twigs",
       "name": "The Lemon Twigs",
