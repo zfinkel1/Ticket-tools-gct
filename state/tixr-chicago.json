@@ -1,29 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-02T03:52:51.457639Z",
+  "last_run": "2026-05-02T10:29:20.466785Z",
   "count": 20,
   "events": [
-    {
-      "slug": "182814",
-      "name": "Michael Damani",
-      "location": "Ramova Loft",
-      "date": "Fri, May 1 at 8:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/michael-damani-182814"
-    },
-    {
-      "slug": "183569",
-      "name": "Road To Sueños | La Casita",
-      "location": "Galeria Chicago",
-      "date": "Fri, May 1 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-la-casita-183569"
-    },
-    {
-      "slug": "178213",
-      "name": "Sango",
-      "location": "Ramova Theatre ",
-      "date": "Fri, May 1 at 10:30 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/sango-178213"
-    },
     {
       "slug": "185887",
       "name": "Dakiti | Yacht Party",
@@ -142,6 +121,27 @@
       "location": "Ramova Loft",
       "date": "Thu, May 14 at 6:30 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/academy-order-179263"
+    },
+    {
+      "slug": "183583",
+      "name": "Road To Sueños | DJ SMIRF + DJ OROZCO",
+      "location": "RiNo Bar",
+      "date": "Thu, May 14 at 11:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-dj-smirf-dj-orozco-183583"
+    },
+    {
+      "slug": "169290",
+      "name": "Sepultura - Celebrating Life Through Death Final North American Tour 2026",
+      "location": "Ramova Theatre ",
+      "date": "Fri, May 15 at 6:30 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/sepultura-celebrating-life-through-death-final-north-american-tour-2026-169290"
+    },
+    {
+      "slug": "185594",
+      "name": "MIA Rooftop Saturdays (21+)",
+      "location": "Reserv",
+      "date": "Sat, May 16 at 8:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185594"
     }
   ]
 }

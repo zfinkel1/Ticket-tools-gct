@@ -48,5 +48,35 @@
       "url": "https://open.spotify.com/artist/4e5V1Q2dKCzbLVMQ8qbTn6",
       "genres": []
     }
+  },
+  "road to sueños": {
+    "cached_at": 1777717765.0565116,
+    "data": {
+      "name": "Velora Dreams",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/62SO8PX83Yag9TwCnjmfka",
+      "genres": []
+    }
+  },
+  "sepultura": {
+    "cached_at": 1777717771.443366,
+    "data": {
+      "name": "Sepultura",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/6JW8wliOEwaDZ231ZY7cf4",
+      "genres": []
+    }
+  },
+  "mia rooftop saturdays": {
+    "cached_at": 1777717772.6287782,
+    "data": {
+      "name": "Mia and Jonah",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/1nur7jtHQRucIvf2QRlybM",
+      "genres": []
+    }
   }
 }
