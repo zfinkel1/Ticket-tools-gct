@@ -1,15 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-02T16:52:59.630693Z",
+  "last_run": "2026-05-02T23:10:50.855676Z",
   "count": 20,
   "events": [
-    {
-      "slug": "185887",
-      "name": "Dakiti | Yacht Party",
-      "location": "Anita Dee Yacht",
-      "date": "Sat, May 2 at 2:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/dakiti-yacht-party-185887"
-    },
     {
       "slug": "187486",
       "name": "MIA | Latin Day Club | Reserv Rooftop",
@@ -142,6 +135,13 @@
       "location": "Reserv",
       "date": "Sat, May 16 at 8:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185594"
+    },
+    {
+      "slug": "179396",
+      "name": "Two Friends",
+      "location": "Ramova Theatre ",
+      "date": "Sat, May 16 at 11:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/two-friends-179396"
     }
   ]
 }

@@ -78,5 +78,15 @@
       "url": "https://open.spotify.com/artist/1nur7jtHQRucIvf2QRlybM",
       "genres": []
     }
+  },
+  "two friends": {
+    "cached_at": 1777763453.721519,
+    "data": {
+      "name": "Two Friends",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/44Ewva5aHOX00EwaX2D2mh",
+      "genres": []
+    }
   }
 }
