@@ -1,29 +1,8 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-05-03T00:01:57.560977Z",
+  "last_run": "2026-05-03T04:12:13.232318Z",
   "count": 100,
   "events": [
-    {
-      "slug": "beachlife-festival",
-      "name": "BeachLife Festival",
-      "location": "Redondo Beach, CA",
-      "date": "May 1, 2026",
-      "url": "https://www.frontgatetickets.com/events/beachlife-festival"
-    },
-    {
-      "slug": "riverbeat-music-festival",
-      "name": "RiverBeat Music Festival",
-      "location": "Memphis, TN",
-      "date": "May 1, 2026",
-      "url": "https://www.frontgatetickets.com/events/riverbeat-music-festival"
-    },
-    {
-      "slug": "rock-the-country-bellville",
-      "name": "Rock The Country",
-      "location": "Bellville, TX",
-      "date": "May 1, 2026",
-      "url": "https://www.frontgatetickets.com/events/rock-the-country-bellville"
-    },
     {
       "slug": "core-los-angeles",
       "name": "CORE Los Angeles",
@@ -702,6 +681,27 @@
       "location": "Live Oak, FL",
       "date": "October 22, 2026",
       "url": "https://www.frontgatetickets.com/events/hulaween"
+    },
+    {
+      "slug": "sick-new-world-texas",
+      "name": "Sick New World Texas",
+      "location": "Fort Worth, TX",
+      "date": "October 24, 2026",
+      "url": "https://www.frontgatetickets.com/events/sick-new-world-texas"
+    },
+    {
+      "slug": "escape-halloween",
+      "name": "Escape Halloween",
+      "location": "San Bernardino, CA",
+      "date": "October 30, 2026",
+      "url": "https://www.frontgatetickets.com/events/escape-halloween"
+    },
+    {
+      "slug": "edc-orlando",
+      "name": "EDC Orlando",
+      "location": "Orlando, FL",
+      "date": "November 6, 2026",
+      "url": "https://www.frontgatetickets.com/events/edc-orlando"
     }
   ]
 }

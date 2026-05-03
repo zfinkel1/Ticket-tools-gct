@@ -88,5 +88,29 @@
       "url": "https://open.spotify.com/artist/44Ewva5aHOX00EwaX2D2mh",
       "genres": []
     }
+  },
+  "sick new world texas": {
+    "cached_at": 1777781543.3037941,
+    "data": null
+  },
+  "escape halloween": {
+    "cached_at": 1777781544.5895884,
+    "data": {
+      "name": "Halloween Witches",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/3Y6W380PKVJFx5g6kMD10W",
+      "genres": []
+    }
+  },
+  "edc orlando": {
+    "cached_at": 1777781545.9121492,
+    "data": {
+      "name": "Crankdat",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/5lCekoJW9jNq01B1wiqdAb",
+      "genres": []
+    }
   }
 }
