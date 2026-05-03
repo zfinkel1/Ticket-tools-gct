@@ -1,22 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-03T06:42:32.328047Z",
+  "last_run": "2026-05-03T13:16:19.696980Z",
   "count": 20,
   "events": [
-    {
-      "slug": "184726",
-      "name": "MIA Rooftop Saturdays - Cinco De Mayo (21+)",
-      "location": "Reserv",
-      "date": "Sat, May 2 at 8:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-cinco-de-mayo-21--184726"
-    },
-    {
-      "slug": "187495",
-      "name": "La Casita Pop-up",
-      "location": "Galeria Chicago",
-      "date": "Sat, May 2 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/la-casita-pop-up-187495"
-    },
     {
       "slug": "179828",
       "name": "LA CURA BRUNCH SUNDAYS (21+)",
@@ -142,6 +128,20 @@
       "location": "Bar Sol",
       "date": "Sun, May 17 at 12:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/road-to-suenos-perreologia-773-183585"
+    },
+    {
+      "slug": "179830",
+      "name": "LA CURA BRUNCH SUNDAYS (21+)",
+      "location": "Gold Coast Social",
+      "date": "Sun, May 17 at 11:00 AM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/la-cura-brunch-sundays-21--179830"
+    },
+    {
+      "slug": "183119",
+      "name": "Nordista Freeze",
+      "location": "Ramova Loft",
+      "date": "Sun, May 17 at 7:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/nordista-freeze-183119"
     }
   ]
 }

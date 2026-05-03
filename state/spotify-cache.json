@@ -122,5 +122,25 @@
       "url": "https://open.spotify.com/artist/62SO8PX83Yag9TwCnjmfka",
       "genres": []
     }
+  },
+  "la cura brunch sundays": {
+    "cached_at": 1777814182.5793622,
+    "data": {
+      "name": "Many El Cura",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2dMamGf453Lm2jUcCxqluA",
+      "genres": []
+    }
+  },
+  "nordista freeze": {
+    "cached_at": 1777814188.3345418,
+    "data": {
+      "name": "Nordista Freeze",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/5pgureWBGb0LSpd6IeURAC",
+      "genres": []
+    }
   }
 }
