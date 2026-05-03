@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-03T04:12:14.680411Z",
-  "count": 51,
+  "last_run": "2026-05-03T06:42:15.472413Z",
+  "count": 50,
   "events": [
-    {
-      "slug": "the-lemon-twigs",
-      "name": "The Lemon Twigs",
-      "location": "",
-      "date": "Sat, May 02",
-      "url": "https://metrochicago.com/event/the-lemon-twigs/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "the-new-pornographers",
       "name": "The New Pornographers",

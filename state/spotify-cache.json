@@ -112,5 +112,15 @@
       "url": "https://open.spotify.com/artist/5lCekoJW9jNq01B1wiqdAb",
       "genres": []
     }
+  },
+  "road to suenos": {
+    "cached_at": 1777790556.3374374,
+    "data": {
+      "name": "Velora Dreams",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/62SO8PX83Yag9TwCnjmfka",
+      "genres": []
+    }
   }
 }

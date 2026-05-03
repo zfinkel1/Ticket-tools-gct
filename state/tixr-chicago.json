@@ -1,15 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-02T23:10:50.855676Z",
+  "last_run": "2026-05-03T06:42:32.328047Z",
   "count": 20,
   "events": [
-    {
-      "slug": "187486",
-      "name": "MIA | Latin Day Club | Reserv Rooftop",
-      "location": "Reserv",
-      "date": "Sat, May 2 at 2:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/mia-latin-day-club-reserv-rooftop-187486"
-    },
     {
       "slug": "184726",
       "name": "MIA Rooftop Saturdays - Cinco De Mayo (21+)",
@@ -142,6 +135,13 @@
       "location": "Ramova Theatre ",
       "date": "Sat, May 16 at 11:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/two-friends-179396"
+    },
+    {
+      "slug": "183585",
+      "name": "Road To Suenos | Perreologia 773",
+      "location": "Bar Sol",
+      "date": "Sun, May 17 at 12:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/road-to-suenos-perreologia-773-183585"
     }
   ]
 }
