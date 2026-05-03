@@ -1,7 +1,7 @@
 {
   "site": "TAO Nightclub Chicago",
-  "last_run": "2026-05-02T23:10:51.083579Z",
-  "count": 8,
+  "last_run": "2026-05-03T00:02:02.146984Z",
+  "count": 7,
   "events": [
     {
       "slug": "226298",
@@ -44,13 +44,6 @@
       "location": "TAO Nightclub Chicago",
       "date": "Fri, May 8, 2026",
       "url": "https://taogroup.com/event/5-8-2026-do-not-disturb-tao-nightclub/"
-    },
-    {
-      "slug": "225016",
-      "name": "Metro",
-      "location": "TAO Nightclub Chicago",
-      "date": "Sat, May 2, 2026",
-      "url": "https://taogroup.com/event/5-2-2026-metro-tao-nightclub/"
     },
     {
       "slug": "218018",
