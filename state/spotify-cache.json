@@ -172,5 +172,15 @@
       "url": "https://open.spotify.com/artist/0ys2OFYzWYB5hRDLCsBqxt",
       "genres": []
     }
+  },
+  "oliver tree": {
+    "cached_at": 1777900251.0403943,
+    "data": {
+      "name": "Oliver Tree",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/6TLwD7HPWuiOzvXEa3oCNe",
+      "genres": []
+    }
   }
 }
