@@ -1,15 +1,8 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-05-04T00:04:19.069957Z",
+  "last_run": "2026-05-04T07:25:21.515002Z",
   "count": 100,
   "events": [
-    {
-      "slug": "core-los-angeles",
-      "name": "CORE Los Angeles",
-      "location": "Los Angeles, CA",
-      "date": "May 2, 2026",
-      "url": "https://www.frontgatetickets.com/events/core-los-angeles"
-    },
     {
       "slug": "welcome-to-rockville",
       "name": "Welcome To Rockville",
@@ -702,6 +695,13 @@
       "location": "Orlando, FL",
       "date": "November 6, 2026",
       "url": "https://www.frontgatetickets.com/events/edc-orlando"
+    },
+    {
+      "slug": "vans-warped-tour-3",
+      "name": "Vans Warped Tour - Orlando",
+      "location": "Orlando, FL",
+      "date": "November 14, 2026",
+      "url": "https://www.frontgatetickets.com/events/vans-warped-tour-3"
     }
   ]
 }

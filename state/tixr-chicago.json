@@ -1,22 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-03T19:19:45.010348Z",
+  "last_run": "2026-05-04T07:25:57.008872Z",
   "count": 20,
   "events": [
-    {
-      "slug": "179828",
-      "name": "LA CURA BRUNCH SUNDAYS (21+)",
-      "location": "Gold Coast Social",
-      "date": "Sun, May 3 at 11:00 AM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/la-cura-brunch-sundays-21--179828"
-    },
-    {
-      "slug": "183642",
-      "name": "Mañanitas | Road To Sueños @ Recess",
-      "location": "Recess",
-      "date": "Sun, May 3 at 10:10 AM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/ma-anitas-road-to-sue-os-recess-183642"
-    },
     {
       "slug": "187774",
       "name": "RINOVRSE | Cinco De Mayo | Rino Bar",
@@ -142,6 +128,20 @@
       "location": "Ramova Loft",
       "date": "Sun, May 17 at 7:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/nordista-freeze-183119"
+    },
+    {
+      "slug": "168970",
+      "name": "CHAOS & CARNAGE 2026",
+      "location": "Ramova Theatre ",
+      "date": "Tue, May 19 at 4:45 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/chaos-carnage-2026-168970"
+    },
+    {
+      "slug": "184071",
+      "name": "Fresa  | Road To Sueños",
+      "location": "Three Top Lounge",
+      "date": "Tue, May 19 at 9:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/fresa-road-to-sue-os-184071"
     }
   ]
 }

@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-04T00:04:20.553306Z",
-  "count": 50,
+  "last_run": "2026-05-04T07:25:22.786640Z",
+  "count": 49,
   "events": [
-    {
-      "slug": "the-new-pornographers",
-      "name": "The New Pornographers",
-      "location": "",
-      "date": "Sun, May 03",
-      "url": "https://metrochicago.com/event/the-new-pornographers/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "newdad-freak-slug",
       "name": "NewDad",

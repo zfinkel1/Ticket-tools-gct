@@ -142,5 +142,35 @@
       "url": "https://open.spotify.com/artist/5pgureWBGb0LSpd6IeURAC",
       "genres": []
     }
+  },
+  "vans warped": {
+    "cached_at": 1777879559.8358045,
+    "data": {
+      "name": "Gym Class Heroes",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/4IJczjB0fJ04gs4uvP0Fli",
+      "genres": []
+    }
+  },
+  "chaos & carnage": {
+    "cached_at": 1777879561.1306152,
+    "data": {
+      "name": "Thy Art Is Murder",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/3et9upNERQI5IYt5jEDTxM",
+      "genres": []
+    }
+  },
+  "fresa": {
+    "cached_at": 1777879562.2440398,
+    "data": {
+      "name": "Fuerza Regida",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/0ys2OFYzWYB5hRDLCsBqxt",
+      "genres": []
+    }
   }
 }
