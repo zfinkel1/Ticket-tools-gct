@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-04T15:22:22.530688Z",
-  "count": 49,
+  "last_run": "2026-05-04T17:11:54.217270Z",
+  "count": 50,
   "events": [
     {
       "slug": "newdad-freak-slug",
@@ -233,6 +233,13 @@
       "location": "",
       "date": "Fri, Jul 24",
       "url": "https://metrochicago.com/event/jeff-rosenstock-8/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "jeff-rosenstock-9",
+      "name": "J​eff Rosenstock",
+      "location": "",
+      "date": "Sat, Jul 25",
+      "url": "https://metrochicago.com/event/jeff-rosenstock-9/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "good-hangs",
