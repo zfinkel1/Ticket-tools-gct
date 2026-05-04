@@ -182,5 +182,15 @@
       "url": "https://open.spotify.com/artist/6TLwD7HPWuiOzvXEa3oCNe",
       "genres": []
     }
+  },
+  "binomio de oro de america": {
+    "cached_at": 1777908159.6790938,
+    "data": {
+      "name": "Binomio de Oro de América",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/3yHLsTJ9OZ19qwY1Q5BEQJ",
+      "genres": []
+    }
   }
 }

@@ -1,7 +1,7 @@
 {
   "site": "Rosemont Theatre",
-  "last_run": "2026-05-04T13:10:49.184239Z",
-  "count": 23,
+  "last_run": "2026-05-04T15:22:38.022681Z",
+  "count": 24,
   "events": [
     {
       "slug": "vv1kvZvN__GAG5PQv",
@@ -79,6 +79,13 @@
       "location": "Rosemont Theatre",
       "date": "Fri, Sep 11, 2026 · 8:00 PM",
       "url": "https://www.ticketmaster.com/ricardo-montaner-el-ultimo-regreso-rosemont-illinois-09-11-2026/event/0400635E8EFE6084"
+    },
+    {
+      "slug": "vv178Z_aGkB1HJbC",
+      "name": "Binomio De Oro De America",
+      "location": "Rosemont Theatre",
+      "date": "Sat, Sep 12, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/binomio-de-oro-de-america-rosemont-illinois-09-12-2026/event/0400649E8AF2660E"
     },
     {
       "slug": "vv1a7Zk3fJ6uPZe5v",
