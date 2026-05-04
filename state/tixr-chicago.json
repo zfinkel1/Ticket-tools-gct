@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-04T15:22:33.459627Z",
+  "last_run": "2026-05-04T22:40:54.954742Z",
   "count": 20,
   "events": [
     {
@@ -18,6 +18,13 @@
       "url": "https://www.tixr.com/groups/breakingsoundchicago/events/breaking-sound-chicago-at-broken-shaker-05-06-181232"
     },
     {
+      "slug": "188679",
+      "name": "RINOVRSE | Rino Bar",
+      "location": "RiNo Bar",
+      "date": "Thu, May 7 at 11:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/rinovrse-rino-bar-188679"
+    },
+    {
       "slug": "183097",
       "name": "Virgin Whores",
       "location": "Ramova Loft",
@@ -32,10 +39,17 @@
       "url": "https://www.tixr.com/groups/ramovatheatre/events/m-s-edm-road-to-sue-os-184066"
     },
     {
+      "slug": "188681",
+      "name": "La Casita | Galeria",
+      "location": "Galeria Chicago",
+      "date": "Fri, May 8 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-188681"
+    },
+    {
       "slug": "183582",
       "name": "Road To Sueños | Sazòn Party",
       "location": "Reserv",
-      "date": "Sat, May 9 at 5:00 PM CDT",
+      "date": "Sat, May 9 at 2:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-saz-n-party-183582"
     },
     {
@@ -58,6 +72,13 @@
       "location": "Reserv",
       "date": "Sat, May 9 at 8:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185593"
+    },
+    {
+      "slug": "188682",
+      "name": "La Casita | Galeria",
+      "location": "Galeria Chicago",
+      "date": "Sat, May 9 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-188682"
     },
     {
       "slug": "179829",
@@ -121,27 +142,6 @@
       "location": "Gold Coast Social",
       "date": "Sun, May 17 at 11:00 AM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/la-cura-brunch-sundays-21--179830"
-    },
-    {
-      "slug": "183119",
-      "name": "Nordista Freeze",
-      "location": "Ramova Loft",
-      "date": "Sun, May 17 at 7:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/nordista-freeze-183119"
-    },
-    {
-      "slug": "168970",
-      "name": "CHAOS & CARNAGE 2026",
-      "location": "Ramova Theatre ",
-      "date": "Tue, May 19 at 4:45 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/chaos-carnage-2026-168970"
-    },
-    {
-      "slug": "184071",
-      "name": "Fresa  | Road To Sueños",
-      "location": "Three Top Lounge",
-      "date": "Tue, May 19 at 9:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/fresa-road-to-sue-os-184071"
     }
   ]
 }

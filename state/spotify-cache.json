@@ -212,5 +212,25 @@
       "url": "https://open.spotify.com/artist/4EgndSRmm12ZJ13JqqJDBE",
       "genres": []
     }
+  },
+  "rinovrse": {
+    "cached_at": 1777934461.881488,
+    "data": {
+      "name": "LINO LEIA",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/3tabMLk2UZ0BBmsrORWMZV",
+      "genres": []
+    }
+  },
+  "la casita": {
+    "cached_at": 1777934462.9770174,
+    "data": {
+      "name": "Banda MS de Sergio Lizárraga",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2C6i0I5RiGzDKN9IAF8reh",
+      "genres": []
+    }
   }
 }
