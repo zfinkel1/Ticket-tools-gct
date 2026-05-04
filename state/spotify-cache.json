@@ -202,5 +202,15 @@
       "url": "https://open.spotify.com/artist/0wNZvrIMNUCs24G0wFg2D6",
       "genres": []
     }
+  },
+  "iron blossom festival": {
+    "cached_at": 1777926200.9116442,
+    "data": {
+      "name": "Ironbloom",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/4EgndSRmm12ZJ13JqqJDBE",
+      "genres": []
+    }
   }
 }
