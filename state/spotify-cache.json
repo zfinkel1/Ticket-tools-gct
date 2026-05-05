@@ -232,5 +232,15 @@
       "url": "https://open.spotify.com/artist/2C6i0I5RiGzDKN9IAF8reh",
       "genres": []
     }
+  },
+  "the menzingers: everything i ever saw north american": {
+    "cached_at": 1777991930.7603183,
+    "data": {
+      "name": "The Menzingers",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/7HWFXU9pHBj0u58yoRwwOJ",
+      "genres": []
+    }
   }
 }
