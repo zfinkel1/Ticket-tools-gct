@@ -242,5 +242,25 @@
       "url": "https://open.spotify.com/artist/7HWFXU9pHBj0u58yoRwwOJ",
       "genres": []
     }
+  },
+  "embodied: a pride x juneteenth variety show": {
+    "cached_at": 1778090880.7693133,
+    "data": {
+      "name": "Embodied Rhythm",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/1uRAQPjwI4TtHTSKzr122s",
+      "genres": []
+    }
+  },
+  "black marble": {
+    "cached_at": 1778090881.9823952,
+    "data": {
+      "name": "Black Marble",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/6Nii4K84ZzBZS8X2MP8c9t",
+      "genres": []
+    }
   }
 }
