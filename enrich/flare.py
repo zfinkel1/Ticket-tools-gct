@@ -38,7 +38,7 @@ STATE_DIR = Path(__file__).resolve().parent.parent / "state"
 EVENTS_CACHE_PATH = STATE_DIR / "flare-events-cache.json"
 SOLD_CACHE_PATH = STATE_DIR / "flare-sold-cache.json"
 
-EVENTS_TTL_SECONDS = 24 * 3600       # All-events: refresh once a day
+EVENTS_TTL_SECONDS = 6 * 3600        # All-events: refresh every 6h (Flare allows 4/day, this exactly fits)
 SOLD_TTL_SECONDS = 7 * 24 * 3600     # Sold data per event: 1 week
 HISTORY_LOOKBACK_DAYS = 365 * 3      # 3 years of past shows
 
