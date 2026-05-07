@@ -1,42 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-05-07T22:44:03.585622Z",
-  "count": 5,
-  "events": [
-    {
-      "slug": "Z7r9jZ1A7xvod",
-      "name": "Disclosure with TSHA (18+ Event)",
-      "location": "Radius - Chicago",
-      "date": "Fri, May 8, 2026 · 10:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xvod"
-    },
-    {
-      "slug": "Z7r9jZ1A7O4Ck",
-      "name": "The Martinez Brothers Present Orbita (18+ with Valid Government ID)",
-      "location": "Radius - Chicago",
-      "date": "Fri, May 15, 2026 · 10:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O4Ck"
-    },
-    {
-      "slug": "Z7r9jZ1A7OzG7",
-      "name": "Dillstradamus (18+ Event)",
-      "location": "Radius - Chicago",
-      "date": "Sat, May 16, 2026 · 10:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OzG7"
-    },
-    {
-      "slug": "Z7r9jZ1A7xFJ3",
-      "name": "Jack White (All Ages to Enter, 21 and Over to Drink)",
-      "location": "Radius - Chicago",
-      "date": "Thu, Jul 23, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFJ3"
-    },
-    {
-      "slug": "Z7r9jZ1A7-yq4",
-      "name": "Oskar med K (18+ event)",
-      "location": "Radius - Chicago",
-      "date": "Sat, Sep 12, 2026 · 10:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-yq4"
-    }
-  ]
+  "last_run": "2026-05-07T23:37:46.272751Z",
+  "count": 0,
+  "events": []
 }
