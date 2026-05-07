@@ -270,6 +270,112 @@ def enrich_event_with_history(event, fetch_sold=True):
     return event
 
 
+def _match_flare_event(event):
+    """
+    Look up the new watcher event in Flare's all-events cache. Match on
+    artist + venue + date. Returns the Flare event record (with sh_id,
+    min_price etc.) or None.
+    """
+    artist = extract_artist(event.get("name", ""))
+    if not artist:
+        return None
+    target_artist = _normalize(artist)
+    target_venue = _normalize(event.get("location", ""))
+
+    # Date in the watcher event is human-formatted ("Sat, Jun 14 at 8:00 PM CDT").
+    # Try to extract YYYY-MM-DD from it; fall back to no date filter.
+    date_str = str(event.get("date") or "")
+    target_year = None
+    m = re.search(r"\b(20\d{2})\b", date_str)
+    if m:
+        target_year = int(m.group(1))
+
+    events = fetch_all_events()
+    if not events:
+        return None
+
+    for ev in events:
+        ev_artist = _event_artist(ev)
+        if not ev_artist or _normalize(ev_artist) != target_artist:
+            continue
+        # Optional venue match — a heavy lift for fuzzy mismatches, so soft check.
+        ev_venue = _normalize(
+            ev.get("event_location_name") or ev.get("venue_name") or ""
+        )
+        if target_venue and ev_venue and target_venue not in ev_venue and ev_venue not in target_venue:
+            continue
+        # Optional year match if we could parse one
+        if target_year:
+            ev_date = _event_date(ev)
+            if ev_date and ev_date.year != target_year:
+                continue
+        return ev
+    return None
+
+
+def enrich_event_with_current_sold(event):
+    """
+    For the new event itself (not the artist's history), look up its
+    StubHub sold data and surface what's already changed hands. Adds
+    'current_sold' key to event:
+      {sh_id, sold_count, min_price, median_price, max_price, avg_price,
+       last_sold_date}
+    Uses 1 Flare get-sold-data call per matched event (1000/day budget).
+    """
+    if "current_sold" in event:
+        return event
+
+    flare_event = _match_flare_event(event)
+    if not flare_event:
+        event["current_sold"] = None
+        return event
+
+    sh_id = flare_event.get("sh_id") or flare_event.get("SH_id")
+    if not sh_id:
+        event["current_sold"] = {"flare_event_id": flare_event.get("id"), "sh_id": None}
+        return event
+
+    sold = fetch_sold_data(sh_id)
+    if not sold:
+        event["current_sold"] = {"sh_id": sh_id, "sold_count": 0}
+        return event
+
+    prices = []
+    last_date = None
+    for s in sold:
+        try:
+            p = float(s.get("price") or 0)
+            qty = int(s.get("quantity") or 1)
+        except Exception:
+            continue
+        if p <= 0:
+            continue
+        # Each row is a sale; weight by quantity for accurate avg
+        prices.extend([p] * max(1, qty))
+        d = s.get("sold_date")
+        if d and (last_date is None or d > last_date):
+            last_date = d
+
+    if not prices:
+        event["current_sold"] = {"sh_id": sh_id, "sold_count": 0}
+        return event
+
+    prices_sorted = sorted(prices)
+    n = len(prices_sorted)
+    median = prices_sorted[n // 2] if n % 2 else (prices_sorted[n // 2 - 1] + prices_sorted[n // 2]) / 2
+
+    event["current_sold"] = {
+        "sh_id": sh_id,
+        "sold_count": n,
+        "min_price": round(min(prices_sorted), 2),
+        "max_price": round(max(prices_sorted), 2),
+        "median_price": round(median, 2),
+        "avg_price": round(sum(prices_sorted) / n, 2),
+        "last_sold_date": last_date,
+    }
+    return event
+
+
 # ───────────────────────── Email-rendering helpers ─────────────────────────
 
 def history_html(event):
@@ -306,5 +412,40 @@ def history_html(event):
     return (
         '<div style="margin-top:6px;font-size:11px;color:#666;">'
         + 'GCT history: ' + ' &middot; '.join(bits)
+        + '</div>'
+    )
+
+
+def current_sold_html(event):
+    """
+    Render what THIS event has actually sold for so far on StubHub.
+    Different from history_html (which is the artist's past shows).
+    Empty when there's no SH match or no sold data yet.
+    """
+    cs = event.get("current_sold")
+    if not cs:
+        return ""
+    if not cs.get("sh_id"):
+        return ""
+    sold_count = cs.get("sold_count") or 0
+    if sold_count == 0:
+        return (
+            '<div style="margin-top:4px;font-size:11px;color:#999;">'
+            'StubHub: <span style="color:#aaa;">no sales yet</span>'
+            '</div>'
+        )
+
+    avg = cs.get("avg_price")
+    median = cs.get("median_price")
+    lo = cs.get("min_price")
+    hi = cs.get("max_price")
+    bits = [f'<strong style="color:#0d1b3e;">{sold_count:,} sold</strong>']
+    if median is not None:
+        bits.append(f'median <strong>${median:.0f}</strong>')
+    if lo is not None and hi is not None and lo != hi:
+        bits.append(f'range ${lo:.0f}–${hi:.0f}')
+    return (
+        '<div style="margin-top:4px;font-size:11px;color:#666;">'
+        + 'StubHub now: ' + ' &middot; '.join(bits)
         + '</div>'
     )

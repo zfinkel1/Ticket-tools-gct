@@ -28,7 +28,12 @@ from pathlib import Path
 from parsers import PARSERS
 from sites import SITES
 from enrich.spotify import enrich_event, format_followers, popularity_label
-from enrich.flare import enrich_event_with_history, history_html
+from enrich.flare import (
+    enrich_event_with_history,
+    history_html,
+    enrich_event_with_current_sold,
+    current_sold_html,
+)
 
 STATE_DIR = Path(__file__).parent / "state"
 
@@ -138,6 +143,7 @@ def build_email(by_site):
             url = e.get("url", "#")
             enrichment_html = _enrichment_html(e)
             history_block = history_html(e)
+            current_sold_block = current_sold_html(e)
             rows.append(f"""
               <tr><td style="padding:14px 16px;border-bottom:1px solid #eee;">
                 <div style="font-size:15px;font-weight:700;color:#0d1b3e;margin-bottom:4px;">
@@ -146,6 +152,7 @@ def build_email(by_site):
                 <div style="font-size:13px;color:#666;">{date}{' · ' + loc if loc else ''}</div>
                 {enrichment_html}
                 {history_block}
+                {current_sold_block}
               </td></tr>
             """)
         sections.append(f"""
@@ -250,6 +257,10 @@ def main():
                     enrich_event_with_history(ev)
                 except Exception as e:
                     print(f"[warn] flare history failed for {ev.get('name','?')}: {e}")
+                try:
+                    enrich_event_with_current_sold(ev)
+                except Exception as e:
+                    print(f"[warn] current sold lookup failed for {ev.get('name','?')}: {e}")
         html = build_email(new_by_site)
         try:
             status = send_email(
