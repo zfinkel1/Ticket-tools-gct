@@ -262,5 +262,15 @@
       "url": "https://open.spotify.com/artist/6Nii4K84ZzBZS8X2MP8c9t",
       "genres": []
     }
+  },
+  "four chord": {
+    "cached_at": 1778173874.11358,
+    "data": {
+      "name": "The Axis of Awesome",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/1oKEwFVWeM8KoMK8p5pOoe",
+      "genres": []
+    }
   }
 }

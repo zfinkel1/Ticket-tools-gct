@@ -1,6 +1,6 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-05-07T15:18:25.836984Z",
+  "last_run": "2026-05-07T17:11:02.375544Z",
   "count": 100,
   "events": [
     {
@@ -627,6 +627,13 @@
       "url": "https://www.frontgatetickets.com/events/oceans-calling-festival"
     },
     {
+      "slug": "four-chord",
+      "name": "Four Chord",
+      "location": "Pittsburgh, PA",
+      "date": "September 25, 2026",
+      "url": "https://www.frontgatetickets.com/events/four-chord"
+    },
+    {
       "slug": "aftershock",
       "name": "Aftershock",
       "location": "Sacramento, CA",
@@ -695,13 +702,6 @@
       "location": "San Bernardino, CA",
       "date": "October 30, 2026",
       "url": "https://www.frontgatetickets.com/events/escape-halloween"
-    },
-    {
-      "slug": "edc-orlando",
-      "name": "EDC Orlando",
-      "location": "Orlando, FL",
-      "date": "November 6, 2026",
-      "url": "https://www.frontgatetickets.com/events/edc-orlando"
     }
   ]
 }
