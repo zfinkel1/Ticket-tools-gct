@@ -1,7 +1,7 @@
 {
   "site": "Park West",
-  "last_run": "2026-05-07T20:23:15.207379Z",
-  "count": 12,
+  "last_run": "2026-05-07T21:31:36.041241Z",
+  "count": 14,
   "events": [
     {
       "slug": "Z7r9jZ1A7jsZ-",
@@ -60,6 +60,13 @@
       "url": "https://www.axs.com/events/1392930/pour-minds-podcast-still-sippin-tour-tickets"
     },
     {
+      "slug": "Z7r9jZ1A7x9JZ",
+      "name": "Mariachi Sol De Mexico",
+      "location": "Park West, Chicago",
+      "date": "Fri, Jun 26, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x9JZ"
+    },
+    {
       "slug": "Z7r9jZ1A7-tO0",
       "name": "The Strike",
       "location": "Park West, Chicago",
@@ -86,6 +93,13 @@
       "location": "Park West, Chicago",
       "date": "Fri, Jul 24, 2026 · 8:00 PM",
       "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFaS"
+    },
+    {
+      "slug": "Z7r9jZ1A7x9Py",
+      "name": "Majah Hype",
+      "location": "Park West, Chicago",
+      "date": "Sat, Jul 25, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x9Py"
     }
   ]
 }

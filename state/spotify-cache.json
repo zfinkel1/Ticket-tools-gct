@@ -272,5 +272,75 @@
       "url": "https://open.spotify.com/artist/1oKEwFVWeM8KoMK8p5pOoe",
       "genres": []
     }
+  },
+  "mariachi sol de mexico": {
+    "cached_at": 1778189502.123073,
+    "data": {
+      "name": "Mariachi Sol De Mexico De Jose Hernandez",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/0MnQvecFg1VbNkiFcPnsaG",
+      "genres": []
+    }
+  },
+  "majah hype": {
+    "cached_at": 1778189507.3781102,
+    "data": {
+      "name": "Majah Hype",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/5Nit60fR3etriaXHo52fY5",
+      "genres": []
+    }
+  },
+  "disclosure": {
+    "cached_at": 1778189517.4460757,
+    "data": {
+      "name": "Disclosure",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/6nS5roXSAGhTGr34W6n7Et",
+      "genres": []
+    }
+  },
+  "the martinez brothers present orbita (18+": {
+    "cached_at": 1778189522.671532,
+    "data": {
+      "name": "Orbital",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/3csPCeXsj2wezyvkRFzvmV",
+      "genres": []
+    }
+  },
+  "dillstradamus": {
+    "cached_at": 1778189528.4455826,
+    "data": {
+      "name": "Flosstradamus",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2FmzVitXZjIkFolH8HXd4j",
+      "genres": []
+    }
+  },
+  "jack white": {
+    "cached_at": 1778189534.036344,
+    "data": {
+      "name": "Jack White",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/4FZ3j1oH43e7cukCALsCwf",
+      "genres": []
+    }
+  },
+  "oskar med k": {
+    "cached_at": 1778189539.9424057,
+    "data": {
+      "name": "oskar med k",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/28ntgpEkMU9Zm7F3gLDMhZ",
+      "genres": []
+    }
   }
 }
