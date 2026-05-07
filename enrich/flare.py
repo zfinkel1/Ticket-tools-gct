@@ -36,9 +36,11 @@ FLARE_TOKEN_DEFAULT = "db2fa5131eb5750f1fae2fe167a09219a95e86fc"
 
 STATE_DIR = Path(__file__).resolve().parent.parent / "state"
 EVENTS_CACHE_PATH = STATE_DIR / "flare-events-cache.json"
+FAVORITES_CACHE_PATH = STATE_DIR / "flare-favorites-cache.json"
 SOLD_CACHE_PATH = STATE_DIR / "flare-sold-cache.json"
 
 EVENTS_TTL_SECONDS = 6 * 3600        # All-events: refresh every 6h (Flare allows 4/day, this exactly fits)
+FAVORITES_TTL_SECONDS = 1 * 3600     # Favorites: refresh hourly (1000/day budget — plenty)
 SOLD_TTL_SECONDS = 7 * 24 * 3600     # Sold data per event: 1 week
 HISTORY_LOOKBACK_DAYS = 365 * 3      # 3 years of past shows
 
@@ -97,6 +99,34 @@ def fetch_all_events(force=False):
     return events
 
 
+def fetch_favorited_events(force=False):
+    """
+    Returns the cached Flare favorites list — events GCT has previously
+    tracked. Includes past + upcoming. This is the actual source of
+    historical-resale signal because favorites accumulate over time;
+    all-events is mostly upcoming only. Refreshes hourly (1000/day budget).
+    """
+    cache = _read_json(FAVORITES_CACHE_PATH) or {}
+    if not force and cache.get("fetched_at"):
+        if time.time() - cache["fetched_at"] < FAVORITES_TTL_SECONDS:
+            return cache.get("events", [])
+
+    url = f"{FLARE_BASE}/api/primary-favorite-events?token={_token()}"
+    try:
+        data = _http_get(url, timeout=60)
+    except Exception as e:
+        print(f"[flare] favorites fetch failed: {e}")
+        return cache.get("events", [])
+
+    events = data.get("data") if isinstance(data, dict) else None
+    if not events:
+        events = data if isinstance(data, list) else []
+
+    _write_json(FAVORITES_CACHE_PATH, {"fetched_at": time.time(), "events": events})
+    print(f"[flare] cached {len(events)} favorited events")
+    return events
+
+
 def fetch_sold_data(sh_id):
     """Returns sold-data list for a StubHub event, cached locally."""
     if not sh_id:
@@ -147,12 +177,16 @@ def _event_date(event):
 def find_history(artist_name, max_shows=20):
     """
     Returns a list of past Flare events for this artist, sorted newest
-    first. Only includes shows whose event_date is in the past and
-    within HISTORY_LOOKBACK_DAYS.
+    first. Pulls from the favorites endpoint (events GCT has tracked
+    over time) — all-events is mostly upcoming and would always return
+    nothing for past-show lookup.
+
+    Only includes shows whose event_date is in the past and within
+    HISTORY_LOOKBACK_DAYS.
     """
     if not artist_name:
         return []
-    events = fetch_all_events()
+    events = fetch_favorited_events()
     if not events:
         return []
 
@@ -206,7 +240,8 @@ def aggregate_history(past_events, fetch_sold=True):
 
         if not fetch_sold or enriched >= SOLD_FETCH_LIMIT:
             continue
-        sh_id = ev.get("sh_id")
+        # Flare uses inconsistent field casing across endpoints; try common shapes.
+        sh_id = ev.get("sh_id") or ev.get("SH_id") or ev.get("stubhub_id")
         if not sh_id:
             continue
         enriched += 1
@@ -330,7 +365,7 @@ def enrich_event_with_current_sold(event):
         event["current_sold"] = None
         return event
 
-    sh_id = flare_event.get("sh_id") or flare_event.get("SH_id")
+    sh_id = flare_event.get("sh_id") or flare_event.get("SH_id") or flare_event.get("stubhub_id")
     if not sh_id:
         event["current_sold"] = {"flare_event_id": flare_event.get("id"), "sh_id": None}
         return event
