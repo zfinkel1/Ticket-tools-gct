@@ -34,6 +34,7 @@ from enrich.flare import (
     enrich_event_with_current_sold,
     current_sold_html,
 )
+from enrich.stubhub import enrich_event_with_listing, current_listing_html
 
 STATE_DIR = Path(__file__).parent / "state"
 
@@ -144,6 +145,7 @@ def build_email(by_site):
             enrichment_html = _enrichment_html(e)
             history_block = history_html(e)
             current_sold_block = current_sold_html(e)
+            current_listing_block = current_listing_html(e)
             rows.append(f"""
               <tr><td style="padding:14px 16px;border-bottom:1px solid #eee;">
                 <div style="font-size:15px;font-weight:700;color:#0d1b3e;margin-bottom:4px;">
@@ -153,6 +155,7 @@ def build_email(by_site):
                 {enrichment_html}
                 {history_block}
                 {current_sold_block}
+                {current_listing_block}
               </td></tr>
             """)
         sections.append(f"""
@@ -261,6 +264,13 @@ def main():
                     enrich_event_with_current_sold(ev)
                 except Exception as e:
                     print(f"[warn] current sold lookup failed for {ev.get('name','?')}: {e}")
+                # Fallback to scraping StubHub directly only if Flare doesn't have
+                # the event mapped yet (no sold data). Skips if Flare already has
+                # signal — saves ~10 ScraperAPI credits per skipped event.
+                try:
+                    enrich_event_with_listing(ev)
+                except Exception as e:
+                    print(f"[warn] stubhub listing scrape failed for {ev.get('name','?')}: {e}")
         html = build_email(new_by_site)
         try:
             status = send_email(
