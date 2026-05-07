@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-07T04:57:52.591469Z",
-  "count": 50,
+  "last_run": "2026-05-07T07:46:53.692407Z",
+  "count": 49,
   "events": [
-    {
-      "slug": "newdad-freak-slug",
-      "name": "NewDad",
-      "location": "",
-      "date": "Wed, May 06",
-      "url": "https://metrochicago.com/event/newdad-freak-slug/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "vnv-nation",
       "name": "VNV Nation",
