@@ -1,6 +1,6 @@
 {
   "site": "Subterranean",
-  "last_run": "2026-05-08T17:47:25.451397Z",
+  "last_run": "2026-05-08T19:22:24.169365Z",
   "count": 3,
   "events": [
     {
@@ -8,21 +8,36 @@
       "name": "Vacations",
       "location": "Subterranean, Chicago",
       "date": "Sat, Jun 13, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x7_4"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x7_4",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-06-14T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7x7_p",
       "name": "Vacations",
       "location": "Subterranean, Chicago",
       "date": "Sun, Jun 14, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x7_p"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x7_p",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-06-15T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7xFPw",
       "name": "Sub Urban",
       "location": "Subterranean, Chicago",
       "date": "Thu, Sep 24, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFPw"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFPw",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-09-25T00:00:00Z",
+        "presales": []
+      }
     }
   ]
 }

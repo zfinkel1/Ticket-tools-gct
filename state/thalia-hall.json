@@ -1,630 +1,1099 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-08T17:47:23.913745Z",
-  "count": 89,
+  "last_run": "2026-05-08T19:22:43.617788Z",
+  "count": 90,
   "events": [
     {
       "slug": "Z7r9jZ1A7qfFU",
       "name": "LA Dispute w/ From Indian Lakes",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, May 8, 2026 · 7:45 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qfFU"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qfFU",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-09T00:45:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfbouN",
       "name": "*SOLD OUT* La Dispute with From Indian Lakes and Flooding",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, May 8, 2026 · 7:45 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-la-dispute-with-thalia-hall-tickets/14611363"
+      "url": "https://www.ticketweb.com/event/sold-out-la-dispute-with-thalia-hall-tickets/14611363",
+      "sales": {
+        "public_start": "2025-10-15T17:00:00Z",
+        "public_end": "2026-05-09T00:45:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZao7",
-      "name": "Club 1BD Chicago",
+      "name": "*SOLD OUT* Club 1BD Chicago",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, May 9, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/club-1bd-chicago-thalia-hall-tickets/14009444"
+      "url": "https://www.ticketweb.com/event/sold-out-club-1bd-chicago-thalia-hall-tickets/14009444",
+      "sales": {
+        "public_start": "2025-12-27T16:00:00Z",
+        "public_end": "2026-05-10T04:50:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7ON-s",
       "name": "Claire Rosinkranz",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, May 10, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ON-s"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ON-s",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-05-11T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7jgrF",
       "name": "Melody's Echo Chamber",
       "location": "Thalia Hall, Chicago",
       "date": "Mon, May 11, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jgrF"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jgrF",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-12T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfpZ3d",
       "name": "Melody’s Echo Chamber – Unclouded Tour with Strange Lot",
       "location": "Thalia Hall, Chicago",
       "date": "Mon, May 11, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/melodys-echo-chamber-unclouded-thalia-hall-tickets/14580483"
+      "url": "https://www.ticketweb.com/event/melodys-echo-chamber-unclouded-thalia-hall-tickets/14580483",
+      "sales": {
+        "public_start": "2025-10-01T15:00:00Z",
+        "public_end": "2026-05-12T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af7P17",
       "name": "Gia Margaret is on tour s i n g i n g with Brendan Eder Ensemble",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, May 12, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/gia-margaret-is-on-tour-thalia-hall-tickets/14125284"
+      "url": "https://www.ticketweb.com/event/gia-margaret-is-on-tour-thalia-hall-tickets/14125284",
+      "sales": {
+        "public_start": "2026-02-05T16:00:00Z",
+        "public_end": "2026-05-13T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af77Ff",
       "name": "Maye & Ambar Lucid - Entre Dos Mundos Tour with special guest Judith",
       "location": "Thalia Hall, Chicago",
       "date": "Wed, May 13, 2026 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/maye-ambar-lucid-thalia-hall-tickets/14104214"
+      "url": "https://www.ticketweb.com/event/maye-ambar-lucid-thalia-hall-tickets/14104214",
+      "sales": {
+        "public_start": "2026-01-28T16:00:00Z",
+        "public_end": "2026-05-14T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7qy-s",
       "name": "Twin Peaks",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, May 14, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qy-s"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qy-s",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-15T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af_gFS",
       "name": "*SOLD OUT* Twin Peaks with NE-HI",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, May 14, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14675233"
+      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14675233",
+      "sales": {
+        "public_start": "2025-11-11T16:00:00Z",
+        "public_end": "2026-05-15T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7qy-Y",
       "name": "Twin Peaks",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, May 15, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qy-Y"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qy-Y",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-16T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af_g_d",
       "name": "*SOLD OUT* Twin Peaks with Lifeguard",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, May 15, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14675643"
+      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14675643",
+      "sales": {
+        "public_start": "2025-11-11T16:00:00Z",
+        "public_end": "2026-05-16T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7rAjZ",
       "name": "Twin Peaks",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, May 16, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rAjZ"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rAjZ",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-17T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfQ67d",
       "name": "*SOLD OUT* Twin Peaks with Pool Holograph and Carmen Christopher",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, May 16, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14687103"
+      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14687103",
+      "sales": {
+        "public_start": "2025-11-13T18:00:00Z",
+        "public_end": "2026-05-17T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7rAQ_",
       "name": "Twin Peaks",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, May 17, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rAQ_"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rAQ_",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-18T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfQ67N",
       "name": "*SOLD OUT* Twin Peaks with Neptune's Core and Carmen Christopher",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, May 17, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14687123"
+      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14687123",
+      "sales": {
+        "public_start": "2025-11-13T18:00:00Z",
+        "public_end": "2026-05-18T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7rkfO",
       "name": "Twin Peaks",
       "location": "Thalia Hall, Chicago",
       "date": "Mon, May 18, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rkfO"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rkfO",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-19T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfQ3bN",
       "name": "*SOLD OUT* Twin Peaks with Free Range",
       "location": "Thalia Hall, Chicago",
       "date": "Mon, May 18, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14692623"
+      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14692623",
+      "sales": {
+        "public_start": "2025-11-14T16:00:00Z",
+        "public_end": "2026-05-19T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7Os-w",
       "name": "Twin Peaks",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, May 19, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Os-w"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Os-w",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-20T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfQ3_d",
       "name": "*SOLD OUT* Twin Peaks with V.V. Lightbody",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, May 19, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14692643"
+      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14692643",
+      "sales": {
+        "public_start": "2025-11-14T16:00:00Z",
+        "public_end": "2026-05-20T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfQ3_K",
       "name": "*SOLD OUT* Twin Peaks with Finn Wolfhard",
       "location": "Thalia Hall, Chicago",
       "date": "Wed, May 20, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14692653"
+      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14692653",
+      "sales": {
+        "public_start": "2025-11-14T18:00:00Z",
+        "public_end": "2026-05-21T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfQ3_S",
       "name": "*SOLD OUT* Twin Peaks with Post Animal",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, May 21, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14692673"
+      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14692673",
+      "sales": {
+        "public_start": "2025-11-14T18:00:00Z",
+        "public_end": "2026-05-22T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfvNa0",
       "name": "Claire Rosinkranz - My Lover Tour with Stevie Bill",
       "location": "Thalia Hall, Chicago",
       "date": "Wed, May 27, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/claire-rosinkranz-my-thalia-hall-tickets/14063264"
+      "url": "https://www.ticketweb.com/event/claire-rosinkranz-my-thalia-hall-tickets/14063264",
+      "sales": {
+        "public_start": "2026-01-13T16:00:00Z",
+        "public_end": "2026-05-28T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af77j7",
       "name": "The Black Angels: Passover 2026 Tour with L.A. Witch",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, May 28, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/the-black-angels-passover-2026-thalia-hall-tickets/14104704"
+      "url": "https://www.ticketweb.com/event/the-black-angels-passover-2026-thalia-hall-tickets/14104704",
+      "sales": {
+        "public_start": "2026-01-28T16:00:00Z",
+        "public_end": "2026-05-29T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-4Px",
       "name": "Hemlocke Springs",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, May 30, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-4Px"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-4Px",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-31T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfAAQ7",
       "name": "*SOLD OUT* hemlocke springs - the apple tree under the sea tour",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, May 30, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-hemlocke-springs-thalia-hall-tickets/14145684"
+      "url": "https://www.ticketweb.com/event/sold-out-hemlocke-springs-thalia-hall-tickets/14145684",
+      "sales": {
+        "public_start": "2026-02-17T16:00:00Z",
+        "public_end": "2026-05-31T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZIA0",
       "name": "Cabeza De Chivo 'In the Round' with Vatos Tristes and Eva Maria (DJ Set)",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Jun 5, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/cabeza-de-chivo-in-the-thalia-hall-tickets/14028164"
+      "url": "https://www.ticketweb.com/event/cabeza-de-chivo-in-the-thalia-hall-tickets/14028164",
+      "sales": {
+        "public_start": "2026-03-12T17:00:00Z",
+        "public_end": "2026-06-06T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-ArK",
       "name": "*SOLD OUT* Earlybirds Club",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Jun 6, 2026 · 6:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-earlybirds-club-thalia-hall-tickets/14845793"
+      "url": "https://www.ticketweb.com/event/sold-out-earlybirds-club-thalia-hall-tickets/14845793",
+      "sales": {
+        "public_start": "2026-04-16T15:00:00Z",
+        "public_end": "2026-06-06T23:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfjMjK",
       "name": "Covet with LITE and Hikes",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, Jun 9, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/covet-with-lite-and-hikes-thalia-hall-tickets/14737713"
+      "url": "https://www.ticketweb.com/event/covet-with-lite-and-hikes-thalia-hall-tickets/14737713",
+      "sales": {
+        "public_start": "2026-03-05T16:00:00Z",
+        "public_end": "2026-06-10T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af763f",
       "name": "Yot Club – Simpleton Tour with Renny Conti",
       "location": "Thalia Hall, Chicago",
       "date": "Wed, Jun 10, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/yot-club-simpleton-tour-thalia-hall-tickets/14107494"
+      "url": "https://www.ticketweb.com/event/yot-club-simpleton-tour-thalia-hall-tickets/14107494",
+      "sales": {
+        "public_start": "2026-01-28T16:00:00Z",
+        "public_end": "2026-06-11T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af7IGf",
       "name": "*SOLD OUT* Boys and Girls in America 20 - The Hold Steady: Storytellers Set 'In the Round'",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Jun 11, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-boys-and-girls-thalia-hall-tickets/14128314"
+      "url": "https://www.ticketweb.com/event/sold-out-boys-and-girls-thalia-hall-tickets/14128314",
+      "sales": {
+        "public_start": "2026-02-10T16:00:00Z",
+        "public_end": "2026-06-12T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfAZZ7",
       "name": "Josiah and the Bonnevilles - The Redline North America Tour with Max Alan and Brenna MacMillan presented by Thalia Hall & Metro",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Jun 12, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/josiah-and-the-bonnevilles-thalia-hall-tickets/14140004"
+      "url": "https://www.ticketweb.com/event/josiah-and-the-bonnevilles-thalia-hall-tickets/14140004",
+      "sales": {
+        "public_start": "2026-02-11T16:00:00Z",
+        "public_end": "2026-06-13T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfjVxd",
       "name": "DeVotchKa - “A Tribute to the Music of Little Miss Sunshine”",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Jun 13, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/devotchka-a-tribute-thalia-hall-tickets/14734883"
+      "url": "https://www.ticketweb.com/event/devotchka-a-tribute-thalia-hall-tickets/14734883",
+      "sales": {
+        "public_start": "2025-12-12T17:00:00Z",
+        "public_end": "2026-06-14T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqxaK",
       "name": "Rostam - American Stories Tour with Henry Solomon presented by Thalia Hall and Audiotree",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Jun 14, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/rostam-american-stories-thalia-hall-tickets/14762253"
+      "url": "https://www.ticketweb.com/event/rostam-american-stories-thalia-hall-tickets/14762253",
+      "sales": {
+        "public_start": "2026-03-11T15:00:00Z",
+        "public_end": "2026-06-15T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-0CZ",
       "name": "Deer Tick (17+ Event)",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, Jun 16, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0CZ"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0CZ",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-06-17T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afq9AK",
       "name": "Deer Tick with Jobi Riccio",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, Jun 16, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/deer-tick-with-jobi-riccio-thalia-hall-tickets/14757153"
+      "url": "https://www.ticketweb.com/event/deer-tick-with-jobi-riccio-thalia-hall-tickets/14757153",
+      "sales": {
+        "public_start": "2026-03-10T16:00:00Z",
+        "public_end": "2026-06-17T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfAf37",
       "name": "Enter Shikari: North America 2026 with Boston Manor and Initiate presented by Thalia Hall and Riot Fest",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Jun 18, 2026 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/enter-shikari-north-america-2026-thalia-hall-tickets/14154484"
+      "url": "https://www.ticketweb.com/event/enter-shikari-north-america-2026-thalia-hall-tickets/14154484",
+      "sales": {
+        "public_start": "2026-02-18T16:00:00Z",
+        "public_end": "2026-06-19T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfAd_V",
       "name": "Son Rompe Pera presented by Thalia Hall and International Latino Cultural Center of Chicago",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Jun 19, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/son-rompe-pera-presented-by-thalia-hall-tickets/14143674"
+      "url": "https://www.ticketweb.com/event/son-rompe-pera-presented-by-thalia-hall-tickets/14143674",
+      "sales": {
+        "public_start": "2026-02-12T16:00:00Z",
+        "public_end": "2026-06-20T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afx_JK",
       "name": "Embodied: A Pride x Juneteenth Variety Show",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Jun 20, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/embodied-a-pride-x-juneteenth-thalia-hall-tickets/14899993"
+      "url": "https://www.ticketweb.com/event/embodied-a-pride-x-juneteenth-thalia-hall-tickets/14899993",
+      "sales": {
+        "public_start": "2026-05-06T17:00:00Z",
+        "public_end": "2026-06-21T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfvpZ7",
       "name": "Tigers Jaw with Pool Kids and Bleary Eyed presented by Thalia Hall and Riot Fest",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Jun 21, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/tigers-jaw-with-pool-kids-thalia-hall-tickets/14056004"
+      "url": "https://www.ticketweb.com/event/tigers-jaw-with-pool-kids-thalia-hall-tickets/14056004",
+      "sales": {
+        "public_start": "2026-01-08T15:00:00Z",
+        "public_end": "2026-06-22T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfvUPV",
       "name": "Ásgeir",
       "location": "Thalia Hall, Chicago",
       "date": "Wed, Jun 24, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sgeir-thalia-hall-tickets/14076974"
+      "url": "https://www.ticketweb.com/event/sgeir-thalia-hall-tickets/14076974",
+      "sales": {
+        "public_start": "2026-01-16T16:00:00Z",
+        "public_end": "2026-06-25T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqsOd",
       "name": "Daniel Donato's Cosmic Country presented by Deep Cut and Thalia Hall",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Jun 26, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/daniel-donatos-cosmic-country-presented-thalia-hall-tickets/14771803"
+      "url": "https://www.ticketweb.com/event/daniel-donatos-cosmic-country-presented-thalia-hall-tickets/14771803",
+      "sales": {
+        "public_start": "2026-03-17T16:00:00Z",
+        "public_end": "2026-06-27T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfrePd",
       "name": "Daniel Donato's Cosmic Country presented by Deep Cut and Thalia Hall - TWO DAY PASS",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Jun 26, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/daniel-donatos-cosmic-country-presented-thalia-hall-tickets/14782943"
+      "url": "https://www.ticketweb.com/event/daniel-donatos-cosmic-country-presented-thalia-hall-tickets/14782943",
+      "sales": {
+        "public_start": "2026-03-17T16:00:00Z",
+        "public_end": "2026-06-27T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqsOK",
       "name": "Daniel Donato's Cosmic Country presented by Deep Cut and Thalia Hall",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Jun 27, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/daniel-donatos-cosmic-country-presented-thalia-hall-tickets/14771813"
+      "url": "https://www.ticketweb.com/event/daniel-donatos-cosmic-country-presented-thalia-hall-tickets/14771813",
+      "sales": {
+        "public_start": "2026-03-17T16:00:00Z",
+        "public_end": "2026-06-28T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOtQK",
       "name": "Tiny Desk Contest On The Road 2026",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Jun 28, 2026 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/tiny-desk-contest-on-the-thalia-hall-tickets/14829693"
+      "url": "https://www.ticketweb.com/event/tiny-desk-contest-on-the-thalia-hall-tickets/14829693",
+      "sales": {
+        "public_start": "2026-04-07T17:00:00Z",
+        "public_end": "2026-06-29T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afqs-K",
       "name": "of Montreal with CorMae",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, Jun 30, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/of-montreal-with-cormae-thalia-hall-tickets/14771853"
+      "url": "https://www.ticketweb.com/event/of-montreal-with-cormae-thalia-hall-tickets/14771853",
+      "sales": {
+        "public_start": "2026-03-17T14:00:00Z",
+        "public_end": "2026-07-01T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqIvd",
       "name": "*SOLD OUT* Gianmarco Soresi: Drama King - 7PM Show",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Jul 9, 2026 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-gianmarco-soresi-drama-thalia-hall-tickets/14768043"
+      "url": "https://www.ticketweb.com/event/sold-out-gianmarco-soresi-drama-thalia-hall-tickets/14768043",
+      "sales": {
+        "public_start": "2026-03-18T15:00:00Z",
+        "public_end": "2026-07-10T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqIvK",
       "name": "*SOLD OUT* Gianmarco Soresi: Drama King - 9:30PM Show",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Jul 9, 2026 · 9:30 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-gianmarco-soresi-drama-thalia-hall-tickets/14768053"
+      "url": "https://www.ticketweb.com/event/sold-out-gianmarco-soresi-drama-thalia-hall-tickets/14768053",
+      "sales": {
+        "public_start": "2026-03-18T15:00:00Z",
+        "public_end": "2026-07-10T02:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfrK0N",
       "name": "*SOLD OUT* Gianmarco Soresi: Drama King - 7PM Show",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Jul 10, 2026 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-gianmarco-soresi-drama-thalia-hall-tickets/14793923"
+      "url": "https://www.ticketweb.com/event/sold-out-gianmarco-soresi-drama-thalia-hall-tickets/14793923",
+      "sales": {
+        "public_start": "2026-03-23T15:00:00Z",
+        "public_end": "2026-07-11T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfrK0S",
       "name": "Gianmarco Soresi: Drama King - 9:30PM Show",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Jul 10, 2026 · 9:30 PM",
-      "url": "https://www.ticketweb.com/event/gianmarco-soresi-drama-king-thalia-hall-tickets/14793933"
+      "url": "https://www.ticketweb.com/event/gianmarco-soresi-drama-king-thalia-hall-tickets/14793933",
+      "sales": {
+        "public_start": "2026-03-23T15:00:00Z",
+        "public_end": "2026-07-11T02:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7rkuM",
       "name": "Benjamin Tod",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Jul 11, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rkuM"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rkuM",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-07-12T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af_EaK",
       "name": "Benjamin Tod and the Inline Six 2026 Tour with Leon Majcen",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Jul 11, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/benjamin-tod-and-the-inline-thalia-hall-tickets/14667253"
+      "url": "https://www.ticketweb.com/event/benjamin-tod-and-the-inline-thalia-hall-tickets/14667253",
+      "sales": {
+        "public_start": "2025-11-18T16:00:00Z",
+        "public_end": "2026-07-12T01:00:00Z",
+        "presales": []
+      }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0ZFS",
+      "name": "The Chicago Mexican Folk Fest",
+      "location": "Thalia Hall, Chicago",
+      "date": "Sun, Jul 12, 2026 · 4:00 PM",
+      "url": "https://www.ticketweb.com/event/the-chicago-mexican-folk-fest-thalia-hall-tickets/14900233",
+      "sales": {
+        "public_start": "2026-05-08T19:00:00Z",
+        "public_end": "2026-07-12T21:00:00Z",
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "The Chicago Mexican Folk Fest",
+        "name": "Los Macorinos",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/1ldFRYgmjxDrX27bIe3dWx",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfkeoV",
       "name": "Sistas Who Kill: Back From The Dead",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Jul 17, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sistas-who-kill-back-from-thalia-hall-tickets/14182474"
+      "url": "https://www.ticketweb.com/event/sistas-who-kill-back-from-thalia-hall-tickets/14182474",
+      "sales": {
+        "public_start": "2026-02-26T15:00:00Z",
+        "public_end": "2026-07-18T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afq4GS",
       "name": "Wilderado with Luke Tyler Shelton",
       "location": "Thalia Hall, Chicago",
       "date": "Wed, Jul 22, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/wilderado-with-luke-tyler-shelton-thalia-hall-tickets/14755333"
+      "url": "https://www.ticketweb.com/event/wilderado-with-luke-tyler-shelton-thalia-hall-tickets/14755333",
+      "sales": {
+        "public_start": "2026-03-12T15:00:00Z",
+        "public_end": "2026-07-23T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-eFK",
       "name": "Kylesa with Yakuza and Cloud Rat",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Jul 24, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/kylesa-with-yakuza-and-cloud-thalia-hall-tickets/14842213"
+      "url": "https://www.ticketweb.com/event/kylesa-with-yakuza-and-cloud-thalia-hall-tickets/14842213",
+      "sales": {
+        "public_start": "2026-04-16T17:00:00Z",
+        "public_end": "2026-07-25T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-tfN",
       "name": "RX Bandits (17 and Over)",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Jul 25, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-tfN"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-tfN",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-07-26T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af7Vpf",
       "name": "Rx Bandits - And The Battle Begun 20th Anniversary Tour with Catbite supporting",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Jul 25, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/rx-bandits-and-thalia-hall-tickets/14134594"
+      "url": "https://www.ticketweb.com/event/rx-bandits-and-thalia-hall-tickets/14134594",
+      "sales": {
+        "public_start": "2026-02-19T16:00:00Z",
+        "public_end": "2026-07-26T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-yqK",
       "name": "We Rock! Chicago End-of-Camp Extravaganza",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Jul 26, 2026 · 12:00 PM",
-      "url": "https://www.ticketweb.com/event/we-rock-chicago-end-of-thalia-hall-tickets/14879753"
+      "url": "https://www.ticketweb.com/event/we-rock-chicago-end-of-thalia-hall-tickets/14879753",
+      "sales": {
+        "public_start": "2026-04-27T17:00:00Z",
+        "public_end": "2026-07-26T17:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-ebd",
       "name": "Red Vox ft. special guests Super Guitar Bros. presented by Thalia Hall and Kickstand Productions",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, Jul 28, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/red-vox-ft-special-guests-thalia-hall-tickets/14842603"
+      "url": "https://www.ticketweb.com/event/red-vox-ft-special-guests-thalia-hall-tickets/14842603",
+      "sales": {
+        "public_start": "2026-04-15T15:00:00Z",
+        "public_end": "2026-07-29T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-VGv",
       "name": "Steel Pulse (17 and Over)",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Aug 9, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VGv"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-VGv",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-08-10T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfraGd",
       "name": "Steel Pulse - Reggae Against Racism Tour",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Aug 9, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/steel-pulse-reggae-thalia-hall-tickets/14789303"
+      "url": "https://www.ticketweb.com/event/steel-pulse-reggae-thalia-hall-tickets/14789303",
+      "sales": {
+        "public_start": "2026-03-19T14:00:00Z",
+        "public_end": "2026-08-10T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-6ZS",
       "name": "Fiddlehead 'In the Round' with Narrow Head, Knumears, and The Sissy Boys presented by Thalia Hall and Riot Fest",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Aug 14, 2026 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/fiddlehead-in-the-round-with-thalia-hall-tickets/14847033"
+      "url": "https://www.ticketweb.com/event/fiddlehead-in-the-round-with-thalia-hall-tickets/14847033",
+      "sales": {
+        "public_start": "2026-04-16T15:00:00Z",
+        "public_end": "2026-08-15T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-Y_K",
       "name": "Citizen with Anxious, Hotline TNT, and Rocket",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, Aug 18, 2026 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/citizen-with-anxious-hotline-tnt-thalia-hall-tickets/14870653"
+      "url": "https://www.ticketweb.com/event/citizen-with-anxious-hotline-tnt-thalia-hall-tickets/14870653",
+      "sales": {
+        "public_start": "2026-04-29T16:00:00Z",
+        "public_end": "2026-08-19T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-YQd",
       "name": "Citizen with Hotline TNT, Anxious, and Rocket",
       "location": "Thalia Hall, Chicago",
       "date": "Wed, Aug 19, 2026 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/citizen-with-hotline-tnt-anxious-thalia-hall-tickets/14870683"
+      "url": "https://www.ticketweb.com/event/citizen-with-hotline-tnt-anxious-thalia-hall-tickets/14870683",
+      "sales": {
+        "public_start": "2026-04-29T16:00:00Z",
+        "public_end": "2026-08-20T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfO93K",
       "name": "Monolord with Khemmis",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Aug 27, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/monolord-with-khemmis-thalia-hall-tickets/14817493"
+      "url": "https://www.ticketweb.com/event/monolord-with-khemmis-thalia-hall-tickets/14817493",
+      "sales": {
+        "public_start": "2026-03-31T17:00:00Z",
+        "public_end": "2026-08-28T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfxpkK",
       "name": "Black Marble with Public Circuit and Jimmy Cicero",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Sep 5, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/black-marble-with-public-circuit-thalia-hall-tickets/14896193"
+      "url": "https://www.ticketweb.com/event/black-marble-with-public-circuit-thalia-hall-tickets/14896193",
+      "sales": {
+        "public_start": "2026-05-06T17:00:00Z",
+        "public_end": "2026-09-06T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZIkf",
       "name": "ALDOUS HARDING with Sam Burton",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Sep 18, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/aldous-harding-with-sam-burton-thalia-hall-tickets/14028194"
+      "url": "https://www.ticketweb.com/event/aldous-harding-with-sam-burton-thalia-hall-tickets/14028194",
+      "sales": {
+        "public_start": "2026-01-14T16:00:00Z",
+        "public_end": "2026-09-19T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-9fS",
       "name": "The Secret Sisters with Mary Bragg",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Sep 24, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/the-secret-sisters-with-mary-thalia-hall-tickets/14857533"
+      "url": "https://www.ticketweb.com/event/the-secret-sisters-with-mary-thalia-hall-tickets/14857533",
+      "sales": {
+        "public_start": "2026-04-23T17:00:00Z",
+        "public_end": "2026-09-25T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfAZ17",
       "name": "Paula Cole - THIS FIRE: 30",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Sep 25, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/paula-cole-this-thalia-hall-tickets/14140284"
+      "url": "https://www.ticketweb.com/event/paula-cole-this-thalia-hall-tickets/14140284",
+      "sales": {
+        "public_start": "2026-02-11T16:00:00Z",
+        "public_end": "2026-09-26T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-tf0",
       "name": "Arlo Parks (17 and Over)",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, Sep 29, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-tf0"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-tf0",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-09-30T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqfPN",
       "name": "ARLO PARKS - DESIRE TOUR",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, Sep 29, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/arlo-parks-desire-thalia-hall-tickets/14754963"
+      "url": "https://www.ticketweb.com/event/arlo-parks-desire-thalia-hall-tickets/14754963",
+      "sales": {
+        "public_start": "2026-03-10T15:00:00Z",
+        "public_end": "2026-09-30T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-ord",
       "name": "SYML - Solo in North America 2026",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Oct 8, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/syml-solo-in-thalia-hall-tickets/14851783"
+      "url": "https://www.ticketweb.com/event/syml-solo-in-thalia-hall-tickets/14851783",
+      "sales": {
+        "public_start": "2026-04-29T15:00:00Z",
+        "public_end": "2026-10-09T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AKJ7af",
       "name": "Armand Hammer",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Oct 10, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/armand-hammer-thalia-hall-tickets/13984254"
+      "url": "https://www.ticketweb.com/event/armand-hammer-thalia-hall-tickets/13984254",
+      "sales": {
+        "public_start": "2026-01-08T16:00:00Z",
+        "public_end": "2026-10-11T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A70vfE",
       "name": "EMEI - Night at the Opera Tour",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Oct 11, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70vfE"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70vfE",
+      "sales": {
+        "public_start": "2026-04-28T15:00:00Z",
+        "public_end": "2026-10-12T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-Y1d",
       "name": "EMEI - Night at the Opera Tour",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Oct 11, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/emei-night-at-thalia-hall-tickets/14870283"
+      "url": "https://www.ticketweb.com/event/emei-night-at-thalia-hall-tickets/14870283",
+      "sales": {
+        "public_start": "2026-04-28T15:00:00Z",
+        "public_end": "2026-10-12T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afjb0K",
       "name": "Osees ft. Brigid Dawson with Traps PS",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Oct 15, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/osees-ft-brigid-dawson-with-thalia-hall-tickets/14718913"
+      "url": "https://www.ticketweb.com/event/osees-ft-brigid-dawson-with-thalia-hall-tickets/14718913",
+      "sales": {
+        "public_start": "2025-12-11T16:00:00Z",
+        "public_end": "2026-10-16T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfjbPd",
       "name": "Osees ft. Brigid Dawson with Traps PS",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Oct 16, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/osees-ft-brigid-dawson-with-thalia-hall-tickets/14718943"
+      "url": "https://www.ticketweb.com/event/osees-ft-brigid-dawson-with-thalia-hall-tickets/14718943",
+      "sales": {
+        "public_start": "2025-12-11T16:00:00Z",
+        "public_end": "2026-10-17T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOv0K",
       "name": "JOHN SCOFIELD’S “ELECTROSPECTIVE” featuring OTEIL BURBRIDGE, LARRY GOLDINGS & ADAM DEITCH",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Oct 18, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/john-scofields-electrospective-featuring-oteil-thalia-hall-tickets/14801913"
+      "url": "https://www.ticketweb.com/event/john-scofields-electrospective-featuring-oteil-thalia-hall-tickets/14801913",
+      "sales": {
+        "public_start": "2026-03-26T17:00:00Z",
+        "public_end": "2026-10-19T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfrfFS",
       "name": "Tank and The Bangas - The Last Balloon Tour with Ariel J.",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Oct 24, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/tank-and-the-bangas-thalia-hall-tickets/14794233"
+      "url": "https://www.ticketweb.com/event/tank-and-the-bangas-thalia-hall-tickets/14794233",
+      "sales": {
+        "public_start": "2026-03-23T15:00:00Z",
+        "public_end": "2026-10-25T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOVGN",
       "name": "Donny Benét with OTNES",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Nov 5, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/donny-bent-with-otnes-thalia-hall-tickets/14834323"
+      "url": "https://www.ticketweb.com/event/donny-bent-with-otnes-thalia-hall-tickets/14834323",
+      "sales": {
+        "public_start": "2026-04-14T15:00:00Z",
+        "public_end": "2026-11-06T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-M3Z",
       "name": "Phoebe Robinson",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Nov 6, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-M3Z"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-M3Z",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-11-07T01:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqIAd",
       "name": "Phoebe Robinson: Feral & Fired Up!",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Nov 6, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/phoebe-robinson-feral-fired-thalia-hall-tickets/14768143"
+      "url": "https://www.ticketweb.com/event/phoebe-robinson-feral-fired-thalia-hall-tickets/14768143",
+      "sales": {
+        "public_start": "2026-03-25T15:00:00Z",
+        "public_end": "2026-11-07T01:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfAke7",
       "name": "Hiss Golden Messenger - I'm People Tour with Sam Amidon",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Nov 12, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/hiss-golden-messenger-thalia-hall-tickets/14146084"
+      "url": "https://www.ticketweb.com/event/hiss-golden-messenger-thalia-hall-tickets/14146084",
+      "sales": {
+        "public_start": "2026-02-11T18:00:00Z",
+        "public_end": "2026-11-13T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOV7S",
       "name": "Kyle Kinane",
       "location": "Thalia Hall, Chicago",
       "date": "Mon, Nov 23, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/kyle-kinane-thalia-hall-tickets/14834133"
+      "url": "https://www.ticketweb.com/event/kyle-kinane-thalia-hall-tickets/14834133",
+      "sales": {
+        "public_start": "2026-04-09T17:00:00Z",
+        "public_end": "2026-11-24T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOVAd",
       "name": "Kyle Kinane",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, Nov 24, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/kyle-kinane-thalia-hall-tickets/14834143"
+      "url": "https://www.ticketweb.com/event/kyle-kinane-thalia-hall-tickets/14834143",
+      "sales": {
+        "public_start": "2026-04-09T17:00:00Z",
+        "public_end": "2026-11-25T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-e8S",
       "name": "Temples: The BLISS Tour",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Dec 12, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/temples-the-bliss-tour-thalia-hall-tickets/14842433"
+      "url": "https://www.ticketweb.com/event/temples-the-bliss-tour-thalia-hall-tickets/14842433",
+      "sales": {
+        "public_start": "2026-04-15T15:00:00Z",
+        "public_end": "2026-12-13T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afq4FS",
       "name": "Anna von Hausswolff presented by Thalia Hall and Empty Bottle",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Jan 15, 2027 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/anna-von-hausswolff-presented-by-thalia-hall-tickets/14755233"
+      "url": "https://www.ticketweb.com/event/anna-von-hausswolff-presented-by-thalia-hall-tickets/14755233",
+      "sales": {
+        "public_start": "2026-03-06T15:00:00Z",
+        "public_end": "2027-01-16T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af7f-V",
       "name": "Foy Vance: The Wake World Tour",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Apr 17, 2027 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/foy-vance-the-wake-world-thalia-hall-tickets/14114874"
+      "url": "https://www.ticketweb.com/event/foy-vance-the-wake-world-thalia-hall-tickets/14114874",
+      "sales": {
+        "public_start": "2026-02-24T16:00:00Z",
+        "public_end": "2027-04-18T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOVFS",
       "name": "French 79 - CLOSE TO THE GIANTS",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, Apr 27, 2027 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/french-79-close-thalia-hall-tickets/14834233"
+      "url": "https://www.ticketweb.com/event/french-79-close-thalia-hall-tickets/14834233",
+      "sales": {
+        "public_start": "2026-04-15T17:00:00Z",
+        "public_end": "2027-04-28T00:00:00Z",
+        "presales": []
+      }
     }
   ]
 }

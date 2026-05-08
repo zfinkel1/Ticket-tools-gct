@@ -1,490 +1,2309 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-08T17:47:22.404063Z",
-  "count": 69,
+  "last_run": "2026-05-08T19:22:43.615005Z",
+  "count": 72,
   "events": [
     {
       "slug": "vv1F8Z_eQKjxZdCua",
       "name": "Disclosure Live",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Fri, May 8, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/disclosure-live-chicago-illinois-05-08-2026/event/0400642693722DC8"
+      "url": "https://www.ticketmaster.com/disclosure-live-chicago-illinois-05-08-2026/event/0400642693722DC8",
+      "sales": {
+        "public_start": "2026-01-22T16:00:00Z",
+        "public_end": "2026-05-09T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-01-21T18:00:00Z",
+            "end": "2026-01-22T14:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-01-21T16:00:00Z",
+            "end": "2026-01-22T14:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-01-21T20:00:00Z",
+            "end": "2026-01-22T14:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv167Zk8JPvZA5d26e",
       "name": "Disclosure Live",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sat, May 9, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/disclosure-live-chicago-illinois-05-09-2026/event/04006426941A2E61"
+      "url": "https://www.ticketmaster.com/disclosure-live-chicago-illinois-05-09-2026/event/04006426941A2E61",
+      "sales": {
+        "public_start": "2026-01-22T16:00:00Z",
+        "public_end": "2026-05-10T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-01-21T18:00:00Z",
+            "end": "2026-01-22T14:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-01-21T16:00:00Z",
+            "end": "2026-01-22T14:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-01-21T20:00:00Z",
+            "end": "2026-01-22T14:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk8gGkdVeuIR",
       "name": "Disclosure Live",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sun, May 10, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/disclosure-live-chicago-illinois-05-10-2026/event/04006435F408DA2F"
+      "url": "https://www.ticketmaster.com/disclosure-live-chicago-illinois-05-10-2026/event/04006435F408DA2F",
+      "sales": {
+        "public_start": "2026-01-23T16:00:00Z",
+        "public_end": "2026-05-11T02:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv178ZbzGkSPs5cQ",
       "name": "Timmy Trumpet with Yosuf B2B Dionysus",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Fri, May 15, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/timmy-trumpet-with-yosuf-b2b-dionysus-chicago-illinois-05-15-2026/event/0400638CE5C4BB5A"
+      "url": "https://www.ticketmaster.com/timmy-trumpet-with-yosuf-b2b-dionysus-chicago-illinois-05-15-2026/event/0400638CE5C4BB5A",
+      "sales": {
+        "public_start": "2025-12-19T16:00:00Z",
+        "public_end": "2026-05-16T04:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2025-12-18T16:00:00Z",
+            "end": "2025-12-19T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-12-18T16:00:00Z",
+            "end": "2025-12-19T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkC7GkeE_UwH",
       "name": "Yellowcard: The Up Up Down Down Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sat, May 16, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/yellowcard-the-up-up-down-down-chicago-illinois-05-16-2026/event/04006384A7676CBC"
+      "url": "https://www.ticketmaster.com/yellowcard-the-up-up-down-down-chicago-illinois-05-16-2026/event/04006384A7676CBC",
+      "sales": {
+        "public_start": "2025-12-11T16:00:00Z",
+        "public_end": "2026-05-17T02:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2025-12-10T16:00:00Z",
+            "end": "2025-12-11T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-12-08T16:00:00Z",
+            "end": "2025-12-11T04:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2025-12-09T16:00:00Z",
+            "end": "2025-12-11T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2025-12-09T16:00:00Z",
+            "end": "2025-12-11T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2025-12-08T16:00:00Z",
+            "end": "2025-12-11T15:45:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2025-12-11T16:00:00Z",
+            "end": "2026-05-12T17:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_7Gkl6ny3B",
       "name": "The KidLAROI - A Perfect World Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Fri, May 22, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/the-kidlaroi-a-perfect-world-tour-chicago-illinois-05-22-2026/event/0400644AC7AB94BA"
+      "url": "https://www.ticketmaster.com/the-kidlaroi-a-perfect-world-tour-chicago-illinois-05-22-2026/event/0400644AC7AB94BA",
+      "sales": {
+        "public_start": "2026-02-20T16:00:00Z",
+        "public_end": "2026-05-23T03:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-19T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-18T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-19T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-02-18T19:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-02-18T19:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-02-17T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-02-18T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-02-20T16:00:00Z",
+            "end": "2026-05-16T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-02-20T16:00:00Z",
+            "end": "2026-05-23T03:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0ovN",
+      "name": "Warm Love Cool Dreams - 2 DAY PASS",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, May 23, 2026 · 12:30 PM",
+      "url": "https://www.ticketweb.com/event/warm-love-cool-dreams-the-salt-shed-outdoors-fairgrounds-tickets/14911063",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-05-23T17:30:00Z",
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Warm Love Cool Dreams",
+        "name": "The Jesus and Mary Chain",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/4rjlerN21ygkIhmUv55irs",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": {
+        "flare_event_id": 54645939,
+        "sh_id": null
+      },
+      "current_listing": null
+    },
+    {
+      "slug": "rZ7HnEZ1Af0oZK",
+      "name": "Warm Love Cool Dreams- The Jesus and Mary Chain, Tortoise, Smerz +More",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, May 23, 2026 · 2:00 PM",
+      "url": "https://www.ticketweb.com/event/warm-love-cool-dreams-the-salt-shed-outdoors-fairgrounds-tickets/14911013",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-05-23T19:00:00Z",
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Warm Love Cool Dreams- The Jesus and Mary Chain, Tortoise, Smerz +More",
+        "name": "The Jesus and Mary Chain",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/4rjlerN21ygkIhmUv55irs",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": {
+        "flare_event_id": 54645948,
+        "sh_id": null
+      },
+      "current_listing": null
     },
     {
       "slug": "vv178Z_dGkBELMND",
       "name": "Warm Love Cool Dreams - 2 DAY PASS",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sat, May 23, 2026 · 2:00 PM",
-      "url": "https://www.ticketmaster.com/warm-love-cool-dreams-2-day-chicago-illinois-05-23-2026/event/0400643EA77F78FB"
+      "url": "https://www.ticketmaster.com/warm-love-cool-dreams-2-day-chicago-illinois-05-23-2026/event/0400643EA77F78FB",
+      "sales": {
+        "public_start": "2026-02-06T16:00:00Z",
+        "public_end": "2026-05-23T22:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-05T16:00:00Z",
+            "end": "2026-02-06T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_dGkBEQMNx",
       "name": "Warm Love Cool Dreams- The Jesus and Mary Chain, Tortoise, Smerz +More",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sat, May 23, 2026 · 2:00 PM",
-      "url": "https://www.ticketmaster.com/warm-love-cool-dreams-the-jesus-chicago-illinois-05-23-2026/event/0400643EA76B78E2"
+      "url": "https://www.ticketmaster.com/warm-love-cool-dreams-the-jesus-chicago-illinois-05-23-2026/event/0400643EA76B78E2",
+      "sales": {
+        "public_start": "2026-02-06T16:00:00Z",
+        "public_end": "2026-05-23T22:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-05T16:00:00Z",
+            "end": "2026-02-06T04:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0oZN",
+      "name": "Warm Love Cool Dreams - Courtney Barnett, Toro y Moi, Whitney +More",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sun, May 24, 2026 · 2:00 PM",
+      "url": "https://www.ticketweb.com/event/warm-love-cool-dreams-the-salt-shed-outdoors-fairgrounds-tickets/14911023",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-05-24T19:00:00Z",
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Warm Love Cool Dreams",
+        "name": "The Jesus and Mary Chain",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/4rjlerN21ygkIhmUv55irs",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": {
+        "flare_event_id": 54645939,
+        "sh_id": null
+      },
+      "current_listing": null
     },
     {
       "slug": "vv178Z_dGkBEq9NE",
       "name": "Warm Love Cool Dreams - Courtney Barnett, Toro y Moi, Whitney +More",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sun, May 24, 2026 · 2:00 PM",
-      "url": "https://www.ticketmaster.com/warm-love-cool-dreams-courtney-barnett-chicago-illinois-05-24-2026/event/0400643EA77578E7"
+      "url": "https://www.ticketmaster.com/warm-love-cool-dreams-courtney-barnett-chicago-illinois-05-24-2026/event/0400643EA77578E7",
+      "sales": {
+        "public_start": "2026-02-06T16:00:00Z",
+        "public_end": "2026-05-24T22:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-05T16:00:00Z",
+            "end": "2026-02-06T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbYGkSr03-_",
       "name": "BELLE & SEBASTIAN: TIGERMILK + CLASSIC SONGS",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Thu, May 28, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/belle-sebastian-tigermilk-classic-songs-chicago-illinois-05-28-2026/event/0400630CDE912859"
+      "url": "https://www.ticketmaster.com/belle-sebastian-tigermilk-classic-songs-chicago-illinois-05-28-2026/event/0400630CDE912859",
+      "sales": {
+        "public_start": "2025-08-22T15:00:00Z",
+        "public_end": "2026-05-29T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2025-08-20T15:00:00Z",
+            "end": "2025-08-22T14:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-08-20T15:00:00Z",
+            "end": "2025-08-22T14:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2025-08-21T15:00:00Z",
+            "end": "2025-08-22T14:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbYGkSL6wxO",
       "name": "SOLD OUT-BELLE & SEBASTIAN: IF YOU'RE FEELING SINISTER + CLASSIC SONGS",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Fri, May 29, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/sold-outbelle-sebastian-if-youre-feeling-chicago-illinois-05-29-2026/event/0400630CDF1F28A0"
+      "url": "https://www.ticketmaster.com/sold-outbelle-sebastian-if-youre-feeling-chicago-illinois-05-29-2026/event/0400630CDF1F28A0",
+      "sales": {
+        "public_start": "2025-08-22T15:00:00Z",
+        "public_end": "2026-05-30T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2025-08-20T15:00:00Z",
+            "end": "2025-08-22T14:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-08-20T15:00:00Z",
+            "end": "2025-08-22T14:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2025-08-21T15:00:00Z",
+            "end": "2025-08-22T14:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbYGkSLC3xN",
       "name": "Belle & Sebastian - 2 Day General Admission Pass (VALID 5/28-5/29)",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Fri, May 29, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/belle-sebastian-2-day-general-admission-chicago-illinois-05-29-2026/event/0400630CDF3928A3"
+      "url": "https://www.ticketmaster.com/belle-sebastian-2-day-general-admission-chicago-illinois-05-29-2026/event/0400630CDF3928A3",
+      "sales": {
+        "public_start": "2025-08-22T15:00:00Z",
+        "public_end": "2026-05-30T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2025-08-20T15:00:00Z",
+            "end": "2025-08-22T14:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-08-20T15:00:00Z",
+            "end": "2025-08-22T14:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2025-08-21T15:00:00Z",
+            "end": "2025-08-22T14:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1kvZv0fxGAuWJLV",
       "name": "Of The Trees - Park Service",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sat, May 30, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/of-the-trees-park-service-chicago-illinois-05-30-2026/event/040064522DF667F4"
+      "url": "https://www.ticketmaster.com/of-the-trees-park-service-chicago-illinois-05-30-2026/event/040064522DF667F4",
+      "sales": {
+        "public_start": "2026-02-26T16:00:00Z",
+        "public_end": "2026-05-31T03:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-25T18:00:00Z",
+            "end": "2026-02-26T14:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-25T16:00:00Z",
+            "end": "2026-02-26T14:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-25T20:00:00Z",
+            "end": "2026-02-26T14:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-48N",
       "name": "SummerSalt Market",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sun, May 31, 2026 · 11:00 AM",
-      "url": "https://www.ticketweb.com/event/summersalt-market-the-salt-shed-outdoors-fairgrounds-tickets/14855423"
+      "url": "https://www.ticketweb.com/event/summersalt-market-the-salt-shed-outdoors-fairgrounds-tickets/14855423",
+      "sales": {
+        "public_start": "2026-04-15T04:15:00Z",
+        "public_end": "2026-05-31T20:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7Zk8YGkeld9xy",
       "name": "Claypool Gold feat: Primus, Les Claypool's Frog Brigade & The Claypool",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Wed, Jun 3, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/claypool-gold-feat-primus-les-claypools-chicago-illinois-06-03-2026/event/04006430AB0D78B9"
+      "url": "https://www.ticketmaster.com/claypool-gold-feat-primus-les-claypools-chicago-illinois-06-03-2026/event/04006430AB0D78B9",
+      "sales": {
+        "public_start": "2026-01-23T16:00:00Z",
+        "public_end": "2026-06-04T03:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-01-22T16:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-01-21T16:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-01-22T16:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-01-21T16:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-01-23T16:00:00Z",
+            "end": "2026-05-29T22:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_kGkIe9Qim",
       "name": "Q101 Presents - Bleachers Forever",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Fri, Jun 5, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/q101-presents-bleachers-forever-chicago-illinois-06-05-2026/event/0400646A025DAB2E"
+      "url": "https://www.ticketmaster.com/q101-presents-bleachers-forever-chicago-illinois-06-05-2026/event/0400646A025DAB2E",
+      "sales": {
+        "public_start": "2026-03-20T15:00:00Z",
+        "public_end": "2026-06-06T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-03-19T17:00:00Z",
+            "end": "2026-03-20T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-18T15:00:00Z",
+            "end": "2026-03-20T04:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-19T17:00:00Z",
+            "end": "2026-03-20T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1k8Z_67aG7iGvX",
       "name": "Bleachers Forever",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sun, Jun 7, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/bleachers-forever-chicago-illinois-06-07-2026/event/0400647109B0C07E"
+      "url": "https://www.ticketmaster.com/bleachers-forever-chicago-illinois-06-07-2026/event/0400647109B0C07E",
+      "sales": {
+        "public_start": "2026-03-20T15:00:00Z",
+        "public_end": "2026-06-08T02:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv178Z_7GkRGSzgZ",
       "name": "James Blake - Trying Times Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Mon, Jun 8, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/james-blake-trying-times-tour-chicago-illinois-06-08-2026/event/0400644BCCCF8D40"
+      "url": "https://www.ticketmaster.com/james-blake-trying-times-tour-chicago-illinois-06-08-2026/event/0400644BCCCF8D40",
+      "sales": {
+        "public_start": "2026-02-20T16:00:00Z",
+        "public_end": "2026-06-09T04:00:00Z",
+        "presales": [
+          {
+            "name": "Vault Presale",
+            "start": "2026-02-17T15:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-17T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkodGkdm0zSM",
       "name": "Sierra Ferrell presented by Heineken",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Wed, Jun 10, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/sierra-ferrell-presented-by-heineken-chicago-illinois-06-10-2026/event/04006443EE938CF7"
+      "url": "https://www.ticketmaster.com/sierra-ferrell-presented-by-heineken-chicago-illinois-06-10-2026/event/04006443EE938CF7",
+      "sales": {
+        "public_start": "2026-02-12T16:00:00Z",
+        "public_end": "2026-06-11T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-12T05:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-10T16:00:00Z",
+            "end": "2026-02-12T05:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-11T18:00:00Z",
+            "end": "2026-02-12T05:59:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-02-10T16:00:00Z",
+            "end": "2026-02-12T05:59:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-02-12T16:00:00Z",
+            "end": "2026-06-04T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkoAGkdIwnnT",
       "name": "Lupe Fiasco - Food & Liquor 20th Anniversary Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Thu, Jun 11, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/lupe-fiasco-food-liquor-20th-anniversary-chicago-illinois-06-11-2026/event/04006445E8CAAABF"
+      "url": "https://www.ticketmaster.com/lupe-fiasco-food-liquor-20th-anniversary-chicago-illinois-06-11-2026/event/04006445E8CAAABF",
+      "sales": {
+        "public_start": "2026-02-13T16:00:00Z",
+        "public_end": "2026-06-12T03:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-02-12T16:00:00Z",
+            "end": "2026-02-13T05:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-11T18:00:00Z",
+            "end": "2026-02-13T05:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkobGkecWgZT",
       "name": "Lupe Fiasco - Food & Liquor 20th Anniversary Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Fri, Jun 12, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/lupe-fiasco-food-liquor-20th-anniversary-chicago-illinois-06-12-2026/event/04006458ADF7503F"
+      "url": "https://www.ticketmaster.com/lupe-fiasco-food-liquor-20th-anniversary-chicago-illinois-06-12-2026/event/04006458ADF7503F",
+      "sales": {
+        "public_start": "2026-02-26T16:00:00Z",
+        "public_end": "2026-06-13T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7Zko7GkexEgOU",
       "name": "The Hold Steady - Boys and Girls in America 20",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sat, Jun 13, 2026 · 4:00 PM",
-      "url": "https://www.ticketmaster.com/the-hold-steady-boys-and-girls-chicago-illinois-06-13-2026/event/04006444A29F5836"
+      "url": "https://www.ticketmaster.com/the-hold-steady-boys-and-girls-chicago-illinois-06-13-2026/event/04006444A29F5836",
+      "sales": {
+        "public_start": "2026-02-13T16:00:00Z",
+        "public_end": "2026-06-14T00:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Lanyards Fan Club Presale",
+            "start": "2026-02-10T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkCeGkdx3tak",
       "name": "Amyl and the Sniffers with Party Dozen",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sun, Jun 14, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/amyl-and-the-sniffers-with-party-chicago-illinois-06-14-2026/event/04006382E24A9246"
+      "url": "https://www.ticketmaster.com/amyl-and-the-sniffers-with-party-chicago-illinois-06-14-2026/event/04006382E24A9246",
+      "sales": {
+        "public_start": "2025-12-12T16:00:00Z",
+        "public_end": "2026-06-15T03:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2025-12-11T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-12-09T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zko0GkdnbWn3",
       "name": "Marcus King Band - Darling Blue Tour Pt. 2",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Fri, Jun 19, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/marcus-king-band-darling-blue-tour-chicago-illinois-06-19-2026/event/04006464EA63DA92"
+      "url": "https://www.ticketmaster.com/marcus-king-band-darling-blue-tour-chicago-illinois-06-19-2026/event/04006464EA63DA92",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-06-20T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-03-12T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "Marcus King Band Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-12T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_AGklVGGQM",
       "name": "Tash Sultana - North American Tour 2026",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Sat, Jun 20, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/tash-sultana-north-american-tour-2026-chicago-illinois-06-20-2026/event/0400645AF430C6B7"
+      "url": "https://www.ticketmaster.com/tash-sultana-north-american-tour-2026-chicago-illinois-06-20-2026/event/0400645AF430C6B7",
+      "sales": {
+        "public_start": "2026-03-06T16:00:00Z",
+        "public_end": "2026-06-21T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-03-04T18:00:00Z",
+            "end": "2026-03-06T05:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-04T16:00:00Z",
+            "end": "2026-03-06T05:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-05T18:00:00Z",
+            "end": "2026-03-06T05:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk34GkdYMsiC",
       "name": "Something For The Summer Party - Black Yacht Weekend Finale",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sun, Jun 21, 2026 · 3:00 PM",
-      "url": "https://www.ticketmaster.com/something-for-the-summer-party-black-chicago-illinois-06-21-2026/event/04006495F0DF1B0E"
+      "url": "https://www.ticketmaster.com/something-for-the-summer-party-black-chicago-illinois-06-21-2026/event/04006495F0DF1B0E",
+      "sales": {
+        "public_start": "2026-04-21T22:10:00Z",
+        "public_end": "2026-06-21T23:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv178ZbMGknY4kFi",
       "name": "The Dead South with Amigo The Devil",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Thu, Jun 25, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/the-dead-south-with-amigo-the-chicago-illinois-06-25-2026/event/0400637AB054622C"
+      "url": "https://www.ticketmaster.com/the-dead-south-with-amigo-the-chicago-illinois-06-25-2026/event/0400637AB054622C",
+      "sales": {
+        "public_start": "2025-12-05T16:00:00Z",
+        "public_end": "2026-06-26T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2025-12-04T16:00:00Z",
+            "end": "2025-12-05T01:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-12-03T16:00:00Z",
+            "end": "2025-12-05T01:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1FvZv0Os__Z7G5aC",
       "name": "Kurt Vile and the Violators",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Fri, Jun 26, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/kurt-vile-and-the-violators-chicago-illinois-06-26-2026/event/040064831659BA8D"
+      "url": "https://www.ticketmaster.com/kurt-vile-and-the-violators-chicago-illinois-06-26-2026/event/040064831659BA8D",
+      "sales": {
+        "public_start": "2026-04-10T15:00:00Z",
+        "public_end": "2026-06-27T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-10T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-08T15:00:00Z",
+            "end": "2026-04-10T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-10T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_7GknR3k_2",
       "name": "Wale & Smino - Everything Is A Lot? The Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Wed, Jul 1, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/wale-smino-everything-is-a-lot-chicago-illinois-07-01-2026/event/0400644AAF48664F"
+      "url": "https://www.ticketmaster.com/wale-smino-everything-is-a-lot-chicago-illinois-07-01-2026/event/0400644AAF48664F",
+      "sales": {
+        "public_start": "2026-02-13T16:00:00Z",
+        "public_end": "2026-07-02T03:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-12T18:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-12T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-12T20:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-02-12T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_kGkzsDGio",
       "name": "Ella Mai: Do You Still Love Me? Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Fri, Jul 10, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/ella-mai-do-you-still-love-chicago-illinois-07-10-2026/event/0400646E31ECCB11"
+      "url": "https://www.ticketmaster.com/ella-mai-do-you-still-love-chicago-illinois-07-10-2026/event/0400646E31ECCB11",
+      "sales": {
+        "public_start": "2026-03-20T15:00:00Z",
+        "public_end": "2026-07-11T03:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-03-19T17:00:00Z",
+            "end": "2026-03-20T14:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-19T15:00:00Z",
+            "end": "2026-03-20T14:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-19T17:00:00Z",
+            "end": "2026-03-20T14:00:00Z"
+          },
+          {
+            "name": "AEG Presale",
+            "start": "2026-03-19T17:00:00Z",
+            "end": "2026-03-20T14:00:00Z"
+          },
+          {
+            "name": "Radio Presale",
+            "start": "2026-03-19T17:00:00Z",
+            "end": "2026-03-20T14:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-03-19T17:00:00Z",
+            "end": "2026-03-20T14:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-03-19T15:00:00Z",
+            "end": "2026-03-20T14:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-03-20T15:00:00Z",
+            "end": "2026-07-02T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbzGkR-mc5p",
       "name": "93XRT PRESENTS - Royel Otis",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Mon, Jul 13, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/93xrt-presents-royel-otis-chicago-illinois-07-13-2026/event/0400638BE1BAD2D6"
+      "url": "https://www.ticketmaster.com/93xrt-presents-royel-otis-chicago-illinois-07-13-2026/event/0400638BE1BAD2D6",
+      "sales": {
+        "public_start": "2026-01-09T16:00:00Z",
+        "public_end": "2026-07-14T03:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-01-08T16:00:00Z",
+            "end": "2026-01-09T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-01-07T16:00:00Z",
+            "end": "2026-01-09T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-01-08T16:00:00Z",
+            "end": "2026-01-09T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-01-07T16:00:00Z",
+            "end": "2026-01-09T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-01-09T16:00:00Z",
+            "end": "2026-07-04T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbzGkSVlimb",
       "name": "93XRT PRESENTS - Royel Otis",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Tue, Jul 14, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/93xrt-presents-royel-otis-chicago-illinois-07-14-2026/event/0400638CF4AECB98"
+      "url": "https://www.ticketmaster.com/93xrt-presents-royel-otis-chicago-illinois-07-14-2026/event/0400638CF4AECB98",
+      "sales": {
+        "public_start": "2026-01-08T22:30:00Z",
+        "public_end": "2026-07-15T03:00:00Z",
+        "presales": [
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-01-08T22:30:00Z",
+            "end": "2026-07-05T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkoAGkd2Hyxf",
       "name": "The Black Keys: PEACHES 'N KREAM",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Thu, Jul 16, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/the-black-keys-peaches-n-kream-chicago-illinois-07-16-2026/event/04006445CFF39894"
+      "url": "https://www.ticketmaster.com/the-black-keys-peaches-n-kream-chicago-illinois-07-16-2026/event/04006445CFF39894",
+      "sales": {
+        "public_start": "2026-02-13T16:00:00Z",
+        "public_end": "2026-07-17T03:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-12T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-12T18:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-02-13T16:00:00Z",
+            "end": "2026-07-17T03:30:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-02-13T16:00:00Z",
+            "end": "2026-07-11T22:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_FGkVscjXM",
       "name": "The 19th Annual Silver Room Sound System Block Party",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sat, Jul 18, 2026 · 12:00 PM",
-      "url": "https://www.ticketmaster.com/the-19th-annual-silver-room-sound-chicago-illinois-07-18-2026/event/0400648D31B5CFB7"
+      "url": "https://www.ticketmaster.com/the-19th-annual-silver-room-sound-chicago-illinois-07-18-2026/event/0400648D31B5CFB7",
+      "sales": {
+        "public_start": "2026-04-17T17:00:00Z",
+        "public_end": "2026-07-18T20:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7Zk8YGkd4HalD",
       "name": "KALEO with Dawes - Way Down We Go Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Tue, Jul 21, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/kaleo-with-dawes-way-down-we-chicago-illinois-07-21-2026/event/04006430D5F09AFB"
+      "url": "https://www.ticketmaster.com/kaleo-with-dawes-way-down-we-chicago-illinois-07-21-2026/event/04006430D5F09AFB",
+      "sales": {
+        "public_start": "2026-01-23T16:00:00Z",
+        "public_end": "2026-07-22T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-01-22T16:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-01-21T16:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "VIP PACKAGE PRESALE",
+            "start": "2026-01-21T21:45:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk8IGkd5RpGv",
       "name": "Pavement with Nap Eyes",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Wed, Jul 22, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/pavement-with-nap-eyes-chicago-illinois-07-22-2026/event/04006428CBBD6301"
+      "url": "https://www.ticketmaster.com/pavement-with-nap-eyes-chicago-illinois-07-22-2026/event/04006428CBBD6301",
+      "sales": {
+        "public_start": "2026-01-16T16:00:00Z",
+        "public_end": "2026-07-23T03:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-01-15T16:00:00Z",
+            "end": "2026-01-16T04:00:00Z"
+          },
+          {
+            "name": "JAM Presale",
+            "start": "2026-01-15T16:00:00Z",
+            "end": "2026-01-16T04:00:00Z"
+          },
+          {
+            "name": "Metro Presale",
+            "start": "2026-01-15T16:00:00Z",
+            "end": "2026-01-16T04:00:00Z"
+          },
+          {
+            "name": "WXRT Presale",
+            "start": "2026-01-15T16:00:00Z",
+            "end": "2026-01-16T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk3FGketakcX",
       "name": "JACK WHITE LIVE 2026",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Fri, Jul 24, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/jack-white-live-2026-chicago-illinois-07-24-2026/event/04006488A9246B7E"
+      "url": "https://www.ticketmaster.com/jack-white-live-2026-chicago-illinois-07-24-2026/event/04006488A9246B7E",
+      "sales": {
+        "public_start": "2026-04-17T15:00:00Z",
+        "public_end": "2026-07-25T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "Fan Presale",
+            "start": "2026-04-13T17:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "Jam Presale",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "Vault Presale",
+            "start": "2026-04-13T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk3pGkduwLuo",
       "name": "Houndmouth with Rayland Baxter",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sat, Jul 25, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/houndmouth-with-rayland-baxter-chicago-illinois-07-25-2026/event/04006496CDC9F351"
+      "url": "https://www.ticketmaster.com/houndmouth-with-rayland-baxter-chicago-illinois-07-25-2026/event/04006496CDC9F351",
+      "sales": {
+        "public_start": "2026-05-01T15:00:00Z",
+        "public_end": "2026-07-26T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-04-30T15:00:00Z",
+            "end": "2026-05-01T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-30T15:00:00Z",
+            "end": "2026-05-01T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_AGklMViIb",
       "name": "Slightly Stoopid - presented by SMKFLWR & Rythm Cannabis",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sun, Jul 26, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/slightly-stoopid-presented-by-smkflwr-rythm-chicago-illinois-07-26-2026/event/0400645AF7D2CA18"
+      "url": "https://www.ticketmaster.com/slightly-stoopid-presented-by-smkflwr-rythm-chicago-illinois-07-26-2026/event/0400645AF7D2CA18",
+      "sales": {
+        "public_start": "2026-03-06T16:00:00Z",
+        "public_end": "2026-07-27T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-03-05T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-04T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-05T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-03-03T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-03-03T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-03-06T16:00:00Z",
+            "end": "2026-07-17T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-03-07T03:15:00Z",
+            "end": "2026-06-26T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_6GkTCDjf2",
       "name": "Max McNown - The Summer Vacation Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Wed, Aug 5, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/max-mcnown-the-summer-vacation-tour-chicago-illinois-08-05-2026/event/0400647FCEEDC50F"
+      "url": "https://www.ticketmaster.com/max-mcnown-the-summer-vacation-tour-chicago-illinois-08-05-2026/event/0400647FCEEDC50F",
+      "sales": {
+        "public_start": "2026-04-10T15:00:00Z",
+        "public_end": "2026-08-06T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-04-08T15:00:00Z",
+            "end": "2026-04-10T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-10T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-07T15:00:00Z",
+            "end": "2026-04-10T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-04-07T15:00:00Z",
+            "end": "2026-04-08T14:45:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-04-08T15:00:00Z",
+            "end": "2026-04-10T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-04-10T15:00:00Z",
+            "end": "2026-07-31T22:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1kvZv0qYGA1R5iJ",
       "name": "Jack Harlow - Monica Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Sat, Aug 8, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/jack-harlow-monica-tour-chicago-illinois-08-08-2026/event/040064770ABCBB26"
+      "url": "https://www.ticketmaster.com/jack-harlow-monica-tour-chicago-illinois-08-08-2026/event/040064770ABCBB26",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-08-09T03:30:00Z",
+        "presales": [
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-03-26T17:00:00Z",
+            "end": "2026-03-27T14:00:00Z"
+          },
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-03-26T17:00:00Z",
+            "end": "2026-03-27T14:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-26T19:00:00Z",
+            "end": "2026-03-27T14:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T14:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember VIP Package",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T14:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T14:00:00Z"
+          },
+          {
+            "name": "Artist Presale VIP Package",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T14:00:00Z"
+          },
+          {
+            "name": "VIP Package Public Onsale",
+            "start": "2026-03-27T15:00:00Z",
+            "end": "2026-08-04T17:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-03-27T15:00:00Z",
+            "end": "2026-08-04T17:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_aGkDzp-Ec",
       "name": "OLIVER TREE - LOVE YOU MADLY, HATE YOU BADLY WORLD'S FIRST WORLD TOUR",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Tue, Aug 11, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/oliver-tree-love-you-madly-hate-chicago-illinois-08-11-2026/event/0400649EF85A19ED"
+      "url": "https://www.ticketmaster.com/oliver-tree-love-you-madly-hate-chicago-illinois-08-11-2026/event/0400649EF85A19ED",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-08-12T03:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T14:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-06T15:00:00Z",
+            "end": "2026-05-08T14:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zko0GkdlVusk",
       "name": "Modest Mouse with Califone",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Wed, Aug 12, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/modest-mouse-with-califone-chicago-illinois-08-12-2026/event/04006464EBD0DC46"
+      "url": "https://www.ticketmaster.com/modest-mouse-with-califone-chicago-illinois-08-12-2026/event/04006464EBD0DC46",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-08-13T03:30:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-03-12T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-12T17:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Jam Presale",
+            "start": "2026-03-12T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-03-13T15:00:00Z",
+            "end": "2026-08-06T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zko0Gkdl2cmZ",
       "name": "Big Thief - Somersault Slide 360 Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Thu, Aug 13, 2026 · 6:15 PM",
-      "url": "https://www.ticketmaster.com/big-thief-somersault-slide-360-tour-chicago-illinois-08-13-2026/event/04006464EB3EDB80"
+      "url": "https://www.ticketmaster.com/big-thief-somersault-slide-360-tour-chicago-illinois-08-13-2026/event/04006464EB3EDB80",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-08-14T02:15:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-03-12T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-12T17:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_dGkSp1lCf",
       "name": "American Football With Afternoon Bike Ride",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Fri, Aug 14, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/american-football-with-afternoon-bike-ride-chicago-illinois-08-14-2026/event/0400643CD62AB394"
+      "url": "https://www.ticketmaster.com/american-football-with-afternoon-bike-ride-chicago-illinois-08-14-2026/event/0400643CD62AB394",
+      "sales": {
+        "public_start": "2026-02-06T16:00:00Z",
+        "public_end": "2026-08-15T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-02-05T16:00:00Z",
+            "end": "2026-02-06T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-04T16:00:00Z",
+            "end": "2026-02-06T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-05T18:00:00Z",
+            "end": "2026-02-06T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-02-04T16:00:00Z",
+            "end": "2026-02-06T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-02-06T16:00:00Z",
+            "end": "2026-08-08T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_7GkMNm51I",
       "name": "Billy Currington & Kip Moore",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Fri, Aug 21, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/billy-currington-kip-moore-chicago-illinois-08-21-2026/event/0400644DE3B8B2A8"
+      "url": "https://www.ticketmaster.com/billy-currington-kip-moore-chicago-illinois-08-21-2026/event/0400644DE3B8B2A8",
+      "sales": {
+        "public_start": "2026-02-20T16:00:00Z",
+        "public_end": "2026-08-22T02:00:00Z",
+        "presales": [
+          {
+            "name": "Billy Currington Presale",
+            "start": "2026-02-18T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Kip Moore Presale",
+            "start": "2026-02-18T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-02-19T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-19T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-19T18:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_6GkmHnI22",
       "name": "Galantis with TELYKAST",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sat, Aug 22, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/galantis-with-telykast-chicago-illinois-08-22-2026/event/0400647BBCAA83CF"
+      "url": "https://www.ticketmaster.com/galantis-with-telykast-chicago-illinois-08-22-2026/event/0400647BBCAA83CF",
+      "sales": {
+        "public_start": "2026-04-03T15:00:00Z",
+        "public_end": "2026-08-23T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-04-02T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-02T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_kGkIkaQy7",
       "name": "NEEDTOBREATHE: The Long Surrender Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Thu, Aug 27, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-chicago-illinois-08-27-2026/event/0400646A0625AE44"
+      "url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-chicago-illinois-08-27-2026/event/0400646A0625AE44",
+      "sales": {
+        "public_start": "2026-03-20T15:00:00Z",
+        "public_end": "2026-08-28T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-03-18T15:00:00Z",
+            "end": "2026-03-20T04:59:00Z"
+          },
+          {
+            "name": "NEEDTOBREATHE Presale",
+            "start": "2026-03-17T15:00:00Z",
+            "end": "2026-03-20T04:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-19T15:00:00Z",
+            "end": "2026-03-20T04:59:00Z"
+          },
+          {
+            "name": "INSIDERS Presale",
+            "start": "2026-03-16T16:00:00Z",
+            "end": "2026-03-20T04:59:00Z"
+          },
+          {
+            "name": "Drew & Ellie Holcomb Presale",
+            "start": "2026-03-17T15:00:00Z",
+            "end": "2026-03-20T04:59:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-03-16T16:00:00Z",
+            "end": "2026-03-20T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-03-20T15:00:00Z",
+            "end": "2026-08-18T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_dGkRMunYm",
       "name": "Yacht Rock Revue - Primetime",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Fri, Sep 11, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/yacht-rock-revue-primetime-chicago-illinois-09-11-2026/event/0400643BF736AC2E"
+      "url": "https://www.ticketmaster.com/yacht-rock-revue-primetime-chicago-illinois-09-11-2026/event/0400643BF736AC2E",
+      "sales": {
+        "public_start": "2026-02-06T16:00:00Z",
+        "public_end": "2026-09-12T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-04T16:00:00Z",
+            "end": "2026-02-06T05:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-03T16:00:00Z",
+            "end": "2026-02-06T05:59:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-02-04T16:00:00Z",
+            "end": "2026-02-06T05:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk37Gkdft5Ao",
       "name": "Sam Barber - The American Route Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sat, Sep 12, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/sam-barber-the-american-route-tour-chicago-illinois-09-12-2026/event/04006484D4A4B151"
+      "url": "https://www.ticketmaster.com/sam-barber-the-american-route-tour-chicago-illinois-09-12-2026/event/04006484D4A4B151",
+      "sales": {
+        "public_start": "2026-04-17T15:00:00Z",
+        "public_end": "2026-09-13T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "Amex Presale Tickets®",
+            "start": "2026-04-15T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "AEG Presale",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "Country Central Presale",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "Whiskey Riff Presale",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-14T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk8UGkdKkeUf",
       "name": "Bikini Kill with Ganser",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Mon, Sep 14, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/bikini-kill-with-ganser-chicago-illinois-09-14-2026/event/04006436D3182D94"
+      "url": "https://www.ticketmaster.com/bikini-kill-with-ganser-chicago-illinois-09-14-2026/event/04006436D3182D94",
+      "sales": {
+        "public_start": "2026-01-30T17:00:00Z",
+        "public_end": "2026-09-15T03:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-01-28T17:00:00Z",
+            "end": "2026-01-30T16:59:00Z"
+          },
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-01-29T16:00:00Z",
+            "end": "2026-01-30T16:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_aGkRi5xk1",
       "name": "LP - All Is Not Lost Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Tue, Sep 15, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/lp-all-is-not-lost-tour-chicago-illinois-09-15-2026/event/0400649BEC2E218A"
+      "url": "https://www.ticketmaster.com/lp-all-is-not-lost-tour-chicago-illinois-09-15-2026/event/0400649BEC2E218A",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-09-16T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-04T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-05-04T15:00:00Z",
+            "end": "2026-05-08T14:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-05-08T15:00:00Z",
+            "end": "2026-09-09T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk3bGkenGBSd",
       "name": "Liz Phair & Sleater-Kinney: The Flannel and The Fury 2026",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Thu, Sep 17, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/liz-phair-sleaterkinney-the-flannel-and-chicago-illinois-09-17-2026/event/04006498AA33ACC3"
+      "url": "https://www.ticketmaster.com/liz-phair-sleaterkinney-the-flannel-and-chicago-illinois-09-17-2026/event/04006498AA33ACC3",
+      "sales": {
+        "public_start": "2026-05-01T15:00:00Z",
+        "public_end": "2026-09-18T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-04-29T17:00:00Z",
+            "end": "2026-05-01T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-29T15:00:00Z",
+            "end": "2026-05-01T04:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-30T17:00:00Z",
+            "end": "2026-05-01T04:59:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-04-29T15:00:00Z",
+            "end": "2026-05-01T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-05-01T15:00:00Z",
+            "end": "2026-09-13T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_AGkRjEcFO",
       "name": "Tucker Wetmore: The Brunette World Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Fri, Sep 18, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/tucker-wetmore-the-brunette-world-tour-chicago-illinois-09-18-2026/event/0400645BDC9ED220"
+      "url": "https://www.ticketmaster.com/tucker-wetmore-the-brunette-world-tour-chicago-illinois-09-18-2026/event/0400645BDC9ED220",
+      "sales": {
+        "public_start": "2026-03-06T16:00:00Z",
+        "public_end": "2026-09-19T02:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-03-05T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-05T18:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-03-03T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale VIP Package",
+            "start": "2026-03-03T16:00:00Z",
+            "end": "2026-03-04T15:00:00Z"
+          },
+          {
+            "name": "Tucker Wetmore Artist Presale",
+            "start": "2026-03-05T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "MotherTuckers Premium Members Presale",
+            "start": "2026-03-03T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "MotherTuckers Premium Members VIP",
+            "start": "2026-03-03T16:00:00Z",
+            "end": "2026-03-04T15:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-03-06T16:00:00Z",
+            "end": "2026-08-29T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-03-04T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-03-06T16:00:00Z",
+            "end": "2026-09-12T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv167ZkoEZZZA8ka6u",
       "name": "Two Door Cinema Club - Tourist History 15th Anniversary Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Thu, Sep 24, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-chicago-illinois-09-24-2026/event/04006467000F586C"
+      "url": "https://www.ticketmaster.com/two-door-cinema-club-tourist-history-chicago-illinois-09-24-2026/event/04006467000F586C",
+      "sales": {
+        "public_start": "2026-03-20T15:00:00Z",
+        "public_end": "2026-09-25T03:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-03-19T15:00:00Z",
+            "end": "2026-03-20T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-19T15:00:00Z",
+            "end": "2026-03-20T03:00:00Z"
+          },
+          {
+            "name": "Two Door Cinema Club Artist Presale",
+            "start": "2026-03-17T15:00:00Z",
+            "end": "2026-03-20T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-03-18T15:00:00Z",
+            "end": "2026-03-20T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-03-17T15:00:00Z",
+            "end": "2026-03-20T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-03-20T15:00:00Z",
+            "end": "2026-09-18T03:00:00Z"
+          },
+          {
+            "name": "Jam Presale",
+            "start": "2026-03-18T15:00:00Z",
+            "end": "2026-03-20T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_7GkM5JtXh",
       "name": "Thee Sacred Souls, LA LOM, & The Womack Sisters",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sat, Sep 26, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/thee-sacred-souls-la-lom-the-chicago-illinois-09-26-2026/event/0400644DCB9A9F9B"
+      "url": "https://www.ticketmaster.com/thee-sacred-souls-la-lom-the-chicago-illinois-09-26-2026/event/0400644DCB9A9F9B",
+      "sales": {
+        "public_start": "2026-02-20T16:00:00Z",
+        "public_end": "2026-09-27T02:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-02-19T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-19T18:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-02-19T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-02-19T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-02-18T14:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-02-20T16:00:00Z",
+            "end": "2026-09-27T02:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-18T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_eGkSxi9_N",
       "name": "Cavetown with Chloe Moriondo - Running With Scissors Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Sun, Sep 27, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/cavetown-with-chloe-moriondo-running-with-chicago-illinois-09-27-2026/event/0400642CE2B17663"
+      "url": "https://www.ticketmaster.com/cavetown-with-chloe-moriondo-running-with-chicago-illinois-09-27-2026/event/0400642CE2B17663",
+      "sales": {
+        "public_start": "2026-01-23T16:00:00Z",
+        "public_end": "2026-09-28T03:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-01-21T18:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-01-21T16:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-01-22T16:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-01-21T16:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-01-23T16:00:00Z",
+            "end": "2026-09-22T22:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vvG18Z_1QOx1cF",
       "name": "Mon Rovîa - Bloodline Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Tue, Sep 29, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/mon-rovia-bloodline-tour-chicago-illinois-09-29-2026/event/040064A6A088AB48"
+      "url": "https://www.ticketmaster.com/mon-rovia-bloodline-tour-chicago-illinois-09-29-2026/event/040064A6A088AB48",
+      "sales": {
+        "public_start": "2026-05-15T15:00:00Z",
+        "public_end": "2026-09-30T03:30:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zko_Gkeyirew",
       "name": "Koe Wetzel: The Night Champion World Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Thu, Oct 8, 2026 · 5:45 PM",
-      "url": "https://www.ticketmaster.com/koe-wetzel-the-night-champion-world-chicago-illinois-10-08-2026/event/04006459B9B1E0B2"
+      "url": "https://www.ticketmaster.com/koe-wetzel-the-night-champion-world-chicago-illinois-10-08-2026/event/04006459B9B1E0B2",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-10-09T01:45:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-03-12T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-12T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "Support Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "Radio Presale",
+            "start": "2026-03-12T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-03-10T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-03-13T15:00:00Z",
+            "end": "2026-09-28T22:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-10T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          },
+          {
+            "name": "Country Central Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vvG18Z_19RLdUP",
       "name": "MUNA: Gets So Hot Tour",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Fri, Oct 9, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/muna-gets-so-hot-tour-chicago-illinois-10-09-2026/event/040064A5EF7C3DA5"
+      "url": "https://www.ticketmaster.com/muna-gets-so-hot-tour-chicago-illinois-10-09-2026/event/040064A5EF7C3DA5",
+      "sales": {
+        "public_start": "2026-05-14T15:00:00Z",
+        "public_end": "2026-10-10T03:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-14T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-14T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-14T03:00:00Z"
+          },
+          {
+            "name": "AEG Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-14T03:00:00Z"
+          },
+          {
+            "name": "Radio Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-14T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-14T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_aGkSQEZBj",
       "name": "Interpol - North America Tour 2026 with DIIV",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sun, Oct 11, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/interpol-north-america-tour-2026-with-chicago-illinois-10-11-2026/event/0400649CDA9C0E9C"
+      "url": "https://www.ticketmaster.com/interpol-north-america-tour-2026-with-chicago-illinois-10-11-2026/event/0400649CDA9C0E9C",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-10-12T03:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-06T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "AEG Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkosGkdTKD4f",
       "name": "Jesse Welles - Presented by XRT",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Sat, Oct 17, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/jesse-welles-presented-by-xrt-chicago-illinois-10-17-2026/event/04006471FF4FB554"
+      "url": "https://www.ticketmaster.com/jesse-welles-presented-by-xrt-chicago-illinois-10-17-2026/event/04006471FF4FB554",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-10-18T03:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-25T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkoMGkeB3pBb",
       "name": "Sammy Rae & The Friends with special guest Melt",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Fri, Oct 23, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-chicago-illinois-10-23-2026/event/04006477BA496E98"
+      "url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-chicago-illinois-10-23-2026/event/04006477BA496E98",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-10-24T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-03-25T17:00:00Z",
+            "end": "2026-03-27T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-25T15:00:00Z",
+            "end": "2026-03-27T04:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-26T17:00:00Z",
+            "end": "2026-03-27T04:59:00Z"
+          },
+          {
+            "name": "Jam Presale",
+            "start": "2026-03-25T17:00:00Z",
+            "end": "2026-03-27T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkoVGkewnMGL",
       "name": "Fruit Bats",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Sat, Oct 24, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/fruit-bats-chicago-illinois-10-24-2026/event/04006474B2AB731F"
+      "url": "https://www.ticketmaster.com/fruit-bats-chicago-illinois-10-24-2026/event/04006474B2AB731F",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-10-25T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-25T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-26T17:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk38GkeOTpyZ",
       "name": "Geese - Getting Killed Again Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Sat, Oct 31, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/geese-getting-killed-again-tour-chicago-illinois-10-31-2026/event/04006490A0FD6E40"
+      "url": "https://www.ticketmaster.com/geese-getting-killed-again-tour-chicago-illinois-10-31-2026/event/04006490A0FD6E40",
+      "sales": {
+        "public_start": "2026-05-01T15:00:00Z",
+        "public_end": "2026-11-01T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-04-29T17:00:00Z",
+            "end": "2026-05-01T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-29T15:00:00Z",
+            "end": "2026-05-01T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-30T15:00:00Z",
+            "end": "2026-05-01T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_aGkRGd_NX",
       "name": "Geese - Getting Killed Again Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Sun, Nov 1, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/geese-getting-killed-again-tour-chicago-illinois-11-01-2026/event/0400649BCC0D98FE"
+      "url": "https://www.ticketmaster.com/geese-getting-killed-again-tour-chicago-illinois-11-01-2026/event/0400649BCC0D98FE",
+      "sales": {
+        "public_start": "2026-05-01T15:00:00Z",
+        "public_end": "2026-11-02T05:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-29T16:00:00Z",
+            "end": "2026-05-01T03:00:00Z"
+          },
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-04-29T17:00:00Z",
+            "end": "2026-05-01T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-30T15:00:00Z",
+            "end": "2026-05-01T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1kvZv00aGACHUYR",
       "name": "Palace - USA & Canada Tour 2026",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Fri, Nov 13, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/palace-usa-canada-tour-2026-chicago-illinois-11-13-2026/event/040064909EF36C2F"
+      "url": "https://www.ticketmaster.com/palace-usa-canada-tour-2026-chicago-illinois-11-13-2026/event/040064909EF36C2F",
+      "sales": {
+        "public_start": "2026-04-24T16:00:00Z",
+        "public_end": "2026-11-14T05:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-22T15:01:00Z",
+            "end": "2026-04-24T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vvG18Z_1k0JQAc",
       "name": "The Menzingers: Everything I Ever Saw North American Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Sat, Nov 14, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/the-menzingers-everything-i-ever-saw-chicago-illinois-11-14-2026/event/040064A1A499A16D"
+      "url": "https://www.ticketmaster.com/the-menzingers-everything-i-ever-saw-chicago-illinois-11-14-2026/event/040064A1A499A16D",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-11-15T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Promoter Presale",
+            "start": "2026-05-05T16:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-05-06T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbwGklTPKsE",
       "name": "Sabaton: Legends on Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Tue, Nov 24, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67"
+      "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67",
+      "sales": {
+        "public_start": "2025-09-19T15:00:00Z",
+        "public_end": "2026-11-25T05:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2025-09-17T15:00:00Z",
+            "end": "2025-09-19T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2025-09-18T15:00:00Z",
+            "end": "2025-09-19T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2025-09-15T16:00:00Z",
+            "end": "2025-09-19T03:00:00Z"
+          },
+          {
+            "name": "Verizon Access Presale Tickets",
+            "start": "2025-09-15T16:00:00Z",
+            "end": "2025-09-19T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2025-09-17T15:00:00Z",
+            "end": "2025-09-19T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2025-09-17T15:00:00Z",
+            "end": "2025-09-19T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2025-09-15T16:00:00Z",
+            "end": "2025-09-19T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2025-09-19T15:00:00Z",
+            "end": "2026-11-18T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-09-16T15:00:00Z",
+            "end": "2025-09-19T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2025-09-19T15:00:00Z",
+            "end": "2026-11-25T05:00:00Z"
+          },
+          {
+            "name": "Verizon Access Select Seats",
+            "start": "2025-09-19T15:00:00Z",
+            "end": "2026-11-25T05:00:00Z"
+          }
+        ]
+      }
     }
   ]
 }

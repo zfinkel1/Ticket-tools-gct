@@ -1,6 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-05-08T17:47:24.574284Z",
+  "last_run": "2026-05-08T19:22:23.236119Z",
   "count": 5,
   "events": [
     {
@@ -8,35 +8,60 @@
       "name": "Disclosure with TSHA (18+ Event)",
       "location": "Radius - Chicago",
       "date": "Fri, May 8, 2026 · 10:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xvod"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xvod",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-09T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7O4Ck",
       "name": "The Martinez Brothers Present Orbita (18+ with Valid Government ID)",
       "location": "Radius - Chicago",
       "date": "Fri, May 15, 2026 · 10:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O4Ck"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O4Ck",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-16T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7OzG7",
       "name": "Dillstradamus (18+ Event)",
       "location": "Radius - Chicago",
       "date": "Sat, May 16, 2026 · 10:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OzG7"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OzG7",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-05-17T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7xFJ3",
       "name": "Jack White (All Ages to Enter, 21 and Over to Drink)",
       "location": "Radius - Chicago",
       "date": "Thu, Jul 23, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFJ3"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFJ3",
+      "sales": {
+        "public_start": "2026-04-17T15:00:00Z",
+        "public_end": "2026-07-23T23:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-yq4",
       "name": "Oskar med K (18+ event)",
       "location": "Radius - Chicago",
       "date": "Sat, Sep 12, 2026 · 10:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-yq4"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-yq4",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-09-13T03:00:00Z",
+        "presales": []
+      }
     }
   ]
 }

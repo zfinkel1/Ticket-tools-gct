@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-08T17:47:26.547533Z",
+  "last_run": "2026-05-08T19:22:27.619197Z",
   "count": 65,
   "events": [
     {
@@ -8,455 +8,2194 @@
       "name": "Dinastia Tour by Peso Pluma, Tito Double P & Friends",
       "location": "United Center, Chicago",
       "date": "Fri, May 8, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/dinastia-tour-by-peso-pluma-tito-chicago-illinois-05-08-2026/event/04006433BC0162F7"
+      "url": "https://www.ticketmaster.com/dinastia-tour-by-peso-pluma-tito-chicago-illinois-05-08-2026/event/04006433BC0162F7",
+      "sales": {
+        "public_start": "2026-02-02T16:00:00Z",
+        "public_end": "2026-05-09T01:00:00Z",
+        "presales": [
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-02-02T16:00:00Z",
+            "end": "2026-05-04T17:00:00Z"
+          },
+          {
+            "name": "Tito Double P VIP Onsale",
+            "start": "2026-02-04T16:00:00Z",
+            "end": "2026-05-04T17:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_dGkV06RF2",
       "name": "Dinastia Tour by Peso Pluma, Tito Double P & Friends",
       "location": "United Center, Chicago",
       "date": "Sat, May 9, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/dinastia-tour-by-peso-pluma-tito-chicago-illinois-05-09-2026/event/0400643D241EF20F"
+      "url": "https://www.ticketmaster.com/dinastia-tour-by-peso-pluma-tito-chicago-illinois-05-09-2026/event/0400643D241EF20F",
+      "sales": {
+        "public_start": "2026-03-25T15:00:00Z",
+        "public_end": "2026-05-10T01:00:00Z",
+        "presales": [
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-03-25T15:00:00Z",
+            "end": "2026-05-05T17:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_eGkm8Pwdj",
       "name": "A$AP Rocky - Don't Be Dumb World Tour",
       "location": "United Center, Chicago",
       "date": "Wed, May 27, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/aap-rocky-dont-be-dumb-world-chicago-illinois-05-27-2026/event/0400642B909720DC"
+      "url": "https://www.ticketmaster.com/aap-rocky-dont-be-dumb-world-chicago-illinois-05-27-2026/event/0400642B909720DC",
+      "sales": {
+        "public_start": "2026-01-27T16:00:00Z",
+        "public_end": "2026-05-28T00:30:00Z",
+        "presales": [
+          {
+            "name": "Cash App Card Presale VIP Packages",
+            "start": "2026-01-21T16:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "Cash App Card Presale",
+            "start": "2026-01-21T16:00:00Z",
+            "end": "2026-01-23T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-01-23T16:00:00Z",
+            "end": "2026-01-26T04:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-01-26T16:00:00Z",
+            "end": "2026-01-27T04:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-01-26T16:00:00Z",
+            "end": "2026-01-27T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-01-26T18:00:00Z",
+            "end": "2026-01-27T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-01-27T16:00:00Z",
+            "end": "2026-05-23T17:00:00Z"
+          },
+          {
+            "name": "Artist Presale VIP Packages",
+            "start": "2026-01-23T16:00:00Z",
+            "end": "2026-01-26T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-01-26T16:00:00Z",
+            "end": "2026-01-27T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk8gGkdC5hu8",
       "name": "Summer Walker: Still Finally Over It Tour",
       "location": "United Center, Chicago",
       "date": "Fri, May 29, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-chicago-illinois-05-29-2026/event/04006435CE2DB350"
+      "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-chicago-illinois-05-29-2026/event/04006435CE2DB350",
+      "sales": {
+        "public_start": "2026-01-29T16:00:00Z",
+        "public_end": "2026-05-29T23:30:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-01-27T16:00:00Z",
+            "end": "2026-01-29T05:59:00Z"
+          },
+          {
+            "name": "Citi® VIP Package Presale",
+            "start": "2026-01-27T16:00:00Z",
+            "end": "2026-01-28T15:45:00Z"
+          },
+          {
+            "name": "Verizon Access Presale Tickets",
+            "start": "2026-01-27T16:00:00Z",
+            "end": "2026-01-29T05:59:00Z"
+          },
+          {
+            "name": "Verizon Access VIP Packages Presale",
+            "start": "2026-01-27T16:00:00Z",
+            "end": "2026-01-28T15:45:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-01-28T16:00:00Z",
+            "end": "2026-01-29T05:59:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-01-28T16:00:00Z",
+            "end": "2026-01-29T05:59:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-01-28T18:00:00Z",
+            "end": "2026-01-29T05:59:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-01-28T18:00:00Z",
+            "end": "2026-01-29T05:59:00Z"
+          },
+          {
+            "name": "Local/Venue/Radio Presale",
+            "start": "2026-01-28T18:00:00Z",
+            "end": "2026-01-29T05:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-01-28T18:00:00Z",
+            "end": "2026-01-29T05:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-01-29T16:00:00Z",
+            "end": "2026-05-01T22:00:00Z"
+          },
+          {
+            "name": "Verizon Access Select Seats",
+            "start": "2026-01-29T16:00:00Z",
+            "end": "2026-05-01T22:00:00Z"
+          },
+          {
+            "name": "VIP Packages",
+            "start": "2026-01-29T16:00:00Z",
+            "end": "2026-05-25T17:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbMGkR9MJsq",
       "name": "Megan Moroney: The Cloud 9 Tour",
       "location": "United Center, Chicago",
       "date": "Tue, Jun 2, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/megan-moroney-the-cloud-9-tour-chicago-illinois-06-02-2026/event/0400637BD7DE6C5D"
+      "url": "https://www.ticketmaster.com/megan-moroney-the-cloud-9-tour-chicago-illinois-06-02-2026/event/0400637BD7DE6C5D",
+      "sales": {
+        "public_start": "2025-12-12T16:00:00Z",
+        "public_end": "2026-06-02T23:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-12-11T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2025-12-11T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2025-12-12T16:00:00Z",
+            "end": "2026-05-22T22:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbzGkngBIF5",
       "name": "Megan Moroney: The Cloud 9 Tour",
       "location": "United Center, Chicago",
       "date": "Wed, Jun 3, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/megan-moroney-the-cloud-9-tour-chicago-illinois-06-03-2026/event/0400638AB5EA820B"
+      "url": "https://www.ticketmaster.com/megan-moroney-the-cloud-9-tour-chicago-illinois-06-03-2026/event/0400638AB5EA820B",
+      "sales": {
+        "public_start": "2025-12-12T16:00:00Z",
+        "public_end": "2026-06-04T00:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-12-11T21:30:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2025-12-11T21:30:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2025-12-12T16:00:00Z",
+            "end": "2026-05-23T22:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_dGkSaynE7",
       "name": "Don Toliver: Octane Tour",
       "location": "United Center, Chicago",
       "date": "Thu, Jun 11, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/don-toliver-octane-tour-chicago-illinois-06-11-2026/event/0400643CC9E6A9C4"
+      "url": "https://www.ticketmaster.com/don-toliver-octane-tour-chicago-illinois-06-11-2026/event/0400643CC9E6A9C4",
+      "sales": {
+        "public_start": "2026-02-06T16:00:00Z",
+        "public_end": "2026-06-11T23:30:00Z",
+        "presales": [
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-02-05T18:00:00Z",
+            "end": "2026-02-06T05:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-02-04T16:00:00Z",
+            "end": "2026-02-06T05:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-02-06T16:00:00Z",
+            "end": "2026-05-14T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-02-04T16:00:00Z",
+            "end": "2026-02-06T05:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-05T16:00:00Z",
+            "end": "2026-02-06T05:59:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-02-05T18:00:00Z",
+            "end": "2026-02-06T05:59:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-02-05T18:00:00Z",
+            "end": "2026-02-06T05:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-05T18:00:00Z",
+            "end": "2026-02-06T05:59:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-02-06T16:00:00Z",
+            "end": "2026-06-07T17:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk3aGkdvI9zf",
       "name": "The Strokes - Reality Awaits North America",
       "location": "United Center, Chicago",
       "date": "Wed, Jun 17, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/the-strokes-reality-awaits-north-america-chicago-illinois-06-17-2026/event/04006489C1A17E14"
+      "url": "https://www.ticketmaster.com/the-strokes-reality-awaits-north-america-chicago-illinois-06-17-2026/event/04006489C1A17E14",
+      "sales": {
+        "public_start": "2026-04-17T15:00:00Z",
+        "public_end": "2026-06-17T23:00:00Z",
+        "presales": [
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-04-15T15:00:00Z",
+            "end": "2026-04-17T14:45:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-16T17:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-04-17T15:00:00Z",
+            "end": "2026-06-12T22:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-15T15:00:00Z",
+            "end": "2026-04-16T14:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbUGkMZvbum",
       "name": "ROSALÍA: LUX TOUR 2026",
       "location": "United Center, Chicago",
       "date": "Sat, Jun 20, 2026 · 8:30 PM",
-      "url": "https://www.ticketmaster.com/rosalia-lux-tour-2026-chicago-illinois-06-20-2026/event/0400636DC005836E"
+      "url": "https://www.ticketmaster.com/rosalia-lux-tour-2026-chicago-illinois-06-20-2026/event/0400636DC005836E",
+      "sales": {
+        "public_start": "2025-12-11T15:00:00Z",
+        "public_end": "2026-06-21T00:30:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-12-09T20:00:00Z",
+            "end": "2025-12-11T14:00:00Z"
+          },
+          {
+            "name": "Amex Presale Tickets",
+            "start": "2025-12-09T15:00:00Z",
+            "end": "2025-12-09T19:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2025-12-09T15:00:00Z",
+            "end": "2025-12-09T19:00:00Z"
+          },
+          {
+            "name": "Artist Presale VIP Package",
+            "start": "2025-12-09T20:00:00Z",
+            "end": "2025-12-11T14:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2025-12-11T15:00:00Z",
+            "end": "2026-06-16T17:00:00Z"
+          },
+          {
+            "name": "Amex Preferred Tickets",
+            "start": "2025-12-09T15:00:00Z",
+            "end": "2025-12-09T19:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zko9Gkd3La_a",
       "name": "JOJI: SOLARIS",
       "location": "United Center, Chicago",
       "date": "Tue, Jun 23, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/joji-solaris-chicago-illinois-06-23-2026/event/04006457D27C9649"
+      "url": "https://www.ticketmaster.com/joji-solaris-chicago-illinois-06-23-2026/event/04006457D27C9649",
+      "sales": {
+        "public_start": "2026-03-06T16:00:00Z",
+        "public_end": "2026-06-23T23:30:00Z",
+        "presales": [
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-03-05T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Local/Venue/Radio Presale",
+            "start": "2026-03-05T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-05T18:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-03-03T16:00:00Z",
+            "end": "2026-03-04T15:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-03-06T16:00:00Z",
+            "end": "2026-05-27T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember VIP Packages Presale",
+            "start": "2026-03-03T16:00:00Z",
+            "end": "2026-03-04T15:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-03-04T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-04T16:00:00Z",
+            "end": "2026-03-05T15:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-03-06T16:00:00Z",
+            "end": "2026-06-17T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk8VGkdEftdU",
       "name": "Lionel Richie and Earth, Wind & Fire - Sing a Song All Night Long",
       "location": "United Center, Chicago",
       "date": "Fri, Jun 26, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/lionel-richie-and-earth-wind-fire-chicago-illinois-06-26-2026/event/04006434E75290F6"
+      "url": "https://www.ticketmaster.com/lionel-richie-and-earth-wind-fire-chicago-illinois-06-26-2026/event/04006434E75290F6",
+      "sales": {
+        "public_start": "2026-01-30T16:00:00Z",
+        "public_end": "2026-06-27T00:30:00Z",
+        "presales": [
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-01-29T16:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          },
+          {
+            "name": "Lionel Richie Fan Club Presale",
+            "start": "2026-01-28T16:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          },
+          {
+            "name": "Earth, Wind & Fire Fan Club Presale",
+            "start": "2026-01-28T16:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          },
+          {
+            "name": "Lionel Richie VIP Package Presale",
+            "start": "2026-01-28T16:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          },
+          {
+            "name": "Earth, Wind & Fire VIP Package Presale",
+            "start": "2026-01-28T16:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-01-27T16:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          },
+          {
+            "name": "Lionel Richie VIP Citi Presale",
+            "start": "2026-01-27T16:00:00Z",
+            "end": "2026-01-28T04:00:00Z"
+          },
+          {
+            "name": "Earth, Wind & Fire VIP Citi Presale",
+            "start": "2026-01-27T16:00:00Z",
+            "end": "2026-01-28T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-01-30T16:00:00Z",
+            "end": "2026-05-28T03:00:00Z"
+          },
+          {
+            "name": "Lionel Richie VIP Package Onsale",
+            "start": "2026-01-30T16:00:00Z",
+            "end": "2026-06-22T17:00:00Z"
+          },
+          {
+            "name": "Earth, Wind & Fire VIP Package Onsale",
+            "start": "2026-01-30T16:00:00Z",
+            "end": "2026-06-20T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-01-29T16:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1kvZvN_8GA2AatL",
       "name": "\"Weird Al\" Yankovic: Bigger & Weirder 2026 Tour",
       "location": "United Center, Chicago",
       "date": "Sat, Jun 27, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/weird-al-yankovic-bigger-weirder-2026-chicago-illinois-06-27-2026/event/040063650F149A5F"
+      "url": "https://www.ticketmaster.com/weird-al-yankovic-bigger-weirder-2026-chicago-illinois-06-27-2026/event/040063650F149A5F",
+      "sales": {
+        "public_start": "2025-11-21T16:00:00Z",
+        "public_end": "2026-06-28T00:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-11-18T16:00:00Z",
+            "end": "2025-11-21T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2025-11-19T16:00:00Z",
+            "end": "2025-11-21T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2025-11-20T16:00:00Z",
+            "end": "2025-11-21T04:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2025-11-19T16:00:00Z",
+            "end": "2025-11-21T04:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2025-11-19T16:00:00Z",
+            "end": "2025-11-21T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkoxGkeBHMQS",
       "name": "Chicago Sky vs. Las Vegas Aces",
       "location": "United Center, Chicago",
       "date": "Sun, Jun 28, 2026 · 3:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-las-vegas-aces-chicago-illinois-06-28-2026/event/04006462BAF376B3"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-las-vegas-aces-chicago-illinois-06-28-2026/event/04006462BAF376B3",
+      "sales": {
+        "public_start": "2026-03-17T16:00:00Z",
+        "public_end": "2026-06-28T19:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1FvZvN_sq-Z75vGC",
       "name": "Alex Warren: Finding Family on the Road",
       "location": "United Center, Chicago",
       "date": "Mon, Jun 29, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/alex-warren-finding-family-on-the-chicago-illinois-06-29-2026/event/040063671761A0BD"
+      "url": "https://www.ticketmaster.com/alex-warren-finding-family-on-the-chicago-illinois-06-29-2026/event/040063671761A0BD",
+      "sales": {
+        "public_start": "2025-11-21T16:00:00Z",
+        "public_end": "2026-06-29T23:30:00Z",
+        "presales": [
+          {
+            "name": "Verizon Access Presale Tickets",
+            "start": "2025-11-18T16:00:00Z",
+            "end": "2025-11-20T04:00:00Z"
+          },
+          {
+            "name": "Verizon Access Select Seats",
+            "start": "2025-11-21T16:00:00Z",
+            "end": "2026-06-02T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2025-11-19T16:00:00Z",
+            "end": "2025-11-21T15:45:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-11-19T16:00:00Z",
+            "end": "2025-11-21T15:45:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2025-11-20T16:00:00Z",
+            "end": "2025-11-21T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2025-11-18T16:00:00Z",
+            "end": "2025-11-20T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2025-11-20T16:00:00Z",
+            "end": "2025-11-21T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2025-11-20T18:00:00Z",
+            "end": "2025-11-21T04:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2025-11-20T18:00:00Z",
+            "end": "2025-11-21T04:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2025-11-21T16:00:00Z",
+            "end": "2026-06-24T22:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2025-11-21T16:00:00Z",
+            "end": "2026-06-02T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember VIP Package Presale",
+            "start": "2025-11-18T16:00:00Z",
+            "end": "2025-11-19T15:45:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_eGkUzHgRV",
       "name": "Windy City Smokeout",
       "location": "United Center, Chicago",
       "date": "Wed, Jul 8, 2026 · 1:00 PM",
-      "url": "https://on.fgtix.com/trk/NBTK"
+      "url": "https://on.fgtix.com/trk/NBTK",
+      "sales": {
+        "public_start": "2026-01-13T19:09:00Z",
+        "public_end": "2026-07-08T18:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7raZM",
       "name": "Windy City Smokeout",
       "location": "United Center, Chicago",
       "date": "Wed, Jul 8, 2026 · 4:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7raZM"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7raZM",
+      "sales": {
+        "public_start": "2025-11-19T15:00:00Z",
+        "public_end": "2026-07-09T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7q0PM",
       "name": "Windy City Smokeout",
       "location": "United Center, Chicago",
       "date": "Thu, Jul 9, 2026 · 1:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0PM"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0PM",
+      "sales": {
+        "public_start": "2025-11-19T15:00:00Z",
+        "public_end": "2026-07-10T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv178ZbgGkmoTfbn",
       "name": "Windy City Smokeout",
       "location": "United Center, Chicago",
       "date": "Thu, Jul 9, 2026 · 1:00 PM",
-      "url": "https://on.fgtix.com/trk/NBTK"
+      "url": "https://on.fgtix.com/trk/NBTK",
+      "sales": {
+        "public_start": "2025-10-27T15:22:00Z",
+        "public_end": "2026-07-09T18:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7raZV",
       "name": "Windy City Smokeout",
       "location": "United Center, Chicago",
       "date": "Fri, Jul 10, 2026 · 1:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7raZV"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7raZV",
+      "sales": {
+        "public_start": "2025-11-19T15:00:00Z",
+        "public_end": "2026-07-11T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv178ZbgGkm31fbT",
       "name": "Windy City Smokeout",
       "location": "United Center, Chicago",
       "date": "Fri, Jul 10, 2026 · 1:00 PM",
-      "url": "https://on.fgtix.com/trk/NBTK"
+      "url": "https://on.fgtix.com/trk/NBTK",
+      "sales": {
+        "public_start": "2025-10-27T15:23:00Z",
+        "public_end": "2026-07-10T18:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7jY4O",
       "name": "Windy City Smokeout",
       "location": "United Center, Chicago",
       "date": "Sat, Jul 11, 2026 · 1:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jY4O"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jY4O",
+      "sales": {
+        "public_start": "2025-11-19T15:00:00Z",
+        "public_end": "2026-07-12T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv178ZbgGkm347_m",
       "name": "Windy City Smokeout",
       "location": "United Center, Chicago",
       "date": "Sat, Jul 11, 2026 · 1:00 PM",
-      "url": "https://on.fgtix.com/trk/NBTK"
+      "url": "https://on.fgtix.com/trk/NBTK",
+      "sales": {
+        "public_start": "2025-10-27T15:24:00Z",
+        "public_end": "2026-07-11T18:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7raZg",
       "name": "Windy City Smokeout",
       "location": "United Center, Chicago",
       "date": "Sun, Jul 12, 2026 · 1:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7raZg"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7raZg",
+      "sales": {
+        "public_start": "2025-11-19T15:00:00Z",
+        "public_end": "2026-07-13T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv178ZbgGkm3O7Q5",
       "name": "Windy City Smokeout",
       "location": "United Center, Chicago",
       "date": "Sun, Jul 12, 2026 · 1:00 PM",
-      "url": "https://on.fgtix.com/trk/NBTK"
+      "url": "https://on.fgtix.com/trk/NBTK",
+      "sales": {
+        "public_start": "2025-10-27T15:25:00Z",
+        "public_end": "2026-07-12T18:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7ZkuIGkeclAI2",
       "name": "Meghan Trainor: The Get In Girl Tour",
       "location": "United Center, Chicago",
       "date": "Wed, Jul 15, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/meghan-trainor-the-get-in-girl-chicago-illinois-07-15-2026/event/04006368ADAC5A0F"
+      "url": "https://www.ticketmaster.com/meghan-trainor-the-get-in-girl-chicago-illinois-07-15-2026/event/04006368ADAC5A0F",
+      "sales": {
+        "public_start": "2025-11-21T16:00:00Z",
+        "public_end": "2026-07-15T23:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7ZkudGkdFf0PN",
       "name": "RUSH: Fifty Something",
       "location": "United Center, Chicago",
       "date": "Thu, Jul 16, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/rush-fifty-something-chicago-illinois-07-16-2026/event/04006343C8524963"
+      "url": "https://www.ticketmaster.com/rush-fifty-something-chicago-illinois-07-16-2026/event/04006343C8524963",
+      "sales": {
+        "public_start": "2025-10-17T17:00:00Z",
+        "public_end": "2026-07-16T23:30:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Aisle Offer",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "Preferred Seating Offer",
+            "start": "2025-10-13T17:00:00Z",
+            "end": "2025-10-16T04:59:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2025-10-13T17:00:00Z",
+            "end": "2025-10-16T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-10-13T17:00:00Z",
+            "end": "2025-10-16T04:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-07-16T23:30:00Z"
+          },
+          {
+            "name": "Citi® VIP Packages Presale",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "Travel VIP Packages Onsale",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-06-02T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Public Onsale",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-07-10T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkudGkdI1fXk",
       "name": "RUSH: Fifty Something",
       "location": "United Center, Chicago",
       "date": "Sat, Jul 18, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/rush-fifty-something-chicago-illinois-07-18-2026/event/04006343E8294F86"
+      "url": "https://www.ticketmaster.com/rush-fifty-something-chicago-illinois-07-18-2026/event/04006343E8294F86",
+      "sales": {
+        "public_start": "2025-10-17T17:00:00Z",
+        "public_end": "2026-07-18T23:30:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Aisle Offer",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "Preferred Seating Offer",
+            "start": "2025-10-13T17:00:00Z",
+            "end": "2025-10-16T04:59:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2025-10-13T17:00:00Z",
+            "end": "2025-10-16T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-10-13T17:00:00Z",
+            "end": "2025-10-16T04:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-07-18T23:30:00Z"
+          },
+          {
+            "name": "Citi® VIP Packages Presale",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "Travel VIP Packages Onsale",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-06-04T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Public Onsale",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-07-12T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zku6Gkdbp7J4",
       "name": "RUSH: Fifty Something",
       "location": "United Center, Chicago",
       "date": "Mon, Jul 20, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/rush-fifty-something-chicago-illinois-07-20-2026/event/04006347D8584995"
+      "url": "https://www.ticketmaster.com/rush-fifty-something-chicago-illinois-07-20-2026/event/04006347D8584995",
+      "sales": {
+        "public_start": "2025-10-17T17:00:00Z",
+        "public_end": "2026-07-21T00:30:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-07-21T00:30:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Aisle Offer",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-10-13T17:00:00Z",
+            "end": "2025-10-16T04:59:00Z"
+          },
+          {
+            "name": "Citi® VIP Packages Presale",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2025-10-13T17:00:00Z",
+            "end": "2025-10-16T04:59:00Z"
+          },
+          {
+            "name": "Travel VIP Packages Public Onsale",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-06-06T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Public Onsale",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-07-14T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zku6Gkdbh7Jc",
       "name": "RUSH: Fifty Something",
       "location": "United Center, Chicago",
       "date": "Wed, Jul 22, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/rush-fifty-something-chicago-illinois-07-22-2026/event/04006347D86C49AD"
+      "url": "https://www.ticketmaster.com/rush-fifty-something-chicago-illinois-07-22-2026/event/04006347D86C49AD",
+      "sales": {
+        "public_start": "2025-10-17T17:00:00Z",
+        "public_end": "2026-07-23T00:30:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-07-23T00:30:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Aisle Offer",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-10-13T17:00:00Z",
+            "end": "2025-10-16T04:59:00Z"
+          },
+          {
+            "name": "Citi® VIP Packages Presale",
+            "start": "2025-10-10T17:00:00Z",
+            "end": "2025-10-13T04:59:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2025-10-13T17:00:00Z",
+            "end": "2025-10-16T04:59:00Z"
+          },
+          {
+            "name": "Travel VIP Packages Public Onsale",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-06-08T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Public Onsale",
+            "start": "2025-10-17T17:00:00Z",
+            "end": "2026-07-16T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkC7GkdaNIJ3",
       "name": "Daniel Caesar - Son Of Spergy Tour",
       "location": "United Center, Chicago",
       "date": "Sun, Jul 26, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-chicago-illinois-07-26-2026/event/04006384C98E8992"
+      "url": "https://www.ticketmaster.com/daniel-caesar-son-of-spergy-tour-chicago-illinois-07-26-2026/event/04006384C98E8992",
+      "sales": {
+        "public_start": "2026-04-03T15:00:00Z",
+        "public_end": "2026-07-26T23:30:00Z",
+        "presales": [
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-04-02T15:00:00Z",
+            "end": "2026-04-03T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-02T15:00:00Z",
+            "end": "2026-04-03T04:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-02T19:00:00Z",
+            "end": "2026-04-03T04:59:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-04-02T17:00:00Z",
+            "end": "2026-04-03T04:59:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-04-03T15:00:00Z",
+            "end": "2026-07-22T17:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-04-02T17:00:00Z",
+            "end": "2026-04-03T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv167ZkC8AIZA2Cvk8",
       "name": "ZAYN: The Konnakol Tour",
       "location": "United Center, Chicago",
       "date": "Mon, Jul 27, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/zayn-the-konnakol-tour-chicago-illinois-07-27-2026/event/04006390168ED05F"
+      "url": "https://www.ticketmaster.com/zayn-the-konnakol-tour-chicago-illinois-07-27-2026/event/04006390168ED05F",
+      "sales": {
+        "public_start": "2026-02-13T16:00:00Z",
+        "public_end": "2026-07-28T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7Zko9GkdqLyTq",
       "name": "Hot Wheels Monster Trucks Live Glow-N-Fire",
       "location": "United Center, Chicago",
       "date": "Sat, Aug 1, 2026 · 11:30 AM",
-      "url": "https://www.ticketmaster.com/hot-wheels-monster-trucks-live-glownfire-chicago-illinois-08-01-2026/event/04006457DD7F9FDD"
+      "url": "https://www.ticketmaster.com/hot-wheels-monster-trucks-live-glownfire-chicago-illinois-08-01-2026/event/04006457DD7F9FDD",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-08-01T15:30:00Z",
+        "presales": [
+          {
+            "name": "FEL Presale",
+            "start": "2026-03-10T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-03-10T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zko_GkdwU4XN",
       "name": "Hot Wheels Start Your Engine VIP",
       "location": "United Center, Chicago",
       "date": "Sat, Aug 1, 2026 · 11:30 AM",
-      "url": "https://www.ticketmaster.com/hot-wheels-start-your-engine-vip-chicago-illinois-08-01-2026/event/04006459F2D95FA3"
+      "url": "https://www.ticketmaster.com/hot-wheels-start-your-engine-vip-chicago-illinois-08-01-2026/event/04006459F2D95FA3",
+      "sales": {
+        "public_start": "2026-03-10T15:00:00Z",
+        "public_end": "2026-08-01T14:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7Zko_GkdwWgT3",
       "name": "Hot Wheels Pedal to the Metal VIP",
       "location": "United Center, Chicago",
       "date": "Sat, Aug 1, 2026 · 11:30 AM",
-      "url": "https://www.ticketmaster.com/hot-wheels-pedal-to-the-metal-chicago-illinois-08-01-2026/event/04006459F2F75FD2"
+      "url": "https://www.ticketmaster.com/hot-wheels-pedal-to-the-metal-chicago-illinois-08-01-2026/event/04006459F2F75FD2",
+      "sales": {
+        "public_start": "2026-03-10T15:00:00Z",
+        "public_end": "2026-08-01T14:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7Zko9Gkdqr_T2",
       "name": "Hot Wheels Monster Trucks Live Glow-N-Fire",
       "location": "United Center, Chicago",
       "date": "Sat, Aug 1, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/hot-wheels-monster-trucks-live-glownfire-chicago-illinois-08-01-2026/event/04006457DD799FCF"
+      "url": "https://www.ticketmaster.com/hot-wheels-monster-trucks-live-glownfire-chicago-illinois-08-01-2026/event/04006457DD799FCF",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-08-01T22:30:00Z",
+        "presales": [
+          {
+            "name": "FEL Presale",
+            "start": "2026-03-10T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-03-10T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zko_GkdwMPXR",
       "name": "Hot Wheels Start Your Engine VIP",
       "location": "United Center, Chicago",
       "date": "Sat, Aug 1, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/hot-wheels-start-your-engine-vip-chicago-illinois-08-01-2026/event/04006459F2DE5FAF"
+      "url": "https://www.ticketmaster.com/hot-wheels-start-your-engine-vip-chicago-illinois-08-01-2026/event/04006459F2DE5FAF",
+      "sales": {
+        "public_start": "2026-03-10T15:00:00Z",
+        "public_end": "2026-08-01T21:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7Zko_GkdwTATj",
       "name": "Hot Wheels Pedal to the Metal VIP",
       "location": "United Center, Chicago",
       "date": "Sat, Aug 1, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/hot-wheels-pedal-to-the-metal-chicago-illinois-08-01-2026/event/04006459F2FC5FDC"
+      "url": "https://www.ticketmaster.com/hot-wheels-pedal-to-the-metal-chicago-illinois-08-01-2026/event/04006459F2FC5FDC",
+      "sales": {
+        "public_start": "2026-03-10T15:00:00Z",
+        "public_end": "2026-08-01T21:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7Zko9Gkdq-_TN",
       "name": "Hot Wheels Monster Trucks Live Glow-N-Fire",
       "location": "United Center, Chicago",
       "date": "Sun, Aug 2, 2026 · 1:30 PM",
-      "url": "https://www.ticketmaster.com/hot-wheels-monster-trucks-live-glownfire-chicago-illinois-08-02-2026/event/04006457DD859FE3"
+      "url": "https://www.ticketmaster.com/hot-wheels-monster-trucks-live-glownfire-chicago-illinois-08-02-2026/event/04006457DD859FE3",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-08-02T17:30:00Z",
+        "presales": [
+          {
+            "name": "FEL Presale",
+            "start": "2026-03-10T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-03-10T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zko_GkdSZPTP",
       "name": "Hot Wheels Pedal to the Metal VIP",
       "location": "United Center, Chicago",
       "date": "Sun, Aug 2, 2026 · 1:30 PM",
-      "url": "https://www.ticketmaster.com/hot-wheels-pedal-to-the-metal-chicago-illinois-08-02-2026/event/04006459F3025FE5"
+      "url": "https://www.ticketmaster.com/hot-wheels-pedal-to-the-metal-chicago-illinois-08-02-2026/event/04006459F3025FE5",
+      "sales": {
+        "public_start": "2026-03-10T15:00:00Z",
+        "public_end": "2026-08-02T16:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7Zko_GkdwyAXg",
       "name": "Hot Wheels Start Your Engine VIP",
       "location": "United Center, Chicago",
       "date": "Sun, Aug 2, 2026 · 1:30 PM",
-      "url": "https://www.ticketmaster.com/hot-wheels-start-your-engine-vip-chicago-illinois-08-02-2026/event/04006459F2E45FB5"
+      "url": "https://www.ticketmaster.com/hot-wheels-start-your-engine-vip-chicago-illinois-08-02-2026/event/04006459F2E45FB5",
+      "sales": {
+        "public_start": "2026-03-10T15:00:00Z",
+        "public_end": "2026-08-02T16:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7ZkG_GkdqBxS4",
       "name": "Ariana Grande - The Eternal Sunshine Tour",
       "location": "United Center, Chicago",
       "date": "Mon, Aug 3, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5"
+      "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-03-2026/event/04006319DDEA2CD5",
+      "sales": {
+        "public_start": "2025-09-10T15:00:00Z",
+        "public_end": "2026-08-04T00:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-09-09T15:00:00Z",
+            "end": "2025-09-10T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale VIP Packages",
+            "start": "2025-09-09T15:00:00Z",
+            "end": "2025-09-10T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbsGklLGK3v",
       "name": "Ariana Grande - The Eternal Sunshine Tour",
       "location": "United Center, Chicago",
       "date": "Wed, Aug 5, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-05-2026/event/0400631ADF313481"
+      "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-05-2026/event/0400631ADF313481",
+      "sales": {
+        "public_start": "2025-09-10T15:00:00Z",
+        "public_end": "2026-08-06T00:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-09-09T15:00:00Z",
+            "end": "2025-09-10T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale VIP Packages",
+            "start": "2025-09-09T15:00:00Z",
+            "end": "2025-09-10T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkGPGkecEw3E",
       "name": "Ariana Grande - The Eternal Sunshine Tour",
       "location": "United Center, Chicago",
       "date": "Thu, Aug 6, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7"
+      "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-chicago-illinois-08-06-2026/event/04006325AD9F24A7",
+      "sales": {
+        "public_start": "2025-09-10T15:00:00Z",
+        "public_end": "2026-08-07T00:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-09-09T15:45:00Z",
+            "end": "2025-09-10T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale VIP Packages",
+            "start": "2025-09-09T15:45:00Z",
+            "end": "2025-09-10T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2025-09-10T15:00:00Z",
+            "end": "2026-08-02T17:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkoxGkeBXEQW",
       "name": "Chicago Sky vs. Indiana Fever",
       "location": "United Center, Chicago",
       "date": "Sat, Aug 8, 2026 · 2:30 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-indiana-fever-chicago-illinois-08-08-2026/event/04006462BAFA76BD"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-indiana-fever-chicago-illinois-08-08-2026/event/04006462BAFA76BD",
+      "sales": {
+        "public_start": "2026-03-17T16:00:00Z",
+        "public_end": "2026-08-08T19:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1kvZv038GACyMDJ",
       "name": "J. Cole: The Fall-Off Tour",
       "location": "United Center, Chicago",
       "date": "Tue, Aug 11, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-chicago-illinois-08-11-2026/event/040064490EE77EE6"
+      "url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-chicago-illinois-08-11-2026/event/040064490EE77EE6",
+      "sales": {
+        "public_start": "2026-02-20T17:00:00Z",
+        "public_end": "2026-08-11T23:00:00Z",
+        "presales": [
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-02-17T17:00:00Z",
+            "end": "2026-02-20T16:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-17T17:00:00Z",
+            "end": "2026-02-20T16:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-02-18T17:00:00Z",
+            "end": "2026-02-20T16:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-02-20T17:00:00Z",
+            "end": "2026-08-07T17:00:00Z"
+          },
+          {
+            "name": "Local/Venue/Radio Presale",
+            "start": "2026-02-19T17:00:00Z",
+            "end": "2026-02-20T16:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_7GkUJJEsl",
       "name": "J. Cole: The Fall-Off Tour",
       "location": "United Center, Chicago",
       "date": "Wed, Aug 12, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-chicago-illinois-08-12-2026/event/0400644DA69A7C6B"
+      "url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-chicago-illinois-08-12-2026/event/0400644DA69A7C6B",
+      "sales": {
+        "public_start": "2026-02-20T17:00:00Z",
+        "public_end": "2026-08-12T23:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-17T18:00:00Z",
+            "end": "2026-02-20T16:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-02-17T18:00:00Z",
+            "end": "2026-02-20T16:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-02-18T17:00:00Z",
+            "end": "2026-02-20T16:00:00Z"
+          },
+          {
+            "name": "Local/Venue/Radio Presale",
+            "start": "2026-02-19T17:00:00Z",
+            "end": "2026-02-20T16:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-02-20T17:00:00Z",
+            "end": "2026-08-08T17:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vvG18Z_1kYLDJy",
       "name": "Kacey Musgraves - Middle of Nowhere Tour",
       "location": "United Center, Chicago",
       "date": "Thu, Aug 20, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-chicago-illinois-08-20-2026/event/040064A1B07FB9B9"
+      "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-chicago-illinois-08-20-2026/event/040064A1B07FB9B9",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-08-20T23:30:00Z",
+        "presales": [
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Amex Preferred Tickets",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Amex Presale Tickets®",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Radio Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Country Central Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-05-08T15:00:00Z",
+            "end": "2026-08-10T22:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk34GkdL8msd",
       "name": "Kacey Musgraves - Middle of Nowhere Tour",
       "location": "United Center, Chicago",
       "date": "Fri, Aug 21, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-chicago-illinois-08-21-2026/event/04006495DF42EC43"
+      "url": "https://www.ticketmaster.com/kacey-musgraves-middle-of-nowhere-tour-chicago-illinois-08-21-2026/event/04006495DF42EC43",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-08-21T23:30:00Z",
+        "presales": [
+          {
+            "name": "Amex Presale Tickets® VIP Packages",
+            "start": "2026-05-05T15:00:00Z",
+            "end": "2026-05-06T14:45:00Z"
+          },
+          {
+            "name": "Amex Preferred Tickets",
+            "start": "2026-05-05T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Amex Presale Tickets®",
+            "start": "2026-05-05T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-05-06T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-06T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Radio Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Country Central Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-05-08T15:00:00Z",
+            "end": "2026-08-11T22:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_aGkDr6r2e",
       "name": "OMAR COURTZ - POR SI MAÑANA NO ESTOY USA TOUR",
       "location": "United Center, Chicago",
       "date": "Sat, Sep 5, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/omar-courtz-por-si-manana-no-chicago-illinois-09-05-2026/event/0400649EDE1DE3C2"
+      "url": "https://www.ticketmaster.com/omar-courtz-por-si-manana-no-chicago-illinois-09-05-2026/event/0400649EDE1DE3C2",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-09-06T00:00:00Z",
+        "presales": [
+          {
+            "name": "Past Purchaser Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vvG18Zb157jsXp",
       "name": "Childish Gambino - The New World Tour",
       "location": "United Center, Chicago",
       "date": "Tue, Sep 8, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/childish-gambino-the-new-world-tour-chicago-illinois-09-08-2026/event/040060A2C4731F96"
+      "url": "https://www.ticketmaster.com/childish-gambino-the-new-world-tour-chicago-illinois-09-08-2026/event/040060A2C4731F96",
+      "sales": {
+        "public_start": "2024-05-17T15:00:00Z",
+        "public_end": "2026-09-09T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7ZkosGkeReJrV",
       "name": "JUNGLE - World Tour 2026",
       "location": "United Center, Chicago",
       "date": "Thu, Sep 10, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/jungle-world-tour-2026-chicago-illinois-09-10-2026/event/04006471AF0A67B4"
+      "url": "https://www.ticketmaster.com/jungle-world-tour-2026-chicago-illinois-09-10-2026/event/04006471AF0A67B4",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-09-11T00:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-26T14:00:00Z",
+            "end": "2026-03-27T04:59:00Z"
+          },
+          {
+            "name": "AEG Presale",
+            "start": "2026-03-26T16:00:00Z",
+            "end": "2026-03-27T04:59:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-03-26T16:00:00Z",
+            "end": "2026-03-27T04:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-26T16:00:00Z",
+            "end": "2026-03-27T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zko_GkdQ7Na1",
       "name": "Eric Clapton",
       "location": "United Center, Chicago",
       "date": "Fri, Sep 11, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/eric-clapton-chicago-illinois-09-11-2026/event/04006459DA12324A"
+      "url": "https://www.ticketmaster.com/eric-clapton-chicago-illinois-09-11-2026/event/04006459DA12324A",
+      "sales": {
+        "public_start": "2026-03-06T16:00:00Z",
+        "public_end": "2026-09-11T22:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-03T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Local/Venue Presales",
+            "start": "2026-03-05T16:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_dGkReEzfw",
       "name": "Robyn - The Sexistential Tour",
       "location": "United Center, Chicago",
       "date": "Sat, Sep 12, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/robyn-the-sexistential-tour-chicago-illinois-09-12-2026/event/0400643BC29F8532"
+      "url": "https://www.ticketmaster.com/robyn-the-sexistential-tour-chicago-illinois-09-12-2026/event/0400643BC29F8532",
+      "sales": {
+        "public_start": "2026-02-13T16:00:00Z",
+        "public_end": "2026-09-12T23:30:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-12T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Jam Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "VIP Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-13T15:00:00Z"
+          },
+          {
+            "name": "VIP Onsale",
+            "start": "2026-02-13T16:00:00Z",
+            "end": "2026-09-06T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkoyGkemyzsK",
       "name": "Lily Allen Performs West End Girl",
       "location": "United Center, Chicago",
       "date": "Sun, Sep 13, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/lily-allen-performs-west-end-girl-chicago-illinois-09-13-2026/event/04006479AEE78C53"
+      "url": "https://www.ticketmaster.com/lily-allen-performs-west-end-girl-chicago-illinois-09-13-2026/event/04006479AEE78C53",
+      "sales": {
+        "public_start": "2026-04-03T15:00:00Z",
+        "public_end": "2026-09-14T00:00:00Z",
+        "presales": [
+          {
+            "name": "Artist VIP Package Presale",
+            "start": "2026-04-01T15:00:00Z",
+            "end": "2026-04-02T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-01T15:00:00Z",
+            "end": "2026-04-02T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-04-02T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-04-02T15:00:00Z",
+            "end": "2026-04-03T14:30:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-04-03T15:00:00Z",
+            "end": "2026-09-09T17:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-02T17:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-04-02T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Auditorium Presale",
+            "start": "2026-04-02T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_kGkUTIbfC",
       "name": "WEEZER: The Gathering",
       "location": "United Center, Chicago",
       "date": "Tue, Sep 22, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/weezer-the-gathering-chicago-illinois-09-22-2026/event/0400646DBFA1850E"
+      "url": "https://www.ticketmaster.com/weezer-the-gathering-chicago-illinois-09-22-2026/event/0400646DBFA1850E",
+      "sales": {
+        "public_start": "2026-04-03T15:00:00Z",
+        "public_end": "2026-09-22T22:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-03-31T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Verizon Access Presale Tickets",
+            "start": "2026-03-31T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Weezer Fan Club Presale",
+            "start": "2026-03-31T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Weezer Mailing List Presale",
+            "start": "2026-04-01T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Weezer Fan Club VIP Presale",
+            "start": "2026-03-31T15:00:00Z",
+            "end": "2026-04-01T15:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presales",
+            "start": "2026-04-01T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "The Shins Presale",
+            "start": "2026-04-01T16:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Silversun Pickups Presale",
+            "start": "2026-04-01T16:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-04-01T17:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-02T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Local/Venue Presale",
+            "start": "2026-04-02T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-04-03T15:00:00Z",
+            "end": "2026-09-22T22:00:00Z"
+          },
+          {
+            "name": "Verizon Access Select Seats",
+            "start": "2026-04-03T15:00:00Z",
+            "end": "2026-08-26T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-04-03T15:00:00Z",
+            "end": "2026-09-16T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Seating",
+            "start": "2026-03-31T15:00:00Z",
+            "end": "2026-04-01T15:00:00Z"
+          },
+          {
+            "name": "Preferred Seating Presale",
+            "start": "2026-04-01T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Preferred Seating Offer",
+            "start": "2026-04-03T15:00:00Z",
+            "end": "2026-09-22T22:00:00Z"
+          },
+          {
+            "name": "Weezer Fan Club Preferred Seating",
+            "start": "2026-03-31T15:00:00Z",
+            "end": "2026-04-01T15:00:00Z"
+          },
+          {
+            "name": "Verizon Access Aisle Seats",
+            "start": "2026-03-31T15:00:00Z",
+            "end": "2026-04-01T15:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_FGkUXeURm",
       "name": "Teddy Swims: The UGLY Tour",
       "location": "United Center, Chicago",
       "date": "Fri, Sep 25, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-chicago-illinois-09-25-2026/event/0400648DBE0B6BEE"
+      "url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-chicago-illinois-09-25-2026/event/0400648DBE0B6BEE",
+      "sales": {
+        "public_start": "2026-04-24T15:00:00Z",
+        "public_end": "2026-09-25T23:00:00Z",
+        "presales": [
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-04-21T15:00:00Z",
+            "end": "2026-04-22T14:45:00Z"
+          },
+          {
+            "name": "Chime Visa Presale",
+            "start": "2026-04-21T15:00:00Z",
+            "end": "2026-04-24T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-22T15:00:00Z",
+            "end": "2026-04-24T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-23T15:00:00Z",
+            "end": "2026-04-24T03:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-04-23T15:00:00Z",
+            "end": "2026-04-24T03:00:00Z"
+          },
+          {
+            "name": "Radio Presale",
+            "start": "2026-04-23T15:00:00Z",
+            "end": "2026-04-24T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-04-23T15:00:00Z",
+            "end": "2026-04-24T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-04-24T15:00:00Z",
+            "end": "2026-09-16T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-04-21T15:00:00Z",
+            "end": "2026-04-24T03:00:00Z"
+          },
+          {
+            "name": "Chime Visa Post-Sale",
+            "start": "2026-04-24T15:00:00Z",
+            "end": "2026-09-12T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_6GkDtyhLC",
       "name": "Johnny Blue Skies & the Dark Clouds - Mutiny for the Masses 2026 Tour",
       "location": "United Center, Chicago",
       "date": "Tue, Sep 29, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/johnny-blue-skies-the-dark-clouds-chicago-illinois-09-29-2026/event/0400647EE9E5B7CE"
+      "url": "https://www.ticketmaster.com/johnny-blue-skies-the-dark-clouds-chicago-illinois-09-29-2026/event/0400647EE9E5B7CE",
+      "sales": {
+        "public_start": "2026-04-10T15:00:00Z",
+        "public_end": "2026-09-30T00:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-08T15:00:00Z",
+            "end": "2026-04-10T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-10T03:00:00Z"
+          },
+          {
+            "name": "Venue/ Radio Presale",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-10T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbSGknyfVeS",
       "name": "Doja Cat - Tour Ma Vie World Tour",
       "location": "United Center, Chicago",
       "date": "Sat, Oct 3, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-chicago-illinois-10-03-2026/event/0400633AB95340B3"
+      "url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-chicago-illinois-10-03-2026/event/0400633AB95340B3",
+      "sales": {
+        "public_start": "2025-10-10T15:00:00Z",
+        "public_end": "2026-10-03T22:30:00Z",
+        "presales": [
+          {
+            "name": "VIP Package Presale",
+            "start": "2025-10-07T15:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2025-10-09T15:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "Local/Venue Presale",
+            "start": "2025-10-09T15:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2025-10-10T15:00:00Z",
+            "end": "2026-09-29T17:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-10-07T15:00:00Z",
+            "end": "2025-10-09T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zko_GkdGJoO2",
       "name": "Gorillaz - The Mountain Tour",
       "location": "United Center, Chicago",
       "date": "Thu, Oct 8, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-chicago-illinois-10-08-2026/event/04006459CC99180F"
+      "url": "https://www.ticketmaster.com/gorillaz-the-mountain-tour-chicago-illinois-10-08-2026/event/04006459CC99180F",
+      "sales": {
+        "public_start": "2026-03-09T15:00:00Z",
+        "public_end": "2026-10-08T23:30:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale VIP Packages",
+            "start": "2026-03-04T18:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-06T16:00:00Z",
+            "end": "2026-03-07T17:00:00Z"
+          },
+          {
+            "name": "Artist Presale VIP Packages",
+            "start": "2026-03-06T16:00:00Z",
+            "end": "2026-03-09T14:45:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-03-09T15:00:00Z",
+            "end": "2026-10-04T17:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-03-07T18:00:00Z",
+            "end": "2026-03-09T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-03-07T18:00:00Z",
+            "end": "2026-03-09T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-03-04T18:00:00Z",
+            "end": "2026-03-06T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-03-09T15:00:00Z",
+            "end": "2026-09-11T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_aGkYeTUOa",
       "name": "Olivia Rodrigo: The Unraveled Tour",
       "location": "United Center, Chicago",
       "date": "Sun, Oct 11, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-11-2026/event/0400649C02FF6809"
+      "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-11-2026/event/0400649C02FF6809",
+      "sales": {
+        "public_start": "2026-05-07T17:00:00Z",
+        "public_end": "2026-10-11T23:30:00Z",
+        "presales": [
+          {
+            "name": "Amex Presale Tickets®",
+            "start": "2026-05-05T17:00:00Z",
+            "end": "2026-05-07T03:00:00Z"
+          },
+          {
+            "name": "Amex Preferred Tickets",
+            "start": "2026-05-05T17:00:00Z",
+            "end": "2026-05-07T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_aGkMlEBGy",
       "name": "Olivia Rodrigo: The Unraveled Tour",
       "location": "United Center, Chicago",
       "date": "Mon, Oct 12, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-12-2026/event/0400649DEB9FA339"
+      "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-chicago-illinois-10-12-2026/event/0400649DEB9FA339",
+      "sales": {
+        "public_start": "2026-05-07T17:00:00Z",
+        "public_end": "2026-10-12T23:30:00Z",
+        "presales": [
+          {
+            "name": "Amex Presale Tickets®",
+            "start": "2026-05-05T17:00:00Z",
+            "end": "2026-05-07T03:00:00Z"
+          },
+          {
+            "name": "Amex Preferred Tickets",
+            "start": "2026-05-05T17:00:00Z",
+            "end": "2026-05-07T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_kGkRLKIPC",
       "name": "Disney Descendants, ZOMBIES & Camp Rock: Worlds Collide Concert Tour",
       "location": "United Center, Chicago",
       "date": "Mon, Oct 19, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/disney-descendants-zombies-camp-rock-worlds-chicago-illinois-10-19-2026/event/0400646BDF4E894E"
+      "url": "https://www.ticketmaster.com/disney-descendants-zombies-camp-rock-worlds-chicago-illinois-10-19-2026/event/0400646BDF4E894E",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-10-19T23:00:00Z",
+        "presales": [
+          {
+            "name": "Disney+ Presale",
+            "start": "2026-03-23T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Sponsor Presale",
+            "start": "2026-03-25T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-25T17:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "AEG/Venue/Radio Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "TM Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "AYSO Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Macaroni Kid Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Disney URL Signup",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Disney Employee",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Influencer/Mom Blogs Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-03-23T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-03-27T15:00:00Z",
+            "end": "2026-10-09T22:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk36Gkd2Hi7b",
       "name": "SOMBR - You Are The Reason Tour",
       "location": "United Center, Chicago",
       "date": "Wed, Nov 4, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-chicago-illinois-11-04-2026/event/04006487CFF2C118"
+      "url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-chicago-illinois-11-04-2026/event/04006487CFF2C118",
+      "sales": {
+        "public_start": "2026-04-17T15:00:00Z",
+        "public_end": "2026-11-05T01:00:00Z",
+        "presales": [
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-04-14T15:00:00Z",
+            "end": "2026-04-17T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-14T15:00:00Z",
+            "end": "2026-04-17T04:59:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-04-15T15:00:00Z",
+            "end": "2026-04-17T04:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T04:59:00Z"
+          },
+          {
+            "name": "Local/Venue Presale",
+            "start": "2026-04-16T15:00:00Z",
+            "end": "2026-04-17T04:59:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-04-17T15:00:00Z",
+            "end": "2026-10-31T17:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkoaGkdxvkbx",
       "name": "The Neighbourhood: THE WOURLD TOUR",
       "location": "United Center, Chicago",
       "date": "Wed, Nov 18, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622"
+      "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-11-19T00:30:00Z",
+        "presales": [
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-25T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbgGkMMraib",
       "name": "Matt Rife: Stay Golden World Tour",
       "location": "United Center, Chicago",
       "date": "Thu, Jan 7, 2027 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/matt-rife-stay-golden-world-tour-chicago-illinois-01-07-2027/event/0400635DF7789B18"
+      "url": "https://www.ticketmaster.com/matt-rife-stay-golden-world-tour-chicago-illinois-01-07-2027/event/0400635DF7789B18",
+      "sales": {
+        "public_start": "2025-11-14T18:00:00Z",
+        "public_end": "2027-01-08T01:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-11-12T18:00:00Z",
+            "end": "2025-11-14T17:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2025-11-13T18:00:00Z",
+            "end": "2025-11-14T17:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2025-11-13T18:00:00Z",
+            "end": "2025-11-14T17:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2025-11-13T18:00:00Z",
+            "end": "2025-11-14T17:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2025-11-12T18:00:00Z",
+            "end": "2025-11-14T17:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2025-11-14T18:00:00Z",
+            "end": "2026-12-18T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-02-09T16:00:00Z",
+            "end": "2027-01-08T01:00:00Z"
+          }
+        ]
+      }
     }
   ]
 }

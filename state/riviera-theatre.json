@@ -1,6 +1,6 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-05-08T17:47:24.142389Z",
+  "last_run": "2026-05-08T19:22:22.914312Z",
   "count": 22,
   "events": [
     {
@@ -8,154 +8,329 @@
       "name": "The Amity Affliction w/ August Burns Red",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Fri, May 8, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oPS"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oPS",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-05-08T23:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7jS_P",
       "name": "Andres Cepeda",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Sun, May 10, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS_P"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS_P",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-11T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-680",
       "name": "Dance Gavin Dance with Special Guests",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Fri, May 15, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-680"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-680",
+      "sales": {
+        "public_start": "2026-02-20T16:00:00Z",
+        "public_end": "2026-05-15T23:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1k8Z_AAgG7nxp1",
       "name": "Dance Gavin Dance with Special Guests",
       "location": "Riviera Theatre, Chicago",
       "date": "Fri, May 15, 2026 · 6:00 PM",
-      "url": "https://www.axs.com/events/1329878/dance-gavin-dance-with-special-guests-tickets"
+      "url": "https://www.axs.com/events/1329878/dance-gavin-dance-with-special-guests-tickets",
+      "sales": {
+        "public_start": "2026-02-20T16:00:00Z",
+        "public_end": "2026-05-15T23:00:00Z",
+        "presales": [
+          {
+            "name": "Live Nation Presale",
+            "start": "2026-02-19T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-17T18:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-02-17T16:00:00Z",
+            "end": "2026-02-20T04:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "Z7r9jZ1A7-NZS",
       "name": "Matt McCusker",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Sat, May 16, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NZS"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NZS",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-17T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7O4-7",
       "name": "Good Kid w/ INOHA",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Sun, May 17, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O4-7"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O4-7",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-05-18T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-4bN",
       "name": "Clara La San",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Thu, May 21, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-4bN"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-4bN",
+      "sales": {
+        "public_start": "2026-02-27T16:00:00Z",
+        "public_end": "2026-05-22T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7OFZ_",
       "name": "Iration w/ Tribal Seeds",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Sat, Jun 6, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OFZ_"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OFZ_",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-06-06T23:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-pOd",
       "name": "Connor Price w/ Nic D",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Fri, Jun 19, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-pOd"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-pOd",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-06-20T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7xFFv",
       "name": "French Montana & Max B - 17+",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Sun, Jun 21, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFFv"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFFv",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-06-22T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-t06",
       "name": "The Pretty Reckless",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Fri, Jul 17, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-t06"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-t06",
+      "sales": {
+        "public_start": "2026-03-20T15:00:00Z",
+        "public_end": "2026-07-18T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7x4bK",
       "name": "Aimee Mann w/ Kimon Kirk",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Thu, Jul 23, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4bK"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4bK",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-07-24T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-6ue",
       "name": "Poppy - Constantly Nowhere Tour",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Fri, Jul 24, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-6ue"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-6ue",
+      "sales": {
+        "public_start": "2026-02-20T16:00:00Z",
+        "public_end": "2026-07-25T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1kvZv0f7GAu-lof",
       "name": "Poppy - Constantly Nowhere Tour",
       "location": "Riviera Theatre, Chicago",
       "date": "Fri, Jul 24, 2026 · 7:00 PM",
-      "url": "https://www.axs.com/events/1335625/poppy-constantly-nowhere-tour-tickets"
+      "url": "https://www.axs.com/events/1335625/poppy-constantly-nowhere-tour-tickets",
+      "sales": {
+        "public_start": "2026-02-20T16:00:00Z",
+        "public_end": "2026-07-25T00:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-18T16:00:00Z",
+            "end": "2026-02-20T05:59:00Z"
+          },
+          {
+            "name": "Live Nation Presale",
+            "start": "2026-02-18T16:00:00Z",
+            "end": "2026-02-20T05:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-19T18:00:00Z",
+            "end": "2026-02-20T05:59:00Z"
+          },
+          {
+            "name": "Citi Presale",
+            "start": "2026-02-18T18:00:00Z",
+            "end": "2026-02-20T05:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "Z7r9jZ1A70av4",
       "name": "T.I. - The King Succession Tour",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Sun, Jul 26, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70av4"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70av4",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-07-27T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vvG18Z_1671cME",
       "name": "T.I. - The King Succession Tour",
       "location": "Riviera Theatre, Chicago",
       "date": "Sun, Jul 26, 2026 · 7:30 PM",
-      "url": "https://www.axs.com/events/1433189/ti-the-king-succession-tour-tickets"
+      "url": "https://www.axs.com/events/1433189/ti-the-king-succession-tour-tickets",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-07-27T00:30:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-06T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          },
+          {
+            "name": "Live Nation Presale",
+            "start": "2026-05-07T15:00:00Z",
+            "end": "2026-05-08T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "Z7r9jZ1A7-yqU",
       "name": "PRESIDENT",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Tue, Sep 8, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-yqU"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-yqU",
+      "sales": {
+        "public_start": "2026-04-03T15:00:00Z",
+        "public_end": "2026-09-08T23:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv178Z_6GkMx3bme",
       "name": "PRESIDENT: North American Campaign 2026",
       "location": "Riviera Theatre, Chicago",
       "date": "Tue, Sep 8, 2026 · 6:30 PM",
-      "url": "https://www.axs.com/events/1385354/president-north-american-campaign-2026-tickets"
+      "url": "https://www.axs.com/events/1385354/president-north-american-campaign-2026-tickets",
+      "sales": {
+        "public_start": "2026-04-03T15:00:00Z",
+        "public_end": "2026-09-08T23:30:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-01T15:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "Z7r9jZ1A7x4bf",
       "name": "Beth Hart",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Sat, Sep 19, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4bf"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x4bf",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-09-20T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A707JF",
       "name": "Bad Gyal",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Sun, Nov 1, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A707JF"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A707JF",
+      "sales": {
+        "public_start": "2026-05-08T15:00:00Z",
+        "public_end": "2026-11-02T01:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "Z7r9jZ1A7-w_3",
       "name": "Kathy Griffin",
       "location": "Riviera Theatre- IL, Chicago",
       "date": "Fri, Dec 11, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-w_3"
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-w_3",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-12-12T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7ZkoVGkewH9uV",
       "name": "KATHY GRIFFIN: New Face, New Tour",
       "location": "Riviera Theatre, Chicago",
       "date": "Fri, Dec 11, 2026 · 7:00 PM",
-      "url": "https://www.axs.com/events/1378500/kathy-griffin-new-face-new-tour-tickets"
+      "url": "https://www.axs.com/events/1378500/kathy-griffin-new-face-new-tour-tickets",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-12-12T01:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-25T15:00:00Z",
+            "end": "2026-03-27T04:59:00Z"
+          },
+          {
+            "name": "Live Nation Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T04:59:00Z"
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "site": "Wintrust Arena",
-  "last_run": "2026-05-08T17:47:27.094861Z",
+  "last_run": "2026-05-08T19:22:28.354098Z",
   "count": 23,
   "events": [
     {
@@ -8,161 +8,307 @@
       "name": "Chicago Sky vs. Dallas Wings",
       "location": "Wintrust Arena, Chicago",
       "date": "Wed, May 20, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-dallas-wings-chicago-illinois-05-20-2026/event/0700643ED7C79A47"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-dallas-wings-chicago-illinois-05-20-2026/event/0700643ED7C79A47",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-05-21T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkD9S_tG",
       "name": "Chicago Sky vs. Minnesota Lynx",
       "location": "Wintrust Arena, Chicago",
       "date": "Sat, May 23, 2026 · 12:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-minnesota-lynx-chicago-illinois-05-23-2026/event/0700643ED7CD9A4C"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-minnesota-lynx-chicago-illinois-05-23-2026/event/0700643ED7CD9A4C",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-05-23T18:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkD9Vtt8",
       "name": "Chicago Sky vs. Toronto Tempo",
       "location": "Wintrust Arena, Chicago",
       "date": "Wed, May 27, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-toronto-tempo-chicago-illinois-05-27-2026/event/0700643ED7D29A50"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-toronto-tempo-chicago-illinois-05-27-2026/event/0700643ED7D29A50",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-05-28T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkD9gyt9",
       "name": "Chicago Sky vs. Minnesota Lynx",
       "location": "Wintrust Arena, Chicago",
       "date": "Fri, May 29, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-minnesota-lynx-chicago-illinois-05-29-2026/event/0700643ED7D79A57"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-minnesota-lynx-chicago-illinois-05-29-2026/event/0700643ED7D79A57",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-05-30T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv166Zk3auFZA81C68",
       "name": "We Them One's Comedy Tour",
       "location": "Wintrust Arena, Chicago",
       "date": "Sat, May 30, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/we-them-ones-comedy-tour-chicago-illinois-05-30-2026/event/07006489348F9D6F"
+      "url": "https://www.ticketmaster.com/we-them-ones-comedy-tour-chicago-illinois-05-30-2026/event/07006489348F9D6F",
+      "sales": {
+        "public_start": "2026-04-14T15:00:00Z",
+        "public_end": "2026-05-31T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkD9Matj",
       "name": "Chicago Sky vs. Connecticut Sun",
       "location": "Wintrust Arena, Chicago",
       "date": "Fri, Jun 5, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-connecticut-sun-chicago-illinois-06-05-2026/event/0700643ED7DC9A5C"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-connecticut-sun-chicago-illinois-06-05-2026/event/0700643ED7DC9A5C",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-06-06T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkD9z_t-",
       "name": "Chicago Sky vs. Atlanta Dream",
       "location": "Wintrust Arena, Chicago",
       "date": "Tue, Jun 9, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-atlanta-dream-chicago-illinois-06-09-2026/event/0700643ED7E19A61"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-atlanta-dream-chicago-illinois-06-09-2026/event/0700643ED7E19A61",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-06-10T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkD9yttP",
       "name": "Chicago Sky vs. New York Liberty",
       "location": "Wintrust Arena, Chicago",
       "date": "Wed, Jun 17, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-new-york-liberty-chicago-illinois-06-17-2026/event/0700643ED7E69A65"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-new-york-liberty-chicago-illinois-06-17-2026/event/0700643ED7E69A65",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-06-18T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1a6Zk34Zs1eZe5A",
       "name": "R&B Music Experience: A Juneteenth Celebration",
       "location": "Wintrust Arena, Chicago",
       "date": "Sat, Jun 20, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/rb-music-experience-a-juneteenth-celebration-chicago-illinois-06-20-2026/event/07006495031282A4"
+      "url": "https://www.ticketmaster.com/rb-music-experience-a-juneteenth-celebration-chicago-illinois-06-20-2026/event/07006495031282A4",
+      "sales": {
+        "public_start": "2026-04-27T17:00:00Z",
+        "public_end": "2026-06-21T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkD9BytI",
       "name": "Chicago Sky vs. Portland Fire",
       "location": "Wintrust Arena, Chicago",
       "date": "Wed, Jun 24, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-portland-fire-chicago-illinois-06-24-2026/event/0700643ED7EB9A68"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-portland-fire-chicago-illinois-06-24-2026/event/0700643ED7EB9A68",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-06-25T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkD9H_tR",
       "name": "Chicago Sky vs. Portland Fire",
       "location": "Wintrust Arena, Chicago",
       "date": "Fri, Jun 26, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-portland-fire-chicago-illinois-06-26-2026/event/0700643ED7F19A6F"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-portland-fire-chicago-illinois-06-26-2026/event/0700643ED7F19A6F",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-06-27T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkD9WttV",
       "name": "Chicago Sky vs. Seattle Storm",
       "location": "Wintrust Arena, Chicago",
       "date": "Wed, Jul 15, 2026 · 11:00 AM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-seattle-storm-chicago-illinois-07-15-2026/event/0700643ED7F69A74"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-seattle-storm-chicago-illinois-07-15-2026/event/0700643ED7F69A74",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-07-15T17:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkD9Xyty",
       "name": "Chicago Sky vs. Los Angeles Sparks",
       "location": "Wintrust Arena, Chicago",
       "date": "Fri, Jul 17, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-los-angeles-sparks-chicago-illinois-07-17-2026/event/0700643ED7FB9A79"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-los-angeles-sparks-chicago-illinois-07-17-2026/event/0700643ED7FB9A79",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-07-18T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkDbZane",
       "name": "Chicago Sky vs. Connecticut Sun",
       "location": "Wintrust Arena, Chicago",
       "date": "Thu, Jul 30, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-connecticut-sun-chicago-illinois-07-30-2026/event/0700643ED8009A82"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-connecticut-sun-chicago-illinois-07-30-2026/event/0700643ED8009A82",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-07-31T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkDbv_nA",
       "name": "Chicago Sky vs. Las Vegas Aces",
       "location": "Wintrust Arena, Chicago",
       "date": "Sat, Aug 1, 2026 · 12:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-las-vegas-aces-chicago-illinois-08-01-2026/event/0700643ED8059A85"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-las-vegas-aces-chicago-illinois-08-01-2026/event/0700643ED8059A85",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-08-01T18:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkDbetn8",
       "name": "Chicago Sky vs. Phoenix Mercury",
       "location": "Wintrust Arena, Chicago",
       "date": "Mon, Aug 3, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-phoenix-mercury-chicago-illinois-08-03-2026/event/0700643ED80A9A90"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-phoenix-mercury-chicago-illinois-08-03-2026/event/0700643ED80A9A90",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-08-04T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkDbdyn_",
       "name": "Chicago Sky vs. Los Angeles Sparks",
       "location": "Wintrust Arena, Chicago",
       "date": "Wed, Aug 5, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-los-angeles-sparks-chicago-illinois-08-05-2026/event/0700643ED80F9A99"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-los-angeles-sparks-chicago-illinois-08-05-2026/event/0700643ED80F9A99",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-08-06T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A6Zk3bGkdi1nuO",
       "name": "MAMAMOO 2026 US TOUR",
       "location": "Wintrust Arena, Chicago",
       "date": "Sat, Aug 15, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-chicago-illinois-08-15-2026/event/07006498EC2AA360"
+      "url": "https://www.ticketmaster.com/mamamoo-2026-us-tour-chicago-illinois-08-15-2026/event/07006498EC2AA360",
+      "sales": {
+        "public_start": "2026-05-15T15:00:00Z",
+        "public_end": "2026-08-16T02:30:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T04:59:00Z"
+          },
+          {
+            "name": "Wintrust Arena Presale",
+            "start": "2026-05-13T17:00:00Z",
+            "end": "2026-05-15T04:59:00Z"
+          },
+          {
+            "name": "Mammoth Presale",
+            "start": "2026-05-13T17:00:00Z",
+            "end": "2026-05-15T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-05-13T17:00:00Z",
+            "end": "2026-05-15T04:59:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T04:59:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-05-15T15:00:00Z",
+            "end": "2026-08-09T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv17jZ_dGkDbAanr",
       "name": "Chicago Sky vs. New York Liberty",
       "location": "Wintrust Arena, Chicago",
       "date": "Tue, Aug 18, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-new-york-liberty-chicago-illinois-08-18-2026/event/0700643ED8149A9E"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-new-york-liberty-chicago-illinois-08-18-2026/event/0700643ED8149A9E",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-08-19T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkDbktnJ",
       "name": "Chicago Sky vs. Golden State Valkyries",
       "location": "Wintrust Arena, Chicago",
       "date": "Fri, Aug 21, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-golden-state-valkyries-chicago-illinois-08-21-2026/event/0700643ED81A9AA6"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-golden-state-valkyries-chicago-illinois-08-21-2026/event/0700643ED81A9AA6",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-08-22T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkDb6ynt",
       "name": "Chicago Sky vs. Indiana Fever",
       "location": "Wintrust Arena, Chicago",
       "date": "Sun, Aug 23, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-indiana-fever-chicago-illinois-08-23-2026/event/0700643ED81F9AA9"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-indiana-fever-chicago-illinois-08-23-2026/event/0700643ED81F9AA9",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-08-24T00:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkDbFynY",
       "name": "Chicago Sky vs. Washington Mystics",
       "location": "Wintrust Arena, Chicago",
       "date": "Thu, Sep 17, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-washington-mystics-chicago-illinois-09-17-2026/event/0700643ED8239AB0"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-washington-mystics-chicago-illinois-09-17-2026/event/0700643ED8239AB0",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-09-18T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv17jZ_dGkD9R_IX",
       "name": "Chicago Sky vs. Toronto Tempo",
       "location": "Wintrust Arena, Chicago",
       "date": "Tue, Sep 22, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-toronto-tempo-chicago-illinois-09-22-2026/event/0700643ED7BD9A3E"
+      "url": "https://www.ticketmaster.com/chicago-sky-vs-toronto-tempo-chicago-illinois-09-22-2026/event/0700643ED7BD9A3E",
+      "sales": {
+        "public_start": "2026-02-06T17:00:00Z",
+        "public_end": "2026-09-23T01:00:00Z",
+        "presales": []
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-08T17:47:18.691975Z",
+  "last_run": "2026-05-08T19:22:16.306267Z",
   "count": 20,
   "events": [
     {
@@ -8,140 +8,240 @@
       "name": "Virgin Whores",
       "location": "Ramova Loft",
       "date": "Fri, May 8 at 7:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/virgin-whores-183097"
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/virgin-whores-183097",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "184066",
       "name": "Más EDM: Road to Sueños",
       "location": "Ramova Theatre ",
       "date": "Fri, May 8 at 9:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/m-s-edm-road-to-sue-os-184066"
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/m-s-edm-road-to-sue-os-184066",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "188681",
       "name": "La Casita | Galeria",
       "location": "Galeria Chicago",
       "date": "Fri, May 8 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-188681"
+      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-188681",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "183582",
       "name": "Road To Sueños | Sazòn Party",
       "location": "Reserv",
       "date": "Sat, May 9 at 2:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-saz-n-party-183582"
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-saz-n-party-183582",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "183580",
       "name": "Road To Sueños | J Santos, Gio Sandz & Little Rok",
       "location": "Giant Pennywhistle",
       "date": "Sat, May 9 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-j-santos-gio-sandz-little-rok-183580"
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-j-santos-gio-sandz-little-rok-183580",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "175241",
       "name": "Said The Sky",
       "location": "Ramova Theatre ",
       "date": "Sat, May 9 at 9:30 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/said-the-sky-175241"
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/said-the-sky-175241",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "185593",
       "name": "MIA Rooftop Saturdays (21+)",
       "location": "Reserv",
       "date": "Sat, May 9 at 8:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185593"
+      "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185593",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "188682",
       "name": "La Casita | Galeria",
       "location": "Galeria Chicago",
       "date": "Sat, May 9 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-188682"
+      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-188682",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "179829",
       "name": "BICHOTAS BRUNCH - MOTHERS DAY (21+)",
       "location": "Gold Coast Social",
       "date": "Sun, May 10 at 11:00 AM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/bichotas-brunch-mothers-day-21--179829"
+      "url": "https://www.tixr.com/groups/365presents/events/bichotas-brunch-mothers-day-21--179829",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "167626",
       "name": "Emo Orchestra ft The Spill Canvas",
       "location": "Ramova Theatre ",
       "date": "Sun, May 10 at 7:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/emo-orchestra-ft-the-spill-canvas-167626"
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/emo-orchestra-ft-the-spill-canvas-167626",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "179263",
       "name": "Academy Order",
       "location": "Ramova Loft",
       "date": "Thu, May 14 at 6:30 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/academy-order-179263"
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/academy-order-179263",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "183583",
       "name": "Road To Sueños | DJ SMIRF + DJ OROZCO",
       "location": "RiNo Bar",
       "date": "Thu, May 14 at 11:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-dj-smirf-dj-orozco-183583"
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-dj-smirf-dj-orozco-183583",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "169290",
       "name": "Sepultura - Celebrating Life Through Death Final North American Tour 2026",
       "location": "Ramova Theatre ",
       "date": "Fri, May 15 at 6:30 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/sepultura-celebrating-life-through-death-final-north-american-tour-2026-169290"
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/sepultura-celebrating-life-through-death-final-north-american-tour-2026-169290",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "185594",
       "name": "MIA Rooftop Saturdays (21+)",
       "location": "Reserv",
       "date": "Sat, May 16 at 8:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185594"
+      "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185594",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "179396",
       "name": "Two Friends",
       "location": "Ramova Theatre ",
       "date": "Sat, May 16 at 11:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/two-friends-179396"
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/two-friends-179396",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "183585",
       "name": "Road To Suenos | Perreologia 773",
       "location": "Bar Sol",
       "date": "Sun, May 17 at 12:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-suenos-perreologia-773-183585"
+      "url": "https://www.tixr.com/groups/acro/events/road-to-suenos-perreologia-773-183585",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "179830",
       "name": "LA CURA - DRAKE BRUNCH  (21+)",
       "location": "Gold Coast Social",
       "date": "Sun, May 17 at 11:00 AM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/la-cura-drake-brunch-21--179830"
+      "url": "https://www.tixr.com/groups/365presents/events/la-cura-drake-brunch-21--179830",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "183119",
       "name": "Nordista Freeze",
       "location": "Ramova Loft",
       "date": "Sun, May 17 at 7:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/nordista-freeze-183119"
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/nordista-freeze-183119",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "168970",
       "name": "CHAOS & CARNAGE 2026",
       "location": "Ramova Theatre ",
       "date": "Tue, May 19 at 4:45 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/chaos-carnage-2026-168970"
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/chaos-carnage-2026-168970",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     },
     {
       "slug": "184071",
       "name": "Fresa  | Road To Sueños",
       "location": "Three Top Lounge",
       "date": "Tue, May 19 at 9:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/fresa-road-to-sue-os-184071"
+      "url": "https://www.tixr.com/groups/acro/events/fresa-road-to-sue-os-184071",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
     }
   ]
 }

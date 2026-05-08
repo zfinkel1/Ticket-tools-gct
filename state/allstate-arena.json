@@ -1,6 +1,6 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-08T17:47:26.833026Z",
+  "last_run": "2026-05-08T19:22:27.978697Z",
   "count": 35,
   "events": [
     {
@@ -8,245 +8,1245 @@
       "name": "Stifel Stars on Ice",
       "location": "Allstate Arena, Rosemont",
       "date": "Fri, May 8, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/stifel-stars-on-ice-rosemont-illinois-05-08-2026/event/0400635FA3696F52"
+      "url": "https://www.ticketmaster.com/stifel-stars-on-ice-rosemont-illinois-05-08-2026/event/0400635FA3696F52",
+      "sales": {
+        "public_start": "2025-11-21T16:00:00Z",
+        "public_end": "2026-05-09T01:00:00Z",
+        "presales": [
+          {
+            "name": "Stars on Ice Presale Offers",
+            "start": "2025-11-19T16:00:00Z",
+            "end": "2025-11-21T05:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkuPGkdj6MIy",
       "name": "Stifel Stars On Ice Pre-show Stargazer Pass: 3:30 pm",
       "location": "Allstate Arena, Rosemont",
       "date": "Fri, May 8, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/stifel-stars-on-ice-preshow-stargazer-rosemont-illinois-05-08-2026/event/04006365DC1F7A39"
+      "url": "https://www.ticketmaster.com/stifel-stars-on-ice-preshow-stargazer-rosemont-illinois-05-08-2026/event/04006365DC1F7A39",
+      "sales": {
+        "public_start": "2025-11-18T16:00:00Z",
+        "public_end": "2026-05-08T23:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv178ZbUGkm6NfbC",
       "name": "Alejandro Fernández: de Rey a Rey",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, May 9, 2026 · 8:30 PM",
-      "url": "https://www.ticketmaster.com/alejandro-fernandez-de-rey-a-rey-rosemont-illinois-05-09-2026/event/0400636B878D460E"
+      "url": "https://www.ticketmaster.com/alejandro-fernandez-de-rey-a-rey-rosemont-illinois-05-09-2026/event/0400636B878D460E",
+      "sales": {
+        "public_start": "2025-11-21T16:00:00Z",
+        "public_end": "2026-05-10T02:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7ZkoeGkdTQQEd",
       "name": "Diljit Dosanjh - Aura World Tour 2026",
       "location": "Allstate Arena, Rosemont",
       "date": "Sun, May 10, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/diljit-dosanjh-aura-world-tour-2026-rosemont-illinois-05-10-2026/event/04006442FF69A9C3"
+      "url": "https://www.ticketmaster.com/diljit-dosanjh-aura-world-tour-2026-rosemont-illinois-05-10-2026/event/04006442FF69A9C3",
+      "sales": {
+        "public_start": "2026-02-12T16:00:00Z",
+        "public_end": "2026-05-11T02:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-10T18:00:00Z",
+            "end": "2026-02-12T04:00:00Z"
+          },
+          {
+            "name": "Preferred Seating Offer Presale",
+            "start": "2026-02-10T18:00:00Z",
+            "end": "2026-02-12T04:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-12T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-12T04:00:00Z"
+          },
+          {
+            "name": "Local/ Venue/ Radio Presales",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-12T04:00:00Z"
+          },
+          {
+            "name": "Preferred Seating Offer",
+            "start": "2026-02-12T16:00:00Z",
+            "end": "2026-05-11T02:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-02-10T16:00:00Z",
+            "end": "2026-02-12T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-02-12T16:00:00Z",
+            "end": "2026-04-13T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkCpGkdCRp4I",
       "name": "Triumph: The Rock & Roll Machine Reloaded Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Wed, May 13, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/triumph-the-rock-roll-machine-reloaded-rosemont-illinois-05-13-2026/event/04006396CEBD6568"
+      "url": "https://www.ticketmaster.com/triumph-the-rock-roll-machine-reloaded-rosemont-illinois-05-13-2026/event/04006396CEBD6568",
+      "sales": {
+        "public_start": "2026-01-07T16:00:00Z",
+        "public_end": "2026-05-14T02:00:00Z",
+        "presales": [
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-01-07T16:00:00Z",
+            "end": "2026-05-07T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkuvGkdNw7Rv",
       "name": "Bring Me The Horizon - N. American Ascension Program 2",
       "location": "Allstate Arena, Rosemont",
       "date": "Fri, May 15, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/bring-me-the-horizon-n-american-rosemont-illinois-05-15-2026/event/04006341E3C84BC1"
+      "url": "https://www.ticketmaster.com/bring-me-the-horizon-n-american-rosemont-illinois-05-15-2026/event/04006341E3C84BC1",
+      "sales": {
+        "public_start": "2025-10-10T15:00:00Z",
+        "public_end": "2026-05-16T00:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-10-08T15:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2025-10-08T15:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "Spotify Fans First Presale",
+            "start": "2025-10-09T15:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "Local/ Radio/ Venue Presale",
+            "start": "2025-10-09T15:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2025-10-07T15:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2025-10-08T15:00:00Z",
+            "end": "2025-10-10T14:45:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2025-10-08T15:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages",
+            "start": "2025-10-10T15:00:00Z",
+            "end": "2026-05-09T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2025-10-10T15:00:00Z",
+            "end": "2026-04-18T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember VIP Packages Presale",
+            "start": "2025-10-07T15:00:00Z",
+            "end": "2025-10-08T14:45:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2025-10-10T15:00:00Z",
+            "end": "2026-05-09T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv167Zk8EjfZA8eGdG",
       "name": "Palomazo Norteño: Clase Maestra Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Fri, May 22, 2026 · 8:30 PM",
-      "url": "https://www.ticketmaster.com/palomazo-norteno-clase-maestra-tour-rosemont-illinois-05-22-2026/event/04006427714F1B2B"
+      "url": "https://www.ticketmaster.com/palomazo-norteno-clase-maestra-tour-rosemont-illinois-05-22-2026/event/04006427714F1B2B",
+      "sales": {
+        "public_start": "2026-01-23T16:00:00Z",
+        "public_end": "2026-05-23T02:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv178ZbVGknU-f6a",
       "name": "Cody Johnson Live '26",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, May 30, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/cody-johnson-live-26-rosemont-illinois-05-30-2026/event/0400634AB68541C9"
+      "url": "https://www.ticketmaster.com/cody-johnson-live-26-rosemont-illinois-05-30-2026/event/0400634AB68541C9",
+      "sales": {
+        "public_start": "2025-11-07T16:00:00Z",
+        "public_end": "2026-05-31T01:30:00Z",
+        "presales": [
+          {
+            "name": "COJO Fan Club Presale",
+            "start": "2025-11-04T16:00:00Z",
+            "end": "2025-11-06T04:00:00Z"
+          },
+          {
+            "name": "Radio / Venue Presale",
+            "start": "2025-11-06T16:00:00Z",
+            "end": "2025-11-07T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2025-11-06T16:00:00Z",
+            "end": "2025-11-07T04:00:00Z"
+          },
+          {
+            "name": "VIP Pit Presales",
+            "start": "2025-11-04T16:00:00Z",
+            "end": "2025-11-07T04:00:00Z"
+          },
+          {
+            "name": "VIP Pit Offer",
+            "start": "2025-11-07T16:00:00Z",
+            "end": "2026-05-31T00:30:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk8EGkd42pgX",
       "name": "Romeo Santos & Prince Royce - Mejor Tarde Que Nunca Tour 2026",
       "location": "Allstate Arena, Rosemont",
       "date": "Sun, May 31, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/romeo-santos-prince-royce-mejor-tarde-rosemont-illinois-05-31-2026/event/04006427D53D6D7E"
+      "url": "https://www.ticketmaster.com/romeo-santos-prince-royce-mejor-tarde-rosemont-illinois-05-31-2026/event/04006427D53D6D7E",
+      "sales": {
+        "public_start": "2026-01-16T16:00:00Z",
+        "public_end": "2026-06-01T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv1A7ZkC7GkeOFpq-",
       "name": "Forrest Frank: The Jesus Generation Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Thu, Jun 4, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/forrest-frank-the-jesus-generation-tour-rosemont-illinois-06-04-2026/event/04006384A0216761"
+      "url": "https://www.ticketmaster.com/forrest-frank-the-jesus-generation-tour-rosemont-illinois-06-04-2026/event/04006384A0216761",
+      "sales": {
+        "public_start": "2025-12-12T16:00:00Z",
+        "public_end": "2026-06-05T01:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-12-10T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "Partner/ Venue Presale",
+            "start": "2025-12-11T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2025-12-10T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "Local Church Presale",
+            "start": "2025-12-11T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "TPR Promoter Presale",
+            "start": "2025-12-11T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages On Sale",
+            "start": "2025-12-12T16:00:00Z",
+            "end": "2026-05-31T03:00:00Z"
+          },
+          {
+            "name": "Preferred Seating Package Presale",
+            "start": "2025-12-10T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "Preferred Seating Package",
+            "start": "2025-12-12T16:00:00Z",
+            "end": "2026-06-05T01:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbsGksjfYcJ",
       "name": "Nate Bargatze: Big Dumb Eyes World Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Jun 13, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/nate-bargatze-big-dumb-eyes-world-rosemont-illinois-06-13-2026/event/0400631C5C530B66"
+      "url": "https://www.ticketmaster.com/nate-bargatze-big-dumb-eyes-world-rosemont-illinois-06-13-2026/event/0400631C5C530B66",
+      "sales": {
+        "public_start": "2025-09-05T15:00:00Z",
+        "public_end": "2026-06-14T01:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-09-04T15:00:00Z",
+            "end": "2025-09-05T14:45:00Z"
+          },
+          {
+            "name": "Media/ Venue/ Promoter Presales",
+            "start": "2025-09-04T17:00:00Z",
+            "end": "2025-09-05T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk8YGkeRlMgw",
       "name": "Carin Leon - De Sonora Para El Mundo Tour 2026",
       "location": "Allstate Arena, Rosemont",
       "date": "Thu, Jun 18, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/carin-leon-de-sonora-para-el-rosemont-illinois-06-18-2026/event/04006430AFAF7D72"
+      "url": "https://www.ticketmaster.com/carin-leon-de-sonora-para-el-rosemont-illinois-06-18-2026/event/04006430AFAF7D72",
+      "sales": {
+        "public_start": "2026-02-13T16:00:00Z",
+        "public_end": "2026-06-19T02:00:00Z",
+        "presales": [
+          {
+            "name": "Amex Presale Tickets®",
+            "start": "2026-02-10T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Amex Preferred Tickets™",
+            "start": "2026-02-10T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-02-10T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-02-13T16:00:00Z",
+            "end": "2026-06-08T22:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-02-11T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-02-12T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-02-12T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "AEG / Venue Presale",
+            "start": "2026-02-12T16:00:00Z",
+            "end": "2026-02-13T04:00:00Z"
+          },
+          {
+            "name": "Amex Reserved Tickets®",
+            "start": "2026-02-13T16:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbzGkircJIp",
       "name": "Josh Groban with special guest Jennifer Hudson",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Jun 27, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/josh-groban-with-special-guest-jennifer-rosemont-illinois-06-27-2026/event/0400638B1EB66A16"
+      "url": "https://www.ticketmaster.com/josh-groban-with-special-guest-jennifer-rosemont-illinois-06-27-2026/event/0400638B1EB66A16",
+      "sales": {
+        "public_start": "2025-12-19T16:00:00Z",
+        "public_end": "2026-06-28T02:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2025-12-16T18:00:00Z",
+            "end": "2025-12-19T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2025-12-17T16:00:00Z",
+            "end": "2025-12-19T04:00:00Z"
+          },
+          {
+            "name": "Stifel Presale",
+            "start": "2025-12-16T18:00:00Z",
+            "end": "2025-12-19T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-12-17T16:00:00Z",
+            "end": "2025-12-19T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2025-12-18T16:00:00Z",
+            "end": "2025-12-19T04:00:00Z"
+          },
+          {
+            "name": "Venue/ Radio/ Local",
+            "start": "2025-12-18T16:00:00Z",
+            "end": "2025-12-19T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2025-12-19T16:00:00Z",
+            "end": "2026-06-21T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2025-12-19T16:00:00Z",
+            "end": "2026-05-31T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2025-12-18T16:00:00Z",
+            "end": "2025-12-19T04:00:00Z"
+          },
+          {
+            "name": "Verizon Access Presale Tickets",
+            "start": "2025-12-16T18:00:00Z",
+            "end": "2025-12-19T04:00:00Z"
+          },
+          {
+            "name": "Verizon Access Select Seats",
+            "start": "2025-12-19T16:00:00Z",
+            "end": "2026-05-31T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember VIP Package Presale",
+            "start": "2025-12-16T18:00:00Z",
+            "end": "2025-12-17T15:45:00Z"
+          },
+          {
+            "name": "Verizon Access VIP Package Presale",
+            "start": "2025-12-16T18:00:00Z",
+            "end": "2025-12-17T15:45:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1k8ZbS0aG7HPzy",
       "name": "Louis Tomlinson - How Did We Get Here? World Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Fri, Jul 3, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/louis-tomlinson-how-did-we-get-rosemont-illinois-07-03-2026/event/0400633909F25E39"
+      "url": "https://www.ticketmaster.com/louis-tomlinson-how-did-we-get-rosemont-illinois-07-03-2026/event/0400633909F25E39",
+      "sales": {
+        "public_start": "2025-10-10T15:00:00Z",
+        "public_end": "2026-07-04T01:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-10-08T15:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2025-10-09T17:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "Local/ Radio/ Venue",
+            "start": "2025-10-09T15:00:00Z",
+            "end": "2025-10-10T03:00:00Z"
+          },
+          {
+            "name": "Holiday Deals",
+            "start": "2025-11-28T05:59:00Z",
+            "end": "2026-01-01T05:59:00Z"
+          },
+          {
+            "name": "Lemonade Day BOGO Offer",
+            "start": "2026-05-01T13:00:00Z",
+            "end": "2026-05-04T03:00:00Z"
+          },
+          {
+            "name": "T-Mobile Offer",
+            "start": "2026-06-03T13:00:00Z",
+            "end": "2026-07-03T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vvG18Z_13TeQZY",
       "name": "WWE Monday Night RAW",
       "location": "Allstate Arena, Rosemont",
       "date": "Mon, Jul 6, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/wwe-monday-night-raw-rosemont-illinois-07-06-2026/event/040064A4BF09A030"
+      "url": "https://www.ticketmaster.com/wwe-monday-night-raw-rosemont-illinois-07-06-2026/event/040064A4BF09A030",
+      "sales": {
+        "public_start": "2026-05-15T15:00:00Z",
+        "public_end": "2026-07-07T00:30:00Z",
+        "presales": [
+          {
+            "name": "WWE Presale",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-15T04:59:00Z"
+          },
+          {
+            "name": "Preferred Seating Presale",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-15T04:59:00Z"
+          },
+          {
+            "name": "Preferred Seating",
+            "start": "2026-05-15T15:00:00Z",
+            "end": "2026-07-07T00:30:00Z"
+          },
+          {
+            "name": "Ringsider Package Presale",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-15T04:59:00Z"
+          },
+          {
+            "name": "Ringsider Package Onsale",
+            "start": "2026-05-15T15:00:00Z",
+            "end": "2026-06-30T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_AGkRGyDgX",
       "name": "El Coyote & Chuy Lizarraga - Capibaras Tour 2026",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Jul 11, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/el-coyote-chuy-lizarraga-capibaras-tour-rosemont-illinois-07-11-2026/event/0400645BCCE7BD7E"
+      "url": "https://www.ticketmaster.com/el-coyote-chuy-lizarraga-capibaras-tour-rosemont-illinois-07-11-2026/event/0400645BCCE7BD7E",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-07-12T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "vv178Z_FGkRaT6nT",
       "name": "Melanie Martinez - HADES: THE SACRIFICE",
       "location": "Allstate Arena, Rosemont",
       "date": "Fri, Jul 17, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/melanie-martinez-hades-the-sacrifice-rosemont-illinois-07-17-2026/event/0400648BC9FC7ABF"
+      "url": "https://www.ticketmaster.com/melanie-martinez-hades-the-sacrifice-rosemont-illinois-07-17-2026/event/0400648BC9FC7ABF",
+      "sales": {
+        "public_start": "2026-04-24T17:00:00Z",
+        "public_end": "2026-07-18T02:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-22T17:00:00Z",
+            "end": "2026-04-23T04:59:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-23T17:00:00Z",
+            "end": "2026-04-24T04:59:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-04-23T15:00:00Z",
+            "end": "2026-04-24T04:59:00Z"
+          },
+          {
+            "name": "Local/ Radio/ Venue Presales",
+            "start": "2026-04-23T15:00:00Z",
+            "end": "2026-04-24T04:59:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-04-22T17:00:00Z",
+            "end": "2026-04-24T04:59:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-04-24T17:00:00Z",
+            "end": "2026-07-11T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_6Gklor_fH",
       "name": "Benson Boone: Wanted Man Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Fri, Jul 24, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/benson-boone-wanted-man-tour-rosemont-illinois-07-24-2026/event/0400647AD179953C"
+      "url": "https://www.ticketmaster.com/benson-boone-wanted-man-tour-rosemont-illinois-07-24-2026/event/0400647AD179953C",
+      "sales": {
+        "public_start": "2026-04-03T16:00:00Z",
+        "public_end": "2026-07-25T02:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-01T16:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-04-02T16:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Promoter/ Radio/ Venue",
+            "start": "2026-04-02T16:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-04-02T16:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-04-01T16:00:00Z",
+            "end": "2026-04-02T15:45:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-04-03T16:00:00Z",
+            "end": "2026-07-11T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-04-02T16:00:00Z",
+            "end": "2026-04-03T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_6GkloL_4e",
       "name": "Benson Boone: Wanted Man Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Jul 25, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/benson-boone-wanted-man-tour-rosemont-illinois-07-25-2026/event/0400647AD17D9542"
+      "url": "https://www.ticketmaster.com/benson-boone-wanted-man-tour-rosemont-illinois-07-25-2026/event/0400647AD17D9542",
+      "sales": {
+        "public_start": "2026-04-03T16:00:00Z",
+        "public_end": "2026-07-26T02:00:00Z",
+        "presales": [
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-04-03T16:00:00Z",
+            "end": "2026-07-12T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178ZbMGklF1EZH",
       "name": "Chicago & Styx: The Windy Cities Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Aug 1, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-styx-the-windy-cities-tour-rosemont-illinois-08-01-2026/event/0400637AC82A703C"
+      "url": "https://www.ticketmaster.com/chicago-styx-the-windy-cities-tour-rosemont-illinois-08-01-2026/event/0400637AC82A703C",
+      "sales": {
+        "public_start": "2025-12-05T16:00:00Z",
+        "public_end": "2026-08-02T01:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2025-12-02T18:00:00Z",
+            "end": "2025-12-05T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2025-12-05T16:00:00Z",
+            "end": "2026-07-03T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2025-12-03T16:00:00Z",
+            "end": "2025-12-05T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2025-12-03T16:00:00Z",
+            "end": "2025-12-05T04:00:00Z"
+          },
+          {
+            "name": "Local/ Radio/ Venue",
+            "start": "2025-12-04T16:00:00Z",
+            "end": "2025-12-05T04:00:00Z"
+          },
+          {
+            "name": "Styx Fan Club Presale",
+            "start": "2025-12-02T16:00:00Z",
+            "end": "2025-12-05T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2025-12-02T16:00:00Z",
+            "end": "2025-12-05T04:00:00Z"
+          },
+          {
+            "name": "Chicago Fan Club Presale",
+            "start": "2025-12-02T16:00:00Z",
+            "end": "2025-12-05T04:00:00Z"
+          },
+          {
+            "name": "Preferred Seating Packages Presale",
+            "start": "2025-12-02T18:00:00Z",
+            "end": "2025-12-05T04:00:00Z"
+          },
+          {
+            "name": "Chicago VIP Package Onsale",
+            "start": "2025-12-05T16:00:00Z",
+            "end": "2026-07-19T03:00:00Z"
+          },
+          {
+            "name": "Preferred Seating Package",
+            "start": "2025-12-05T16:00:00Z",
+            "end": "2026-08-02T01:00:00Z"
+          },
+          {
+            "name": "Styx VIP Package Onsale",
+            "start": "2025-12-05T16:00:00Z",
+            "end": "2026-07-23T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_kGkSvnERb",
       "name": "Mon Laferte - Femme Fatale Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Aug 15, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-rosemont-illinois-08-15-2026/event/0400646CC1AA7BD8"
+      "url": "https://www.ticketmaster.com/mon-laferte-femme-fatale-tour-rosemont-illinois-08-15-2026/event/0400646CC1AA7BD8",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-08-16T02:00:00Z",
+        "presales": [
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-26T17:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Venue/ Radio Presales",
+            "start": "2026-03-26T17:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-03-24T16:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-25T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-03-27T15:00:00Z",
+            "end": "2026-07-19T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-03-24T16:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-03-27T15:00:00Z",
+            "end": "2026-08-11T17:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkuaGkd9d0X7",
       "name": "Los Angeles Azules - Cumbia Sin Fronteras US Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Aug 22, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/los-angeles-azules-cumbia-sin-fronteras-rosemont-illinois-08-22-2026/event/04006349D70E4F84"
+      "url": "https://www.ticketmaster.com/los-angeles-azules-cumbia-sin-fronteras-rosemont-illinois-08-22-2026/event/04006349D70E4F84",
+      "sales": {
+        "public_start": "2025-10-24T15:00:00Z",
+        "public_end": "2026-08-23T02:00:00Z",
+        "presales": [
+          {
+            "name": "Spotify Presale",
+            "start": "2025-10-21T14:00:00Z",
+            "end": "2025-10-24T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2025-10-22T15:00:00Z",
+            "end": "2025-10-24T03:00:00Z"
+          },
+          {
+            "name": "Promoter / Venue/ Radio Presales",
+            "start": "2025-10-23T15:00:00Z",
+            "end": "2025-10-24T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2025-10-23T15:00:00Z",
+            "end": "2025-10-24T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7ZkoNGken36dG",
       "name": "Grupo Frontera - Triste Pero Bien C*bron Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Wed, Aug 26, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/grupo-frontera-triste-pero-bien-cbron-rosemont-illinois-08-26-2026/event/04006463AA4870CC"
+      "url": "https://www.ticketmaster.com/grupo-frontera-triste-pero-bien-cbron-rosemont-illinois-08-26-2026/event/04006463AA4870CC",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-08-27T02:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-03-10T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-03-13T15:00:00Z",
+            "end": "2026-07-30T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-03-12T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Venue / Radio Presale",
+            "start": "2026-03-12T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale VIP Package",
+            "start": "2026-03-10T15:00:00Z",
+            "end": "2026-03-11T14:45:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-03-11T15:00:00Z",
+            "end": "2026-03-13T04:59:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-03-13T15:00:00Z",
+            "end": "2026-08-22T17:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_kGknPrPW4",
       "name": "Chayanne - Bailemos Otra Vez Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Aug 29, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-rosemont-illinois-08-29-2026/event/0400646AA57A5F55"
+      "url": "https://www.ticketmaster.com/chayanne-bailemos-otra-vez-tour-rosemont-illinois-08-29-2026/event/0400646AA57A5F55",
+      "sales": {
+        "public_start": "2026-04-24T15:00:00Z",
+        "public_end": "2026-08-30T02:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-04-23T15:00:00Z",
+            "end": "2026-04-24T14:30:00Z"
+          },
+          {
+            "name": "Promoter/ Label/ Venue Presale",
+            "start": "2026-04-23T15:00:00Z",
+            "end": "2026-04-24T14:30:00Z"
+          },
+          {
+            "name": "Registered Fan Presale",
+            "start": "2026-04-23T14:00:00Z",
+            "end": "2026-04-24T14:30:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-04-23T14:00:00Z",
+            "end": "2026-04-24T14:30:00Z"
+          },
+          {
+            "name": "VIP Packages",
+            "start": "2026-04-24T15:00:00Z",
+            "end": "2026-08-22T22:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-04-23T15:00:00Z",
+            "end": "2026-04-24T14:30:00Z"
+          },
+          {
+            "name": "CMN Presale",
+            "start": "2026-04-23T15:00:00Z",
+            "end": "2026-04-24T14:30:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv118Z_638o0at",
       "name": "Banda MS: SOMOS MS 2026 Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Oct 3, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/banda-ms-somos-ms-2026-tour-rosemont-illinois-10-03-2026/event/0400647490464269"
+      "url": "https://www.ticketmaster.com/banda-ms-somos-ms-2026-tour-rosemont-illinois-10-03-2026/event/0400647490464269",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-10-04T02:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Promoter / Venue Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "VIP Package",
+            "start": "2026-03-27T15:00:00Z",
+            "end": "2026-09-27T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv178Z_kGkTlVyFY",
       "name": "Disney Descendants, ZOMBIES & Camp Rock: Worlds Collide Concert Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Wed, Oct 21, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/disney-descendants-zombies-camp-rock-worlds-rosemont-illinois-10-21-2026/event/0400646FEBD39230"
+      "url": "https://www.ticketmaster.com/disney-descendants-zombies-camp-rock-worlds-rosemont-illinois-10-21-2026/event/0400646FEBD39230",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-10-22T01:00:00Z",
+        "presales": [
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-03-23T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Disney+ Presale",
+            "start": "2026-03-23T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Sponsor Presale",
+            "start": "2026-03-25T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-03-25T17:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "AEG/ Radio/ Venue Presales",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "AYSO Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Macaroni Kid Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Disney URL Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Disney Employee Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "Influencer/ Mom Blogs Presale",
+            "start": "2026-03-26T15:00:00Z",
+            "end": "2026-03-27T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-03-27T15:00:00Z",
+            "end": "2026-10-12T03:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv167ZkuUOKZA2AdC5",
       "name": "MANÁ: VIVIR SIN AIRE TOUR",
       "location": "Allstate Arena, Rosemont",
       "date": "Fri, Oct 30, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-rosemont-illinois-10-30-2026/event/04006376813E42DA"
+      "url": "https://www.ticketmaster.com/mana-vivir-sin-aire-tour-rosemont-illinois-10-30-2026/event/04006376813E42DA",
+      "sales": {
+        "public_start": "2025-12-05T16:00:00Z",
+        "public_end": "2026-10-31T02:00:00Z",
+        "presales": [
+          {
+            "name": "Preferred Seating",
+            "start": "2025-12-05T16:00:00Z",
+            "end": "2026-10-31T02:00:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1a7Zk8SPz-ZZeC7",
       "name": "Ringling Bros. and Barnum & Bailey presents The Greatest Show On Earth",
       "location": "Allstate Arena, Rosemont",
       "date": "Fri, Nov 6, 2026 · 10:30 AM",
-      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-06-2026/event/04006433978840D3"
+      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-06-2026/event/04006433978840D3",
+      "sales": {
+        "public_start": "2026-04-14T15:00:00Z",
+        "public_end": "2026-11-06T17:30:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presales",
+            "start": "2026-04-07T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster\\ Venue Presale",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv167Zk8SPzZA2AvCF",
       "name": "Ringling Bros. and Barnum & Bailey presents The Greatest Show On Earth",
       "location": "Allstate Arena, Rosemont",
       "date": "Fri, Nov 6, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-06-2026/event/04006433978E40D7"
+      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-06-2026/event/04006433978E40D7",
+      "sales": {
+        "public_start": "2026-04-14T15:00:00Z",
+        "public_end": "2026-11-07T02:00:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presales",
+            "start": "2026-04-07T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster\\ Venue Presale Offers",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv11vZv0Gyrb8ov5",
       "name": "Ringling Bros. and Barnum & Bailey presents The Greatest Show On Earth",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Nov 7, 2026 · 10:30 AM",
-      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-07-2026/event/040064339798411A"
+      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-07-2026/event/040064339798411A",
+      "sales": {
+        "public_start": "2026-04-14T15:00:00Z",
+        "public_end": "2026-11-07T17:30:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presales",
+            "start": "2026-04-07T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster\\ Venue Presale Offers",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1k8Z_dC9G7I07P",
       "name": "Ringling Bros. and Barnum & Bailey presents The Greatest Show On Earth",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Nov 7, 2026 · 2:30 PM",
-      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-07-2026/event/0400643397A24125"
+      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-07-2026/event/0400643397A24125",
+      "sales": {
+        "public_start": "2026-04-14T15:00:00Z",
+        "public_end": "2026-11-07T21:30:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presales",
+            "start": "2026-04-07T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster\\ Venue Presale Offers",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1k8Z_dC9G7l77c",
       "name": "Ringling Bros. and Barnum & Bailey presents The Greatest Show On Earth",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Nov 7, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-07-2026/event/0400643397AC412D"
+      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-07-2026/event/0400643397AC412D",
+      "sales": {
+        "public_start": "2026-04-14T15:00:00Z",
+        "public_end": "2026-11-08T01:30:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presales",
+            "start": "2026-04-07T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster\\ Venue Presale Offers",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1k8Z_dC9G7c07z",
       "name": "Ringling Bros. and Barnum & Bailey presents The Greatest Show On Earth",
       "location": "Allstate Arena, Rosemont",
       "date": "Sun, Nov 8, 2026 · 10:30 AM",
-      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-08-2026/event/0400643397B64138"
+      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-08-2026/event/0400643397B64138",
+      "sales": {
+        "public_start": "2026-04-14T15:00:00Z",
+        "public_end": "2026-11-08T17:30:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presales",
+            "start": "2026-04-07T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster\\ Venue Presale Offers",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1k8Z_dC9G7Y7A7",
       "name": "Ringling Bros. and Barnum & Bailey presents The Greatest Show On Earth",
       "location": "Allstate Arena, Rosemont",
       "date": "Sun, Nov 8, 2026 · 2:30 PM",
-      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-08-2026/event/0400643397C04144"
+      "url": "https://www.ticketmaster.com/ringling-bros-and-barnum-bailey-presents-rosemont-illinois-11-08-2026/event/0400643397C04144",
+      "sales": {
+        "public_start": "2026-04-14T15:00:00Z",
+        "public_end": "2026-11-08T21:30:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presales",
+            "start": "2026-04-07T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster\\ Venue Presale Offers",
+            "start": "2026-04-09T15:00:00Z",
+            "end": "2026-04-14T04:59:00Z"
+          }
+        ]
+      }
     },
     {
       "slug": "vv1A7Zk8sGkdLdbON",
       "name": "Zac Brown Band: Love & Fear Tour",
       "location": "Allstate Arena, Rosemont",
       "date": "Sat, Nov 21, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-rosemont-illinois-11-21-2026/event/04006431DF0D8823"
+      "url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-rosemont-illinois-11-21-2026/event/04006431DF0D8823",
+      "sales": {
+        "public_start": "2026-01-30T16:00:00Z",
+        "public_end": "2026-11-22T02:00:00Z",
+        "presales": [
+          {
+            "name": "Zamily Fan Club Presale",
+            "start": "2026-01-28T16:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-01-28T16:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-01-30T16:00:00Z",
+            "end": "2026-10-30T22:00:00Z"
+          },
+          {
+            "name": "ZBB Community Presale",
+            "start": "2026-01-29T16:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-01-29T18:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          },
+          {
+            "name": "Support / Partner Presales",
+            "start": "2026-01-29T18:00:00Z",
+            "end": "2026-01-30T04:00:00Z"
+          }
+        ]
+      }
     }
   ]
 }

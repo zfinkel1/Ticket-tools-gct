@@ -1,6 +1,6 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-08T17:47:25.826255Z",
+  "last_run": "2026-05-08T19:22:24.676060Z",
   "count": 92,
   "events": [
     {
@@ -8,644 +8,1104 @@
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, May 8, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027744"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027744",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-05-09T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfA6FV",
       "name": "*SOLD OUT* Rickshaw Billie's Burger Patrol / American Sharks / Pink Fuzz",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, May 8, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-rickshaw-billies-burger-empty-bottle-tickets/14147234"
+      "url": "https://www.ticketweb.com/event/sold-out-rickshaw-billies-burger-empty-bottle-tickets/14147234",
+      "sales": {
+        "public_start": "2026-02-11T16:00:00Z",
+        "public_end": "2026-05-09T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-FkK",
       "name": "EB Vintage Prom - a Fundraiser for Lost Girls Vintage",
       "location": "Empty Bottle, Chicago",
       "date": "Sat, May 9, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/eb-vintage-prom-empty-bottle-tickets/14848193"
+      "url": "https://www.ticketweb.com/event/eb-vintage-prom-empty-bottle-tickets/14848193",
+      "sales": {
+        "public_start": "2026-04-13T15:00:00Z",
+        "public_end": "2026-05-10T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afr4pK",
       "name": "Gilmore Girls, but Chicago",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, May 10, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/gilmore-girls-but-chicago-empty-bottle-tickets/14795593"
+      "url": "https://www.ticketweb.com/event/gilmore-girls-but-chicago-empty-bottle-tickets/14795593",
+      "sales": {
+        "public_start": "2026-03-18T16:45:00Z",
+        "public_end": "2026-05-11T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfrpFK",
       "name": "FREE MONDAY w/ Tragic Heroine / Thro / Try a Dull Knife",
       "location": "Empty Bottle, Chicago",
       "date": "Mon, May 11, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/free-monday-w-tragic-heroine-empty-bottle-tickets/14796213"
+      "url": "https://www.ticketweb.com/event/free-monday-w-tragic-heroine-empty-bottle-tickets/14796213",
+      "sales": {
+        "public_start": "2026-03-18T15:00:00Z",
+        "public_end": "2026-05-12T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af7-40",
       "name": "Dumbo Gets Mad / Charlie Chimi",
       "location": "Empty Bottle, Chicago",
       "date": "Tue, May 12, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/dumbo-gets-mad-charlie-empty-bottle-tickets/14121564"
+      "url": "https://www.ticketweb.com/event/dumbo-gets-mad-charlie-empty-bottle-tickets/14121564",
+      "sales": {
+        "public_start": "2026-02-06T16:00:00Z",
+        "public_end": "2026-05-13T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOdaS",
       "name": "tat songs / Static Paisley / Andrew Harper Band / DJ Jonathan Valdez",
       "location": "Empty Bottle, Chicago",
       "date": "Wed, May 13, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/tat-songs-static-paisley-empty-bottle-tickets/14803273"
+      "url": "https://www.ticketweb.com/event/tat-songs-static-paisley-empty-bottle-tickets/14803273",
+      "sales": {
+        "public_start": "2026-03-23T15:00:00Z",
+        "public_end": "2026-05-14T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-e3K",
       "name": "Lolina / Bone Study / Brandon Juhans",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, May 14, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/lolina-bone-study-empty-bottle-tickets/14842493"
+      "url": "https://www.ticketweb.com/event/lolina-bone-study-empty-bottle-tickets/14842493",
+      "sales": {
+        "public_start": "2026-04-08T15:00:00Z",
+        "public_end": "2026-05-15T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEOf",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, May 15, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027814"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027814",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-05-16T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af7fpf",
       "name": "*SOLD OUT* Caroline",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, May 15, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-caroline-empty-bottle-tickets/14114594"
+      "url": "https://www.ticketweb.com/event/sold-out-caroline-empty-bottle-tickets/14114594",
+      "sales": {
+        "public_start": "2026-01-28T16:00:00Z",
+        "public_end": "2026-05-16T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af__4S",
       "name": "CHIRP Radio Welcomes Sessa / Kolumbo",
       "location": "Empty Bottle, Chicago",
       "date": "Sat, May 16, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/chirp-radio-welcomes-sessa-empty-bottle-tickets/14659573"
+      "url": "https://www.ticketweb.com/event/chirp-radio-welcomes-sessa-empty-bottle-tickets/14659573",
+      "sales": {
+        "public_start": "2025-11-07T16:00:00Z",
+        "public_end": "2026-05-17T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af08_d",
       "name": "Sunday Night Magic - Free to Play MTG",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, May 17, 2026 · 6:00 PM",
-      "url": "https://www.ticketweb.com/event/sunday-night-magic-empty-bottle-tickets/14910643"
+      "url": "https://www.ticketweb.com/event/sunday-night-magic-empty-bottle-tickets/14910643",
+      "sales": {
+        "public_start": "2026-05-08T16:00:00Z",
+        "public_end": "2026-05-17T23:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOvqd",
       "name": "FREE MONDAY w/ Local Memory / Ladybird / Hannah Frey",
       "location": "Empty Bottle, Chicago",
       "date": "Mon, May 18, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/free-monday-w-local-memory-empty-bottle-tickets/14801743"
+      "url": "https://www.ticketweb.com/event/free-monday-w-local-memory-empty-bottle-tickets/14801743",
+      "sales": {
+        "public_start": "2026-03-23T15:00:00Z",
+        "public_end": "2026-05-19T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfO6PK",
       "name": "Tunnel / John Wright II / Mantle",
       "location": "Empty Bottle, Chicago",
       "date": "Tue, May 19, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/tunnel-john-wright-ii-empty-bottle-tickets/14807953"
+      "url": "https://www.ticketweb.com/event/tunnel-john-wright-ii-empty-bottle-tickets/14807953",
+      "sales": {
+        "public_start": "2026-03-25T15:00:00Z",
+        "public_end": "2026-05-20T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfbtvN",
       "name": "*SOLD OUT* Just Mustard / Miss Grit",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, May 21, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-just-mustard-empty-bottle-tickets/14629063"
+      "url": "https://www.ticketweb.com/event/sold-out-just-mustard-empty-bottle-tickets/14629063",
+      "sales": {
+        "public_start": "2025-10-23T15:00:00Z",
+        "public_end": "2026-05-22T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEQf",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, May 22, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027694"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027694",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-05-23T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqAvK",
       "name": "Portrayal of Guilt / Street Sects / Halloween / Smut",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, May 22, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/portrayal-of-guilt-street-empty-bottle-tickets/14745053"
+      "url": "https://www.ticketweb.com/event/portrayal-of-guilt-street-empty-bottle-tickets/14745053",
+      "sales": {
+        "public_start": "2026-03-06T16:00:00Z",
+        "public_end": "2026-05-23T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af0kvS",
       "name": "Ruidoteca Presents - Cumbia Sin Fronteras Afterparty",
       "location": "Empty Bottle, Chicago",
       "date": "Sat, May 23, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/ruidoteca-presents-cumbia-empty-bottle-tickets/14906073"
+      "url": "https://www.ticketweb.com/event/ruidoteca-presents-cumbia-empty-bottle-tickets/14906073",
+      "sales": {
+        "public_start": "2026-05-07T15:00:00Z",
+        "public_end": "2026-05-24T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-e-K",
       "name": "Snowcuffs / Almost There But Not Really / Daarling",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, May 24, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/snowcuffs-almost-there-but-empty-bottle-tickets/14842853"
+      "url": "https://www.ticketweb.com/event/snowcuffs-almost-there-but-empty-bottle-tickets/14842853",
+      "sales": {
+        "public_start": "2026-04-13T15:00:00Z",
+        "public_end": "2026-05-25T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOxaN",
       "name": "FREE MONDAY w/ MaryMary! / Future Nest / 103 Fever (Triple Single Release Show)",
       "location": "Empty Bottle, Chicago",
       "date": "Mon, May 25, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/free-monday-w-marymary-empty-bottle-tickets/14822263"
+      "url": "https://www.ticketweb.com/event/free-monday-w-marymary-empty-bottle-tickets/14822263",
+      "sales": {
+        "public_start": "2026-04-01T15:00:00Z",
+        "public_end": "2026-05-26T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-6vd",
       "name": "Modern Cults / Mildred / Josh Leahy and The Phonebook",
       "location": "Empty Bottle, Chicago",
       "date": "Tue, May 26, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/modern-cults-mildred-empty-bottle-tickets/14847043"
+      "url": "https://www.ticketweb.com/event/modern-cults-mildred-empty-bottle-tickets/14847043",
+      "sales": {
+        "public_start": "2026-04-10T15:00:00Z",
+        "public_end": "2026-05-27T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-e4S",
       "name": "National Photo Committee (Record Release) / Lifeguard / 2w33dy",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, May 28, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/national-photo-committee-record-release-empty-bottle-tickets/14842573"
+      "url": "https://www.ticketweb.com/event/national-photo-committee-record-release-empty-bottle-tickets/14842573",
+      "sales": {
+        "public_start": "2026-04-10T15:00:00Z",
+        "public_end": "2026-05-29T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEJf",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, May 29, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027994"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027994",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-05-30T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfO9pd",
       "name": "CHIRP Radio Welcomes Adrian Younge",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, May 29, 2026 · 11:00 PM",
-      "url": "https://www.ticketweb.com/event/chirp-radio-welcomes-adrian-younge-empty-bottle-tickets/14817583"
+      "url": "https://www.ticketweb.com/event/chirp-radio-welcomes-adrian-younge-empty-bottle-tickets/14817583",
+      "sales": {
+        "public_start": "2026-03-27T15:00:00Z",
+        "public_end": "2026-05-30T04:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-oZd",
       "name": "Gabacho / Astrachan",
       "location": "Empty Bottle, Chicago",
       "date": "Sat, May 30, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/gabacho-astrachan-empty-bottle-tickets/14851003"
+      "url": "https://www.ticketweb.com/event/gabacho-astrachan-empty-bottle-tickets/14851003",
+      "sales": {
+        "public_start": "2026-04-15T15:00:00Z",
+        "public_end": "2026-05-31T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af0eAS",
       "name": "Talulah Paisley / Kitship / Adelaide",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, May 31, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/talulah-paisley-kitship-empty-bottle-tickets/14902173"
+      "url": "https://www.ticketweb.com/event/talulah-paisley-kitship-empty-bottle-tickets/14902173",
+      "sales": {
+        "public_start": "2026-05-06T15:00:00Z",
+        "public_end": "2026-06-01T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af0kaN",
       "name": "Rareforms (EP Release) / Diagonal / 96 Cougar",
       "location": "Empty Bottle, Chicago",
       "date": "Wed, Jun 3, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/rareforms-ep-release-diagonal-empty-bottle-tickets/14906263"
+      "url": "https://www.ticketweb.com/event/rareforms-ep-release-diagonal-empty-bottle-tickets/14906263",
+      "sales": {
+        "public_start": "2026-05-07T15:00:00Z",
+        "public_end": "2026-06-04T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOvON",
       "name": "TsuShiMaMiRe",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, Jun 4, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/tsushimamire-empty-bottle-tickets/14801823"
+      "url": "https://www.ticketweb.com/event/tsushimamire-empty-bottle-tickets/14801823",
+      "sales": {
+        "public_start": "2026-03-23T16:00:00Z",
+        "public_end": "2026-06-05T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE00",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jun 5, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027924"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027924",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-06-06T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOPGS",
       "name": "Forever Deaf Fest and Empty Bottle Present: Vow (Record Release) / Warforged / Barren Heir",
       "location": "Empty Bottle, Chicago",
       "date": "Sat, Jun 6, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/forever-deaf-fest-and-empty-empty-bottle-tickets/14825333"
+      "url": "https://www.ticketweb.com/event/forever-deaf-fest-and-empty-empty-bottle-tickets/14825333",
+      "sales": {
+        "public_start": "2026-04-01T15:00:00Z",
+        "public_end": "2026-06-07T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfO4uS",
       "name": "Nothing-Assumed feat. Sports Boyfriend (Album Release)",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Jun 7, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/nothing-assumed-feat-sports-boyfriend-empty-bottle-tickets/14815373"
+      "url": "https://www.ticketweb.com/event/nothing-assumed-feat-sports-boyfriend-empty-bottle-tickets/14815373",
+      "sales": {
+        "public_start": "2026-03-31T15:00:00Z",
+        "public_end": "2026-06-08T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-waK",
       "name": "FREE MONDAY w/ Prathloons (Album Release) / Hannah Frey / Able Baker",
       "location": "Empty Bottle, Chicago",
       "date": "Mon, Jun 8, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/free-monday-w-prathloons-album-empty-bottle-tickets/14872253"
+      "url": "https://www.ticketweb.com/event/free-monday-w-prathloons-album-empty-bottle-tickets/14872253",
+      "sales": {
+        "public_start": "2026-05-04T15:00:00Z",
+        "public_end": "2026-06-09T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afx7vd",
       "name": "Wendy Eisenberg and More Eaze",
       "location": "Empty Bottle, Chicago",
       "date": "Wed, Jun 10, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/wendy-eisenberg-and-more-eaze-empty-bottle-tickets/14884043"
+      "url": "https://www.ticketweb.com/event/wendy-eisenberg-and-more-eaze-empty-bottle-tickets/14884043",
+      "sales": {
+        "public_start": "2026-04-30T15:00:00Z",
+        "public_end": "2026-06-11T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afx4xd",
       "name": "Midwife / Amulets / Desert Liminal",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, Jun 11, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/midwife-amulets-desert-empty-bottle-tickets/14895883"
+      "url": "https://www.ticketweb.com/event/midwife-amulets-desert-empty-bottle-tickets/14895883",
+      "sales": {
+        "public_start": "2026-05-04T16:00:00Z",
+        "public_end": "2026-06-12T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE_f",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jun 12, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027654"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027654",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-06-13T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af7s3f",
       "name": "*SOLD OUT* Boys and Girls in America 20 - The Hold Steady",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jun 12, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-boys-and-girls-empty-bottle-tickets/14131494"
+      "url": "https://www.ticketweb.com/event/sold-out-boys-and-girls-empty-bottle-tickets/14131494",
+      "sales": {
+        "public_start": "2026-02-10T16:00:00Z",
+        "public_end": "2026-06-13T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afx7FK",
       "name": "The Devil Said Jump / Jennifer Femme / Lake Davi",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Jun 14, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/the-devil-said-jump-empty-bottle-tickets/14884213"
+      "url": "https://www.ticketweb.com/event/the-devil-said-jump-empty-bottle-tickets/14884213",
+      "sales": {
+        "public_start": "2026-04-28T15:00:00Z",
+        "public_end": "2026-06-15T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqZ_d",
       "name": "City of the Sun / Alta Vista",
       "location": "Empty Bottle, Chicago",
       "date": "Tue, Jun 16, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/city-of-the-sun-empty-bottle-tickets/14740643"
+      "url": "https://www.ticketweb.com/event/city-of-the-sun-empty-bottle-tickets/14740643",
+      "sales": {
+        "public_start": "2026-02-27T15:00:00Z",
+        "public_end": "2026-06-17T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE07",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jun 19, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027904"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027904",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-06-20T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqIAS",
       "name": "Thee Marloes",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Jun 21, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/thee-marloes-empty-bottle-tickets/14768173"
+      "url": "https://www.ticketweb.com/event/thee-marloes-empty-bottle-tickets/14768173",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-06-22T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-FAd",
       "name": "Dark Thoughts / Ejaculators / Navaja",
       "location": "Empty Bottle, Chicago",
       "date": "Tue, Jun 23, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/dark-thoughts-ejaculators-empty-bottle-tickets/14848143"
+      "url": "https://www.ticketweb.com/event/dark-thoughts-ejaculators-empty-bottle-tickets/14848143",
+      "sales": {
+        "public_start": "2026-04-14T14:00:00Z",
+        "public_end": "2026-06-24T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOIoN",
       "name": "Julie Doiron and Carson McHone",
       "location": "Empty Bottle, Chicago",
       "date": "Wed, Jun 24, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/julie-doiron-and-carson-mchone-empty-bottle-tickets/14828463"
+      "url": "https://www.ticketweb.com/event/julie-doiron-and-carson-mchone-empty-bottle-tickets/14828463",
+      "sales": {
+        "public_start": "2026-04-07T15:00:00Z",
+        "public_end": "2026-06-25T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEP7",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jun 26, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027944"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027944",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-06-27T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-8Jd",
       "name": "Lydia Cash (Album Release) / Half Gringa / Mikey Harms",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jun 26, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/lydia-cash-album-release-empty-bottle-tickets/14850983"
+      "url": "https://www.ticketweb.com/event/lydia-cash-album-release-empty-bottle-tickets/14850983",
+      "sales": {
+        "public_start": "2026-04-15T15:00:00Z",
+        "public_end": "2026-06-27T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqSON",
       "name": "Prostitute",
       "location": "Empty Bottle, Chicago",
       "date": "Sat, Jun 27, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/prostitute-empty-bottle-tickets/14773823"
+      "url": "https://www.ticketweb.com/event/prostitute-empty-bottle-tickets/14773823",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-06-28T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-e_K",
       "name": "Elujay / Khalil",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Jun 28, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/elujay-khalil-empty-bottle-tickets/14842653"
+      "url": "https://www.ticketweb.com/event/elujay-khalil-empty-bottle-tickets/14842653",
+      "sales": {
+        "public_start": "2026-04-16T15:00:00Z",
+        "public_end": "2026-06-29T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOI0d",
       "name": "FREE MONDAY w/ Curls Ultra (Album Release) / Marital Bed / Nonnie Parry / Shy Bronco",
       "location": "Empty Bottle, Chicago",
       "date": "Mon, Jun 29, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/free-monday-w-curls-ultra-empty-bottle-tickets/14828903"
+      "url": "https://www.ticketweb.com/event/free-monday-w-curls-ultra-empty-bottle-tickets/14828903",
+      "sales": {
+        "public_start": "2026-04-07T15:00:00Z",
+        "public_end": "2026-06-30T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE_0",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jul 3, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027664"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027664",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-07-04T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE-V",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jul 10, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027874"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027874",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-07-11T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfrFrK",
       "name": "Cola, PARKiNG",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jul 10, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/cola-parking-empty-bottle-tickets/14788793"
+      "url": "https://www.ticketweb.com/event/cola-parking-empty-bottle-tickets/14788793",
+      "sales": {
+        "public_start": "2026-03-20T15:00:00Z",
+        "public_end": "2026-07-11T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOdGN",
       "name": "*SOLD OUT* King Woman / Left of Heaven",
       "location": "Empty Bottle, Chicago",
       "date": "Sat, Jul 11, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-king-woman-empty-bottle-tickets/14803323"
+      "url": "https://www.ticketweb.com/event/sold-out-king-woman-empty-bottle-tickets/14803323",
+      "sales": {
+        "public_start": "2026-03-25T17:00:00Z",
+        "public_end": "2026-07-12T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfApG7",
       "name": "Trashland Zine Fest",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Jul 12, 2026 · 11:00 AM",
-      "url": "https://www.ticketweb.com/event/trashland-zine-fest-empty-bottle-tickets/14156304"
+      "url": "https://www.ticketweb.com/event/trashland-zine-fest-empty-bottle-tickets/14156304",
+      "sales": {
+        "public_start": "2026-02-13T16:00:00Z",
+        "public_end": "2026-07-12T21:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af--7d",
       "name": "Cootie Catcher / Memory Card / Sacred Heart Academy",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Jul 12, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/cootie-catcher-memory-card-empty-bottle-tickets/14861103"
+      "url": "https://www.ticketweb.com/event/cootie-catcher-memory-card-empty-bottle-tickets/14861103",
+      "sales": {
+        "public_start": "2026-04-24T15:00:00Z",
+        "public_end": "2026-07-13T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOI_S",
       "name": "The Body / BIG BRAVE / Stander",
       "location": "Empty Bottle, Chicago",
       "date": "Tue, Jul 14, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/the-body-big-brave-empty-bottle-tickets/14828673"
+      "url": "https://www.ticketweb.com/event/the-body-big-brave-empty-bottle-tickets/14828673",
+      "sales": {
+        "public_start": "2026-04-10T15:00:00Z",
+        "public_end": "2026-07-15T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqMbd",
       "name": "Hunx and His Punx",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, Jul 16, 2026 · 11:00 PM",
-      "url": "https://www.ticketweb.com/event/hunx-and-his-punx-empty-bottle-tickets/14777603"
+      "url": "https://www.ticketweb.com/event/hunx-and-his-punx-empty-bottle-tickets/14777603",
+      "sales": {
+        "public_start": "2026-03-13T15:00:00Z",
+        "public_end": "2026-07-17T04:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEbf",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jul 17, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027614"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027614",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-07-18T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-yZK",
       "name": "*SOLD OUT* Model Actriz",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jul 17, 2026 · 11:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-model-actriz-empty-bottle-tickets/14879013"
+      "url": "https://www.ticketweb.com/event/sold-out-model-actriz-empty-bottle-tickets/14879013",
+      "sales": {
+        "public_start": "2026-04-29T15:00:00Z",
+        "public_end": "2026-07-18T04:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfApF0",
       "name": "Junglepussy",
       "location": "Empty Bottle, Chicago",
       "date": "Sat, Jul 18, 2026 · 11:00 PM",
-      "url": "https://www.ticketweb.com/event/junglepussy-empty-bottle-tickets/14156224"
+      "url": "https://www.ticketweb.com/event/junglepussy-empty-bottle-tickets/14156224",
+      "sales": {
+        "public_start": "2026-02-18T16:00:00Z",
+        "public_end": "2026-07-19T04:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfxdPd",
       "name": "Alice Longyu Gao DJ Set",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Jul 19, 2026 · 11:00 PM",
-      "url": "https://www.ticketweb.com/event/alice-longyu-gao-dj-set-empty-bottle-tickets/14883943"
+      "url": "https://www.ticketweb.com/event/alice-longyu-gao-dj-set-empty-bottle-tickets/14883943",
+      "sales": {
+        "public_start": "2026-04-28T15:00:00Z",
+        "public_end": "2026-07-20T04:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEqf",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jul 24, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027754"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027754",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-07-25T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOxOK",
       "name": "Man or Astro-man? / Serf Lords",
       "location": "Empty Bottle, Chicago",
       "date": "Sat, Jul 25, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/man-or-astro-man-empty-bottle-tickets/14822813"
+      "url": "https://www.ticketweb.com/event/man-or-astro-man-empty-bottle-tickets/14822813",
+      "sales": {
+        "public_start": "2026-04-03T17:00:00Z",
+        "public_end": "2026-07-26T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af0Zad",
       "name": "Brotherkenzie",
       "location": "Empty Bottle, Chicago",
       "date": "Wed, Jul 29, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/brotherkenzie-empty-bottle-tickets/14900243"
+      "url": "https://www.ticketweb.com/event/brotherkenzie-empty-bottle-tickets/14900243",
+      "sales": {
+        "public_start": "2026-05-08T17:00:00Z",
+        "public_end": "2026-07-30T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEq0",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jul 31, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027764"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027764",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-08-01T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEO7",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Aug 7, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027804"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027804",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-08-08T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-p3d",
       "name": "Oneida / Kinski / BCMC",
       "location": "Empty Bottle, Chicago",
       "date": "Wed, Aug 12, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/oneida-kinski-bcmc-empty-bottle-tickets/14856483"
+      "url": "https://www.ticketweb.com/event/oneida-kinski-bcmc-empty-bottle-tickets/14856483",
+      "sales": {
+        "public_start": "2026-04-20T15:00:00Z",
+        "public_end": "2026-08-13T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEJ7",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Aug 14, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027984"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027984",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-08-15T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-wCd",
       "name": "Victoryland / Drook",
       "location": "Empty Bottle, Chicago",
       "date": "Wed, Aug 19, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/victoryland-drook-empty-bottle-tickets/14872383"
+      "url": "https://www.ticketweb.com/event/victoryland-drook-empty-bottle-tickets/14872383",
+      "sales": {
+        "public_start": "2026-04-24T14:00:00Z",
+        "public_end": "2026-08-20T01:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE-0",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Aug 21, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027864"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027864",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-08-22T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZIZ7",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Aug 28, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14028004"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14028004",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-08-29T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEO0",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Sep 4, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027824"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027824",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-09-05T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEqV",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Sep 11, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027774"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027774",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-09-12T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afr70K",
       "name": "Otha / Miss Twink USA",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Sep 11, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/otha-miss-twink-usa-empty-bottle-tickets/14784913"
+      "url": "https://www.ticketweb.com/event/otha-miss-twink-usa-empty-bottle-tickets/14784913",
+      "sales": {
+        "public_start": "2026-03-25T15:00:00Z",
+        "public_end": "2026-09-12T03:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfxaJd",
       "name": "Carla dal Forno / Zelienople",
       "location": "Empty Bottle, Chicago",
       "date": "Tue, Sep 15, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/carla-dal-forno-zelienople-empty-bottle-tickets/14889983"
+      "url": "https://www.ticketweb.com/event/carla-dal-forno-zelienople-empty-bottle-tickets/14889983",
+      "sales": {
+        "public_start": "2026-05-05T15:00:00Z",
+        "public_end": "2026-09-16T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfQZoN",
       "name": "Marlon Magnée (of La Femme)",
       "location": "Empty Bottle, Chicago",
       "date": "Wed, Sep 16, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/marlon-magne-of-la-femme-empty-bottle-tickets/14680463"
+      "url": "https://www.ticketweb.com/event/marlon-magne-of-la-femme-empty-bottle-tickets/14680463",
+      "sales": {
+        "public_start": "2025-11-14T16:00:00Z",
+        "public_end": "2026-09-17T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-waN",
       "name": "Jim E. Brown",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, Sep 17, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/jim-e-brown-empty-bottle-tickets/14872263"
+      "url": "https://www.ticketweb.com/event/jim-e-brown-empty-bottle-tickets/14872263",
+      "sales": {
+        "public_start": "2026-04-23T14:00:00Z",
+        "public_end": "2026-09-18T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEbV",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Sep 18, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027634"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027634",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-09-19T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEj7",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Sep 25, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027704"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027704",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-09-26T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Afxa0N",
       "name": "Horse Lords",
       "location": "Empty Bottle, Chicago",
       "date": "Mon, Sep 28, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/horse-lords-empty-bottle-tickets/14889923"
+      "url": "https://www.ticketweb.com/event/horse-lords-empty-bottle-tickets/14889923",
+      "sales": {
+        "public_start": "2026-05-08T16:00:00Z",
+        "public_end": "2026-09-29T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEP0",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Oct 2, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027964"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027964",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-10-03T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEPf",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Oct 9, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027954"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027954",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-10-10T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEr7",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Oct 16, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027784"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027784",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-10-17T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZErf",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Oct 23, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027794"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027794",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-10-24T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOUjS",
       "name": "The Limiñanas / Native Sun",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, Oct 29, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/the-limianas-native-sun-empty-bottle-tickets/14836733"
+      "url": "https://www.ticketweb.com/event/the-limianas-native-sun-empty-bottle-tickets/14836733",
+      "sales": {
+        "public_start": "2026-04-10T15:00:00Z",
+        "public_end": "2026-10-30T02:00:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE0f",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Oct 30, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027914"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027914",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-10-31T00:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE-7",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Nov 6, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027844"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027844",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-11-07T01:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEPV",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Nov 13, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027974"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027974",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-11-14T01:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE-f",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Nov 20, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027854"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027854",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-11-21T01:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEj0",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Nov 27, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027724"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027724",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-11-28T01:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE0V",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Dec 4, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027934"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027934",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-12-05T01:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEjf",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Dec 11, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027714"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027714",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-12-12T01:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEOV",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Dec 18, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027834"
+      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027834",
+      "sales": {
+        "public_start": "2025-12-29T06:00:00Z",
+        "public_end": "2026-12-19T01:30:00Z",
+        "presales": []
+      }
     },
     {
       "slug": "rZ7HnEZ1Af400d",
       "name": "*MOVED TO THALIA HALL* Anna von Hausswolff",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jan 15, 2027 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/moved-to-thalia-hall-anna-empty-bottle-tickets/14564903"
+      "url": "https://www.ticketweb.com/event/moved-to-thalia-hall-anna-empty-bottle-tickets/14564903",
+      "sales": {
+        "public_start": "2025-09-24T16:00:00Z",
+        "public_end": "2027-01-16T03:00:00Z",
+        "presales": []
+      }
     }
   ]
 }
