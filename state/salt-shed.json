@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-08T12:54:11.428141Z",
-  "count": 67,
+  "last_run": "2026-05-08T14:53:58.776912Z",
+  "count": 68,
   "events": [
     {
       "slug": "vv1F8Z_eQKjxZdCua",
@@ -408,6 +408,13 @@
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Thu, Oct 8, 2026 · 5:45 PM",
       "url": "https://www.ticketmaster.com/koe-wetzel-the-night-champion-world-chicago-illinois-10-08-2026/event/04006459B9B1E0B2"
+    },
+    {
+      "slug": "vvG18Z_19RLdUP",
+      "name": "MUNA: Gets So Hot Tour",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Fri, Oct 9, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/muna-gets-so-hot-tour-chicago-illinois-10-09-2026/event/040064A5EF7C3DA5"
     },
     {
       "slug": "vv178Z_aGkSQEZBj",

@@ -676,5 +676,15 @@
       "url": "https://open.spotify.com/artist/3z278gCXrOgHQFGPq9q5Uf",
       "genres": []
     }
+  },
+  "muna: gets so hot": {
+    "cached_at": 1778252047.5533974,
+    "data": {
+      "name": "MUNA",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/6xdRb2GypJ7DqnWAI2mHGn",
+      "genres": []
+    }
   }
 }
