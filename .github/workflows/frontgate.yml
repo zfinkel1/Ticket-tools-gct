@@ -37,22 +37,44 @@ jobs:
         run: |
           git config user.name "ticket-watcher"
           git config user.email "actions@users.noreply.github.com"
+          # Normalize CRLF/LF so cross-platform line endings don't show as
+          # spurious changes that block the diff check below.
+          git config core.autocrlf input
           git add state/
           if git diff --cached --quiet; then
             echo "No state changes"
-          else
-            git commit -m "state: update event snapshots [skip ci]"
-            # Rebase on top of any newer commits (manual code pushes) before pushing.
-            # Without this, git push fails with non-fast-forward whenever a code
-            # change has landed since the last state commit, and the watcher keeps
-            # re-emailing the same "new" events every 15 minutes because state
-            # never persists. Retry up to 3 times in case of race conditions.
-            for i in 1 2 3; do
-              if git pull --rebase --autostash origin main && git push; then
-                echo "State pushed successfully on attempt $i"
-                break
-              fi
-              echo "Push attempt $i failed, retrying..."
-              sleep 5
-            done
+            exit 0
           fi
+
+          # Stash the staged state changes onto a throwaway branch. We can
+          # then reset main to fresh remote and cherry-pick our state commit
+          # cleanly each retry — no half-rebased states, no autostash quirks.
+          git commit -m "state: update event snapshots [skip ci]"
+          STATE_SHA=$(git rev-parse HEAD)
+
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+
+            # Replay our state commit on top of the freshly fetched main.
+            # State files don't conflict between runs in practice, but if a
+            # cherry-pick conflict ever does happen, take OUR version and move on.
+            if git cherry-pick "$STATE_SHA"; then
+              :  # clean cherry-pick
+            else
+              echo "[push] attempt $i: cherry-pick conflicted, taking ours"
+              git checkout --theirs -- state/ 2>/dev/null || true
+              git checkout "$STATE_SHA" -- state/
+              git add state/
+              git -c core.editor=true cherry-pick --continue || git commit -m "state: update event snapshots [skip ci]"
+            fi
+
+            if git push origin main; then
+              echo "[push] state landed on attempt $i"
+              exit 0
+            fi
+            echo "[push] attempt $i: push rejected, retrying"
+            sleep $((5 * i))
+          done
+          echo "[push] exhausted retries — state will retry next cron tick"
+          exit 0
