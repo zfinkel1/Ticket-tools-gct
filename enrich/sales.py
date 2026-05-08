@@ -60,8 +60,20 @@ def sales_status_html(event):
             continue
         presales.append({"name": p.get("name") or "Presale", "start": ps_start, "end": ps_end})
 
-    # On sale now (public onsale active)
+    # On sale now (public onsale active) — annotate recency so a fresh
+    # festival drop ("Just on sale") looks visibly different from
+    # an event that's been on sale for weeks ("On sale").
     if public_start and public_start <= now and (not public_end or now <= public_end):
+        age_seconds = (now - public_start).total_seconds()
+        if age_seconds < 3600:
+            mins = max(1, int(age_seconds // 60))
+            return _pill(f"Just on sale · {mins}m ago", "#16a34a")
+        if age_seconds < 86400:
+            hrs = int(age_seconds // 3600)
+            return _pill(f"On sale · {hrs}h ago", "#16a34a")
+        if age_seconds < 7 * 86400:
+            days = int(age_seconds // 86400)
+            return _pill(f"On sale · {days}d ago", "#16a34a")
         return _pill("On sale now", "#16a34a")
 
     # Past — public onsale window closed; usually means the show is sold or off
