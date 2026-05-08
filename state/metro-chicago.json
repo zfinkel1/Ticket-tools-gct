@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-08T04:39:13.456189Z",
-  "count": 49,
+  "last_run": "2026-05-08T06:22:32.018196Z",
+  "count": 48,
   "events": [
-    {
-      "slug": "vnv-nation",
-      "name": "VNV Nation",
-      "location": "",
-      "date": "Thu, May 07",
-      "url": "https://metrochicago.com/event/vnv-nation/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "the-afghan-whigs-40th-anniversary-tour",
       "name": "The Afghan Whigs 40th Anniversary Tour with Mercury Rev",
