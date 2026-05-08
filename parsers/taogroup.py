@@ -18,8 +18,9 @@ To find a venue_id, hit:
 import html as html_lib
 import json
 import re
-import urllib.request
 from datetime import datetime, timedelta
+
+from ._common import http_get_with_retry
 
 
 def parse(site):
@@ -27,12 +28,13 @@ def parse(site):
     per_page = site.get("per_page", 100)
     url = f"https://taogroup.com/wp-json/wp/v2/events?event_venue={venue_id}&per_page={per_page}"
 
-    req = urllib.request.Request(
+    body = http_get_with_retry(
         url,
         headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"},
+        timeout=30,
+        retries=1,
     )
-    with urllib.request.urlopen(req, timeout=30) as r:
-        data = json.loads(r.read().decode("utf-8", errors="ignore"))
+    data = json.loads(body.decode("utf-8", errors="ignore"))
 
     # Drop events older than yesterday — the Tao API returns lots of past events
     cutoff = datetime.now() - timedelta(days=1)

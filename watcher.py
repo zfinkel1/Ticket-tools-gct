@@ -6,7 +6,13 @@ For each site in sites.py:
   1. Call the appropriate parser to get current events
   2. Diff against state/{slug}.json
   3. Email (one combined email) if any new events across all sites
-  4. Save updated state
+  4. Save updated state — ONLY for sites where the email succeeded.
+     Sites with no new events save immediately. Sites with new events
+     defer their save until SendGrid confirms delivery, so a transient
+     SendGrid failure doesn't bake unsent alerts into state.
+
+Optional: --dry-run skips the SendGrid call and the state writes
+(diff and enrichment still run). Useful when iterating on parsers.
 
 Required env vars:
   SENDGRID_API_KEY
@@ -14,6 +20,7 @@ Required env vars:
   FROM_EMAIL
 """
 
+import argparse
 import html
 import json
 import os
@@ -22,7 +29,7 @@ import sys
 import traceback
 import urllib.error
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 from parsers import PARSERS
@@ -35,8 +42,18 @@ from enrich.flare import (
     current_sold_html,
 )
 from enrich.stubhub import enrich_event_with_listing, current_listing_html
+from enrich.sales import sales_status_html
 
 STATE_DIR = Path(__file__).parent / "state"
+HEALTH_PATH = STATE_DIR / "health.json"
+
+# A site is "stale" if its last successful run is older than this. Triggers
+# a watcher-health alert email. Threshold matches "missed ~48 cron cycles
+# at 15-min interval" — strong signal a parser is broken, not transient.
+STALE_HOURS = 12
+# Only re-send the same stale alert once per this window so a broken parser
+# doesn't spam the inbox every 15 min.
+HEALTH_ALERT_COOLDOWN_HOURS = 12
 
 
 def slugify(name):
@@ -59,7 +76,7 @@ def save_state(site, events):
     STATE_DIR.mkdir(parents=True, exist_ok=True)
     data = {
         "site": site["name"],
-        "last_run": datetime.utcnow().isoformat() + "Z",
+        "last_run": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "count": len(events),
         "events": events,
     }
@@ -126,32 +143,37 @@ def _enrichment_html(e):
     )
 
 
-def build_email(by_site):
-    """by_site: {site_name: [new_events]}"""
+def build_email(by_site, baselined_sites=None):
+    """by_site: {site_name: [new_events]}; baselined_sites: {site_name: [events]}"""
+    baselined_sites = baselined_sites or {}
     total = sum(len(v) for v in by_site.values())
     sections = []
     for site_name, events in by_site.items():
-        # Sort: HOT/Strong first, then by popularity desc, then unknown last
         events = sorted(
             events,
             key=lambda e: -(((e.get("enrichment") or {}).get("popularity")) or -1),
         )
         rows = []
         for e in events:
-            name = html.unescape(e.get("name", "Unnamed"))
-            date = e.get("date") or "TBA"
-            loc = e.get("location") or ""
-            url = e.get("url", "#")
+            # Decode HTML entities from the source, then re-escape so
+            # ampersands/angle brackets in event names don't break the
+            # surrounding markup or open an XSS-shaped vector.
+            name = html.escape(html.unescape(e.get("name", "Unnamed")))
+            date = html.escape(e.get("date") or "TBA")
+            loc = html.escape(e.get("location") or "")
+            url = html.escape(e.get("url", "#"), quote=True)
             enrichment_html = _enrichment_html(e)
+            sales_block = sales_status_html(e)
             history_block = history_html(e)
             current_sold_block = current_sold_html(e)
             current_listing_block = current_listing_html(e)
             rows.append(f"""
               <tr><td style="padding:14px 16px;border-bottom:1px solid #eee;">
                 <div style="font-size:15px;font-weight:700;color:#0d1b3e;margin-bottom:4px;">
-                  <a href="{url}" style="color:#0d1b3e;text-decoration:none;">{name} →</a>
+                  <a href="{url}" style="color:#0d1b3e;text-decoration:none;">{name} &rarr;</a>
                 </div>
-                <div style="font-size:13px;color:#666;">{date}{' · ' + loc if loc else ''}</div>
+                <div style="font-size:13px;color:#666;">{date}{' &middot; ' + loc if loc else ''}</div>
+                {sales_block}
                 {enrichment_html}
                 {history_block}
                 {current_sold_block}
@@ -160,45 +182,169 @@ def build_email(by_site):
             """)
         sections.append(f"""
           <h3 style="font-size:13px;letter-spacing:0.05em;color:#c9a227;text-transform:uppercase;margin:24px 0 10px;">
-            {site_name} — {len(events)} new
+            {html.escape(site_name)} &mdash; {len(events)} new
           </h3>
           <table style="width:100%;border-collapse:collapse;background:#fafbff;border-radius:10px;overflow:hidden;border:1px solid #eee;">
             {''.join(rows)}
           </table>
         """)
+
+    # Append a "first-run baseline" section so adding a venue produces a
+    # one-time visible notice rather than silent log lines only.
+    if baselined_sites:
+        baseline_rows = []
+        for site_name, evs in baselined_sites.items():
+            baseline_rows.append(
+                f'<li style="margin-bottom:6px;font-size:13px;color:#444;">'
+                f'<strong>{html.escape(site_name)}</strong> &mdash; now watching {len(evs)} events'
+                f'</li>'
+            )
+        sections.append(f"""
+          <div style="margin-top:24px;padding:14px 18px;background:#eef4ff;border-left:3px solid #4361ee;border-radius:6px;">
+            <div style="font-size:12px;letter-spacing:0.05em;color:#4361ee;text-transform:uppercase;font-weight:700;margin-bottom:8px;">
+              First run baselined
+            </div>
+            <ul style="margin:0;padding-left:18px;">{''.join(baseline_rows)}</ul>
+            <div style="font-size:11px;color:#666;margin-top:8px;">
+              Future runs will alert only on events added after this snapshot.
+            </div>
+          </div>
+        """)
+
     return f"""
     <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:600px;margin:0 auto;padding:20px;">
       <h2 style="color:#0d1b3e;margin:0 0 6px;font-size:22px;">
         {total} new event{'s' if total != 1 else ''} across {len(by_site)} site{'s' if len(by_site) != 1 else ''}
       </h2>
       <p style="color:#666;margin:0 0 12px;font-size:13px;">
-        Scanned {datetime.utcnow().strftime('%b %d, %Y %H:%M UTC')}
+        Scanned {datetime.now(timezone.utc).strftime('%b %d, %Y %H:%M UTC')}
       </p>
       {''.join(sections)}
       <p style="color:#999;font-size:11px;margin-top:24px;">
-        Ticket Tools GCT · edit <code>sites.py</code> to add or remove watched sites
+        Ticket Tools GCT &middot; edit <code>sites.py</code> to add or remove watched sites
       </p>
     </div>
     """
 
 
+# ───────────────────────── Health / stale-parser alerts ─────────────────────
+
+def _load_health():
+    if not HEALTH_PATH.exists():
+        return {}
+    try:
+        with open(HEALTH_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _save_health(data):
+    HEALTH_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(HEALTH_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def find_stale_sites():
+    """Return list of {name, age_hrs} for sites whose last_run is too old."""
+    stale = []
+    for site in SITES:
+        s = load_state(site)
+        last = s.get("last_run")
+        if not last:
+            # Never run successfully — treat as stale only if state file exists,
+            # because a brand-new venue has no state yet and shouldn't alert.
+            if state_path(site).exists():
+                stale.append({"name": site["name"], "age_hrs": None})
+            continue
+        try:
+            last_dt = datetime.fromisoformat(last.replace("Z", "+00:00"))
+            age = (datetime.now(timezone.utc) - last_dt).total_seconds() / 3600
+            if age >= STALE_HOURS:
+                stale.append({"name": site["name"], "age_hrs": age})
+        except Exception:
+            continue
+    return stale
+
+
+def maybe_send_health_alert(stale, api_key, alert_email, from_email, dry_run):
+    """Send (at most once per cooldown window) when sites are stale."""
+    if not stale:
+        return
+    health = _load_health()
+    last_alert = health.get("last_stale_alert_at")
+    now_iso = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    if last_alert:
+        try:
+            last_dt = datetime.fromisoformat(last_alert.replace("Z", "+00:00"))
+            hrs_since = (datetime.now(timezone.utc) - last_dt).total_seconds() / 3600
+            if hrs_since < HEALTH_ALERT_COOLDOWN_HOURS:
+                print(f"[health] {len(stale)} stale sites, but cooldown active ({hrs_since:.1f}h since last alert)")
+                return
+        except Exception:
+            pass
+
+    rows = []
+    for s in stale:
+        age = s.get("age_hrs")
+        age_text = f"{int(age)}h ago" if age is not None else "never run"
+        rows.append(f'<li style="margin-bottom:6px;"><strong>{html.escape(s["name"])}</strong> &mdash; {age_text}</li>')
+    body = f"""
+    <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:600px;margin:0 auto;padding:20px;">
+      <h2 style="color:#dc2626;margin:0 0 6px;font-size:22px;">Watcher health: {len(stale)} stale site{'s' if len(stale) != 1 else ''}</h2>
+      <p style="color:#666;margin:0 0 12px;font-size:13px;">
+        These parsers haven't successfully run in &gt; {STALE_HOURS}h. Likely a parser break or upstream change.
+      </p>
+      <ul style="font-size:13px;color:#444;">{''.join(rows)}</ul>
+      <p style="color:#999;font-size:11px;margin-top:24px;">
+        Re-alert cooldown: {HEALTH_ALERT_COOLDOWN_HOURS}h. Investigate logs at github.com/zfinkel1/Ticket-tools-gct/actions.
+      </p>
+    </div>
+    """
+    if dry_run:
+        print(f"[dry-run] would send health alert for {len(stale)} stale sites")
+        return
+    try:
+        status = send_email(
+            to_addrs=alert_email,
+            from_addr=from_email,
+            subject=f"[Tickets] Watcher health: {len(stale)} stale site{'s' if len(stale) != 1 else ''}",
+            html_body=body,
+            api_key=api_key,
+        )
+        print(f"[health] sent stale-sites alert, SendGrid {status}")
+        health["last_stale_alert_at"] = now_iso
+        _save_health(health)
+    except Exception as e:
+        print(f"[health] failed to send stale alert: {e}", file=sys.stderr)
+
+
+# ───────────────────────────── Main ─────────────────────────────
+
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Parse and diff, but skip email + state writes")
+    args = parser.parse_args()
+
     api_key = os.environ.get("SENDGRID_API_KEY")
     alert_email = os.environ.get("ALERT_EMAIL", "zfinkel1@gmail.com")
     from_email = os.environ.get("FROM_EMAIL", "noreply@sportscardnetwork.ai")
 
-    if not api_key:
+    if not api_key and not args.dry_run:
         print("[ERROR] SENDGRID_API_KEY missing", file=sys.stderr)
         sys.exit(1)
 
     new_by_site = {}
+    baselined_sites = {}
+    pending_saves = []   # [(site, current_events)] — defer until email succeeds
     exit_code = 0
 
     for site in SITES:
         name = site["name"]
         parser_type = site["parser"]
-        parser = PARSERS.get(parser_type)
-        if not parser:
+        site_parser = PARSERS.get(parser_type)
+        if not site_parser:
             print(f"[ERROR] Unknown parser '{parser_type}' for {name}", file=sys.stderr)
             exit_code = 1
             continue
@@ -209,7 +355,6 @@ def main():
             state = load_state(site)
             last = state.get("last_run")
             if last:
-                from datetime import timezone
                 try:
                     last_dt = datetime.fromisoformat(last.replace("Z", "+00:00"))
                     age_hrs = (datetime.now(timezone.utc) - last_dt).total_seconds() / 3600
@@ -221,7 +366,7 @@ def main():
 
         print(f"\n[info] Checking {name} ({parser_type})")
         try:
-            current = parser(site)
+            current = site_parser(site)
         except Exception as e:
             print(f"[ERROR] {name} parser failed: {e}", file=sys.stderr)
             traceback.print_exc()
@@ -237,20 +382,27 @@ def main():
 
         if is_first_run:
             print(f"[info] {name}: first run, baselining {len(current)} events")
+            baselined_sites[name] = current
+            # Defer save until email — keeps the baseline notice + state save atomic
+            pending_saves.append((site, current))
         elif new_events:
             print(f"[info] {name}: {len(new_events)} NEW event(s)")
             new_by_site[name] = new_events
             for e in new_events:
-                print(f"    + {e['name']} — {e.get('date','')} — {e['url']}")
+                print(f"    + {e['name']} - {e.get('date','')} - {e['url']}")
+            # Defer save until email succeeds, so a SendGrid failure doesn't
+            # silently consume these new events.
+            pending_saves.append((site, current))
         else:
             print(f"[info] {name}: no new events")
+            # Safe to save immediately — nothing depends on email delivery.
+            if not args.dry_run:
+                save_state(site, current)
 
-        save_state(site, current)
-
-    if new_by_site:
-        total = sum(len(v) for v in new_by_site.values())
-        # Enrich new events with Spotify popularity + GCT broker history
-        for site_name, events in new_by_site.items():
+    # Send email if anything new (or if first-run baselines need to be reported)
+    if new_by_site or baselined_sites:
+        # Enrich new events with all the signals
+        for events in new_by_site.values():
             for ev in events:
                 try:
                     enrich_event(ev)
@@ -259,31 +411,57 @@ def main():
                 try:
                     enrich_event_with_history(ev)
                 except Exception as e:
-                    print(f"[warn] flare history failed for {ev.get('name','?')}: {e}")
+                    print(f"[warn] gct history failed for {ev.get('name','?')}: {e}")
                 try:
                     enrich_event_with_current_sold(ev)
                 except Exception as e:
                     print(f"[warn] current sold lookup failed for {ev.get('name','?')}: {e}")
-                # Fallback to scraping StubHub directly only if Flare doesn't have
-                # the event mapped yet (no sold data). Skips if Flare already has
-                # signal — saves ~10 ScraperAPI credits per skipped event.
                 try:
                     enrich_event_with_listing(ev)
                 except Exception as e:
                     print(f"[warn] stubhub listing scrape failed for {ev.get('name','?')}: {e}")
-        html = build_email(new_by_site)
+
+        body = build_email(new_by_site, baselined_sites=baselined_sites)
+        total = sum(len(v) for v in new_by_site.values())
+        if baselined_sites and not new_by_site:
+            subject = f"[Tickets] Now watching {len(baselined_sites)} new site{'s' if len(baselined_sites) != 1 else ''}"
+        else:
+            n_sites = len(new_by_site)
+            subject = f"[Tickets] {total} new event{'s' if total != 1 else ''} across {n_sites} site{'s' if n_sites != 1 else ''}"
+
+        if args.dry_run:
+            print(f"\n[dry-run] would send email: {subject}")
+            print(f"[dry-run] body length: {len(body)} chars")
+            print(f"[dry-run] would save state for {len(pending_saves)} sites")
+        else:
+            try:
+                status = send_email(alert_email, from_email, subject, body, api_key)
+                print(f"\n[info] Sent alert email, SendGrid returned {status}")
+                # Email confirmed delivered; commit the deferred saves now.
+                for (site, current) in pending_saves:
+                    save_state(site, current)
+                print(f"[info] Saved state for {len(pending_saves)} sites after email confirm")
+            except urllib.error.HTTPError as e:
+                print(f"[ERROR] SendGrid {e.code}: {e.read().decode('utf-8', errors='ignore')}", file=sys.stderr)
+                # State NOT saved for sites with new events — they will re-trigger
+                # on the next cron run, which is the correct fail-open behavior.
+                exit_code = 1
+            except Exception as e:
+                print(f"[ERROR] SendGrid call failed: {e}", file=sys.stderr)
+                exit_code = 1
+    else:
+        # No new events anywhere — nothing was deferred, all state is current.
+        pass
+
+    # Health check: alert if any parser hasn't run successfully in too long
+    if not args.dry_run:
         try:
-            status = send_email(
-                to_addrs=alert_email,
-                from_addr=from_email,
-                subject=f"[Tickets] {total} new event{'s' if total != 1 else ''} across {len(new_by_site)} site{'s' if len(new_by_site) != 1 else ''}",
-                html_body=html,
-                api_key=api_key,
-            )
-            print(f"\n[info] Sent alert email, SendGrid returned {status}")
-        except urllib.error.HTTPError as e:
-            print(f"[ERROR] SendGrid {e.code}: {e.read().decode('utf-8', errors='ignore')}", file=sys.stderr)
-            exit_code = 1
+            stale = find_stale_sites()
+            if stale:
+                print(f"[health] {len(stale)} stale site(s): {[s['name'] for s in stale]}")
+                maybe_send_health_alert(stale, api_key, alert_email, from_email, args.dry_run)
+        except Exception as e:
+            print(f"[warn] health check failed: {e}")
 
     sys.exit(exit_code)
 

@@ -27,6 +27,8 @@ import urllib.parse
 import urllib.request
 from datetime import datetime
 
+from ._common import http_get_with_retry
+
 TM_BASE = "https://app.ticketmaster.com/discovery/v2/events.json"
 TM_KEY_DEFAULT = "8enbDYyAAHgDgrU0jhoAEUerqttcgAZF"
 
@@ -73,9 +75,32 @@ def _fetch_page(venue_ids, page, size):
         "sort": "date,asc",
     }
     url = f"{TM_BASE}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"User-Agent": "TicketWatcher/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read().decode("utf-8"))
+    body = http_get_with_retry(
+        url,
+        headers={"User-Agent": "TicketWatcher/1.0"},
+        timeout=30,
+        retries=1,
+    )
+    return json.loads(body.decode("utf-8"))
+
+
+def _extract_sales(ev):
+    """Pull a normalized {public_start, public_end, presales} block."""
+    sales = ev.get("sales") or {}
+    public = sales.get("public") or {}
+    presales_in = sales.get("presales") or []
+    presales_out = []
+    for p in presales_in:
+        presales_out.append({
+            "name": (p.get("name") or "Presale").strip(),
+            "start": p.get("startDateTime"),
+            "end": p.get("endDateTime"),
+        })
+    return {
+        "public_start": public.get("startDateTime"),
+        "public_end": public.get("endDateTime"),
+        "presales": presales_out,
+    }
 
 
 def parse(site):
@@ -120,6 +145,7 @@ def parse(site):
                 "location": location,
                 "date": date,
                 "url": url,
+                "sales": _extract_sales(ev),
             })
 
         page_info = data.get("page") or {}

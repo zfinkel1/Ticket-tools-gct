@@ -51,7 +51,7 @@ def _load_cache():
 def _save_cache(cache):
     CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(CACHE_PATH, "w", encoding="utf-8") as f:
-        json.dump(cache, f, indent=2, ensure_ascii=False)
+        json.dump(cache, f, ensure_ascii=False)
 
 
 def _get_token():
@@ -87,12 +87,48 @@ def _get_token():
     return token
 
 
+def _build_venue_at_pattern():
+    """
+    Build "\\s+at\\s+(?:the\\s+)?(<venue alternation>)\\b.*$" using venue
+    names from sites.py so adding a new venue automatically extends the
+    artist-name stripper. Falls back to a hardcoded list if sites.py
+    can't be imported.
+    """
+    base_tokens = {
+        "metro", "the rivers", "rivers", "tao", "the brothel",
+        "aragon", "riv", "riviera", "salt shed", "park west",
+        "house of blues", "hob", "empty bottle", "thalia hall",
+    }
+    try:
+        import importlib
+        sites_mod = importlib.import_module("sites")
+        for s in getattr(sites_mod, "SITES", []):
+            n = (s.get("name") or "").lower().strip()
+            for sep in [" — ", " - "]:
+                if sep in n:
+                    n = n.split(sep)[0].strip()
+            if not n or "tixr" in n or "frontgate" in n:
+                continue
+            base_tokens.add(n)
+            # Also add the version without trailing "chicago" / "theatre"
+            for tail in (" chicago", " theatre", " music hall", " ballroom"):
+                if n.endswith(tail):
+                    short = n[: -len(tail)].strip()
+                    if short:
+                        base_tokens.add(short)
+    except Exception:
+        pass
+    # Longer alternatives first so the regex engine prefers full matches
+    alternation = "|".join(re.escape(t) for t in sorted(base_tokens, key=len, reverse=True))
+    return rf"\s+at\s+(?:the\s+)?(?:{alternation})\b.*$"
+
+
 # Words that aren't artist names — strip when they appear at the end of a title.
 TITLE_SUFFIX_NOISE = [
     r"\s+presents\b.*$",
     r"\s+live\s+in\s+chicago\b.*$",
     r"\s+live\s+at\s+.*$",
-    r"\s+at\s+(metro|the\s+rivers|tao|the\s+brothel|aragon|riv|riviera|salt\s+shed|park\s+west|house\s+of\s+blues|hob|empty\s+bottle|thalia\s+hall)\b.*$",
+    _build_venue_at_pattern(),
     r"\s+tour\s+\d{4}.*$",
     r"\s+tour\b.*$",
     r"\s+world\s+tour\b.*$",

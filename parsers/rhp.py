@@ -8,15 +8,15 @@ Date is usually in a preceding .eventMonth div.
 
 import html as html_lib
 import re
-import urllib.request
+
+from ._common import http_get_with_retry
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 
 
 def parse(site):
-    req = urllib.request.Request(site["url"], headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        html = r.read().decode("utf-8", errors="ignore")
+    body = http_get_with_retry(site["url"], headers={"User-Agent": USER_AGENT}, timeout=30, retries=1)
+    html = body.decode("utf-8", errors="ignore")
 
     # Find every event anchor: <a ... href=".../event/SLUG/..." title="NAME" ...>
     # Accept both full URLs and relative.

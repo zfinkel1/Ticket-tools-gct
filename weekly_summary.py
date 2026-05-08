@@ -15,6 +15,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from enrich.spotify import enrich_event, format_followers, popularity_label
+from enrich.flare import enrich_event_with_history, history_html
+from enrich.sales import sales_status_html
 
 STATE_DIR = Path(__file__).parent / "state"
 
@@ -69,19 +71,25 @@ def build_email(sites):
     total = sum(s["count"] for s in sites)
     sections = []
     for s in sites:
-        # Take up to 5 sample upcoming events; enrich so we surface popularity
+        # Take up to 5 sample upcoming events; enrich so we surface popularity,
+        # GCT broker history, and sales-window state — same signals as the
+        # alert email, just for the "system is alive" weekly digest.
         samples = s["events"][:5]
         for ev in samples:
             try:
                 enrich_event(ev)
             except Exception:
                 pass
+            try:
+                enrich_event_with_history(ev)
+            except Exception:
+                pass
         sample_rows = []
         for e in samples:
-            name = html.unescape(e.get("name", "Unnamed"))
-            date = e.get("date") or "TBA"
-            url = e.get("url", "#")
-            loc = e.get("location") or ""
+            name = html.escape(html.unescape(e.get("name", "Unnamed")))
+            date = html.escape(e.get("date") or "TBA")
+            url = html.escape(e.get("url", "#"), quote=True)
+            loc = html.escape(e.get("location") or "")
             enr = e.get("enrichment") or {}
             badge_html = ""
             label_color = popularity_label(enr.get("popularity"))
@@ -97,12 +105,16 @@ def build_email(sites):
                 followers_html = (
                     f' &middot; <span style="color:#888;">{format_followers(enr["followers"])} followers</span>'
                 )
+            sales_block = sales_status_html(e)
+            history_block = history_html(e) if e.get("gct_history") is not None else ""
             sample_rows.append(f"""
               <tr><td style="padding:10px 14px;border-bottom:1px solid #eee;">
                 <div style="font-size:13px;font-weight:700;color:#0d1b3e;margin-bottom:2px;">
                   <a href="{url}" style="color:#0d1b3e;text-decoration:none;">{name}</a>{badge_html}
                 </div>
                 <div style="font-size:11px;color:#666;">{date}{' &middot; ' + loc if loc else ''}{followers_html}</div>
+                {sales_block}
+                {history_block}
               </td></tr>
             """)
 

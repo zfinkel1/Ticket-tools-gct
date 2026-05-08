@@ -55,7 +55,6 @@ def parse(site):
             try:
                 venue_tz = (ev.get("venue") or {}).get("timezone") or "America/Chicago"
                 dt = datetime.fromtimestamp(ts / 1000, tz=timezone.utc).astimezone(ZoneInfo(venue_tz))
-                # Use %#I on Windows or %-I on Unix for no leading zero; lstrip fallback is portable
                 date = dt.strftime("%a, %b %d at %I:%M %p %Z").replace(" 0", " ")
             except Exception:
                 pass
@@ -63,11 +62,32 @@ def parse(site):
         if not event_id or not name:
             continue
 
+        # Tixr ships salesStartDate (ms epoch) and sometimes salesEndDate.
+        # Normalize to ISO so enrich.sales can render without parser-specific knowledge.
+        sales_start = ev.get("salesStartDate")
+        sales_end = ev.get("salesEndDate")
+        sales_block = {"public_start": None, "public_end": None, "presales": []}
+        if sales_start:
+            try:
+                sales_block["public_start"] = datetime.fromtimestamp(
+                    sales_start / 1000, tz=timezone.utc
+                ).isoformat()
+            except Exception:
+                pass
+        if sales_end:
+            try:
+                sales_block["public_end"] = datetime.fromtimestamp(
+                    sales_end / 1000, tz=timezone.utc
+                ).isoformat()
+            except Exception:
+                pass
+
         events.append({
-            "slug": str(event_id),  # Tixr IDs are stable
+            "slug": str(event_id),
             "name": name,
             "location": venue,
             "date": date,
             "url": url,
+            "sales": sales_block,
         })
     return events
