@@ -174,6 +174,32 @@ def fetch_stubhub_listing(artist, venue, year=None):
         return None
 
     candidates = _extract_event_offers(html)
+    # Diagnostic logging — auditing the cache showed 47/47 nulls, meaning
+    # something in the pipeline is silently failing for every query. Log
+    # enough detail to distinguish the failure modes:
+    #   - empty html  -> ScraperAPI returned nothing (key/quota/block)
+    #   - no JSON-LD blocks  -> StubHub no longer ships JSON-LD on search
+    #   - blocks but no Event types  -> different schema layout
+    #   - candidates with no min_price  -> events but no listings yet
+    ld_blocks = re.findall(
+        r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>',
+        html, flags=re.IGNORECASE,
+    )
+    print(
+        f"[stubhub] q={query!r} html={len(html)}b "
+        f"ld_blocks={len(ld_blocks)} candidates={len(candidates)} "
+        f"with_price={sum(1 for c in candidates if c.get('min_price'))}"
+    )
+    if not candidates and ld_blocks:
+        # We got JSON-LD but no Event records — sample the first @type to learn the layout
+        first_block = re.search(
+            r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+            html, flags=re.DOTALL | re.IGNORECASE,
+        )
+        if first_block:
+            sample = first_block.group(1).strip()[:200]
+            print(f"[stubhub] no Event matches; sample LD: {sample!r}")
+
     best = _best_match(candidates, venue, year)
     result = None
     if best and best.get("min_price"):

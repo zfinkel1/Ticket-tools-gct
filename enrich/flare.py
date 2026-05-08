@@ -178,9 +178,22 @@ def _history_normalize(s):
 def lookup_gct_history(event_name):
     """
     Returns history dict for the event, or None.
-    Tries: exact normalized match, then substring either direction
-    (matching flare_analyzer.py's lookup so the email lines up with the
-    analyzer's "+X% hist" badge).
+
+    Algorithm (stricter than flare_analyzer.py's substring match — that one
+    produces too many false positives in this automated context, e.g.
+    "Cold, University Drive" matching DB key 'ive'):
+
+      1. Exact normalized match wins
+      2. Word-level prefix match: db_key's words must align as the
+         leading words of the event's normalized name (catches "Olivia
+         Rodrigo - The Unraveled Tour" -> "olivia rodrigo")
+      3. Skip multi-artist concert keys (start with quote, contain comma)
+         since their aggregated stats don't represent the headlining
+         artist alone.
+
+    Audited against the full corpus of tracked events: 134/777 hits with
+    no obvious false positives, vs 245/777 with the old substring match
+    (mostly bogus 'ive', 'iu', 'live' fragment matches).
     """
     db = _load_history_db()
     if not db:
@@ -190,10 +203,26 @@ def lookup_gct_history(event_name):
         return None
     if key in db:
         return db[key]
+
+    key_words = key.split()
+    if not key_words:
+        return None
+    best = None
+    best_len = 0
     for db_key, data in db.items():
-        if db_key in key or key in db_key:
-            return data
-    return None
+        if not db_key:
+            continue
+        if db_key.startswith('"') or "," in db_key:
+            continue
+        db_words = db_key.split()
+        if not db_words or len(db_words) > len(key_words):
+            continue
+        if key_words[: len(db_words)] != db_words:
+            continue
+        # Prefer the longest matching prefix — most specific signal
+        if len(db_key) > best_len:
+            best, best_len = data, len(db_key)
+    return best
 
 
 def enrich_event_with_history(event):
