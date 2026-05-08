@@ -2,17 +2,13 @@
 """
 Flare (TicketFlipping) enrichment for new event alerts.
 
-For each new event detected by the watcher, look up past shows by the
-same artist that GCT has previously tracked in Flare and surface:
-  - count of past shows tracked
-  - last show date / venue
-  - aggregate sold count and average resale price (if StubHub data exists)
-  - GCT-specific resale-margin signal vs face value
+GCT-history lookup: reads state/gct-history-db.json — Gold Coast's own
+3-year sales database, extracted from flare_analyzer.py. This is the
+authoritative history source. Flare's API doesn't expose past events
+(favorites/all-events both contain only upcoming).
 
-The all-events list is large and Flare rate-limits this endpoint to 4
-calls/day, so we snapshot it once a day to state/flare-events-cache.json
-and reuse the snapshot for every watcher run that day. Sold-data
-lookups (limit 1000/day) are cached per event_id with a 7-day TTL.
+Current-sold lookup (separate concern): for the new event itself, hit
+Flare's get-sold-data endpoint to surface what's already changed hands.
 
 Usage:
     from enrich.flare import enrich_event_with_history
@@ -36,13 +32,11 @@ FLARE_TOKEN_DEFAULT = "db2fa5131eb5750f1fae2fe167a09219a95e86fc"
 
 STATE_DIR = Path(__file__).resolve().parent.parent / "state"
 EVENTS_CACHE_PATH = STATE_DIR / "flare-events-cache.json"
-FAVORITES_CACHE_PATH = STATE_DIR / "flare-favorites-cache.json"
 SOLD_CACHE_PATH = STATE_DIR / "flare-sold-cache.json"
+HISTORY_DB_PATH = STATE_DIR / "gct-history-db.json"
 
 EVENTS_TTL_SECONDS = 6 * 3600        # All-events: refresh every 6h (Flare allows 4/day, this exactly fits)
-FAVORITES_TTL_SECONDS = 1 * 3600     # Favorites: refresh hourly (1000/day budget — plenty)
 SOLD_TTL_SECONDS = 7 * 24 * 3600     # Sold data per event: 1 week
-HISTORY_LOOKBACK_DAYS = 365 * 3      # 3 years of past shows
 
 
 def _token():
@@ -99,34 +93,6 @@ def fetch_all_events(force=False):
     return events
 
 
-def fetch_favorited_events(force=False):
-    """
-    Returns the cached Flare favorites list — events GCT has previously
-    tracked. Includes past + upcoming. This is the actual source of
-    historical-resale signal because favorites accumulate over time;
-    all-events is mostly upcoming only. Refreshes hourly (1000/day budget).
-    """
-    cache = _read_json(FAVORITES_CACHE_PATH) or {}
-    if not force and cache.get("fetched_at"):
-        if time.time() - cache["fetched_at"] < FAVORITES_TTL_SECONDS:
-            return cache.get("events", [])
-
-    url = f"{FLARE_BASE}/api/primary-favorite-events?token={_token()}"
-    try:
-        data = _http_get(url, timeout=60)
-    except Exception as e:
-        print(f"[flare] favorites fetch failed: {e}")
-        return cache.get("events", [])
-
-    events = data.get("data") if isinstance(data, dict) else None
-    if not events:
-        events = data if isinstance(data, list) else []
-
-    _write_json(FAVORITES_CACHE_PATH, {"fetched_at": time.time(), "events": events})
-    print(f"[flare] cached {len(events)} favorited events")
-    return events
-
-
 def fetch_sold_data(sh_id):
     """Returns sold-data list for a StubHub event, cached locally."""
     if not sh_id:
@@ -174,134 +140,82 @@ def _event_date(event):
         return None
 
 
-def find_history(artist_name, max_shows=20):
+# ─────────────── GCT history database (from flare_analyzer.py) ───────────────
+
+_history_db_cache = None
+
+
+def _load_history_db():
+    global _history_db_cache
+    if _history_db_cache is not None:
+        return _history_db_cache
+    db = _read_json(HISTORY_DB_PATH)
+    if db is None:
+        print(f"[gct-history] DB not found at {HISTORY_DB_PATH} — run tools/extract_history_db.py")
+        _history_db_cache = {}
+    else:
+        _history_db_cache = db
+    return _history_db_cache
+
+
+def _history_normalize(s):
     """
-    Returns a list of past Flare events for this artist, sorted newest
-    first. Pulls from the favorites endpoint (events GCT has tracked
-    over time) — all-events is mostly upcoming and would always return
-    nothing for past-show lookup.
-
-    Only includes shows whose event_date is in the past and within
-    HISTORY_LOOKBACK_DAYS.
+    Normalize event name to history-DB key form. Mirrors the algorithm
+    in flare_analyzer.py:lookup_artist_history so matches stay consistent
+    with the analyzer's UI.
     """
-    if not artist_name:
-        return []
-    events = fetch_favorited_events()
-    if not events:
-        return []
-
-    target = _normalize(artist_name)
-    now = datetime.utcnow()
-    cutoff = now.timestamp() - HISTORY_LOOKBACK_DAYS * 86400
-
-    matches = []
-    for ev in events:
-        ev_artist = _event_artist(ev)
-        if not ev_artist:
-            continue
-        if _normalize(ev_artist) != target:
-            continue
-        edate = _event_date(ev)
-        # Past shows only — we want a track record, not other future shows
-        if edate is None or edate > now:
-            continue
-        if edate.timestamp() < cutoff:
-            continue
-        matches.append((edate, ev))
-
-    matches.sort(key=lambda x: x[0], reverse=True)
-    return [ev for _, ev in matches[:max_shows]]
+    if not s:
+        return ""
+    s = s.lower()
+    for sep in [" - ", ": ", " – "]:
+        if sep in s:
+            s = s.split(sep)[0].strip()
+    s = re.sub(r"\s*\([^)]*\)", "", s)
+    s = re.sub(r"[^\w\s]", "", s).strip()
+    return s
 
 
-def aggregate_history(past_events, fetch_sold=True):
+def lookup_gct_history(event_name):
     """
-    Roll up sold counts / avg prices across the matched past events.
-    Pulls sold-data for the most recent N events with sh_ids.
-    Returns dict of summary stats or None if past_events is empty.
+    Returns history dict for the event, or None.
+    Tries: exact normalized match, then substring either direction
+    (matching flare_analyzer.py's lookup so the email lines up with the
+    analyzer's "+X% hist" badge).
     """
-    if not past_events:
+    db = _load_history_db()
+    if not db:
         return None
-
-    venues = []
-    last_event = past_events[0]
-    last_date = _event_date(last_event)
-
-    total_sold = 0
-    sold_prices = []
-    margin_pcts = []
-    shows_with_sold_data = 0
-    enriched = 0
-    SOLD_FETCH_LIMIT = 5  # cap calls per artist to keep within Flare quota
-
-    for ev in past_events:
-        v = ev.get("event_location_name") or ev.get("venue_name") or ev.get("venue")
-        if v and v not in venues:
-            venues.append(v)
-
-        if not fetch_sold or enriched >= SOLD_FETCH_LIMIT:
-            continue
-        # Flare uses inconsistent field casing across endpoints; try common shapes.
-        sh_id = ev.get("sh_id") or ev.get("SH_id") or ev.get("stubhub_id")
-        if not sh_id:
-            continue
-        enriched += 1
-        try:
-            sold = fetch_sold_data(sh_id)
-        except Exception:
-            sold = []
-        if not sold:
-            continue
-
-        prices = [float(s["price"]) for s in sold if s.get("price") and float(s["price"]) > 0]
-        if not prices:
-            continue
-        shows_with_sold_data += 1
-        total_sold += len(prices)
-        sold_prices.extend(prices)
-
-        face = ev.get("min_price")
-        try:
-            face = float(face) if face else None
-        except Exception:
-            face = None
-        if face and face > 0:
-            avg = sum(prices) / len(prices)
-            margin_pcts.append((avg - face) / face * 100)
-
-    avg_price = round(sum(sold_prices) / len(sold_prices), 2) if sold_prices else None
-    avg_margin = round(sum(margin_pcts) / len(margin_pcts)) if margin_pcts else None
-
-    return {
-        "past_show_count": len(past_events),
-        "shows_with_sold_data": shows_with_sold_data,
-        "last_show_date": last_date.strftime("%Y-%m-%d") if last_date else None,
-        "last_show_venue": last_event.get("event_location_name")
-            or last_event.get("venue_name")
-            or last_event.get("venue"),
-        "venues": venues[:5],
-        "total_sold": total_sold,
-        "avg_resale_price": avg_price,
-        "avg_resale_margin_pct": avg_margin,
-    }
+    key = _history_normalize(event_name)
+    if not key:
+        return None
+    if key in db:
+        return db[key]
+    for db_key, data in db.items():
+        if db_key in key or key in db_key:
+            return data
+    return None
 
 
-def enrich_event_with_history(event, fetch_sold=True):
+def enrich_event_with_history(event):
     """
     Mutates event to add a 'gct_history' key. Safe to call multiple
     times; no-op if history already populated.
     """
     if "gct_history" in event:
         return event
-    artist = extract_artist(event.get("name", ""))
-    if not artist:
-        return event
-    past = find_history(artist)
-    summary = aggregate_history(past, fetch_sold=fetch_sold)
-    if summary:
-        summary["artist_query"] = artist
-        event["gct_history"] = summary
+    name = event.get("name", "")
+    hist = lookup_gct_history(name)
+    if hist:
+        event["gct_history"] = {
+            "events": hist.get("events"),
+            "avg_margin": hist.get("avg_margin"),
+            "profitable_pct": hist.get("profitable_pct"),
+            "avg_sell_price": hist.get("avg_sell_price"),
+            "avg_cost_price": hist.get("avg_cost_price"),
+            "display_name": hist.get("display_name"),
+        }
     else:
-        event["gct_history"] = {"artist_query": artist, "past_show_count": 0}
+        event["gct_history"] = None
     return event
 
 
@@ -415,34 +329,36 @@ def enrich_event_with_current_sold(event):
 
 def history_html(event):
     """
-    Return an inline HTML block for the alert email row.
-    Empty string when no history is available.
+    Render the GCT 3-year sales history for this event/artist.
+    Empty when no match in the database.
     """
-    h = event.get("gct_history") or {}
-    count = h.get("past_show_count") or 0
-    if count == 0:
+    h = event.get("gct_history")
+    if not h:
         return (
             '<div style="margin-top:6px;font-size:11px;color:#999;">'
             'GCT history: <span style="color:#aaa;">none tracked</span>'
             '</div>'
         )
 
-    bits = [f'<strong style="color:#0d1b3e;">{count} past show{"s" if count != 1 else ""}</strong>']
-    if h.get("last_show_date"):
-        venue = h.get("last_show_venue") or ""
-        suffix = f" at {venue}" if venue else ""
-        bits.append(f'last on {h["last_show_date"]}{suffix}')
-    if h.get("total_sold"):
-        bits.append(f'{h["total_sold"]:,} tix sold')
-    if h.get("avg_resale_price"):
-        bits.append(f'avg ${h["avg_resale_price"]:.0f}')
-    margin = h.get("avg_resale_margin_pct")
+    events_count = h.get("events") or 0
+    margin = h.get("avg_margin")
+    profitable = h.get("profitable_pct")
+    avg_sell = h.get("avg_sell_price")
+
+    bits = [
+        f'<strong style="color:#0d1b3e;">{events_count} event{"s" if events_count != 1 else ""}</strong>'
+    ]
     if margin is not None:
         sign = "+" if margin >= 0 else ""
-        color = "#16a34a" if margin >= 25 else ("#f59e0b" if margin >= 0 else "#dc2626")
+        # Match flare_analyzer thresholds: green ≥50, amber ≥25, red <0
+        color = "#16a34a" if margin >= 50 else ("#f59e0b" if margin >= 0 else "#dc2626")
         bits.append(
-            f'<span style="color:{color};font-weight:700;">ROI {sign}{margin}%</span>'
+            f'<span style="color:{color};font-weight:700;">avg {sign}{margin}%</span>'
         )
+    if profitable is not None:
+        bits.append(f'{profitable:.0f}% profitable')
+    if avg_sell:
+        bits.append(f'avg sell ${avg_sell:.0f}')
 
     return (
         '<div style="margin-top:6px;font-size:11px;color:#666;">'

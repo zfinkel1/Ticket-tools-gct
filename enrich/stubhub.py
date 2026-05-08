@@ -192,19 +192,11 @@ def fetch_stubhub_listing(artist, venue, year=None):
 
 def enrich_event_with_listing(event):
     """
-    For events where Flare doesn't yet have sold data (no sh_id match
-    or sold_count=0), scrape StubHub for the current cheapest ask.
-    Adds 'current_listing' key. Skips entirely if Flare sold data
-    already exists for this event (saves ScraperAPI credits).
+    Scrape StubHub for the current cheapest ask. Always runs (~10 SP
+    credits per new event); shown alongside Flare sold-data so the email
+    has both "what's selling" and "what's currently asked."
     """
     if "current_listing" in event:
-        return event
-
-    # If Flare already gave us a sold-count > 0, skip scraping — Flare data is
-    # better (real transactions) and free. Only scrape when no signal exists.
-    cs = event.get("current_sold")
-    if cs and cs.get("sold_count"):
-        event["current_listing"] = None
         return event
 
     artist = extract_artist(event.get("name", ""))
