@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-08T14:54:04.974522Z",
-  "count": 91,
+  "last_run": "2026-05-08T17:47:25.826255Z",
+  "count": 92,
   "events": [
     {
       "slug": "rZ7HnEZ1AfZEq7",
@@ -12,10 +12,10 @@
     },
     {
       "slug": "rZ7HnEZ1AfA6FV",
-      "name": "Rickshaw Billie's Burger Patrol / American Sharks / Pink Fuzz",
+      "name": "*SOLD OUT* Rickshaw Billie's Burger Patrol / American Sharks / Pink Fuzz",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, May 8, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/rickshaw-billies-burger-patrol-empty-bottle-tickets/14147234"
+      "url": "https://www.ticketweb.com/event/sold-out-rickshaw-billies-burger-empty-bottle-tickets/14147234"
     },
     {
       "slug": "rZ7HnEZ1Af-FkK",
@@ -26,10 +26,10 @@
     },
     {
       "slug": "rZ7HnEZ1Afr4pK",
-      "name": "*SOLD OUT* Gilmore Girls, but Chicago",
+      "name": "Gilmore Girls, but Chicago",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, May 10, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-gilmore-girls-but-empty-bottle-tickets/14795593"
+      "url": "https://www.ticketweb.com/event/gilmore-girls-but-chicago-empty-bottle-tickets/14795593"
     },
     {
       "slug": "rZ7HnEZ1AfrpFK",
@@ -79,6 +79,13 @@
       "location": "Empty Bottle, Chicago",
       "date": "Sat, May 16, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/chirp-radio-welcomes-sessa-empty-bottle-tickets/14659573"
+    },
+    {
+      "slug": "rZ7HnEZ1Af08_d",
+      "name": "Sunday Night Magic - Free to Play MTG",
+      "location": "Empty Bottle, Chicago",
+      "date": "Sun, May 17, 2026 · 6:00 PM",
+      "url": "https://www.ticketweb.com/event/sunday-night-magic-empty-bottle-tickets/14910643"
     },
     {
       "slug": "rZ7HnEZ1AfOvqd",

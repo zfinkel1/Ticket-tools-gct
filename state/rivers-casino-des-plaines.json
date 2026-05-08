@@ -1,7 +1,7 @@
 {
   "site": "Rivers Casino Des Plaines",
-  "last_run": "2026-05-08T14:53:51.407067Z",
-  "count": 6,
+  "last_run": "2026-05-08T17:47:08.023975Z",
+  "count": 7,
   "events": [
     {
       "slug": "blackberry-smoke",
@@ -44,6 +44,13 @@
       "location": "Rivers Casino Des Plaines",
       "date": "FRI, SEP 4",
       "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/collective-soul"
+    },
+    {
+      "slug": "the-players",
+      "name": "The Players",
+      "location": "Rivers Casino Des Plaines",
+      "date": "SAT, SEP 12",
+      "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/the-players"
     }
   ]
 }

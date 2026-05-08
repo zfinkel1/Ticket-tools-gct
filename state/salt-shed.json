@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-08T14:53:58.776912Z",
-  "count": 68,
+  "last_run": "2026-05-08T17:47:22.404063Z",
+  "count": 69,
   "events": [
     {
       "slug": "vv1F8Z_eQKjxZdCua",
@@ -401,6 +401,13 @@
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Sun, Sep 27, 2026 · 7:00 PM",
       "url": "https://www.ticketmaster.com/cavetown-with-chloe-moriondo-running-with-chicago-illinois-09-27-2026/event/0400642CE2B17663"
+    },
+    {
+      "slug": "vvG18Z_1QOx1cF",
+      "name": "Mon Rovîa - Bloodline Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Tue, Sep 29, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/mon-rovia-bloodline-tour-chicago-illinois-09-29-2026/event/040064A6A088AB48"
     },
     {
       "slug": "vv1A7Zko_Gkeyirew",

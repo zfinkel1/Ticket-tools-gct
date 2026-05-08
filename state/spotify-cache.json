@@ -686,5 +686,45 @@
       "url": "https://open.spotify.com/artist/6xdRb2GypJ7DqnWAI2mHGn",
       "genres": []
     }
+  },
+  "the players": {
+    "cached_at": 1778262447.7234094,
+    "data": {
+      "name": "Players",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/7M5XG1TqWfmHmxYWi1Stzf",
+      "genres": []
+    }
+  },
+  "mon rovîa": {
+    "cached_at": 1778262460.1061895,
+    "data": {
+      "name": "Mon Rovîa",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/6pvai2QB2c0defVI0UTFos",
+      "genres": []
+    }
+  },
+  "bad gyal": {
+    "cached_at": 1778262469.3167021,
+    "data": {
+      "name": "Bad Gyal",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/4F4pp8NUW08JuXwnoxglpN",
+      "genres": []
+    }
+  },
+  "sunday night magic": {
+    "cached_at": 1778262474.2220895,
+    "data": {
+      "name": "Blue Magic",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/7tLLSEaHMMJPbsYAz8MkEw",
+      "genres": []
+    }
   }
 }
