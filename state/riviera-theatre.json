@@ -1,20 +1,8 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-05-08T22:39:45.697265Z",
-  "count": 22,
+  "last_run": "2026-05-08T23:39:47.473140Z",
+  "count": 21,
   "events": [
-    {
-      "slug": "Z7r9jZ1A70oPS",
-      "name": "The Amity Affliction w/ August Burns Red",
-      "location": "Riviera Theatre- IL, Chicago",
-      "date": "Fri, May 8, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oPS",
-      "sales": {
-        "public_start": "1900-01-01T18:00:00Z",
-        "public_end": "2026-05-08T23:30:00Z",
-        "presales": []
-      }
-    },
     {
       "slug": "Z7r9jZ1A7jS_P",
       "name": "Andres Cepeda",
