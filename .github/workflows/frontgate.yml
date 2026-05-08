@@ -42,5 +42,17 @@ jobs:
             echo "No state changes"
           else
             git commit -m "state: update event snapshots [skip ci]"
-            git push
+            # Rebase on top of any newer commits (manual code pushes) before pushing.
+            # Without this, git push fails with non-fast-forward whenever a code
+            # change has landed since the last state commit, and the watcher keeps
+            # re-emailing the same "new" events every 15 minutes because state
+            # never persists. Retry up to 3 times in case of race conditions.
+            for i in 1 2 3; do
+              if git pull --rebase --autostash origin main && git push; then
+                echo "State pushed successfully on attempt $i"
+                break
+              fi
+              echo "Push attempt $i failed, retrying..."
+              sleep 5
+            done
           fi
