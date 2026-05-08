@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-08T19:22:43.617788Z",
+  "last_run": "2026-05-08T20:34:50.034629Z",
   "count": 90,
   "events": [
     {
@@ -637,19 +637,7 @@
         "public_start": "2026-05-08T19:00:00Z",
         "public_end": "2026-07-12T21:00:00Z",
         "presales": []
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "The Chicago Mexican Folk Fest",
-        "name": "Los Macorinos",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/1ldFRYgmjxDrX27bIe3dWx",
-        "genres": []
-      },
-      "gct_history": null,
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfkeoV",

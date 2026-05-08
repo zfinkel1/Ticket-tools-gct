@@ -1,8 +1,72 @@
 {
   "site": "TAO Nightclub Chicago",
-  "last_run": "2026-05-08T19:22:20.221527Z",
-  "count": 7,
+  "last_run": "2026-05-08T20:35:13.989068Z",
+  "count": 10,
   "events": [
+    {
+      "slug": "227656",
+      "name": "Fuerza Regida",
+      "location": "TAO Nightclub Chicago",
+      "date": "Sun, May 24, 2026",
+      "url": "https://taogroup.com/event/5-24-2026-fuerza-regida-tao-nightclub/",
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Fuerza Regida",
+        "name": "Fuerza Regida",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/0ys2OFYzWYB5hRDLCsBqxt",
+        "genres": []
+      },
+      "gct_history": {
+        "events": 3,
+        "avg_margin": 83.4,
+        "profitable_pct": 100.0,
+        "avg_sell_price": 175.51,
+        "avg_cost_price": 124.18,
+        "display_name": "Fuerza Regida"
+      },
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "227654",
+      "name": "RØZ",
+      "location": "TAO Nightclub Chicago",
+      "date": "Sat, May 23, 2026",
+      "url": "https://taogroup.com/event/5-23-2026-roz-tao-nightclub/",
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "RØZ",
+        "name": "RØZ",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/0aULg7LximLNhI6lLzxcXI",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "227652",
+      "name": "Deorro",
+      "location": "TAO Nightclub Chicago",
+      "date": "Fri, May 22, 2026",
+      "url": "https://taogroup.com/event/5-22-2026-deorro-tao-nightclub/",
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Deorro",
+        "name": "Deorro",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/6VD4UEUPvtsemqD3mmTqCR",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
     {
       "slug": "226298",
       "name": "Danny Avila",
