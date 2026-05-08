@@ -342,5 +342,339 @@
       "url": "https://open.spotify.com/artist/28ntgpEkMU9Zm7F3gLDMhZ",
       "genres": []
     }
+  },
+  "naomi watanabe": {
+    "cached_at": 1778215169.8892105,
+    "data": {
+      "name": "Naomi Watanabe",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/7BU6zZWEzG69sUAKbuVgHy",
+      "genres": []
+    }
+  },
+  "chet faker": {
+    "cached_at": 1778215180.5784893,
+    "data": {
+      "name": "Chet Faker",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/6UcJxoeHWWWyT5HZP064om",
+      "genres": []
+    }
+  },
+  "thornhill": {
+    "cached_at": 1778215184.109467,
+    "data": {
+      "name": "Thornhill",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2dE5audbkV3o5cKxvM7lBD",
+      "genres": []
+    }
+  },
+  "jeff tweedy": {
+    "cached_at": 1778215189.0854518,
+    "data": {
+      "name": "Jeff Tweedy",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2rDxtYUzTAYJJE3Bl3Z5IN",
+      "genres": []
+    }
+  },
+  "the toadies": {
+    "cached_at": 1778215194.2258222,
+    "data": {
+      "name": "Toadies",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2QMMktUMtwMSwUZATX1cRO",
+      "genres": []
+    }
+  },
+  "scott galloway": {
+    "cached_at": 1778215198.3837833,
+    "data": {
+      "name": "Scott Galloway",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/7uI1y2KDxjL1LGiuMfcpwz",
+      "genres": []
+    }
+  },
+  "crime unfiltered": {
+    "cached_at": 1778215201.8320868,
+    "data": {
+      "name": "Crime In Stereo",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/4ijffQAqzpGyaWDXuIZZI7",
+      "genres": []
+    }
+  },
+  "justin willman": {
+    "cached_at": 1778215205.5706336,
+    "data": {
+      "name": "Justin William",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/5xVFWVnGihHOyLiMl27kM9",
+      "genres": []
+    }
+  },
+  "the wallflowers": {
+    "cached_at": 1778215210.3653972,
+    "data": {
+      "name": "The Wallflowers",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/0jJNGWrpjGIHUdTTJiIYeB",
+      "genres": []
+    }
+  },
+  "sabrina cast reunion 30 year anniversary live": {
+    "cached_at": 1778215216.599472,
+    "data": {
+      "name": "Cast of Chilling Adventures of Sabrina",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/4Y43D0ynLoyZ3HxOPGxxFq",
+      "genres": []
+    }
+  },
+  "honne": {
+    "cached_at": 1778215221.1797707,
+    "data": {
+      "name": "HONNE",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/0Vw76uk7P8yVtTClWyOhac",
+      "genres": []
+    }
+  },
+  "del amitri": {
+    "cached_at": 1778215226.3818507,
+    "data": {
+      "name": "Del Amitri",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2Q4FnG5T6NTUcAAZwuMV5K",
+      "genres": []
+    }
+  },
+  "holly humberstone": {
+    "cached_at": 1778215229.9417148,
+    "data": {
+      "name": "Holly Humberstone",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/0nnYdIpahs41QiZ9MWp5Wx",
+      "genres": []
+    }
+  },
+  "joshua slone": {
+    "cached_at": 1778215235.8557398,
+    "data": {
+      "name": "Joshua Slone",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2rkJFJhJwqL5ZKbPoFwFN9",
+      "genres": []
+    }
+  },
+  "pepper and the movement": {
+    "cached_at": 1778215240.0785642,
+    "data": {
+      "name": "Pepper",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/1YK8JdPbiaMSnf4hrlBkGT",
+      "genres": []
+    }
+  },
+  "mike campbell": {
+    "cached_at": 1778215247.978283,
+    "data": {
+      "name": "Mike Campbell & The Dirty Knobs",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/1pBQqdeHHjEdCtjSUAdu0G",
+      "genres": []
+    }
+  },
+  "chance pena": {
+    "cached_at": 1778215251.5953255,
+    "data": {
+      "name": "Chance Peña",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/4lhUHpVOXmkEBGGHV71QCh",
+      "genres": []
+    }
+  },
+  "you should know": {
+    "cached_at": 1778215259.0747125,
+    "data": {
+      "name": "Chrissy I-Eece",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/6crCsC0Mmx1IiSWKZYBhLX",
+      "genres": []
+    }
+  },
+  "the marvelous miss gender starring bosco": {
+    "cached_at": 1778215263.5996397,
+    "data": null
+  },
+  "dimmu borgir": {
+    "cached_at": 1778215269.1025202,
+    "data": {
+      "name": "Dimmu Borgir",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/6e8ISIsI7UQZPyEorefAhK",
+      "genres": []
+    }
+  },
+  "desi banks": {
+    "cached_at": 1778215272.724611,
+    "data": {
+      "name": "Desi Banks",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/7wagY4upXToQSnAh62er13",
+      "genres": []
+    }
+  },
+  "t. murph": {
+    "cached_at": 1778215279.092025,
+    "data": {
+      "name": "T. Murph",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/4yw7aSOVaiWGzPautucIX9",
+      "genres": []
+    }
+  },
+  "altin gun": {
+    "cached_at": 1778215282.4161246,
+    "data": {
+      "name": "Altin Gün",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/37PL04N8kBWWW69jdrMMWT",
+      "genres": []
+    }
+  },
+  "eddie b": {
+    "cached_at": 1778215286.2471647,
+    "data": {
+      "name": "Eddie Benjamin",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/1AaSeUFzwt47HhkGtWE1xn",
+      "genres": []
+    }
+  },
+  "lambrini girls": {
+    "cached_at": 1778215295.415065,
+    "data": {
+      "name": "Lambrini Girls",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/6VR4TJ20WGiho2xZWMuuWb",
+      "genres": []
+    }
+  },
+  "dj shadow": {
+    "cached_at": 1778215300.1439042,
+    "data": {
+      "name": "DJ Shadow",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/5CE2IfdYZEQGIDsfiRm8SI",
+      "genres": []
+    }
+  },
+  "dadi freyr": {
+    "cached_at": 1778215304.2506819,
+    "data": {
+      "name": "Daði Freyr",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/3Hb64DQZIhDCgyHKrzBXOL",
+      "genres": []
+    }
+  },
+  "off book": {
+    "cached_at": 1778215306.015443,
+    "data": {
+      "name": "MR TOUT LE MONDE",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/4MgxKih2gf4BgMkPVOfvrn",
+      "genres": []
+    }
+  },
+  "buena vista orchestra": {
+    "cached_at": 1778215308.6338067,
+    "data": {
+      "name": "The Buena Vista Orchestra",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/79bG7tuDQZaqpmsOizA6uc",
+      "genres": []
+    }
+  },
+  "randy feltface": {
+    "cached_at": 1778215312.2977479,
+    "data": {
+      "name": "Randy Feltface",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2As1iMtnOpgzxLEXnX2MA9",
+      "genres": []
+    }
+  },
+  "joanne mcnally": {
+    "cached_at": 1778215317.047162,
+    "data": {
+      "name": "Eivør",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2dB4ya2W1Gvng8gjWSPu2H",
+      "genres": []
+    }
+  },
+  "marc maron: yammering into the void": {
+    "cached_at": 1778215320.6469283,
+    "data": {
+      "name": "Wino",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2UEm3mXEPGyxeWQJYc8WSx",
+      "genres": []
+    }
+  },
+  "michael blaustein": {
+    "cached_at": 1778215322.5775154,
+    "data": {
+      "name": "Michael Blaustein",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/2J3pFVWs2oEYp6an6QTANn",
+      "genres": []
+    }
+  },
+  "concrete & jerry garcia: that's not me comedy": {
+    "cached_at": 1778215328.3366919,
+    "data": {
+      "name": "Doug Stanhope",
+      "popularity": null,
+      "followers": null,
+      "url": "https://open.spotify.com/artist/3z278gCXrOgHQFGPq9q5Uf",
+      "genres": []
+    }
   }
 }
