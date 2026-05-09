@@ -1,38 +1,8 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-09T04:50:22.119266Z",
-  "count": 35,
+  "last_run": "2026-05-09T07:09:36.706976Z",
+  "count": 33,
   "events": [
-    {
-      "slug": "vv178ZbgGkXNQpW3",
-      "name": "Stifel Stars on Ice",
-      "location": "Allstate Arena, Rosemont",
-      "date": "Fri, May 8, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/stifel-stars-on-ice-rosemont-illinois-05-08-2026/event/0400635FA3696F52",
-      "sales": {
-        "public_start": "2025-11-21T16:00:00Z",
-        "public_end": "2026-05-09T01:00:00Z",
-        "presales": [
-          {
-            "name": "Stars on Ice Presale Offers",
-            "start": "2025-11-19T16:00:00Z",
-            "end": "2025-11-21T05:59:00Z"
-          }
-        ]
-      }
-    },
-    {
-      "slug": "vv1A7ZkuPGkdj6MIy",
-      "name": "Stifel Stars On Ice Pre-show Stargazer Pass: 3:30 pm",
-      "location": "Allstate Arena, Rosemont",
-      "date": "Fri, May 8, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/stifel-stars-on-ice-preshow-stargazer-rosemont-illinois-05-08-2026/event/04006365DC1F7A39",
-      "sales": {
-        "public_start": "2025-11-18T16:00:00Z",
-        "public_end": "2026-05-08T23:00:00Z",
-        "presales": []
-      }
-    },
     {
       "slug": "vv178ZbUGkm6NfbC",
       "name": "Alejandro Fernández: de Rey a Rey",

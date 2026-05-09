@@ -1,36 +1,8 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-09T04:50:13.847037Z",
-  "count": 72,
+  "last_run": "2026-05-09T07:09:30.576509Z",
+  "count": 71,
   "events": [
-    {
-      "slug": "vv1F8Z_eQKjxZdCua",
-      "name": "Disclosure Live",
-      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
-      "date": "Fri, May 8, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/disclosure-live-chicago-illinois-05-08-2026/event/0400642693722DC8",
-      "sales": {
-        "public_start": "2026-01-22T16:00:00Z",
-        "public_end": "2026-05-09T02:30:00Z",
-        "presales": [
-          {
-            "name": "Salt Shed Online Presale",
-            "start": "2026-01-21T18:00:00Z",
-            "end": "2026-01-22T14:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-01-21T16:00:00Z",
-            "end": "2026-01-22T14:00:00Z"
-          },
-          {
-            "name": "Spotify Presale",
-            "start": "2026-01-21T20:00:00Z",
-            "end": "2026-01-22T14:00:00Z"
-          }
-        ]
-      }
-    },
     {
       "slug": "vv167Zk8JPvZA5d26e",
       "name": "Disclosure Live",

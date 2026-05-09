@@ -1,6 +1,6 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-05-09T04:50:43.108658Z",
+  "last_run": "2026-05-09T07:09:15.778194Z",
   "count": 100,
   "events": [
     {
@@ -701,19 +701,7 @@
       "name": "EDC Orlando",
       "location": "Orlando, FL",
       "date": "November 6, 2026",
-      "url": "https://www.frontgatetickets.com/events/edc-orlando",
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "EDC Orlando",
-        "name": "Crankdat",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/5lCekoJW9jNq01B1wiqdAb",
-        "genres": []
-      },
-      "gct_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.frontgatetickets.com/events/edc-orlando"
     }
   ]
 }

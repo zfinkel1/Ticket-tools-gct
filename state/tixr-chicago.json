@@ -1,32 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-09T04:50:43.109646Z",
+  "last_run": "2026-05-09T07:09:45.414864Z",
   "count": 20,
   "events": [
-    {
-      "slug": "184066",
-      "name": "Más EDM: Road to Sueños",
-      "location": "Ramova Theatre ",
-      "date": "Fri, May 8 at 9:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/m-s-edm-road-to-sue-os-184066",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188681",
-      "name": "La Casita | Galeria",
-      "location": "Galeria Chicago",
-      "date": "Fri, May 8 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-188681",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "183582",
       "name": "Road To Sueños | Sazòn Party",
@@ -241,14 +217,57 @@
         "public_start": null,
         "public_end": null,
         "presales": []
+      }
+    },
+    {
+      "slug": "173652",
+      "name": "Live Nation Presents Black Veil Brides: North American Tour 2026",
+      "location": "Ramova Theatre ",
+      "date": "Fri, May 22 at 5:30 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/live-nation-presents-black-veil-brides-north-american-tour-2026-173652",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
       },
       "enrichment": {
         "source": "spotify",
-        "artist_query": "KREATOR: KRUSHERS OF THE USA",
-        "name": "KREZUS",
+        "artist_query": "Live Nation",
+        "name": "Live Nation",
         "popularity": null,
         "followers": null,
-        "url": "https://open.spotify.com/artist/6S1GI59Xa6ClqYBqASQxjq",
+        "url": "https://open.spotify.com/artist/62eVZrENSjup5d8fKTUWGE",
+        "genres": []
+      },
+      "gct_history": {
+        "events": 1,
+        "avg_margin": 1.9,
+        "profitable_pct": 100.0,
+        "avg_sell_price": 94.0,
+        "avg_cost_price": 104.5,
+        "display_name": "Live"
+      },
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "188827",
+      "name": "SUEÑOS OFFICIAL PRE PARTY | 2DEEP",
+      "location": "Hideaway",
+      "date": "Fri, May 22 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-2deep-188827",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "SUEÑOS OFFICIAL PRE PARTY",
+        "name": "Piano Sueños",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/3xig6nxehGHX2tJVfjMdtZ",
         "genres": []
       },
       "gct_history": null,

@@ -1,20 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-09T04:50:16.037293Z",
-  "count": 89,
+  "last_run": "2026-05-09T07:09:31.949633Z",
+  "count": 88,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfbouN",
-      "name": "*SOLD OUT* La Dispute with From Indian Lakes and Flooding",
-      "location": "Thalia Hall, Chicago",
-      "date": "Fri, May 8, 2026 · 7:45 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-la-dispute-with-thalia-hall-tickets/14611363",
-      "sales": {
-        "public_start": "2025-10-15T17:00:00Z",
-        "public_end": "2026-05-09T00:45:00Z",
-        "presales": []
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfZao7",
       "name": "*SOLD OUT* Club 1BD Chicago",

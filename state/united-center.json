@@ -1,31 +1,8 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-09T04:50:21.654163Z",
-  "count": 65,
+  "last_run": "2026-05-09T07:09:36.402019Z",
+  "count": 64,
   "events": [
-    {
-      "slug": "vv1A7Zk8SGkeHZp5M",
-      "name": "Dinastia Tour by Peso Pluma, Tito Double P & Friends",
-      "location": "United Center, Chicago",
-      "date": "Fri, May 8, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/dinastia-tour-by-peso-pluma-tito-chicago-illinois-05-08-2026/event/04006433BC0162F7",
-      "sales": {
-        "public_start": "2026-02-02T16:00:00Z",
-        "public_end": "2026-05-09T01:00:00Z",
-        "presales": [
-          {
-            "name": "VIP Package Onsale",
-            "start": "2026-02-02T16:00:00Z",
-            "end": "2026-05-04T17:00:00Z"
-          },
-          {
-            "name": "Tito Double P VIP Onsale",
-            "start": "2026-02-04T16:00:00Z",
-            "end": "2026-05-04T17:00:00Z"
-          }
-        ]
-      }
-    },
     {
       "slug": "vv178Z_dGkV06RF2",
       "name": "Dinastia Tour by Peso Pluma, Tito Double P & Friends",

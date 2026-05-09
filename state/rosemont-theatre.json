@@ -1,61 +1,8 @@
 {
   "site": "Rosemont Theatre",
-  "last_run": "2026-05-09T04:50:14.726588Z",
-  "count": 23,
+  "last_run": "2026-05-09T07:09:31.073081Z",
+  "count": 22,
   "events": [
-    {
-      "slug": "vv178ZbVGkU8uxJd",
-      "name": "The Rock Orchestra By Candlelight",
-      "location": "Rosemont Theatre",
-      "date": "Fri, May 8, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/the-rock-orchestra-by-candlelight-rosemont-illinois-05-08-2026/event/0400634D90362983",
-      "sales": {
-        "public_start": "2025-10-24T15:00:00Z",
-        "public_end": "2026-05-09T02:00:00Z",
-        "presales": [
-          {
-            "name": "ARTIST PRESALE",
-            "start": "2025-10-21T15:00:00Z",
-            "end": "2025-10-24T04:45:00Z"
-          },
-          {
-            "name": "VENUE PRESALE",
-            "start": "2025-10-21T15:00:00Z",
-            "end": "2025-10-24T04:45:00Z"
-          },
-          {
-            "name": "IAE PRESALE",
-            "start": "2025-10-21T15:00:00Z",
-            "end": "2025-10-24T04:45:00Z"
-          },
-          {
-            "name": "MARKETING PRESALE",
-            "start": "2025-10-21T15:00:00Z",
-            "end": "2025-10-24T04:45:00Z"
-          },
-          {
-            "name": "RADIO PRESALE",
-            "start": "2025-10-21T15:00:00Z",
-            "end": "2025-10-24T04:45:00Z"
-          },
-          {
-            "name": "New Standard Ticket",
-            "start": "2025-11-06T17:00:00Z",
-            "end": "2026-05-09T01:00:00Z"
-          },
-          {
-            "name": "Group Offer",
-            "start": "2025-11-17T16:30:00Z",
-            "end": "2025-11-17T16:45:00Z"
-          },
-          {
-            "name": "Single Seat Offer",
-            "start": "2026-05-01T17:00:00Z",
-            "end": "2026-05-09T01:00:00Z"
-          }
-        ]
-      }
-    },
     {
       "slug": "vv1F8Zbz3fkAZd52k",
       "name": "Triumph ? Relocated to Allstate Arena",
