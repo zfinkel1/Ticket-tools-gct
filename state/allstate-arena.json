@@ -1,6 +1,6 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-09T15:56:00.426293Z",
+  "last_run": "2026-05-09T16:58:38.158415Z",
   "count": 35,
   "events": [
     {
@@ -164,17 +164,7 @@
         "public_start": "2026-05-06T19:00:00Z",
         "public_end": "2026-05-20T00:00:00Z",
         "presales": []
-      },
-      "gct_history": {
-        "events": 4,
-        "avg_margin": 56.8,
-        "profitable_pct": 75.0,
-        "avg_sell_price": 259.87,
-        "avg_cost_price": 156.53,
-        "display_name": "Chicago"
-      },
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "vv1A7ZkoVGkdQn_t-",
@@ -186,17 +176,7 @@
         "public_start": "2026-05-06T19:00:00Z",
         "public_end": "2026-05-22T00:00:00Z",
         "presales": []
-      },
-      "gct_history": {
-        "events": 4,
-        "avg_margin": 56.8,
-        "profitable_pct": 75.0,
-        "avg_sell_price": 259.87,
-        "avg_cost_price": 156.53,
-        "display_name": "Chicago"
-      },
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "vv167Zk8EjfZA8eGdG",
