@@ -1,20 +1,8 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-05-08T23:39:48.416490Z",
-  "count": 36,
+  "last_run": "2026-05-09T01:24:03.586386Z",
+  "count": 35,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7OeZP",
-      "name": "Naomi Watanabe",
-      "location": "Vic Theatre, Chicago",
-      "date": "Fri, May 8, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OeZP",
-      "sales": {
-        "public_start": "1900-01-01T06:00:00Z",
-        "public_end": "2026-05-09T00:30:00Z",
-        "presales": []
-      }
-    },
     {
       "slug": "Z7r9jZ1A7qIb3",
       "name": "Chet Faker (18+)",
