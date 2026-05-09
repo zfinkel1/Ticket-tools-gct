@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-09T01:23:54.935498Z",
+  "last_run": "2026-05-09T04:50:43.109646Z",
   "count": 20,
   "events": [
-    {
-      "slug": "183097",
-      "name": "Virgin Whores",
-      "location": "Ramova Loft",
-      "date": "Fri, May 8 at 7:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/virgin-whores-183097",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "184066",
       "name": "Más EDM: Road to Sueños",
@@ -242,6 +230,30 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "168382",
+      "name": "KREATOR: KRUSHERS OF THE USA",
+      "location": "Ramova Theatre ",
+      "date": "Wed, May 20 at 7:30 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/kreator-krushers-of-the-usa-168382",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "KREATOR: KRUSHERS OF THE USA",
+        "name": "KREZUS",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/6S1GI59Xa6ClqYBqASQxjq",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

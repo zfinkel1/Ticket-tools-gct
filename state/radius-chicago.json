@@ -1,20 +1,8 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-05-09T01:24:02.846509Z",
-  "count": 5,
+  "last_run": "2026-05-09T04:50:16.838914Z",
+  "count": 4,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7xvod",
-      "name": "Disclosure with TSHA (18+ Event)",
-      "location": "Radius - Chicago",
-      "date": "Fri, May 8, 2026 · 10:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xvod",
-      "sales": {
-        "public_start": "1900-01-01T06:00:00Z",
-        "public_end": "2026-05-09T03:00:00Z",
-        "presales": []
-      }
-    },
     {
       "slug": "Z7r9jZ1A7O4Ck",
       "name": "The Martinez Brothers Present Orbita (18+ with Valid Government ID)",
