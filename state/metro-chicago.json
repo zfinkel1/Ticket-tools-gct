@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-10T00:05:24.115664Z",
-  "count": 48,
+  "last_run": "2026-05-10T07:12:23.107455Z",
+  "count": 47,
   "events": [
-    {
-      "slug": "the-afghan-whigs-40th-anniversary-tour",
-      "name": "The Afghan Whigs 40th Anniversary Tour with Mercury Rev",
-      "location": "",
-      "date": "Sat, May 09",
-      "url": "https://metrochicago.com/event/the-afghan-whigs-40th-anniversary-tour/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "inner-wave-los-mesoneros",
       "name": "Inner Wave: North America Tour &#8217;26",

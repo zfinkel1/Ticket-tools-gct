@@ -1,20 +1,8 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-10T00:05:31.957278Z",
-  "count": 35,
+  "last_run": "2026-05-10T07:12:39.389007Z",
+  "count": 34,
   "events": [
-    {
-      "slug": "vv178ZbUGkm6NfbC",
-      "name": "Alejandro Fernández: de Rey a Rey",
-      "location": "Allstate Arena, Rosemont",
-      "date": "Sat, May 9, 2026 · 8:30 PM",
-      "url": "https://www.ticketmaster.com/alejandro-fernandez-de-rey-a-rey-rosemont-illinois-05-09-2026/event/0400636B878D460E",
-      "sales": {
-        "public_start": "2025-11-21T16:00:00Z",
-        "public_end": "2026-05-10T02:30:00Z",
-        "presales": []
-      }
-    },
     {
       "slug": "vv1A7ZkoeGkdTQQEd",
       "name": "Diljit Dosanjh - Aura World Tour 2026",

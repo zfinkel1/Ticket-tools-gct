@@ -1,32 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-09T23:06:29.881380Z",
+  "last_run": "2026-05-10T07:13:12.544560Z",
   "count": 20,
   "events": [
-    {
-      "slug": "183582",
-      "name": "Road To Sueños | Sazòn Party",
-      "location": "Reserv",
-      "date": "Sat, May 9 at 2:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-saz-n-party-183582",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "183580",
-      "name": "Road To Sueños | J Santos, Gio Sandz & Little Rok",
-      "location": "Giant Pennywhistle",
-      "date": "Sat, May 9 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-j-santos-gio-sandz-little-rok-183580",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "175241",
       "name": "Said The Sky",
@@ -242,6 +218,54 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "188782",
+      "name": "SUEÑOS OFFICIAL PRE PARTY | CHAVA + J SANTOS",
+      "location": "Galeria Chicago",
+      "date": "Fri, May 22 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-chava-j-santos-188782",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "SUEÑOS OFFICIAL PRE PARTY",
+        "name": "Piano Sueños",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/3xig6nxehGHX2tJVfjMdtZ",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "188828",
+      "name": "SUEÑOS OFFICIAL PRE-PARTY | LE TWINS",
+      "location": "ELA",
+      "date": "Fri, May 22 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-le-twins-188828",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "SUEÑOS OFFICIAL PRE-PARTY",
+        "name": "Megadivo Produce",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/0fDsWL50lXtP2fc8ayi4KN",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

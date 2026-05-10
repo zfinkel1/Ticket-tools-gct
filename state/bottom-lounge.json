@@ -1,20 +1,8 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-05-10T00:05:30.249078Z",
-  "count": 33,
+  "last_run": "2026-05-10T07:12:36.996792Z",
+  "count": 32,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfOFPK",
-      "name": "Decades: 80's Prom Night",
-      "location": "Bottom Lounge, Chicago",
-      "date": "Sat, May 9, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/decades-80s-prom-night-bottom-lounge-tickets/14808953",
-      "sales": {
-        "public_start": "2026-03-25T15:00:00Z",
-        "public_end": "2026-05-10T01:00:00Z",
-        "presales": []
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfA_P7",
       "name": "Nonpoint, SOiL, Sumo Cyco, Mirage Gods",

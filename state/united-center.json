@@ -1,26 +1,8 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-10T00:05:31.763018Z",
-  "count": 64,
+  "last_run": "2026-05-10T07:12:38.983082Z",
+  "count": 63,
   "events": [
-    {
-      "slug": "vv178Z_dGkV06RF2",
-      "name": "Dinastia Tour by Peso Pluma, Tito Double P & Friends",
-      "location": "United Center, Chicago",
-      "date": "Sat, May 9, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/dinastia-tour-by-peso-pluma-tito-chicago-illinois-05-09-2026/event/0400643D241EF20F",
-      "sales": {
-        "public_start": "2026-03-25T15:00:00Z",
-        "public_end": "2026-05-10T01:00:00Z",
-        "presales": [
-          {
-            "name": "VIP Package Onsale",
-            "start": "2026-03-25T15:00:00Z",
-            "end": "2026-05-05T17:00:00Z"
-          }
-        ]
-      }
-    },
     {
       "slug": "vv178Z_eGkm8Pwdj",
       "name": "A$AP Rocky - Don't Be Dumb World Tour",
