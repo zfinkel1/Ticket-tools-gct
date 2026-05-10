@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-10T09:04:39.412413Z",
+  "last_run": "2026-05-10T10:38:44.178930Z",
   "count": 20,
   "events": [
     {
@@ -217,19 +217,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "SUEÑOS OFFICIAL PRE-PARTY",
-        "name": "Megadivo Produce",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/0fDsWL50lXtP2fc8ayi4KN",
-        "genres": []
-      },
-      "gct_history": null,
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "188824",
@@ -241,19 +229,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "SUEÑOS OFFICIAL PRE-PARTY",
-        "name": "Megadivo Produce",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/0fDsWL50lXtP2fc8ayi4KN",
-        "genres": []
-      },
-      "gct_history": null,
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "179266",
@@ -265,19 +241,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Volcano",
-        "name": "Volcano",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/3JKcaaApz7XPYdTZyKignS",
-        "genres": []
-      },
-      "gct_history": null,
-      "current_sold": null,
-      "current_listing": null
+      }
     }
   ]
 }
