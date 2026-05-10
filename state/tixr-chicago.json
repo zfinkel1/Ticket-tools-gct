@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-10T21:28:45.010184Z",
+  "last_run": "2026-05-10T23:28:03.544837Z",
   "count": 20,
   "events": [
-    {
-      "slug": "179829",
-      "name": "BICHOTAS BRUNCH - MOTHERS DAY (21+)",
-      "location": "Gold Coast Social",
-      "date": "Sun, May 10 at 11:00 AM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/bichotas-brunch-mothers-day-21--179829",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "167626",
       "name": "Emo Orchestra ft The Spill Canvas",
@@ -242,6 +230,30 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "188208",
+      "name": "Más EDM: Sueños Official After Party",
+      "location": "Ramova Theatre ",
+      "date": "Sat, May 23 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/m-s-edm-sue-os-official-after-party-188208",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Más EDM: Sueños Official After Party",
+        "name": "AYYBO",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/0YVquC9RaJLYFNmlJFzkTV",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
