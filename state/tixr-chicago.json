@@ -1,44 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-10T07:13:12.544560Z",
+  "last_run": "2026-05-10T09:04:39.412413Z",
   "count": 20,
   "events": [
-    {
-      "slug": "175241",
-      "name": "Said The Sky",
-      "location": "Ramova Theatre ",
-      "date": "Sat, May 9 at 9:30 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/said-the-sky-175241",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "185593",
-      "name": "MIA Rooftop Saturdays (21+)",
-      "location": "Reserv",
-      "date": "Sat, May 9 at 8:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185593",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188682",
-      "name": "La Casita | Galeria",
-      "location": "Galeria Chicago",
-      "date": "Sat, May 9 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-188682",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "179829",
       "name": "BICHOTAS BRUNCH - MOTHERS DAY (21+)",
@@ -229,19 +193,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "SUEÑOS OFFICIAL PRE PARTY",
-        "name": "Piano Sueños",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/3xig6nxehGHX2tJVfjMdtZ",
-        "genres": []
-      },
-      "gct_history": null,
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "188828",
@@ -249,6 +201,18 @@
       "location": "ELA",
       "date": "Fri, May 22 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-le-twins-188828",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "188788",
+      "name": "SUEÑOS OFFICIAL PRE-PARTY | DYNAMIQO",
+      "location": "RiNo Bar",
+      "date": "Fri, May 22 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-dynamiqo-188788",
       "sales": {
         "public_start": null,
         "public_end": null,
@@ -261,6 +225,54 @@
         "popularity": null,
         "followers": null,
         "url": "https://open.spotify.com/artist/0fDsWL50lXtP2fc8ayi4KN",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "188824",
+      "name": "SUEÑOS OFFICIAL PRE-PARTY | FREDY FRESCO",
+      "location": "Gold Coast Social",
+      "date": "Fri, May 22 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-fredy-fresco-188824",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "SUEÑOS OFFICIAL PRE-PARTY",
+        "name": "Megadivo Produce",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/0fDsWL50lXtP2fc8ayi4KN",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "179266",
+      "name": "Volcano",
+      "location": "Ramova Loft",
+      "date": "Sat, May 23 at 6:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/volcano-179266",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Volcano",
+        "name": "Volcano",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/3JKcaaApz7XPYdTZyKignS",
         "genres": []
       },
       "gct_history": null,

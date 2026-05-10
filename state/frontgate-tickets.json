@@ -1,6 +1,6 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-05-10T07:13:12.543594Z",
+  "last_run": "2026-05-10T09:03:53.615850Z",
   "count": 100,
   "events": [
     {
@@ -694,38 +694,14 @@
       "name": "Vans Warped Tour - Orlando",
       "location": "Orlando, FL",
       "date": "November 14, 2026",
-      "url": "https://www.frontgatetickets.com/events/vans-warped-tour-3",
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Vans Warped",
-        "name": "Gym Class Heroes",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/4IJczjB0fJ04gs4uvP0Fli",
-        "genres": []
-      },
-      "gct_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.frontgatetickets.com/events/vans-warped-tour-3"
     },
     {
       "slug": "darker-waves",
       "name": "Darker Waves",
       "location": "Huntington Beach, CA",
       "date": "November 14, 2026",
-      "url": "https://www.frontgatetickets.com/events/darker-waves",
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Darker Waves",
-        "name": "Manic Street Preachers",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/2uH0RyPcX7fnCcT90HFDQX",
-        "genres": []
-      },
-      "gct_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.frontgatetickets.com/events/darker-waves"
     }
   ]
 }
