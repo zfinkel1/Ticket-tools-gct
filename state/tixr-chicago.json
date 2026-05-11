@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-11T22:19:08.040210Z",
+  "last_run": "2026-05-11T23:31:07.154159Z",
   "count": 20,
   "events": [
     {
@@ -14,6 +14,31 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "189984",
+      "name": "ALTURA | Thursday Latin Rooftop",
+      "location": "Joy District",
+      "date": "Thu, May 14 at 8:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/altura-thursday-latin-rooftop-189984",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "ALTURA",
+        "name": "Altura",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/5NpphoHEfVNfOQyrdKab0N",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "183583",
@@ -225,18 +250,6 @@
       "location": "Gold Coast Social",
       "date": "Fri, May 22 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-fredy-fresco-188824",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "189967",
-      "name": "MIA | Latin Day Club | Reserv Rooftop",
-      "location": "Reserv",
-      "date": "Sat, May 23 at 2:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/mia-latin-day-club-reserv-rooftop-189967",
       "sales": {
         "public_start": null,
         "public_end": null,
