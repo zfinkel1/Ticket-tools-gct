@@ -33,7 +33,12 @@ from .flare import _normalize  # reuse the same fuzzy-matcher
 SH_BASE = "https://www.stubhub.com"
 STATE_DIR = Path(__file__).resolve().parent.parent / "state"
 LISTING_CACHE_PATH = STATE_DIR / "stubhub-listing-cache.json"
+DEBUG_DUMP_PATH = STATE_DIR / "stubhub-debug.json"
 LISTING_TTL_SECONDS = 6 * 3600  # 6h — listings shift but slowly
+
+# Per-process flag — we only dump the first ScraperAPI response of a run
+# so we can see what's coming back without bloating git on every event.
+_debug_dumped = False
 
 
 def _read_json(path):
@@ -138,16 +143,46 @@ def _best_match(candidates, target_venue, target_year):
 
 def _fetch_via_scraperapi(target_url, timeout=90):
     """Fetch a URL through ScraperAPI premium. Returns HTML string or None."""
+    global _debug_dumped
     try:
         req = urllib.request.Request(_sp_request(target_url), headers={"User-Agent": "TicketWatcher/1.0"})
         with urllib.request.urlopen(req, timeout=timeout) as r:
-            return r.read().decode("utf-8", errors="ignore")
+            html = r.read().decode("utf-8", errors="ignore")
     except urllib.error.HTTPError as e:
         print(f"[stubhub] HTTP {e.code} for {target_url[:80]}")
         return None
     except Exception as e:
         print(f"[stubhub] fetch failed: {e}")
         return None
+
+    # Dump the first response of each run so we can inspect what
+    # ScraperAPI is actually delivering (captcha challenge? empty shell?
+    # different HTML structure?). One sample per run, ~3KB, committed
+    # to state/ so it appears in the next state-snapshot commit.
+    if not _debug_dumped:
+        _debug_dumped = True
+        try:
+            indicators = {
+                "ld_json_blocks": len(re.findall(r'application/ld\+json', html, flags=re.IGNORECASE)),
+                "event_urls": re.findall(r'https://www\.stubhub\.com/[^"\s<>]+/event/\d+/?', html)[:5],
+                "captcha_hits": len(re.findall(r'captcha|datadome|cloudflare|access denied|blocked', html, flags=re.IGNORECASE)),
+                "has_tickets_word": "tickets" in html.lower(),
+                "has_dollar_signs": html.count("$"),
+                "title_tag": (re.search(r'<title[^>]*>([^<]+)</title>', html) or [None, ""])[1][:120] if re.search(r'<title[^>]*>([^<]+)</title>', html) else "",
+            }
+            _write_json(DEBUG_DUMP_PATH, {
+                "url": target_url,
+                "fetched_at": time.time(),
+                "html_length": len(html),
+                "html_sample_head": html[:2000],
+                "html_sample_tail": html[-1000:] if len(html) > 1000 else "",
+                "indicators": indicators,
+            })
+            print(f"[stubhub] DEBUG: dumped first response ({len(html)}b) to {DEBUG_DUMP_PATH.name}")
+        except Exception as e:
+            print(f"[stubhub] debug-dump failed: {e}")
+
+    return html
 
 
 def _find_first_event_url(html):
