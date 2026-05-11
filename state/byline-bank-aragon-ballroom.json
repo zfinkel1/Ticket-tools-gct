@@ -1,6 +1,6 @@
 {
   "site": "Byline Bank Aragon Ballroom",
-  "last_run": "2026-05-11T15:40:06.865662Z",
+  "last_run": "2026-05-11T17:45:53.722253Z",
   "count": 19,
   "events": [
     {
@@ -49,7 +49,8 @@
             "end": "2026-05-08T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkGyGkdEQ4o7",
@@ -92,7 +93,8 @@
             "end": "2026-05-09T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_eGkS8QpU4",
@@ -140,7 +142,8 @@
             "end": "2026-06-02T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkowGkdKjzVR",
@@ -198,7 +201,8 @@
             "end": "2026-06-26T17:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3FGkesNEp6",
@@ -246,7 +250,8 @@
             "end": "2026-06-26T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_dGkRu-IBM",
@@ -309,7 +314,8 @@
             "end": "2026-07-20T17:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkueGkes3PyS",
@@ -321,7 +327,8 @@
         "public_start": "2025-10-09T17:00:00Z",
         "public_end": "2026-08-09T06:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkueGkeHtkeL",
@@ -333,7 +340,8 @@
         "public_start": "2025-10-09T17:00:00Z",
         "public_end": "2026-08-10T06:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkueGkeH1Jeu",
@@ -345,7 +353,8 @@
         "public_start": "2025-10-09T17:00:00Z",
         "public_end": "2026-08-10T06:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3eGkdqK-qB",
@@ -383,7 +392,8 @@
             "end": "2026-08-18T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1k8Z_abNG7iqki",
@@ -411,7 +421,8 @@
             "end": "2026-05-01T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoyGkdHwrt5",
@@ -423,7 +434,8 @@
         "public_start": "2026-04-17T15:00:00Z",
         "public_end": "2026-09-06T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv167Zk36GbZA8aC5C",
@@ -471,7 +483,8 @@
             "end": "2026-04-24T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1kvZv0PoGA2h9X8",
@@ -524,7 +537,8 @@
             "end": "2026-10-03T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk36GkdsK2Za",
@@ -562,7 +576,8 @@
             "end": "2026-05-06T13:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoyGkdaJQVG",
@@ -600,7 +615,8 @@
             "end": "2026-04-23T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3bGkeUJi-K",
@@ -638,7 +654,8 @@
             "end": "2026-05-01T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkobGkeTj_2e",
@@ -681,7 +698,8 @@
             "end": "2026-03-13T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_kGkRasEf7",
@@ -724,7 +742,8 @@
             "end": "2026-11-03T18:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     }
   ]
 }

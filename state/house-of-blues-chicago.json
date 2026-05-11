@@ -1,7 +1,7 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-11T15:41:13.370223Z",
-  "count": 64,
+  "last_run": "2026-05-11T17:47:07.916752Z",
+  "count": 65,
   "events": [
     {
       "slug": "vv1A7ZkooGkd5zHb7",
@@ -44,7 +44,8 @@
             "end": "2026-04-19T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_AGknzLzEh",
@@ -56,7 +57,8 @@
         "public_start": "2026-02-26T21:06:00Z",
         "public_end": "2026-05-14T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkGyGkewE72z",
@@ -109,7 +111,8 @@
             "end": "2026-04-16T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk8MGkesmhXZ",
@@ -157,7 +160,8 @@
             "end": "2026-01-30T15:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk8IGkdbnp0i",
@@ -220,7 +224,8 @@
             "end": "2026-05-11T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_AGknzOzEE",
@@ -232,7 +237,8 @@
         "public_start": "2026-02-26T21:06:00Z",
         "public_end": "2026-05-21T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkCeGkduMFpC",
@@ -295,7 +301,8 @@
             "end": "2026-03-24T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178ZbzGkl1Hy5L",
@@ -333,7 +340,8 @@
             "end": "2025-12-19T04:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk39Gkd3X4Mb",
@@ -345,7 +353,8 @@
         "public_start": "2026-04-23T22:00:00Z",
         "public_end": "2026-05-23T23:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6GkY6hszS",
@@ -378,7 +387,8 @@
             "end": "2026-04-01T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1kvZv0GOGAC_5_Z",
@@ -390,7 +400,8 @@
         "public_start": "2026-01-23T17:00:00Z",
         "public_end": "2026-05-25T02:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178ZbzGkl6dFT3",
@@ -438,7 +449,8 @@
             "end": "2025-12-19T05:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1kvZv0roGACGd6a",
@@ -481,7 +493,8 @@
             "end": "2026-05-25T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_AGknz-zEi",
@@ -493,7 +506,8 @@
         "public_start": "2026-02-26T21:06:00Z",
         "public_end": "2026-05-28T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zko_GkdEG0m-",
@@ -521,7 +535,8 @@
             "end": "2026-03-06T04:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6GkTEVLG3",
@@ -549,7 +564,8 @@
             "end": "2026-04-17T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_7GkYeECQP",
@@ -582,7 +598,8 @@
             "end": "2026-02-20T04:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoAGkeDcbNj",
@@ -594,7 +611,8 @@
         "public_start": "2026-03-22T16:00:00Z",
         "public_end": "2026-05-31T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_aGkR94cZY",
@@ -606,7 +624,8 @@
         "public_start": "2026-04-27T22:18:00Z",
         "public_end": "2026-06-04T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3kGkdfzhVE",
@@ -639,7 +658,8 @@
             "end": "2026-04-10T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1kvZv0PvGA1uwqe",
@@ -667,7 +687,8 @@
             "end": "2026-05-01T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_kGkIZyQIG",
@@ -695,7 +716,8 @@
             "end": "2026-03-19T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_7GkMBGifJ",
@@ -733,7 +755,8 @@
             "end": "2026-04-30T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoIGkdFaJlG",
@@ -776,7 +799,8 @@
             "end": "2026-03-13T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_aGkR9pcZX",
@@ -788,7 +812,8 @@
         "public_start": "2026-04-27T22:18:00Z",
         "public_end": "2026-06-18T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoKGkeB5__W",
@@ -821,7 +846,8 @@
             "end": "2026-04-24T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1kvZv0PxGA1SqSc",
@@ -839,7 +865,8 @@
             "end": "2026-05-24T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1FvZv0084kZ7287v",
@@ -867,7 +894,8 @@
             "end": "2026-04-24T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_FGkXYLEmD",
@@ -895,7 +923,8 @@
             "end": "2026-04-24T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1F8Z_aft-bZd21A",
@@ -923,7 +952,8 @@
             "end": "2026-05-01T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_aGkR99cvC",
@@ -935,7 +965,8 @@
         "public_start": "2026-04-27T22:18:00Z",
         "public_end": "2026-07-09T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1FvZv0jZ0xZ7Ck2d",
@@ -947,7 +978,8 @@
         "public_start": "2026-03-20T15:00:00Z",
         "public_end": "2026-07-11T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_FGkl7ZbVh",
@@ -975,7 +1007,8 @@
             "end": "2026-04-17T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_7GkwybQ18",
@@ -1013,7 +1046,8 @@
             "end": "2026-02-27T04:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_aGkR9bcvP",
@@ -1025,7 +1059,8 @@
         "public_start": "2026-04-27T22:18:00Z",
         "public_end": "2026-07-16T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkooGkegGaT8",
@@ -1068,7 +1103,8 @@
             "end": "2026-07-10T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zko_GkdqzNEg",
@@ -1111,7 +1147,8 @@
             "end": "2026-02-27T04:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_kGkROzbnp",
@@ -1149,7 +1186,8 @@
             "end": "2026-03-20T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_aGkR9_Wvs",
@@ -1161,7 +1199,8 @@
         "public_start": "2026-04-27T22:18:00Z",
         "public_end": "2026-07-23T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_aGkR9hue7",
@@ -1173,7 +1212,8 @@
         "public_start": "2026-04-27T22:18:00Z",
         "public_end": "2026-08-06T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkozGkdB-BbF",
@@ -1201,7 +1241,8 @@
             "end": "2026-04-10T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3oGkeywtU5",
@@ -1229,7 +1270,8 @@
             "end": "2026-04-24T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_aGkmJc_yx",
@@ -1262,7 +1304,8 @@
             "end": "2026-05-01T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_aGkR9jqef",
@@ -1274,7 +1317,8 @@
         "public_start": "2026-04-27T22:18:00Z",
         "public_end": "2026-08-13T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1F8Z_a0Pp8Zd5k1",
@@ -1307,7 +1351,8 @@
             "end": "2026-05-01T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zko3Gkd-kmyV",
@@ -1335,7 +1380,8 @@
             "end": "2026-02-27T04:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6GkTY7suE",
@@ -1383,7 +1429,8 @@
             "end": "2026-08-08T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_kGknTx9rw",
@@ -1421,7 +1468,8 @@
             "end": "2026-03-20T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3pGkd8Q2NA",
@@ -1454,7 +1502,8 @@
             "end": "2026-04-29T15:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_aGkR9qqet",
@@ -1466,7 +1515,8 @@
         "public_start": "2026-04-27T22:18:00Z",
         "public_end": "2026-08-27T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoIGkdvzk8t",
@@ -1494,7 +1544,8 @@
             "end": "2026-03-13T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoIGkde5k3Q",
@@ -1522,7 +1573,8 @@
             "end": "2026-03-13T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_dGkRZbbGm",
@@ -1560,7 +1612,8 @@
             "end": "2026-02-06T04:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vvG18Z_145Nj0-",
@@ -1594,18 +1647,7 @@
           }
         ]
       },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "anees",
-        "name": "anees",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/2HPqVfdPh9JkBSlFG5hK6h",
-        "genres": []
-      },
-      "gct_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoVGkeBGEiW",
@@ -1643,7 +1685,8 @@
             "end": "2026-05-01T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3vGkew2ITl",
@@ -1681,7 +1724,8 @@
             "end": "2026-04-10T14:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vvG18Z_1NNu4Ga",
@@ -1715,18 +1759,7 @@
           }
         ]
       },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Buffalo Traffic Jam",
-        "name": "Buffalo Traffic Jam",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/22LEPYRDhoThnbpShy6fV7",
-        "genres": []
-      },
-      "gct_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk34GkeSOaAx",
@@ -1764,7 +1797,8 @@
             "end": "2026-05-01T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkooGkeMC18q",
@@ -1802,7 +1836,8 @@
             "end": "2026-02-27T04:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_aGkM-Cz0K",
@@ -1843,28 +1878,20 @@
             "name": "LIVE NATION PRESALE",
             "start": "2026-05-14T15:00:00Z",
             "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Public Onsale",
+            "start": "2026-05-15T15:00:00Z",
+            "end": "2026-10-04T03:00:00Z"
           }
         ]
       },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Switchfoot",
-        "name": "Switchfoot",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/6S58b0fr8TkWrEHOH4tRVu",
-        "genres": []
-      },
-      "gct_history": {
-        "events": 1,
-        "avg_margin": -23.1,
-        "profitable_pct": 0.0,
-        "avg_sell_price": 59.13,
-        "avg_cost_price": 66.0,
-        "display_name": "Switchfoot"
-      },
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3oGkeXbBuR",
@@ -1892,7 +1919,8 @@
             "end": "2026-04-24T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk38GkeXZ_vV",
@@ -1925,7 +1953,8 @@
             "end": "2026-04-23T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6Gks2ZoPa",
@@ -1937,7 +1966,60 @@
         "public_start": "2026-03-31T16:00:00Z",
         "public_end": "2026-11-01T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
+    },
+    {
+      "slug": "vv178Z_aGkMrMIuB",
+      "name": "Basement",
+      "location": "House of Blues Chicago",
+      "date": "Fri, Nov 6, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/basement-chicago-illinois-11-06-2026/event/0400649DDEDE837A",
+      "sales": {
+        "public_start": "2026-05-14T15:00:00Z",
+        "public_end": "2026-11-07T00:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-14T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-10-09T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-14T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-05-13T17:00:00Z",
+            "end": "2026-05-14T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-14T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Basement",
+        "name": "Basement",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/4DUQBYAyOTZotSEdKhaf6c",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1A7Zk3kGkdNxqha",
@@ -1980,7 +2062,8 @@
             "end": "2026-04-17T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     }
   ]
 }

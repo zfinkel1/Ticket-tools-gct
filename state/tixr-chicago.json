@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-11T15:41:13.367155Z",
+  "last_run": "2026-05-11T17:47:07.913650Z",
   "count": 20,
   "events": [
     {
@@ -40,11 +40,11 @@
       }
     },
     {
-      "slug": "189818",
-      "name": "MIA | Latin Day Club | Reserv Rooftop",
-      "location": "Reserv",
-      "date": "Sat, May 16 at 2:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/mia-latin-day-club-reserv-rooftop-189818",
+      "slug": "189821",
+      "name": "La Casita | Galeria",
+      "location": "Galeria Chicago",
+      "date": "Fri, May 15 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-189821",
       "sales": {
         "public_start": null,
         "public_end": null,
@@ -52,14 +52,15 @@
       },
       "enrichment": {
         "source": "spotify",
-        "artist_query": "MIA",
-        "name": "M.I.A.",
+        "artist_query": "La Casita",
+        "name": "Banda MS de Sergio Lizárraga",
         "popularity": null,
         "followers": null,
-        "url": "https://open.spotify.com/artist/0QJIPDAEDILuo8AIq3pMuU",
+        "url": "https://open.spotify.com/artist/2C6i0I5RiGzDKN9IAF8reh",
         "genres": []
       },
       "gct_history": null,
+      "gct_venue_history": null,
       "current_sold": null,
       "current_listing": null
     },
@@ -88,11 +89,36 @@
       }
     },
     {
+      "slug": "189822",
+      "name": "La Casita | Galeria",
+      "location": "Galeria Chicago",
+      "date": "Sat, May 16 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-189822",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "La Casita",
+        "name": "Banda MS de Sergio Lizárraga",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/2C6i0I5RiGzDKN9IAF8reh",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "183585",
-      "name": "Road To Suenos | Perreologia 773",
+      "name": "Road To Sueños | Esencia312",
       "location": "Bar Sol",
       "date": "Sun, May 17 at 12:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-suenos-perreologia-773-183585",
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-esencia312-183585",
       "sales": {
         "public_start": null,
         "public_end": null,
@@ -237,18 +263,6 @@
       "location": "Ramova Loft",
       "date": "Sat, May 23 at 6:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/volcano-179266",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188208",
-      "name": "Más EDM: Sueños Official After Party",
-      "location": "Ramova Theatre ",
-      "date": "Sat, May 23 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/m-s-edm-sue-os-official-after-party-188208",
       "sales": {
         "public_start": null,
         "public_end": null,

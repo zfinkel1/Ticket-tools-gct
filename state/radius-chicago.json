@@ -1,6 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-05-11T15:40:08.746284Z",
+  "last_run": "2026-05-11T17:45:56.246614Z",
   "count": 4,
   "events": [
     {
@@ -13,7 +13,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-05-16T03:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7OzG7",
@@ -25,7 +26,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-05-17T03:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xFJ3",
@@ -37,7 +39,8 @@
         "public_start": "2026-04-17T15:00:00Z",
         "public_end": "2026-07-23T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7-yq4",
@@ -49,7 +52,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-09-13T03:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     }
   ]
 }

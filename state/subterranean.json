@@ -1,6 +1,6 @@
 {
   "site": "Subterranean",
-  "last_run": "2026-05-11T15:40:09.734095Z",
+  "last_run": "2026-05-11T17:45:57.375932Z",
   "count": 3,
   "events": [
     {
@@ -13,7 +13,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-06-14T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7x7_p",
@@ -25,7 +26,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-06-15T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xFPw",
@@ -37,7 +39,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-09-25T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-11T15:40:11.298598Z",
+  "last_run": "2026-05-11T17:45:59.260652Z",
   "count": 38,
   "events": [
     {
@@ -19,7 +19,8 @@
             "end": "2026-05-07T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkuvGkdNw7Rv",
@@ -87,7 +88,8 @@
             "end": "2026-05-09T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoVGkdQtatQ",
@@ -99,7 +101,8 @@
         "public_start": "2026-05-06T19:00:00Z",
         "public_end": "2026-05-20T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoVGkdQn_t-",
@@ -111,7 +114,8 @@
         "public_start": "2026-05-06T19:00:00Z",
         "public_end": "2026-05-22T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv167Zk8EjfZA8eGdG",
@@ -123,7 +127,8 @@
         "public_start": "2026-01-23T16:00:00Z",
         "public_end": "2026-05-23T02:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178ZbVGknU-f6a",
@@ -161,7 +166,8 @@
             "end": "2026-05-31T00:30:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk8EGkd42pgX",
@@ -173,7 +179,8 @@
         "public_start": "2026-01-16T16:00:00Z",
         "public_end": "2026-06-01T02:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkC7GkeOFpq-",
@@ -226,7 +233,8 @@
             "end": "2026-06-05T01:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178ZbsGksjfYcJ",
@@ -249,7 +257,8 @@
             "end": "2025-09-05T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk8YGkeRlMgw",
@@ -307,7 +316,8 @@
             "end": "2026-06-05T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178ZbzGkircJIp",
@@ -385,7 +395,8 @@
             "end": "2025-12-17T15:45:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1k8ZbS0aG7HPzy",
@@ -428,7 +439,8 @@
             "end": "2026-07-03T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vvG18Z_13TeQZY",
@@ -466,7 +478,8 @@
             "end": "2026-06-30T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_AGkRGyDgX",
@@ -478,7 +491,8 @@
         "public_start": "2026-03-13T15:00:00Z",
         "public_end": "2026-07-12T02:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_FGkRaT6nT",
@@ -521,7 +535,8 @@
             "end": "2026-07-11T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6Gklor_fH",
@@ -569,7 +584,8 @@
             "end": "2026-04-03T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6GkloL_4e",
@@ -587,7 +603,8 @@
             "end": "2026-07-12T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178ZbMGklF1EZH",
@@ -660,7 +677,8 @@
             "end": "2026-07-23T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_kGkSvnERb",
@@ -713,7 +731,8 @@
             "end": "2026-08-11T17:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkuaGkd9d0X7",
@@ -746,7 +765,8 @@
             "end": "2025-10-24T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoNGken36dG",
@@ -799,7 +819,8 @@
             "end": "2026-08-22T17:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_kGknPrPW4",
@@ -847,7 +868,8 @@
             "end": "2026-04-24T14:30:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6GkXj7968",
@@ -875,7 +897,8 @@
             "end": "2026-09-18T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6GkXjkE6m",
@@ -903,7 +926,8 @@
             "end": "2026-09-18T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6GkXja66X",
@@ -931,7 +955,8 @@
             "end": "2026-09-18T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6GkXj56FK",
@@ -959,7 +984,8 @@
             "end": "2026-09-18T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6GkXju9FE",
@@ -987,7 +1013,8 @@
             "end": "2026-09-18T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv118Z_638o0at",
@@ -1020,7 +1047,8 @@
             "end": "2026-09-27T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_kGkTlVyFY",
@@ -1093,7 +1121,8 @@
             "end": "2026-10-12T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv167ZkuUOKZA2AdC5",
@@ -1111,7 +1140,8 @@
             "end": "2026-10-31T02:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1a7Zk8SPz-ZZeC7",
@@ -1134,7 +1164,8 @@
             "end": "2026-04-14T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv167Zk8SPzZA2AvCF",
@@ -1157,7 +1188,8 @@
             "end": "2026-04-14T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv11vZv0Gyrb8ov5",
@@ -1180,7 +1212,8 @@
             "end": "2026-04-14T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1k8Z_dC9G7I07P",
@@ -1203,7 +1236,8 @@
             "end": "2026-04-14T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1k8Z_dC9G7l77c",
@@ -1226,7 +1260,8 @@
             "end": "2026-04-14T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1k8Z_dC9G7c07z",
@@ -1249,7 +1284,8 @@
             "end": "2026-04-14T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1k8Z_dC9G7Y7A7",
@@ -1272,7 +1308,8 @@
             "end": "2026-04-14T04:59:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk8sGkdLdbON",
@@ -1315,7 +1352,8 @@
             "end": "2026-01-30T04:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     }
   ]
 }

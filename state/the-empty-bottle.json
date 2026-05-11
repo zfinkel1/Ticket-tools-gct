@@ -1,6 +1,6 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-11T15:40:10.207005Z",
+  "last_run": "2026-05-11T17:45:58.077341Z",
   "count": 88,
   "events": [
     {
@@ -13,6 +13,12 @@
         "public_start": "2026-03-18T15:00:00Z",
         "public_end": "2026-05-12T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -25,6 +31,12 @@
         "public_start": "2026-02-06T16:00:00Z",
         "public_end": "2026-05-13T01:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 26.78,
+        "max": 26.78,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -37,6 +49,12 @@
         "public_start": "2026-03-23T15:00:00Z",
         "public_end": "2026-05-14T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -49,6 +67,12 @@
         "public_start": "2026-04-08T15:00:00Z",
         "public_end": "2026-05-15T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -61,18 +85,30 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-05-16T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
       "slug": "rZ7HnEZ1Af7fpf",
-      "name": "*SOLD OUT* Caroline",
+      "name": "Caroline",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, May 15, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-caroline-empty-bottle-tickets/14114594",
+      "url": "https://www.ticketweb.com/event/caroline-empty-bottle-tickets/14114594",
       "sales": {
         "public_start": "2026-01-28T16:00:00Z",
         "public_end": "2026-05-16T03:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 39.55,
+        "max": 39.55,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -85,6 +121,12 @@
         "public_start": "2025-11-07T16:00:00Z",
         "public_end": "2026-05-17T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 26.78,
+        "max": 26.78,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -97,6 +139,12 @@
         "public_start": "2026-05-08T16:00:00Z",
         "public_end": "2026-05-17T23:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -109,6 +157,12 @@
         "public_start": "2026-03-23T15:00:00Z",
         "public_end": "2026-05-19T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -121,6 +175,12 @@
         "public_start": "2026-03-25T15:00:00Z",
         "public_end": "2026-05-20T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -133,6 +193,12 @@
         "public_start": "2025-10-23T15:00:00Z",
         "public_end": "2026-05-22T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -145,6 +211,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-05-23T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -157,6 +229,12 @@
         "public_start": "2026-03-06T16:00:00Z",
         "public_end": "2026-05-23T03:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 23.48,
+        "max": 23.48,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -169,6 +247,12 @@
         "public_start": "2026-05-07T15:00:00Z",
         "public_end": "2026-05-24T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -181,6 +265,12 @@
         "public_start": "2026-04-13T15:00:00Z",
         "public_end": "2026-05-25T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -193,6 +283,12 @@
         "public_start": "2026-04-01T15:00:00Z",
         "public_end": "2026-05-26T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -205,6 +301,12 @@
         "public_start": "2026-04-10T15:00:00Z",
         "public_end": "2026-05-27T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -217,6 +319,12 @@
         "public_start": "2026-04-10T15:00:00Z",
         "public_end": "2026-05-29T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -229,6 +337,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-05-30T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -241,6 +355,12 @@
         "public_start": "2026-03-27T15:00:00Z",
         "public_end": "2026-05-30T04:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 52.32,
+        "max": 52.32,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -253,6 +373,12 @@
         "public_start": "2026-04-15T15:00:00Z",
         "public_end": "2026-05-31T03:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -265,6 +391,12 @@
         "public_start": "2026-05-06T15:00:00Z",
         "public_end": "2026-06-01T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -277,6 +409,12 @@
         "public_start": "2026-05-07T15:00:00Z",
         "public_end": "2026-06-04T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -289,6 +427,12 @@
         "public_start": "2026-03-23T16:00:00Z",
         "public_end": "2026-06-05T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -301,6 +445,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-06-06T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -313,6 +463,12 @@
         "public_start": "2026-04-01T15:00:00Z",
         "public_end": "2026-06-07T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -325,6 +481,12 @@
         "public_start": "2026-03-31T15:00:00Z",
         "public_end": "2026-06-08T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -337,6 +499,12 @@
         "public_start": "2026-05-04T15:00:00Z",
         "public_end": "2026-06-09T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -349,6 +517,12 @@
         "public_start": "2026-04-30T15:00:00Z",
         "public_end": "2026-06-11T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 23.48,
+        "max": 23.48,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -361,6 +535,12 @@
         "public_start": "2026-05-04T16:00:00Z",
         "public_end": "2026-06-12T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 21.42,
+        "max": 21.42,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -373,6 +553,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-06-13T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -385,6 +571,12 @@
         "public_start": "2026-02-10T16:00:00Z",
         "public_end": "2026-06-13T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -397,6 +589,12 @@
         "public_start": "2026-04-28T15:00:00Z",
         "public_end": "2026-06-15T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -409,6 +607,12 @@
         "public_start": "2026-02-27T15:00:00Z",
         "public_end": "2026-06-17T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 23.48,
+        "max": 23.48,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -421,6 +625,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-06-20T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -433,6 +643,12 @@
         "public_start": "2026-03-13T15:00:00Z",
         "public_end": "2026-06-22T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 26.78,
+        "max": 26.78,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -445,6 +661,12 @@
         "public_start": "2026-04-14T14:00:00Z",
         "public_end": "2026-06-24T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 23.48,
+        "max": 23.48,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -457,6 +679,12 @@
         "public_start": "2026-04-07T15:00:00Z",
         "public_end": "2026-06-25T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 26.78,
+        "max": 26.78,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -469,6 +697,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-06-27T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -481,6 +715,12 @@
         "public_start": "2026-04-15T15:00:00Z",
         "public_end": "2026-06-27T03:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -493,6 +733,12 @@
         "public_start": "2026-03-13T15:00:00Z",
         "public_end": "2026-06-28T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 23.48,
+        "max": 23.48,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -505,6 +751,12 @@
         "public_start": "2026-04-16T15:00:00Z",
         "public_end": "2026-06-29T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 21.42,
+        "max": 21.42,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -517,6 +769,12 @@
         "public_start": "2026-04-07T15:00:00Z",
         "public_end": "2026-06-30T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -529,6 +787,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-07-04T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -541,6 +805,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-07-11T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -553,6 +823,12 @@
         "public_start": "2026-03-20T15:00:00Z",
         "public_end": "2026-07-11T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 26.78,
+        "max": 26.78,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -565,6 +841,12 @@
         "public_start": "2026-03-25T17:00:00Z",
         "public_end": "2026-07-12T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -577,6 +859,12 @@
         "public_start": "2026-02-13T16:00:00Z",
         "public_end": "2026-07-12T21:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -589,6 +877,12 @@
         "public_start": "2026-04-24T15:00:00Z",
         "public_end": "2026-07-13T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -601,6 +895,12 @@
         "public_start": "2026-04-10T15:00:00Z",
         "public_end": "2026-07-15T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 26.78,
+        "max": 26.78,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -613,6 +913,12 @@
         "public_start": "2026-03-13T15:00:00Z",
         "public_end": "2026-07-17T04:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 39.55,
+        "max": 39.55,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -625,6 +931,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-07-18T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -637,6 +949,12 @@
         "public_start": "2026-04-29T15:00:00Z",
         "public_end": "2026-07-18T04:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -649,6 +967,12 @@
         "public_start": "2026-02-18T16:00:00Z",
         "public_end": "2026-07-19T04:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 35.23,
+        "max": 35.23,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -661,6 +985,12 @@
         "public_start": "2026-04-28T15:00:00Z",
         "public_end": "2026-07-20T04:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 23.48,
+        "max": 23.48,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -673,6 +1003,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-07-25T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -685,6 +1021,12 @@
         "public_start": "2026-04-03T17:00:00Z",
         "public_end": "2026-07-26T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 33.17,
+        "max": 33.17,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -697,6 +1039,12 @@
         "public_start": "2026-05-08T17:00:00Z",
         "public_end": "2026-07-30T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 23.48,
+        "max": 23.48,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -709,6 +1057,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-08-01T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -721,6 +1075,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-08-08T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -733,6 +1093,12 @@
         "public_start": "2026-04-20T15:00:00Z",
         "public_end": "2026-08-13T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -745,6 +1111,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-08-15T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -757,6 +1129,12 @@
         "public_start": "2026-04-24T14:00:00Z",
         "public_end": "2026-08-20T01:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -769,6 +1147,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-08-22T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -781,6 +1165,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-08-29T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -793,6 +1183,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-09-05T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -805,6 +1201,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-09-12T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -817,6 +1219,12 @@
         "public_start": "2026-03-25T15:00:00Z",
         "public_end": "2026-09-12T03:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 26.78,
+        "max": 26.78,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -829,6 +1237,12 @@
         "public_start": "2026-05-05T15:00:00Z",
         "public_end": "2026-09-16T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 23.48,
+        "max": 23.48,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -841,6 +1255,12 @@
         "public_start": "2025-11-14T16:00:00Z",
         "public_end": "2026-09-17T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 33.17,
+        "max": 33.17,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -853,6 +1273,12 @@
         "public_start": "2026-04-23T14:00:00Z",
         "public_end": "2026-09-18T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 28.84,
+        "max": 28.84,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -865,6 +1291,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-09-19T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -877,6 +1309,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-09-26T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -889,6 +1327,12 @@
         "public_start": "2026-05-08T16:00:00Z",
         "public_end": "2026-09-29T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 26.78,
+        "max": 26.78,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -901,6 +1345,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-10-03T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -913,6 +1363,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-10-10T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -925,6 +1381,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-10-17T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -937,6 +1399,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-10-24T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -949,6 +1417,12 @@
         "public_start": "2026-04-10T15:00:00Z",
         "public_end": "2026-10-30T02:00:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 39.55,
+        "max": 39.55,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -961,6 +1435,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-10-31T00:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -973,6 +1453,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-11-07T01:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -985,6 +1471,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-11-14T01:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -997,6 +1489,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-11-21T01:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -1009,6 +1507,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-11-28T01:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -1021,6 +1525,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-12-05T01:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -1033,6 +1543,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-12-12T01:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -1045,6 +1561,12 @@
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-12-19T01:30:00Z",
         "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
       }
     },
     {
@@ -1057,7 +1579,8 @@
         "public_start": "2025-09-24T16:00:00Z",
         "public_end": "2027-01-16T03:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     }
   ]
 }

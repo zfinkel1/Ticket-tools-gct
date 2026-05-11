@@ -1,6 +1,6 @@
 {
   "site": "Park West",
-  "last_run": "2026-05-11T15:40:07.833562Z",
+  "last_run": "2026-05-11T17:45:54.877111Z",
   "count": 13,
   "events": [
     {
@@ -13,7 +13,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-05-15T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xKv0",
@@ -25,7 +26,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-05-18T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7rA8o",
@@ -37,7 +39,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-05-20T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7rvOO",
@@ -49,7 +52,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-05-21T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7-bOJ",
@@ -61,7 +65,8 @@
         "public_start": "2026-03-06T16:00:00Z",
         "public_end": "2026-05-22T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xZu7",
@@ -73,7 +78,8 @@
         "public_start": "2026-04-03T17:00:00Z",
         "public_end": "2026-06-15T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "vv178Z_6GkD0ID5u",
@@ -96,7 +102,8 @@
             "end": "2026-04-03T03:00:00Z"
           }
         ]
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7x9JZ",
@@ -108,7 +115,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-06-27T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7-tO0",
@@ -120,7 +128,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-07-02T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A74yCd",
@@ -132,7 +141,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-07-08T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xF09",
@@ -144,7 +154,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-07-12T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xFaS",
@@ -156,7 +167,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-07-25T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7x9Py",
@@ -168,7 +180,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-07-26T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     }
   ]
 }

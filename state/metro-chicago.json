@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-11T15:39:54.735878Z",
-  "count": 47,
+  "last_run": "2026-05-11T17:47:07.913077Z",
+  "count": 50,
   "events": [
     {
       "slug": "inner-wave-los-mesoneros",
@@ -109,6 +109,26 @@
       "url": "https://metrochicago.com/event/boots-pride-edition-2/all-building-event/chicago-illinois/"
     },
     {
+      "slug": "pride-weekend-queen-2",
+      "name": "Pride Weekend Queen!",
+      "location": "",
+      "date": "Sun, Jun 21",
+      "url": "https://metrochicago.com/event/pride-weekend-queen-2/all-building-event/chicago-illinois/",
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Pride Weekend Queen!",
+        "name": "Queen Naija",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/3nViOFa3kZW8OMSNOzwr98",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "kim-gordon",
       "name": "Kim Gordon",
       "location": "",
@@ -128,6 +148,26 @@
       "location": "",
       "date": "Sat, Jun 27",
       "url": "https://metrochicago.com/event/horse-meat-disco-pride/all-building-event/chicago-illinois/"
+    },
+    {
+      "slug": "pride-parade-queen-2",
+      "name": "Pride Parade Queen!",
+      "location": "",
+      "date": "Sun, Jun 28",
+      "url": "https://metrochicago.com/event/pride-parade-queen-2/all-building-event/chicago-illinois/",
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Pride Parade Queen!",
+        "name": "Queen",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "blue-earth-sound-ep-release-show",
@@ -317,6 +357,26 @@
       "location": "",
       "date": "Mon, Sep 28",
       "url": "https://metrochicago.com/event/deca-joins/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "everything-everything-get-to-heaven-10th-anniversary",
+      "name": "Everything Everything: Get To Heaven 10th Anniversary",
+      "location": "",
+      "date": "Tue, Sep 29",
+      "url": "https://metrochicago.com/event/everything-everything-get-to-heaven-10th-anniversary/metro-chicago/chicago-illinois/",
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Everything Everything: Get To Heaven 10th Anniversary",
+        "name": "Bilal",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/4jCbgl5Dmt3uOh8WRQfpPs",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "lambrini-girls",

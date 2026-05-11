@@ -1,6 +1,6 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-05-11T15:40:09.264009Z",
+  "last_run": "2026-05-11T17:45:56.850826Z",
   "count": 35,
   "events": [
     {
@@ -13,7 +13,8 @@
         "public_start": "2025-11-07T18:00:00Z",
         "public_end": "2026-05-21T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7OpZg",
@@ -25,7 +26,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-05-24T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7O6p9",
@@ -37,7 +39,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-05-30T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7O6pb",
@@ -49,7 +52,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-05-31T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7-P0b",
@@ -61,7 +65,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-06-01T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A70oxv",
@@ -73,7 +78,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-06-02T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd7J",
@@ -85,7 +91,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-06-07T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7-AA9",
@@ -97,7 +104,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-06-07T20:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7-P0_",
@@ -109,7 +117,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-06-12T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A70oxe",
@@ -121,7 +130,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-06-14T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7-44M",
@@ -133,7 +143,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-06-15T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd0w",
@@ -145,7 +156,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-06-16T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7-kaP",
@@ -157,7 +169,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-06-17T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7-U4g",
@@ -169,7 +182,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-06-21T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd7E",
@@ -181,7 +195,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-06-27T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd7I",
@@ -193,7 +208,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-07-10T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7O6p_",
@@ -205,7 +221,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-07-11T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd0S",
@@ -217,7 +234,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-07-19T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd7t",
@@ -229,7 +247,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-08-14T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A70oxd",
@@ -241,7 +260,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-08-15T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7OpZU",
@@ -253,7 +273,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-08-23T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7OpZM",
@@ -265,7 +286,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-08-23T02:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A70ox7",
@@ -277,7 +299,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-08-30T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd7Y",
@@ -289,7 +312,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-09-17T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd7s",
@@ -301,7 +325,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-09-18T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7ONOd",
@@ -313,7 +338,8 @@
         "public_start": "9999-12-31T06:00:00Z",
         "public_end": "2026-09-30T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A70Ao4",
@@ -325,7 +351,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-10-03T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd7w",
@@ -337,7 +364,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-10-16T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd7S",
@@ -349,7 +377,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-10-17T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd7V",
@@ -361,7 +390,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-10-23T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd7g",
@@ -373,7 +403,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-10-24T00:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A70oxA",
@@ -385,7 +416,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-10-28T00:30:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xo4-",
@@ -397,7 +429,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-11-21T01:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7jtax",
@@ -409,7 +442,8 @@
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-12-06T23:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7-P0O",
@@ -421,7 +455,8 @@
         "public_start": "1900-01-01T18:00:00Z",
         "public_end": "2026-12-12T02:00:00Z",
         "presales": []
-      }
+      },
+      "price_range": null
     }
   ]
 }
