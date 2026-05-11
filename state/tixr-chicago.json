@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-11T01:25:30.769095Z",
+  "last_run": "2026-05-11T05:35:12.871806Z",
   "count": 20,
   "events": [
-    {
-      "slug": "167626",
-      "name": "Emo Orchestra ft The Spill Canvas",
-      "location": "Ramova Theatre ",
-      "date": "Sun, May 10 at 7:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/emo-orchestra-ft-the-spill-canvas-167626",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "179263",
       "name": "Academy Order",
@@ -242,6 +230,30 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "188825",
+      "name": "SUEÑOS OFFICIAL AFTER PARTY | DYNAMIQO",
+      "location": "Gold Coast Social",
+      "date": "Sat, May 23 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-dynamiqo-188825",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "SUEÑOS OFFICIAL AFTER PARTY",
+        "name": "Sueño Profundo Club",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/0ABU5rOo3hIfRLxQVIDz0x",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
