@@ -121,12 +121,18 @@ def price_range_html(event):
         return ""
     lo = pr.get("min")
     hi = pr.get("max")
-    if lo is None and hi is None:
+    # TM sometimes ships price=0 for events with no public price yet
+    # (e.g. festivals, presale-only, free events). Showing "Face $0" looks
+    # like a bug — treat any non-positive value as missing.
+    if not (lo and lo > 0) and not (hi and hi > 0):
         return ""
-    if lo is not None and hi is not None and lo != hi:
+    # Normalize: drop a zero/missing endpoint so we still render the other
+    lo_ok = bool(lo and lo > 0)
+    hi_ok = bool(hi and hi > 0)
+    if lo_ok and hi_ok and lo != hi:
         text = f"Face ${lo:.0f}–${hi:.0f}"
     else:
-        anchor = hi if hi is not None else lo
+        anchor = hi if hi_ok else lo
         text = f"Face ${anchor:.0f}"
     return (
         '<div style="margin-top:4px;font-size:11px;color:#666;">'
