@@ -1,6 +1,6 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-11T17:47:07.914106Z",
+  "last_run": "2026-05-11T19:21:48.145658Z",
   "count": 72,
   "events": [
     {
@@ -1743,27 +1743,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "All Time Low",
-        "name": "All Time Low",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/46gyXjRIvN1NL1eCB8GBxo",
-        "genres": []
-      },
-      "gct_history": {
-        "events": 1,
-        "avg_margin": 43.3,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 81.25,
-        "avg_cost_price": 68.75,
-        "display_name": "All Time Low"
-      },
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv167ZkoEZZZA8ka6u",
@@ -2317,20 +2297,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Slow Pulp",
-        "name": "Slow Pulp",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/2JFTRDi5v7JtqoouVe1z5D",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv178ZbwGklTPKsE",

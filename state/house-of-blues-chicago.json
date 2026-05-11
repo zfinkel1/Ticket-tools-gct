@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-11T17:47:07.916752Z",
+  "last_run": "2026-05-11T19:21:49.352486Z",
   "count": 65,
   "events": [
     {
@@ -2006,20 +2006,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Basement",
-        "name": "Basement",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/4DUQBYAyOTZotSEdKhaf6c",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3kGkdNxqha",

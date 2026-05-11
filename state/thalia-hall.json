@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-11T17:47:07.919111Z",
+  "last_run": "2026-05-11T19:21:49.893149Z",
   "count": 88,
   "events": [
     {
@@ -730,20 +730,7 @@
         "max": 20.03,
         "currency": "USD",
         "type": "standard"
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Noche de Kumbia 2-Year Anniversary 'In the Round'",
-        "name": "A.B. Quintanilla III Y Los Kumbia Kings",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/6BMQo3hxi4qwLiZpHKK5iL",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqIvd",
@@ -1142,20 +1129,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "REZN",
-        "name": "REZN",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/3pDqLo5LnCyCBxhKZygkfK",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-9fS",
