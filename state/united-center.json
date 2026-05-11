@@ -1,7 +1,7 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-11T08:48:02.220799Z",
-  "count": 63,
+  "last_run": "2026-05-11T12:13:23.589326Z",
+  "count": 64,
   "events": [
     {
       "slug": "vv178Z_eGkm8Pwdj",
@@ -2155,6 +2155,78 @@
           }
         ]
       }
+    },
+    {
+      "slug": "vvG18Z_1LLYAJb",
+      "name": "Niall Horan: Dinner Party Live On Tour",
+      "location": "United Center, Chicago",
+      "date": "Tue, Mar 23, 2027 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-chicago-illinois-03-23-2027/event/040064A7DFC05998",
+      "sales": {
+        "public_start": "2026-05-15T15:00:00Z",
+        "public_end": "2027-03-23T23:30:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Citi VIP Packages Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-13T14:45:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-05-15T15:00:00Z",
+            "end": "2027-03-19T17:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-15T15:00:00Z",
+            "end": "2027-02-24T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          }
+        ]
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Niall Horan: Dinner Party Live On",
+        "name": "Niall Horan",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/1Hsdzj7Dlq2I7tHP7501T4",
+        "genres": []
+      },
+      "gct_history": {
+        "events": 2,
+        "avg_margin": 4.4,
+        "profitable_pct": 50.0,
+        "avg_sell_price": 101.54,
+        "avg_cost_price": 111.04,
+        "display_name": "Niall Horan"
+      },
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

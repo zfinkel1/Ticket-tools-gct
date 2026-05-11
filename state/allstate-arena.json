@@ -1,7 +1,7 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-11T08:48:02.783258Z",
-  "count": 33,
+  "last_run": "2026-05-11T12:13:23.591996Z",
+  "count": 38,
   "events": [
     {
       "slug": "vv1A7ZkCpGkdCRp4I",
@@ -848,6 +848,241 @@
           }
         ]
       }
+    },
+    {
+      "slug": "vv178Z_6GkXj7968",
+      "name": "Monster Jam",
+      "location": "Allstate Arena, Rosemont",
+      "date": "Fri, Sep 18, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/monster-jam-rosemont-illinois-09-18-2026/event/0400647F9C1171D0",
+      "sales": {
+        "public_start": "2026-05-19T15:00:00Z",
+        "public_end": "2026-09-19T01:00:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-19T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster / Venue Presales",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-19T04:59:00Z"
+          },
+          {
+            "name": "Texas Roadhouse Offer",
+            "start": "2026-08-24T13:00:00Z",
+            "end": "2026-09-18T04:59:00Z"
+          }
+        ]
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Monster Jam",
+        "name": "Monster Truck",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/2xuGblLzZ8xX3Adh3Y15vj",
+        "genres": []
+      },
+      "gct_history": {
+        "events": 18,
+        "avg_margin": 34.5,
+        "profitable_pct": 89.0,
+        "avg_sell_price": 222.51,
+        "avg_cost_price": 163.4,
+        "display_name": "Monster Jam"
+      },
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "vv178Z_6GkXjkE6m",
+      "name": "Monster Jam",
+      "location": "Allstate Arena, Rosemont",
+      "date": "Sat, Sep 19, 2026 · 1:00 PM",
+      "url": "https://www.ticketmaster.com/monster-jam-rosemont-illinois-09-19-2026/event/0400647F9C1A71EE",
+      "sales": {
+        "public_start": "2026-05-19T15:00:00Z",
+        "public_end": "2026-09-19T19:00:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-19T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster / Venue Presales",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-19T04:59:00Z"
+          },
+          {
+            "name": "Texas Roadhouse Offer",
+            "start": "2026-08-24T13:00:00Z",
+            "end": "2026-09-18T04:59:00Z"
+          }
+        ]
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Monster Jam",
+        "name": "Monster Truck",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/2xuGblLzZ8xX3Adh3Y15vj",
+        "genres": []
+      },
+      "gct_history": {
+        "events": 18,
+        "avg_margin": 34.5,
+        "profitable_pct": 89.0,
+        "avg_sell_price": 222.51,
+        "avg_cost_price": 163.4,
+        "display_name": "Monster Jam"
+      },
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "vv178Z_6GkXja66X",
+      "name": "Monster Jam",
+      "location": "Allstate Arena, Rosemont",
+      "date": "Sat, Sep 19, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/monster-jam-rosemont-illinois-09-19-2026/event/0400647F9C2471FE",
+      "sales": {
+        "public_start": "2026-05-19T15:00:00Z",
+        "public_end": "2026-09-20T01:00:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-19T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster / Venue Presales",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-19T04:59:00Z"
+          },
+          {
+            "name": "Texas Roadhouse Offer",
+            "start": "2026-08-24T13:00:00Z",
+            "end": "2026-09-18T04:59:00Z"
+          }
+        ]
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Monster Jam",
+        "name": "Monster Truck",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/2xuGblLzZ8xX3Adh3Y15vj",
+        "genres": []
+      },
+      "gct_history": {
+        "events": 18,
+        "avg_margin": 34.5,
+        "profitable_pct": 89.0,
+        "avg_sell_price": 222.51,
+        "avg_cost_price": 163.4,
+        "display_name": "Monster Jam"
+      },
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "vv178Z_6GkXj56FK",
+      "name": "Monster Jam",
+      "location": "Allstate Arena, Rosemont",
+      "date": "Sun, Sep 20, 2026 · 1:00 PM",
+      "url": "https://www.ticketmaster.com/monster-jam-rosemont-illinois-09-20-2026/event/0400647F9C2C7213",
+      "sales": {
+        "public_start": "2026-05-19T15:00:00Z",
+        "public_end": "2026-09-20T19:00:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-19T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster / Venue Presales",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-19T04:59:00Z"
+          },
+          {
+            "name": "Texas Roadhouse Offer",
+            "start": "2026-08-24T13:00:00Z",
+            "end": "2026-09-18T04:59:00Z"
+          }
+        ]
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Monster Jam",
+        "name": "Monster Truck",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/2xuGblLzZ8xX3Adh3Y15vj",
+        "genres": []
+      },
+      "gct_history": {
+        "events": 18,
+        "avg_margin": 34.5,
+        "profitable_pct": 89.0,
+        "avg_sell_price": 222.51,
+        "avg_cost_price": 163.4,
+        "display_name": "Monster Jam"
+      },
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "vv178Z_6GkXju9FE",
+      "name": "Monster Jam",
+      "location": "Allstate Arena, Rosemont",
+      "date": "Sun, Sep 20, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/monster-jam-rosemont-illinois-09-20-2026/event/0400647F9C357227",
+      "sales": {
+        "public_start": "2026-05-19T15:00:00Z",
+        "public_end": "2026-09-21T00:30:00Z",
+        "presales": [
+          {
+            "name": "Feld Preferred Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-19T04:59:00Z"
+          },
+          {
+            "name": "Ticketmaster / Venue Presales",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-19T04:59:00Z"
+          },
+          {
+            "name": "Texas Roadhouse Offer",
+            "start": "2026-08-24T13:00:00Z",
+            "end": "2026-09-18T04:59:00Z"
+          }
+        ]
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Monster Jam",
+        "name": "Monster Truck",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/2xuGblLzZ8xX3Adh3Y15vj",
+        "genres": []
+      },
+      "gct_history": {
+        "events": 18,
+        "avg_margin": 34.5,
+        "profitable_pct": 89.0,
+        "avg_sell_price": 222.51,
+        "avg_cost_price": 163.4,
+        "display_name": "Monster Jam"
+      },
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv118Z_638o0at",
