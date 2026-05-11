@@ -34,6 +34,7 @@ STATE_DIR = Path(__file__).resolve().parent.parent / "state"
 EVENTS_CACHE_PATH = STATE_DIR / "flare-events-cache.json"
 SOLD_CACHE_PATH = STATE_DIR / "flare-sold-cache.json"
 HISTORY_DB_PATH = STATE_DIR / "gct-history-db.json"
+VENUE_HISTORY_DB_PATH = STATE_DIR / "gct-venue-history-db.json"
 
 EVENTS_TTL_SECONDS = 6 * 3600        # All-events: refresh every 6h (Flare allows 4/day, this exactly fits)
 SOLD_TTL_SECONDS = 7 * 24 * 3600     # Sold data per event: 1 week
@@ -227,25 +228,96 @@ def lookup_gct_history(event_name):
 
 def enrich_event_with_history(event):
     """
-    Mutates event to add a 'gct_history' key. Safe to call multiple
-    times; no-op if history already populated.
+    Mutates event to add 'gct_history' (artist aggregate) and
+    'gct_venue_history' (per-artist+venue+section, when available).
+    Safe to call multiple times.
     """
-    if "gct_history" in event:
+    if "gct_history" in event and "gct_venue_history" in event:
         return event
     name = event.get("name", "")
-    hist = lookup_gct_history(name)
-    if hist:
-        event["gct_history"] = {
-            "events": hist.get("events"),
-            "avg_margin": hist.get("avg_margin"),
-            "profitable_pct": hist.get("profitable_pct"),
-            "avg_sell_price": hist.get("avg_sell_price"),
-            "avg_cost_price": hist.get("avg_cost_price"),
-            "display_name": hist.get("display_name"),
-        }
-    else:
-        event["gct_history"] = None
+    venue = event.get("location", "")
+
+    # Artist-level aggregate
+    if "gct_history" not in event:
+        hist = lookup_gct_history(name)
+        if hist:
+            event["gct_history"] = {
+                "events": hist.get("events"),
+                "avg_margin": hist.get("avg_margin"),
+                "profitable_pct": hist.get("profitable_pct"),
+                "avg_sell_price": hist.get("avg_sell_price"),
+                "avg_cost_price": hist.get("avg_cost_price"),
+                "display_name": hist.get("display_name"),
+            }
+        else:
+            event["gct_history"] = None
+
+    # Per-venue breakdown (much richer signal when GCT has section-level data)
+    if "gct_venue_history" not in event:
+        venue_hist = lookup_venue_history(name, venue)
+        event["gct_venue_history"] = venue_hist
     return event
+
+
+# ─────────────── GCT venue-specific history (from concert_historical.py) ────
+
+_venue_db_cache = None
+
+
+def _load_venue_history_db():
+    global _venue_db_cache
+    if _venue_db_cache is not None:
+        return _venue_db_cache
+    db = _read_json(VENUE_HISTORY_DB_PATH)
+    if db is None:
+        print(f"[gct-venue-history] DB not found at {VENUE_HISTORY_DB_PATH}")
+        _venue_db_cache = {}
+    else:
+        _venue_db_cache = db
+    return _venue_db_cache
+
+
+def _venue_normalize(s):
+    """Normalize a venue or artist string for DB key matching."""
+    if not s:
+        return ""
+    s = s.lower().strip()
+    for sep in [" - ", ": ", " – "]:
+        if sep in s:
+            s = s.split(sep)[0].strip()
+    s = re.sub(r"\s*\([^)]*\)", "", s)
+    s = re.sub(r"[^\w\s]", "", s).strip()
+    return s
+
+
+def lookup_venue_history(artist_raw, venue_raw):
+    """
+    Returns the GCT venue-history record for this artist+venue, or None.
+    DB keys are "artist|||venue" lowercased. Try exact first; fall back
+    to artist exact + venue substring match.
+
+    Each match is a dict of sections -> {avg_sell, avg_cost, buy_under,
+    avg_margin, count}. Caller decides which section to surface.
+    """
+    db = _load_venue_history_db()
+    if not db:
+        return None
+    a = _venue_normalize(artist_raw)
+    v = _venue_normalize(venue_raw)
+    if not a or not v:
+        return None
+    key = f"{a}|||{v}"
+    if key in db:
+        return db[key]
+    # Fuzzy venue (venue strings vary: "Allstate Arena, Rosemont" vs "Allstate Arena")
+    for k, data in db.items():
+        try:
+            k_artist, k_venue = k.split("|||", 1)
+        except ValueError:
+            continue
+        if k_artist == a and (v in k_venue or k_venue in v):
+            return data
+    return None
 
 
 def _match_flare_event(event):
@@ -358,41 +430,79 @@ def enrich_event_with_current_sold(event):
 
 def history_html(event):
     """
-    Render the GCT 3-year sales history for this event/artist.
-    Empty when no match in the database.
+    Render the GCT sales history for this event. Combines two sources:
+      - Per-venue per-section breakdown (highest signal — shows section data)
+      - Artist-level aggregate (fallback when no venue match)
+    Empty pill when neither matches.
     """
-    h = event.get("gct_history")
-    if not h:
+    venue_h = event.get("gct_venue_history") or {}
+    artist_h = event.get("gct_history")
+
+    # Venue match — best case, has section-level data
+    if venue_h:
+        # Roll up section stats into one summary line. Use the most-bought
+        # section (highest count) as the headline.
+        sections = list(venue_h.items())
+        # (name, data) where data has count/avg_margin/avg_sell/etc.
+        sections.sort(key=lambda kv: -(kv[1].get("count") or 0))
+        top_section, top_data = sections[0]
+        total_count = sum((s[1].get("count") or 0) for s in sections)
+        margin = top_data.get("avg_margin")
+        avg_sell = top_data.get("avg_sell")
+        buy_under = top_data.get("buy_under")
+
+        bits = [
+            f'<strong style="color:#0d1b3e;">{total_count} buys</strong>',
+            f'<span style="color:#888;">at this venue</span>',
+        ]
+        if margin is not None:
+            sign = "+" if margin >= 0 else ""
+            color = "#16a34a" if margin >= 50 else ("#f59e0b" if margin >= 0 else "#dc2626")
+            bits.append(
+                f'<span style="color:{color};font-weight:700;">{top_section} avg {sign}{margin}%</span>'
+            )
+        if avg_sell:
+            bits.append(f'avg sell ${avg_sell:.0f}')
+        if buy_under:
+            bits.append(f'<span style="color:#888;">buy under ${buy_under:.0f}</span>')
+
         return (
-            '<div style="margin-top:6px;font-size:11px;color:#999;">'
-            'GCT history: <span style="color:#aaa;">none tracked</span>'
-            '</div>'
+            '<div style="margin-top:6px;font-size:11px;color:#666;">'
+            + 'GCT @ venue: ' + ' &middot; '.join(bits)
+            + '</div>'
         )
 
-    events_count = h.get("events") or 0
-    margin = h.get("avg_margin")
-    profitable = h.get("profitable_pct")
-    avg_sell = h.get("avg_sell_price")
+    # Artist aggregate (fallback)
+    if artist_h:
+        events_count = artist_h.get("events") or 0
+        margin = artist_h.get("avg_margin")
+        profitable = artist_h.get("profitable_pct")
+        avg_sell = artist_h.get("avg_sell_price")
 
-    bits = [
-        f'<strong style="color:#0d1b3e;">{events_count} event{"s" if events_count != 1 else ""}</strong>'
-    ]
-    if margin is not None:
-        sign = "+" if margin >= 0 else ""
-        # Match flare_analyzer thresholds: green ≥50, amber ≥25, red <0
-        color = "#16a34a" if margin >= 50 else ("#f59e0b" if margin >= 0 else "#dc2626")
-        bits.append(
-            f'<span style="color:{color};font-weight:700;">avg {sign}{margin}%</span>'
+        bits = [
+            f'<strong style="color:#0d1b3e;">{events_count} event{"s" if events_count != 1 else ""}</strong>'
+        ]
+        if margin is not None:
+            sign = "+" if margin >= 0 else ""
+            color = "#16a34a" if margin >= 50 else ("#f59e0b" if margin >= 0 else "#dc2626")
+            bits.append(
+                f'<span style="color:{color};font-weight:700;">avg {sign}{margin}%</span>'
+            )
+        if profitable is not None:
+            bits.append(f'{profitable:.0f}% profitable')
+        if avg_sell:
+            bits.append(f'avg sell ${avg_sell:.0f}')
+
+        return (
+            '<div style="margin-top:6px;font-size:11px;color:#666;">'
+            + 'GCT history: ' + ' &middot; '.join(bits)
+            + '</div>'
         )
-    if profitable is not None:
-        bits.append(f'{profitable:.0f}% profitable')
-    if avg_sell:
-        bits.append(f'avg sell ${avg_sell:.0f}')
 
     return (
-        '<div style="margin-top:6px;font-size:11px;color:#666;">'
-        + 'GCT history: ' + ' &middot; '.join(bits)
-        + '</div>'
+        '<div style="margin-top:6px;font-size:11px;color:#999;">'
+        'GCT history: <span style="color:#aaa;">none tracked</span>'
+        '</div>'
     )
 
 

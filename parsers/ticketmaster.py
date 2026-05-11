@@ -103,6 +103,33 @@ def _extract_sales(ev):
     }
 
 
+def _extract_price_range(ev):
+    """
+    TM's priceRanges is an array (often two entries: "standard" and "official platinum").
+    Take the standard min/max if available; fall back to whatever is first.
+    Returns {min, max, currency} or None.
+    """
+    ranges = ev.get("priceRanges") or []
+    if not ranges:
+        return None
+    # Prefer the "standard" tier when TM splits it out
+    standard = next((r for r in ranges if (r.get("type") or "").lower() == "standard"), None)
+    chosen = standard or ranges[0]
+    try:
+        lo = float(chosen.get("min")) if chosen.get("min") is not None else None
+        hi = float(chosen.get("max")) if chosen.get("max") is not None else None
+    except (TypeError, ValueError):
+        return None
+    if lo is None and hi is None:
+        return None
+    return {
+        "min": lo,
+        "max": hi,
+        "currency": chosen.get("currency") or "USD",
+        "type": chosen.get("type") or "standard",
+    }
+
+
 def parse(site):
     raw_ids = site.get("venue_ids") or ([site["venue_id"]] if site.get("venue_id") else [])
     if not raw_ids:
@@ -146,6 +173,7 @@ def parse(site):
                 "date": date,
                 "url": url,
                 "sales": _extract_sales(ev),
+                "price_range": _extract_price_range(ev),
             })
 
         page_info = data.get("page") or {}

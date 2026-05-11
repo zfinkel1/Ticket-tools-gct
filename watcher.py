@@ -42,7 +42,7 @@ from enrich.flare import (
     current_sold_html,
 )
 from enrich.stubhub import enrich_event_with_listing, current_listing_html
-from enrich.sales import sales_status_html
+from enrich.sales import sales_status_html, price_range_html
 
 STATE_DIR = Path(__file__).parent / "state"
 HEALTH_PATH = STATE_DIR / "health.json"
@@ -164,6 +164,7 @@ def build_email(by_site, baselined_sites=None):
             url = html.escape(e.get("url", "#"), quote=True)
             enrichment_html = _enrichment_html(e)
             sales_block = sales_status_html(e)
+            price_block = price_range_html(e)
             history_block = history_html(e)
             current_sold_block = current_sold_html(e)
             current_listing_block = current_listing_html(e)
@@ -174,6 +175,7 @@ def build_email(by_site, baselined_sites=None):
                 </div>
                 <div style="font-size:13px;color:#666;">{date}{' &middot; ' + loc if loc else ''}</div>
                 {sales_block}
+                {price_block}
                 {enrichment_html}
                 {history_block}
                 {current_sold_block}

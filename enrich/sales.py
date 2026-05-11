@@ -109,3 +109,27 @@ def _pill(text, color):
         f'letter-spacing:0.04em;text-transform:uppercase;">{text}</span>'
         '</div>'
     )
+
+
+def price_range_html(event):
+    """
+    Render the TM/primary-market face-value range. Empty when no data.
+    Format: "Face $35 – $250"
+    """
+    pr = event.get("price_range")
+    if not pr:
+        return ""
+    lo = pr.get("min")
+    hi = pr.get("max")
+    if lo is None and hi is None:
+        return ""
+    if lo is not None and hi is not None and lo != hi:
+        text = f"Face ${lo:.0f}–${hi:.0f}"
+    else:
+        anchor = hi if hi is not None else lo
+        text = f"Face ${anchor:.0f}"
+    return (
+        '<div style="margin-top:4px;font-size:11px;color:#666;">'
+        f'<strong style="color:#0d1b3e;">{text}</strong>'
+        '</div>'
+    )
