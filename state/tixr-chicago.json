@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-11T19:21:44.034805Z",
+  "last_run": "2026-05-11T21:02:21.809568Z",
   "count": 20,
   "events": [
     {
@@ -232,16 +232,29 @@
       }
     },
     {
-      "slug": "179266",
-      "name": "Volcano",
-      "location": "Ramova Loft",
-      "date": "Sat, May 23 at 6:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/volcano-179266",
+      "slug": "189967",
+      "name": "MIA | Latin Day Club | Reserv Rooftop",
+      "location": "Reserv",
+      "date": "Sat, May 23 at 2:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/mia-latin-day-club-reserv-rooftop-189967",
       "sales": {
         "public_start": null,
         "public_end": null,
         "presales": []
-      }
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "MIA",
+        "name": "M.I.A.",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/0QJIPDAEDILuo8AIq3pMuU",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

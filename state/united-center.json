@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-11T19:22:07.398247Z",
+  "last_run": "2026-05-11T21:02:17.299836Z",
   "count": 65,
   "events": [
     {
@@ -991,11 +991,7 @@
           }
         ]
       },
-      "price_range": null,
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkC7GkdaNIJ3",

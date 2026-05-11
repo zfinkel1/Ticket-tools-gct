@@ -1,6 +1,6 @@
 {
   "site": "Wintrust Arena",
-  "last_run": "2026-05-11T19:22:07.401159Z",
+  "last_run": "2026-05-11T21:02:18.030244Z",
   "count": 26,
   "events": [
     {
@@ -202,11 +202,7 @@
           }
         ]
       },
-      "price_range": null,
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv17jZ_dGkDbZane",
