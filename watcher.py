@@ -43,6 +43,7 @@ from enrich.flare import (
 )
 from enrich.stubhub import enrich_event_with_listing, current_listing_html
 from enrich.sales import sales_status_html, price_range_html
+from enrich.recommend import recommendation_html
 
 STATE_DIR = Path(__file__).parent / "state"
 HEALTH_PATH = STATE_DIR / "health.json"
@@ -163,6 +164,7 @@ def build_email(by_site, baselined_sites=None):
             loc = html.escape(e.get("location") or "")
             url = html.escape(e.get("url", "#"), quote=True)
             enrichment_html = _enrichment_html(e)
+            rec_block = recommendation_html(e)
             sales_block = sales_status_html(e)
             price_block = price_range_html(e)
             history_block = history_html(e)
@@ -170,6 +172,7 @@ def build_email(by_site, baselined_sites=None):
             current_listing_block = current_listing_html(e)
             rows.append(f"""
               <tr><td style="padding:14px 16px;border-bottom:1px solid #eee;">
+                {rec_block}
                 <div style="font-size:15px;font-weight:700;color:#0d1b3e;margin-bottom:4px;">
                   <a href="{url}" style="color:#0d1b3e;text-decoration:none;">{name} &rarr;</a>
                 </div>
