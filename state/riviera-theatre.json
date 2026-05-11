@@ -1,20 +1,8 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-05-10T23:27:45.992181Z",
-  "count": 21,
+  "last_run": "2026-05-11T01:25:33.389770Z",
+  "count": 20,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7jS_P",
-      "name": "Andres Cepeda",
-      "location": "Riviera Theatre- IL, Chicago",
-      "date": "Sun, May 10, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jS_P",
-      "sales": {
-        "public_start": "1900-01-01T06:00:00Z",
-        "public_end": "2026-05-11T00:30:00Z",
-        "presales": []
-      }
-    },
     {
       "slug": "Z7r9jZ1A7-680",
       "name": "Dance Gavin Dance with Special Guests",

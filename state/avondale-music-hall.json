@@ -1,19 +1,6 @@
 {
   "site": "Avondale Music Hall",
-  "last_run": "2026-05-10T23:27:50.002410Z",
-  "count": 1,
-  "events": [
-    {
-      "slug": "Z7r9jZ1A7-018",
-      "name": "Stove God Cooks",
-      "location": "Avondale Music Hall, Chicago",
-      "date": "Sun, May 10, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-018",
-      "sales": {
-        "public_start": "1900-01-01T18:00:00Z",
-        "public_end": "2026-05-11T01:00:00Z",
-        "presales": []
-      }
-    }
-  ]
+  "last_run": "2026-05-11T01:25:37.323277Z",
+  "count": 0,
+  "events": []
 }
