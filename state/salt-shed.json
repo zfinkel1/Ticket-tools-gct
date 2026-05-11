@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-11T12:13:01.460720Z",
-  "count": 69,
+  "last_run": "2026-05-11T15:41:13.367703Z",
+  "count": 70,
   "events": [
     {
       "slug": "vv178ZbzGkSPs5cQ",
@@ -1473,7 +1473,7 @@
             "end": "2026-04-17T03:00:00Z"
           },
           {
-            "name": "Amex Reserved Tickets",
+            "name": "Amex Reserved Tickets®",
             "start": "2026-05-11T15:00:00Z",
             "end": "2026-08-30T03:00:00Z"
           }
@@ -1965,6 +1965,53 @@
           }
         ]
       }
+    },
+    {
+      "slug": "vvG18Z_1LP_k-A",
+      "name": "MOVEMENTS - HAPPIER NOW USA TOUR",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sun, Oct 18, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/movements-happier-now-usa-tour-chicago-illinois-10-18-2026/event/040064A7E5646845",
+      "sales": {
+        "public_start": "2026-05-15T14:00:00Z",
+        "public_end": "2026-10-19T02:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-05-11T18:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-11T16:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "BIT Presale",
+            "start": "2026-05-12T18:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          }
+        ]
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "MOVEMENTS",
+        "name": "Movements",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/1kkyfIopIiVvaPHHlbsfac",
+        "genres": []
+      },
+      "gct_history": {
+        "events": 1,
+        "avg_margin": -64.5,
+        "profitable_pct": 0.0,
+        "avg_sell_price": 26.0,
+        "avg_cost_price": 78.77,
+        "display_name": "Movements"
+      },
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1A7ZkoMGkeB3pBb",

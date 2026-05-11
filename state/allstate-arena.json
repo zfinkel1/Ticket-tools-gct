@@ -1,6 +1,6 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-11T12:13:23.591996Z",
+  "last_run": "2026-05-11T15:40:11.298598Z",
   "count": 38,
   "events": [
     {
@@ -875,26 +875,7 @@
             "end": "2026-09-18T04:59:00Z"
           }
         ]
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Monster Jam",
-        "name": "Monster Truck",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/2xuGblLzZ8xX3Adh3Y15vj",
-        "genres": []
-      },
-      "gct_history": {
-        "events": 18,
-        "avg_margin": 34.5,
-        "profitable_pct": 89.0,
-        "avg_sell_price": 222.51,
-        "avg_cost_price": 163.4,
-        "display_name": "Monster Jam"
-      },
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "vv178Z_6GkXjkE6m",
@@ -922,26 +903,7 @@
             "end": "2026-09-18T04:59:00Z"
           }
         ]
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Monster Jam",
-        "name": "Monster Truck",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/2xuGblLzZ8xX3Adh3Y15vj",
-        "genres": []
-      },
-      "gct_history": {
-        "events": 18,
-        "avg_margin": 34.5,
-        "profitable_pct": 89.0,
-        "avg_sell_price": 222.51,
-        "avg_cost_price": 163.4,
-        "display_name": "Monster Jam"
-      },
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "vv178Z_6GkXja66X",
@@ -969,26 +931,7 @@
             "end": "2026-09-18T04:59:00Z"
           }
         ]
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Monster Jam",
-        "name": "Monster Truck",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/2xuGblLzZ8xX3Adh3Y15vj",
-        "genres": []
-      },
-      "gct_history": {
-        "events": 18,
-        "avg_margin": 34.5,
-        "profitable_pct": 89.0,
-        "avg_sell_price": 222.51,
-        "avg_cost_price": 163.4,
-        "display_name": "Monster Jam"
-      },
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "vv178Z_6GkXj56FK",
@@ -1016,26 +959,7 @@
             "end": "2026-09-18T04:59:00Z"
           }
         ]
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Monster Jam",
-        "name": "Monster Truck",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/2xuGblLzZ8xX3Adh3Y15vj",
-        "genres": []
-      },
-      "gct_history": {
-        "events": 18,
-        "avg_margin": 34.5,
-        "profitable_pct": 89.0,
-        "avg_sell_price": 222.51,
-        "avg_cost_price": 163.4,
-        "display_name": "Monster Jam"
-      },
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "vv178Z_6GkXju9FE",
@@ -1063,26 +987,7 @@
             "end": "2026-09-18T04:59:00Z"
           }
         ]
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Monster Jam",
-        "name": "Monster Truck",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/2xuGblLzZ8xX3Adh3Y15vj",
-        "genres": []
-      },
-      "gct_history": {
-        "events": 18,
-        "avg_margin": 34.5,
-        "profitable_pct": 89.0,
-        "avg_sell_price": 222.51,
-        "avg_cost_price": 163.4,
-        "display_name": "Monster Jam"
-      },
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "vv118Z_638o0at",

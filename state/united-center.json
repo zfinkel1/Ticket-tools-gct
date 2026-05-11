@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-11T12:13:23.589326Z",
+  "last_run": "2026-05-11T15:40:10.948654Z",
   "count": 64,
   "events": [
     {
@@ -2207,26 +2207,7 @@
             "end": "2026-05-15T03:00:00Z"
           }
         ]
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Niall Horan: Dinner Party Live On",
-        "name": "Niall Horan",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/1Hsdzj7Dlq2I7tHP7501T4",
-        "genres": []
-      },
-      "gct_history": {
-        "events": 2,
-        "avg_margin": 4.4,
-        "profitable_pct": 50.0,
-        "avg_sell_price": 101.54,
-        "avg_cost_price": 111.04,
-        "display_name": "Niall Horan"
-      },
-      "current_sold": null,
-      "current_listing": null
+      }
     }
   ]
 }

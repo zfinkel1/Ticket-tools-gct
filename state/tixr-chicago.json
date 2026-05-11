@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-11T12:13:00.728143Z",
+  "last_run": "2026-05-11T15:41:13.367155Z",
   "count": 20,
   "events": [
     {
@@ -38,6 +38,30 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "189818",
+      "name": "MIA | Latin Day Club | Reserv Rooftop",
+      "location": "Reserv",
+      "date": "Sat, May 16 at 2:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/mia-latin-day-club-reserv-rooftop-189818",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "MIA",
+        "name": "M.I.A.",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/0QJIPDAEDILuo8AIq3pMuU",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "185594",
@@ -225,18 +249,6 @@
       "location": "Ramova Theatre ",
       "date": "Sat, May 23 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/m-s-edm-sue-os-official-after-party-188208",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188825",
-      "name": "SUEÑOS OFFICIAL AFTER PARTY | DYNAMIQO",
-      "location": "Gold Coast Social",
-      "date": "Sat, May 23 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-dynamiqo-188825",
       "sales": {
         "public_start": null,
         "public_end": null,

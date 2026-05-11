@@ -1,7 +1,7 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-11T12:13:02.458415Z",
-  "count": 61,
+  "last_run": "2026-05-11T15:41:13.370223Z",
+  "count": 64,
   "events": [
     {
       "slug": "vv1A7ZkooGkd5zHb7",
@@ -1563,6 +1563,51 @@
       }
     },
     {
+      "slug": "vvG18Z_145Nj0-",
+      "name": "anees",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Sep 12, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/anees-chicago-illinois-09-12-2026/event/040064A54B8DC921",
+      "sales": {
+        "public_start": "2026-05-12T17:00:00Z",
+        "public_end": "2026-09-12T23:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-11T15:00:00Z",
+            "end": "2026-05-12T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-12T17:00:00Z",
+            "end": "2026-08-29T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-11T15:00:00Z",
+            "end": "2026-05-12T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-11T15:00:00Z",
+            "end": "2026-05-12T03:00:00Z"
+          }
+        ]
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "anees",
+        "name": "anees",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/2HPqVfdPh9JkBSlFG5hK6h",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "vv1A7ZkoVGkeBGEiW",
       "name": "Tinlicker North America 2026",
       "location": "House of Blues Chicago",
@@ -1639,6 +1684,51 @@
       }
     },
     {
+      "slug": "vvG18Z_1NNu4Ga",
+      "name": "Buffalo Traffic Jam - Pictures of You Tour",
+      "location": "House of Blues Chicago",
+      "date": "Wed, Sep 23, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/buffalo-traffic-jam-pictures-of-you-chicago-illinois-09-23-2026/event/040064A8E3355309",
+      "sales": {
+        "public_start": "2026-05-15T15:00:00Z",
+        "public_end": "2026-09-24T00:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-15T15:00:00Z",
+            "end": "2026-08-27T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          }
+        ]
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Buffalo Traffic Jam",
+        "name": "Buffalo Traffic Jam",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/22LEPYRDhoThnbpShy6fV7",
+        "genres": []
+      },
+      "gct_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "vv1A7Zk34GkeSOaAx",
       "name": "DYING FETUS & SANGUISUGABOGG",
       "location": "House of Blues Chicago",
@@ -1713,6 +1803,68 @@
           }
         ]
       }
+    },
+    {
+      "slug": "vv178Z_aGkM-Cz0K",
+      "name": "Switchfoot with special guest Anberlin - Forever Now Tour",
+      "location": "House of Blues Chicago",
+      "date": "Sat, Oct 10, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/switchfoot-with-special-guest-anberlin-forever-chicago-illinois-10-10-2026/event/0400649DE13B8913",
+      "sales": {
+        "public_start": "2026-05-15T15:00:00Z",
+        "public_end": "2026-10-11T00:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-15T15:00:00Z",
+            "end": "2026-09-12T03:00:00Z"
+          },
+          {
+            "name": "Fan Club Presale",
+            "start": "2026-05-12T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Switchfoot Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Anberlin Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          }
+        ]
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Switchfoot",
+        "name": "Switchfoot",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/6S58b0fr8TkWrEHOH4tRVu",
+        "genres": []
+      },
+      "gct_history": {
+        "events": 1,
+        "avg_margin": -23.1,
+        "profitable_pct": 0.0,
+        "avg_sell_price": 59.13,
+        "avg_cost_price": 66.0,
+        "display_name": "Switchfoot"
+      },
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1A7Zk3oGkeXbBuR",
