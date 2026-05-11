@@ -28,6 +28,7 @@ SITES = [
         "name": "Tixr — Chicago",
         "parser": "tixr",
         "city": "chicago",
+        "state": "IL",   # Tixr's city=chicago is fuzzy and pulls some non-IL venues
         "page_size": 50,
         # ScraperAPI Hobby plan: 100k credits/month. Tixr uses premium=true
         # (10 credits/call). At 1h interval = 24 calls/day × 10 = 7,200/month.

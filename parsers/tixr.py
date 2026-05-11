@@ -2,13 +2,24 @@
 Tixr parser via ScraperAPI (bypasses DataDome).
 
 Config:
-  {"name": "...", "parser": "tixr", "city": "chicago", "page_size": 50}
+  {
+    "name": "...", "parser": "tixr",
+    "city": "chicago",     # Tixr API city filter (broad — see state filter)
+    "page_size": 50,
+    "state": "IL",         # optional, drops events whose venue.state doesn't match
+  }
 
 Uses Tixr's public events API:
   https://www.tixr.com/api/events?city=chicago&page=1&pageSize=50
 
+Tixr's `city=chicago` filter is fuzzy — it returns events tagged or
+associated with Chicago but the underlying venues can be in other states
+(observed: "RiNo Bar" — Denver). Pass `state` in site config to drop
+those. If venue.state is missing on a record we keep it (better to
+over-include than to silently drop legit IL events with sparse metadata).
+
 The API returns a JSON array of event objects. Each:
-  {id, name, startDate (ms), venue: {name, shortName}, url, ...}
+  {id, name, startDate (ms), venue: {name, city, state, country, timezone, shortName}, url, ...}
 """
 
 import json
@@ -43,12 +54,33 @@ def parse(site):
     if not isinstance(data, list):
         raise RuntimeError(f"Unexpected Tixr response: {type(data).__name__}")
 
+    # Optional state filter — accept "IL", "Illinois", etc. Normalize to upper for compare.
+    state_filter_raw = (site.get("state") or "").upper().strip()
+    state_filter_aliases = set()
+    if state_filter_raw:
+        state_filter_aliases.add(state_filter_raw)
+        # Map common abbrev/long-form pairs both ways
+        STATE_ALIASES = {"IL": "ILLINOIS", "ILLINOIS": "IL"}
+        if state_filter_raw in STATE_ALIASES:
+            state_filter_aliases.add(STATE_ALIASES[state_filter_raw])
+
     events = []
+    skipped_out_of_state = 0
     for ev in data:
         event_id = ev.get("id")
         name = (ev.get("name") or "").strip()
         url = ev.get("url") or ""
-        venue = (ev.get("venue") or {}).get("name") or ""
+        venue_obj = ev.get("venue") or {}
+        venue = venue_obj.get("name") or ""
+
+        # State filter: skip if venue.state is set and doesn't match.
+        # Missing state -> keep (don't drop on sparse metadata).
+        if state_filter_aliases:
+            ev_state = (venue_obj.get("state") or "").upper().strip()
+            if ev_state and ev_state not in state_filter_aliases:
+                skipped_out_of_state += 1
+                continue
+
         ts = ev.get("startDate")  # ms since epoch (UTC)
         date = ""
         if ts:
@@ -90,4 +122,7 @@ def parse(site):
             "url": url,
             "sales": sales_block,
         })
+
+    if skipped_out_of_state:
+        print(f"[tixr] skipped {skipped_out_of_state} event(s) outside state={state_filter_raw}")
     return events
