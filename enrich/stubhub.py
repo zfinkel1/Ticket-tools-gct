@@ -136,14 +136,68 @@ def _best_match(candidates, target_venue, target_year):
     return ranked[0]
 
 
+def _fetch_via_scraperapi(target_url, timeout=90):
+    """Fetch a URL through ScraperAPI premium. Returns HTML string or None."""
+    try:
+        req = urllib.request.Request(_sp_request(target_url), headers={"User-Agent": "TicketWatcher/1.0"})
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read().decode("utf-8", errors="ignore")
+    except urllib.error.HTTPError as e:
+        print(f"[stubhub] HTTP {e.code} for {target_url[:80]}")
+        return None
+    except Exception as e:
+        print(f"[stubhub] fetch failed: {e}")
+        return None
+
+
+def _find_first_event_url(html):
+    """
+    StubHub search HTML contains links like:
+      https://www.stubhub.com/<event-slug>-tickets/event/<id>/
+    Find the first one (most relevant by SH's own ranking). Returns full URL or None.
+    """
+    m = re.search(
+        r'https://www\.stubhub\.com/[a-z0-9\-]+-tickets/event/\d+/?',
+        html, flags=re.IGNORECASE,
+    )
+    return m.group(0) if m else None
+
+
+def _regex_price_from_html(html):
+    """
+    Last-resort: pull a min price out of plain HTML where structured data
+    isn't available. StubHub renders prices like "from $45", "$45+", or
+    "Tickets from $45.00". Returns float or None.
+    """
+    for pattern in (
+        r'from\s*\$\s*(\d+(?:\.\d+)?)',
+        r'tickets\s*from\s*\$\s*(\d+(?:\.\d+)?)',
+        r'\$\s*(\d+(?:\.\d+)?)\s*\+',
+        r'"lowPrice"\s*:\s*"?(\d+(?:\.\d+)?)"?',
+        r'"minPrice"\s*:\s*"?(\d+(?:\.\d+)?)"?',
+    ):
+        m = re.search(pattern, html, flags=re.IGNORECASE)
+        if m:
+            try:
+                price = float(m.group(1))
+                if 5 <= price <= 50000:  # sanity-bound
+                    return price
+            except ValueError:
+                continue
+    return None
+
+
 def fetch_stubhub_listing(artist, venue, year=None):
     """
-    Search StubHub for "{artist} {venue}" and return the best-match
-    listing with cheapest ask. Caches results for 6h.
+    Multi-strategy StubHub asking-price lookup:
+      1. Hit /find/s/?q=<artist venue>, parse JSON-LD Event records (best)
+      2. If no JSON-LD events, find first event URL in search HTML and
+         fetch THAT page — event detail pages still ship JSON-LD when
+         search results no longer do
+      3. Fall back to regex price scrape on whichever page has data
 
-    Returns dict:
-        {min_price, url, location, start_date, source: "stubhub_search", cached: bool}
-    or None if nothing useful found.
+    Costs 1 SP credit on success path 1, 2 on path 2. Caches result for 6h
+    regardless of which path succeeded (or all failed).
     """
     if not artist:
         return None
@@ -159,46 +213,24 @@ def fetch_stubhub_listing(artist, venue, year=None):
             return None
         return {**result, "cached": True}
 
-    target = f"{SH_BASE}/find/s/?q={urllib.parse.quote(query)}"
-    try:
-        req = urllib.request.Request(_sp_request(target), headers={"User-Agent": "TicketWatcher/1.0"})
-        with urllib.request.urlopen(req, timeout=90) as r:
-            html = r.read().decode("utf-8", errors="ignore")
-    except urllib.error.HTTPError as e:
-        print(f"[stubhub] HTTP {e.code} for query '{query}'")
+    # ── Strategy 1: search page → JSON-LD events ──
+    search_url = f"{SH_BASE}/find/s/?q={urllib.parse.quote(query)}"
+    search_html = _fetch_via_scraperapi(search_url)
+
+    if not search_html:
         cache[cache_key] = {"fetched_at": time.time(), "result": None}
         _write_json(LISTING_CACHE_PATH, cache)
         return None
-    except Exception as e:
-        print(f"[stubhub] fetch failed for '{query}': {e}")
-        return None
 
-    candidates = _extract_event_offers(html)
-    # Diagnostic logging — auditing the cache showed 47/47 nulls, meaning
-    # something in the pipeline is silently failing for every query. Log
-    # enough detail to distinguish the failure modes:
-    #   - empty html  -> ScraperAPI returned nothing (key/quota/block)
-    #   - no JSON-LD blocks  -> StubHub no longer ships JSON-LD on search
-    #   - blocks but no Event types  -> different schema layout
-    #   - candidates with no min_price  -> events but no listings yet
+    candidates = _extract_event_offers(search_html)
     ld_blocks = re.findall(
         r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>',
-        html, flags=re.IGNORECASE,
+        search_html, flags=re.IGNORECASE,
     )
     print(
-        f"[stubhub] q={query!r} html={len(html)}b "
-        f"ld_blocks={len(ld_blocks)} candidates={len(candidates)} "
-        f"with_price={sum(1 for c in candidates if c.get('min_price'))}"
+        f"[stubhub] q={query!r} search={len(search_html)}b "
+        f"ld_blocks={len(ld_blocks)} candidates={len(candidates)}"
     )
-    if not candidates and ld_blocks:
-        # We got JSON-LD but no Event records — sample the first @type to learn the layout
-        first_block = re.search(
-            r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
-            html, flags=re.DOTALL | re.IGNORECASE,
-        )
-        if first_block:
-            sample = first_block.group(1).strip()[:200]
-            print(f"[stubhub] no Event matches; sample LD: {sample!r}")
 
     best = _best_match(candidates, venue, year)
     result = None
@@ -210,6 +242,50 @@ def fetch_stubhub_listing(artist, venue, year=None):
             "start_date": best.get("start_date") or "",
             "source": "stubhub_search",
         }
+
+    # ── Strategy 2: follow first event link, parse JSON-LD on event page ──
+    if not result:
+        event_url = _find_first_event_url(search_html)
+        if event_url:
+            print(f"[stubhub] following event link: {event_url[:80]}")
+            event_html = _fetch_via_scraperapi(event_url)
+            if event_html:
+                event_candidates = _extract_event_offers(event_html)
+                if event_candidates:
+                    ec = event_candidates[0]
+                    if ec.get("min_price"):
+                        result = {
+                            "min_price": ec["min_price"],
+                            "url": ec.get("url") or event_url,
+                            "location": ec.get("location") or "",
+                            "start_date": ec.get("start_date") or "",
+                            "source": "stubhub_event_page",
+                        }
+                # Strategy 3: regex price from event page
+                if not result:
+                    price = _regex_price_from_html(event_html)
+                    if price:
+                        result = {
+                            "min_price": price,
+                            "url": event_url,
+                            "location": "",
+                            "start_date": "",
+                            "source": "stubhub_event_page_regex",
+                        }
+                        print(f"[stubhub] regex price hit: ${price}")
+
+    # ── Strategy 3b: regex price from search HTML as absolute last resort ──
+    if not result:
+        price = _regex_price_from_html(search_html)
+        if price:
+            result = {
+                "min_price": price,
+                "url": "",
+                "location": "",
+                "start_date": "",
+                "source": "stubhub_search_regex",
+            }
+            print(f"[stubhub] search-page regex price hit: ${price}")
 
     cache[cache_key] = {"fetched_at": time.time(), "result": result}
     _write_json(LISTING_CACHE_PATH, cache)
