@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-11T21:02:21.809568Z",
+  "last_run": "2026-05-11T22:19:08.040210Z",
   "count": 20,
   "events": [
     {
@@ -139,7 +139,7 @@
       "slug": "184071",
       "name": "Fresa  | Road To Sueños",
       "location": "Three Top Lounge",
-      "date": "Tue, May 19 at 9:00 PM CDT",
+      "date": "Tue, May 19 at 8:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/fresa-road-to-sue-os-184071",
       "sales": {
         "public_start": null,
@@ -241,20 +241,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "MIA",
-        "name": "M.I.A.",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/0QJIPDAEDILuo8AIq3pMuU",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      }
     }
   ]
 }

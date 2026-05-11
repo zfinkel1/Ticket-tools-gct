@@ -1,6 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-05-11T21:02:21.810136Z",
+  "last_run": "2026-05-11T22:19:14.457910Z",
   "count": 5,
   "events": [
     {
@@ -40,23 +40,7 @@
         "public_end": "2026-06-20T00:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "underscores",
-        "name": "underscores",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/7HfUJxeVTgrvhk0eWHFzV7",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": {
-        "flare_event_id": 55881493,
-        "sh_id": null
-      },
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xFJ3",
