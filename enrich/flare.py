@@ -35,6 +35,7 @@ EVENTS_CACHE_PATH = STATE_DIR / "flare-events-cache.json"
 SOLD_CACHE_PATH = STATE_DIR / "flare-sold-cache.json"
 HISTORY_DB_PATH = STATE_DIR / "gct-history-db.json"
 VENUE_HISTORY_DB_PATH = STATE_DIR / "gct-venue-history-db.json"
+ARTIST_VENUES_DB_PATH = STATE_DIR / "gct-artist-venues-db.json"
 
 EVENTS_TTL_SECONDS = 6 * 3600        # All-events: refresh every 6h (Flare allows 4/day, this exactly fits)
 SOLD_TTL_SECONDS = 7 * 24 * 3600     # Sold data per event: 1 week
@@ -256,6 +257,11 @@ def enrich_event_with_history(event):
     if "gct_venue_history" not in event:
         venue_hist = lookup_venue_history(name, venue)
         event["gct_venue_history"] = venue_hist
+
+    # Full venue list for this artist (drives the "GCT has bought at X, Y, Z"
+    # email line that gives concrete events behind the aggregate margin).
+    if "gct_artist_venues" not in event:
+        event["gct_artist_venues"] = lookup_artist_venues(name)
     return event
 
 
@@ -288,6 +294,83 @@ def _venue_normalize(s):
     s = re.sub(r"\s*\([^)]*\)", "", s)
     s = re.sub(r"[^\w\s]", "", s).strip()
     return s
+
+
+_artist_venues_cache = None
+
+
+def _load_artist_venues_db():
+    global _artist_venues_cache
+    if _artist_venues_cache is not None:
+        return _artist_venues_cache
+    db = _read_json(ARTIST_VENUES_DB_PATH)
+    if db is None:
+        print(f"[gct-artist-venues] DB not found at {ARTIST_VENUES_DB_PATH}")
+        _artist_venues_cache = {}
+    else:
+        _artist_venues_cache = db
+    return _artist_venues_cache
+
+
+def lookup_artist_venues(artist_raw, max_venues=8):
+    """
+    Returns a list of {venue, tickets, margin} for every venue this artist
+    has been bought at, sorted by tickets sold descending. Joins the
+    artist→venues map (_a2v) with the venue-history DB (_av_db).
+
+    Empty list when artist isn't in the GCT history.
+    """
+    a2v = _load_artist_venues_db()
+    av = _load_venue_history_db()
+    if not a2v or not av:
+        return []
+    artist = _venue_normalize(artist_raw)
+    if not artist:
+        return []
+    # _a2v keys are stored as the original lowercase artist name. Try exact first.
+    venues = a2v.get(artist)
+    if not venues:
+        # Fall back to substring match (some keys retain punctuation we stripped)
+        for k in a2v:
+            k_norm = _venue_normalize(k)
+            if k_norm == artist:
+                venues = a2v[k]
+                break
+        if not venues:
+            return []
+
+    out = []
+    for venue_name in venues:
+        # Build the artist|||venue key — try exact, then fuzzy match
+        sections = av.get(f"{artist}|||{venue_name}")
+        if not sections:
+            # _av_db keys may use the un-normalized artist name; scan once
+            target_v = _venue_normalize(venue_name)
+            for k, data in av.items():
+                try:
+                    k_a, k_v = k.split("|||", 1)
+                except ValueError:
+                    continue
+                if _venue_normalize(k_a) == artist and _venue_normalize(k_v) == target_v:
+                    sections = data
+                    break
+        if not sections:
+            continue
+        # Roll up the section stats — tickets = sum of counts,
+        # margin = weighted-by-count average across sections.
+        total_tix = 0
+        weighted_margin_num = 0
+        for s in sections.values():
+            cnt = s.get("count") or 0
+            mar = s.get("avg_margin")
+            total_tix += cnt
+            if mar is not None:
+                weighted_margin_num += mar * cnt
+        margin = round(weighted_margin_num / total_tix, 1) if total_tix > 0 else None
+        out.append({"venue": venue_name, "tickets": total_tix, "margin": margin})
+
+    out.sort(key=lambda v: -(v["tickets"] or 0))
+    return out[:max_venues]
 
 
 def lookup_venue_history(artist_raw, venue_raw):
@@ -428,15 +511,48 @@ def enrich_event_with_current_sold(event):
 
 # ───────────────────────── Email-rendering helpers ─────────────────────────
 
+def _venue_list_html(artist_venues):
+    """Render the artist's GCT venue breakdown as a second line under the aggregate.
+    Format: 'Venues: Wrigley Field (1,418 tix, +14%) · Fiserv Forum (78, -0%) · …'
+    Empty string when no venues."""
+    if not artist_venues:
+        return ""
+    bits = []
+    for v in artist_venues[:5]:
+        venue_name = v["venue"]
+        tix = v["tickets"]
+        margin = v["margin"]
+        # Title-case the lowercase venue name for display
+        display = ' '.join(w[:1].upper() + w[1:] if w else w for w in venue_name.split(' '))
+        if margin is None:
+            bits.append(f'{display} ({tix:,} tix)')
+        else:
+            sign = "+" if margin >= 0 else ""
+            color = "#16a34a" if margin >= 25 else ("#f59e0b" if margin >= 0 else "#dc2626")
+            bits.append(
+                f'<span style="color:#333;">{display}</span> '
+                f'<span style="color:#888;">({tix:,} tix,</span> '
+                f'<span style="color:{color};font-weight:700;">{sign}{margin}%</span><span style="color:#888;">)</span>'
+            )
+    return (
+        '<div style="margin-top:3px;font-size:11px;color:#888;line-height:1.5;">'
+        '<span style="color:#aaa;">Venues: </span>'
+        + ' &middot; '.join(bits)
+        + '</div>'
+    )
+
+
 def history_html(event):
     """
-    Render the GCT sales history for this event. Combines two sources:
+    Render the GCT sales history for this event. Combines three sources:
       - Per-venue per-section breakdown (highest signal — shows section data)
       - Artist-level aggregate (fallback when no venue match)
-    Empty pill when neither matches.
+      - Per-venue ticket breakdown (always shown when artist has any history)
+    Empty pill only when artist has zero GCT history.
     """
     venue_h = event.get("gct_venue_history") or {}
     artist_h = event.get("gct_history")
+    venues_list = event.get("gct_artist_venues") or []
 
     # Venue match — best case, has section-level data
     if venue_h:
@@ -470,6 +586,7 @@ def history_html(event):
             '<div style="margin-top:6px;font-size:11px;color:#666;">'
             + 'GCT @ venue: ' + ' &middot; '.join(bits)
             + '</div>'
+            + _venue_list_html(venues_list)
         )
 
     # Artist aggregate (fallback)
@@ -497,6 +614,7 @@ def history_html(event):
             '<div style="margin-top:6px;font-size:11px;color:#666;">'
             + 'GCT history: ' + ' &middot; '.join(bits)
             + '</div>'
+            + _venue_list_html(venues_list)
         )
 
     return (
