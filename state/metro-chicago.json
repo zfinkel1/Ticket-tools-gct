@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-12T15:27:16.462702Z",
-  "count": 51,
+  "last_run": "2026-05-12T17:34:26.270638Z",
+  "count": 52,
   "events": [
     {
       "slug": "inner-wave-los-mesoneros",
@@ -246,20 +246,7 @@
       "name": "Second Hand News &#8211; We Will Never Forget Tonight",
       "location": "",
       "date": "Fri, Aug 14",
-      "url": "https://metrochicago.com/event/second-hand-news-we-will-never-forget-tonight/metro-chicago/chicago-illinois/",
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Second Hand News",
-        "name": "Fleetwood Mac",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/08GQAI4eElDnROBrJRGE0X",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://metrochicago.com/event/second-hand-news-we-will-never-forget-tonight/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "eagles-of-death-metal-death-by-sexy-20th-anniversary-tour",
@@ -372,6 +359,27 @@
       "location": "",
       "date": "Sat, Oct 10",
       "url": "https://metrochicago.com/event/book-of-love/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "butttootking-2",
+      "name": "BUTTTOOTKING",
+      "location": "",
+      "date": "Sun, Oct 11",
+      "url": "https://metrochicago.com/event/butttootking-2/metro-chicago/chicago-illinois/",
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "BUTTTOOTKING",
+        "name": "Bootsy Collins",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/5K0rbdBrs2tNXe5LeWMATT",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

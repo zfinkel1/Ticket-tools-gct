@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-12T15:27:16.473187Z",
+  "last_run": "2026-05-12T17:33:51.096408Z",
   "count": 67,
   "events": [
     {
@@ -987,7 +987,7 @@
           {
             "name": "Amex Presale Tickets®",
             "start": "2026-05-14T16:00:00Z",
-            "end": "2026-05-15T16:00:00Z"
+            "end": "2026-05-15T15:59:00Z"
           }
         ]
       },
@@ -1918,27 +1918,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "LE SSERAFIM",
-        "name": "LE SSERAFIM",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p",
-        "genres": []
-      },
-      "gct_history": {
-        "events": 2,
-        "avg_margin": 2.5,
-        "profitable_pct": 50.0,
-        "avg_sell_price": 194.27,
-        "avg_cost_price": 207.19,
-        "display_name": "Le Sserafim"
-      },
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv178ZbSGknyfVeS",
@@ -2021,20 +2001,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "JOURNEY",
-        "name": "Journey",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/0rvjqX7ttXeg3mTy8Xscbt",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7Zko_GkdGJoO2",

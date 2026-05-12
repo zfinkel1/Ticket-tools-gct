@@ -1,6 +1,6 @@
 {
   "site": "Wintrust Arena",
-  "last_run": "2026-05-12T15:26:21.565408Z",
+  "last_run": "2026-05-12T17:33:52.148683Z",
   "count": 26,
   "events": [
     {
@@ -198,7 +198,7 @@
           {
             "name": "Amex Presale Tickets®",
             "start": "2026-05-14T16:00:00Z",
-            "end": "2026-05-15T16:00:00Z"
+            "end": "2026-05-15T15:59:00Z"
           }
         ]
       },

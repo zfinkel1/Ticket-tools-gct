@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-12T15:27:16.466186Z",
+  "last_run": "2026-05-12T17:33:45.660469Z",
   "count": 67,
   "events": [
     {
@@ -1954,20 +1954,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "She Wants Revenge",
-        "name": "She Wants Revenge",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/2zRt0sfxNnqI8gLR7d8gWt",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk38GkeXZ_vV",
@@ -2102,20 +2089,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Saosin: 20 Years of Self-Titled",
-        "name": "Saosin",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/1NUOfvAhA9AvsF1ISMkgHX",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3kGkdNxqha",

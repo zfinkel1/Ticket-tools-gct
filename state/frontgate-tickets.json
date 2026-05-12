@@ -1,6 +1,6 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-05-12T15:25:52.802426Z",
+  "last_run": "2026-05-12T17:34:26.269728Z",
   "count": 100,
   "events": [
     {
@@ -606,6 +606,27 @@
       "url": "https://www.frontgatetickets.com/events/oceans-calling-festival"
     },
     {
+      "slug": "ohana-festival",
+      "name": "Ohana Festival",
+      "location": "Dana Point, CA",
+      "date": "September 25, 2026",
+      "url": "https://www.frontgatetickets.com/events/ohana-festival",
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Ohana Festival",
+        "name": "Ouhana",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/3tVHTq8WIDFyayynQFPKo1",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "four-chord",
       "name": "Four Chord",
       "location": "Pittsburgh, PA",
@@ -695,13 +716,6 @@
       "location": "Orlando, FL",
       "date": "November 14, 2026",
       "url": "https://www.frontgatetickets.com/events/vans-warped-tour-3"
-    },
-    {
-      "slug": "darker-waves",
-      "name": "Darker Waves",
-      "location": "Huntington Beach, CA",
-      "date": "November 14, 2026",
-      "url": "https://www.frontgatetickets.com/events/darker-waves"
     }
   ]
 }
