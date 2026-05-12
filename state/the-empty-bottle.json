@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-12T05:04:12.056804Z",
-  "count": 88,
+  "last_run": "2026-05-12T08:05:38.187518Z",
+  "count": 87,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfrpFK",
-      "name": "FREE MONDAY w/ Tragic Heroine / Thro / Try a Dull Knife",
-      "location": "Empty Bottle, Chicago",
-      "date": "Mon, May 11, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/free-monday-w-tragic-heroine-empty-bottle-tickets/14796213",
-      "sales": {
-        "public_start": "2026-03-18T15:00:00Z",
-        "public_end": "2026-05-12T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af7-40",
       "name": "Dumbo Gets Mad / Charlie Chimi",
