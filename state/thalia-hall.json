@@ -1,21 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-11T23:30:53.167959Z",
-  "count": 88,
+  "last_run": "2026-05-12T01:25:35.969914Z",
+  "count": 87,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7jgrF",
-      "name": "Melody's Echo Chamber",
-      "location": "Thalia Hall, Chicago",
-      "date": "Mon, May 11, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jgrF",
-      "sales": {
-        "public_start": "1900-01-01T06:00:00Z",
-        "public_end": "2026-05-12T01:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "rZ7HnEZ1AfpZ3d",
       "name": "Melody’s Echo Chamber – Unclouded Tour with Strange Lot",
