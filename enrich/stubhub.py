@@ -142,43 +142,57 @@ def _best_match(candidates, target_venue, target_year):
 
 
 def _fetch_via_scraperapi(target_url, timeout=90):
-    """Fetch a URL through ScraperAPI premium. Returns HTML string or None."""
+    """Fetch a URL through ScraperAPI premium. Returns HTML string or None.
+
+    Always dumps the FIRST fetch attempt of each run (success or failure)
+    to state/stubhub-debug.json so we can see what's happening on CI:
+    HTTPError code, exception type, or full HTML if it succeeded. Without
+    this, the run is opaque since 104/104 entries are null and the cache
+    only records 'null' not 'why null'.
+    """
     global _debug_dumped
+    dump_payload = {"url": target_url, "fetched_at": time.time()}
+    html = None
     try:
         req = urllib.request.Request(_sp_request(target_url), headers={"User-Agent": "TicketWatcher/1.0"})
         with urllib.request.urlopen(req, timeout=timeout) as r:
             html = r.read().decode("utf-8", errors="ignore")
+            dump_payload["status"] = r.status
     except urllib.error.HTTPError as e:
         print(f"[stubhub] HTTP {e.code} for {target_url[:80]}")
-        return None
+        # Read the error body — ScraperAPI often returns useful info in the
+        # body even on a 4xx (e.g. "Invalid API key", "Quota exceeded").
+        try:
+            err_body = e.read().decode("utf-8", errors="ignore")[:2000]
+        except Exception:
+            err_body = ""
+        dump_payload["status"] = e.code
+        dump_payload["error_body"] = err_body
     except Exception as e:
         print(f"[stubhub] fetch failed: {e}")
-        return None
+        dump_payload["status"] = "exception"
+        dump_payload["error_type"] = type(e).__name__
+        dump_payload["error_msg"] = str(e)[:500]
 
-    # Dump the first response of each run so we can inspect what
-    # ScraperAPI is actually delivering (captcha challenge? empty shell?
-    # different HTML structure?). One sample per run, ~3KB, committed
-    # to state/ so it appears in the next state-snapshot commit.
+    if html is not None:
+        dump_payload["html_length"] = len(html)
+        dump_payload["html_sample_head"] = html[:2000]
+        dump_payload["html_sample_tail"] = html[-1000:] if len(html) > 1000 else ""
+        dump_payload["indicators"] = {
+            "ld_json_blocks": len(re.findall(r'application/ld\+json', html, flags=re.IGNORECASE)),
+            "event_urls": re.findall(r'https://www\.stubhub\.com/[^"\s<>]+/event/\d+/?', html)[:5],
+            "captcha_hits": len(re.findall(r'captcha|datadome|cloudflare|access denied|blocked', html, flags=re.IGNORECASE)),
+            "has_tickets_word": "tickets" in html.lower(),
+            "has_dollar_signs": html.count("$"),
+            "title_tag": (re.search(r'<title[^>]*>([^<]+)</title>', html) or [None, ""])[1][:120] if re.search(r'<title[^>]*>([^<]+)</title>', html) else "",
+        }
+
+    # Dump the first attempt regardless of success/failure
     if not _debug_dumped:
         _debug_dumped = True
         try:
-            indicators = {
-                "ld_json_blocks": len(re.findall(r'application/ld\+json', html, flags=re.IGNORECASE)),
-                "event_urls": re.findall(r'https://www\.stubhub\.com/[^"\s<>]+/event/\d+/?', html)[:5],
-                "captcha_hits": len(re.findall(r'captcha|datadome|cloudflare|access denied|blocked', html, flags=re.IGNORECASE)),
-                "has_tickets_word": "tickets" in html.lower(),
-                "has_dollar_signs": html.count("$"),
-                "title_tag": (re.search(r'<title[^>]*>([^<]+)</title>', html) or [None, ""])[1][:120] if re.search(r'<title[^>]*>([^<]+)</title>', html) else "",
-            }
-            _write_json(DEBUG_DUMP_PATH, {
-                "url": target_url,
-                "fetched_at": time.time(),
-                "html_length": len(html),
-                "html_sample_head": html[:2000],
-                "html_sample_tail": html[-1000:] if len(html) > 1000 else "",
-                "indicators": indicators,
-            })
-            print(f"[stubhub] DEBUG: dumped first response ({len(html)}b) to {DEBUG_DUMP_PATH.name}")
+            _write_json(DEBUG_DUMP_PATH, dump_payload)
+            print(f"[stubhub] DEBUG: dumped first attempt to {DEBUG_DUMP_PATH.name} status={dump_payload.get('status')}")
         except Exception as e:
             print(f"[stubhub] debug-dump failed: {e}")
 
