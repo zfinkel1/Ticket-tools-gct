@@ -1,7 +1,7 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-12T12:30:26.473266Z",
-  "count": 65,
+  "last_run": "2026-05-12T15:27:16.473187Z",
+  "count": 67,
   "events": [
     {
       "slug": "vv178Z_eGkm8Pwdj",
@@ -1902,6 +1902,45 @@
       "price_range": null
     },
     {
+      "slug": "vvG18Z_1RQr5mp",
+      "name": "LE SSERAFIM",
+      "location": "United Center, Chicago",
+      "date": "Fri, Oct 2, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/le-sserafim-chicago-illinois-10-02-2026/event/040064ABDA78BB96",
+      "sales": {
+        "public_start": "2026-05-29T21:00:00Z",
+        "public_end": "2026-10-02T23:30:00Z",
+        "presales": [
+          {
+            "name": "Weverse Presale",
+            "start": "2026-05-27T21:00:00Z",
+            "end": "2026-05-29T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "LE SSERAFIM",
+        "name": "LE SSERAFIM",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p",
+        "genres": []
+      },
+      "gct_history": {
+        "events": 2,
+        "avg_margin": 2.5,
+        "profitable_pct": 50.0,
+        "avg_sell_price": 194.27,
+        "avg_cost_price": 207.19,
+        "display_name": "Le Sserafim"
+      },
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "vv178ZbSGknyfVeS",
       "name": "Doja Cat - Tour Ma Vie World Tour",
       "location": "United Center, Chicago",
@@ -1939,6 +1978,63 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_1fNynZS",
+      "name": "JOURNEY - Final Frontier Tour (An Evening With)",
+      "location": "United Center, Chicago",
+      "date": "Mon, Oct 5, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-chicago-illinois-10-05-2026/event/040064A523E6A033",
+      "sales": {
+        "public_start": "2026-05-15T15:00:00Z",
+        "public_end": "2026-10-05T22:30:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Local/Venue Presales",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-13T17:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-05-15T15:00:00Z",
+            "end": "2026-09-14T22:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "JOURNEY",
+        "name": "Journey",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/0rvjqX7ttXeg3mTy8Xscbt",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1A7Zko_GkdGJoO2",

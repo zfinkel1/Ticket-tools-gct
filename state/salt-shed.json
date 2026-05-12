@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-12T12:30:20.936636Z",
-  "count": 72,
+  "last_run": "2026-05-12T15:27:16.463402Z",
+  "count": 73,
   "events": [
     {
       "slug": "vv178ZbzGkSPs5cQ",
@@ -2168,6 +2168,53 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_1NdArnR",
+      "name": "The Dresden Dolls",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Thu, Oct 29, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/the-dresden-dolls-chicago-illinois-10-29-2026/event/040064A8C315EAAF",
+      "sales": {
+        "public_start": "2026-05-15T15:00:00Z",
+        "public_end": "2026-10-30T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-05-14T15:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-13T14:00:00Z",
+            "end": "2026-05-15T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-05-13T15:00:00Z",
+            "end": "2026-05-15T14:00:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-05-15T15:00:00Z",
+            "end": "2026-10-24T22:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "The Dresden Dolls",
+        "name": "The Dresden Dolls",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/5JqX1glXPg6428ubI1w72i",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1A7Zk38GkeOTpyZ",

@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-12T12:30:10.983369Z",
-  "count": 50,
+  "last_run": "2026-05-12T15:27:16.462702Z",
+  "count": 51,
   "events": [
     {
       "slug": "inner-wave-los-mesoneros",
@@ -240,6 +240,26 @@
       "location": "",
       "date": "Sat, Aug 08",
       "url": "https://metrochicago.com/event/good-hangs/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "second-hand-news-we-will-never-forget-tonight",
+      "name": "Second Hand News &#8211; We Will Never Forget Tonight",
+      "location": "",
+      "date": "Fri, Aug 14",
+      "url": "https://metrochicago.com/event/second-hand-news-we-will-never-forget-tonight/metro-chicago/chicago-illinois/",
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Second Hand News",
+        "name": "Fleetwood Mac",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/08GQAI4eElDnROBrJRGE0X",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "eagles-of-death-metal-death-by-sexy-20th-anniversary-tour",
