@@ -1,6 +1,6 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-12T22:36:17.161340Z",
+  "last_run": "2026-05-12T23:42:34.311101Z",
   "count": 75,
   "events": [
     {
@@ -1629,7 +1629,7 @@
             "end": "2026-05-20T03:00:00Z"
           },
           {
-            "name": "Artist Presale",
+            "name": "Artist Presale + VIP Package Presales",
             "start": "2026-05-18T18:00:00Z",
             "end": "2026-05-20T03:00:00Z"
           },
@@ -1947,10 +1947,10 @@
     },
     {
       "slug": "vvG18Z_1NZsmbd",
-      "name": "The Revivalists",
+      "name": "The Revivalists with Robert Randolph",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Sun, Oct 4, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/the-revivalists-chicago-illinois-10-04-2026/event/040064A8C0C6E603",
+      "url": "https://www.ticketmaster.com/the-revivalists-with-robert-randolph-chicago-illinois-10-04-2026/event/040064A8C0C6E603",
       "sales": {
         "public_start": "2026-05-15T15:00:00Z",
         "public_end": "2026-10-05T02:30:00Z",
