@@ -1,6 +1,6 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-12T17:34:26.271115Z",
+  "last_run": "2026-05-12T19:23:15.869089Z",
   "count": 75,
   "events": [
     {
@@ -1645,21 +1645,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Tove Lo",
-        "name": "Tove Lo",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/4NHQUGzhtTLFvgF5SZesLK",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3bGkenGBSd",
@@ -1981,34 +1967,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "The Revivalists",
-        "name": "The Revivalists",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/5kuJibJcwOC53s3OkoGMRA",
-        "genres": []
-      },
-      "gct_history": {
-        "events": 1,
-        "avg_margin": 45.1,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 104.48,
-        "avg_cost_price": 80.05,
-        "display_name": "The Revivalists"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "the salt shed outdoors - chicago",
-          "tickets": 48,
-          "margin": 20.1
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7Zko_Gkeyirew",

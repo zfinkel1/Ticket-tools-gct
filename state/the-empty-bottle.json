@@ -1,6 +1,6 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-12T17:34:26.276515Z",
+  "last_run": "2026-05-12T19:23:20.013224Z",
   "count": 89,
   "events": [
     {
@@ -1459,21 +1459,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Sweeping Promises",
-        "name": "Sweeping Promises",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/5k9qBHdkzsibPmFJp1XIAt",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE-7",

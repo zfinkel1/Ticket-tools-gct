@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-12T17:34:26.273939Z",
+  "last_run": "2026-05-12T19:23:17.896779Z",
   "count": 89,
   "events": [
     {
@@ -1340,21 +1340,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "This Is Lorelei",
-        "name": "This Is Lorelei",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/0GmYGGZZIU8vHbI0bAXZun",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOVGN",

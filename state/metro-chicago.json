@@ -1,6 +1,6 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-12T17:34:26.270638Z",
+  "last_run": "2026-05-12T19:22:56.884886Z",
   "count": 52,
   "events": [
     {
@@ -365,21 +365,7 @@
       "name": "BUTTTOOTKING",
       "location": "",
       "date": "Sun, Oct 11",
-      "url": "https://metrochicago.com/event/butttootking-2/metro-chicago/chicago-illinois/",
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "BUTTTOOTKING",
-        "name": "Bootsy Collins",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/5K0rbdBrs2tNXe5LeWMATT",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://metrochicago.com/event/butttootking-2/metro-chicago/chicago-illinois/"
     }
   ]
 }
