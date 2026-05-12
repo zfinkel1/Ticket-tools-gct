@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-12T01:25:30.376817Z",
+  "last_run": "2026-05-12T05:04:32.535731Z",
   "count": 20,
   "events": [
     {
@@ -172,6 +172,31 @@
       }
     },
     {
+      "slug": "190010",
+      "name": "GASONLINA THURSDAYS (21+)",
+      "location": "Gold Coast Social",
+      "date": "Thu, May 21 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/gasonlina-thursdays-21--190010",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "GASONLINA THURSDAYS",
+        "name": "Gasoline Tequila",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/4YyosDsDxoedGLYEM125JN",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "173652",
       "name": "Live Nation Presents Black Veil Brides: North American Tour 2026",
       "location": "Ramova Theatre ",
@@ -182,6 +207,56 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "190012",
+      "name": "REGGAETON ON THE ROOF (21+)",
+      "location": "ROOF on theWit",
+      "date": "Fri, May 22 at 9:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/reggaeton-on-the-roof-21--190012",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "REGGAETON ON THE ROOF",
+        "name": "DJ Nelson",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/2ydZrTy8U3kOMOzx20s3dg",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "190006",
+      "name": "DELIRIO LATIN FRIDAYS - SUEÑOS WEEKEND (21+)",
+      "location": "Moe's Cantina - River North",
+      "date": "Fri, May 22 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/delirio-latin-fridays-sue-os-weekend-21--190006",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "DELIRIO LATIN FRIDAYS",
+        "name": "Delirio US",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/48dOyCmWEinn5WFHVWQ0Vp",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "188827",
@@ -201,42 +276,6 @@
       "location": "Galeria Chicago",
       "date": "Fri, May 22 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-chava-j-santos-188782",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188828",
-      "name": "SUEÑOS OFFICIAL PRE-PARTY | LE TWINS",
-      "location": "ELA",
-      "date": "Fri, May 22 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-le-twins-188828",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188788",
-      "name": "SUEÑOS OFFICIAL PRE-PARTY | DYNAMIQO",
-      "location": "RiNo Bar",
-      "date": "Fri, May 22 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-dynamiqo-188788",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188824",
-      "name": "SUEÑOS OFFICIAL PRE-PARTY | FREDY FRESCO",
-      "location": "Gold Coast Social",
-      "date": "Fri, May 22 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-fredy-fresco-188824",
       "sales": {
         "public_start": null,
         "public_end": null,

@@ -1,26 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-12T01:25:35.969914Z",
-  "count": 87,
+  "last_run": "2026-05-12T05:04:09.999944Z",
+  "count": 86,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfpZ3d",
-      "name": "Melody’s Echo Chamber – Unclouded Tour with Strange Lot",
-      "location": "Thalia Hall, Chicago",
-      "date": "Mon, May 11, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/melodys-echo-chamber-unclouded-thalia-hall-tickets/14580483",
-      "sales": {
-        "public_start": "2025-10-01T15:00:00Z",
-        "public_end": "2026-05-12T01:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 46.39,
-        "max": 423.83,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af7P17",
       "name": "Gia Margaret is on tour s i n g i n g with Brendan Eder Ensemble",
