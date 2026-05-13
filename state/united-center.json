@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-13T16:07:48.770277Z",
+  "last_run": "2026-05-13T18:17:54.941316Z",
   "count": 68,
   "events": [
     {
@@ -2245,34 +2245,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "KATSEYE: THE WILDWORLD",
-        "name": "KATSEYE",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/3c0gDdb9lhnHGFtP4prQpn",
-        "genres": []
-      },
-      "gct_history": {
-        "events": 1,
-        "avg_margin": 16.3,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 2100.0,
-        "avg_cost_price": 1805.26,
-        "display_name": "Katseye"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "infosys theater at madison square garden",
-          "tickets": 2,
-          "margin": 16.3
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoaGkdxvkbx",

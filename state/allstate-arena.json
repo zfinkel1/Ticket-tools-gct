@@ -1,6 +1,6 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-13T16:07:05.699976Z",
+  "last_run": "2026-05-13T18:17:55.565611Z",
   "count": 38,
   "events": [
     {
@@ -470,7 +470,7 @@
           {
             "name": "Ringsider Package Presale",
             "start": "2026-05-14T15:00:00Z",
-            "end": "2026-05-15T04:59:00Z"
+            "end": "2026-05-15T03:00:00Z"
           },
           {
             "name": "Ringsider Package Onsale",

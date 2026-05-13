@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-13T16:07:48.764138Z",
+  "last_run": "2026-05-13T18:17:49.699594Z",
   "count": 68,
   "events": [
     {
@@ -816,21 +816,7 @@
         "public_end": "2026-06-20T14:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "The 9AM Banger: R&B at 9AM",
-        "name": "SiR",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/3QTDHixorJelOLxoxcjqGx",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1kvZv0PxGA1SqSc",
@@ -936,21 +922,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Cumbiatron",
-        "name": "Cumbiatron",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/40rUITgDwb9i4Ydr2EbVYy",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1F8Z_aft-bZd21A",
