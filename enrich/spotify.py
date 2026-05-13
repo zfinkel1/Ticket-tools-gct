@@ -1,41 +1,32 @@
 #!/usr/bin/env python3
 """
-Spotify enrichment for ticket events.
+Artist popularity enrichment for ticket events.
 
-Looks up the artist's popularity (0–100) and follower count via the Spotify
-Web API and caches the result on disk so we don't hammer the API across runs.
+Spotify deprecated `popularity` and `followers` on the public Web API
+(client-credentials apps return null even though the search succeeds).
+Flare/TicketFlipping retains enterprise access and exposes those fields
+on its /api/all-events response — we already cache that response on each
+watcher run (state/flare-events-cache.json), so we use it as the source
+of truth.
 
 Used by watcher.py to add a "popularity" badge to each new event in the
-alert email — helps triage at a glance which announcements actually matter.
-
-Auth: client credentials flow (no user login needed).
+alert email — helps triage which announcements actually matter.
 """
 
-import base64
 import html
 import json
-import os
 import re
 import time
-import urllib.error
-import urllib.parse
-import urllib.request
 from pathlib import Path
 
 CACHE_PATH = Path(__file__).resolve().parent.parent / "state" / "spotify-cache.json"
-TOKEN_CACHE_PATH = Path(__file__).resolve().parent.parent / "state" / "spotify-token.json"
 
-# Hardcoded fallback (same creds used in flare_analyzer.py). Env vars take
-# precedence so we can override in CI without touching code.
-SP_ID_DEFAULT = "d83607186f454b0b8f96c13af5daf14d"
-SP_SEC_DEFAULT = "c53b7fa0e0504d8492295c375d38a9bb"
-
-
-def _creds():
-    return (
-        os.environ.get("SPOTIFY_CLIENT_ID") or SP_ID_DEFAULT,
-        os.environ.get("SPOTIFY_CLIENT_SECRET") or SP_SEC_DEFAULT,
-    )
+# In-process index over the Flare cache: {normalized_event_name: artist_data}
+# Rebuilt at most once per hour so a long-running process picks up a fresh
+# Flare cache when it lands.
+_flare_index = None
+_flare_index_built_at = 0
+_FLARE_INDEX_TTL = 3600  # seconds
 
 
 def _load_cache():
@@ -54,37 +45,64 @@ def _save_cache(cache):
         json.dump(cache, f, ensure_ascii=False)
 
 
-def _get_token():
-    """Client-credentials token. Cached on disk for ~1h."""
-    if TOKEN_CACHE_PATH.exists():
-        try:
-            with open(TOKEN_CACHE_PATH, encoding="utf-8") as f:
-                tok = json.load(f)
-            if tok.get("expires_at", 0) > time.time() + 60:
-                return tok["access_token"]
-        except Exception:
-            pass
+def _build_flare_index():
+    """
+    Walk the cached Flare all-events list and produce
+    {normalized_event_name: {name, popularity, followers, ...}}.
 
-    sp_id, sp_sec = _creds()
-    auth = base64.b64encode(f"{sp_id}:{sp_sec}".encode()).decode()
-    req = urllib.request.Request(
-        "https://accounts.spotify.com/api/token",
-        data=urllib.parse.urlencode({"grant_type": "client_credentials"}).encode(),
-        headers={
-            "Authorization": f"Basic {auth}",
-            "Content-Type": "application/x-www-form-urlencoded",
-        },
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=15) as r:
-        body = json.loads(r.read())
+    Multiple Flare events can share an event_name (same tour, many cities) —
+    keep the entry with the highest spotify_popularity since the artist-level
+    popularity should be identical and we want a non-null sample.
+    """
+    from .flare import EVENTS_CACHE_PATH
+    if not EVENTS_CACHE_PATH.exists():
+        return {}
+    try:
+        with open(EVENTS_CACHE_PATH, encoding="utf-8") as f:
+            cache = json.load(f)
+    except Exception:
+        return {}
+    index = {}
+    for e in cache.get("events", []):
+        raw_name = (e.get("event_name") or e.get("name") or "").strip()
+        if not raw_name:
+            continue
+        pop = e.get("spotify_popularity")
+        followers = e.get("spotify_followers")
+        if pop is None and followers is None:
+            continue
+        # Normalize Flare event names through the same artist extractor we
+        # apply to scraped titles. Then index under every progressive prefix
+        # of the cleaned name ("sting eras tour" -> "sting", "sting eras",
+        # "sting eras tour") so a watcher event titled just 'Sting' still
+        # matches. On collisions (e.g. rapper Drake vs Drake Bell both
+        # indexing 'drake'), the higher-popularity entry wins.
+        artist = (extract_artist(raw_name) or raw_name).lower().strip()
+        if not artist:
+            continue
+        record = {
+            "name": raw_name,
+            "popularity": pop,
+            "followers": followers,
+            "city_streams": e.get("spotify_city_streams"),
+            "url": e.get("artist_url") or e.get("spotify_url"),
+            "genres": [],
+        }
+        words = artist.split()
+        for i in range(1, len(words) + 1):
+            k = " ".join(words[:i])
+            existing = index.get(k)
+            if not existing or (pop or 0) > (existing.get("popularity") or 0):
+                index[k] = record
+    return index
 
-    token = body["access_token"]
-    expires_at = time.time() + body.get("expires_in", 3600)
-    TOKEN_CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(TOKEN_CACHE_PATH, "w", encoding="utf-8") as f:
-        json.dump({"access_token": token, "expires_at": expires_at}, f)
-    return token
+
+def _get_flare_index():
+    global _flare_index, _flare_index_built_at
+    if _flare_index is None or time.time() - _flare_index_built_at > _FLARE_INDEX_TTL:
+        _flare_index = _build_flare_index()
+        _flare_index_built_at = time.time()
+    return _flare_index
 
 
 def _build_venue_at_pattern():
@@ -174,20 +192,25 @@ def extract_artist(title):
     # Drop a trailing date or year
     t = re.sub(r"\s+\d{4}$", "", t).strip()
     t = re.sub(r"\s+\d{1,2}/\d{1,2}(/\d{2,4})?$", "", t).strip()
+    # Drop a trailing tour-version number ('Sting 3.0 Tour' -> after the
+    # 'Tour' strip we have 'Sting 3.0' — finish the job).
+    t = re.sub(r"\s+\d+(?:\.\d+)+$", "", t).strip()
 
     return t or None
 
 
-def _http_get_json(url, token):
-    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
-    with urllib.request.urlopen(req, timeout=15) as r:
-        return json.loads(r.read())
-
-
 def get_artist_data(artist_name):
     """
-    Returns {'name', 'popularity', 'followers', 'url', 'genres'} or None
-    if Spotify finds no match. Cached on disk by artist name.
+    Returns {'name', 'popularity', 'followers', 'url', 'genres', 'city_streams'}
+    or None if no Flare event matches the artist name.
+
+    Match strategy:
+      1. Exact normalized match on Flare event_name
+      2. Flare event_name starts with `artist_name + ' '` (e.g. 'sting'
+         matches 'sting 3.0 tour' but not 'stingray symphony')
+
+    A small on-disk cache (state/spotify-cache.json) memoizes per-artist
+    results for 30 days so repeat lookups don't rebuild the index each time.
     """
     if not artist_name:
         return None
@@ -196,42 +219,16 @@ def get_artist_data(artist_name):
     key = artist_name.lower().strip()
     if key in cache:
         cached = cache[key]
-        # 30-day TTL on cached entries (popularity drifts over time)
         if cached.get("cached_at", 0) > time.time() - 30 * 86400:
             return cached.get("data")
 
-    try:
-        token = _get_token()
-    except Exception as e:
-        print(f"[spotify] token fetch failed: {e}")
-        return None
+    # Both sides of the lookup go through extract_artist — the Flare index
+    # keys are normalized when built, the input here is normalized by
+    # enrich_event before calling. So exact match is correct, and substring
+    # matching would just create wrong pairings (e.g. 'Drake' -> 'Drake Bell').
+    index = _get_flare_index()
+    data = index.get(key)
 
-    try:
-        url = "https://api.spotify.com/v1/search?" + urllib.parse.urlencode(
-            {"q": artist_name, "type": "artist", "limit": 1}
-        )
-        body = _http_get_json(url, token)
-    except urllib.error.HTTPError as e:
-        print(f"[spotify] search HTTP {e.code} for {artist_name!r}")
-        return None
-    except Exception as e:
-        print(f"[spotify] search failed for {artist_name!r}: {e}")
-        return None
-
-    items = body.get("artists", {}).get("items", [])
-    if not items:
-        cache[key] = {"cached_at": time.time(), "data": None}
-        _save_cache(cache)
-        return None
-
-    a = items[0]
-    data = {
-        "name": a.get("name"),
-        "popularity": a.get("popularity"),
-        "followers": a.get("followers", {}).get("total"),
-        "url": a.get("external_urls", {}).get("spotify"),
-        "genres": a.get("genres", [])[:3],
-    }
     cache[key] = {"cached_at": time.time(), "data": data}
     _save_cache(cache)
     return data
@@ -250,7 +247,7 @@ def enrich_event(event):
     data = get_artist_data(artist)
     if data:
         event["enrichment"] = {
-            "source": "spotify",
+            "source": "flare",  # Backed by Flare's all-events cache, not Spotify direct
             "artist_query": artist,
             **data,
         }
