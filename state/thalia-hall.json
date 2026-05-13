@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-13T21:53:39.268045Z",
+  "last_run": "2026-05-13T23:07:14.203412Z",
   "count": 91,
   "events": [
     {
@@ -254,12 +254,7 @@
         "public_end": "2026-05-26T23:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "rZ7HnEZ1AfvNa0",
