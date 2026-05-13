@@ -1,52 +1,8 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-13T01:30:32.559948Z",
-  "count": 67,
+  "last_run": "2026-05-13T05:31:50.437585Z",
+  "count": 66,
   "events": [
-    {
-      "slug": "vv1A7ZkooGkd5zHb7",
-      "name": "Wage War - It Calls Me By Name Tour",
-      "location": "House of Blues Chicago",
-      "date": "Tue, May 12, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/wage-war-it-calls-me-by-chicago-illinois-05-12-2026/event/04006451CBE3C604",
-      "sales": {
-        "public_start": "2026-02-27T16:00:00Z",
-        "public_end": "2026-05-12T23:30:00Z",
-        "presales": [
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2026-02-25T17:00:00Z",
-            "end": "2026-02-27T05:59:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2026-02-27T16:00:00Z",
-            "end": "2026-04-28T03:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-02-25T17:00:00Z",
-            "end": "2026-02-27T05:59:00Z"
-          },
-          {
-            "name": "Spotify Presale",
-            "start": "2026-02-26T18:00:00Z",
-            "end": "2026-02-27T05:59:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2026-02-25T17:00:00Z",
-            "end": "2026-02-27T05:59:00Z"
-          },
-          {
-            "name": "2 for $25 offer",
-            "start": "2026-04-16T15:00:00Z",
-            "end": "2026-04-19T03:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv178Z_AGknzLzEh",
       "name": "Chicago Comedy Club",

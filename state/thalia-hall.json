@@ -1,26 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-13T01:30:33.286967Z",
-  "count": 89,
+  "last_run": "2026-05-13T05:31:51.324702Z",
+  "count": 88,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af7P17",
-      "name": "Gia Margaret is on tour s i n g i n g with Brendan Eder Ensemble",
-      "location": "Thalia Hall, Chicago",
-      "date": "Tue, May 12, 2026 · 7:30 PM",
-      "url": "https://www.ticketweb.com/event/gia-margaret-is-on-tour-thalia-hall-tickets/14125284",
-      "sales": {
-        "public_start": "2026-02-05T16:00:00Z",
-        "public_end": "2026-05-13T00:30:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 33.52,
-        "max": 33.52,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af77Ff",
       "name": "Maye & Ambar Lucid - Entre Dos Mundos Tour with special guest Judith",
