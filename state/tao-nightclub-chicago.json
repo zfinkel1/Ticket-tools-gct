@@ -1,6 +1,6 @@
 {
   "site": "TAO Nightclub Chicago",
-  "last_run": "2026-05-13T20:18:43.633525Z",
+  "last_run": "2026-05-13T22:41:03.875573Z",
   "count": 10,
   "events": [
     {
@@ -8,21 +8,7 @@
       "name": "DJ Snake",
       "location": "TAO Nightclub Chicago",
       "date": "Sat, Jun 6, 2026",
-      "url": "https://taogroup.com/event/6-6-2026-dj-snake-tao-nightclub/",
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "DJ Snake",
-        "name": "DJ Snake",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/540vIaP2JwjQb9dm3aArA4",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/6-6-2026-dj-snake-tao-nightclub/"
     },
     {
       "slug": "227949",
