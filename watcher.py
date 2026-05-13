@@ -330,7 +330,22 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true",
                         help="Parse and diff, but skip email + state writes")
+    parser.add_argument("--priority", choices=["fast", "normal", "all"], default="all",
+                        help="fast = sites tagged priority=fast (every 5 min cron); "
+                             "normal = everything else (every 15 min cron); all = no filter")
     args = parser.parse_args()
+
+    # Filter sites by priority tag. Sites without an explicit "priority" key
+    # default to "normal" so they keep running on the existing 15-min cron.
+    if args.priority == "fast":
+        sites_to_run = [s for s in SITES if s.get("priority") == "fast"]
+    elif args.priority == "normal":
+        sites_to_run = [s for s in SITES if s.get("priority", "normal") != "fast"]
+    else:
+        sites_to_run = list(SITES)
+    if not sites_to_run:
+        print(f"[INFO] No sites match priority={args.priority}; nothing to do.")
+        return
 
     api_key = os.environ.get("SENDGRID_API_KEY")
     alert_email = os.environ.get("ALERT_EMAIL", "zfinkel1@gmail.com")
@@ -345,7 +360,7 @@ def main():
     pending_saves = []   # [(site, current_events)] — defer until email succeeds
     exit_code = 0
 
-    for site in SITES:
+    for site in sites_to_run:
         name = site["name"]
         parser_type = site["parser"]
         site_parser = PARSERS.get(parser_type)

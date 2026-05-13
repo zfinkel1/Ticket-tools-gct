@@ -1,9 +1,11 @@
-name: Ticket Watcher
+name: Ticket Watcher (Fast)
 
+# Runs every 5 minutes against sites tagged priority="fast" in sites.py
+# (currently TAO). The default 15-min cron in frontgate.yml skips these via
+# --priority normal so each site is only scraped on one schedule.
 on:
   schedule:
-    # Every 15 minutes (inside GitHub Actions free tier)
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -25,20 +27,18 @@ jobs:
           pip install playwright==1.48.0
           playwright install --with-deps chromium
 
-      - name: Run watcher (normal priority sites)
+      - name: Run watcher (fast priority sites)
         env:
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
           FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
           SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
-        run: python watcher.py --priority normal
+        run: python watcher.py --priority fast
 
       - name: Commit state changes
         run: |
           git config user.name "ticket-watcher"
           git config user.email "actions@users.noreply.github.com"
-          # Normalize CRLF/LF so cross-platform line endings don't show as
-          # spurious changes that block the diff check below.
           git config core.autocrlf input
           git add state/
           if git diff --cached --quiet; then
@@ -46,27 +46,21 @@ jobs:
             exit 0
           fi
 
-          # Stash the staged state changes onto a throwaway branch. We can
-          # then reset main to fresh remote and cherry-pick our state commit
-          # cleanly each retry — no half-rebased states, no autostash quirks.
-          git commit -m "state: update event snapshots [skip ci]"
+          git commit -m "state: update event snapshots (fast) [skip ci]"
           STATE_SHA=$(git rev-parse HEAD)
 
           for i in 1 2 3 4 5; do
             git fetch origin main
             git reset --hard origin/main
 
-            # Replay our state commit on top of the freshly fetched main.
-            # State files don't conflict between runs in practice, but if a
-            # cherry-pick conflict ever does happen, take OUR version and move on.
             if git cherry-pick "$STATE_SHA"; then
-              :  # clean cherry-pick
+              :
             else
               echo "[push] attempt $i: cherry-pick conflicted, taking ours"
               git checkout --theirs -- state/ 2>/dev/null || true
               git checkout "$STATE_SHA" -- state/
               git add state/
-              git -c core.editor=true cherry-pick --continue || git commit -m "state: update event snapshots [skip ci]"
+              git -c core.editor=true cherry-pick --continue || git commit -m "state: update event snapshots (fast) [skip ci]"
             fi
 
             if git push origin main; then

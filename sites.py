@@ -39,6 +39,10 @@ SITES = [
         "name": "TAO Nightclub Chicago",
         "parser": "taogroup",
         "venue_id": 131,
+        # Runs on the fast (every-5-min) workflow instead of the 15-min one
+        # because TAO drops add-ons close to event time and the extra cadence
+        # catches them while listings are still available.
+        "priority": "fast",
     },
     {
         "name": "Salt Shed",
