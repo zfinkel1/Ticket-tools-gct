@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-13T18:18:07.331418Z",
+  "last_run": "2026-05-13T20:18:21.321909Z",
   "count": 90,
   "events": [
     {
@@ -1062,21 +1062,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Asal: Kiss The Sun",
-        "name": "Asal",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/2CPDwyokR2lgqu0yNGe2cU",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfxpkK",

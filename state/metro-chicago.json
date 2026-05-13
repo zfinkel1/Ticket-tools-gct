@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-13T18:17:27.210060Z",
-  "count": 52,
+  "last_run": "2026-05-13T20:18:43.632904Z",
+  "count": 53,
   "events": [
     {
       "slug": "inner-wave-los-mesoneros",
@@ -79,6 +79,27 @@
       "location": "",
       "date": "Thu, Jun 04",
       "url": "https://metrochicago.com/event/terror/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "nocturna-38th-anniversary",
+      "name": "Nocturna: 38th Anniversary",
+      "location": "",
+      "date": "Sat, Jun 06",
+      "url": "https://metrochicago.com/event/nocturna-38th-anniversary/metro-chicago/chicago-illinois/",
+      "enrichment": {
+        "source": "spotify",
+        "artist_query": "Nocturna: 38th Anniversary",
+        "name": "Nocturna Blooms",
+        "popularity": null,
+        "followers": null,
+        "url": "https://open.spotify.com/artist/7nt4oCLUZ8EKZiHo1h6g9V",
+        "genres": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "jane-remover",
