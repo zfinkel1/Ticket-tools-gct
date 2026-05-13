@@ -1,6 +1,6 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-13T20:18:43.633786Z",
+  "last_run": "2026-05-13T21:53:34.648258Z",
   "count": 92,
   "events": [
     {
@@ -163,12 +163,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfbtvN",
@@ -1000,18 +995,18 @@
     },
     {
       "slug": "rZ7HnEZ1AfApF0",
-      "name": "Junglepussy",
+      "name": "*SOLD OUT* Junglepussy",
       "location": "Empty Bottle, Chicago",
       "date": "Sat, Jul 18, 2026 · 11:00 PM",
-      "url": "https://www.ticketweb.com/event/junglepussy-empty-bottle-tickets/14156224",
+      "url": "https://www.ticketweb.com/event/sold-out-junglepussy-empty-bottle-tickets/14156224",
       "sales": {
         "public_start": "2026-02-18T16:00:00Z",
         "public_end": "2026-07-19T04:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 35.23,
-        "max": 35.23,
+        "min": 0.0,
+        "max": 0.0,
         "currency": "USD",
         "type": "standard"
       }

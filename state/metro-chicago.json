@@ -1,6 +1,6 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-13T20:18:43.632904Z",
+  "last_run": "2026-05-13T21:53:19.839058Z",
   "count": 53,
   "events": [
     {
@@ -85,21 +85,7 @@
       "name": "Nocturna: 38th Anniversary",
       "location": "",
       "date": "Sat, Jun 06",
-      "url": "https://metrochicago.com/event/nocturna-38th-anniversary/metro-chicago/chicago-illinois/",
-      "enrichment": {
-        "source": "spotify",
-        "artist_query": "Nocturna: 38th Anniversary",
-        "name": "Nocturna Blooms",
-        "popularity": null,
-        "followers": null,
-        "url": "https://open.spotify.com/artist/7nt4oCLUZ8EKZiHo1h6g9V",
-        "genres": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://metrochicago.com/event/nocturna-38th-anniversary/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "jane-remover",
