@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-14T04:29:03.439818Z",
-  "count": 92,
+  "last_run": "2026-05-14T07:32:52.136301Z",
+  "count": 91,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfOdaS",
-      "name": "tat songs / Static Paisley / Andrew Harper Band / DJ Jonathan Valdez",
-      "location": "Empty Bottle, Chicago",
-      "date": "Wed, May 13, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/tat-songs-static-paisley-empty-bottle-tickets/14803273",
-      "sales": {
-        "public_start": "2026-03-23T15:00:00Z",
-        "public_end": "2026-05-14T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 16.17,
-        "max": 16.17,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af-e3K",
       "name": "Lolina / Bone Study / Brandon Juhans",

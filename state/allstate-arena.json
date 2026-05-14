@@ -1,27 +1,8 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-14T04:29:04.451614Z",
-  "count": 38,
+  "last_run": "2026-05-14T07:32:53.430272Z",
+  "count": 37,
   "events": [
-    {
-      "slug": "vv1A7ZkCpGkdCRp4I",
-      "name": "Triumph: The Rock & Roll Machine Reloaded Tour",
-      "location": "Allstate Arena, Rosemont",
-      "date": "Wed, May 13, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/triumph-the-rock-roll-machine-reloaded-rosemont-illinois-05-13-2026/event/04006396CEBD6568",
-      "sales": {
-        "public_start": "2026-01-07T16:00:00Z",
-        "public_end": "2026-05-14T02:00:00Z",
-        "presales": [
-          {
-            "name": "VIP Packages Onsale",
-            "start": "2026-01-07T16:00:00Z",
-            "end": "2026-05-07T03:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1A7ZkuvGkdNw7Rv",
       "name": "Bring Me The Horizon - N. American Ascension Program 2",
