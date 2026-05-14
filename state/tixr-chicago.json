@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-14T14:42:29.299730Z",
+  "last_run": "2026-05-14T16:35:16.426206Z",
   "count": 20,
   "events": [
     {
@@ -172,6 +172,23 @@
       }
     },
     {
+      "slug": "190411",
+      "name": "Road To Sueños: Dj Dynamiqo",
+      "location": "Joy District",
+      "date": "Thu, May 21 at 6:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-dj-dynamiqo-190411",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "190010",
       "name": "GASONLINA THURSDAYS (21+)",
       "location": "Gold Coast Social",
@@ -184,59 +201,62 @@
       }
     },
     {
+      "slug": "190415",
+      "name": "Road To Sueños | Gold Coast Social",
+      "location": "Gold Coast Social",
+      "date": "Thu, May 21 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-gold-coast-social-190415",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "190414",
+      "name": "Road To Sueños | La Casita",
+      "location": "Galeria Chicago",
+      "date": "Thu, May 21 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-la-casita-190414",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "190413",
+      "name": "Road To Sueños | RiNoVrsE",
+      "location": "RiNo Bar",
+      "date": "Thu, May 21 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-rinovrse-190413",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "173652",
       "name": "Live Nation Presents Black Veil Brides: North American Tour 2026",
       "location": "Ramova Theatre ",
       "date": "Fri, May 22 at 5:30 PM CDT",
       "url": "https://www.tixr.com/groups/ramovatheatre/events/live-nation-presents-black-veil-brides-north-american-tour-2026-173652",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "190012",
-      "name": "REGGAETON ROOFTOP - SUEÑOS WEEKEND (21+)",
-      "location": "ROOF on theWit",
-      "date": "Fri, May 22 at 9:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/reggaeton-rooftop-sue-os-weekend-21--190012",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "190006",
-      "name": "DELIRIO LATIN FRIDAYS - SUEÑOS WEEKEND (21+)",
-      "location": "Moe's Cantina - River North",
-      "date": "Fri, May 22 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/delirio-latin-fridays-sue-os-weekend-21--190006",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188827",
-      "name": "Sueños Official Pre Party | 2DEEP",
-      "location": "Hideaway",
-      "date": "Fri, May 22 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-2deep-188827",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188782",
-      "name": "Sueños Official Pre Party | CHAVA + J SANTOS",
-      "location": "Galeria Chicago",
-      "date": "Fri, May 22 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-chava-j-santos-188782",
       "sales": {
         "public_start": null,
         "public_end": null,
