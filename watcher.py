@@ -35,6 +35,7 @@ from pathlib import Path
 from parsers import PARSERS
 from sites import SITES
 from enrich.spotify import enrich_event, format_followers, popularity_label
+from enrich.scoring import score_event, predict_tiers
 from enrich.flare import (
     enrich_event_with_history,
     history_html,
@@ -111,6 +112,59 @@ def send_email(to_addrs, from_addr, subject, html_body, api_key):
         return r.status
 
 
+def _score_block_html(e):
+    """Render the buy/watch/skip badge + score breakdown for the email."""
+    sd = e.get("score_data")
+    if not sd: return ""
+    score = sd.get("score", 0)
+    rec = sd.get("rec", "skip")
+    comp = sd.get("components", {})
+    bg = {"buy": "#16a34a", "watch": "#f59e0b", "skip": "#dc2626"}.get(rec, "#666")
+    label = {"buy": "BUY", "watch": "WATCH", "skip": "SKIP"}[rec]
+    # Build short breakdown of non-zero components
+    breakdown = []
+    for k, v in comp.items():
+        if k in ("history_label", "pattern_labels"): continue
+        if isinstance(v, (int, float)) and v != 0:
+            breakdown.append(f"{k}:{v:+d}")
+    hist_label = comp.get("history_label", "")
+    pattern_labels = comp.get("pattern_labels") or []
+    return (
+        f'<div style="margin-top:6px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">'
+        f'<span style="display:inline-block;background:{bg};color:#fff;font-size:11px;font-weight:800;'
+        f'padding:3px 9px;border-radius:4px;letter-spacing:0.04em;">{label} {score}/99</span>'
+        + (f'<span style="font-size:11px;color:#666;">{html.escape(hist_label)}</span>' if hist_label != "no history" else "")
+        + (f'<span style="font-size:11px;color:#0d8a3d;font-weight:600;">{", ".join(html.escape(p) for p in pattern_labels)}</span>' if pattern_labels else "")
+        + '</div>'
+        + (f'<div style="font-size:10px;color:#999;margin-top:3px;">{" · ".join(breakdown)}</div>' if breakdown else "")
+    )
+
+
+def _tier_predictions_html(e):
+    """Render the tier-level resale predictions table for the email."""
+    preds = e.get("tier_predictions") or []
+    if not preds: return ""
+    rows = []
+    for p in preds:
+        margin = p["predicted_margin"]
+        mcolor = "#16a34a" if margin >= 25 else "#f59e0b" if margin >= 10 else "#dc2626"
+        rows.append(
+            f'<tr><td style="padding:3px 6px;font-size:11px;color:#333;">{html.escape(p["tier"])}</td>'
+            f'<td style="padding:3px 6px;font-size:11px;color:#666;text-align:right;">${p["predicted_face"]:.0f}</td>'
+            f'<td style="padding:3px 6px;font-size:11px;color:#333;text-align:right;">${p["predicted_resale"]:.0f}</td>'
+            f'<td style="padding:3px 6px;font-size:11px;color:{mcolor};font-weight:700;text-align:right;">{margin:+.0f}%</td>'
+            f'<td style="padding:3px 6px;font-size:10px;color:#999;text-align:right;">n={p["count"]}</td></tr>'
+        )
+    return (
+        '<div style="margin-top:8px;">'
+        '<div style="font-size:10px;font-weight:700;color:#666;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:3px;">'
+        'Best tiers (predicted face / resale / margin)</div>'
+        '<table style="width:100%;border-collapse:collapse;">'
+        + "".join(rows)
+        + '</table></div>'
+    )
+
+
 def _enrichment_html(e):
     enr = e.get("enrichment") or {}
     if not enr:
@@ -150,20 +204,24 @@ def build_email(by_site, baselined_sites=None):
     total = sum(len(v) for v in by_site.values())
     sections = []
     for site_name, events in by_site.items():
+        # Sort by score (highest first), falling back to popularity for events
+        # that didn't get scored.
         events = sorted(
             events,
-            key=lambda e: -(((e.get("enrichment") or {}).get("popularity")) or -1),
+            key=lambda e: -(
+                ((e.get("score_data") or {}).get("score") or 0) * 100
+                + (((e.get("enrichment") or {}).get("popularity")) or 0)
+            ),
         )
         rows = []
         for e in events:
-            # Decode HTML entities from the source, then re-escape so
-            # ampersands/angle brackets in event names don't break the
-            # surrounding markup or open an XSS-shaped vector.
             name = html.escape(html.unescape(e.get("name", "Unnamed")))
             date = html.escape(e.get("date") or "TBA")
             loc = html.escape(e.get("location") or "")
             url = html.escape(e.get("url", "#"), quote=True)
             enrichment_html = _enrichment_html(e)
+            score_block = _score_block_html(e)
+            tier_preds_block = _tier_predictions_html(e)
             rec_block = recommendation_html(e)
             sales_block = sales_status_html(e)
             price_block = price_range_html(e)
@@ -177,10 +235,12 @@ def build_email(by_site, baselined_sites=None):
                   <a href="{url}" style="color:#0d1b3e;text-decoration:none;">{name} &rarr;</a>
                 </div>
                 <div style="font-size:13px;color:#666;">{date}{' &middot; ' + loc if loc else ''}</div>
+                {score_block}
                 {sales_block}
                 {price_block}
                 {enrichment_html}
                 {history_block}
+                {tier_preds_block}
                 {current_sold_block}
                 {current_listing_block}
               </td></tr>
@@ -428,6 +488,17 @@ def main():
                     enrich_event(ev)
                 except Exception as e:
                     print(f"[warn] spotify enrich failed for {ev.get('name','?')}: {e}")
+                try:
+                    # Score the event using historical data + derived signals.
+                    # Lightweight — no API calls, just reads cached JSON.
+                    ev["score_data"] = score_event(
+                        ev.get("name", ""), ev.get("location", ""), ev.get("date", "")
+                    )
+                    ev["tier_predictions"] = predict_tiers(
+                        ev.get("name", ""), ev.get("location", "")
+                    )
+                except Exception as e:
+                    print(f"[warn] scoring failed for {ev.get('name','?')}: {e}")
                 try:
                     enrich_event_with_history(ev)
                 except Exception as e:
