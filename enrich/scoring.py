@@ -77,16 +77,38 @@ _DOW_WEIGHTS = {
 
 
 def _parse_date(date_str):
+    """Parse the messy date strings that different venue parsers produce.
+
+    Handled formats:
+      - ISO: 2026-08-23, 2026-08-23T20:00:00
+      - US: 8/23/2026
+      - Human: 'Sun, Aug 23, 2026 - 9:00 PM' (the RHP/Empty Bottle style)
+      - 'Aug 23, 2026', 'August 23, 2026'
+    """
     if not date_str:
         return None
-    for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%d", "%m/%d/%Y"):
+    s = str(date_str).strip()
+    # Try strict formats on a sensible length prefix of the string.
+    for fmt, length in (("%Y-%m-%dT%H:%M:%S", 19), ("%Y-%m-%d", 10),
+                        ("%m/%d/%Y", 10), ("%m-%d-%Y", 10)):
         try:
-            return datetime.strptime(str(date_str)[:len(fmt) - fmt.count('%') + len(fmt)//2], fmt)
+            return datetime.strptime(s[:length], fmt)
         except (ValueError, TypeError):
             continue
-    # Loose try — first 10 chars as YYYY-MM-DD
+    # Human formats — extract month/day/year via regex so weekday prefix /
+    # time suffix don't break the parse.
+    m = re.search(r"([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})", s)
+    if m:
+        mon_name, day, year = m.group(1), int(m.group(2)), int(m.group(3))
+        for fmt in ("%b", "%B"):
+            try:
+                mon = datetime.strptime(mon_name[:3] if fmt == "%b" else mon_name, fmt).month
+                return datetime(year, mon, day)
+            except (ValueError, TypeError):
+                continue
+    # Last-ditch: first 10 chars as YYYY-MM-DD
     try:
-        return datetime.strptime(str(date_str)[:10], "%Y-%m-%d")
+        return datetime.strptime(s[:10], "%Y-%m-%d")
     except Exception:
         return None
 
@@ -394,4 +416,52 @@ def score_event(event_name, venue_name, event_date):
         rec = "watch"
     else:
         rec = "skip"
+    # Build a single-sentence "why" so emails always have a reason, even
+    # when no signals fired (the common skip case).
+    components["why"] = _build_why_sentence(components, rec)
     return {"score": score, "rec": rec, "components": components}
+
+
+def _build_why_sentence(comp, rec):
+    """One-line human explanation: what fired (positives) + what's missing
+    (for skips)."""
+    positives = []
+    negatives = []
+    hist_label = comp.get("history_label", "")
+    hist_pts = comp.get("history", 0)
+    if hist_pts >= 20:
+        positives.append(f"strong history ({hist_label})")
+    elif hist_pts >= 8:
+        positives.append(f"decent history ({hist_label})")
+    elif hist_pts <= -10:
+        negatives.append(f"weak history ({hist_label})")
+    elif hist_pts < 0:
+        negatives.append(f"mixed history ({hist_label})")
+    elif hist_label == "no history":
+        negatives.append("no GCT history for this artist")
+
+    if comp.get("pattern_labels"):
+        positives.append("pattern: " + ", ".join(comp["pattern_labels"]))
+    if comp.get("dow", 0) >= 6:
+        positives.append(f"great day of week (+{comp['dow']})")
+    elif comp.get("dow", 0) <= -5:
+        negatives.append(f"bad day of week ({comp['dow']})")
+    if comp.get("venue_type", 0) >= 6:
+        positives.append("theater/club venue (high margin)")
+    elif comp.get("venue_type", 0) <= -3:
+        negatives.append("amphitheater venue (low margin)")
+    if comp.get("venue_blacklist", 0):
+        negatives.append("known loss-prone venue for this day")
+    if comp.get("month", 0) <= -5:
+        negatives.append("bad month for sports")
+    if comp.get("auto_loser", 0):
+        negatives.append("auto-flagged loser (5+ neg-margin events)")
+
+    if rec == "buy":
+        body = "Buy because: " + "; ".join(positives) if positives else "Buy (high score)"
+    elif rec == "watch":
+        body = "Watch — " + (("strong: " + "; ".join(positives)) if positives else "") + ((" weak: " + "; ".join(negatives)) if negatives else "")
+        body = body.strip(" —") or "Watch — mixed signals"
+    else:
+        body = "Skip because: " + ("; ".join(negatives) if negatives else "no positive signals to support a buy")
+    return body

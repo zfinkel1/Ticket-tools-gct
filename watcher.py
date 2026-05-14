@@ -113,7 +113,7 @@ def send_email(to_addrs, from_addr, subject, html_body, api_key):
 
 
 def _score_block_html(e):
-    """Render the buy/watch/skip badge + score breakdown for the email."""
+    """Render the buy/watch/skip badge + a 'why' sentence for the email."""
     sd = e.get("score_data")
     if not sd: return ""
     score = sd.get("score", 0)
@@ -121,22 +121,20 @@ def _score_block_html(e):
     comp = sd.get("components", {})
     bg = {"buy": "#16a34a", "watch": "#f59e0b", "skip": "#dc2626"}.get(rec, "#666")
     label = {"buy": "BUY", "watch": "WATCH", "skip": "SKIP"}[rec]
-    # Build short breakdown of non-zero components
+    why = comp.get("why", "")
+    # Compact breakdown of non-zero components for the curious reader
     breakdown = []
     for k, v in comp.items():
-        if k in ("history_label", "pattern_labels"): continue
+        if k in ("history_label", "pattern_labels", "why"): continue
         if isinstance(v, (int, float)) and v != 0:
             breakdown.append(f"{k}:{v:+d}")
-    hist_label = comp.get("history_label", "")
-    pattern_labels = comp.get("pattern_labels") or []
     return (
-        f'<div style="margin-top:6px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">'
+        f'<div style="margin-top:6px;">'
         f'<span style="display:inline-block;background:{bg};color:#fff;font-size:11px;font-weight:800;'
         f'padding:3px 9px;border-radius:4px;letter-spacing:0.04em;">{label} {score}/99</span>'
-        + (f'<span style="font-size:11px;color:#666;">{html.escape(hist_label)}</span>' if hist_label != "no history" else "")
-        + (f'<span style="font-size:11px;color:#0d8a3d;font-weight:600;">{", ".join(html.escape(p) for p in pattern_labels)}</span>' if pattern_labels else "")
-        + '</div>'
-        + (f'<div style="font-size:10px;color:#999;margin-top:3px;">{" · ".join(breakdown)}</div>' if breakdown else "")
+        f'</div>'
+        + (f'<div style="font-size:12px;color:#333;margin-top:5px;line-height:1.45;">{html.escape(why)}</div>' if why else "")
+        + (f'<div style="font-size:10px;color:#999;margin-top:3px;">Signals: {" · ".join(breakdown)}</div>' if breakdown else "")
     )
 
 
