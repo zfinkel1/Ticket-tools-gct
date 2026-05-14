@@ -1,7 +1,7 @@
 {
   "site": "Wintrust Arena",
-  "last_run": "2026-05-14T18:24:16.749573Z",
-  "count": 26,
+  "last_run": "2026-05-14T20:15:16.316518Z",
+  "count": 27,
   "events": [
     {
       "slug": "vv17jZ_dGkD9syt6",
@@ -357,6 +357,48 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG1jZ_1VBFYm6",
+      "name": "Mojo Brookzz Outta Pocket Tour",
+      "location": "Wintrust Arena, Chicago",
+      "date": "Sun, Sep 13, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/mojo-brookzz-outta-pocket-tour-chicago-illinois-09-13-2026/event/070064AD3A230B87",
+      "sales": {
+        "public_start": "2026-05-15T15:00:00Z",
+        "public_end": "2026-09-14T02:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 56,
+        "rec": "watch",
+        "components": {
+          "history": 21,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "7ev avg +29% margin, 86% profitable",
+          "why": "Watch — strong: strong history (7ev avg +29% margin, 86% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 7,
+        "avg_margin": 29.1,
+        "profitable_pct": 85.7,
+        "avg_sell_price": 82.18,
+        "avg_cost_price": 58.84,
+        "display_name": "Mojo Brookzz"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv17jZ_dGkDbFynY",

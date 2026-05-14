@@ -1,7 +1,7 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-14T18:24:08.538237Z",
-  "count": 68,
+  "last_run": "2026-05-14T20:15:16.313719Z",
+  "count": 69,
   "events": [
     {
       "slug": "vv178Z_AGknzLzEh",
@@ -1007,6 +1007,41 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_1DAGDcu",
+      "name": "Karaoke Storytellers",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Sat, Jul 11, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/karaoke-storytellers-chicago-illinois-07-11-2026/event/040064AEC533BB4D",
+      "sales": {
+        "public_start": "2026-05-14T21:01:00Z",
+        "public_end": "2026-07-11T23:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 42,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip because: no GCT history for this artist"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178Z_7GkwybQ18",

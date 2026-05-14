@@ -1,6 +1,6 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-14T18:24:20.895828Z",
+  "last_run": "2026-05-14T20:15:05.334425Z",
   "count": 92,
   "events": [
     {
@@ -1207,28 +1207,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZIZ7",
@@ -1304,7 +1283,7 @@
     },
     {
       "slug": "rZ7HnEZ1AfxaJd",
-      "name": "Carla dal Forno / Zelienople",
+      "name": "Carla dal Forno / Zelienople / Erik Kramer",
       "location": "Empty Bottle, Chicago",
       "date": "Tue, Sep 15, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/carla-dal-forno-zelienople-empty-bottle-tickets/14889983",
