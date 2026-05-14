@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-14T16:35:16.426206Z",
+  "last_run": "2026-05-14T18:24:06.115810Z",
   "count": 20,
   "events": [
     {
@@ -181,12 +181,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "190010",
@@ -194,6 +189,18 @@
       "location": "Gold Coast Social",
       "date": "Thu, May 21 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/gasonlina-thursdays-21--190010",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "190414",
+      "name": "Road To Sueños | DJ Fredy Fresco",
+      "location": "Galeria Chicago",
+      "date": "Thu, May 21 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-dj-fredy-fresco-190414",
       "sales": {
         "public_start": null,
         "public_end": null,
@@ -210,29 +217,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
-    },
-    {
-      "slug": "190414",
-      "name": "Road To Sueños | La Casita",
-      "location": "Galeria Chicago",
-      "date": "Thu, May 21 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-la-casita-190414",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "190413",
@@ -244,12 +229,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "173652",
