@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-14T21:39:32.875563Z",
+  "last_run": "2026-05-14T22:42:11.584406Z",
   "count": 90,
   "events": [
     {
@@ -258,18 +258,18 @@
     },
     {
       "slug": "rZ7HnEZ1Af77j7",
-      "name": "The Black Angels: Passover 2026 Tour with L.A. Witch",
+      "name": "*SOLD OUT* The Black Angels: Passover 2026 Tour with L.A. Witch",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, May 28, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/the-black-angels-passover-2026-thalia-hall-tickets/14104704",
+      "url": "https://www.ticketweb.com/event/sold-out-the-black-angels-thalia-hall-tickets/14104704",
       "sales": {
         "public_start": "2026-01-28T16:00:00Z",
         "public_end": "2026-05-29T01:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 46.39,
-        "max": 46.39,
+        "min": 0.0,
+        "max": 0.0,
         "currency": "USD",
         "type": "standard"
       }
