@@ -220,7 +220,9 @@ def build_email(by_site, baselined_sites=None):
             enrichment_html = _enrichment_html(e)
             score_block = _score_block_html(e)
             tier_preds_block = _tier_predictions_html(e)
-            rec_block = recommendation_html(e)
+            # The old recommendation_html "STRONG WATCH / STRONG BUY" badge is
+            # now duplicated by score_block. Removed to avoid 3 verdicts in 3
+            # places (badge + score + why-sentence).
             sales_block = sales_status_html(e)
             price_block = price_range_html(e)
             history_block = history_html(e)
@@ -228,7 +230,6 @@ def build_email(by_site, baselined_sites=None):
             current_listing_block = current_listing_html(e)
             rows.append(f"""
               <tr><td style="padding:14px 16px;border-bottom:1px solid #eee;">
-                {rec_block}
                 <div style="font-size:15px;font-weight:700;color:#0d1b3e;margin-bottom:4px;">
                   <a href="{url}" style="color:#0d1b3e;text-decoration:none;">{name} &rarr;</a>
                 </div>

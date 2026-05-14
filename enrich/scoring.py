@@ -410,9 +410,12 @@ def score_event(event_name, venue_name, event_date):
     raw = 30 + sum(v for k, v in components.items()
                    if isinstance(v, (int, float)) and k != "history_label")
     score = max(1, min(99, raw))
+    # Threshold tuned so positive-signal-but-no-history events land in 'watch'
+    # rather than 'skip'. Skip is reserved for events with active negative
+    # signals or a low score from a known-bad artist.
     if score >= 65:
         rec = "buy"
-    elif score >= 45:
+    elif score >= 35:
         rec = "watch"
     else:
         rec = "skip"
@@ -437,8 +440,9 @@ def _build_why_sentence(comp, rec):
         negatives.append(f"weak history ({hist_label})")
     elif hist_pts < 0:
         negatives.append(f"mixed history ({hist_label})")
-    elif hist_label == "no history":
-        negatives.append("no GCT history for this artist")
+    # no-history is NOT a negative — it's just unknown. Don't penalize new
+    # artists, the absence of a positive history bonus already shows up in
+    # the score by not adding points.
 
     if comp.get("pattern_labels"):
         positives.append("pattern: " + ", ".join(comp["pattern_labels"]))
@@ -458,10 +462,19 @@ def _build_why_sentence(comp, rec):
         negatives.append("auto-flagged loser (5+ neg-margin events)")
 
     if rec == "buy":
-        body = "Buy because: " + "; ".join(positives) if positives else "Buy (high score)"
+        body = "Strong buy — " + "; ".join(positives) if positives else "Strong score"
     elif rec == "watch":
-        body = "Watch — " + (("strong: " + "; ".join(positives)) if positives else "") + ((" weak: " + "; ".join(negatives)) if negatives else "")
-        body = body.strip(" —") or "Watch — mixed signals"
+        if positives and negatives:
+            body = "Mixed: " + "; ".join(positives) + " · vs · " + "; ".join(negatives)
+        elif positives:
+            body = "Worth watching — " + "; ".join(positives)
+        elif negatives:
+            body = "Marginal — " + "; ".join(negatives)
+        else:
+            body = "Worth watching — no history yet, neutral signals"
     else:
-        body = "Skip because: " + ("; ".join(negatives) if negatives else "no positive signals to support a buy")
+        if negatives:
+            body = "Skip — " + "; ".join(negatives)
+        else:
+            body = "Skip — score too low to justify"
     return body
