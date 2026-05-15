@@ -1,6 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-05-15T19:07:34.995343Z",
+  "last_run": "2026-05-15T20:35:32.104825Z",
   "count": 6,
   "events": [
     {
@@ -79,42 +79,7 @@
         "public_end": "2026-11-22T04:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 26,
-        "rec": "skip",
-        "components": {
-          "history": -10,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg -7% margin, 0% profitable",
-          "why": "Skip — weak history (1ev avg -7% margin, 0% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 1,
-        "avg_margin": -7.3,
-        "profitable_pct": 0.0,
-        "avg_sell_price": 43.34,
-        "avg_cost_price": 46.76,
-        "display_name": "Madeon"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "byline bank aragon ballroom",
-          "tickets": 24,
-          "margin": -7.3
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     }
   ]
 }

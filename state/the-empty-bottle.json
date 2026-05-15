@@ -1,6 +1,6 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-15T19:07:34.996511Z",
+  "last_run": "2026-05-15T20:35:33.428605Z",
   "count": 92,
   "events": [
     {
@@ -631,29 +631,7 @@
         "max": 20.39,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 35,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfqIAS",

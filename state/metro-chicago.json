@@ -1,6 +1,6 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-15T19:07:34.991167Z",
+  "last_run": "2026-05-15T20:35:19.749289Z",
   "count": 53,
   "events": [
     {
@@ -183,29 +183,7 @@
       "name": "Twisted Teens",
       "location": "",
       "date": "Fri, Jul 17",
-      "url": "https://metrochicago.com/event/twisted-teens/sleeping-village/chicago--illinois/",
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://metrochicago.com/event/twisted-teens/sleeping-village/chicago--illinois/"
     },
     {
       "slug": "jeff-rosenstock-3",
