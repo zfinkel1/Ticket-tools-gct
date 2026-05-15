@@ -1,6 +1,6 @@
 {
   "site": "TAO Nightclub Chicago",
-  "last_run": "2026-05-15T18:53:35.401160Z",
+  "last_run": "2026-05-15T20:12:14.215847Z",
   "count": 16,
   "events": [
     {
@@ -8,115 +8,21 @@
       "name": "Don Toliver",
       "location": "TAO Nightclub Chicago",
       "date": "Thu, Jun 11, 2026",
-      "url": "https://taogroup.com/event/6-11-2026-don-toliver-tao-nightclub/",
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "Don Toliver",
-        "name": "Don Toliver",
-        "popularity": 88,
-        "followers": 6932854,
-        "city_streams": 381164,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 52,
-        "rec": "watch",
-        "components": {
-          "history": 13,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "2ev avg +9% margin, 100% profitable",
-          "why": "Worth watching — decent history (2ev avg +9% margin, 100% profitable); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 2,
-        "avg_margin": 8.8,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 155.49,
-        "avg_cost_price": 82.03,
-        "display_name": "Don Toliver"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "byline bank aragon ballroom",
-          "tickets": 24,
-          "margin": 0.0
-        },
-        {
-          "venue": "credit union 1 arena",
-          "tickets": 24,
-          "margin": 17.6
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/6-11-2026-don-toliver-tao-nightclub/"
     },
     {
       "slug": "228072",
       "name": "Jerzy",
       "location": "TAO Nightclub Chicago",
       "date": "Sat, Jun 27, 2026",
-      "url": "https://taogroup.com/event/6-27-2026-jerzy-tao-nightclub/",
-      "score_data": {
-        "score": 42,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/6-27-2026-jerzy-tao-nightclub/"
     },
     {
       "slug": "228070",
       "name": "ERock",
       "location": "TAO Nightclub Chicago",
       "date": "Sat, Jun 20, 2026",
-      "url": "https://taogroup.com/event/6-20-2026-erock-tao-nightclub/",
-      "score_data": {
-        "score": 42,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/6-20-2026-erock-tao-nightclub/"
     },
     {
       "slug": "228058",
