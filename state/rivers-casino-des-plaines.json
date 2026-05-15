@@ -1,7 +1,7 @@
 {
   "site": "Rivers Casino Des Plaines",
-  "last_run": "2026-05-15T01:31:46.498762Z",
-  "count": 6,
+  "last_run": "2026-05-15T19:07:34.991759Z",
+  "count": 7,
   "events": [
     {
       "slug": "blackberry-smoke",
@@ -44,6 +44,35 @@
       "location": "Rivers Casino Des Plaines",
       "date": "SAT, SEP 12",
       "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/the-players"
+    },
+    {
+      "slug": "dusty-slay",
+      "name": "Dusty Slay",
+      "location": "Rivers Casino Des Plaines",
+      "date": "FRI, SEP 18",
+      "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/dusty-slay",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

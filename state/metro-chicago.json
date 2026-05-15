@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-15T01:31:43.786404Z",
+  "last_run": "2026-05-15T19:07:34.991167Z",
   "count": 53,
   "events": [
-    {
-      "slug": "inner-wave-los-mesoneros",
-      "name": "Inner Wave: North America Tour &#8217;26",
-      "location": "",
-      "date": "Thu, May 14",
-      "url": "https://metrochicago.com/event/inner-wave-los-mesoneros/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "searows-death-in-the-business-of-whaling",
       "name": "Searows: Death in the Business of Whaling",
@@ -184,6 +177,35 @@
       "location": "",
       "date": "Fri, Jul 17",
       "url": "https://metrochicago.com/event/jeff-rosenstock-2/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "twisted-teens",
+      "name": "Twisted Teens",
+      "location": "",
+      "date": "Fri, Jul 17",
+      "url": "https://metrochicago.com/event/twisted-teens/sleeping-village/chicago--illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "jeff-rosenstock-3",

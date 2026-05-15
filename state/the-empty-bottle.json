@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-15T01:31:55.526170Z",
+  "last_run": "2026-05-15T19:07:34.996511Z",
   "count": 92,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af-e3K",
-      "name": "Lolina / Bone Study / Brandon Juhans",
-      "location": "Empty Bottle, Chicago",
-      "date": "Thu, May 14, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/lolina-bone-study-empty-bottle-tickets/14842493",
-      "sales": {
-        "public_start": "2026-04-08T15:00:00Z",
-        "public_end": "2026-05-15T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 20.39,
-        "max": 20.39,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfZEOf",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
@@ -149,18 +131,18 @@
     },
     {
       "slug": "rZ7HnEZ1AfbtvN",
-      "name": "*SOLD OUT* Just Mustard / Miss Grit",
+      "name": "Just Mustard / Miss Grit",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, May 21, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-just-mustard-empty-bottle-tickets/14629063",
+      "url": "https://www.ticketweb.com/event/just-mustard-miss-grit-empty-bottle-tickets/14629063",
       "sales": {
         "public_start": "2025-10-23T15:00:00Z",
         "public_end": "2026-05-22T02:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 26.78,
+        "max": 26.78,
         "currency": "USD",
         "type": "standard"
       }
@@ -632,6 +614,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0EvN",
+      "name": "Lil Hero / Vivi / DJ Matriarch / Mo Mami / YNH",
+      "location": "Empty Bottle, Chicago",
+      "date": "Fri, Jun 19, 2026 · 10:00 PM",
+      "url": "https://www.ticketweb.com/event/lil-hero-vivi-empty-bottle-tickets/14927063",
+      "sales": {
+        "public_start": "2026-05-15T15:00:00Z",
+        "public_end": "2026-06-20T03:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfqIAS",
@@ -1193,18 +1215,18 @@
     },
     {
       "slug": "rZ7HnEZ1Af0OoS",
-      "name": "Frankie Cosmos - Celebrating 10 Years of Next Thing",
+      "name": "Frankie Cosmos Celebrates 10 years of 'Next Thing' (Avrom Farm Afterparty)",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Aug 23, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/frankie-cosmos-celebrating-empty-bottle-tickets/14920473",
+      "url": "https://www.ticketweb.com/event/frankie-cosmos-celebrates-10-years-empty-bottle-tickets/14920473",
       "sales": {
         "public_start": "2026-05-14T17:00:00Z",
         "public_end": "2026-08-24T02:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 35.74,
+        "max": 35.74,
         "currency": "USD",
         "type": "standard"
       }
