@@ -62,13 +62,20 @@ def _build_flare_index():
             cache = json.load(f)
     except Exception:
         return {}
+    def _to_int(v):
+        if v is None or v == "": return None
+        try: return int(float(v))
+        except (TypeError, ValueError): return None
+
     index = {}
     for e in cache.get("events", []):
         raw_name = (e.get("event_name") or e.get("name") or "").strip()
         if not raw_name:
             continue
-        pop = e.get("spotify_popularity")
-        followers = e.get("spotify_followers")
+        # Flare returns these as strings — coerce to int up front so downstream
+        # math (sorts, comparisons, badge thresholds) doesn't crash on str+int.
+        pop = _to_int(e.get("spotify_popularity"))
+        followers = _to_int(e.get("spotify_followers"))
         if pop is None and followers is None:
             continue
         # Normalize Flare event names through the same artist extractor we
@@ -255,8 +262,12 @@ def enrich_event(event):
 
 
 def format_followers(n):
-    """1234567 -> '1.2M'"""
+    """1234567 -> '1.2M'. Tolerates str input from the Flare cache."""
     if n is None:
+        return ""
+    try:
+        n = int(float(n))
+    except (TypeError, ValueError):
         return ""
     if n >= 1_000_000:
         return f"{n / 1_000_000:.1f}M"
@@ -266,8 +277,12 @@ def format_followers(n):
 
 
 def popularity_label(p):
-    """0–100 popularity score → human label + color"""
+    """0–100 popularity score → human label + color. Tolerates str input."""
     if p is None:
+        return None
+    try:
+        p = int(float(p))
+    except (TypeError, ValueError):
         return None
     if p >= 75:
         return ("HOT", "#dc2626")

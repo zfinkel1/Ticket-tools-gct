@@ -203,14 +203,17 @@ def build_email(by_site, baselined_sites=None):
     sections = []
     for site_name, events in by_site.items():
         # Sort by score (highest first), falling back to popularity for events
-        # that didn't get scored.
-        events = sorted(
-            events,
-            key=lambda e: -(
-                ((e.get("score_data") or {}).get("score") or 0) * 100
-                + (((e.get("enrichment") or {}).get("popularity")) or 0)
-            ),
-        )
+        # that didn't get scored. Coerce popularity to int — Flare returns it
+        # as a string sometimes ('75' not 75), which crashed the sort.
+        def _sort_key(e):
+            score = (e.get("score_data") or {}).get("score") or 0
+            pop_raw = (e.get("enrichment") or {}).get("popularity") or 0
+            try:
+                pop = int(pop_raw)
+            except (TypeError, ValueError):
+                pop = 0
+            return -(int(score) * 100 + pop)
+        events = sorted(events, key=_sort_key)
         rows = []
         for e in events:
             name = html.escape(html.unescape(e.get("name", "Unnamed")))
