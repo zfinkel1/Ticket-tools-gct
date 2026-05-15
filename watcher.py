@@ -408,6 +408,11 @@ def main():
 
     api_key = os.environ.get("SENDGRID_API_KEY")
     alert_email = os.environ.get("ALERT_EMAIL", "zfinkel1@gmail.com")
+    # Error/health alerts go to a separate recipient list (default: just the
+    # operator) so noisy parser-failure or stale-site alerts don't spam the
+    # team list that gets the new-event emails. Fall back to ALERT_EMAIL if
+    # ERROR_EMAIL isn't configured.
+    error_email = os.environ.get("ERROR_EMAIL") or "zfinkel1@gmail.com"
     from_email = os.environ.get("FROM_EMAIL", "noreply@sportscardnetwork.ai")
 
     if not api_key and not args.dry_run:
@@ -549,7 +554,8 @@ def main():
             stale = find_stale_sites()
             if stale:
                 print(f"[health] {len(stale)} stale site(s): {[s['name'] for s in stale]}")
-                maybe_send_health_alert(stale, api_key, alert_email, from_email, args.dry_run)
+                # Health alerts go to error_email only, not the team list.
+                maybe_send_health_alert(stale, api_key, error_email, from_email, args.dry_run)
         except Exception as e:
             print(f"[warn] health check failed: {e}")
 
