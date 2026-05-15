@@ -1,21 +1,8 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-05-15T22:39:44.587771Z",
-  "count": 20,
+  "last_run": "2026-05-15T23:39:29.633136Z",
+  "count": 19,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7-680",
-      "name": "Dance Gavin Dance with Special Guests",
-      "location": "Riviera Theatre- IL, Chicago",
-      "date": "Fri, May 15, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-680",
-      "sales": {
-        "public_start": "2026-02-20T16:00:00Z",
-        "public_end": "2026-05-15T23:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1k8Z_AAgG7nxp1",
       "name": "Dance Gavin Dance with Special Guests",
