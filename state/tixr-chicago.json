@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-16T07:15:52.169198Z",
+  "last_run": "2026-05-16T09:12:05.158345Z",
   "count": 20,
   "events": [
-    {
-      "slug": "189821",
-      "name": "La Casita | Galeria",
-      "location": "Galeria Chicago",
-      "date": "Fri, May 15 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-189821",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "185594",
       "name": "MIA Rooftop Saturdays (21+)",
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "188782",
+      "name": "Sueños Official Pre Party | CHAVA + J SANTOS",
+      "location": "Galeria Chicago",
+      "date": "Fri, May 22 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-chava-j-santos-188782",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

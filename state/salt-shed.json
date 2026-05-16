@@ -1,32 +1,8 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-16T07:15:52.724491Z",
-  "count": 76,
+  "last_run": "2026-05-16T09:11:55.258157Z",
+  "count": 75,
   "events": [
-    {
-      "slug": "vv178ZbzGkSPs5cQ",
-      "name": "Timmy Trumpet with Yosuf B2B Dionysus and STVN LEON",
-      "location": "The Salt Shed Indoors (Shed), Chicago",
-      "date": "Fri, May 15, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/timmy-trumpet-with-yosuf-b2b-dionysus-chicago-illinois-05-15-2026/event/0400638CE5C4BB5A",
-      "sales": {
-        "public_start": "2025-12-19T16:00:00Z",
-        "public_end": "2026-05-16T04:00:00Z",
-        "presales": [
-          {
-            "name": "Salt Shed Online Presale",
-            "start": "2025-12-18T16:00:00Z",
-            "end": "2025-12-19T04:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2025-12-18T16:00:00Z",
-            "end": "2025-12-19T04:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1A7ZkC7GkeE_UwH",
       "name": "Yellowcard: The Up Up Down Down Tour",
