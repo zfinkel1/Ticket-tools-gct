@@ -1,77 +1,8 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-16T04:54:33.315460Z",
-  "count": 37,
+  "last_run": "2026-05-16T07:15:57.511553Z",
+  "count": 36,
   "events": [
-    {
-      "slug": "vv1A7ZkuvGkdNw7Rv",
-      "name": "Bring Me The Horizon - N. American Ascension Program 2",
-      "location": "Allstate Arena, Rosemont",
-      "date": "Fri, May 15, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/bring-me-the-horizon-n-american-rosemont-illinois-05-15-2026/event/04006341E3C84BC1",
-      "sales": {
-        "public_start": "2025-10-10T15:00:00Z",
-        "public_end": "2026-05-16T02:00:00Z",
-        "presales": [
-          {
-            "name": "Artist Presale",
-            "start": "2025-10-08T15:00:00Z",
-            "end": "2025-10-10T03:00:00Z"
-          },
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2025-10-08T15:00:00Z",
-            "end": "2025-10-10T03:00:00Z"
-          },
-          {
-            "name": "Spotify Fans First Presale",
-            "start": "2025-10-09T15:00:00Z",
-            "end": "2025-10-10T03:00:00Z"
-          },
-          {
-            "name": "Local/ Radio/ Venue Presale",
-            "start": "2025-10-09T15:00:00Z",
-            "end": "2025-10-10T03:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2025-10-07T15:00:00Z",
-            "end": "2025-10-10T03:00:00Z"
-          },
-          {
-            "name": "VIP Packages Presale",
-            "start": "2025-10-08T15:00:00Z",
-            "end": "2025-10-10T14:45:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2025-10-08T15:00:00Z",
-            "end": "2025-10-10T03:00:00Z"
-          },
-          {
-            "name": "VIP Packages",
-            "start": "2025-10-10T15:00:00Z",
-            "end": "2026-05-09T03:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2025-10-10T15:00:00Z",
-            "end": "2026-04-18T03:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember VIP Packages Presale",
-            "start": "2025-10-07T15:00:00Z",
-            "end": "2025-10-08T14:45:00Z"
-          },
-          {
-            "name": "VIP Package Onsale",
-            "start": "2025-10-10T15:00:00Z",
-            "end": "2026-05-09T03:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1A7ZkoVGkdQtatQ",
       "name": "Chicago Wolves Division Finals, Home Game 3",

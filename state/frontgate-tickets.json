@@ -1,6 +1,6 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-05-16T04:54:46.083707Z",
+  "last_run": "2026-05-16T07:15:33.493516Z",
   "count": 100,
   "events": [
     {
@@ -701,29 +701,7 @@
       "name": "Vans Warped Tour - Orlando",
       "location": "Orlando, FL",
       "date": "November 14, 2026",
-      "url": "https://www.frontgatetickets.com/events/vans-warped-tour-3",
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.frontgatetickets.com/events/vans-warped-tour-3"
     }
   ]
 }

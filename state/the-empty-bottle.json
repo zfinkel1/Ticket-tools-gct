@@ -1,44 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-16T04:54:31.740139Z",
-  "count": 92,
+  "last_run": "2026-05-16T07:15:56.316381Z",
+  "count": 90,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfZEOf",
-      "name": "Hard Country Honky Tonk with The Hoyle Brothers",
-      "location": "Empty Bottle, Chicago",
-      "date": "Fri, May 15, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027814",
-      "sales": {
-        "public_start": "2025-12-29T06:00:00Z",
-        "public_end": "2026-05-16T00:30:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
-    {
-      "slug": "rZ7HnEZ1Af7fpf",
-      "name": "*SOLD OUT* Caroline",
-      "location": "Empty Bottle, Chicago",
-      "date": "Fri, May 15, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-caroline-empty-bottle-tickets/14114594",
-      "sales": {
-        "public_start": "2026-01-28T16:00:00Z",
-        "public_end": "2026-05-16T03:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af__4S",
       "name": "CHIRP Radio Welcomes Sessa / Kolumbo",
