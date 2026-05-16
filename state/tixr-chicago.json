@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-15T23:39:27.401780Z",
+  "last_run": "2026-05-16T04:54:46.084586Z",
   "count": 20,
   "events": [
-    {
-      "slug": "169290",
-      "name": "Sepultura - Celebrating Life Through Death Final North American Tour 2026",
-      "location": "Ramova Theatre ",
-      "date": "Fri, May 15 at 6:30 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/sepultura-celebrating-life-through-death-final-north-american-tour-2026-169290",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "189821",
       "name": "La Casita | Galeria",
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "188827",
+      "name": "Sueños Official Pre Party | 2DEEP",
+      "location": "Hideaway",
+      "date": "Fri, May 22 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-2deep-188827",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

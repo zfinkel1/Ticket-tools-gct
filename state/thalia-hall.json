@@ -1,21 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-15T23:39:29.371683Z",
-  "count": 88,
+  "last_run": "2026-05-16T04:54:28.714670Z",
+  "count": 87,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7qy-Y",
-      "name": "Twin Peaks",
-      "location": "Thalia Hall, Chicago",
-      "date": "Fri, May 15, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qy-Y",
-      "sales": {
-        "public_start": "1900-01-01T06:00:00Z",
-        "public_end": "2026-05-16T01:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "rZ7HnEZ1Af_g_d",
       "name": "*SOLD OUT* Twin Peaks with Lifeguard",
