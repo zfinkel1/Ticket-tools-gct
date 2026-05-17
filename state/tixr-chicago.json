@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-17T08:55:51.660639Z",
+  "last_run": "2026-05-17T10:24:14.459077Z",
   "count": 20,
   "events": [
-    {
-      "slug": "189822",
-      "name": "La Casita | Galeria",
-      "location": "Galeria Chicago",
-      "date": "Sat, May 16 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-189822",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "183585",
       "name": "Road To Sueños | Esencia312",
@@ -229,29 +217,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "188788",
@@ -259,6 +225,18 @@
       "location": "RiNo Bar",
       "date": "Fri, May 22 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-dynamiqo-188788",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "188824",
+      "name": "Sueños Official Pre-Party | FREDY FRESCO",
+      "location": "Gold Coast Social",
+      "date": "Fri, May 22 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-fredy-fresco-188824",
       "sales": {
         "public_start": null,
         "public_end": null,
