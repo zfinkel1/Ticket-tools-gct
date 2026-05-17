@@ -1,32 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-17T06:37:43.669803Z",
+  "last_run": "2026-05-17T08:55:51.660639Z",
   "count": 20,
   "events": [
-    {
-      "slug": "185594",
-      "name": "MIA Rooftop Saturdays (21+)",
-      "location": "Reserv",
-      "date": "Sat, May 16 at 8:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185594",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "179396",
-      "name": "Two Friends",
-      "location": "Ramova Theatre ",
-      "date": "Sat, May 16 at 11:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/two-friends-179396",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "189822",
       "name": "La Casita | Galeria",
@@ -242,6 +218,74 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "188828",
+      "name": "Sueños Official Pre-Party | LE TWINS",
+      "location": "ELA",
+      "date": "Fri, May 22 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-le-twins-188828",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "188788",
+      "name": "Sueños Official Pre Party | DYNAMIQO",
+      "location": "RiNo Bar",
+      "date": "Fri, May 22 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-dynamiqo-188788",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
