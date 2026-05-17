@@ -1,21 +1,8 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-05-16T23:55:33.802028Z",
-  "count": 18,
+  "last_run": "2026-05-17T03:39:21.342364Z",
+  "count": 17,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7-NZS",
-      "name": "Matt McCusker",
-      "location": "Riviera Theatre- IL, Chicago",
-      "date": "Sat, May 16, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-NZS",
-      "sales": {
-        "public_start": "1900-01-01T06:00:00Z",
-        "public_end": "2026-05-17T00:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "Z7r9jZ1A7O4-7",
       "name": "Good Kid w/ INOHA",
