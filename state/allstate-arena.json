@@ -1,7 +1,7 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-18T15:59:50.407082Z",
-  "count": 37,
+  "last_run": "2026-05-18T18:07:29.102191Z",
+  "count": 38,
   "events": [
     {
       "slug": "vv1A7ZkoVGkdQtatQ",
@@ -784,6 +784,137 @@
       "price_range": null
     },
     {
+      "slug": "vvG18Z_1BDDQwA",
+      "name": "Marco Antonio Solis - Tour Gratitud 2026",
+      "location": "Allstate Arena, Rosemont",
+      "date": "Sat, Sep 5, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/marco-antonio-solis-tour-gratitud-2026-rosemont-illinois-09-05-2026/event/040064AEBBEDAC85",
+      "sales": {
+        "public_start": "2026-05-22T15:00:00Z",
+        "public_end": "2026-09-06T02:00:00Z",
+        "presales": [
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-05-19T14:00:00Z",
+            "end": "2026-05-22T04:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-19T14:00:00Z",
+            "end": "2026-05-22T04:00:00Z"
+          },
+          {
+            "name": "Verizon Access Presale Tickets",
+            "start": "2026-05-19T14:00:00Z",
+            "end": "2026-05-22T04:00:00Z"
+          },
+          {
+            "name": "Spotify Tickets",
+            "start": "2026-05-20T15:00:00Z",
+            "end": "2026-05-22T04:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-20T17:00:00Z",
+            "end": "2026-05-22T04:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-21T15:00:00Z",
+            "end": "2026-05-22T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-05-22T15:00:00Z",
+            "end": "2026-09-01T17:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-22T15:00:00Z",
+            "end": "2026-08-09T03:00:00Z"
+          },
+          {
+            "name": "Verizon Access Select Seats",
+            "start": "2026-05-22T15:00:00Z",
+            "end": "2026-08-09T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember VIP Packages Presale",
+            "start": "2026-05-19T14:00:00Z",
+            "end": "2026-05-20T13:45:00Z"
+          },
+          {
+            "name": "Verizon Access VIP Packages Presale",
+            "start": "2026-05-19T14:00:00Z",
+            "end": "2026-05-20T13:45:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 34,
+        "rec": "skip",
+        "components": {
+          "history": -2,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "3ev avg -2% margin, 67% profitable",
+          "why": "Skip — mixed history (3ev avg -2% margin, 67% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 3,
+        "avg_margin": -1.8,
+        "profitable_pct": 66.7,
+        "avg_sell_price": 184.58,
+        "avg_cost_price": 180.9,
+        "display_name": "Marco Antonio Solis"
+      },
+      "gct_venue_history": {
+        "floor": {
+          "avg_sell": 2350.0,
+          "avg_cost": 1100.0,
+          "avg_margin": 113.6,
+          "buy_under": 2043.48,
+          "count": 2
+        },
+        "200-level": {
+          "avg_sell": 165.0,
+          "avg_cost": 125.0,
+          "avg_margin": 32.0,
+          "buy_under": 143.48,
+          "count": 14
+        },
+        "100-level": {
+          "avg_sell": 219.43,
+          "avg_cost": 223.82,
+          "avg_margin": -2.0,
+          "buy_under": 190.81,
+          "count": 34
+        }
+      },
+      "gct_artist_venues": [
+        {
+          "venue": "united center",
+          "tickets": 97,
+          "margin": -17.2
+        },
+        {
+          "venue": "allstate arena",
+          "tickets": 50,
+          "margin": 12.1
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "vv178Z_6GkXj7968",
       "name": "Monster Jam",
       "location": "Allstate Arena, Rosemont",
@@ -994,36 +1125,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 44,
-        "rec": "watch",
-        "components": {
-          "history": 11,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "38ev avg +15% margin, 63% profitable",
-          "why": "Worth watching — decent history (38ev avg +15% margin, 63% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 38,
-        "avg_margin": 14.7,
-        "profitable_pct": 63.2,
-        "avg_sell_price": 283.84,
-        "avg_cost_price": 245.66,
-        "display_name": "Don Omar"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv178Z_kGkTlVyFY",

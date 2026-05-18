@@ -1,7 +1,7 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-18T15:59:50.402530Z",
-  "count": 67,
+  "last_run": "2026-05-18T18:07:29.097896Z",
+  "count": 68,
   "events": [
     {
       "slug": "vv178Z_AGknzOzEE",
@@ -621,29 +621,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 19,
-        "rec": "skip",
-        "components": {
-          "history": -20,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg -100% margin, 0% profitable",
-          "why": "Skip — weak history (1ev avg -100% margin, 0% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoKGkeB5__W",
@@ -1684,6 +1662,72 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_1hSwptC",
+      "name": "MICO - Running From A Feeling Tour",
+      "location": "House of Blues Chicago",
+      "date": "Tue, Sep 29, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-chicago-illinois-09-29-2026/event/040064A6F3C96A4E",
+      "sales": {
+        "public_start": "2026-05-21T15:00:00Z",
+        "public_end": "2026-09-29T23:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-18T19:00:00Z",
+            "end": "2026-05-21T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-21T15:00:00Z",
+            "end": "2026-09-01T03:00:00Z"
+          },
+          {
+            "name": "Fourthwall Presale",
+            "start": "2026-05-18T19:00:00Z",
+            "end": "2026-05-21T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-19T15:00:00Z",
+            "end": "2026-05-21T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-05-20T17:00:00Z",
+            "end": "2026-05-21T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-19T17:00:00Z",
+            "end": "2026-05-21T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 40,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1A7ZkooGkeMC18q",

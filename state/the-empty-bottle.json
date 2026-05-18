@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-18T15:59:05.237055Z",
-  "count": 88,
+  "last_run": "2026-05-18T18:07:29.100309Z",
+  "count": 91,
   "events": [
     {
       "slug": "rZ7HnEZ1AfOvqd",
@@ -346,6 +346,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1Af0YqK",
+      "name": "Strapped featuring Barbie Slick / D'Cameron May / Sunny Haelstorm",
+      "location": "Empty Bottle, Chicago",
+      "date": "Fri, Jun 5, 2026 · 10:00 PM",
+      "url": "https://www.ticketweb.com/event/strapped-featuring-barbie-slick-empty-bottle-tickets/14930753",
+      "sales": {
+        "public_start": "2026-05-18T15:30:00Z",
+        "public_end": "2026-06-06T03:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 14.11,
+        "max": 14.11,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1AfOPGS",
       "name": "Forever Deaf Fest and Empty Bottle Present: Vow (Record Release) / Warforged / Barren Heir",
       "location": "Empty Bottle, Chicago",
@@ -599,7 +639,7 @@
     },
     {
       "slug": "rZ7HnEZ1AfOIoN",
-      "name": "Julie Doiron and Carson McHone",
+      "name": "Julie Doiron and Carson McHone / Fran",
       "location": "Empty Bottle, Chicago",
       "date": "Wed, Jun 24, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/julie-doiron-and-carson-mchone-empty-bottle-tickets/14828463",
@@ -740,6 +780,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0YfS",
+      "name": "Jack Brereton (Album Release) / Discus / Hell Trash",
+      "location": "Empty Bottle, Chicago",
+      "date": "Thu, Jul 9, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/jack-brereton-album-release-empty-bottle-tickets/14930533",
+      "sales": {
+        "public_start": "2026-05-18T15:00:00Z",
+        "public_end": "2026-07-10T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfZE-V",
@@ -1460,6 +1540,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0-Gd",
+      "name": "mary in the junkyard",
+      "location": "Empty Bottle, Chicago",
+      "date": "Wed, Nov 11, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/mary-in-the-junkyard-empty-bottle-tickets/14921303",
+      "sales": {
+        "public_start": "2026-05-20T15:00:00Z",
+        "public_end": "2026-11-12T03:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfZEPV",

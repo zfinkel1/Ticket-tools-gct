@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-18T15:59:50.404665Z",
+  "last_run": "2026-05-18T18:07:01.996267Z",
   "count": 83,
   "events": [
     {
@@ -897,39 +897,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "American Aquarium",
-        "name": "American Aquarium",
-        "popularity": 43,
-        "followers": 74675,
-        "city_streams": 676,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 41,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af0ofK",
@@ -1257,8 +1225,8 @@
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 33.52,
+        "max": 33.52,
         "currency": "USD",
         "type": "standard"
       }
