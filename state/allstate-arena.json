@@ -1,6 +1,6 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-18T18:07:29.102191Z",
+  "last_run": "2026-05-18T20:06:19.875380Z",
   "count": 38,
   "events": [
     {
@@ -850,69 +850,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 34,
-        "rec": "skip",
-        "components": {
-          "history": -2,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "3ev avg -2% margin, 67% profitable",
-          "why": "Skip — mixed history (3ev avg -2% margin, 67% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 3,
-        "avg_margin": -1.8,
-        "profitable_pct": 66.7,
-        "avg_sell_price": 184.58,
-        "avg_cost_price": 180.9,
-        "display_name": "Marco Antonio Solis"
-      },
-      "gct_venue_history": {
-        "floor": {
-          "avg_sell": 2350.0,
-          "avg_cost": 1100.0,
-          "avg_margin": 113.6,
-          "buy_under": 2043.48,
-          "count": 2
-        },
-        "200-level": {
-          "avg_sell": 165.0,
-          "avg_cost": 125.0,
-          "avg_margin": 32.0,
-          "buy_under": 143.48,
-          "count": 14
-        },
-        "100-level": {
-          "avg_sell": 219.43,
-          "avg_cost": 223.82,
-          "avg_margin": -2.0,
-          "buy_under": 190.81,
-          "count": 34
-        }
-      },
-      "gct_artist_venues": [
-        {
-          "venue": "united center",
-          "tickets": 97,
-          "margin": -17.2
-        },
-        {
-          "venue": "allstate arena",
-          "tickets": 50,
-          "margin": 12.1
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv178Z_6GkXj7968",

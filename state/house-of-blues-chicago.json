@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-18T18:07:29.097896Z",
+  "last_run": "2026-05-18T20:06:16.230945Z",
   "count": 68,
   "events": [
     {
@@ -1705,29 +1705,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 40,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 4,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkooGkeMC18q",

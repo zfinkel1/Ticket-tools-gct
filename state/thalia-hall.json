@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-18T18:07:01.996267Z",
+  "last_run": "2026-05-18T20:06:16.909637Z",
   "count": 83,
   "events": [
     {
@@ -1215,18 +1215,18 @@
     },
     {
       "slug": "rZ7HnEZ1Af-svd",
-      "name": "This Is Lorelei with @",
+      "name": "*SOLD OUT* This Is Lorelei with @",
       "location": "Thalia Hall, Chicago",
       "date": "Tue, Oct 27, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/this-is-lorelei-with-thalia-hall-tickets/14871043",
+      "url": "https://www.ticketweb.com/event/sold-out-this-is-lorelei-thalia-hall-tickets/14871043",
       "sales": {
         "public_start": "2026-05-13T15:00:00Z",
         "public_end": "2026-10-28T01:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 33.52,
-        "max": 33.52,
+        "min": 0.0,
+        "max": 0.0,
         "currency": "USD",
         "type": "standard"
       }
