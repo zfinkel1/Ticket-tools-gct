@@ -1,7 +1,7 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-18T00:11:00.642296Z",
-  "count": 68,
+  "last_run": "2026-05-18T04:43:24.424236Z",
+  "count": 69,
   "events": [
     {
       "slug": "vv178Z_eGkm8Pwdj",
@@ -2104,6 +2104,92 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_1DaaHeF",
+      "name": "The Smashing Pumpkins: The Rats In A Cage Tour",
+      "location": "United Center, Chicago",
+      "date": "Wed, Oct 14, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/the-smashing-pumpkins-the-rats-in-chicago-illinois-10-14-2026/event/040064AEC927C088",
+      "sales": {
+        "public_start": "2026-05-21T15:00:00Z",
+        "public_end": "2026-10-15T00:00:00Z",
+        "presales": [
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-20T15:00:00Z",
+            "end": "2026-05-21T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-19T15:00:00Z",
+            "end": "2026-05-21T03:00:00Z"
+          },
+          {
+            "name": "Verizon Access Presale Tickets",
+            "start": "2026-05-19T15:00:00Z",
+            "end": "2026-05-21T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-21T15:00:00Z",
+            "end": "2026-09-15T03:00:00Z"
+          },
+          {
+            "name": "Verizon Access Select Seats",
+            "start": "2026-05-21T15:00:00Z",
+            "end": "2026-09-15T03:00:00Z"
+          },
+          {
+            "name": "Venue Presale",
+            "start": "2026-05-20T15:00:00Z",
+            "end": "2026-05-21T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-05-20T14:00:00Z",
+            "end": "2026-05-21T03:00:00Z"
+          },
+          {
+            "name": "ViZ Presale",
+            "start": "2026-05-20T14:00:00Z",
+            "end": "2026-05-21T03:00:00Z"
+          },
+          {
+            "name": "Citi Cardmember VIP Packages",
+            "start": "2026-05-19T15:00:00Z",
+            "end": "2026-05-20T13:45:00Z"
+          },
+          {
+            "name": "Verizon Access VIP Packages",
+            "start": "2026-05-19T15:00:00Z",
+            "end": "2026-05-20T13:45:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178Z_kGkRLKIPC",

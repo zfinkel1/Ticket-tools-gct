@@ -1,21 +1,8 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-05-18T00:10:57.612137Z",
-  "count": 17,
+  "last_run": "2026-05-18T04:42:58.936379Z",
+  "count": 16,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7O4-7",
-      "name": "Good Kid w/ INOHA",
-      "location": "Riviera Theatre- IL, Chicago",
-      "date": "Sun, May 17, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7O4-7",
-      "sales": {
-        "public_start": "1900-01-01T06:00:00Z",
-        "public_end": "2026-05-18T00:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "Z7r9jZ1A7-4bN",
       "name": "Clara La San",

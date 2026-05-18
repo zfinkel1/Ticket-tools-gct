@@ -1,22 +1,8 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-05-18T00:10:41.986393Z",
+  "last_run": "2026-05-18T04:43:24.422804Z",
   "count": 100,
   "events": [
-    {
-      "slug": "edc-las-vegas",
-      "name": "EDC Las Vegas",
-      "location": "Las Vegas, NV",
-      "date": "May 16, 2026",
-      "url": "https://www.frontgatetickets.com/events/edc-las-vegas"
-    },
-    {
-      "slug": "keith-lees-familee-day",
-      "name": "Keith Lee&#x27;s Familee Day",
-      "location": "New Orleans, LA",
-      "date": "May 16, 2026",
-      "url": "https://www.frontgatetickets.com/events/keith-lees-familee-day"
-    },
     {
       "slug": "bottlerock-napa-valley",
       "name": "BottleRock Napa Valley",
@@ -702,6 +688,64 @@
       "location": "Orlando, FL",
       "date": "November 14, 2026",
       "url": "https://www.frontgatetickets.com/events/vans-warped-tour-3"
+    },
+    {
+      "slug": "darker-waves",
+      "name": "Darker Waves",
+      "location": "Huntington Beach, CA",
+      "date": "November 14, 2026",
+      "url": "https://www.frontgatetickets.com/events/darker-waves",
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "forbidden-kingdom",
+      "name": "Forbidden Kingdom",
+      "location": "Orlando, FL",
+      "date": "April 23, 2027",
+      "url": "https://www.frontgatetickets.com/events/forbidden-kingdom",
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

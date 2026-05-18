@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-18T00:11:05.399754Z",
+  "last_run": "2026-05-18T04:43:24.423808Z",
   "count": 20,
   "events": [
-    {
-      "slug": "183119",
-      "name": "Nordista Freeze",
-      "location": "Ramova Loft",
-      "date": "Sun, May 17 at 7:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/nordista-freeze-183119",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "168970",
       "name": "CHAOS & CARNAGE 2026",
@@ -241,21 +229,33 @@
         "public_start": null,
         "public_end": null,
         "presales": []
+      }
+    },
+    {
+      "slug": "188825",
+      "name": "Sueños Official After Party | DYNAMIQO",
+      "location": "Gold Coast Social",
+      "date": "Sat, May 23 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-dynamiqo-188825",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
       },
       "score_data": {
-        "score": 38,
-        "rec": "watch",
+        "score": 30,
+        "rec": "skip",
         "components": {
           "history": 0,
           "dow": 0,
           "pattern": 0,
           "pattern_labels": [],
-          "venue_type": 8,
+          "venue_type": 0,
           "venue_blacklist": 0,
           "month": 0,
           "auto_loser": 0,
           "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
+          "why": "Skip — score too low to justify"
         }
       },
       "tier_predictions": [],

@@ -1,21 +1,8 @@
 {
   "site": "Park West",
-  "last_run": "2026-05-18T00:10:56.852779Z",
-  "count": 12,
+  "last_run": "2026-05-18T04:42:58.378419Z",
+  "count": 11,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7xKv0",
-      "name": "Julio Torres: Works in Progress (18+ Event)",
-      "location": "Park West, Chicago",
-      "date": "Sun, May 17, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xKv0",
-      "sales": {
-        "public_start": "1900-01-01T18:00:00Z",
-        "public_end": "2026-05-18T00:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "Z7r9jZ1A7rA8o",
       "name": "Joe Jackson",
