@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-18T04:43:24.424236Z",
+  "last_run": "2026-05-18T08:38:19.349699Z",
   "count": 69,
   "events": [
     {
@@ -2167,29 +2167,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 32,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 2,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv178Z_kGkRLKIPC",

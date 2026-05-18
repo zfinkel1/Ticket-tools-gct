@@ -1,26 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-18T04:42:58.703288Z",
-  "count": 83,
+  "last_run": "2026-05-18T08:38:13.499407Z",
+  "count": 82,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfQ67N",
-      "name": "*SOLD OUT* Twin Peaks with Neptune's Core and Carmen Christopher",
-      "location": "Thalia Hall, Chicago",
-      "date": "Sun, May 17, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14687123",
-      "sales": {
-        "public_start": "2025-11-13T18:00:00Z",
-        "public_end": "2026-05-18T01:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "Z7r9jZ1A7rkfO",
       "name": "Twin Peaks",

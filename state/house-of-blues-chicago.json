@@ -1,72 +1,8 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-18T04:42:58.188544Z",
+  "last_run": "2026-05-18T08:38:25.963382Z",
   "count": 66,
   "events": [
-    {
-      "slug": "vv1A7Zk8IGkdbnp0i",
-      "name": "Free Throw - Moments Before The Wind Tour",
-      "location": "House of Blues Chicago",
-      "date": "Sun, May 17, 2026 · 5:00 PM",
-      "url": "https://www.ticketmaster.com/free-throw-moments-before-the-wind-chicago-illinois-05-17-2026/event/04006428D8A9692C",
-      "sales": {
-        "public_start": "2026-01-23T16:00:00Z",
-        "public_end": "2026-05-17T22:00:00Z",
-        "presales": [
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2026-01-20T17:00:00Z",
-            "end": "2026-01-23T04:00:00Z"
-          },
-          {
-            "name": "VIP Package Presale",
-            "start": "2026-01-20T17:00:00Z",
-            "end": "2026-01-23T15:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-01-20T17:00:00Z",
-            "end": "2026-01-23T04:00:00Z"
-          },
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2026-01-20T19:00:00Z",
-            "end": "2026-01-23T04:00:00Z"
-          },
-          {
-            "name": "SPT Presale",
-            "start": "2026-01-21T19:00:00Z",
-            "end": "2026-01-23T04:00:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2026-01-20T19:00:00Z",
-            "end": "2026-01-23T04:00:00Z"
-          },
-          {
-            "name": "HOB Foundation Room Member Presale",
-            "start": "2026-01-20T19:00:00Z",
-            "end": "2026-01-23T04:00:00Z"
-          },
-          {
-            "name": "312 Day",
-            "start": "2026-03-12T15:00:00Z",
-            "end": "2026-03-13T04:59:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2026-01-23T16:00:00Z",
-            "end": "2026-04-19T03:00:00Z"
-          },
-          {
-            "name": "VIP Package Onsale",
-            "start": "2026-01-23T16:00:00Z",
-            "end": "2026-05-11T03:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv178Z_AGknzOzEE",
       "name": "Chicago Comedy Club",
@@ -641,6 +577,41 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_573GTOg",
+      "name": "Power to the P-Pole: What a Time to Have PRIDE",
+      "location": "Backporch Stage at House of Blues Chicago",
+      "date": "Sun, Jun 14, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/power-to-the-ppole-what-a-chicago-illinois-06-14-2026/event/040064B11233F835",
+      "sales": {
+        "public_start": "2026-05-18T08:17:00Z",
+        "public_end": "2026-06-14T23:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 41,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178Z_aGkR9pcZX",
