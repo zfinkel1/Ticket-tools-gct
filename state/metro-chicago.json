@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-18T12:15:12.828778Z",
-  "count": 51,
+  "last_run": "2026-05-18T15:59:50.400067Z",
+  "count": 52,
   "events": [
     {
       "slug": "yebba-2",
@@ -359,6 +359,35 @@
       "location": "",
       "date": "Sun, Oct 11",
       "url": "https://metrochicago.com/event/butttootking-2/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "adult-a-place-to-bury-strangers",
+      "name": "ADULT. &#038; A Place To Bury Strangers",
+      "location": "",
+      "date": "Fri, Nov 20",
+      "url": "https://metrochicago.com/event/adult-a-place-to-bury-strangers/metro-chicago/chicago-illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
