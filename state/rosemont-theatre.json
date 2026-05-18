@@ -1,6 +1,6 @@
 {
   "site": "Rosemont Theatre",
-  "last_run": "2026-05-18T20:06:15.743382Z",
+  "last_run": "2026-05-18T21:38:32.969550Z",
   "count": 21,
   "events": [
     {
@@ -644,11 +644,11 @@
       "slug": "vvG18Z_1rGCkw0",
       "name": "Morat YEM World Tour 2027",
       "location": "Rosemont Theatre",
-      "date": "Thu, Mar 4, 2027 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-rosemont-illinois-03-04-2027/event/040064A78C386CA4",
+      "date": "Fri, Mar 5, 2027 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-rosemont-illinois-03-05-2027/event/040064A78C386CA4",
       "sales": {
         "public_start": "2026-05-22T15:00:00Z",
-        "public_end": "2027-03-05T03:00:00Z",
+        "public_end": "2027-03-06T03:00:00Z",
         "presales": [
           {
             "name": "CMN PRESALE",
