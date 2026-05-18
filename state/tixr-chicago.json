@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-17T21:58:42.950375Z",
+  "last_run": "2026-05-18T00:11:05.399754Z",
   "count": 20,
   "events": [
-    {
-      "slug": "179830",
-      "name": "LA CURA - DRAKE BRUNCH  (21+)",
-      "location": "Gold Coast Social",
-      "date": "Sun, May 17 at 11:00 AM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/la-cura-drake-brunch-21--179830",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "183119",
       "name": "Nordista Freeze",
@@ -241,21 +229,33 @@
         "public_start": null,
         "public_end": null,
         "presales": []
+      }
+    },
+    {
+      "slug": "188208",
+      "name": "Más EDM: Sueños Official After Party",
+      "location": "Ramova Theatre ",
+      "date": "Sat, May 23 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/m-s-edm-sue-os-official-after-party-188208",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
       },
       "score_data": {
-        "score": 30,
-        "rec": "skip",
+        "score": 38,
+        "rec": "watch",
         "components": {
           "history": 0,
           "dow": 0,
           "pattern": 0,
           "pattern_labels": [],
-          "venue_type": 0,
+          "venue_type": 8,
           "venue_blacklist": 0,
           "month": 0,
           "auto_loser": 0,
           "history_label": "no history",
-          "why": "Skip — score too low to justify"
+          "why": "Worth watching — theater/club venue (high margin)"
         }
       },
       "tier_predictions": [],
