@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-19T03:45:21.990342Z",
-  "count": 91,
+  "last_run": "2026-05-19T10:45:23.699444Z",
+  "count": 90,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfOvqd",
-      "name": "FREE MONDAY w/ Local Memory / Ladybird / Hannah Frey",
-      "location": "Empty Bottle, Chicago",
-      "date": "Mon, May 18, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/free-monday-w-local-memory-empty-bottle-tickets/14801743",
-      "sales": {
-        "public_start": "2026-03-23T15:00:00Z",
-        "public_end": "2026-05-19T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfO6PK",
       "name": "Tunnel / John Wright II / Mantle",
