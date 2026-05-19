@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-19T21:55:26.382898Z",
+  "last_run": "2026-05-19T23:04:25.473284Z",
   "count": 86,
   "events": [
     {
@@ -1054,29 +1054,7 @@
         "public_end": "2026-10-08T01:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 40,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 2,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "rZ7HnEZ1Af00ZS",

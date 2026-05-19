@@ -1,7 +1,7 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-05-19T21:55:21.545487Z",
-  "count": 35,
+  "last_run": "2026-05-19T23:04:51.335987Z",
+  "count": 37,
   "events": [
     {
       "slug": "Z7r9jZ1A7qIb3",
@@ -329,6 +329,41 @@
       "price_range": null
     },
     {
+      "slug": "Z7r9jZ1A703uJ",
+      "name": "Alok (18 and Over)",
+      "location": "Vic Theatre, Chicago",
+      "date": "Sat, Sep 19, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A703uJ",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-09-20T00:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 44,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "Z7r9jZ1A7ONOd",
       "name": "Lambrini Girls (18 and Over)",
       "location": "Vic Theatre, Chicago",
@@ -457,6 +492,51 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A70fxf",
+      "name": "Choir! Choir! Choir!",
+      "location": "Vic Theatre, Chicago",
+      "date": "Thu, Dec 17, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70fxf",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-12-18T01:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Choir! Choir! Choir!",
+        "name": "Choir! Choir! Choir! Un-SILENT NIGHT: An EPIC Holiday Sing-Along!",
+        "popularity": 21,
+        "followers": 6723,
+        "city_streams": 39,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 41,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
