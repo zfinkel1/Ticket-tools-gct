@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-19T16:43:42.064901Z",
+  "last_run": "2026-05-19T18:28:53.207874Z",
   "count": 70,
   "events": [
     {
@@ -1895,29 +1895,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 40,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 4,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk38GkeXZ_vV",
@@ -2086,42 +2064,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 32,
-        "rec": "skip",
-        "components": {
-          "history": -10,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg -1% margin, 0% profitable",
-          "why": "Skip — weak history (1ev avg -1% margin, 0% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 1,
-        "avg_margin": -1.3,
-        "profitable_pct": 0.0,
-        "avg_sell_price": 37.52,
-        "avg_cost_price": 38.0,
-        "display_name": "Dax"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "the wc social club",
-          "tickets": 38,
-          "margin": -1.3
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3kGkdNxqha",

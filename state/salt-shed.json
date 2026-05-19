@@ -1,6 +1,6 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-19T16:43:42.060872Z",
+  "last_run": "2026-05-19T18:28:51.525333Z",
   "count": 75,
   "events": [
     {
@@ -66,11 +66,11 @@
       "slug": "rZ7HnEZ1Af0ovN",
       "name": "Warm Love Cool Dreams - 2 DAY PASS",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
-      "date": "Sat, May 23, 2026 · 12:30 PM",
+      "date": "Sat, May 23, 2026 · 1:00 PM",
       "url": "https://www.ticketweb.com/event/warm-love-cool-dreams-the-salt-shed-outdoors-fairgrounds-tickets/14911063",
       "sales": {
         "public_start": "2026-05-08T15:00:00Z",
-        "public_end": "2026-05-23T17:30:00Z",
+        "public_end": "2026-05-23T18:00:00Z",
         "presales": []
       },
       "price_range": {
@@ -2290,29 +2290,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1kvZv00aGACHUYR",
