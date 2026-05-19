@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-18T23:47:21.872138Z",
+  "last_run": "2026-05-19T03:45:35.386836Z",
   "count": 20,
   "events": [
     {
@@ -45,18 +45,6 @@
       "location": "Joy District",
       "date": "Thu, May 21 at 6:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-dj-dynamiqo-fuerza-regida-official-dj--190411",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "190010",
-      "name": "GASONLINA THURSDAYS (21+)",
-      "location": "Gold Coast Social",
-      "date": "Thu, May 21 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/gasonlina-thursdays-21--190010",
       "sales": {
         "public_start": null,
         "public_end": null,
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "188834",
+      "name": "Sueños Official After Party | J SANTOS",
+      "location": "Roof on the Wit",
+      "date": "Sat, May 23 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-j-santos-188834",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

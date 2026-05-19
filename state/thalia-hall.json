@@ -1,21 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-18T23:47:24.039492Z",
-  "count": 83,
+  "last_run": "2026-05-19T03:45:17.913789Z",
+  "count": 82,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7rkfO",
-      "name": "Twin Peaks",
-      "location": "Thalia Hall, Chicago",
-      "date": "Mon, May 18, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7rkfO",
-      "sales": {
-        "public_start": "1900-01-01T06:00:00Z",
-        "public_end": "2026-05-19T01:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "rZ7HnEZ1AfQ3bN",
       "name": "*SOLD OUT* Twin Peaks with Free Range",
