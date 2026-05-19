@@ -1,7 +1,7 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-19T20:16:31.872909Z",
-  "count": 85,
+  "last_run": "2026-05-19T21:55:26.382898Z",
+  "count": 86,
   "events": [
     {
       "slug": "Z7r9jZ1A7Os-w",
@@ -970,8 +970,8 @@
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 33.52,
+        "max": 33.52,
         "currency": "USD",
         "type": "standard"
       }
@@ -1042,6 +1042,41 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "Z7r9jZ1A70toe",
+      "name": "Sweet Pill",
+      "location": "Thalia Hall, Chicago",
+      "date": "Wed, Oct 7, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70toe",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-10-08T01:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 40,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af00ZS",
