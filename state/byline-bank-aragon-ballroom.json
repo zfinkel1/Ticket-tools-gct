@@ -1,7 +1,7 @@
 {
   "site": "Byline Bank Aragon Ballroom",
-  "last_run": "2026-05-19T10:45:20.659366Z",
-  "count": 20,
+  "last_run": "2026-05-19T16:43:42.063737Z",
+  "count": 23,
   "events": [
     {
       "slug": "vv1A7ZkuvGkdjUfnf",
@@ -396,6 +396,72 @@
       "price_range": null
     },
     {
+      "slug": "vvG18Z_1BD2Qcy",
+      "name": "LUCKI",
+      "location": "Aragon Ballroom, Chicago",
+      "date": "Fri, Aug 28, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/lucki-chicago-illinois-08-28-2026/event/040064AEBB3DAB79",
+      "sales": {
+        "public_start": "2026-05-22T15:00:00Z",
+        "public_end": "2026-08-29T00:30:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-20T15:00:00Z",
+            "end": "2026-05-22T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-22T15:00:00Z",
+            "end": "2026-08-14T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-20T15:00:00Z",
+            "end": "2026-05-22T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-21T15:00:00Z",
+            "end": "2026-05-22T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "LUCKI",
+        "name": "LUCKI",
+        "popularity": 79,
+        "followers": 1666049,
+        "city_streams": 64684,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "vv1k8Z_abNG7iqki",
       "name": "Stan Society Presents Bop to the Top Summer Tour 2026",
       "location": "Aragon Ballroom, Chicago",
@@ -514,6 +580,72 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_1MCaipV",
+      "name": "Starbomb: Probably The Only Tour Ever",
+      "location": "Aragon Ballroom, Chicago",
+      "date": "Wed, Oct 7, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/starbomb-probably-the-only-tour-ever-chicago-illinois-10-07-2026/event/040064ADCE26C5B4",
+      "sales": {
+        "public_start": "2026-05-21T15:00:00Z",
+        "public_end": "2026-10-08T01:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-19T18:00:00Z",
+            "end": "2026-05-21T04:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-21T15:00:00Z",
+            "end": "2026-09-23T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-19T18:00:00Z",
+            "end": "2026-05-21T04:59:00Z"
+          },
+          {
+            "name": "Starbomb VIP Package Presale",
+            "start": "2026-05-19T18:00:00Z",
+            "end": "2026-05-21T04:59:00Z"
+          },
+          {
+            "name": "Starbomb VIP Package",
+            "start": "2026-05-21T15:00:00Z",
+            "end": "2026-10-02T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-20T15:00:00Z",
+            "end": "2026-05-21T04:59:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1kvZv0PoGA2h9X8",
@@ -773,6 +905,67 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_1NJ0Ag4",
+      "name": "Beartooth: Pure Ecstasy World Tour",
+      "location": "Aragon Ballroom, Chicago",
+      "date": "Fri, Nov 20, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-chicago-illinois-11-20-2026/event/040064A8E6905D55",
+      "sales": {
+        "public_start": "2026-05-22T15:00:00Z",
+        "public_end": "2026-11-21T00:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-19T16:00:00Z",
+            "end": "2026-05-22T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-22T15:00:00Z",
+            "end": "2026-10-24T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-19T16:00:00Z",
+            "end": "2026-05-22T03:00:00Z"
+          },
+          {
+            "name": "Spotify Tickets",
+            "start": "2026-05-20T15:00:00Z",
+            "end": "2026-05-22T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-20T17:00:00Z",
+            "end": "2026-05-22T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

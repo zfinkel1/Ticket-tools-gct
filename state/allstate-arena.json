@@ -1,6 +1,6 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-19T10:45:24.900230Z",
+  "last_run": "2026-05-19T16:42:18.368224Z",
   "count": 38,
   "events": [
     {
@@ -795,7 +795,7 @@
         "presales": [
           {
             "name": "VIP Packages Presale",
-            "start": "2026-05-19T14:00:00Z",
+            "start": "2026-05-20T14:00:00Z",
             "end": "2026-05-22T04:00:00Z"
           },
           {

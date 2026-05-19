@@ -1,7 +1,7 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-05-19T10:45:23.099654Z",
-  "count": 35,
+  "last_run": "2026-05-19T16:43:42.069374Z",
+  "count": 37,
   "events": [
     {
       "slug": "rZ7HnEZ1Af_SON",
@@ -308,6 +308,86 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0Ykd",
+      "name": "School Of Rock AllStars",
+      "location": "Bottom Lounge, Chicago",
+      "date": "Mon, Jul 20, 2026 · 6:30 PM",
+      "url": "https://www.ticketweb.com/event/school-of-rock-allstars-bottom-lounge-tickets/14930183",
+      "sales": {
+        "public_start": "2026-05-19T16:00:00Z",
+        "public_end": "2026-07-20T23:30:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 19.77,
+        "max": 19.77,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 39,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "rZ7HnEZ1Af0-7N",
+      "name": "Cinema Therapy LIVE!",
+      "location": "Bottom Lounge, Chicago",
+      "date": "Sat, Aug 8, 2026 · 7:30 PM",
+      "url": "https://www.ticketweb.com/event/cinema-therapy-live-bottom-lounge-tickets/14921123",
+      "sales": {
+        "public_start": "2026-05-20T15:00:00Z",
+        "public_end": "2026-08-09T00:30:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 42,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Afvbu7",

@@ -1,7 +1,7 @@
 {
   "site": "Wintrust Arena",
-  "last_run": "2026-05-19T10:45:25.185031Z",
-  "count": 27,
+  "last_run": "2026-05-19T16:43:42.070292Z",
+  "count": 28,
   "events": [
     {
       "slug": "vv17jZ_dGkD9syt6",
@@ -184,6 +184,41 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG1jZ_1zF4qPR",
+      "name": "BIG3",
+      "location": "Wintrust Arena, Chicago",
+      "date": "Sun, Jul 19, 2026 · 12:30 PM",
+      "url": "https://www.ticketmaster.com/big3-chicago-illinois-07-19-2026/event/070064AE0855D96F",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vvG1jZ_1hRQaYx",
