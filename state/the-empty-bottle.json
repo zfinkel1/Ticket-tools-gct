@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-20T17:32:22.337797Z",
-  "count": 94,
+  "last_run": "2026-05-20T21:57:26.316677Z",
+  "count": 95,
   "events": [
     {
       "slug": "rZ7HnEZ1Af0xFN",
@@ -23,18 +23,18 @@
     },
     {
       "slug": "rZ7HnEZ1AfbtvN",
-      "name": "*SOLD OUT* Just Mustard / Miss Grit",
+      "name": "Just Mustard / Miss Grit",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, May 21, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-just-mustard-empty-bottle-tickets/14629063",
+      "url": "https://www.ticketweb.com/event/just-mustard-miss-grit-empty-bottle-tickets/14629063",
       "sales": {
         "public_start": "2025-10-23T15:00:00Z",
         "public_end": "2026-05-22T02:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 26.78,
+        "max": 26.78,
         "currency": "USD",
         "type": "standard"
       }
@@ -163,29 +163,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 32,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 2,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-e4S",
@@ -296,6 +274,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1Af0U0S",
+      "name": "RED·MAGE / Kafiza / Sidaka",
+      "location": "Empty Bottle, Chicago",
+      "date": "Tue, Jun 2, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/redmage-kafiza-sidaka-empty-bottle-tickets/14936933",
+      "sales": {
+        "public_start": "2026-05-20T15:00:00Z",
+        "public_end": "2026-06-03T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 34,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1Af0kaN",
       "name": "Rareforms (EP Release) / Diagonal / 96 Cougar",
       "location": "Empty Bottle, Chicago",
@@ -387,7 +405,7 @@
     },
     {
       "slug": "rZ7HnEZ1AfO4uS",
-      "name": "Nothing-Assumed feat. Sports Boyfriend (Album Release)",
+      "name": "Nothing-Assumed feat. Sports Boyfriend (Album Release) / Living Thing / Adam Schubert",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Jun 7, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/nothing-assumed-feat-sports-boyfriend-empty-bottle-tickets/14815373",
@@ -563,29 +581,7 @@
         "max": 16.17,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 32,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 2,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZE07",
@@ -657,29 +653,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-FAd",
@@ -1111,29 +1085,7 @@
         "max": 20.39,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 35,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af0Zad",
@@ -1295,29 +1247,7 @@
         "max": 20.39,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af0OoS",

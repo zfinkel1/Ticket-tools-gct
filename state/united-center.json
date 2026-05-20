@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-20T17:32:22.339905Z",
+  "last_run": "2026-05-20T21:57:15.014446Z",
   "count": 71,
   "events": [
     {
@@ -2387,57 +2387,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "JOHN SUMMIT",
-        "name": "John Summit - Friday Pre-party",
-        "popularity": 77,
-        "followers": 522522,
-        "city_streams": null,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 69,
-        "rec": "buy",
-        "components": {
-          "history": 35,
-          "dow": 4,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "4ev avg +92% margin, 100% profitable",
-          "why": "Strong buy — strong history (4ev avg +92% margin, 100% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 4,
-        "avg_margin": 91.6,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 140.95,
-        "avg_cost_price": 91.15,
-        "display_name": "John Summit"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "huntington bank pavilion at northerly island",
-          "tickets": 328,
-          "margin": 77.2
-        },
-        {
-          "venue": "radius - il",
-          "tickets": 4,
-          "margin": 96.8
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vvG18Z_52-Dlqv",
@@ -2481,57 +2431,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "JOHN SUMMIT",
-        "name": "John Summit - Friday Pre-party",
-        "popularity": 77,
-        "followers": 522522,
-        "city_streams": null,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 67,
-        "rec": "buy",
-        "components": {
-          "history": 35,
-          "dow": 2,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "4ev avg +92% margin, 100% profitable",
-          "why": "Strong buy — strong history (4ev avg +92% margin, 100% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 4,
-        "avg_margin": 91.6,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 140.95,
-        "avg_cost_price": 91.15,
-        "display_name": "John Summit"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "huntington bank pavilion at northerly island",
-          "tickets": 328,
-          "margin": 77.2
-        },
-        {
-          "venue": "radius - il",
-          "tickets": 4,
-          "margin": 96.8
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv178ZbgGkMMraib",
