@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-20T00:18:51.177498Z",
+  "last_run": "2026-05-20T04:47:46.259631Z",
   "count": 20,
   "events": [
-    {
-      "slug": "168970",
-      "name": "CHAOS & CARNAGE 2026",
-      "location": "Ramova Theatre ",
-      "date": "Tue, May 19 at 4:45 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/chaos-carnage-2026-168970",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "184071",
       "name": "Fresa  | Road To Sueños",
@@ -194,6 +182,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "189967",
+      "name": "MIA | Latin Day Club | Reserv Rooftop",
+      "location": "Reserv",
+      "date": "Sat, May 23 at 11:00 AM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/mia-latin-day-club-reserv-rooftop-189967",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "179266",
