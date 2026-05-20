@@ -1,6 +1,6 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-20T21:57:26.316677Z",
+  "last_run": "2026-05-20T23:18:59.484848Z",
   "count": 95,
   "events": [
     {
@@ -23,18 +23,18 @@
     },
     {
       "slug": "rZ7HnEZ1AfbtvN",
-      "name": "Just Mustard / Miss Grit",
+      "name": "*SOLD OUT* Just Mustard / Miss Grit",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, May 21, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/just-mustard-miss-grit-empty-bottle-tickets/14629063",
+      "url": "https://www.ticketweb.com/event/sold-out-just-mustard-empty-bottle-tickets/14629063",
       "sales": {
         "public_start": "2025-10-23T15:00:00Z",
         "public_end": "2026-05-22T02:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 26.78,
-        "max": 26.78,
+        "min": 0.0,
+        "max": 0.0,
         "currency": "USD",
         "type": "standard"
       }
@@ -289,29 +289,7 @@
         "max": 16.17,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 34,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 4,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af0kaN",
