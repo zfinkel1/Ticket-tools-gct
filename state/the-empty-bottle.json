@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-20T04:47:40.217766Z",
-  "count": 90,
+  "last_run": "2026-05-20T08:30:43.315596Z",
+  "count": 89,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfO6PK",
-      "name": "Tunnel / John Wright II / Mantle",
-      "location": "Empty Bottle, Chicago",
-      "date": "Tue, May 19, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/tunnel-john-wright-ii-empty-bottle-tickets/14807953",
-      "sales": {
-        "public_start": "2026-03-25T15:00:00Z",
-        "public_end": "2026-05-20T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 16.17,
-        "max": 16.17,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af0xFN",
       "name": "Various Distractions w/ Springload Precarious (live) / Zagc / DJ Signal",

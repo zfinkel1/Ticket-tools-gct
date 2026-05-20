@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-20T04:47:03.838490Z",
-  "count": 51,
+  "last_run": "2026-05-20T08:30:28.360871Z",
+  "count": 50,
   "events": [
-    {
-      "slug": "yebba",
-      "name": "Yebba",
-      "location": "",
-      "date": "Tue, May 19",
-      "url": "https://metrochicago.com/event/yebba/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "the-27th-annual-grabby-awards",
       "name": "The 27th Annual Grabby Awards",
