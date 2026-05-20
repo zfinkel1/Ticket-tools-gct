@@ -1,7 +1,7 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-20T14:10:02.365292Z",
-  "count": 70,
+  "last_run": "2026-05-20T17:31:38.724734Z",
+  "count": 69,
   "events": [
     {
       "slug": "vv178Z_AGknzOzEE",
@@ -176,55 +176,6 @@
         "public_start": "2026-01-23T17:00:00Z",
         "public_end": "2026-05-25T02:00:00Z",
         "presales": []
-      },
-      "price_range": null
-    },
-    {
-      "slug": "vv178ZbzGkl6dFT3",
-      "name": "ESTEMAN & DANIELA SPALLA - AMORIO USA TOUR",
-      "location": "House of Blues Chicago",
-      "date": "Tue, May 26, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/esteman-daniela-spalla-amorio-usa-tour-chicago-illinois-05-26-2026/event/0400638AC70C8FD2",
-      "sales": {
-        "public_start": "2025-12-19T16:00:00Z",
-        "public_end": "2026-05-26T23:00:00Z",
-        "presales": [
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2025-12-18T16:00:00Z",
-            "end": "2025-12-19T05:59:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2025-12-19T16:00:00Z",
-            "end": "2026-05-12T04:59:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2025-12-18T16:00:00Z",
-            "end": "2025-12-19T05:59:00Z"
-          },
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2025-12-18T16:00:00Z",
-            "end": "2025-12-19T05:59:00Z"
-          },
-          {
-            "name": "Reventon Presale",
-            "start": "2025-12-18T16:00:00Z",
-            "end": "2025-12-19T05:59:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2025-12-18T16:00:00Z",
-            "end": "2025-12-19T05:59:00Z"
-          },
-          {
-            "name": "HOB Foundation Room Member Presale",
-            "start": "2025-12-18T16:00:00Z",
-            "end": "2025-12-19T05:59:00Z"
-          }
-        ]
       },
       "price_range": null
     },

@@ -1,7 +1,7 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-20T14:10:05.819592Z",
-  "count": 69,
+  "last_run": "2026-05-20T17:32:22.339905Z",
+  "count": 71,
   "events": [
     {
       "slug": "vv178Z_eGkm8Pwdj",
@@ -2344,6 +2344,194 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_52-BljX",
+      "name": "JOHN SUMMIT - CTRL ESCAPE ARENA TOUR",
+      "location": "United Center, Chicago",
+      "date": "Tue, Nov 24, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-chicago-illinois-11-24-2026/event/040064B3E1EAB73E",
+      "sales": {
+        "public_start": "2026-05-29T15:00:00Z",
+        "public_end": "2026-11-24T23:00:00Z",
+        "presales": [
+          {
+            "name": "Cash App Card Presale",
+            "start": "2026-05-26T15:00:00Z",
+            "end": "2026-05-27T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T13:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-29T14:45:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-28T15:00:00Z",
+            "end": "2026-05-29T03:00:00Z"
+          },
+          {
+            "name": "Venue/ Radio Presale",
+            "start": "2026-05-28T15:00:00Z",
+            "end": "2026-05-29T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-05-28T17:00:00Z",
+            "end": "2026-05-29T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "JOHN SUMMIT",
+        "name": "John Summit - Friday Pre-party",
+        "popularity": 77,
+        "followers": 522522,
+        "city_streams": null,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 69,
+        "rec": "buy",
+        "components": {
+          "history": 35,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "4ev avg +92% margin, 100% profitable",
+          "why": "Strong buy — strong history (4ev avg +92% margin, 100% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 4,
+        "avg_margin": 91.6,
+        "profitable_pct": 100.0,
+        "avg_sell_price": 140.95,
+        "avg_cost_price": 91.15,
+        "display_name": "John Summit"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "huntington bank pavilion at northerly island",
+          "tickets": 328,
+          "margin": 77.2
+        },
+        {
+          "venue": "radius - il",
+          "tickets": 4,
+          "margin": 96.8
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "vvG18Z_52-Dlqv",
+      "name": "JOHN SUMMIT - CTRL ESCAPE ARENA TOUR",
+      "location": "United Center, Chicago",
+      "date": "Wed, Nov 25, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-chicago-illinois-11-25-2026/event/040064B3E1EEB741",
+      "sales": {
+        "public_start": "2026-05-29T15:00:00Z",
+        "public_end": "2026-11-25T23:00:00Z",
+        "presales": [
+          {
+            "name": "Cash App Card Presale",
+            "start": "2026-05-26T15:00:00Z",
+            "end": "2026-05-27T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T13:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-29T14:45:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-28T15:00:00Z",
+            "end": "2026-05-29T03:00:00Z"
+          },
+          {
+            "name": "Venue/ Radio Presale",
+            "start": "2026-05-28T15:00:00Z",
+            "end": "2026-05-29T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-05-28T17:00:00Z",
+            "end": "2026-05-29T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "JOHN SUMMIT",
+        "name": "John Summit - Friday Pre-party",
+        "popularity": 77,
+        "followers": 522522,
+        "city_streams": null,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 67,
+        "rec": "buy",
+        "components": {
+          "history": 35,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "4ev avg +92% margin, 100% profitable",
+          "why": "Strong buy — strong history (4ev avg +92% margin, 100% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 4,
+        "avg_margin": 91.6,
+        "profitable_pct": 100.0,
+        "avg_sell_price": 140.95,
+        "avg_cost_price": 91.15,
+        "display_name": "John Summit"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "huntington bank pavilion at northerly island",
+          "tickets": 328,
+          "margin": 77.2
+        },
+        {
+          "venue": "radius - il",
+          "tickets": 4,
+          "margin": 96.8
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178ZbgGkMMraib",

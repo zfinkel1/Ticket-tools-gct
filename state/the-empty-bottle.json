@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-20T14:10:04.945165Z",
-  "count": 89,
+  "last_run": "2026-05-20T17:32:22.337797Z",
+  "count": 94,
   "events": [
     {
       "slug": "rZ7HnEZ1Af0xFN",
@@ -146,6 +146,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0YxK",
+      "name": "Do Division Pre-Party with Elizabeth Moen / G'nite",
+      "location": "Empty Bottle, Chicago",
+      "date": "Wed, May 27, 2026 · 8:00 PM",
+      "url": "https://www.ticketweb.com/event/do-division-pre-party-with-empty-bottle-tickets/14930893",
+      "sales": {
+        "public_start": "2026-05-20T15:00:00Z",
+        "public_end": "2026-05-28T01:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af-e4S",
@@ -508,6 +548,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1Af0YfN",
+      "name": "Memory Card / The Philadelphia Eagles / imy3 / Cambodian SIM Card",
+      "location": "Empty Bottle, Chicago",
+      "date": "Wed, Jun 17, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/memory-card-the-philadelphia-empty-bottle-tickets/14930523",
+      "sales": {
+        "public_start": "2026-05-20T15:00:00Z",
+        "public_end": "2026-06-18T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1AfZE07",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
@@ -560,6 +640,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0YPN",
+      "name": "FREE MONDAY w/ Bitcrush / Zander Raymond / JP Prentiss",
+      "location": "Empty Bottle, Chicago",
+      "date": "Mon, Jun 22, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/free-monday-w-bitcrush-empty-bottle-tickets/14930963",
+      "sales": {
+        "public_start": "2026-05-20T15:00:00Z",
+        "public_end": "2026-06-23T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af-FAd",
@@ -976,6 +1096,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1Af0SvK",
+      "name": "WORLD PEACE / Wretched Blessing / Sarin",
+      "location": "Empty Bottle, Chicago",
+      "date": "Sun, Jul 26, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/world-peace-wretched-blessing-empty-bottle-tickets/14933053",
+      "sales": {
+        "public_start": "2026-05-20T15:00:00Z",
+        "public_end": "2026-07-27T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1Af0Zad",
       "name": "Brotherkenzie",
       "location": "Empty Bottle, Chicago",
@@ -1118,6 +1278,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0s1K",
+      "name": "Sooper Records 10 Year Anniversary with Iris Temple (Record Release) / NnamdÏ / No-Fi RPM",
+      "location": "Empty Bottle, Chicago",
+      "date": "Sat, Aug 22, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/sooper-records-10-year-anniversary-empty-bottle-tickets/14931293",
+      "sales": {
+        "public_start": "2026-05-20T15:00:00Z",
+        "public_end": "2026-08-23T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af0OoS",
