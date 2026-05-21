@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-21T05:55:01.276965Z",
-  "count": 95,
+  "last_run": "2026-05-21T09:45:24.715703Z",
+  "count": 94,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af0xFN",
-      "name": "Various Distractions w/ Springload Precarious (live) / Zagc / DJ Signal",
-      "location": "Empty Bottle, Chicago",
-      "date": "Wed, May 20, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/various-distractions-w-springload-precarious-empty-bottle-tickets/14922223",
-      "sales": {
-        "public_start": "2026-05-13T15:00:00Z",
-        "public_end": "2026-05-21T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfbtvN",
       "name": "*SOLD OUT* Just Mustard / Miss Grit",
