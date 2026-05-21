@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-21T01:32:33.710035Z",
+  "last_run": "2026-05-21T05:55:13.865338Z",
   "count": 20,
   "events": [
-    {
-      "slug": "168382",
-      "name": "KREATOR: KRUSHERS OF THE USA",
-      "location": "Ramova Theatre ",
-      "date": "Wed, May 20 at 7:30 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/kreator-krushers-of-the-usa-168382",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "190411",
       "name": "Road To Sueños | DJ DYNAMIQO (Fuerza Regida Official DJ)",
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "190007",
+      "name": "DEBI TIRAR MAS PERREO - SUEÑOS WEEKEND (21+)",
+      "location": "Moe's Cantina - River North",
+      "date": "Sat, May 23 at 9:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/debi-tirar-mas-perreo-sue-os-weekend-21--190007",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
