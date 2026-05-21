@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-21T16:03:13.195416Z",
+  "last_run": "2026-05-21T18:14:42.884630Z",
   "count": 72,
   "events": [
     {
@@ -2318,7 +2318,7 @@
     },
     {
       "slug": "vvG18Z_1Ta32Me",
-      "name": "Xg World Tour: The Core In Chicago",
+      "name": "XG WORLD TOUR: THE CORE IN CHICAGO",
       "location": "United Center, Chicago",
       "date": "Mon, Nov 9, 2026 · 8:00 PM",
       "url": "https://www.ticketmaster.com/xg-world-tour-the-core-in-chicago-illinois-11-09-2026/event/040064AFC948FDC2",
@@ -2348,29 +2348,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoaGkdxvkbx",
@@ -2440,6 +2418,16 @@
             "name": "Spotify Presale",
             "start": "2026-05-28T17:00:00Z",
             "end": "2026-05-29T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-05-29T15:00:00Z",
+            "end": "2026-11-20T18:00:00Z"
+          },
+          {
+            "name": "Cash App VIP Packages Presale",
+            "start": "2026-05-26T15:00:00Z",
+            "end": "2026-05-27T14:45:00Z"
           }
         ]
       },
@@ -2484,6 +2472,16 @@
             "name": "Spotify Presale",
             "start": "2026-05-28T17:00:00Z",
             "end": "2026-05-29T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-05-29T15:00:00Z",
+            "end": "2026-11-21T18:00:00Z"
+          },
+          {
+            "name": "Cash App VIP Packages Presale",
+            "start": "2026-05-26T15:00:00Z",
+            "end": "2026-05-27T14:45:00Z"
           }
         ]
       },
