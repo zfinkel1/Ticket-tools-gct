@@ -1,26 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-22T04:45:43.218423Z",
-  "count": 86,
+  "last_run": "2026-05-22T08:15:35.989284Z",
+  "count": 85,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfQ3_S",
-      "name": "*SOLD OUT* Twin Peaks with Post Animal",
-      "location": "Thalia Hall, Chicago",
-      "date": "Thu, May 21, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-twin-peaks-with-thalia-hall-tickets/14692673",
-      "sales": {
-        "public_start": "2025-11-14T18:00:00Z",
-        "public_end": "2026-05-22T01:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af0g3d",
       "name": "*SOLD OUT* Twin Peaks",
