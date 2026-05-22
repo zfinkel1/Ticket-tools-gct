@@ -1,21 +1,8 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-05-22T00:17:02.807689Z",
-  "count": 16,
+  "last_run": "2026-05-22T04:45:43.418553Z",
+  "count": 15,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7-4bN",
-      "name": "Clara La San",
-      "location": "Riviera Theatre- IL, Chicago",
-      "date": "Thu, May 21, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-4bN",
-      "sales": {
-        "public_start": "2026-02-27T16:00:00Z",
-        "public_end": "2026-05-22T00:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "Z7r9jZ1A7OFZ_",
       "name": "Iration w/ Tribal Seeds",

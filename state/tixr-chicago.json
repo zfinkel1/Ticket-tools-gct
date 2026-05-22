@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-22T00:16:59.502464Z",
+  "last_run": "2026-05-22T04:45:56.250520Z",
   "count": 20,
   "events": [
-    {
-      "slug": "190411",
-      "name": "Road To Sueños | DJ DYNAMIQO (Fuerza Regida Official DJ)",
-      "location": "Joy District",
-      "date": "Thu, May 21 at 6:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-dj-dynamiqo-fuerza-regida-official-dj--190411",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "190414",
       "name": "Road To Sueños | DJ Fredy Fresco",
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "188208",
+      "name": "Más EDM: Sueños Official After Party",
+      "location": "Ramova Theatre ",
+      "date": "Sat, May 23 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/m-s-edm-sue-os-official-after-party-188208",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 38,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
