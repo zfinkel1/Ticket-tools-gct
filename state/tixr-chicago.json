@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-22T22:43:13.728494Z",
+  "last_run": "2026-05-22T23:49:55.759777Z",
   "count": 20,
   "events": [
-    {
-      "slug": "190527",
-      "name": "MÁS TACOS | Road To Sueños",
-      "location": "Taqueria Zacatecana",
-      "date": "Fri, May 22 at 4:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/m-s-tacos-road-to-sue-os-190527",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "173652",
       "name": "Live Nation Presents Black Veil Brides: North American Tour 2026",
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "181991",
+      "name": "Bonsai & Brew",
+      "location": "Off Hours Beer Co",
+      "date": "Sun, May 24 at 1:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/bonsai-brew-181991",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
