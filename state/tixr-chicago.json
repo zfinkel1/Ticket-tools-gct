@@ -1,44 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-22T08:15:34.052927Z",
+  "last_run": "2026-05-22T11:21:33.259115Z",
   "count": 20,
   "events": [
-    {
-      "slug": "190414",
-      "name": "Road To Sueños | DJ Fredy Fresco",
-      "location": "Galeria Chicago",
-      "date": "Thu, May 21 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-dj-fredy-fresco-190414",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "190415",
-      "name": "Road To Sueños | Gold Coast Social",
-      "location": "Gold Coast Social",
-      "date": "Thu, May 21 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-gold-coast-social-190415",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "190413",
-      "name": "Road To Sueños | Rino Bar",
-      "location": "RiNo Bar",
-      "date": "Thu, May 21 at 11:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/road-to-sue-os-rino-bar-190413",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "190527",
       "name": "MÁS TACOS | Road To Sueños",
@@ -242,6 +206,108 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "188783",
+      "name": "Sueños Official After Party | ALEXIS Y FIDO",
+      "location": "Galeria Chicago",
+      "date": "Sat, May 23 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-alexis-y-fido-188783",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "188805",
+      "name": "Sueños Official After Party | FREDY FRESCO",
+      "location": "RiNo Bar",
+      "date": "Sat, May 23 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-fredy-fresco-188805",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "188903",
+      "name": "Sueños Official After Party | OCHO & OROZCO",
+      "location": "ELA",
+      "date": "Sat, May 23 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-ocho-orozco-188903",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
