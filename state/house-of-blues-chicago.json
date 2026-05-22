@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-22T13:54:37.681793Z",
+  "last_run": "2026-05-22T16:27:50.956519Z",
   "count": 67,
   "events": [
     {
@@ -558,35 +558,6 @@
             "name": "Citi® Cardmember Preferred Tickets",
             "start": "2026-04-24T15:00:00Z",
             "end": "2026-05-24T03:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
-    {
-      "slug": "vv1FvZv0084kZ7287v",
-      "name": "Corbyn Besson and Soulidified: The Pop'n Out Tour",
-      "location": "House of Blues Chicago",
-      "date": "Thu, Jun 25, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/corbyn-besson-and-soulidified-the-popn-chicago-illinois-06-25-2026/event/040064910546EF30",
-      "sales": {
-        "public_start": "2026-04-24T15:00:00Z",
-        "public_end": "2026-06-26T00:00:00Z",
-        "presales": [
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2026-04-22T17:00:00Z",
-            "end": "2026-04-24T03:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2026-04-24T15:00:00Z",
-            "end": "2026-06-12T03:00:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2026-04-23T15:00:00Z",
-            "end": "2026-04-24T03:00:00Z"
           }
         ]
       },
@@ -1237,6 +1208,35 @@
             "name": "LIVE NATION PRESALE",
             "start": "2026-04-28T16:00:00Z",
             "end": "2026-04-29T15:00:00Z"
+          }
+        ]
+      },
+      "price_range": null
+    },
+    {
+      "slug": "vv1FvZv0084kZ7287v",
+      "name": "Corbyn Besson and Soulidified: The Pop'n Out Tour",
+      "location": "House of Blues Chicago",
+      "date": "Tue, Aug 25, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/corbyn-besson-and-soulidified-the-popn-chicago-illinois-08-25-2026/event/040064910546EF30",
+      "sales": {
+        "public_start": "2026-04-24T15:00:00Z",
+        "public_end": "2026-08-26T00:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-04-22T17:00:00Z",
+            "end": "2026-04-24T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-04-24T15:00:00Z",
+            "end": "2026-07-29T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-04-23T15:00:00Z",
+            "end": "2026-04-24T03:00:00Z"
           }
         ]
       },

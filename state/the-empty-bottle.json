@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-22T13:54:42.588520Z",
-  "count": 93,
+  "last_run": "2026-05-22T16:28:21.240586Z",
+  "count": 97,
   "events": [
     {
       "slug": "rZ7HnEZ1AfZEQf",
@@ -380,6 +380,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0g4N",
+      "name": "Muscle / Imelda Marcos / Repent",
+      "location": "Empty Bottle, Chicago",
+      "date": "Tue, Jun 9, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/muscle-imelda-marcos-empty-bottle-tickets/14935563",
+      "sales": {
+        "public_start": "2026-05-22T15:00:00Z",
+        "public_end": "2026-06-10T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 34,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Afx7vd",
@@ -868,6 +908,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1Af0M8S",
+      "name": "FREE MONDAY w/ Babe Report / Grocer / Patter",
+      "location": "Empty Bottle, Chicago",
+      "date": "Mon, Jul 13, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/free-monday-w-babe-report-empty-bottle-tickets/14937433",
+      "sales": {
+        "public_start": "2026-05-22T15:00:00Z",
+        "public_end": "2026-07-14T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1AfOI_S",
       "name": "The Body / BIG BRAVE / Stander",
       "location": "Empty Bottle, Chicago",
@@ -974,6 +1054,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0gpd",
+      "name": "FREE MONDAY w/ Mr.Phylzzz (Live Record Recording) / Scarlet Demore / Astral Hands / Credit Card",
+      "location": "Empty Bottle, Chicago",
+      "date": "Mon, Jul 20, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/free-monday-w-mrphylzzz-live-empty-bottle-tickets/14935583",
+      "sales": {
+        "public_start": "2026-05-22T15:00:00Z",
+        "public_end": "2026-07-21T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfZEqf",
@@ -1136,6 +1256,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0gfN",
+      "name": "Replicant / Slim Neck / Kaput / Club Drippy DJ",
+      "location": "Empty Bottle, Chicago",
+      "date": "Fri, Aug 14, 2026 · 10:00 PM",
+      "url": "https://www.ticketweb.com/event/replicant-slim-neck-empty-bottle-tickets/14935523",
+      "sales": {
+        "public_start": "2026-05-22T15:00:00Z",
+        "public_end": "2026-08-15T03:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af-wCd",
