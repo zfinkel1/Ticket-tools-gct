@@ -1,6 +1,6 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-22T16:28:21.240586Z",
+  "last_run": "2026-05-22T18:18:06.208516Z",
   "count": 97,
   "events": [
     {
@@ -397,29 +397,7 @@
         "max": 16.17,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 34,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 4,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Afx7vd",
@@ -923,29 +901,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOI_S",
@@ -1057,7 +1013,7 @@
     },
     {
       "slug": "rZ7HnEZ1Af0gpd",
-      "name": "FREE MONDAY w/ Mr.Phylzzz (Live Record Recording) / Scarlet Demore / Astral Hands / Credit Card",
+      "name": "FREE MONDAY w/ Mr.Phylzzz (Live Record Recording) / Scarlet Demore / Astral Hand / Credit Card",
       "location": "Empty Bottle, Chicago",
       "date": "Mon, Jul 20, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/free-monday-w-mrphylzzz-live-empty-bottle-tickets/14935583",
@@ -1071,29 +1027,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEqf",
@@ -1273,29 +1207,7 @@
         "max": 20.39,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 35,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-wCd",
