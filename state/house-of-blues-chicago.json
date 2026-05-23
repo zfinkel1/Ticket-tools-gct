@@ -1,47 +1,8 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-23T03:29:16.535223Z",
-  "count": 67,
+  "last_run": "2026-05-23T06:23:51.344282Z",
+  "count": 66,
   "events": [
-    {
-      "slug": "vv178ZbzGkl1Hy5L",
-      "name": "Archspire: Long Roads Big Loads Tour",
-      "location": "House of Blues Chicago",
-      "date": "Fri, May 22, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/archspire-long-roads-big-loads-tour-chicago-illinois-05-22-2026/event/0400638ACAF392DF",
-      "sales": {
-        "public_start": "2025-12-19T16:00:00Z",
-        "public_end": "2026-05-22T23:00:00Z",
-        "presales": [
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2025-12-17T16:00:00Z",
-            "end": "2025-12-19T04:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2025-12-19T16:00:00Z",
-            "end": "2026-04-25T03:00:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2025-12-17T16:00:00Z",
-            "end": "2025-12-19T04:00:00Z"
-          },
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2025-12-17T16:00:00Z",
-            "end": "2025-12-19T04:00:00Z"
-          },
-          {
-            "name": "HOB Foundation Room Member Presale",
-            "start": "2025-12-17T16:00:00Z",
-            "end": "2025-12-19T04:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1A7Zk39Gkd3X4Mb",
       "name": "IML BLUF Social Saturday",

@@ -1,57 +1,8 @@
 {
   "site": "Byline Bank Aragon Ballroom",
-  "last_run": "2026-05-23T03:29:15.797713Z",
-  "count": 23,
+  "last_run": "2026-05-23T06:23:50.771993Z",
+  "count": 22,
   "events": [
-    {
-      "slug": "vv1A7ZkuvGkdjUfnf",
-      "name": "SLIDE AWAY 2026",
-      "location": "Aragon Ballroom, Chicago",
-      "date": "Fri, May 22, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/slide-away-2026-chicago-illinois-05-22-2026/event/04006341DCD94A94",
-      "sales": {
-        "public_start": "2025-10-03T15:00:00Z",
-        "public_end": "2026-05-22T23:00:00Z",
-        "presales": [
-          {
-            "name": "Artist Presale",
-            "start": "2025-10-02T15:00:00Z",
-            "end": "2025-10-03T03:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2025-10-02T17:00:00Z",
-            "end": "2025-10-03T03:00:00Z"
-          },
-          {
-            "name": "HOB Foundation Room Member Presale",
-            "start": "2025-10-02T17:00:00Z",
-            "end": "2025-10-03T03:00:00Z"
-          },
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2025-10-02T17:00:00Z",
-            "end": "2025-10-03T03:00:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2025-10-02T17:00:00Z",
-            "end": "2025-10-03T03:00:00Z"
-          },
-          {
-            "name": "312 Day",
-            "start": "2026-03-12T15:00:00Z",
-            "end": "2026-03-13T04:59:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2025-10-03T15:00:00Z",
-            "end": "2026-05-08T03:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1A7ZkGyGkdEQ4o7",
       "name": "SLIDE AWAY 2026",
