@@ -1,67 +1,8 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-23T06:23:50.534319Z",
-  "count": 75,
+  "last_run": "2026-05-23T08:36:08.794230Z",
+  "count": 74,
   "events": [
-    {
-      "slug": "vv178Z_7Gkl6ny3B",
-      "name": "The KidLAROI - A Perfect World Tour",
-      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
-      "date": "Fri, May 22, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/the-kidlaroi-a-perfect-world-tour-chicago-illinois-05-22-2026/event/0400644AC7AB94BA",
-      "sales": {
-        "public_start": "2026-02-20T16:00:00Z",
-        "public_end": "2026-05-23T03:30:00Z",
-        "presales": [
-          {
-            "name": "Salt Shed Online Presale",
-            "start": "2026-02-19T16:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-02-18T16:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          },
-          {
-            "name": "Spotify Presale",
-            "start": "2026-02-19T16:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          },
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2026-02-18T19:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2026-02-18T19:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2026-02-17T16:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          },
-          {
-            "name": "VIP Packages Presale",
-            "start": "2026-02-18T16:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          },
-          {
-            "name": "VIP Packages Onsale",
-            "start": "2026-02-20T16:00:00Z",
-            "end": "2026-05-16T03:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2026-02-20T16:00:00Z",
-            "end": "2026-05-23T03:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "rZ7HnEZ1Af0ovN",
       "name": "Warm Love Cool Dreams - 2 DAY PASS",
