@@ -1,44 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-23T08:36:32.982031Z",
+  "last_run": "2026-05-23T10:16:55.240696Z",
   "count": 20,
   "events": [
-    {
-      "slug": "188782",
-      "name": "Sueños Official Pre Party | CHAVA + J SANTOS",
-      "location": "Galeria Chicago",
-      "date": "Fri, May 22 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-chava-j-santos-188782",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188788",
-      "name": "Sueños Official Pre Party | DYNAMIQO",
-      "location": "RiNo Bar",
-      "date": "Fri, May 22 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-dynamiqo-188788",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188824",
-      "name": "Sueños Official Pre-Party | FREDY FRESCO",
-      "location": "Gold Coast Social",
-      "date": "Fri, May 22 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-pre-party-fredy-fresco-188824",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "189967",
       "name": "MIA | Latin Day Club | Reserv Rooftop",
@@ -205,29 +169,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "188833",
@@ -239,29 +181,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "190537",
@@ -269,6 +189,30 @@
       "location": "Moe's Cantina - River North",
       "date": "Sun, May 24 at 9:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/vibras-latin-party-sue-os-weekend-21--190537",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "188950",
+      "name": "Sueños Official After Party | Chino Pacas & Kane Rodriguez",
+      "location": "VLIVE",
+      "date": "Sun, May 24 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-chino-pacas-kane-rodriguez-188950",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "188831",
+      "name": "Sueños Official After Party | FRESA PARTY",
+      "location": "Hideaway",
+      "date": "Sun, May 24 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-fresa-party-188831",
       "sales": {
         "public_start": null,
         "public_end": null,
@@ -298,11 +242,45 @@
       "current_listing": null
     },
     {
-      "slug": "188950",
-      "name": "Sueños Official After Party | Chino Pacas & Kane Rodriguez",
-      "location": "VLIVE",
+      "slug": "188967",
+      "name": "Sueños Official After Party | Cachirula & Loojan",
+      "location": "ELA",
       "date": "Sun, May 24 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-chino-pacas-kane-rodriguez-188950",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-cachirula-loojan-188967",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "188829",
+      "name": "Sueños Official After Party | DJ DRIP",
+      "location": "Gold Coast Social",
+      "date": "Sun, May 24 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-dj-drip-188829",
       "sales": {
         "public_start": null,
         "public_end": null,
