@@ -1,32 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-24T18:53:14.558820Z",
+  "last_run": "2026-05-24T20:07:36.079706Z",
   "count": 20,
   "events": [
-    {
-      "slug": "181991",
-      "name": "Bonsai & Brew",
-      "location": "Off Hours Beer Co",
-      "date": "Sun, May 24 at 1:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/bonsai-brew-181991",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "179831",
-      "name": "LA CURA BRUNCH SUNDAYS - SUEÑOS Weekend (21+)",
-      "location": "Gold Coast Social",
-      "date": "Sun, May 24 at 11:00 AM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/la-cura-brunch-sundays-sue-os-weekend-21--179831",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "190008",
       "name": "NUBES ROOFTOP PARTY - SUEÑOS WEEKEND (21+)",
@@ -242,6 +218,74 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "179832",
+      "name": "LA CURA BRUNCH SUNDAYS (21+)",
+      "location": "Gold Coast Social",
+      "date": "Sun, May 31 at 11:00 AM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/la-cura-brunch-sundays-21--179832",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "188495",
+      "name": "Rattle Cans 2.0",
+      "location": "Off Hours Beer Garden",
+      "date": "Sun, May 31 at 3:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/rattle-cans-2-0-188495",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
