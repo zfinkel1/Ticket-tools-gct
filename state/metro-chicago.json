@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-24T09:32:46.098220Z",
-  "count": 50,
+  "last_run": "2026-05-24T11:03:09.994343Z",
+  "count": 49,
   "events": [
-    {
-      "slug": "furball-iml-chicago",
-      "name": "Furball: IML Chicago",
-      "location": "",
-      "date": "Sat, May 23",
-      "url": "https://metrochicago.com/event/furball-iml-chicago/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "iml-queen-2",
       "name": "IML Queen!",
