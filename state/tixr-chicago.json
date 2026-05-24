@@ -1,44 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-24T04:42:20.688515Z",
+  "last_run": "2026-05-24T07:43:12.489686Z",
   "count": 20,
   "events": [
-    {
-      "slug": "188825",
-      "name": "Sueños Official After Party | DYNAMIQO",
-      "location": "Gold Coast Social",
-      "date": "Sat, May 23 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-dynamiqo-188825",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188834",
-      "name": "Sueños Official After Party | J SANTOS",
-      "location": "Roof on the Wit",
-      "date": "Sat, May 23 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-j-santos-188834",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188830",
-      "name": "Sueños Official After Party | LE TWINS",
-      "location": "Hideaway",
-      "date": "Sat, May 23 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/sue-os-official-after-party-le-twins-188830",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "190007",
       "name": "DEBI TIRAR MAS PERREO - SUEÑOS WEEKEND (21+)",
@@ -237,6 +201,86 @@
       "location": "Recess",
       "date": "Mon, May 25 at 10:00 AM CDT",
       "url": "https://www.tixr.com/groups/acro/events/ma-anitas-memorial-day-190929",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "188493",
+      "name": "Sox Sessions: Pre-Game Party With Chicago Illini Club",
+      "location": "Off Hours Beer Garden",
+      "date": "Wed, May 27 at 4:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/sox-sessions-pre-game-party-with-chicago-illini-club-188493",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "189829",
+      "name": "Lost on the South Side",
+      "location": "Off Hours Beer Garden",
+      "date": "Wed, May 27 at 5:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/lost-on-the-south-side-189829",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "183060",
+      "name": "Brendan Lane",
+      "location": "Ramova Loft",
+      "date": "Thu, May 28 at 7:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/brendan-lane-183060",
       "sales": {
         "public_start": null,
         "public_end": null,

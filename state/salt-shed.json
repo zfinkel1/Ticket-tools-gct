@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-24T04:42:06.188676Z",
-  "count": 74,
+  "last_run": "2026-05-24T07:42:45.092441Z",
+  "count": 72,
   "events": [
     {
       "slug": "rZ7HnEZ1Af0ovN",
@@ -20,43 +20,6 @@
         "currency": "USD",
         "type": "standard"
       }
-    },
-    {
-      "slug": "rZ7HnEZ1Af0oZK",
-      "name": "Warm Love Cool Dreams - The Jesus and Mary Chain, Tortoise, Smerz +More",
-      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
-      "date": "Sat, May 23, 2026 · 2:00 PM",
-      "url": "https://www.ticketweb.com/event/warm-love-cool-dreams-the-salt-shed-outdoors-fairgrounds-tickets/14911013",
-      "sales": {
-        "public_start": "2026-05-08T15:00:00Z",
-        "public_end": "2026-05-23T19:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 93.42,
-        "max": 93.42,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
-    {
-      "slug": "vv178Z_dGkBEQMNx",
-      "name": "Warm Love Cool Dreams- The Jesus and Mary Chain, Tortoise, Smerz +More",
-      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
-      "date": "Sat, May 23, 2026 · 2:00 PM",
-      "url": "https://www.ticketmaster.com/warm-love-cool-dreams-the-jesus-chicago-illinois-05-23-2026/event/0400643EA76B78E2",
-      "sales": {
-        "public_start": "2026-02-06T16:00:00Z",
-        "public_end": "2026-05-23T22:00:00Z",
-        "presales": [
-          {
-            "name": "Salt Shed Online Presale",
-            "start": "2026-02-05T16:00:00Z",
-            "end": "2026-02-06T04:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
     },
     {
       "slug": "vv178Z_dGkBELMND",

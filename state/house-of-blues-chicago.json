@@ -1,55 +1,8 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-24T04:42:07.882217Z",
-  "count": 66,
+  "last_run": "2026-05-24T07:42:46.367345Z",
+  "count": 64,
   "events": [
-    {
-      "slug": "vv1A7Zk39Gkd3X4Mb",
-      "name": "IML BLUF Social Saturday",
-      "location": "Foundation Room at House of Blues Chicago",
-      "date": "Sat, May 23, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/iml-bluf-social-saturday-chicago-illinois-05-23-2026/event/04006497D2F95DD8",
-      "sales": {
-        "public_start": "2026-04-23T22:00:00Z",
-        "public_end": "2026-05-23T23:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
-    {
-      "slug": "vv178Z_6GkY6hszS",
-      "name": "Trap Bingo",
-      "location": "House of Blues Chicago",
-      "date": "Sat, May 23, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/trap-bingo-chicago-illinois-05-23-2026/event/0400647C076F1E33",
-      "sales": {
-        "public_start": "2026-04-01T15:00:00Z",
-        "public_end": "2026-05-24T01:00:00Z",
-        "presales": [
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2026-03-30T18:00:00Z",
-            "end": "2026-04-01T03:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2026-04-01T15:00:00Z",
-            "end": "2026-04-25T03:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-03-30T18:00:00Z",
-            "end": "2026-04-01T03:00:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2026-03-30T18:00:00Z",
-            "end": "2026-04-01T03:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1kvZv0GOGAC_5_Z",
       "name": "GKL & CircuitMOM Present: Alex Acosta, Dani Toro, & Doggpound",

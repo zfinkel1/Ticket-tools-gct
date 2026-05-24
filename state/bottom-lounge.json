@@ -1,26 +1,8 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-05-24T04:42:10.459862Z",
-  "count": 36,
+  "last_run": "2026-05-24T07:42:50.903123Z",
+  "count": 35,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af_U-d",
-      "name": "The Decibel Magazine Tour 2026",
-      "location": "Bottom Lounge, Chicago",
-      "date": "Sat, May 23, 2026 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/the-decibel-magazine-tour-2026-bottom-lounge-tickets/14676843",
-      "sales": {
-        "public_start": "2026-01-29T16:00:00Z",
-        "public_end": "2026-05-24T00:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 34.96,
-        "max": 34.96,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Afjp-S",
       "name": "Troy Doherty",
