@@ -1,21 +1,8 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-05-24T21:12:40.564953Z",
-  "count": 37,
+  "last_run": "2026-05-24T23:17:34.241148Z",
+  "count": 36,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7OpZg",
-      "name": "Thornhill w/ 156 Silence",
-      "location": "Vic Theatre, Chicago",
-      "date": "Sun, May 24, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OpZg",
-      "sales": {
-        "public_start": "1900-01-01T18:00:00Z",
-        "public_end": "2026-05-24T23:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "Z7r9jZ1A7O6p9",
       "name": "Jeff Tweedy",

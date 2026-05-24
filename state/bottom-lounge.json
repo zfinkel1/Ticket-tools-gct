@@ -1,6 +1,6 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-05-24T21:12:40.988425Z",
+  "last_run": "2026-05-24T23:17:34.819283Z",
   "count": 35,
   "events": [
     {
@@ -195,8 +195,8 @@
         "presales": []
       },
       "price_range": {
-        "min": 39.6,
-        "max": 39.6,
+        "min": 32.39,
+        "max": 32.39,
         "currency": "USD",
         "type": "standard"
       }
