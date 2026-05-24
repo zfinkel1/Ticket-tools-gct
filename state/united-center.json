@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-24T00:14:12.009542Z",
+  "last_run": "2026-05-24T04:42:12.639981Z",
   "count": 72,
   "events": [
     {
@@ -2324,7 +2324,7 @@
       "url": "https://www.ticketmaster.com/xg-world-tour-the-core-in-chicago-illinois-11-09-2026/event/040064AFC948FDC2",
       "sales": {
         "public_start": "2026-05-29T15:00:00Z",
-        "public_end": "2026-11-10T00:00:00Z",
+        "public_end": "2026-11-10T01:00:00Z",
         "presales": [
           {
             "name": "ALPHAZ Paid Members Presale",

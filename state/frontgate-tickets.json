@@ -1,29 +1,8 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-05-24T00:13:53.360731Z",
-  "count": 100,
+  "last_run": "2026-05-24T04:41:45.485952Z",
+  "count": 97,
   "events": [
-    {
-      "slug": "bottlerock-napa-valley",
-      "name": "BottleRock Napa Valley",
-      "location": "Napa Valley, CA",
-      "date": "May 22, 2026",
-      "url": "https://www.frontgatetickets.com/events/bottlerock-napa-valley"
-    },
-    {
-      "slug": "solomun-in-chicago",
-      "name": "Solomun in Chicago",
-      "location": "Chicago, IL",
-      "date": "May 22, 2026",
-      "url": "https://www.frontgatetickets.com/events/solomun-in-chicago"
-    },
-    {
-      "slug": "noodle-the-thinkers-convention",
-      "name": "NOODLE - The Thinkers Convention",
-      "location": "Newport News, VA",
-      "date": "May 22, 2026",
-      "url": "https://www.frontgatetickets.com/events/noodle-the-thinkers-convention"
-    },
     {
       "slug": "suenos-festival",
       "name": "Sueños Festival",

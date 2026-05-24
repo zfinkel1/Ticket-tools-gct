@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-24T00:13:54.689016Z",
-  "count": 51,
+  "last_run": "2026-05-24T04:41:46.195451Z",
+  "count": 50,
   "events": [
-    {
-      "slug": "the-27th-annual-grabby-awards",
-      "name": "The 27th Annual Grabby Awards",
-      "location": "",
-      "date": "Sat, May 23",
-      "url": "https://metrochicago.com/event/the-27th-annual-grabby-awards/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "furball-iml-chicago",
       "name": "Furball: IML Chicago",

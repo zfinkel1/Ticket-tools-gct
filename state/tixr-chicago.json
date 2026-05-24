@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-24T00:14:05.222042Z",
+  "last_run": "2026-05-24T04:42:20.688515Z",
   "count": 20,
   "events": [
-    {
-      "slug": "179266",
-      "name": "Volcano",
-      "location": "Ramova Loft",
-      "date": "Sat, May 23 at 6:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/volcano-179266",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "188825",
       "name": "Sueños Official After Party | DYNAMIQO",
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "190929",
+      "name": "Mañanitas | Memorial Day",
+      "location": "Recess",
+      "date": "Mon, May 25 at 10:00 AM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/ma-anitas-memorial-day-190929",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
