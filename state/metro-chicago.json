@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-25T06:11:13.640554Z",
-  "count": 49,
+  "last_run": "2026-05-25T10:50:09.962840Z",
+  "count": 48,
   "events": [
-    {
-      "slug": "iml-queen-2",
-      "name": "IML Queen!",
-      "location": "",
-      "date": "Sun, May 24",
-      "url": "https://metrochicago.com/event/iml-queen-2/all-building-event/chicago-illinois/"
-    },
     {
       "slug": "kitty-kat-ball",
       "name": "Kitty Kat Ball",

@@ -1,26 +1,8 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-25T06:11:21.151298Z",
-  "count": 69,
+  "last_run": "2026-05-25T10:50:17.451654Z",
+  "count": 68,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af0ovN",
-      "name": "Warm Love Cool Dreams - 2 DAY PASS",
-      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
-      "date": "Sat, May 23, 2026 · 1:00 PM",
-      "url": "https://www.ticketweb.com/event/warm-love-cool-dreams-the-salt-shed-outdoors-fairgrounds-tickets/14911063",
-      "sales": {
-        "public_start": "2026-05-08T15:00:00Z",
-        "public_end": "2026-05-23T18:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 154.19,
-        "max": 154.19,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "vv178ZbYGkSr03-_",
       "name": "BELLE & SEBASTIAN: TIGERMILK + CLASSIC SONGS",
