@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-26T13:56:00.344692Z",
+  "last_run": "2026-05-26T17:28:27.630713Z",
   "count": 72,
   "events": [
     {
@@ -2410,11 +2410,6 @@
             "end": "2026-05-28T13:00:00Z"
           },
           {
-            "name": "VIP Packages Presale",
-            "start": "2026-05-27T15:00:00Z",
-            "end": "2026-05-29T14:45:00Z"
-          },
-          {
             "name": "LIVE NATION PRESALE",
             "start": "2026-05-28T15:00:00Z",
             "end": "2026-05-29T03:00:00Z"
@@ -2428,16 +2423,6 @@
             "name": "Spotify Presale",
             "start": "2026-05-28T17:00:00Z",
             "end": "2026-05-29T03:00:00Z"
-          },
-          {
-            "name": "VIP Packages Onsale",
-            "start": "2026-05-29T15:00:00Z",
-            "end": "2026-11-20T18:00:00Z"
-          },
-          {
-            "name": "Cash App VIP Packages Presale",
-            "start": "2026-05-26T15:00:00Z",
-            "end": "2026-05-27T14:45:00Z"
           }
         ]
       },
@@ -2464,11 +2449,6 @@
             "end": "2026-05-28T13:00:00Z"
           },
           {
-            "name": "VIP Packages Presale",
-            "start": "2026-05-27T15:00:00Z",
-            "end": "2026-05-29T14:45:00Z"
-          },
-          {
             "name": "LIVE NATION PRESALE",
             "start": "2026-05-28T15:00:00Z",
             "end": "2026-05-29T03:00:00Z"
@@ -2482,16 +2462,6 @@
             "name": "Spotify Presale",
             "start": "2026-05-28T17:00:00Z",
             "end": "2026-05-29T03:00:00Z"
-          },
-          {
-            "name": "VIP Packages Onsale",
-            "start": "2026-05-29T15:00:00Z",
-            "end": "2026-11-21T18:00:00Z"
-          },
-          {
-            "name": "Cash App VIP Packages Presale",
-            "start": "2026-05-26T15:00:00Z",
-            "end": "2026-05-27T14:45:00Z"
           }
         ]
       },

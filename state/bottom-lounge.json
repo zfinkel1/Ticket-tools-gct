@@ -1,7 +1,7 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-05-26T13:56:18.839682Z",
-  "count": 36,
+  "last_run": "2026-05-26T17:30:40.528072Z",
+  "count": 39,
   "events": [
     {
       "slug": "rZ7HnEZ1Afjp-S",
@@ -272,6 +272,136 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af_OCK",
+      "name": "CMAT",
+      "location": "Bottom Lounge, Chicago",
+      "date": "Wed, Jul 29, 2026 · 10:00 PM",
+      "url": "https://www.ticketweb.com/event/cmat-bottom-lounge-tickets/14660393",
+      "sales": {
+        "public_start": "2026-05-26T15:00:00Z",
+        "public_end": "2026-07-30T03:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "CMAT",
+        "name": "CMAT",
+        "popularity": 64,
+        "followers": 147515,
+        "city_streams": null,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 38,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "rZ7HnEZ1Af_OGS",
+      "name": "Balu Brigada, Day We Ran",
+      "location": "Bottom Lounge, Chicago",
+      "date": "Thu, Jul 30, 2026 · 11:00 PM",
+      "url": "https://www.ticketweb.com/event/balu-brigada-day-we-ran-bottom-lounge-tickets/14660333",
+      "sales": {
+        "public_start": "2026-05-26T15:00:00Z",
+        "public_end": "2026-07-30T01:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 39,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "rZ7HnEZ1Af_O8S",
+      "name": "Cameron Whitcomb, Dylan Conrique",
+      "location": "Bottom Lounge, Chicago",
+      "date": "Fri, Jul 31, 2026 · 11:00 PM",
+      "url": "https://www.ticketweb.com/event/cameron-whitcomb-dylan-conrique-bottom-lounge-tickets/14660433",
+      "sales": {
+        "public_start": "2026-05-26T15:00:00Z",
+        "public_end": "2026-08-01T04:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 41,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af0-7N",
@@ -577,29 +707,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 38,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 2,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfOyZK",

@@ -1,7 +1,7 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-05-26T13:55:56.348953Z",
-  "count": 15,
+  "last_run": "2026-05-26T17:30:40.527394Z",
+  "count": 16,
   "events": [
     {
       "slug": "Z7r9jZ1A7OFZ_",
@@ -209,6 +209,52 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_5P8e-GF",
+      "name": "DragonForce: Inhuman Rampage 20th Anniversary",
+      "location": "Riviera Theatre, Chicago",
+      "date": "Fri, Dec 4, 2026 · 7:30 PM",
+      "url": "https://www.axs.com/events/1457704/dragonforce-inhuman-rampage-20th-anniversary-tickets",
+      "sales": {
+        "public_start": "2026-05-29T15:00:00Z",
+        "public_end": "2026-12-05T01:30:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-26T16:00:00Z",
+            "end": "2026-05-29T03:00:00Z"
+          },
+          {
+            "name": "Live Nation Presale",
+            "start": "2026-05-26T18:00:00Z",
+            "end": "2026-05-29T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "Z7r9jZ1A7-w_3",

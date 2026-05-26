@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-26T13:56:18.840504Z",
-  "count": 94,
+  "last_run": "2026-05-26T17:30:40.529025Z",
+  "count": 98,
   "events": [
     {
       "slug": "rZ7HnEZ1Af-6vd",
@@ -1025,6 +1025,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1Af-6bd",
+      "name": "Empty Bottle and c3 Present: Ecca Vandal - Lollapalooza Aftershow",
+      "location": "Empty Bottle, Chicago",
+      "date": "Thu, Jul 30, 2026 · 11:00 PM",
+      "url": "https://www.ticketweb.com/event/empty-bottle-and-c3-present-empty-bottle-tickets/14847603",
+      "sales": {
+        "public_start": "2026-05-26T15:00:00Z",
+        "public_end": "2026-07-31T04:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1AfZEq0",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
@@ -1041,6 +1081,86 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af-6_S",
+      "name": "Empty Bottle and c3 Present: After - Lollapalooza Aftershow",
+      "location": "Empty Bottle, Chicago",
+      "date": "Sat, Aug 1, 2026 · 11:00 PM",
+      "url": "https://www.ticketweb.com/event/empty-bottle-and-c3-present-empty-bottle-tickets/14847673",
+      "sales": {
+        "public_start": "2026-05-26T15:00:00Z",
+        "public_end": "2026-08-02T04:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "rZ7HnEZ1Af-6qK",
+      "name": "Empty Bottle and c3 Present: Water From Your Eyes / Anthony Fremont's Garden Solutions - Lollapalooza Aftershow",
+      "location": "Empty Bottle, Chicago",
+      "date": "Sun, Aug 2, 2026 · 11:00 PM",
+      "url": "https://www.ticketweb.com/event/empty-bottle-and-c3-present-empty-bottle-tickets/14847753",
+      "sales": {
+        "public_start": "2026-05-26T15:00:00Z",
+        "public_end": "2026-08-03T04:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af0faK",
@@ -1364,29 +1484,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEj7",
@@ -1567,6 +1665,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0z0N",
+      "name": "Genesis Owusu",
+      "location": "Empty Bottle, Chicago",
+      "date": "Tue, Nov 10, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/genesis-owusu-empty-bottle-tickets/14938923",
+      "sales": {
+        "public_start": "2026-05-27T15:00:00Z",
+        "public_end": "2026-11-11T03:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 34,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af0-Gd",

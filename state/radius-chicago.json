@@ -1,8 +1,46 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-05-26T13:55:56.947783Z",
-  "count": 6,
+  "last_run": "2026-05-26T17:30:40.527839Z",
+  "count": 7,
   "events": [
+    {
+      "slug": "Z7r9jZ1A70gjS",
+      "name": "SOSA (18+ Event)",
+      "location": "Radius - Chicago",
+      "date": "Fri, May 29, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gjS",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-05-30T03:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": {
+        "flare_event_id": 55059896,
+        "sh_id": null
+      },
+      "current_listing": null
+    },
     {
       "slug": "Z7r9jZ1A70bqw",
       "name": "Loud Luxury (18 and Over with Valid Government ID)",

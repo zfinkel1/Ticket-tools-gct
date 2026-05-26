@@ -1,7 +1,7 @@
 {
   "site": "Byline Bank Aragon Ballroom",
-  "last_run": "2026-05-26T13:55:54.034334Z",
-  "count": 21,
+  "last_run": "2026-05-26T17:30:40.520954Z",
+  "count": 23,
   "events": [
     {
       "slug": "vv178Z_eGkS8QpU4",
@@ -223,6 +223,133 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_575aTQa",
+      "name": "Official Lollapalooza Aftershow featuring Kettama",
+      "location": "Aragon Ballroom, Chicago",
+      "date": "Thu, Jul 30, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/official-lollapalooza-aftershow-featuring-kettama-chicago-illinois-07-30-2026/event/040064B10B27F689",
+      "sales": {
+        "public_start": "2026-05-29T15:00:00Z",
+        "public_end": "2026-07-31T03:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-29T15:00:00Z",
+            "end": "2026-07-16T03:00:00Z"
+          },
+          {
+            "name": "T-Mobile Presale",
+            "start": "2026-05-26T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "Platinum Presale",
+            "start": "2026-05-26T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "vvG18Z_575yRhp",
+      "name": "Official Lollapalooza Aftershow featuring ADO",
+      "location": "Aragon Ballroom, Chicago",
+      "date": "Fri, Jul 31, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/official-lollapalooza-aftershow-featuring-ado-chicago-illinois-07-31-2026/event/040064B10BE6F6D6",
+      "sales": {
+        "public_start": "2026-05-29T15:00:00Z",
+        "public_end": "2026-08-01T03:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-29T15:00:00Z",
+            "end": "2026-07-17T03:00:00Z"
+          },
+          {
+            "name": "T-Mobile Presale",
+            "start": "2026-05-26T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "Platinum Presale",
+            "start": "2026-05-26T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1A7ZkueGkes3PyS",

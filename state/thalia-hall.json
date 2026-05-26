@@ -1,7 +1,7 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-26T13:55:56.020609Z",
-  "count": 84,
+  "last_run": "2026-05-26T17:30:40.525503Z",
+  "count": 89,
   "events": [
     {
       "slug": "rZ7HnEZ1Af0xpd",
@@ -596,6 +596,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1Af0UbN",
+      "name": "Earlybirds Club",
+      "location": "Thalia Hall, Chicago",
+      "date": "Sat, Jul 18, 2026 · 6:00 PM",
+      "url": "https://www.ticketweb.com/event/earlybirds-club-thalia-hall-tickets/14936623",
+      "sales": {
+        "public_start": "2026-05-28T15:00:00Z",
+        "public_end": "2026-07-18T23:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 39.96,
+        "max": 299.03,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 44,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1Afq4GS",
       "name": "Wilderado with Luke Tyler Shelton",
       "location": "Thalia Hall, Chicago",
@@ -699,6 +739,126 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfxFAS",
+      "name": "Audrey Hobert - Lollapalooza Aftershow",
+      "location": "Thalia Hall, Chicago",
+      "date": "Wed, Jul 29, 2026 · 8:30 PM",
+      "url": "https://www.ticketweb.com/event/audrey-hobert-lollapalooza-thalia-hall-tickets/14888173",
+      "sales": {
+        "public_start": "2026-05-26T15:00:00Z",
+        "public_end": "2026-07-30T01:30:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 40,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "rZ7HnEZ1AfxFGK",
+      "name": "Haute & Freddy - Lollapalooza Aftershow with Valencia Grace",
+      "location": "Thalia Hall, Chicago",
+      "date": "Fri, Jul 31, 2026 · 11:00 PM",
+      "url": "https://www.ticketweb.com/event/haute-freddy-thalia-hall-tickets/14888313",
+      "sales": {
+        "public_start": "2026-05-26T15:00:00Z",
+        "public_end": "2026-08-01T04:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "rZ7HnEZ1AfxFCK",
+      "name": "Amber Mark - Lollapalooza Aftershow with Ric Wilson",
+      "location": "Thalia Hall, Chicago",
+      "date": "Sat, Aug 1, 2026 · 11:00 PM",
+      "url": "https://www.ticketweb.com/event/amber-mark-lollapalooza-thalia-hall-tickets/14888393",
+      "sales": {
+        "public_start": "2026-05-26T15:00:00Z",
+        "public_end": "2026-08-02T04:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 44,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1Af0sfN",
       "name": "Motel Breakfast - There's Always This: An MB Farewell",
       "location": "Thalia Hall, Chicago",
@@ -764,6 +924,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0E_d",
+      "name": "Club 1BD Chicago",
+      "location": "Thalia Hall, Chicago",
+      "date": "Sat, Aug 15, 2026 · 8:00 PM",
+      "url": "https://www.ticketweb.com/event/club-1bd-chicago-thalia-hall-tickets/14927643",
+      "sales": {
+        "public_start": "2026-05-26T15:00:00Z",
+        "public_end": "2026-08-16T04:59:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 39.96,
+        "max": 392.63,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 44,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af-Y_K",

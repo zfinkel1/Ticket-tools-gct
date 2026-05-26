@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-26T13:56:18.837100Z",
-  "count": 69,
+  "last_run": "2026-05-26T17:30:40.518041Z",
+  "count": 72,
   "events": [
     {
       "slug": "vv178ZbYGkSr03-_",
@@ -884,6 +884,223 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_53mVnQa",
+      "name": "Empire of the Sun: Official Lolla Aftershow",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Wed, Jul 29, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/empire-of-the-sun-official-lolla-chicago-illinois-07-29-2026/event/040064B4AED2A689",
+      "sales": {
+        "public_start": "2026-05-29T15:00:00Z",
+        "public_end": "2026-07-30T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "Lollapalooza Platinum Presale",
+            "start": "2026-05-26T15:01:00Z",
+            "end": "2026-07-04T22:00:00Z"
+          },
+          {
+            "name": "T-Mobile Presale",
+            "start": "2026-05-26T15:01:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 67,
+        "rec": "buy",
+        "components": {
+          "history": 35,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "2ev avg +51% margin, 100% profitable",
+          "why": "Strong buy — strong history (2ev avg +51% margin, 100% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 2,
+        "avg_margin": 50.8,
+        "profitable_pct": 100.0,
+        "avg_sell_price": 108.13,
+        "avg_cost_price": 75.9,
+        "display_name": "Empire of the Sun"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "santa barbara bowl",
+          "tickets": 47,
+          "margin": 36.2
+        },
+        {
+          "venue": "radius - il",
+          "tickets": 10,
+          "margin": 65.5
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "vvG18Z_53UL5FP",
+      "name": "beabadoobee: Official Lolla Aftershow",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, Jul 31, 2026 · 11:00 PM",
+      "url": "https://www.ticketmaster.com/beabadoobee-official-lolla-aftershow-chicago-illinois-07-31-2026/event/040064B4B67CB225",
+      "sales": {
+        "public_start": "2026-05-29T15:00:00Z",
+        "public_end": "2026-08-01T07:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "T-Mobile Presale",
+            "start": "2026-05-26T15:01:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "Lollapalooza Platinum Presale",
+            "start": "2026-05-26T15:01:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 60,
+        "rec": "watch",
+        "components": {
+          "history": 25,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "1ev avg +25% margin, 100% profitable",
+          "why": "Worth watching — strong history (1ev avg +25% margin, 100% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 1,
+        "avg_margin": 25.3,
+        "profitable_pct": 100.0,
+        "avg_sell_price": 105.78,
+        "avg_cost_price": 84.44,
+        "display_name": "beabadoobee"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "byline bank aragon ballroom",
+          "tickets": 16,
+          "margin": 25.3
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "vvG18Z_53tsaVQ",
+      "name": "5 Seconds of Summer: Official Lolla Aftershow",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sat, Aug 1, 2026 · 11:00 PM",
+      "url": "https://www.ticketmaster.com/5-seconds-of-summer-official-lolla-chicago-illinois-08-01-2026/event/040064B4A9C49D1A",
+      "sales": {
+        "public_start": "2026-05-29T15:00:00Z",
+        "public_end": "2026-08-02T07:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-05-27T15:00:00Z",
+            "end": "2026-05-29T03:00:00Z"
+          },
+          {
+            "name": "T-Mobile Presale",
+            "start": "2026-05-26T15:01:00Z",
+            "end": "2026-05-28T22:00:00Z"
+          },
+          {
+            "name": "Lollapalooza Platinum Presale",
+            "start": "2026-05-26T15:01:00Z",
+            "end": "2026-07-04T22:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 16,
+        "rec": "skip",
+        "components": {
+          "history": -20,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "3ev avg -28% margin, 33% profitable",
+          "why": "Skip — weak history (3ev avg -28% margin, 33% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 3,
+        "avg_margin": -28.5,
+        "profitable_pct": 33.3,
+        "avg_sell_price": 71.96,
+        "avg_cost_price": 73.51,
+        "display_name": "5 Seconds of Summer"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "huntington bank pavilion at northerly island",
+          "tickets": 97,
+          "margin": 0.2
+        },
+        {
+          "venue": "mohegan sun arena - ct",
+          "tickets": 2,
+          "margin": -67.6
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178Z_6GkTCDjf2",
@@ -2315,47 +2532,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 18,
-        "rec": "skip",
-        "components": {
-          "history": -15,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "2ev avg -19% margin, 50% profitable",
-          "why": "Skip — weak history (2ev avg -19% margin, 50% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 2,
-        "avg_margin": -19.0,
-        "profitable_pct": 50.0,
-        "avg_sell_price": 31.01,
-        "avg_cost_price": 68.32,
-        "display_name": "Nothing But Thieves"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "byline bank aragon ballroom",
-          "tickets": 34,
-          "margin": -57.9
-        },
-        {
-          "venue": "vic theatre",
-          "tickets": 2,
-          "margin": 19.9
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     }
   ]
 }
