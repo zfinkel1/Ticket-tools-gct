@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-26T19:34:59.531805Z",
-  "count": 98,
+  "last_run": "2026-05-26T21:21:16.165511Z",
+  "count": 99,
   "events": [
     {
       "slug": "rZ7HnEZ1Af-6vd",
@@ -969,6 +969,41 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "Z7r9jZ1A70U8z",
+      "name": "Man or Astro-Man?",
+      "location": "The Empty Bottle, Chicago",
+      "date": "Sat, Jul 25, 2026 · 9:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U8z",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-07-26T02:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfOxOK",

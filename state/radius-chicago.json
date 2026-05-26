@@ -1,0 +1,136 @@
+{
+  "site": "Radius Chicago",
+  "last_run": "2026-05-26T21:21:16.165197Z",
+  "count": 8,
+  "events": [
+    {
+      "slug": "Z7r9jZ1A70gjS",
+      "name": "SOSA (18+ Event)",
+      "location": "Radius - Chicago",
+      "date": "Fri, May 29, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gjS",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-05-30T03:00:00Z",
+        "presales": []
+      },
+      "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A70bqw",
+      "name": "Loud Luxury (18 and Over with Valid Government ID)",
+      "location": "Radius - Chicago",
+      "date": "Sat, Jun 6, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70bqw",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-06-07T03:00:00Z",
+        "presales": []
+      },
+      "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A70U8v",
+      "name": "Cassian (18+ Event)",
+      "location": "Radius - Chicago",
+      "date": "Sat, Jun 13, 2026 · 4:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U8v",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-06-13T21:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": {
+        "flare_event_id": 55882846,
+        "sh_id": null
+      },
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A7-yqe",
+      "name": "underscores w/ Umru",
+      "location": "Radius - Chicago",
+      "date": "Fri, Jun 19, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-yqe",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-06-20T00:00:00Z",
+        "presales": []
+      },
+      "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A7xFJ3",
+      "name": "Jack White (All Ages to Enter, 21 and Over to Drink)",
+      "location": "Radius - Chicago",
+      "date": "Thu, Jul 23, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFJ3",
+      "sales": {
+        "public_start": "2026-04-17T15:00:00Z",
+        "public_end": "2026-07-23T23:00:00Z",
+        "presales": []
+      },
+      "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A7-yq4",
+      "name": "Oskar med K (18+ event)",
+      "location": "Radius - Chicago",
+      "date": "Sat, Sep 12, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-yq4",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-09-13T03:00:00Z",
+        "presales": []
+      },
+      "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A70fpZ",
+      "name": "LSR/CITY X by Gareth Emery (18 and Over with Valid Government ID)",
+      "location": "Radius - Chicago",
+      "date": "Sat, Sep 19, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70fpZ",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-09-20T03:00:00Z",
+        "presales": []
+      },
+      "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A704F4",
+      "name": "Madeon (18 and Over with Government ID)",
+      "location": "Radius - Chicago",
+      "date": "Sat, Nov 21, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A704F4",
+      "sales": {
+        "public_start": "2026-05-15T15:00:00Z",
+        "public_end": "2026-11-22T04:00:00Z",
+        "presales": []
+      },
+      "price_range": null
+    }
+  ]
+}
