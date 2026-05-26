@@ -1,6 +1,6 @@
 {
   "site": "Rosemont Theatre",
-  "last_run": "2026-05-26T17:30:40.522123Z",
+  "last_run": "2026-05-26T19:34:53.814782Z",
   "count": 22,
   "events": [
     {
@@ -604,39 +604,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "Arcángel",
-        "name": "Arcángel",
-        "popularity": 86,
-        "followers": 17239939,
-        "city_streams": 121076,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 44,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv11vZv0qy3ao3vu",

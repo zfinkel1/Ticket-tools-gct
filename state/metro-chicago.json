@@ -1,6 +1,6 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-26T17:30:40.517102Z",
+  "last_run": "2026-05-26T19:34:29.621934Z",
   "count": 54,
   "events": [
     {
@@ -197,226 +197,35 @@
       "name": "Paris Paloma",
       "location": "",
       "date": "Tue, Jul 28",
-      "url": "https://metrochicago.com/event/paris-paloma/metro-chicago/chicago-illinois/",
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": {
-        "flare_event_id": 56385339,
-        "sh_id": null
-      },
-      "current_listing": null
+      "url": "https://metrochicago.com/event/paris-paloma/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "viagra-boys",
       "name": "Viagra Boys",
       "location": "",
       "date": "Wed, Jul 29",
-      "url": "https://metrochicago.com/event/viagra-boys/metro-chicago/chicago-illinois/",
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": {
-        "flare_event_id": 55463520,
-        "sh_id": null
-      },
-      "current_listing": null
+      "url": "https://metrochicago.com/event/viagra-boys/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "not-for-radio",
       "name": "Not for Radio",
       "location": "",
       "date": "Thu, Jul 30",
-      "url": "https://metrochicago.com/event/not-for-radio/metro-chicago/chicago-illinois/",
-      "score_data": {
-        "score": 43,
-        "rec": "watch",
-        "components": {
-          "history": 13,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg +0% margin, 100% profitable",
-          "why": "Worth watching — decent history (1ev avg +0% margin, 100% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 1,
-        "avg_margin": 0.0,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 138.11,
-        "avg_cost_price": 0.0,
-        "display_name": "Not for Radio"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "auditorium theatre - il",
-          "tickets": 2,
-          "margin": 0.0
-        }
-      ],
-      "current_sold": {
-        "flare_event_id": 56526672,
-        "sh_id": null
-      },
-      "current_listing": null
+      "url": "https://metrochicago.com/event/not-for-radio/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "hot-mulligan",
       "name": "Hot Mulligan",
       "location": "",
       "date": "Sat, Aug 01",
-      "url": "https://metrochicago.com/event/hot-mulligan/metro-chicago/chicago-illinois/",
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "Hot Mulligan",
-        "name": "Hot Mulligan",
-        "popularity": 65,
-        "followers": 301555,
-        "city_streams": 8334,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 28,
-        "rec": "skip",
-        "components": {
-          "history": -2,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg +0% margin, 0% profitable",
-          "why": "Skip — mixed history (1ev avg +0% margin, 0% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 1,
-        "avg_margin": 0.0,
-        "profitable_pct": 0.0,
-        "avg_sell_price": 0.0,
-        "avg_cost_price": 0.0,
-        "display_name": "Hot Mulligan"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "byline bank aragon ballroom",
-          "tickets": 24,
-          "margin": 0.0
-        }
-      ],
-      "current_sold": {
-        "flare_event_id": 54498972,
-        "sh_id": null
-      },
-      "current_listing": null
+      "url": "https://metrochicago.com/event/hot-mulligan/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "ethel-cain",
       "name": "Ethel Cain",
       "location": "",
       "date": "Sun, Aug 02",
-      "url": "https://metrochicago.com/event/ethel-cain/metro-chicago/chicago-illinois/",
-      "score_data": {
-        "score": 41,
-        "rec": "watch",
-        "components": {
-          "history": 11,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "5ev avg +20% margin, 60% profitable",
-          "why": "Worth watching — decent history (5ev avg +20% margin, 60% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 5,
-        "avg_margin": 19.8,
-        "profitable_pct": 60.0,
-        "avg_sell_price": 56.97,
-        "avg_cost_price": 88.65,
-        "display_name": "Ethel Cain"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "arizona financial theatre",
-          "tickets": 56,
-          "margin": -84.6
-        },
-        {
-          "venue": "shrine auditorium - los angeles",
-          "tickets": 46,
-          "margin": -22.3
-        },
-        {
-          "venue": "the salt shed outdoors - chicago",
-          "tickets": 8,
-          "margin": 21.0
-        },
-        {
-          "venue": "the met presented by highmark",
-          "tickets": 4,
-          "margin": 77.2
-        },
-        {
-          "venue": "roadrunner",
-          "tickets": 1,
-          "margin": 97.7
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://metrochicago.com/event/ethel-cain/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "good-hangs",
@@ -549,29 +358,7 @@
       "name": "feeble little horse",
       "location": "",
       "date": "Fri, Oct 09",
-      "url": "https://metrochicago.com/event/feeble-little-horse/metro-chicago/chicago-illinois/",
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://metrochicago.com/event/feeble-little-horse/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "book-of-love",
