@@ -87,9 +87,12 @@ SITES = [
         "venue_ids": ["KovZpZAJtF7A"],
     },
     {
+        # Radius runs on Carbonhouse CMS and exposes a clean events RSS feed.
+        # That picks up new shows faster than the Ticketmaster mirror and
+        # doesn't depend on the TM venue records staying in sync.
         "name": "Radius Chicago",
-        "parser": "ticketmaster",
-        "venue_ids": ["Z7r9jZa77B", "KovZ917AESx"],
+        "parser": "carbonhouse",
+        "url": "https://www.radius-chicago.com/events/rss",
     },
     {
         "name": "Lincoln Hall",
