@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-25T23:47:30.951447Z",
+  "last_run": "2026-05-26T03:45:10.003253Z",
   "count": 20,
   "events": [
-    {
-      "slug": "190929",
-      "name": "Mañanitas | Memorial Day",
-      "location": "Recess",
-      "date": "Mon, May 25 at 10:00 AM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/ma-anitas-memorial-day-190929",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "188493",
       "name": "Sox Sessions: Pre-Game Party With Chicago Illini Club",
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "188202",
+      "name": "Mexico vs South Africa World Cup Watch Party",
+      "location": "Ramova Theatre ",
+      "date": "Thu, Jun 11 at 2:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/mexico-vs-south-africa-world-cup-watch-party-188202",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 38,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
