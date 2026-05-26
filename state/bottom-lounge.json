@@ -1,7 +1,7 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-05-26T07:02:49.905212Z",
-  "count": 35,
+  "last_run": "2026-05-26T13:56:18.839682Z",
+  "count": 36,
   "events": [
     {
       "slug": "rZ7HnEZ1Afjp-S",
@@ -560,6 +560,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPZaN",
+      "name": "Boston Manor, Spaced",
+      "location": "Bottom Lounge, Chicago",
+      "date": "Wed, Nov 4, 2026 · 7:30 PM",
+      "url": "https://www.ticketweb.com/event/boston-manor-spaced-bottom-lounge-tickets/14940263",
+      "sales": {
+        "public_start": "2026-05-28T17:00:00Z",
+        "public_end": "2026-11-05T01:30:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 38,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfOyZK",

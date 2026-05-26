@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-26T07:02:47.115184Z",
-  "count": 68,
+  "last_run": "2026-05-26T13:56:18.837100Z",
+  "count": 69,
   "events": [
     {
       "slug": "vv178ZbYGkSr03-_",
@@ -2287,6 +2287,75 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_5OUBqPe",
+      "name": "Nothing But Thieves: The Stray Dogs World Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Mon, Apr 12, 2027 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-chicago-illinois-04-12-2027/event/040064B836E9D942",
+      "sales": {
+        "public_start": "2026-06-05T15:00:00Z",
+        "public_end": "2027-04-13T03:30:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-06-04T15:00:00Z",
+            "end": "2026-06-05T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-02T15:00:00Z",
+            "end": "2026-06-05T04:59:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-04T15:00:00Z",
+            "end": "2026-06-05T04:59:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 18,
+        "rec": "skip",
+        "components": {
+          "history": -15,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "2ev avg -19% margin, 50% profitable",
+          "why": "Skip — weak history (2ev avg -19% margin, 50% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 2,
+        "avg_margin": -19.0,
+        "profitable_pct": 50.0,
+        "avg_sell_price": 31.01,
+        "avg_cost_price": 68.32,
+        "display_name": "Nothing But Thieves"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "byline bank aragon ballroom",
+          "tickets": 34,
+          "margin": -57.9
+        },
+        {
+          "venue": "vic theatre",
+          "tickets": 2,
+          "margin": 19.9
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
