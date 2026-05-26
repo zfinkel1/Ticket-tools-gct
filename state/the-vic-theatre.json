@@ -1,7 +1,7 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-05-26T21:20:48.704917Z",
-  "count": 36,
+  "last_run": "2026-05-26T22:52:29.087855Z",
+  "count": 46,
   "events": [
     {
       "slug": "Z7r9jZ1A7O6p9",
@@ -316,6 +316,51 @@
       "price_range": null
     },
     {
+      "slug": "Z7r9jZ1A70S4F",
+      "name": "Igorrr - Ages 18+",
+      "location": "Vic Theatre, Chicago",
+      "date": "Tue, Sep 22, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70S4F",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-09-23T00:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Igorrr",
+        "name": "Igorrr",
+        "popularity": 50,
+        "followers": 271783,
+        "city_streams": 764,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 42,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "Z7r9jZ1A7ONOd",
       "name": "Lambrini Girls (18 and Over)",
       "location": "Vic Theatre, Chicago",
@@ -340,6 +385,41 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A70UbZ",
+      "name": "Robby Hoffman",
+      "location": "Vic Theatre, Chicago",
+      "date": "Fri, Oct 9, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UbZ",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-10-10T00:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "Z7r9jZ1A70sGd",
@@ -407,6 +487,51 @@
       "price_range": null
     },
     {
+      "slug": "Z7r9jZ1A70Ubv",
+      "name": "Blondshell w/ Prewn",
+      "location": "Vic Theatre, Chicago",
+      "date": "Sat, Oct 24, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ubv",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-10-25T01:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Blondshell",
+        "name": "Blondshell - Scaring Strangers Tour",
+        "popularity": 44,
+        "followers": 100606,
+        "city_streams": 4180,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 44,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "Z7r9jZ1A70oxA",
       "name": "Joanne McNally",
       "location": "Vic Theatre, Chicago",
@@ -420,6 +545,305 @@
       "price_range": null
     },
     {
+      "slug": "Z7r9jZ1A70Ube",
+      "name": "Shakey Graves w/ Wild Pink",
+      "location": "Vic Theatre, Chicago",
+      "date": "Wed, Oct 28, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ube",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-10-29T00:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Shakey Graves",
+        "name": "Shakey Graves",
+        "popularity": 62,
+        "followers": 582350,
+        "city_streams": 20188,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 75,
+        "rec": "buy",
+        "components": {
+          "history": 35,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "1ev avg +92% margin, 100% profitable",
+          "why": "Strong buy — strong history (1ev avg +92% margin, 100% profitable); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 1,
+        "avg_margin": 91.6,
+        "profitable_pct": 100.0,
+        "avg_sell_price": 82.06,
+        "avg_cost_price": 42.83,
+        "display_name": "Shakey Graves"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A70Ubd",
+      "name": "L7",
+      "location": "Vic Theatre, Chicago",
+      "date": "Sun, Nov 1, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ubd",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-11-02T01:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A70U_Y",
+      "name": "Scott Bradlee's Postmodern Jukebox",
+      "location": "Vic Theatre, Chicago",
+      "date": "Wed, Nov 4, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U_Y",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-11-05T01:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Scott Bradlee's Postmodern Jukebox",
+        "name": "Scott Bradlee's Postmodern Jukebox",
+        "popularity": 61,
+        "followers": 1185773,
+        "city_streams": null,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 20,
+        "rec": "skip",
+        "components": {
+          "history": -20,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "1ev avg -86% margin, 0% profitable",
+          "why": "Skip — weak history (1ev avg -86% margin, 0% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "glc live at 20 monroe",
+          "tickets": 8,
+          "margin": -85.6
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A70Ub7",
+      "name": "Amber Autry",
+      "location": "Vic Theatre, Chicago",
+      "date": "Fri, Nov 13, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ub7",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-11-14T01:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": -10,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "10ev avg -3% margin, 30% profitable",
+          "why": "Skip — weak history (10ev avg -3% margin, 30% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 10,
+        "avg_margin": -2.9,
+        "profitable_pct": 30.0,
+        "avg_sell_price": 21.75,
+        "avg_cost_price": 32.7,
+        "display_name": "Amber Autry"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "the port comedy club",
+          "tickets": 124,
+          "margin": 17.2
+        },
+        {
+          "venue": "side splitters comedy club",
+          "tickets": 88,
+          "margin": -100.0
+        },
+        {
+          "venue": "bijou theatre - tn",
+          "tickets": 56,
+          "margin": -53.2
+        },
+        {
+          "venue": "dania improv comedy theatre - fort lauderdale",
+          "tickets": 24,
+          "margin": 219.6
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A700od",
+      "name": "Amber Autry",
+      "location": "Vic Theatre, Chicago",
+      "date": "Fri, Nov 13, 2026 · 9:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A700od",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-11-14T03:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": -10,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "10ev avg -3% margin, 30% profitable",
+          "why": "Skip — weak history (10ev avg -3% margin, 30% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 10,
+        "avg_margin": -2.9,
+        "profitable_pct": 30.0,
+        "avg_sell_price": 21.75,
+        "avg_cost_price": 32.7,
+        "display_name": "Amber Autry"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "the port comedy club",
+          "tickets": 124,
+          "margin": 17.2
+        },
+        {
+          "venue": "side splitters comedy club",
+          "tickets": 88,
+          "margin": -100.0
+        },
+        {
+          "venue": "bijou theatre - tn",
+          "tickets": 56,
+          "margin": -53.2
+        },
+        {
+          "venue": "dania improv comedy theatre - fort lauderdale",
+          "tickets": 24,
+          "margin": 219.6
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A70Ubk",
+      "name": "Michelle Wolf",
+      "location": "Vic Theatre, Chicago",
+      "date": "Sat, Nov 14, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ubk",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-11-15T01:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 44,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "Z7r9jZ1A7xo4-",
       "name": "Marc Maron: Yammering into the Void Tour (18+ Event)",
       "location": "Vic Theatre, Chicago",
@@ -431,6 +855,58 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A70Ub6",
+      "name": "Giant Rooks",
+      "location": "Vic Theatre, Chicago",
+      "date": "Sat, Nov 21, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ub6",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-11-22T01:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Giant Rooks",
+        "name": "Giant Rooks",
+        "popularity": 63,
+        "followers": 514661,
+        "city_streams": null,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 69,
+        "rec": "buy",
+        "components": {
+          "history": 25,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "1ev avg +29% margin, 100% profitable",
+          "why": "Strong buy — strong history (1ev avg +29% margin, 100% profitable); great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 1,
+        "avg_margin": 28.9,
+        "profitable_pct": 100.0,
+        "avg_sell_price": 125.0,
+        "avg_cost_price": 97.0,
+        "display_name": "Giant"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "Z7r9jZ1A7jtax",
