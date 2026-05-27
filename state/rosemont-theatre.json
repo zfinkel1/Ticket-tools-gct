@@ -1,6 +1,6 @@
 {
   "site": "Rosemont Theatre",
-  "last_run": "2026-05-27T12:01:37.188686Z",
+  "last_run": "2026-05-27T18:35:57.302036Z",
   "count": 22,
   "events": [
     {
@@ -688,6 +688,11 @@
             "name": "TICKETMASTER PRESALE",
             "start": "2026-05-21T16:00:00Z",
             "end": "2026-05-22T14:45:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-05-28T15:00:00Z",
+            "end": "2027-02-26T23:00:00Z"
           }
         ]
       },

@@ -1,6 +1,42 @@
 {
   "site": "Lincoln Hall",
-  "last_run": "2026-05-27T12:01:39.405442Z",
-  "count": 0,
-  "events": []
+  "last_run": "2026-05-27T18:37:29.910157Z",
+  "count": 1,
+  "events": [
+    {
+      "slug": "Z7r9jZ1A70UJk",
+      "name": "Fulton Lee - Ages 18+",
+      "location": "Lincoln Hall, Chicago",
+      "date": "Fri, Jun 26, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UJk",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-06-27T01:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    }
+  ]
 }

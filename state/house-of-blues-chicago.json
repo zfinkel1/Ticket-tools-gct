@@ -1,7 +1,7 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-27T12:01:37.738730Z",
-  "count": 68,
+  "last_run": "2026-05-27T18:37:29.905150Z",
+  "count": 70,
   "events": [
     {
       "slug": "vv1kvZv0roGACGd6a",
@@ -550,6 +550,41 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_5mRCqnp",
+      "name": "Next Showcase USA",
+      "location": "Foundation Room at House of Blues Chicago",
+      "date": "Thu, Jul 2, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/next-showcase-usa-chicago-illinois-07-02-2026/event/040064BBAF39DA96",
+      "sales": {
+        "public_start": "2026-05-27T19:27:00Z",
+        "public_end": "2026-07-02T23:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 39,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178Z_aGkR99cvC",
@@ -1279,6 +1314,63 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vv178Z_kGklZZ6Ok",
+      "name": "CHIODOS: IT'S NOT YOU, IT'S ME TOUR",
+      "location": "House of Blues Chicago",
+      "date": "Mon, Aug 17, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/chiodos-its-not-you-its-me-chicago-illinois-08-17-2026/event/0400646AC0007806",
+      "sales": {
+        "public_start": "2026-05-27T17:00:00Z",
+        "public_end": "2026-08-17T23:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-05-27T17:00:00Z",
+            "end": "2026-07-21T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 19,
+        "rec": "skip",
+        "components": {
+          "history": -20,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "1ev avg -40% margin, 0% profitable",
+          "why": "Skip — weak history (1ev avg -40% margin, 0% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 1,
+        "avg_margin": -40.3,
+        "profitable_pct": 0.0,
+        "avg_sell_price": 41.08,
+        "avg_cost_price": 68.75,
+        "display_name": "Chiodos"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "glc live at 20 monroe",
+          "tickets": 8,
+          "margin": -40.3
+        }
+      ],
+      "current_sold": {
+        "flare_event_id": 55452193,
+        "sh_id": null
+      },
+      "current_listing": null
     },
     {
       "slug": "vv1A7Zk3pGkd8Q2NA",
