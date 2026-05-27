@@ -1,6 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-05-26T22:52:29.087193Z",
+  "last_run": "2026-05-27T00:08:38.767365Z",
   "count": 10,
   "events": [
     {
@@ -8,306 +8,70 @@
       "name": "Sosa Gaskin, Mass",
       "location": "",
       "date": "May 29, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1343791",
-      "score_data": {
-        "score": 35,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1343791"
     },
     {
       "slug": "1360467",
       "name": "Zack Fox (DJ Set)",
       "location": "",
       "date": "May 30, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1360467",
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "Zack Fox",
-        "name": "Zack Fox",
-        "popularity": 51,
-        "followers": 188175,
-        "city_streams": 3028,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": {
-        "flare_event_id": 56457167,
-        "sh_id": null
-      },
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1360467"
     },
     {
       "slug": "1365932",
       "name": "On The Hhunt Vieze Asbak, Hhunter Prosperity Room, Machiina, Elarm",
       "location": "",
       "date": "May 30, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1365932",
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1365932"
     },
     {
       "slug": "1350766",
       "name": "For Your Entertainment presents: VTSS A/V Tour",
       "location": "",
       "date": "Jun 5, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1350766",
-      "score_data": {
-        "score": 35,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": {
-        "flare_event_id": 55106922,
-        "sh_id": null
-      },
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1350766"
     },
     {
       "slug": "1444037",
       "name": "ALL OF US & BEYOND: A PRIDE AFTER HOURS Loud Luxury Karsten Sollors, Dom Brown",
       "location": "",
       "date": "Jun 6, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1444037",
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1444037"
     },
     {
       "slug": "1447623",
       "name": "BEYOND WONDERLAND AFTERPARTY Layton Giordani",
       "location": "",
       "date": "Jun 6, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1447623",
-      "score_data": {
-        "score": 54,
-        "rec": "watch",
-        "components": {
-          "history": 18,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg +13% margin, 100% profitable",
-          "why": "Worth watching — decent history (1ev avg +13% margin, 100% profitable); great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1447623"
     },
     {
       "slug": "1447618",
       "name": "BEYOND WONDERLAND AFTERPARTY Tiësto",
       "location": "",
       "date": "Jun 7, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1447618",
-      "score_data": {
-        "score": 53,
-        "rec": "watch",
-        "components": {
-          "history": 18,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg +13% margin, 100% profitable",
-          "why": "Worth watching — decent history (1ev avg +13% margin, 100% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1447618"
     },
     {
       "slug": "1447626",
       "name": "BEYOND WONDERLAND AFTERPARTY Excision Detox Set",
       "location": "",
       "date": "Jun 7, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1447626",
-      "score_data": {
-        "score": 53,
-        "rec": "watch",
-        "components": {
-          "history": 18,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg +13% margin, 100% profitable",
-          "why": "Worth watching — decent history (1ev avg +13% margin, 100% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1447626"
     },
     {
       "slug": "1404527",
       "name": "Radius Open Air Cassian Adam Sellouk, Kamino, Tash",
       "location": "",
       "date": "Jun 13, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1404527",
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1404527"
     },
     {
       "slug": "1438076",
       "name": "PACO OSUNA IGLESIAS, RSQUARED, DANI RO",
       "location": "",
       "date": "Jun 13, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1438076",
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1438076"
     }
   ]
 }
