@@ -1,6 +1,6 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-05-27T20:57:58.832539Z",
+  "last_run": "2026-05-27T22:43:40.738582Z",
   "count": 44,
   "events": [
     {
@@ -284,39 +284,7 @@
         "public_end": "2026-07-30T03:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "CMAT",
-        "name": "CMAT",
-        "popularity": 64,
-        "followers": 147515,
-        "city_streams": 6230,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 38,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 2,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "rZ7HnEZ1Af_OCK",
@@ -347,29 +315,7 @@
         "public_end": "2026-07-31T04:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 39,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "rZ7HnEZ1Af_OGS",
@@ -400,29 +346,7 @@
         "public_end": "2026-08-01T04:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 41,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "rZ7HnEZ1Af_O8S",
