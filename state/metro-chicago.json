@@ -1,6 +1,6 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-27T18:37:29.903983Z",
+  "last_run": "2026-05-27T20:55:26.255000Z",
   "count": 55,
   "events": [
     {
@@ -379,32 +379,7 @@
       "name": "Strawberry Guy",
       "location": "",
       "date": "Wed, Nov 11",
-      "url": "https://metrochicago.com/event/strawberry-guy/metro-chicago/chicago-illinois/",
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": {
-        "flare_event_id": 56667817,
-        "sh_id": null
-      },
-      "current_listing": null
+      "url": "https://metrochicago.com/event/strawberry-guy/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "adult-a-place-to-bury-strangers",

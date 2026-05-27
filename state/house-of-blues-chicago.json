@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-27T18:37:29.905150Z",
+  "last_run": "2026-05-27T20:56:23.763344Z",
   "count": 70,
   "events": [
     {
@@ -562,29 +562,7 @@
         "public_end": "2026-07-02T23:30:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 39,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv178Z_aGkR99cvC",
@@ -1332,45 +1310,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 19,
-        "rec": "skip",
-        "components": {
-          "history": -20,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg -40% margin, 0% profitable",
-          "why": "Skip — weak history (1ev avg -40% margin, 0% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 1,
-        "avg_margin": -40.3,
-        "profitable_pct": 0.0,
-        "avg_sell_price": 41.08,
-        "avg_cost_price": 68.75,
-        "display_name": "Chiodos"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "glc live at 20 monroe",
-          "tickets": 8,
-          "margin": -40.3
-        }
-      ],
-      "current_sold": {
-        "flare_event_id": 55452193,
-        "sh_id": null
-      },
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7Zk3pGkd8Q2NA",
