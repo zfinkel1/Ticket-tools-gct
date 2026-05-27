@@ -1,9 +1,13 @@
 """
 Rivers Casino event center parser.
 
-Rivers (Des Plaines, maybe others) is a Gatsby/React site that blocks plain
-HTTP scrapes. Needs Playwright for the fetch. HTML structure per event:
+Rivers (Des Plaines, maybe others) is a Gatsby/React site behind Cloudflare
+anti-bot. Plain HTTP and even local Playwright get connection-reset, so we
+route through ScraperAPI with render=true (residential proxy + JS rendering).
+If SCRAPERAPI_KEY isn't set, falls back to local Playwright — useful for
+debugging when Cloudflare relaxes.
 
+HTML structure per event:
   <h3 ... class="Text-sldlea-0-h3 ...">Event Name</h3>
   <h5 ... class="Text-sldlea-0-h5 ...">Fri, Jul 31 @ 8PM</h5>
   <a ... href="/desplaines/entertainment/event-center/event-slug">Learn More</a>
@@ -13,7 +17,10 @@ the most recent h3 (name) and h5 (date).
 """
 
 import html as html_lib
+import os
 import re
+import urllib.parse
+import urllib.request
 from urllib.parse import urljoin, urlparse
 
 try:
@@ -23,11 +30,24 @@ except ImportError:
     PLAYWRIGHT_AVAILABLE = False
 
 
-def parse(site):
-    if not PLAYWRIGHT_AVAILABLE:
-        raise RuntimeError("Playwright not installed")
+def _fetch_via_scraperapi(url, api_key):
+    """Fetch a JS-rendered page through ScraperAPI. Used to bypass Cloudflare.
+    render=true uses ScraperAPI's headless browser (10 credits/call premium)."""
+    params = urllib.parse.urlencode({
+        "api_key": api_key,
+        "url": url,
+        "premium": "true",
+        "render": "true",
+    })
+    req = urllib.request.Request(f"https://api.scraperapi.com?{params}")
+    with urllib.request.urlopen(req, timeout=120) as r:
+        return r.read().decode("utf-8", errors="ignore")
 
-    url = site["url"]
+
+def _fetch_via_playwright(url):
+    """Local-only fallback when no ScraperAPI key is set."""
+    if not PLAYWRIGHT_AVAILABLE:
+        raise RuntimeError("Neither SCRAPERAPI_KEY nor Playwright available")
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
@@ -40,7 +60,6 @@ def parse(site):
             page.wait_for_load_state("networkidle", timeout=20_000)
         except Exception:
             pass
-        # Scroll to surface lazy-loaded "Upcoming Events" section if needed
         try:
             page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
             page.wait_for_load_state("networkidle", timeout=5_000)
@@ -48,6 +67,16 @@ def parse(site):
             pass
         html = page.content()
         browser.close()
+        return html
+
+
+def parse(site):
+    url = site["url"]
+    api_key = os.environ.get("SCRAPERAPI_KEY")
+    if api_key:
+        html = _fetch_via_scraperapi(url, api_key)
+    else:
+        html = _fetch_via_playwright(url)
 
     base = _base_url(url)
     events = []

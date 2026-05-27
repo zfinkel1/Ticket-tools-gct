@@ -23,6 +23,10 @@ SITES = [
         "name": "Rivers Casino Des Plaines",
         "parser": "rivers",
         "url": "https://www.riverscasino.com/desplaines/entertainment/event-center",
+        # Cloudflare anti-bot — routed through ScraperAPI (10 credits/call
+        # premium+render). Hourly cadence keeps the budget at ~7,200/mo
+        # vs. ~28,800 at the default 15-min interval.
+        "min_interval_hours": 1,
     },
     {
         "name": "Tixr — Chicago",
