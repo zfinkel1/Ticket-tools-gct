@@ -1,6 +1,6 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-28T22:46:06.337889Z",
+  "last_run": "2026-05-28T23:57:51.332442Z",
   "count": 74,
   "events": [
     {
@@ -936,39 +936,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "Slayyyter",
-        "name": "Slayyyter - 2nd Night Added!",
-        "popularity": 61,
-        "followers": 432275,
-        "city_streams": 88932,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vvG18Z_53UL5FP",
