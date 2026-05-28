@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-28T21:01:32.669380Z",
-  "count": 73,
+  "last_run": "2026-05-28T22:46:06.337889Z",
+  "count": 74,
   "events": [
     {
       "slug": "vv178ZbYGkSr03-_",
@@ -63,10 +63,10 @@
     },
     {
       "slug": "vv178ZbYGkSL6wxO",
-      "name": "SOLD OUT-BELLE & SEBASTIAN: IF YOU'RE FEELING SINISTER + CLASSIC SONGS",
+      "name": "BELLE & SEBASTIAN: IF YOU'RE FEELING SINISTER + CLASSIC SONGS",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Fri, May 29, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/sold-outbelle-sebastian-if-youre-feeling-chicago-illinois-05-29-2026/event/0400630CDF1F28A0",
+      "url": "https://www.ticketmaster.com/belle-sebastian-if-youre-feeling-sinister-chicago-illinois-05-29-2026/event/0400630CDF1F28A0",
       "sales": {
         "public_start": "2025-08-22T15:00:00Z",
         "public_end": "2026-05-30T04:00:00Z",
@@ -918,6 +918,57 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_53XrDy5",
+      "name": "Slayyyter - Official Lolla Aftershow",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Thu, Jul 30, 2026 · 11:00 PM",
+      "url": "https://www.ticketmaster.com/slayyyter-official-lolla-aftershow-chicago-illinois-07-30-2026/event/040064B4BE7BBE4B",
+      "sales": {
+        "public_start": "2026-05-29T15:00:00Z",
+        "public_end": "2026-07-31T07:00:00Z",
+        "presales": [
+          {
+            "name": "Lollapalooza Platinum Sale",
+            "start": "2026-05-28T22:01:00Z",
+            "end": "2026-07-05T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Slayyyter",
+        "name": "Slayyyter - 2nd Night Added!",
+        "popularity": 61,
+        "followers": 432275,
+        "city_streams": 88932,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vvG18Z_53UL5FP",
@@ -2251,10 +2302,10 @@
     },
     {
       "slug": "vvG18Z_1D9_cGm",
-      "name": "Charles Wesley Godwin - Christian Name Tour",
+      "name": "Charles Wesley Godwin with Tyler Nance - Christian Name Tour",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Thu, Nov 12, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/charles-wesley-godwin-christian-name-tour-chicago-illinois-11-12-2026/event/040064AED766D32E",
+      "url": "https://www.ticketmaster.com/charles-wesley-godwin-with-tyler-nance-chicago-illinois-11-12-2026/event/040064AED766D32E",
       "sales": {
         "public_start": "2026-05-29T15:00:00Z",
         "public_end": "2026-11-13T05:00:00Z",
