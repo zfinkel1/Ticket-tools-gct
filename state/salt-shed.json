@@ -1,6 +1,6 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-28T18:45:27.544499Z",
+  "last_run": "2026-05-28T21:01:32.669380Z",
   "count": 73,
   "events": [
     {
@@ -94,7 +94,7 @@
       "slug": "vv1kvZv0fxGAuWJLV",
       "name": "Of The Trees - Park Service",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
-      "date": "Sat, May 30, 2026 · 5:30 PM",
+      "date": "Sat, May 30, 2026 · 5:15 PM",
       "url": "https://www.ticketmaster.com/of-the-trees-park-service-chicago-illinois-05-30-2026/event/040064522DF667F4",
       "sales": {
         "public_start": "2026-02-26T16:00:00Z",
@@ -1863,47 +1863,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 27,
-        "rec": "skip",
-        "components": {
-          "history": -5,
-          "dow": 2,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "2ev avg -4% margin, 50% profitable",
-          "why": "Skip — mixed history (2ev avg -4% margin, 50% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 2,
-        "avg_margin": -3.9,
-        "profitable_pct": 50.0,
-        "avg_sell_price": 59.71,
-        "avg_cost_price": 41.3,
-        "display_name": "Knocked Loose"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "byline bank aragon ballroom",
-          "tickets": 16,
-          "margin": -7.7
-        },
-        {
-          "venue": "glc live at 20 monroe",
-          "tickets": 8,
-          "margin": 0.0
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vvG18Z_1NZsmbd",

@@ -1,6 +1,6 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-05-28T18:45:10.208058Z",
+  "last_run": "2026-05-28T21:01:38.569679Z",
   "count": 38,
   "events": [
     {
@@ -130,6 +130,11 @@
             "name": "Preferred Seating Package",
             "start": "2025-12-12T16:00:00Z",
             "end": "2026-06-05T01:00:00Z"
+          },
+          {
+            "name": "Seat Release Offer",
+            "start": "2026-05-29T15:00:00Z",
+            "end": "2026-05-30T15:00:00Z"
           }
         ]
       },
