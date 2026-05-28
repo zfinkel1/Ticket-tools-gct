@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-27T22:43:38.853444Z",
+  "last_run": "2026-05-28T03:51:05.109948Z",
   "count": 94,
   "events": [
     {
@@ -1544,8 +1544,8 @@
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 51.08,
+        "max": 51.08,
         "currency": "USD",
         "type": "standard"
       }

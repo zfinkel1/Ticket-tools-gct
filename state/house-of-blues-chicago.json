@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-27T22:43:38.214904Z",
+  "last_run": "2026-05-28T03:51:04.500227Z",
   "count": 70,
   "events": [
     {
@@ -245,11 +245,11 @@
       "slug": "vv178Z_kGkIZyQIG",
       "name": "Alex Isley -- When The City Sleeps",
       "location": "House of Blues Chicago",
-      "date": "Sun, Jun 7, 2026 · 6:30 PM",
+      "date": "Sun, Jun 7, 2026 · 6:00 PM",
       "url": "https://www.ticketmaster.com/alex-isley-when-the-city-sleeps-chicago-illinois-06-07-2026/event/0400646A00E5AA0C",
       "sales": {
         "public_start": "2026-03-19T15:00:00Z",
-        "public_end": "2026-06-07T23:30:00Z",
+        "public_end": "2026-06-07T23:00:00Z",
         "presales": [
           {
             "name": "Citi® Cardmember Presale",
