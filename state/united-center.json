@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-28T16:05:09.981422Z",
+  "last_run": "2026-05-28T18:45:09.645796Z",
   "count": 73,
   "events": [
     {
@@ -2494,62 +2494,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 64,
-        "rec": "watch",
-        "components": {
-          "history": 31,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "8ev avg +102% margin, 75% profitable",
-          "why": "Worth watching — strong history (8ev avg +102% margin, 75% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 8,
-        "avg_margin": 101.7,
-        "profitable_pct": 75.0,
-        "avg_sell_price": 110.96,
-        "avg_cost_price": 69.99,
-        "display_name": "Gracie Abrams"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "the kia forum",
-          "tickets": 89,
-          "margin": 3.0
-        },
-        {
-          "venue": "byline bank aragon ballroom",
-          "tickets": 16,
-          "margin": 370.3
-        },
-        {
-          "venue": "house of blues - chicago",
-          "tickets": 10,
-          "margin": 48.0
-        },
-        {
-          "venue": "red rocks amphitheatre",
-          "tickets": 4,
-          "margin": 149.3
-        },
-        {
-          "venue": "td garden",
-          "tickets": 2,
-          "margin": 15.1
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vvG18Z_5RD-DAh",
@@ -2588,62 +2533,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 66,
-        "rec": "buy",
-        "components": {
-          "history": 31,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "8ev avg +102% margin, 75% profitable",
-          "why": "Strong buy — strong history (8ev avg +102% margin, 75% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 8,
-        "avg_margin": 101.7,
-        "profitable_pct": 75.0,
-        "avg_sell_price": 110.96,
-        "avg_cost_price": 69.99,
-        "display_name": "Gracie Abrams"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "the kia forum",
-          "tickets": 89,
-          "margin": 3.0
-        },
-        {
-          "venue": "byline bank aragon ballroom",
-          "tickets": 16,
-          "margin": 370.3
-        },
-        {
-          "venue": "house of blues - chicago",
-          "tickets": 10,
-          "margin": 48.0
-        },
-        {
-          "venue": "red rocks amphitheatre",
-          "tickets": 4,
-          "margin": 149.3
-        },
-        {
-          "venue": "td garden",
-          "tickets": 2,
-          "margin": 15.1
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vvG18Z_1LLYAJb",

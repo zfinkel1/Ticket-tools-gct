@@ -1,6 +1,6 @@
 {
   "site": "Wintrust Arena",
-  "last_run": "2026-05-28T16:04:16.312231Z",
+  "last_run": "2026-05-28T18:45:10.644947Z",
   "count": 26,
   "events": [
     {
@@ -153,9 +153,15 @@
       "date": "Sun, Jul 19, 2026 · 12:30 PM",
       "url": "https://www.ticketmaster.com/big3-9th-wonder-in-the-summer-chicago-illinois-07-19-2026/event/070064AE0855D96F",
       "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
+        "public_start": "2026-06-05T15:00:00Z",
+        "public_end": "2026-07-19T19:30:00Z",
+        "presales": [
+          {
+            "name": "Preasle offer",
+            "start": "2026-06-03T15:00:00Z",
+            "end": "2026-06-05T04:59:00Z"
+          }
+        ]
       },
       "price_range": null
     },

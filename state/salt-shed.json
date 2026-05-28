@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-28T16:04:10.014163Z",
-  "count": 72,
+  "last_run": "2026-05-28T18:45:27.544499Z",
+  "count": 73,
   "events": [
     {
       "slug": "vv178ZbYGkSr03-_",
@@ -33,11 +33,11 @@
       "price_range": null
     },
     {
-      "slug": "vv178ZbYGkSL6wxO",
-      "name": "SOLD OUT-BELLE & SEBASTIAN: IF YOU'RE FEELING SINISTER + CLASSIC SONGS",
+      "slug": "vv178ZbYGkSLC3xN",
+      "name": "Belle & Sebastian - 2 Day General Admission Pass (VALID 5/28-5/29)",
       "location": "The Salt Shed Indoors (Shed), Chicago",
-      "date": "Fri, May 29, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/sold-outbelle-sebastian-if-youre-feeling-chicago-illinois-05-29-2026/event/0400630CDF1F28A0",
+      "date": "Thu, May 28, 2026",
+      "url": "https://www.ticketmaster.com/belle-sebastian-2-day-general-admission-chicago-illinois-05-28-2026/event/0400630CDF3928A3",
       "sales": {
         "public_start": "2025-08-22T15:00:00Z",
         "public_end": "2026-05-30T04:00:00Z",
@@ -62,11 +62,11 @@
       "price_range": null
     },
     {
-      "slug": "vv178ZbYGkSLC3xN",
-      "name": "Belle & Sebastian - 2 Day General Admission Pass (VALID 5/28-5/29)",
+      "slug": "vv178ZbYGkSL6wxO",
+      "name": "SOLD OUT-BELLE & SEBASTIAN: IF YOU'RE FEELING SINISTER + CLASSIC SONGS",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Fri, May 29, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/belle-sebastian-2-day-general-admission-chicago-illinois-05-29-2026/event/0400630CDF3928A3",
+      "url": "https://www.ticketmaster.com/sold-outbelle-sebastian-if-youre-feeling-chicago-illinois-05-29-2026/event/0400630CDF1F28A0",
       "sales": {
         "public_start": "2025-08-22T15:00:00Z",
         "public_end": "2026-05-30T04:00:00Z",
@@ -1835,6 +1835,75 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_5l-eH_O",
+      "name": "Knocked Loose",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Wed, Sep 30, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/knocked-loose-chicago-illinois-09-30-2026/event/040064BAE10BC660",
+      "sales": {
+        "public_start": "2026-06-04T15:00:00Z",
+        "public_end": "2026-10-01T02:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-06-02T17:00:00Z",
+            "end": "2026-06-04T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-02T15:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-06-03T15:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 27,
+        "rec": "skip",
+        "components": {
+          "history": -5,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "2ev avg -4% margin, 50% profitable",
+          "why": "Skip — mixed history (2ev avg -4% margin, 50% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 2,
+        "avg_margin": -3.9,
+        "profitable_pct": 50.0,
+        "avg_sell_price": 59.71,
+        "avg_cost_price": 41.3,
+        "display_name": "Knocked Loose"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "byline bank aragon ballroom",
+          "tickets": 16,
+          "margin": -7.7
+        },
+        {
+          "venue": "glc live at 20 monroe",
+          "tickets": 8,
+          "margin": 0.0
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vvG18Z_1NZsmbd",

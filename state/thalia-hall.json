@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-28T16:05:09.977766Z",
+  "last_run": "2026-05-28T18:45:06.256831Z",
   "count": 94,
   "events": [
     {
@@ -1166,7 +1166,7 @@
     },
     {
       "slug": "rZ7HnEZ1Af-ord",
-      "name": "SYML - Solo in North America 2026",
+      "name": "SYML - Solo in North America 2026 with Roger Weeks",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Oct 8, 2026 · 8:00 PM",
       "url": "https://www.ticketweb.com/event/syml-solo-in-thalia-hall-tickets/14851783",
@@ -1176,8 +1176,8 @@
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 43.08,
+        "max": 43.08,
         "currency": "USD",
         "type": "standard"
       }
@@ -1350,29 +1350,7 @@
         "public_end": "2026-10-30T01:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 41,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "rZ7HnEZ1AfPZvN",
