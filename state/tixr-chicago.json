@@ -1,32 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-29T08:11:46.686356Z",
+  "last_run": "2026-05-29T11:43:22.756336Z",
   "count": 20,
   "events": [
-    {
-      "slug": "190010",
-      "name": "GASONLINA THURSDAYS (21+)",
-      "location": "Gold Coast Social",
-      "date": "Thu, May 28 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/gasonlina-thursdays-21--190010",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "191641",
-      "name": "RINOVRSE | Rino Bar",
-      "location": "RiNo Bar",
-      "date": "Thu, May 28 at 11:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/rinovrse-rino-bar-191641",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "179276",
       "name": "Magma EP Release",
@@ -242,6 +218,74 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "191886",
+      "name": "LA CASA DEL PERREO SATURDAYS (21+)",
+      "location": "Moe's Cantina - River North",
+      "date": "Sat, Jun 6 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/la-casa-del-perreo-saturdays-21--191886",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "185598",
+      "name": "MIA Rooftop Saturdays (21+)",
+      "location": "Reserv",
+      "date": "Sat, Jun 6 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185598",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
