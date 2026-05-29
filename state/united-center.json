@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-29T22:15:31.339679Z",
+  "last_run": "2026-05-29T23:44:30.570158Z",
   "count": 73,
   "events": [
     {
@@ -11,7 +11,7 @@
       "url": "https://www.ticketmaster.com/summer-walker-still-finally-over-it-chicago-illinois-05-29-2026/event/04006435CE2DB350",
       "sales": {
         "public_start": "2026-01-29T16:00:00Z",
-        "public_end": "2026-05-29T23:30:00Z",
+        "public_end": "2026-05-30T00:30:00Z",
         "presales": [
           {
             "name": "Citi® Cardmember Presale",
