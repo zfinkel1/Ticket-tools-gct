@@ -1,7 +1,7 @@
 {
   "site": "Byline Bank Aragon Ballroom",
-  "last_run": "2026-05-29T11:43:01.908824Z",
-  "count": 24,
+  "last_run": "2026-05-29T20:30:44.231132Z",
+  "count": 25,
   "events": [
     {
       "slug": "vv178Z_eGkS8QpU4",
@@ -680,6 +680,77 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_5RmHt8s",
+      "name": "TASTE OF CHAOS",
+      "location": "Aragon Ballroom, Chicago",
+      "date": "Sun, Oct 11, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/taste-of-chaos-chicago-illinois-10-11-2026/event/040064BBEEF29431",
+      "sales": {
+        "public_start": "2026-06-03T15:00:00Z",
+        "public_end": "2026-10-11T23:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-06-01T15:00:00Z",
+            "end": "2026-06-03T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-06-03T15:00:00Z",
+            "end": "2026-09-27T03:00:00Z"
+          },
+          {
+            "name": "In This Moment Presale",
+            "start": "2026-06-01T15:00:00Z",
+            "end": "2026-06-03T03:00:00Z"
+          },
+          {
+            "name": "Hollywood Undead Presale",
+            "start": "2026-06-01T15:00:00Z",
+            "end": "2026-06-03T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-02T15:00:00Z",
+            "end": "2026-06-03T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-06-01T15:00:00Z",
+            "end": "2026-06-03T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-06-03T15:00:00Z",
+            "end": "2026-10-07T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1A7ZkoyGkdaJQVG",

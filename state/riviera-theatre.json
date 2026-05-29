@@ -1,7 +1,7 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-05-29T11:43:03.756624Z",
-  "count": 17,
+  "last_run": "2026-05-29T20:30:44.234229Z",
+  "count": 19,
   "events": [
     {
       "slug": "Z7r9jZ1A7OFZ_",
@@ -185,6 +185,41 @@
       "price_range": null
     },
     {
+      "slug": "Z7r9jZ1A70UJA",
+      "name": "Calle 24 - Eterno Tour",
+      "location": "Riviera Theatre- IL, Chicago",
+      "date": "Fri, Sep 18, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UJA",
+      "sales": {
+        "public_start": "2026-05-29T15:00:00Z",
+        "public_end": "2026-09-19T01:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "vvG18Z_5cBMN-W",
       "name": "Calle 24 - Eterno Tour",
       "location": "Riviera Theatre, Chicago",
@@ -228,6 +263,44 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A70gaN",
+      "name": "DragonForce: Inhuman Rampage 20th Anniversary",
+      "location": "Riviera Theatre- IL, Chicago",
+      "date": "Fri, Dec 4, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gaN",
+      "sales": {
+        "public_start": "2026-05-29T15:00:00Z",
+        "public_end": "2026-12-05T01:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": {
+        "flare_event_id": 56657104,
+        "sh_id": null
+      },
+      "current_listing": null
     },
     {
       "slug": "vvG18Z_5P8e-GF",
