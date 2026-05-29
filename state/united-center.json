@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-05-29T20:29:38.660705Z",
+  "last_run": "2026-05-29T22:15:31.339679Z",
   "count": 73,
   "events": [
     {
@@ -2468,7 +2468,7 @@
         "public_end": "2027-02-12T01:00:00Z",
         "presales": [
           {
-            "name": "VIP Packages Presale",
+            "name": "Artist Presale VIP Packages",
             "start": "2026-06-02T14:00:00Z",
             "end": "2026-06-03T03:00:00Z"
           },
@@ -2483,7 +2483,7 @@
             "end": "2026-06-05T03:00:00Z"
           },
           {
-            "name": "Capital One Presale",
+            "name": "Capital One Cardholder Presale",
             "start": "2026-06-03T14:00:00Z",
             "end": "2026-06-05T03:00:00Z"
           },
@@ -2507,7 +2507,7 @@
         "public_end": "2027-02-13T01:00:00Z",
         "presales": [
           {
-            "name": "VIP Packages Presale",
+            "name": "Artist Presale VIP Packages",
             "start": "2026-06-02T14:00:00Z",
             "end": "2026-06-03T03:00:00Z"
           },
@@ -2522,7 +2522,7 @@
             "end": "2026-06-05T03:00:00Z"
           },
           {
-            "name": "Capital One Presale",
+            "name": "Capital One Cardholder Presale",
             "start": "2026-06-03T14:00:00Z",
             "end": "2026-06-05T03:00:00Z"
           },
