@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-28T23:57:50.755407Z",
+  "last_run": "2026-05-29T04:15:12.777093Z",
   "count": 20,
   "events": [
-    {
-      "slug": "183060",
-      "name": "Brendan Lane",
-      "location": "Ramova Loft",
-      "date": "Thu, May 28 at 7:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/brendan-lane-183060",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "190010",
       "name": "GASONLINA THURSDAYS (21+)",
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "184188",
+      "name": "femdot. Presents You Just Had To Be There",
+      "location": "Ramova Theatre ",
+      "date": "Sat, Jun 6 at 7:30 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/femdot-presents-you-just-had-to-be-there-184188",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 38,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
