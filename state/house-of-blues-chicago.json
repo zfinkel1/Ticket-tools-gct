@@ -1,50 +1,8 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-29T04:15:03.786464Z",
-  "count": 69,
+  "last_run": "2026-05-29T08:11:49.313595Z",
+  "count": 67,
   "events": [
-    {
-      "slug": "vv178Z_AGknz-zEi",
-      "name": "Chicago Comedy Club",
-      "location": "Foundation Room at House of Blues Chicago",
-      "date": "Thu, May 28, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-comedy-club-chicago-illinois-05-28-2026/event/0400645AB88789EC",
-      "sales": {
-        "public_start": "2026-02-26T21:06:00Z",
-        "public_end": "2026-05-28T23:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
-    {
-      "slug": "vv1A7Zko_GkdEG0m-",
-      "name": "Here Come the Mummies",
-      "location": "House of Blues Chicago",
-      "date": "Thu, May 28, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/here-come-the-mummies-chicago-illinois-05-28-2026/event/04006459E7324BA1",
-      "sales": {
-        "public_start": "2026-03-06T16:00:00Z",
-        "public_end": "2026-05-29T00:00:00Z",
-        "presales": [
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2026-03-04T16:00:00Z",
-            "end": "2026-03-06T04:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2026-03-06T16:00:00Z",
-            "end": "2026-05-01T03:00:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2026-03-04T16:00:00Z",
-            "end": "2026-03-06T04:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv178Z_6GkTEVLG3",
       "name": "WGCI Tone Kapone Day with special guest Jacquees",

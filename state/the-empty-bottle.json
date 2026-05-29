@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-29T04:15:06.682065Z",
-  "count": 101,
+  "last_run": "2026-05-29T08:11:53.899674Z",
+  "count": 100,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af-e4S",
-      "name": "National Photo Committee (Record Release) / Lifeguard / 2w33dy",
-      "location": "Empty Bottle, Chicago",
-      "date": "Thu, May 28, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/national-photo-committee-record-release-empty-bottle-tickets/14842573",
-      "sales": {
-        "public_start": "2026-04-10T15:00:00Z",
-        "public_end": "2026-05-29T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 20.39,
-        "max": 20.39,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfZEJf",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
