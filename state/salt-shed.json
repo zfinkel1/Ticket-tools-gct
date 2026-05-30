@@ -1,66 +1,8 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-05-30T05:36:05.592324Z",
-  "count": 73,
+  "last_run": "2026-05-30T08:10:14.679640Z",
+  "count": 71,
   "events": [
-    {
-      "slug": "vv178ZbYGkSLC3xN",
-      "name": "Belle & Sebastian - 2 Day General Admission Pass (VALID 5/28-5/29)",
-      "location": "The Salt Shed Indoors (Shed), Chicago",
-      "date": "Thu, May 28, 2026",
-      "url": "https://www.ticketmaster.com/belle-sebastian-2-day-general-admission-chicago-illinois-05-28-2026/event/0400630CDF3928A3",
-      "sales": {
-        "public_start": "2025-08-22T15:00:00Z",
-        "public_end": "2026-05-30T04:00:00Z",
-        "presales": [
-          {
-            "name": "The Salt Shed Online Presale",
-            "start": "2025-08-20T15:00:00Z",
-            "end": "2025-08-22T14:59:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2025-08-20T15:00:00Z",
-            "end": "2025-08-22T14:59:00Z"
-          },
-          {
-            "name": "Spotify Presale",
-            "start": "2025-08-21T15:00:00Z",
-            "end": "2025-08-22T14:59:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
-    {
-      "slug": "vv178ZbYGkSL6wxO",
-      "name": "BELLE & SEBASTIAN: IF YOU'RE FEELING SINISTER + CLASSIC SONGS",
-      "location": "The Salt Shed Indoors (Shed), Chicago",
-      "date": "Fri, May 29, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/belle-sebastian-if-youre-feeling-sinister-chicago-illinois-05-29-2026/event/0400630CDF1F28A0",
-      "sales": {
-        "public_start": "2025-08-22T15:00:00Z",
-        "public_end": "2026-05-30T04:00:00Z",
-        "presales": [
-          {
-            "name": "The Salt Shed Online Presale",
-            "start": "2025-08-20T15:00:00Z",
-            "end": "2025-08-22T14:59:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2025-08-20T15:00:00Z",
-            "end": "2025-08-22T14:59:00Z"
-          },
-          {
-            "name": "Spotify Presale",
-            "start": "2025-08-21T15:00:00Z",
-            "end": "2025-08-22T14:59:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1kvZv0fxGAuWJLV",
       "name": "Of The Trees - Park Service",
