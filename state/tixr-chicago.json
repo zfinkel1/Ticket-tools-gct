@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-30T08:10:30.233861Z",
+  "last_run": "2026-05-30T11:54:45.639928Z",
   "count": 20,
   "events": [
-    {
-      "slug": "191638",
-      "name": "La Casita | Galeria",
-      "location": "Galeria Chicago",
-      "date": "Fri, May 29 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-191638",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "181221",
       "name": "Noah Richardson",
@@ -237,6 +225,18 @@
       "location": "Reserv",
       "date": "Sat, Jun 6 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185598",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "192293",
+      "name": "La Casita | Galeria",
+      "location": "Galeria Chicago",
+      "date": "Sat, Jun 6 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-192293",
       "sales": {
         "public_start": null,
         "public_end": null,
