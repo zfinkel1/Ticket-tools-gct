@@ -1,7 +1,7 @@
 {
   "site": "TAO Nightclub Chicago",
-  "last_run": "2026-05-29T23:24:08.032746Z",
-  "count": 13,
+  "last_run": "2026-05-30T01:26:52.427534Z",
+  "count": 12,
   "events": [
     {
       "slug": "228542",
@@ -86,13 +86,6 @@
       "location": "TAO Nightclub Chicago",
       "date": "Sat, May 30, 2026",
       "url": "https://taogroup.com/event/5-30-2026-nick-rockwell-tao-nightclub/"
-    },
-    {
-      "slug": "225024",
-      "name": "Diox",
-      "location": "TAO Nightclub Chicago",
-      "date": "Fri, May 29, 2026",
-      "url": "https://taogroup.com/event/5-29-2026-diox-tao-nightclub/"
     }
   ]
 }
