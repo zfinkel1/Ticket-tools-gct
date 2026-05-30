@@ -1,15 +1,8 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-05-29T23:43:45.970100Z",
-  "count": 98,
+  "last_run": "2026-05-30T05:35:19.119036Z",
+  "count": 97,
   "events": [
-    {
-      "slug": "durango-bluegrass-train",
-      "name": "Durango Bluegrass Train",
-      "location": "Durango, CO",
-      "date": "May 28, 2026",
-      "url": "https://www.frontgatetickets.com/events/durango-bluegrass-train"
-    },
     {
       "slug": "meadows-music-festival",
       "name": "Meadows Music Festival",

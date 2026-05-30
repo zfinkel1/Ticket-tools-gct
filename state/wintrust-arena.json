@@ -1,21 +1,8 @@
 {
   "site": "Wintrust Arena",
-  "last_run": "2026-05-29T23:44:31.228517Z",
-  "count": 26,
+  "last_run": "2026-05-30T05:36:12.245916Z",
+  "count": 25,
   "events": [
-    {
-      "slug": "vv17jZ_dGkD9gyt9",
-      "name": "Chicago Sky vs. Minnesota Lynx",
-      "location": "Wintrust Arena, Chicago",
-      "date": "Fri, May 29, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/chicago-sky-vs-minnesota-lynx-chicago-illinois-05-29-2026/event/0700643ED7D79A57",
-      "sales": {
-        "public_start": "2026-02-06T17:00:00Z",
-        "public_end": "2026-05-30T00:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "vv166Zk3auFZA81C68",
       "name": "We Them One's Comedy Tour",

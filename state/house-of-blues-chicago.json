@@ -1,37 +1,8 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-29T23:44:26.871260Z",
-  "count": 67,
+  "last_run": "2026-05-30T05:36:07.007844Z",
+  "count": 66,
   "events": [
-    {
-      "slug": "vv178Z_6GkTEVLG3",
-      "name": "WGCI Tone Kapone Day with special guest Jacquees",
-      "location": "House of Blues Chicago",
-      "date": "Fri, May 29, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/wgci-tone-kapone-day-with-special-chicago-illinois-05-29-2026/event/0400647FE7D1F312",
-      "sales": {
-        "public_start": "2026-04-17T15:00:00Z",
-        "public_end": "2026-05-30T01:00:00Z",
-        "presales": [
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2026-04-14T15:00:00Z",
-            "end": "2026-04-17T03:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2026-04-17T15:00:00Z",
-            "end": "2026-05-01T03:00:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2026-04-14T15:00:00Z",
-            "end": "2026-04-17T03:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv178Z_7GkYeECQP",
       "name": "The Knocks x Dragonette x Aquaria REVELATION",
