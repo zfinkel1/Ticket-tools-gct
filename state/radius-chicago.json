@@ -1,6 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-05-31T11:22:01.924753Z",
+  "last_run": "2026-05-31T12:58:24.849106Z",
   "count": 10,
   "events": [
     {
@@ -64,68 +64,14 @@
       "name": "CREEDS EARGASM GOD, ABAE",
       "location": "",
       "date": "Jun 19, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1445743",
-      "score_data": {
-        "score": 35,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1445743"
     },
     {
       "slug": "1405850",
       "name": "Jack White Live 2026",
       "location": "",
       "date": "Jul 23, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1405850",
-      "score_data": {
-        "score": 64,
-        "rec": "watch",
-        "components": {
-          "history": 31,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "8ev avg +56% margin, 88% profitable",
-          "why": "Worth watching — strong history (8ev avg +56% margin, 88% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 8,
-        "avg_margin": 55.7,
-        "profitable_pct": 87.5,
-        "avg_sell_price": 85.66,
-        "avg_cost_price": 62.69,
-        "display_name": "Jack White"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": {
-        "flare_event_id": 56117941,
-        "sh_id": null
-      },
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1405850"
     }
   ]
 }
