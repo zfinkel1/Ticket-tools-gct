@@ -1,55 +1,8 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-05-31T01:53:30.681659Z",
-  "count": 66,
+  "last_run": "2026-05-31T06:21:52.837450Z",
+  "count": 64,
   "events": [
-    {
-      "slug": "vv178Z_7GkYeECQP",
-      "name": "The Knocks x Dragonette x Aquaria REVELATION",
-      "location": "House of Blues Chicago",
-      "date": "Sat, May 30, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/the-knocks-x-dragonette-x-aquaria-chicago-illinois-05-30-2026/event/0400644C029CE6A5",
-      "sales": {
-        "public_start": "2026-02-20T16:00:00Z",
-        "public_end": "2026-05-31T00:30:00Z",
-        "presales": [
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2026-02-18T16:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2026-02-20T16:00:00Z",
-            "end": "2026-05-02T03:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-02-18T16:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2026-02-19T16:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
-    {
-      "slug": "vv1A7ZkoAGkeDcbNj",
-      "name": "House of Burlesque",
-      "location": "Foundation Room at House of Blues Chicago",
-      "date": "Sat, May 30, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/house-of-burlesque-chicago-illinois-05-30-2026/event/04006445BBB588DC",
-      "sales": {
-        "public_start": "2026-03-22T16:00:00Z",
-        "public_end": "2026-05-31T01:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "vv178Z_aGkR94cZY",
       "name": "Chicago Comedy Club",

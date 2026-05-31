@@ -1,52 +1,8 @@
 {
   "site": "Rosemont Theatre",
-  "last_run": "2026-05-31T01:53:30.096599Z",
-  "count": 22,
+  "last_run": "2026-05-31T06:21:52.337151Z",
+  "count": 21,
   "events": [
-    {
-      "slug": "vv1A7ZkG4GkdpddYb",
-      "name": "Laura Pausini - Yo Canto World Tour",
-      "location": "Rosemont Theatre",
-      "date": "Sat, May 30, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/laura-pausini-yo-canto-world-tour-rosemont-illinois-05-30-2026/event/04006315D60C3C18",
-      "sales": {
-        "public_start": "2025-09-15T15:00:00Z",
-        "public_end": "2026-05-31T02:00:00Z",
-        "presales": [
-          {
-            "name": "FAN CLUB PRESALE",
-            "start": "2025-09-11T14:00:00Z",
-            "end": "2025-09-15T14:00:00Z"
-          },
-          {
-            "name": "TICKETMASTER PRESALE",
-            "start": "2025-09-12T14:00:00Z",
-            "end": "2025-09-15T14:00:00Z"
-          },
-          {
-            "name": "VENUE PRESALE",
-            "start": "2025-09-12T14:00:00Z",
-            "end": "2025-09-15T14:00:00Z"
-          },
-          {
-            "name": "LOUD AND LIVE PRESALE",
-            "start": "2025-09-13T14:00:00Z",
-            "end": "2025-09-15T14:00:00Z"
-          },
-          {
-            "name": "RADIO PRESALE",
-            "start": "2025-09-13T14:00:00Z",
-            "end": "2025-09-15T14:00:00Z"
-          },
-          {
-            "name": "Valentine's Day Promo",
-            "start": "2026-02-12T18:00:00Z",
-            "end": "2026-02-19T05:59:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv178Z_7GkUEqEMt",
       "name": "Grupo Bryndis, Industria Del Amor, Guardianes Del Amor-Romanticos Tour",

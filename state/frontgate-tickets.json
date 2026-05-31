@@ -1,29 +1,8 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-05-31T01:52:38.316995Z",
-  "count": 97,
+  "last_run": "2026-05-31T06:21:08.512457Z",
+  "count": 94,
   "events": [
-    {
-      "slug": "meadows-music-festival",
-      "name": "Meadows Music Festival",
-      "location": "Fergus, ON",
-      "date": "May 29, 2026",
-      "url": "https://www.frontgatetickets.com/events/meadows-music-festival"
-    },
-    {
-      "slug": "outside-days",
-      "name": "Outside Days",
-      "location": "Denver, CO",
-      "date": "May 29, 2026",
-      "url": "https://www.frontgatetickets.com/events/outside-days"
-    },
-    {
-      "slug": "rock-the-country-bloomingdale",
-      "name": "Rock The Country",
-      "location": "Bloomingdale, GA",
-      "date": "May 29, 2026",
-      "url": "https://www.frontgatetickets.com/events/rock-the-country-bloomingdale"
-    },
     {
       "slug": "roots-picnic",
       "name": "Roots Picnic",

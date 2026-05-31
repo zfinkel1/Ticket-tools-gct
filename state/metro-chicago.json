@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-05-31T01:52:39.167084Z",
-  "count": 56,
+  "last_run": "2026-05-31T06:21:10.009481Z",
+  "count": 55,
   "events": [
-    {
-      "slug": "kitty-kat-ball",
-      "name": "Kitty Kat Ball",
-      "location": "",
-      "date": "Sat, May 30",
-      "url": "https://metrochicago.com/event/kitty-kat-ball/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "kevin-morby",
       "name": "Kevin Morby",
