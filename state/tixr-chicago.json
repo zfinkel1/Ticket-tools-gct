@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-05-31T18:52:31.022496Z",
+  "last_run": "2026-05-31T20:12:52.862997Z",
   "count": 20,
   "events": [
-    {
-      "slug": "179832",
-      "name": "LA CURA BRUNCH SUNDAYS (21+)",
-      "location": "Gold Coast Social",
-      "date": "Sun, May 31 at 11:00 AM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/la-cura-brunch-sundays-21--179832",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "188495",
       "name": "Rattle Cans 2.0",
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "192390",
+      "name": "WORLD CUP 26 - MEXICO VS SOUTH AFRICA",
+      "location": "Joy District",
+      "date": "Thu, Jun 11 at 12:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-africa-192390",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
