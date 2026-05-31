@@ -1,21 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-05-30T23:34:35.870280Z",
-  "count": 94,
+  "last_run": "2026-05-31T01:53:31.292284Z",
+  "count": 93,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7-4Px",
-      "name": "Hemlocke Springs",
-      "location": "Thalia Hall, Chicago",
-      "date": "Sat, May 30, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-4Px",
-      "sales": {
-        "public_start": "1900-01-01T06:00:00Z",
-        "public_end": "2026-05-31T00:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "rZ7HnEZ1AfAAQ7",
       "name": "*SOLD OUT* hemlocke springs - the apple tree under the sea tour",
