@@ -1,21 +1,8 @@
 {
   "site": "Wintrust Arena",
-  "last_run": "2026-05-31T06:21:57.731431Z",
-  "count": 25,
+  "last_run": "2026-05-31T09:32:35.291469Z",
+  "count": 24,
   "events": [
-    {
-      "slug": "vv166Zk3auFZA81C68",
-      "name": "We Them One's Comedy Tour",
-      "location": "Wintrust Arena, Chicago",
-      "date": "Sat, May 30, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/we-them-ones-comedy-tour-chicago-illinois-05-30-2026/event/07006489348F9D6F",
-      "sales": {
-        "public_start": "2026-04-14T15:00:00Z",
-        "public_end": "2026-05-31T03:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "vv17jZ_dGkD9Matj",
       "name": "Chicago Sky vs. Connecticut Sun",

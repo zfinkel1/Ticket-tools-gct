@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-05-31T06:21:56.163882Z",
-  "count": 97,
+  "last_run": "2026-05-31T09:32:34.041253Z",
+  "count": 96,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af-oZd",
-      "name": "Gabacho / Astrachan",
-      "location": "Empty Bottle, Chicago",
-      "date": "Sat, May 30, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/gabacho-astrachan-empty-bottle-tickets/14851003",
-      "sales": {
-        "public_start": "2026-04-15T15:00:00Z",
-        "public_end": "2026-05-31T03:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 16.17,
-        "max": 16.17,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af0eAS",
       "name": "Talulah Paisley / Kitship / Adelaide",
