@@ -1,7 +1,7 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-06-01T04:18:26.048621Z",
-  "count": 64,
+  "last_run": "2026-06-01T22:39:48.623016Z",
+  "count": 65,
   "events": [
     {
       "slug": "vv178Z_aGkR94cZY",
@@ -59,23 +59,7 @@
       "sales": {
         "public_start": "2026-05-01T15:00:00Z",
         "public_end": "2026-06-07T00:00:00Z",
-        "presales": [
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2026-04-29T15:00:00Z",
-            "end": "2026-05-01T03:00:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2026-05-01T15:00:00Z",
-            "end": "2026-05-23T03:00:00Z"
-          },
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2026-04-29T15:00:00Z",
-            "end": "2026-05-01T03:00:00Z"
-          }
-        ]
+        "presales": []
       },
       "price_range": null
     },
@@ -1827,6 +1811,67 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_5RqNULY",
+      "name": "VOILÀ Presents: Moonbloom",
+      "location": "House of Blues Chicago",
+      "date": "Thu, Nov 12, 2026 · 5:00 PM",
+      "url": "https://www.ticketmaster.com/voila-presents-moonbloom-chicago-illinois-11-12-2026/event/040064BBDD8F67F0",
+      "sales": {
+        "public_start": "2026-06-05T15:00:00Z",
+        "public_end": "2026-11-12T23:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-06-02T15:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-06-05T15:00:00Z",
+            "end": "2026-10-15T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-02T15:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          },
+          {
+            "name": "Spotify Presale",
+            "start": "2026-06-03T17:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-02T17:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 39,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178Z_FGkBm7pn6",

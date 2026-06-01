@@ -1,26 +1,8 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-06-01T04:18:24.736973Z",
-  "count": 70,
+  "last_run": "2026-06-01T22:39:48.618791Z",
+  "count": 72,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af-48N",
-      "name": "SummerSalt Market",
-      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
-      "date": "Sun, May 31, 2026 · 11:00 AM",
-      "url": "https://www.ticketweb.com/event/summersalt-market-the-salt-shed-outdoors-fairgrounds-tickets/14855423",
-      "sales": {
-        "public_start": "2026-04-15T04:15:00Z",
-        "public_end": "2026-05-31T20:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "vv1A7Zk8YGkeld9xy",
       "name": "Claypool Gold feat: Primus, Les Claypool's Frog Brigade & The Claypool",
@@ -401,6 +383,46 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "rZ7HnEZ1AfP0od",
+      "name": "We Met at The Shed - Must Love Dogs",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Tue, Jun 30, 2026 · 6:00 PM",
+      "url": "https://www.ticketweb.com/event/we-met-at-the-shed-the-salt-shed-outdoors-fairgrounds-tickets/14964443",
+      "sales": {
+        "public_start": "2026-06-01T06:00:00Z",
+        "public_end": "2026-07-01T03:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 14.6,
+        "max": 14.6,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 34,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178Z_7GknR3k_2",
@@ -1741,10 +1763,10 @@
     },
     {
       "slug": "vvG18Z_5l-eH_O",
-      "name": "Knocked Loose",
+      "name": "Knocked Loose & Denzel Curry",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Wed, Sep 30, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/knocked-loose-chicago-illinois-09-30-2026/event/040064BAE10BC660",
+      "url": "https://www.ticketmaster.com/knocked-loose-denzel-curry-chicago-illinois-09-30-2026/event/040064BAE10BC660",
       "sales": {
         "public_start": "2026-06-04T15:00:00Z",
         "public_end": "2026-10-01T02:00:00Z",
@@ -1757,16 +1779,88 @@
           {
             "name": "Artist Presale",
             "start": "2026-06-02T15:00:00Z",
-            "end": "2026-06-05T03:00:00Z"
+            "end": "2026-06-04T03:00:00Z"
           },
           {
             "name": "Spotify Presale",
             "start": "2026-06-03T15:00:00Z",
-            "end": "2026-06-05T03:00:00Z"
+            "end": "2026-06-04T03:00:00Z"
           }
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_5UtHBIZ",
+      "name": "Joe Russo's Almost Dead",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, Oct 2, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/joe-russos-almost-dead-chicago-illinois-10-02-2026/event/040064BDA9F3AA00",
+      "sales": {
+        "public_start": "2026-06-05T15:00:00Z",
+        "public_end": "2026-10-03T04:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-06-04T15:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-03T16:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Joe Russo's Almost Dead",
+        "name": "Joe Russo's Almost Dead",
+        "popularity": 32,
+        "followers": 30397,
+        "city_streams": null,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 5,
+        "rec": "skip",
+        "components": {
+          "history": -20,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": -10,
+          "history_label": "5ev avg -27% margin, 0% profitable",
+          "why": "Skip — weak history (5ev avg -27% margin, 0% profitable); auto-flagged loser (5+ neg-margin events)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "riviera theatre - il",
+          "tickets": 40,
+          "margin": -21.5
+        },
+        {
+          "venue": "red rocks amphitheatre",
+          "tickets": 24,
+          "margin": -68.6
+        },
+        {
+          "venue": "the salt shed indoors - chicago",
+          "tickets": 12,
+          "margin": -5.7
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vvG18Z_1NZsmbd",
@@ -2028,10 +2122,10 @@
     },
     {
       "slug": "vv1A7ZkoVGkewnMGL",
-      "name": "Fruit Bats",
+      "name": "Fruit Bats with Matthew Logan Vasquez",
       "location": "The Salt Shed Indoors (Shed), Chicago",
       "date": "Sat, Oct 24, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/fruit-bats-chicago-illinois-10-24-2026/event/04006474B2AB731F",
+      "url": "https://www.ticketmaster.com/fruit-bats-with-matthew-logan-vasquez-chicago-illinois-10-24-2026/event/04006474B2AB731F",
       "sales": {
         "public_start": "2026-03-27T15:00:00Z",
         "public_end": "2026-10-25T04:00:00Z",
@@ -2350,6 +2444,55 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_5UYQl9j",
+      "name": "FKJ - TYBER TOUR",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Thu, May 27, 2027 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/fkj-tyber-tour-chicago-illinois-05-27-2027/event/040064BDB06AB5DC",
+      "sales": {
+        "public_start": "2026-06-05T15:00:00Z",
+        "public_end": "2027-05-28T04:00:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-06-03T15:00:00Z",
+            "end": "2026-06-05T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-02T15:00:00Z",
+            "end": "2026-06-05T04:59:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": {
+        "flare_event_id": 56725727,
+        "sh_id": null
+      },
+      "current_listing": null
     }
   ]
 }

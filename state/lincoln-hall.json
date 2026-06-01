@@ -1,7 +1,7 @@
 {
   "site": "Lincoln Hall",
-  "last_run": "2026-06-01T04:18:28.326290Z",
-  "count": 1,
+  "last_run": "2026-06-01T22:39:48.629690Z",
+  "count": 5,
   "events": [
     {
       "slug": "Z7r9jZ1A70UJk",
@@ -15,6 +15,156 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A70UA3",
+      "name": "bixby",
+      "location": "Lincoln Hall, Chicago",
+      "date": "Wed, Jul 29, 2026 · 9:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UA3",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-07-30T02:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 40,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A7Pdkf",
+      "name": "Kingfishr",
+      "location": "Lincoln Hall, Chicago",
+      "date": "Thu, Jul 30, 2026 · 11:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pdkf",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-07-31T04:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 41,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A70UAK",
+      "name": "Momma",
+      "location": "Lincoln Hall, Chicago",
+      "date": "Fri, Jul 31, 2026 · 11:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UAK",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-08-01T04:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Momma",
+        "name": "Momma",
+        "popularity": 53,
+        "followers": 93490,
+        "city_streams": 10389,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A70UAo",
+      "name": "INJI",
+      "location": "Lincoln Hall, Chicago",
+      "date": "Sat, Aug 1, 2026 · 11:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UAo",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-08-02T04:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 44,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

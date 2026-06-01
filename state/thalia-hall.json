@@ -1,7 +1,7 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-01T04:18:26.675032Z",
-  "count": 92,
+  "last_run": "2026-06-01T22:39:48.626372Z",
+  "count": 93,
   "events": [
     {
       "slug": "rZ7HnEZ1AfZIA0",
@@ -1333,6 +1333,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPKqd",
+      "name": "Best Friends Podcast",
+      "location": "Thalia Hall, Chicago",
+      "date": "Tue, Nov 3, 2026 · 8:00 PM",
+      "url": "https://www.ticketweb.com/event/best-friends-podcast-thalia-hall-tickets/14953743",
+      "sales": {
+        "public_start": "2026-06-03T15:00:00Z",
+        "public_end": "2026-11-04T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 42,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfOVGN",

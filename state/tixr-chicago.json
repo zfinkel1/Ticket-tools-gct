@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-06-01T04:18:40.594074Z",
+  "last_run": "2026-06-01T22:39:48.618250Z",
   "count": 20,
   "events": [
-    {
-      "slug": "191982",
-      "name": "Romeo Santos & Prince Royce Official After Party | Rino Bar",
-      "location": "RiNo Bar",
-      "date": "Sun, May 31 at 11:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/romeo-santos-prince-royce-official-after-party-rino-bar-191982",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "192318",
       "name": "Lost on the South Side: Happy Lobster",
@@ -38,6 +26,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "192722",
+      "name": "GASONLINA THURSDAYS (21+)",
+      "location": "Gold Coast Social",
+      "date": "Thu, Jun 4 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/gasonlina-thursdays-21--192722",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "192296",
@@ -241,29 +263,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     }
   ]
 }

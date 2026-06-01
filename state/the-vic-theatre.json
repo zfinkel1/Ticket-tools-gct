@@ -1,7 +1,7 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-06-01T04:18:30.856119Z",
-  "count": 43,
+  "last_run": "2026-06-01T22:39:48.630006Z",
+  "count": 44,
   "events": [
     {
       "slug": "Z7r9jZ1A70oxv",
@@ -366,6 +366,41 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A7PvCa",
+      "name": "Catch Your Breath w/ TX2",
+      "location": "Vic Theatre, Chicago",
+      "date": "Sat, Oct 17, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PvCa",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-10-18T00:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 44,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "Z7r9jZ1A7xd7V",
