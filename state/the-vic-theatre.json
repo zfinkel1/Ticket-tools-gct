@@ -1,21 +1,8 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-05-31T22:33:49.943304Z",
-  "count": 44,
+  "last_run": "2026-06-01T04:18:30.856119Z",
+  "count": 43,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7-P0b",
-      "name": "The Toadies",
-      "location": "Vic Theatre, Chicago",
-      "date": "Sun, May 31, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-P0b",
-      "sales": {
-        "public_start": "1900-01-01T18:00:00Z",
-        "public_end": "2026-06-01T00:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "Z7r9jZ1A70oxv",
       "name": "Scott Galloway w/ Ed Elson",
