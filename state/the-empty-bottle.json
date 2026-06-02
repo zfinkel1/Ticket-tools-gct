@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-02T04:54:59.248980Z",
+  "last_run": "2026-06-02T17:27:06.781206Z",
   "count": 98,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af0OuK",
-      "name": "FREE MONDAY w/ Monoculture / ABOLISHVICTORY! / Kevin and Hell",
-      "location": "Empty Bottle, Chicago",
-      "date": "Mon, Jun 1, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/free-monday-w-monoculture-empty-bottle-tickets/14920353",
-      "sales": {
-        "public_start": "2026-05-13T15:00:00Z",
-        "public_end": "2026-06-02T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af0U0S",
       "name": "RED·MAGE / Kafiza / Sidaka",
@@ -131,7 +113,7 @@
     },
     {
       "slug": "rZ7HnEZ1AfO4uS",
-      "name": "Nothing-Assumed feat. Sports Boyfriend (Album Release) / Living Thing / Adam Schubert",
+      "name": "Nothing-Assumed feat. Sports Boyfriend (Album Release) / Living Thing / Airport 77",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Jun 7, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/nothing-assumed-feat-sports-boyfriend-empty-bottle-tickets/14815373",
@@ -897,6 +879,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfP3bK",
+      "name": "FREE MONDAY w/ Anne Helen Wells (Album Release) / Sulffffffur / Hayley Elizabeth",
+      "location": "Empty Bottle, Chicago",
+      "date": "Mon, Jul 27, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/free-monday-w-anne-helen-empty-bottle-tickets/14952613",
+      "sales": {
+        "public_start": "2026-06-02T14:00:00Z",
+        "public_end": "2026-07-28T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af0Zad",

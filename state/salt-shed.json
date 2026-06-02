@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-06-02T04:54:55.764716Z",
-  "count": 72,
+  "last_run": "2026-06-02T17:27:06.773929Z",
+  "count": 76,
   "events": [
     {
       "slug": "vv1A7Zk8YGkeld9xy",
@@ -489,6 +489,161 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "rZ7HnEZ1AfPF7d",
+      "name": "MUBI FEST CHICAGO: THE SUBSTANCE SCREENING",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sat, Jul 11, 2026 · 12:00 PM",
+      "url": "https://www.ticketweb.com/event/mubi-fest-chicago-the-substance-the-salt-shed-indoors-shed-tickets/14948103",
+      "sales": {
+        "public_start": "2026-06-02T13:00:00Z",
+        "public_end": "2026-07-11T18:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 21.38,
+        "max": 21.38,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "rZ7HnEZ1AfPFAK",
+      "name": "MUBI FEST CHICAGO: ALL DAY PASS",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sat, Jul 11, 2026 · 12:00 PM",
+      "url": "https://www.ticketweb.com/event/mubi-fest-chicago-all-day-the-salt-shed-indoors-shed-tickets/14948153",
+      "sales": {
+        "public_start": "2026-06-02T13:00:00Z",
+        "public_end": "2026-07-11T19:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 83.35,
+        "max": 83.35,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "rZ7HnEZ1AfPF7S",
+      "name": "MUBI FEST CHICAGO: POPSTAR",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sat, Jul 11, 2026 · 3:15 PM",
+      "url": "https://www.ticketweb.com/event/mubi-fest-chicago-popstar-the-salt-shed-indoors-shed-tickets/14948133",
+      "sales": {
+        "public_start": "2026-06-02T13:00:00Z",
+        "public_end": "2026-07-11T21:15:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 21.38,
+        "max": 21.38,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "rZ7HnEZ1AfPFkd",
+      "name": "MUBI FEST CHICAGO: CONCERT ARTIST TBA",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sat, Jul 11, 2026 · 6:00 PM",
+      "url": "https://www.ticketweb.com/event/mubi-fest-chicago-concert-artist-the-salt-shed-indoors-shed-tickets/14948183",
+      "sales": {
+        "public_start": "2026-06-02T13:00:00Z",
+        "public_end": "2026-07-12T03:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178ZbzGkR-mc5p",

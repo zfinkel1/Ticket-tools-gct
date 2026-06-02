@@ -1,7 +1,7 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-06-02T04:54:17.807724Z",
-  "count": 92,
+  "last_run": "2026-06-02T17:27:06.772014Z",
+  "count": 93,
   "events": [
     {
       "slug": "governors-ball",
@@ -646,6 +646,35 @@
       "location": "Orlando, FL",
       "date": "April 23, 2027",
       "url": "https://www.frontgatetickets.com/events/forbidden-kingdom"
+    },
+    {
+      "slug": "edc-las-vegas",
+      "name": "EDC Las Vegas",
+      "location": "Las Vegas, NV",
+      "date": "May 14, 2027",
+      "url": "https://www.frontgatetickets.com/events/edc-las-vegas",
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

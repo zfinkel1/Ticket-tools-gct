@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-06-02T04:54:56.728572Z",
+  "last_run": "2026-06-02T17:25:56.617916Z",
   "count": 65,
   "events": [
     {
@@ -211,6 +211,11 @@
         "public_start": "2026-05-19T15:00:00Z",
         "public_end": "2026-06-19T01:30:00Z",
         "presales": [
+          {
+            "name": "Discount Offer",
+            "start": "2026-06-02T16:15:00Z",
+            "end": "2026-06-19T01:30:00Z"
+          },
           {
             "name": "Citi® Cardmember Preferred Tickets",
             "start": "2026-05-19T15:00:00Z",

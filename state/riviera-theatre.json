@@ -1,6 +1,6 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-06-02T04:56:03.927226Z",
+  "last_run": "2026-06-02T17:25:58.099014Z",
   "count": 21,
   "events": [
     {
@@ -163,70 +163,7 @@
         "public_end": "2026-07-31T04:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "Yungblud",
-        "name": "YUNGBLUD | Official Caesars Ticket + Hotel Packages",
-        "popularity": 76,
-        "followers": 2735377,
-        "city_streams": null,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 76,
-        "rec": "buy",
-        "components": {
-          "history": 35,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "4ev avg +203% margin, 100% profitable",
-          "why": "Strong buy — strong history (4ev avg +203% margin, 100% profitable); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 4,
-        "avg_margin": 203.2,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 157.36,
-        "avg_cost_price": 51.32,
-        "display_name": "Yungblud"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "danforth music hall theatre",
-          "tickets": 36,
-          "margin": 730.7
-        },
-        {
-          "venue": "hard rock hotel & casino - ottawa",
-          "tickets": 28,
-          "margin": 0.0
-        },
-        {
-          "venue": "riviera theatre - il",
-          "tickets": 19,
-          "margin": 69.0
-        },
-        {
-          "venue": "the fillmore - detroit",
-          "tickets": 16,
-          "margin": 26.2
-        }
-      ],
-      "current_sold": {
-        "flare_event_id": 56655374,
-        "sh_id": null
-      },
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A70UZS",
@@ -239,45 +176,7 @@
         "public_end": "2026-08-01T04:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 68,
-        "rec": "buy",
-        "components": {
-          "history": 25,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg +28% margin, 100% profitable",
-          "why": "Strong buy — strong history (1ev avg +28% margin, 100% profitable); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 1,
-        "avg_margin": 28.5,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 135.53,
-        "avg_cost_price": 105.45,
-        "display_name": "Clipse"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "the dome by rutter mills",
-          "tickets": 19,
-          "margin": 28.5
-        }
-      ],
-      "current_sold": {
-        "flare_event_id": 56655382,
-        "sh_id": null
-      },
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7-yqU",

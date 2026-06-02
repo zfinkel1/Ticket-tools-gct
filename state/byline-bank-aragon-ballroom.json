@@ -1,7 +1,7 @@
 {
   "site": "Byline Bank Aragon Ballroom",
-  "last_run": "2026-06-02T04:54:56.053974Z",
-  "count": 25,
+  "last_run": "2026-06-02T17:27:06.776965Z",
+  "count": 26,
   "events": [
     {
       "slug": "vv178Z_eGkS8QpU4",
@@ -345,6 +345,62 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_53Hylsm",
+      "name": "Polo & Pan - Americas Tour 2026",
+      "location": "Aragon Ballroom, Chicago",
+      "date": "Sat, Aug 22, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/polo-pan-americas-tour-2026-chicago-illinois-08-22-2026/event/040064B4BCE6BC6E",
+      "sales": {
+        "public_start": "2026-06-05T15:00:00Z",
+        "public_end": "2026-08-23T01:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-06-03T15:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-06-05T15:00:00Z",
+            "end": "2026-08-08T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-03T15:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-04T15:00:00Z",
+            "end": "2026-06-05T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1A7Zk3eGkdqK-qB",

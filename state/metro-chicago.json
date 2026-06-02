@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-02T04:54:19.574687Z",
-  "count": 55,
+  "last_run": "2026-06-02T17:27:06.772947Z",
+  "count": 57,
   "events": [
     {
       "slug": "kevin-morby",
@@ -373,6 +373,64 @@
       "location": "",
       "date": "Sun, Oct 11",
       "url": "https://metrochicago.com/event/butttootking-2/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "digable-planets-blowout-comb-30th-anniversary-tour",
+      "name": "Digable Planets &#8211; Blowout Comb 30th Anniversary Tour",
+      "location": "",
+      "date": "Sun, Oct 18",
+      "url": "https://metrochicago.com/event/digable-planets-blowout-comb-30th-anniversary-tour/metro-chicago/chicago-illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "plini-an-unnameable-desire-north-american-tour",
+      "name": "Plini &#8211; An Unnameable Desire North American Tour",
+      "location": "",
+      "date": "Sun, Oct 25",
+      "url": "https://metrochicago.com/event/plini-an-unnameable-desire-north-american-tour/metro-chicago/chicago-illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "strawberry-guy",

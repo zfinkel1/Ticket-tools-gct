@@ -1,7 +1,7 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-02T04:54:57.265222Z",
-  "count": 93,
+  "last_run": "2026-06-02T17:27:06.778318Z",
+  "count": 95,
   "events": [
     {
       "slug": "rZ7HnEZ1AfZIA0",
@@ -324,7 +324,7 @@
     },
     {
       "slug": "rZ7HnEZ1AfOtQK",
-      "name": "Tiny Desk Contest On The Road 2026 with Cure For Paranoia",
+      "name": "Tiny Desk Contest On The Road 2026 with Cure For Paranoia with Lamis and Tromblau & Friends",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Jun 28, 2026 · 7:00 PM",
       "url": "https://www.ticketweb.com/event/tiny-desk-contest-on-the-thalia-hall-tickets/14829693",
@@ -1098,6 +1098,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfPfuS",
+      "name": "Mind Enterprises",
+      "location": "Thalia Hall, Chicago",
+      "date": "Tue, Oct 6, 2026 · 8:00 PM",
+      "url": "https://www.ticketweb.com/event/mind-enterprises-thalia-hall-tickets/14954373",
+      "sales": {
+        "public_start": "2026-06-03T15:00:00Z",
+        "public_end": "2026-10-07T01:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 42,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "Z7r9jZ1A70toe",
       "name": "Sweet Pill",
       "location": "Thalia Hall, Chicago",
@@ -1454,6 +1494,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPpaK",
+      "name": "Ethan Regan - Young Regan Tour with Lily Kershaw",
+      "location": "Thalia Hall, Chicago",
+      "date": "Fri, Nov 13, 2026 · 7:30 PM",
+      "url": "https://www.ticketweb.com/event/ethan-regan-young-thalia-hall-tickets/14956253",
+      "sales": {
+        "public_start": "2026-06-03T17:00:00Z",
+        "public_end": "2026-11-14T01:30:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af0obS",
