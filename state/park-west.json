@@ -1,6 +1,6 @@
 {
   "site": "Park West",
-  "last_run": "2026-06-01T22:39:48.625700Z",
+  "last_run": "2026-06-02T04:54:56.925926Z",
   "count": 11,
   "events": [
     {
@@ -129,42 +129,7 @@
         "public_end": "2026-07-31T04:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "Mother Mother",
-        "name": "MOTHER MOTHER",
-        "popularity": 74,
-        "followers": 4434897,
-        "city_streams": 72190,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 3,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": {
-        "flare_event_id": 56655372,
-        "sh_id": null
-      },
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A70zxF",
@@ -177,32 +142,7 @@
         "public_end": "2026-08-01T04:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 38,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 3,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": {
-        "flare_event_id": 56655381,
-        "sh_id": null
-      },
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7PdFb",
@@ -215,32 +155,7 @@
         "public_end": "2026-08-02T04:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 39,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 3,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": {
-        "flare_event_id": 56655376,
-        "sh_id": null
-      },
-      "current_listing": null
+      "price_range": null
     }
   ]
 }

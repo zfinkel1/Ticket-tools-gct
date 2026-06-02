@@ -1,21 +1,8 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-06-01T22:39:48.630006Z",
-  "count": 44,
+  "last_run": "2026-06-02T04:56:03.928059Z",
+  "count": 47,
   "events": [
-    {
-      "slug": "Z7r9jZ1A70oxv",
-      "name": "Scott Galloway w/ Ed Elson",
-      "location": "Vic Theatre, Chicago",
-      "date": "Mon, Jun 1, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oxv",
-      "sales": {
-        "public_start": "1900-01-01T18:00:00Z",
-        "public_end": "2026-06-02T00:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "Z7r9jZ1A7xd7J",
       "name": "Crime Unfiltered",
@@ -171,6 +158,186 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A70Uvv",
+      "name": "Wet Leg - Official Lollapalooza Aftershow (18+)",
+      "location": "Vic Theatre, Chicago",
+      "date": "Wed, Jul 29, 2026 · 9:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Uvv",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-07-30T02:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Wet Leg",
+        "name": "Wet Leg",
+        "popularity": 65,
+        "followers": 736699,
+        "city_streams": 58148,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 40,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A70Uo_",
+      "name": "Zara Larsson - Official Lollapalooza Aftershow (18+)",
+      "location": "Vic Theatre, Chicago",
+      "date": "Thu, Jul 30, 2026 · 11:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Uo_",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-07-31T04:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Zara Larsson",
+        "name": "Zara Larsson",
+        "popularity": 79,
+        "followers": 10761202,
+        "city_streams": 599485,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 41,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A70Uob",
+      "name": "Spacey Jane - Official Lollapalooza Aftershow (18+)",
+      "location": "Vic Theatre, Chicago",
+      "date": "Fri, Jul 31, 2026 · 11:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Uob",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-08-01T04:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Spacey Jane",
+        "name": "Spacey Jane - If That Makes Sense Tour",
+        "popularity": 70,
+        "followers": 58562,
+        "city_streams": null,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A70Uo9",
+      "name": "Jade - Official Lollapalooza Aftershow (18+)",
+      "location": "Vic Theatre, Chicago",
+      "date": "Sat, Aug 1, 2026 · 11:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Uo9",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-08-02T04:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Jade",
+        "name": "Jade Cicada & Mickman",
+        "popularity": 39,
+        "followers": 48535,
+        "city_streams": null,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 44,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "Z7r9jZ1A7xd7t",
@@ -378,29 +545,7 @@
         "public_end": "2026-10-18T00:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 44,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A7xd7V",

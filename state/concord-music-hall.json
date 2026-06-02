@@ -1,6 +1,6 @@
 {
   "site": "Concord Music Hall",
-  "last_run": "2026-06-01T22:39:48.629402Z",
+  "last_run": "2026-06-02T04:54:57.649868Z",
   "count": 2,
   "events": [
     {
@@ -14,42 +14,7 @@
         "public_end": "2026-08-01T03:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "Boots",
-        "name": "Boots and Hearts West featuring Shaboozey",
-        "popularity": 69,
-        "followers": 351934,
-        "city_streams": 19484,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 43,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": {
-        "flare_event_id": 56655379,
-        "sh_id": null
-      },
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A70Ukv",
@@ -62,55 +27,7 @@
         "public_end": "2026-08-02T03:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "Alison Wonderland",
-        "name": "Alison Wonderland",
-        "popularity": 56,
-        "followers": 497365,
-        "city_streams": 16762,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 24,
-        "rec": "skip",
-        "components": {
-          "history": -20,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg -42% margin, 0% profitable",
-          "why": "Skip — weak history (1ev avg -42% margin, 0% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 1,
-        "avg_margin": -42.3,
-        "profitable_pct": 0.0,
-        "avg_sell_price": 60.55,
-        "avg_cost_price": 104.84,
-        "display_name": "Alison Wonderland"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "byline bank aragon ballroom",
-          "tickets": 24,
-          "margin": -42.3
-        }
-      ],
-      "current_sold": {
-        "flare_event_id": 56655369,
-        "sh_id": null
-      },
-      "current_listing": null
+      "price_range": null
     }
   ]
 }
