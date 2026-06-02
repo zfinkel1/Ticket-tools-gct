@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-02T17:27:06.778318Z",
+  "last_run": "2026-06-02T20:27:07.624986Z",
   "count": 95,
   "events": [
     {
@@ -682,18 +682,18 @@
     },
     {
       "slug": "rZ7HnEZ1AfxFGK",
-      "name": "Haute & Freddy - Lollapalooza Aftershow with Valencia Grace",
+      "name": "*SOLD OUT* Haute & Freddy - Lollapalooza Aftershow with Valencia Grace",
       "location": "Thalia Hall, Chicago",
       "date": "Fri, Jul 31, 2026 · 11:00 PM",
-      "url": "https://www.ticketweb.com/event/haute-freddy-thalia-hall-tickets/14888313",
+      "url": "https://www.ticketweb.com/event/sold-out-haute-freddy-thalia-hall-tickets/14888313",
       "sales": {
         "public_start": "2026-05-26T15:00:00Z",
         "public_end": "2026-08-01T04:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 34.56,
-        "max": 47.43,
+        "min": 0.0,
+        "max": 0.0,
         "currency": "USD",
         "type": "standard"
       }
@@ -1113,29 +1113,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 42,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 4,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "Z7r9jZ1A70toe",
@@ -1511,29 +1489,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 43,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af0obS",
