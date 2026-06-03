@@ -1,6 +1,6 @@
 {
   "site": "TAO Nightclub Chicago",
-  "last_run": "2026-06-03T20:29:59.225894Z",
+  "last_run": "2026-06-03T22:39:06.827248Z",
   "count": 18,
   "events": [
     {
@@ -8,232 +8,56 @@
       "name": "Metro",
       "location": "TAO Nightclub Chicago",
       "date": "Mon, Jul 13, 2026",
-      "url": "https://taogroup.com/event/7-13-2026-metro-tao-nightclub/",
-      "score_data": {
-        "score": 39,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/7-13-2026-metro-tao-nightclub/"
     },
     {
       "slug": "229191",
       "name": "Jonas Blue",
       "location": "TAO Nightclub Chicago",
       "date": "Sat, Jul 11, 2026",
-      "url": "https://taogroup.com/event/7-11-2026-jonas-blue-tao-nightclub/",
-      "score_data": {
-        "score": 42,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/7-11-2026-jonas-blue-tao-nightclub/"
     },
     {
       "slug": "229185",
       "name": "Metro",
       "location": "TAO Nightclub Chicago",
       "date": "Sat, Jul 25, 2026",
-      "url": "https://taogroup.com/event/7-25-2026-metro-tao-nightclub/",
-      "score_data": {
-        "score": 42,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/7-25-2026-metro-tao-nightclub/"
     },
     {
       "slug": "229180",
       "name": "Capri",
       "location": "TAO Nightclub Chicago",
       "date": "Fri, Jul 24, 2026",
-      "url": "https://taogroup.com/event/7-24-2026-capri-tao-nightclub/",
-      "score_data": {
-        "score": 41,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/7-24-2026-capri-tao-nightclub/"
     },
     {
       "slug": "229173",
       "name": "Diox",
       "location": "TAO Nightclub Chicago",
       "date": "Fri, Jul 10, 2026",
-      "url": "https://taogroup.com/event/7-10-2026-diox-tao-nightclub/",
-      "score_data": {
-        "score": 41,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/7-10-2026-diox-tao-nightclub/"
     },
     {
       "slug": "229170",
       "name": "DJ Five",
       "location": "TAO Nightclub Chicago",
       "date": "Sat, Jul 4, 2026",
-      "url": "https://taogroup.com/event/7-4-2026-dj-five-tao-nightclub/",
-      "score_data": {
-        "score": 42,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/7-4-2026-dj-five-tao-nightclub/"
     },
     {
       "slug": "229168",
       "name": "ERock",
       "location": "TAO Nightclub Chicago",
       "date": "Fri, Jul 3, 2026",
-      "url": "https://taogroup.com/event/7-3-2026-erock-tao-nightclub/",
-      "score_data": {
-        "score": 41,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/7-3-2026-erock-tao-nightclub/"
     },
     {
       "slug": "229165",
       "name": "Pauly D",
       "location": "TAO Nightclub Chicago",
       "date": "Thu, Jul 2, 2026",
-      "url": "https://taogroup.com/event/7-2-2026-pauly-d-tao-nightclub/",
-      "score_data": {
-        "score": 39,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://taogroup.com/event/7-2-2026-pauly-d-tao-nightclub/"
     },
     {
       "slug": "228542",
