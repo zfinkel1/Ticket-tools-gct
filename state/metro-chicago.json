@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-02T22:34:59.154946Z",
-  "count": 57,
+  "last_run": "2026-06-03T05:27:07.999007Z",
+  "count": 56,
   "events": [
-    {
-      "slug": "kevin-morby",
-      "name": "Kevin Morby",
-      "location": "",
-      "date": "Tue, Jun 02",
-      "url": "https://metrochicago.com/event/kevin-morby/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "terror",
       "name": "Terror",

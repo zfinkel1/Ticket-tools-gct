@@ -1,21 +1,8 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-06-02T22:36:02.560129Z",
-  "count": 36,
+  "last_run": "2026-06-03T05:28:05.575663Z",
+  "count": 35,
   "events": [
-    {
-      "slug": "vv1A7ZkoVGkdQiytY",
-      "name": "Chicago Wolves vs. Colorado Eagles",
-      "location": "Allstate Arena, Rosemont",
-      "date": "Tue, Jun 2, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-wolves-vs-colorado-eagles-rosemont-illinois-06-02-2026/event/04006474DAB39A70",
-      "sales": {
-        "public_start": "2026-05-22T14:14:46Z",
-        "public_end": "2026-06-03T00:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1A7ZkoVGkdQmatU",
       "name": "Chicago Wolves vs. Colorado Eagles",
