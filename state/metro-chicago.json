@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-03T10:22:11.857425Z",
-  "count": 56,
+  "last_run": "2026-06-03T15:18:56.252699Z",
+  "count": 58,
   "events": [
     {
       "slug": "terror",
@@ -284,6 +284,35 @@
       "url": "https://metrochicago.com/event/cabaret-voltaire-2/metro-chicago/chicago-illinois/"
     },
     {
+      "slug": "upsammy-valentina-magaletti",
+      "name": "upsammy &#038; Valentina Magaletti",
+      "location": "",
+      "date": "Wed, Sep 16",
+      "url": "https://metrochicago.com/event/upsammy-valentina-magaletti/sleeping-village/chicago--illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "culture-wars",
       "name": "Culture Wars",
       "location": "",
@@ -387,6 +416,35 @@
       "location": "",
       "date": "Wed, Nov 11",
       "url": "https://metrochicago.com/event/strawberry-guy/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "the-afghan-whigs",
+      "name": "The Afghan Whigs",
+      "location": "",
+      "date": "Sat, Nov 14",
+      "url": "https://metrochicago.com/event/the-afghan-whigs/metro-chicago/chicago-illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "adult-a-place-to-bury-strangers",
