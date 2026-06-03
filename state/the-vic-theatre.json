@@ -1,21 +1,8 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-06-03T15:18:32.059439Z",
+  "last_run": "2026-06-03T22:07:59.198323Z",
   "count": 48,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7xd7J",
-      "name": "Crime Unfiltered",
-      "location": "Vic Theatre, Chicago",
-      "date": "Sat, Jun 6, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xd7J",
-      "sales": {
-        "public_start": "1900-01-01T18:00:00Z",
-        "public_end": "2026-06-07T00:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "Z7r9jZ1A7-AA9",
       "name": "Justin Willman",
@@ -379,6 +366,41 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A7Pk_e",
+      "name": "Robby Hoffman",
+      "location": "Vic Theatre, Chicago",
+      "date": "Fri, Oct 9, 2026 · 9:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pk_e",
+      "sales": {
+        "public_start": "1900-01-01T18:00:00Z",
+        "public_end": "2026-10-10T02:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "Z7r9jZ1A70sGd",

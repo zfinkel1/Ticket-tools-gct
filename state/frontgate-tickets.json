@@ -1,7 +1,7 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-06-03T15:17:18.924381Z",
-  "count": 93,
+  "last_run": "2026-06-03T22:07:59.193190Z",
+  "count": 97,
   "events": [
     {
       "slug": "governors-ball",
@@ -641,6 +641,64 @@
       "url": "https://www.frontgatetickets.com/events/darker-waves"
     },
     {
+      "slug": "corona-capital",
+      "name": "Corona Capital",
+      "location": "Autódromo Hermanos Rodríguez",
+      "date": "November 20, 2026",
+      "url": "https://www.frontgatetickets.com/events/corona-capital",
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "edc-mexico",
+      "name": "EDC Mexico",
+      "location": "Autódromo Hermanos Rodríguez",
+      "date": "February 19, 2027",
+      "url": "https://www.frontgatetickets.com/events/edc-mexico",
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "forbidden-kingdom",
       "name": "Forbidden Kingdom",
       "location": "Orlando, FL",
@@ -653,6 +711,64 @@
       "location": "Las Vegas, NV",
       "date": "May 14, 2027",
       "url": "https://www.frontgatetickets.com/events/edc-las-vegas"
+    },
+    {
+      "slug": "patriotic-festival",
+      "name": "Patriotic Festival",
+      "location": "Virginia Beach, VA",
+      "date": "May 28, 2027",
+      "url": "https://www.frontgatetickets.com/events/patriotic-festival",
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "project-glow",
+      "name": "Project Glow",
+      "location": "Washington, DC",
+      "date": "June 5, 2027",
+      "url": "https://www.frontgatetickets.com/events/project-glow",
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

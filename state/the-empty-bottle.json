@@ -1,6 +1,6 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-03T15:18:33.641853Z",
+  "last_run": "2026-06-03T22:07:18.622762Z",
   "count": 97,
   "events": [
     {
@@ -59,18 +59,18 @@
     },
     {
       "slug": "rZ7HnEZ1Af0YqK",
-      "name": "Strapped featuring Barbie Slick / D'Cameron May / Sunny Haelstorm",
+      "name": "*SOLD OUT* Strapped featuring Barbie Slick / D'Cameron May / Sunny Haelstorm",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jun 5, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/strapped-featuring-barbie-slick-empty-bottle-tickets/14930753",
+      "url": "https://www.ticketweb.com/event/sold-out-strapped-featuring-barbie-empty-bottle-tickets/14930753",
       "sales": {
         "public_start": "2026-05-18T15:30:00Z",
         "public_end": "2026-06-06T03:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 14.11,
-        "max": 14.11,
+        "min": 0.0,
+        "max": 0.0,
         "currency": "USD",
         "type": "standard"
       }
@@ -275,10 +275,10 @@
     },
     {
       "slug": "rZ7HnEZ1Af0YfN",
-      "name": "Memory Card / The Philadelphia Eagles / imy3 / Cambodian SIM Card",
+      "name": "Memory Card / imy3 / The Philadelphia Eagles / Cambodian SIM Card",
       "location": "Empty Bottle, Chicago",
       "date": "Wed, Jun 17, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/memory-card-the-philadelphia-empty-bottle-tickets/14930523",
+      "url": "https://www.ticketweb.com/event/memory-card-imy3-empty-bottle-tickets/14930523",
       "sales": {
         "public_start": "2026-05-20T15:00:00Z",
         "public_end": "2026-06-18T02:00:00Z",
@@ -1173,7 +1173,7 @@
     },
     {
       "slug": "rZ7HnEZ1Af0OoS",
-      "name": "Frankie Cosmos Celebrates 10 years of 'Next Thing' (Avrom Farm Afterparty)",
+      "name": "Frankie Cosmos Celebrates 10 years of 'Next Thing' / Grace Bloom (Avrom Farm Afterparty)",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Aug 23, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/frankie-cosmos-celebrates-10-years-empty-bottle-tickets/14920473",
@@ -1515,7 +1515,7 @@
     },
     {
       "slug": "rZ7HnEZ1Af0gQd",
-      "name": "Desire / Johnny Jewel",
+      "name": "Desire / Johnny Jewel / Mothermary",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, Nov 5, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/desire-johnny-jewel-empty-bottle-tickets/14935683",
