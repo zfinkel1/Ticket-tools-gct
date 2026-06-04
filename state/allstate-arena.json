@@ -1,6 +1,6 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-06-04T16:00:41.456087Z",
+  "last_run": "2026-06-04T18:27:03.843059Z",
   "count": 35,
   "events": [
     {
@@ -1034,62 +1034,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "Zach Top: Cold Beer & Country Music",
-        "name": "Zach Top: Cold Beer & Country Music Tour 2026",
-        "popularity": 64,
-        "followers": 339008,
-        "city_streams": null,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": -2,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "3ev avg +7% margin, 33% profitable",
-          "why": "Skip — mixed history (3ev avg +7% margin, 33% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 3,
-        "avg_margin": 7.1,
-        "profitable_pct": 33.3,
-        "avg_sell_price": 135.62,
-        "avg_cost_price": 143.43,
-        "display_name": "Zach Top"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "paycom center",
-          "tickets": 154,
-          "margin": -4.2
-        },
-        {
-          "venue": "cooks garage",
-          "tickets": 80,
-          "margin": -6.5
-        },
-        {
-          "venue": "red rocks amphitheatre",
-          "tickets": 4,
-          "margin": 34.0
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv178Z_kGkTlVyFY",
