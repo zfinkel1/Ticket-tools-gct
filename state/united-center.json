@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-06-04T18:27:09.988490Z",
+  "last_run": "2026-06-04T20:34:40.979932Z",
   "count": 71,
   "events": [
     {
@@ -117,86 +117,7 @@
         "public_end": "2026-06-19T22:30:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 46,
-        "rec": "watch",
-        "components": {
-          "history": 11,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "6ev avg +18% margin, 67% profitable",
-          "why": "Worth watching — decent history (6ev avg +18% margin, 67% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 6,
-        "avg_margin": 18.4,
-        "profitable_pct": 66.7,
-        "avg_sell_price": 222.48,
-        "avg_cost_price": 174.64,
-        "display_name": "Dave Chappelle"
-      },
-      "gct_venue_history": {
-        "200-level": {
-          "avg_sell": 230.71,
-          "avg_cost": 121.65,
-          "avg_margin": 89.7,
-          "buy_under": 200.62,
-          "count": 178
-        },
-        "100-level": {
-          "avg_sell": 291.93,
-          "avg_cost": 265.86,
-          "avg_margin": 9.8,
-          "buy_under": 253.85,
-          "count": 70
-        },
-        "floor": {
-          "avg_sell": 336.17,
-          "avg_cost": 306.15,
-          "avg_margin": 9.8,
-          "buy_under": 292.32,
-          "count": 130
-        },
-        "300-level": {
-          "avg_sell": 76.14,
-          "avg_cost": 62.08,
-          "avg_margin": 22.6,
-          "buy_under": 66.21,
-          "count": 24
-        }
-      },
-      "gct_artist_venues": [
-        {
-          "venue": "united center",
-          "tickets": 402,
-          "margin": 45.9
-        },
-        {
-          "venue": "value city arena at the schottenstein center",
-          "tickets": 141,
-          "margin": -21.3
-        },
-        {
-          "venue": "radio city music hall",
-          "tickets": 64,
-          "margin": 51.3
-        },
-        {
-          "venue": "hard rock live at the seminole hard rock hotel & casino - hollywood",
-          "tickets": 7,
-          "margin": -29.0
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv178ZbUGkMZvbum",
