@@ -1,37 +1,8 @@
 {
   "site": "United Center",
-  "last_run": "2026-06-04T00:02:45.968521Z",
-  "count": 71,
+  "last_run": "2026-06-04T05:06:47.574427Z",
+  "count": 70,
   "events": [
-    {
-      "slug": "vv178ZbzGkngBIF5",
-      "name": "Megan Moroney: The Cloud 9 Tour",
-      "location": "United Center, Chicago",
-      "date": "Wed, Jun 3, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/megan-moroney-the-cloud-9-tour-chicago-illinois-06-03-2026/event/0400638AB5EA820B",
-      "sales": {
-        "public_start": "2025-12-12T16:00:00Z",
-        "public_end": "2026-06-04T00:00:00Z",
-        "presales": [
-          {
-            "name": "Artist Presale",
-            "start": "2025-12-11T21:30:00Z",
-            "end": "2025-12-12T04:00:00Z"
-          },
-          {
-            "name": "VIP Package Presale",
-            "start": "2025-12-11T21:30:00Z",
-            "end": "2025-12-12T04:00:00Z"
-          },
-          {
-            "name": "VIP Package Onsale",
-            "start": "2025-12-12T16:00:00Z",
-            "end": "2026-05-23T22:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv178Z_dGkSaynE7",
       "name": "Don Toliver: Octane Tour",

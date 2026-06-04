@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-06-04T00:02:40.284844Z",
+  "last_run": "2026-06-04T05:07:00.674685Z",
   "count": 20,
   "events": [
-    {
-      "slug": "192318",
-      "name": "Lost on the South Side: Happy Lobster",
-      "location": "Off Hours Beer Garden",
-      "date": "Wed, Jun 3 at 5:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/lost-on-the-south-side-happy-lobster-192318",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "184154",
       "name": "Chicago Blues Festival",
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "192396",
+      "name": "WORLD CUP 26 - MEXICO VS SOUTH AFRICA",
+      "location": "Reserv",
+      "date": "Thu, Jun 11 at 12:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-africa-192396",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

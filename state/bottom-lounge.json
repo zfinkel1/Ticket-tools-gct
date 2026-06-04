@@ -1,26 +1,8 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-06-04T00:02:44.295614Z",
-  "count": 42,
+  "last_run": "2026-06-04T05:06:45.647793Z",
+  "count": 41,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Afe9af",
-      "name": "Citizen Soldier: Secret Songs Tour II",
-      "location": "Bottom Lounge, Chicago",
-      "date": "Wed, Jun 3, 2026 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/citizen-soldier-secret-songs-tour-bottom-lounge-tickets/14097254",
-      "sales": {
-        "public_start": "2026-01-23T16:00:00Z",
-        "public_end": "2026-06-04T00:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 37.54,
-        "max": 37.54,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfC8xK",
       "name": "Kings Kaleidoscope – Credo Spirit Tour",
