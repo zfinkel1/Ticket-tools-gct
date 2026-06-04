@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-04T12:20:45.705226Z",
-  "count": 96,
+  "last_run": "2026-06-04T16:00:41.453653Z",
+  "count": 98,
   "events": [
     {
       "slug": "rZ7HnEZ1AfOvON",
@@ -524,6 +524,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPtqS",
+      "name": "Otherworldly Ambiguity w/ Club Drippy / Bone Study / Shanti / Scum.ee",
+      "location": "Empty Bottle, Chicago",
+      "date": "Tue, Jul 7, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/otherworldly-ambiguity-w-club-drippy-empty-bottle-tickets/14969773",
+      "sales": {
+        "public_start": "2026-06-04T15:00:00Z",
+        "public_end": "2026-07-08T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 34,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af0YfS",
@@ -1314,6 +1354,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfP3jK",
+      "name": "FREE MONDAY w/ Hélène Barbier",
+      "location": "Empty Bottle, Chicago",
+      "date": "Mon, Sep 21, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/free-monday-w-hlne-barbier-empty-bottle-tickets/14952713",
+      "sales": {
+        "public_start": "2026-06-04T15:00:00Z",
+        "public_end": "2026-09-22T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af0UON",

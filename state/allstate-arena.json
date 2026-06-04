@@ -1,7 +1,7 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-06-04T12:20:47.066957Z",
-  "count": 34,
+  "last_run": "2026-06-04T16:00:41.456087Z",
+  "count": 35,
   "events": [
     {
       "slug": "vv1A7ZkC7GkeOFpq-",
@@ -1006,6 +1006,90 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_1XRAjum",
+      "name": "Zach Top: Cold Beer & Country Music Tour 2026",
+      "location": "Allstate Arena, Rosemont",
+      "date": "Fri, Oct 9, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/zach-top-cold-beer-country-music-rosemont-illinois-10-09-2026/event/040064AFAF15C36E",
+      "sales": {
+        "public_start": "2026-06-12T15:00:00Z",
+        "public_end": "2026-10-10T02:00:00Z",
+        "presales": [
+          {
+            "name": "KIMES Presale",
+            "start": "2026-06-11T15:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          },
+          {
+            "name": "Promoter/ Radio/ Venue Presales",
+            "start": "2026-06-11T15:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-10T15:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Zach Top: Cold Beer & Country Music",
+        "name": "Zach Top: Cold Beer & Country Music Tour 2026",
+        "popularity": 64,
+        "followers": 339008,
+        "city_streams": null,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": -2,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "3ev avg +7% margin, 33% profitable",
+          "why": "Skip — mixed history (3ev avg +7% margin, 33% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 3,
+        "avg_margin": 7.1,
+        "profitable_pct": 33.3,
+        "avg_sell_price": 135.62,
+        "avg_cost_price": 143.43,
+        "display_name": "Zach Top"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "paycom center",
+          "tickets": 154,
+          "margin": -4.2
+        },
+        {
+          "venue": "cooks garage",
+          "tickets": 80,
+          "margin": -6.5
+        },
+        {
+          "venue": "red rocks amphitheatre",
+          "tickets": 4,
+          "margin": 34.0
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178Z_kGkTlVyFY",
