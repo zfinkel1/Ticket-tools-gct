@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-04T20:34:35.522423Z",
+  "last_run": "2026-06-04T22:13:13.644973Z",
   "count": 96,
   "events": [
     {
@@ -1439,7 +1439,7 @@
     },
     {
       "slug": "rZ7HnEZ1Afxfqd",
-      "name": "Death From Above 1979 - Private Lives Tour",
+      "name": "Death From Above 1979 - Private Lives Tour with Wine Lips",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Nov 8, 2026 · 7:30 PM",
       "url": "https://www.ticketweb.com/event/death-from-above-1979-thalia-hall-tickets/14894743",
@@ -1449,8 +1449,8 @@
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 49.0,
+        "max": 66.63,
         "currency": "USD",
         "type": "standard"
       }

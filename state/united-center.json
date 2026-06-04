@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-06-04T20:34:40.979932Z",
+  "last_run": "2026-06-04T22:13:17.243792Z",
   "count": 71,
   "events": [
     {
@@ -2060,6 +2060,11 @@
             "name": "VIP Package Onsale",
             "start": "2026-03-27T15:00:00Z",
             "end": "2026-10-09T22:00:00Z"
+          },
+          {
+            "name": "Fandango Offer",
+            "start": "2026-06-10T15:00:00Z",
+            "end": "2026-06-25T03:00:00Z"
           }
         ]
       },
