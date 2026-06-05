@@ -1,6 +1,6 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-05T16:21:18.051325Z",
+  "last_run": "2026-06-05T18:23:29.589572Z",
   "count": 101,
   "events": [
     {
@@ -793,29 +793,7 @@
         "max": 16.17,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 32,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 2,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZEqf",
@@ -1083,29 +1061,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af-p3d",
@@ -1267,29 +1223,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfZIZ7",
@@ -1379,29 +1313,7 @@
         "max": 23.48,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfxaJd",
