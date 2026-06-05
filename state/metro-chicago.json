@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-05T01:53:56.564027Z",
-  "count": 58,
+  "last_run": "2026-06-05T06:25:37.835193Z",
+  "count": 57,
   "events": [
-    {
-      "slug": "terror",
-      "name": "Terror",
-      "location": "",
-      "date": "Thu, Jun 04",
-      "url": "https://metrochicago.com/event/terror/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "nocturna-38th-anniversary",
       "name": "Nocturna: 38th Anniversary",

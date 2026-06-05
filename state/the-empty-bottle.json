@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-05T01:54:53.832557Z",
-  "count": 98,
+  "last_run": "2026-06-05T06:26:27.554029Z",
+  "count": 97,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfOvON",
-      "name": "TsuShiMaMiRe / Crisis Actress / Bog Power",
-      "location": "Empty Bottle, Chicago",
-      "date": "Thu, Jun 4, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/tsushimamire-crisis-actress-empty-bottle-tickets/14801823",
-      "sales": {
-        "public_start": "2026-03-23T16:00:00Z",
-        "public_end": "2026-06-05T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 20.39,
-        "max": 20.39,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfZE00",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",

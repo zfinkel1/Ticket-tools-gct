@@ -1,67 +1,8 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-06-05T01:54:56.457158Z",
-  "count": 35,
+  "last_run": "2026-06-05T06:26:28.742739Z",
+  "count": 34,
   "events": [
-    {
-      "slug": "vv1A7ZkC7GkeOFpq-",
-      "name": "Forrest Frank: The Jesus Generation Tour",
-      "location": "Allstate Arena, Rosemont",
-      "date": "Thu, Jun 4, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/forrest-frank-the-jesus-generation-tour-rosemont-illinois-06-04-2026/event/04006384A0216761",
-      "sales": {
-        "public_start": "2025-12-12T16:00:00Z",
-        "public_end": "2026-06-05T01:45:00Z",
-        "presales": [
-          {
-            "name": "Artist Presale",
-            "start": "2025-12-10T16:00:00Z",
-            "end": "2025-12-12T04:00:00Z"
-          },
-          {
-            "name": "Partner/ Venue Presale",
-            "start": "2025-12-11T16:00:00Z",
-            "end": "2025-12-12T04:00:00Z"
-          },
-          {
-            "name": "VIP Packages Presale",
-            "start": "2025-12-10T16:00:00Z",
-            "end": "2025-12-12T04:00:00Z"
-          },
-          {
-            "name": "Local Church Presale",
-            "start": "2025-12-11T16:00:00Z",
-            "end": "2025-12-12T04:00:00Z"
-          },
-          {
-            "name": "TPR Promoter Presale",
-            "start": "2025-12-11T16:00:00Z",
-            "end": "2025-12-12T04:00:00Z"
-          },
-          {
-            "name": "VIP Packages On Sale",
-            "start": "2025-12-12T16:00:00Z",
-            "end": "2026-05-31T03:00:00Z"
-          },
-          {
-            "name": "Preferred Seating Package Presale",
-            "start": "2025-12-10T16:00:00Z",
-            "end": "2025-12-12T04:00:00Z"
-          },
-          {
-            "name": "Preferred Seating Package",
-            "start": "2025-12-12T16:00:00Z",
-            "end": "2026-06-05T01:00:00Z"
-          },
-          {
-            "name": "Seat Release Offer",
-            "start": "2026-05-29T15:00:00Z",
-            "end": "2026-05-30T15:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1A7ZkoVGkdQRtty",
       "name": "Chicago Wolves vs. Colorado Eagles",
