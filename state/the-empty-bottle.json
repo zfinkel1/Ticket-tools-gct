@@ -1,14 +1,14 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-05T18:23:29.589572Z",
-  "count": 101,
+  "last_run": "2026-06-05T20:28:09.359206Z",
+  "count": 102,
   "events": [
     {
       "slug": "rZ7HnEZ1AfZE00",
-      "name": "Hard Country Honky Tonk with The Hoyle Brothers",
+      "name": "Hoyles XL: Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jun 5, 2026 · 5:30 PM",
-      "url": "https://www.ticketweb.com/event/hard-country-honky-tonk-with-empty-bottle-tickets/14027924",
+      "url": "https://www.ticketweb.com/event/hoyles-xl-hard-country-honky-empty-bottle-tickets/14027924",
       "sales": {
         "public_start": "2025-12-29T06:00:00Z",
         "public_end": "2026-06-06T00:30:00Z",
@@ -23,18 +23,18 @@
     },
     {
       "slug": "rZ7HnEZ1Af0YqK",
-      "name": "Strapped featuring Barbie Slick / D'Cameron May / Sunny Haelstorm",
+      "name": "*SOLD OUT* Strapped featuring Barbie Slick / D'Cameron May / Sunny Haelstorm",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jun 5, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/strapped-featuring-barbie-slick-empty-bottle-tickets/14930753",
+      "url": "https://www.ticketweb.com/event/sold-out-strapped-featuring-barbie-empty-bottle-tickets/14930753",
       "sales": {
         "public_start": "2026-06-05T17:00:00Z",
         "public_end": "2026-06-06T03:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 20.39,
-        "max": 20.39,
+        "min": 0.0,
+        "max": 0.0,
         "currency": "USD",
         "type": "standard"
       }
@@ -218,6 +218,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPMrK",
+      "name": "'Tini Tuesday",
+      "location": "Empty Bottle, Chicago",
+      "date": "Tue, Jun 16, 2026 · 5:00 PM",
+      "url": "https://www.ticketweb.com/event/tini-tuesday-empty-bottle-tickets/14977793",
+      "sales": {
+        "public_start": "2026-06-05T05:00:00Z",
+        "public_end": "2026-06-17T00:30:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 34,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfqZ_d",
