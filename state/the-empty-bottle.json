@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-05T13:44:16.655545Z",
-  "count": 97,
+  "last_run": "2026-06-05T16:21:18.051325Z",
+  "count": 101,
   "events": [
     {
       "slug": "rZ7HnEZ1AfZE00",
@@ -23,18 +23,18 @@
     },
     {
       "slug": "rZ7HnEZ1Af0YqK",
-      "name": "*SOLD OUT* Strapped featuring Barbie Slick / D'Cameron May / Sunny Haelstorm",
+      "name": "Strapped featuring Barbie Slick / D'Cameron May / Sunny Haelstorm",
       "location": "Empty Bottle, Chicago",
       "date": "Fri, Jun 5, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-strapped-featuring-barbie-empty-bottle-tickets/14930753",
+      "url": "https://www.ticketweb.com/event/strapped-featuring-barbie-slick-empty-bottle-tickets/14930753",
       "sales": {
-        "public_start": "2026-05-18T15:30:00Z",
+        "public_start": "2026-06-05T17:00:00Z",
         "public_end": "2026-06-06T03:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 20.39,
+        "max": 20.39,
         "currency": "USD",
         "type": "standard"
       }
@@ -778,6 +778,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfPYGS",
+      "name": "Zorn / Man-Eaters / Lost Legion / False Negative",
+      "location": "Empty Bottle, Chicago",
+      "date": "Wed, Jul 22, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/zorn-man-eaters-empty-bottle-tickets/14970333",
+      "sales": {
+        "public_start": "2026-06-05T15:00:00Z",
+        "public_end": "2026-07-23T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1AfZEqf",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
@@ -1028,6 +1068,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfPY3d",
+      "name": "FREE MONDAY w/ Goose Harrington / World Energy Corporation / Hungu",
+      "location": "Empty Bottle, Chicago",
+      "date": "Mon, Aug 10, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/free-monday-w-goose-harrington-empty-bottle-tickets/14970483",
+      "sales": {
+        "public_start": "2026-06-05T15:00:00Z",
+        "public_end": "2026-08-11T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1Af-p3d",
       "name": "Oneida / Kinski / BCMC",
       "location": "Empty Bottle, Chicago",
@@ -1172,6 +1252,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfPY0d",
+      "name": "Nothing-Assumed Presents: FREE MONDAY w/ Wild Thyme",
+      "location": "Empty Bottle, Chicago",
+      "date": "Mon, Aug 24, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/nothing-assumed-presents-free-monday-empty-bottle-tickets/14970903",
+      "sales": {
+        "public_start": "2026-06-05T15:00:00Z",
+        "public_end": "2026-08-25T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1AfZIZ7",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
@@ -1242,6 +1362,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPYFK",
+      "name": "Radium Dolls",
+      "location": "Empty Bottle, Chicago",
+      "date": "Sat, Sep 12, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/radium-dolls-empty-bottle-tickets/14970213",
+      "sales": {
+        "public_start": "2026-06-05T15:00:00Z",
+        "public_end": "2026-09-13T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 23.48,
+        "max": 23.48,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfxaJd",
