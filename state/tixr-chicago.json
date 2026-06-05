@@ -1,32 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-06-05T06:26:46.738569Z",
+  "last_run": "2026-06-05T10:34:16.712764Z",
   "count": 20,
   "events": [
-    {
-      "slug": "192722",
-      "name": "GASOLINA THURSDAYS (21+)",
-      "location": "Gold Coast Social",
-      "date": "Thu, Jun 4 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/gasolina-thursdays-21--192722",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "192296",
-      "name": "RINOVRSE | Rino Bar",
-      "location": "RiNo Bar",
-      "date": "Thu, Jun 4 at 11:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/rinovrse-rino-bar-192296",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "192034",
       "name": "Michael Damani",
@@ -229,6 +205,30 @@
         "public_start": null,
         "public_end": null,
         "presales": []
+      }
+    },
+    {
+      "slug": "192803",
+      "name": "GASOLINA THURSDAYS (21+)",
+      "location": "Gold Coast Social",
+      "date": "Thu, Jun 11 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/gasolina-thursdays-21--192803",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "192298",
+      "name": "RINOVRSE | Rino Bar",
+      "location": "RiNo Bar",
+      "date": "Thu, Jun 11 at 11:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/rinovrse-rino-bar-192298",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
       },
       "score_data": {
         "score": 30,
@@ -254,11 +254,11 @@
       "current_listing": null
     },
     {
-      "slug": "192803",
-      "name": "GASOLINA THURSDAYS (21+)",
-      "location": "Gold Coast Social",
-      "date": "Thu, Jun 11 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/gasolina-thursdays-21--192803",
+      "slug": "180584",
+      "name": "Sonny Acres Rodeo June 12, 2026",
+      "location": "Sonny Acres Farm",
+      "date": "Fri, Jun 12 at 6:30 PM CDT",
+      "url": "https://www.tixr.com/groups/sonnyacresfarm/events/sonny-acres-rodeo-june-12-2026-180584",
       "sales": {
         "public_start": null,
         "public_end": null,
