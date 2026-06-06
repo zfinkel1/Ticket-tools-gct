@@ -1,21 +1,8 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-06-06T01:30:00.963011Z",
-  "count": 34,
+  "last_run": "2026-06-06T05:35:55.819527Z",
+  "count": 33,
   "events": [
-    {
-      "slug": "vv1A7ZkoVGkdQRtty",
-      "name": "Chicago Wolves vs. Colorado Eagles",
-      "location": "Allstate Arena, Rosemont",
-      "date": "Fri, Jun 5, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-wolves-vs-colorado-eagles-rosemont-illinois-06-05-2026/event/04006474DABE9A79",
-      "sales": {
-        "public_start": "2026-05-22T14:14:57Z",
-        "public_end": "2026-06-06T00:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "vv178ZbsGksjfYcJ",
       "name": "Nate Bargatze: Big Dumb Eyes World Tour",

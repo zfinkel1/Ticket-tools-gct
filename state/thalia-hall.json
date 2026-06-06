@@ -1,26 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-06T01:29:55.565727Z",
-  "count": 96,
+  "last_run": "2026-06-06T05:35:49.216973Z",
+  "count": 95,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfZIA0",
-      "name": "Cabeza De Chivo 'In the Round' with Vatos Tristes and Eva Maria (DJ Set)",
-      "location": "Thalia Hall, Chicago",
-      "date": "Fri, Jun 5, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/cabeza-de-chivo-in-the-thalia-hall-tickets/14028164",
-      "sales": {
-        "public_start": "2026-03-12T17:00:00Z",
-        "public_end": "2026-06-06T01:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af-ArK",
       "name": "*SOLD OUT* Earlybirds Club",
