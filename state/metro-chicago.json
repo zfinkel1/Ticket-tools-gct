@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-07T08:30:28.914508Z",
-  "count": 57,
+  "last_run": "2026-06-07T10:54:21.686906Z",
+  "count": 56,
   "events": [
-    {
-      "slug": "nocturna-38th-anniversary",
-      "name": "Nocturna: 38th Anniversary",
-      "location": "",
-      "date": "Sat, Jun 06",
-      "url": "https://metrochicago.com/event/nocturna-38th-anniversary/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "jane-remover",
       "name": "Jane Remover",

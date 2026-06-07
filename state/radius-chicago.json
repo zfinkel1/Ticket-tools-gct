@@ -1,22 +1,8 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-06-07T08:31:27.700001Z",
+  "last_run": "2026-06-07T10:55:42.557997Z",
   "count": 10,
   "events": [
-    {
-      "slug": "1444037",
-      "name": "ALL OF US & BEYOND: A PRIDE AFTER HOURS Loud Luxury Karsten Sollors, Dom Brown",
-      "location": "",
-      "date": "Jun 6, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1444037"
-    },
-    {
-      "slug": "1447623",
-      "name": "BEYOND WONDERLAND AFTERPARTY Layton Giordani DAME / CTRL",
-      "location": "",
-      "date": "Jun 6, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1447623"
-    },
     {
       "slug": "1447618",
       "name": "BEYOND WONDERLAND AFTERPARTY Tiësto XONIC, STVN LEON",
@@ -72,6 +58,64 @@
       "location": "",
       "date": "Jul 23, 2026",
       "url": "https://www.radius-chicago.com/events/detail/1405850"
+    },
+    {
+      "slug": "1460692",
+      "name": "OFFICIAL LOLLAPALOOZA AFTERSHOW Boris Brejcha",
+      "location": "",
+      "date": "Jul 29, 2026",
+      "url": "https://www.radius-chicago.com/events/detail/1460692",
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "1462593",
+      "name": "OFFICIAL LOLLAPALOOZA & BOOST+++ AFTERSHOW 1tbsp, David Löhlein, DJ Planet Express, Hotpretty",
+      "location": "",
+      "date": "Jul 30, 2026",
+      "url": "https://www.radius-chicago.com/events/detail/1462593",
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
