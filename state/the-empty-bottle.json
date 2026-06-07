@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-07T05:08:23.880895Z",
-  "count": 100,
+  "last_run": "2026-06-07T08:31:28.783563Z",
+  "count": 99,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfOPGS",
-      "name": "Forever Deaf Fest and Empty Bottle Present: Vow (Record Release) / Warforged / Barren Heir",
-      "location": "Empty Bottle, Chicago",
-      "date": "Sat, Jun 6, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/forever-deaf-fest-and-empty-empty-bottle-tickets/14825333",
-      "sales": {
-        "public_start": "2026-04-01T15:00:00Z",
-        "public_end": "2026-06-07T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 20.39,
-        "max": 20.39,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfO4uS",
       "name": "Nothing-Assumed feat. Sports Boyfriend (Album Release) / Living Thing / Airport 77",
