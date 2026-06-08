@@ -1,6 +1,6 @@
 {
   "site": "Byline Bank Aragon Ballroom",
-  "last_run": "2026-06-08T19:43:30.207561Z",
+  "last_run": "2026-06-08T21:29:00.101867Z",
   "count": 28,
   "events": [
     {
@@ -1050,29 +1050,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vvG18Z_541e6wt",

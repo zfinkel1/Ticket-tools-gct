@@ -1,6 +1,6 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-06-08T19:43:30.205978Z",
+  "last_run": "2026-06-08T21:28:00.730445Z",
   "count": 94,
   "events": [
     {
@@ -624,29 +624,7 @@
       "name": "Coca-Cola Flow fest",
       "location": "Autódromo Hermanos Rodríguez",
       "date": "November 28, 2026",
-      "url": "https://www.frontgatetickets.com/events/coca-cola-flow-fest",
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.frontgatetickets.com/events/coca-cola-flow-fest"
     },
     {
       "slug": "edc-mexico",

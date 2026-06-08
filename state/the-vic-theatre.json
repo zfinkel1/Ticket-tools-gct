@@ -1,6 +1,6 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-06-08T19:43:30.213760Z",
+  "last_run": "2026-06-08T21:29:03.049748Z",
   "count": 53,
   "events": [
     {
@@ -690,29 +690,7 @@
         "public_end": "2027-01-24T01:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 44,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     }
   ]
 }

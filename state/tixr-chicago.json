@@ -1,8 +1,42 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-06-08T19:43:30.207086Z",
+  "last_run": "2026-06-08T21:29:08.389453Z",
   "count": 20,
   "events": [
+    {
+      "slug": "194121",
+      "name": "Lost on the South Side: Old Irving Brewing Co.",
+      "location": "Off Hours Beer Garden",
+      "date": "Wed, Jun 10 at 5:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/lost-on-the-south-side-old-irving-brewing-co--194121",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
     {
       "slug": "188657",
       "name": "Breaking Sound Chicago at Broken Shaker 06/10",
@@ -85,29 +119,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "192803",
@@ -131,29 +143,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "192298",
@@ -228,45 +218,23 @@
       }
     },
     {
+      "slug": "192301",
+      "name": "PR Fest Official After Party | Galeria",
+      "location": "Galeria Chicago",
+      "date": "Fri, Jun 12 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/pr-fest-official-after-party-galeria-192301",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
       "slug": "194100",
       "name": "PR Fest Official After Party | Gold Coast Social",
       "location": "Gold Coast Social",
       "date": "Fri, Jun 12 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/acro/events/pr-fest-official-after-party-gold-coast-social-194100",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      },
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
-    },
-    {
-      "slug": "192301",
-      "name": "Puerto Rican Fest After Party | Galeria",
-      "location": "Galeria Chicago",
-      "date": "Fri, Jun 12 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/puerto-rican-fest-after-party-galeria-192301",
       "sales": {
         "public_start": null,
         "public_end": null,
@@ -291,18 +259,6 @@
       "location": "Sonny Acres Farm",
       "date": "Sat, Jun 13 at 6:30 PM CDT",
       "url": "https://www.tixr.com/groups/sonnyacresfarm/events/sonny-acres-rodeo-june-13-2026-180587",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188535",
-      "name": "WORLD CUP 26 - BRAZIL VS MOROCCO",
-      "location": "Reserv",
-      "date": "Sat, Jun 13 at 2:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-brazil-vs-morocco-188535",
       "sales": {
         "public_start": null,
         "public_end": null,

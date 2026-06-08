@@ -1,6 +1,6 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-06-08T19:43:30.213217Z",
+  "last_run": "2026-06-08T21:29:01.954186Z",
   "count": 21,
   "events": [
     {
@@ -264,29 +264,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 40,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 2,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "Z7r9jZ1A707JF",
