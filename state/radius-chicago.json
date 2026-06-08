@@ -1,6 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-06-08T14:15:17.763934Z",
+  "last_run": "2026-06-08T19:42:38.071895Z",
   "count": 10,
   "events": [
     {
@@ -71,29 +71,7 @@
       "name": "OFFICIAL LOLLAPALOOZA AFTERSHOW horsegiirL",
       "location": "",
       "date": "Jul 31, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1461500",
-      "score_data": {
-        "score": 35,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1461500"
     }
   ]
 }

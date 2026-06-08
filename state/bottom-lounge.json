@@ -1,7 +1,7 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-06-08T14:14:38.860670Z",
-  "count": 39,
+  "last_run": "2026-06-08T19:43:30.214594Z",
+  "count": 41,
   "events": [
     {
       "slug": "rZ7HnEZ1Af0Z1K",
@@ -506,6 +506,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfPV4d",
+      "name": "Sawyer Hill - Everybody’s Home, Nobody’s Happy World Tour",
+      "location": "Bottom Lounge, Chicago",
+      "date": "Fri, Oct 9, 2026 · 8:00 PM",
+      "url": "https://www.ticketweb.com/event/sawyer-hill-everybodys-bottom-lounge-tickets/14974543",
+      "sales": {
+        "public_start": "2026-06-09T15:00:00Z",
+        "public_end": "2026-10-10T01:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 41,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1Af0_0d",
       "name": "Every Avenue x In Her Own Words - Perfectly Unfamiliar Tour",
       "location": "Bottom Lounge, Chicago",
@@ -679,6 +719,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPsCK",
+      "name": "Michael Smoak",
+      "location": "Bottom Lounge, Chicago",
+      "date": "Wed, Dec 16, 2026 · 7:00 PM",
+      "url": "https://www.ticketweb.com/event/michael-smoak-bottom-lounge-tickets/14971393",
+      "sales": {
+        "public_start": "2026-06-09T17:00:00Z",
+        "public_end": "2026-12-17T01:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 38,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

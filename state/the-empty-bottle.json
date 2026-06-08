@@ -1,6 +1,6 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-08T14:14:39.398882Z",
+  "last_run": "2026-06-08T19:42:39.694883Z",
   "count": 98,
   "events": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "slug": "rZ7HnEZ1Afx7vd",
-      "name": "Wendy Eisenberg and More Eaze",
+      "name": "Wendy Eisenberg and More Eaze / William Covert and Bruce Lamont",
       "location": "Empty Bottle, Chicago",
       "date": "Wed, Jun 10, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/wendy-eisenberg-and-more-eaze-empty-bottle-tickets/14884043",
@@ -97,11 +97,11 @@
       "slug": "rZ7HnEZ1Af7s3f",
       "name": "*SOLD OUT* Boys and Girls in America 20 - The Hold Steady",
       "location": "Empty Bottle, Chicago",
-      "date": "Fri, Jun 12, 2026 · 9:00 PM",
+      "date": "Fri, Jun 12, 2026 · 10:00 PM",
       "url": "https://www.ticketweb.com/event/sold-out-boys-and-girls-empty-bottle-tickets/14131494",
       "sales": {
         "public_start": "2026-02-10T16:00:00Z",
-        "public_end": "2026-06-13T02:00:00Z",
+        "public_end": "2026-06-13T03:00:00Z",
         "presales": []
       },
       "price_range": {

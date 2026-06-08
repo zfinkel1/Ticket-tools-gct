@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-06-08T14:15:17.764156Z",
+  "last_run": "2026-06-08T19:42:40.505163Z",
   "count": 73,
   "events": [
     {
@@ -1543,45 +1543,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 15,
-        "rec": "skip",
-        "components": {
-          "history": -20,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg -27% margin, 0% profitable",
-          "why": "Skip — weak history (1ev avg -27% margin, 0% profitable)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 1,
-        "avg_margin": -27.2,
-        "profitable_pct": 0.0,
-        "avg_sell_price": 74.09,
-        "avg_cost_price": 101.84,
-        "display_name": "Phoebe Bridgers"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "huntington bank pavilion at northerly island",
-          "tickets": 18,
-          "margin": -27.5
-        }
-      ],
-      "current_sold": {
-        "flare_event_id": 56773003,
-        "sh_id": null
-      },
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vvG18Z_G1RUi9l",

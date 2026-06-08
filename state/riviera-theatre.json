@@ -1,6 +1,6 @@
 {
   "site": "Riviera Theatre",
-  "last_run": "2026-06-08T14:14:35.634972Z",
+  "last_run": "2026-06-08T19:43:30.213217Z",
   "count": 21,
   "events": [
     {
@@ -12,19 +12,6 @@
       "sales": {
         "public_start": "1900-01-01T06:00:00Z",
         "public_end": "2026-06-20T00:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
-    {
-      "slug": "Z7r9jZ1A7xFFv",
-      "name": "French Montana & Max B - 17+",
-      "location": "Riviera Theatre- IL, Chicago",
-      "date": "Sun, Jun 21, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFFv",
-      "sales": {
-        "public_start": "1900-01-01T18:00:00Z",
-        "public_end": "2026-06-22T01:00:00Z",
         "presales": []
       },
       "price_range": null
@@ -254,6 +241,52 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_GjUK2YT",
+      "name": "ALVARO DIAZ - OMAKASE TOUR",
+      "location": "Riviera Theatre, Chicago",
+      "date": "Wed, Oct 14, 2026 · 8:00 PM",
+      "url": "https://www.axs.com/events/1479205/alvaro-diaz-tickets",
+      "sales": {
+        "public_start": "2026-06-11T15:00:00Z",
+        "public_end": "2026-10-15T01:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-09T15:00:00Z",
+            "end": "2026-06-11T03:00:00Z"
+          },
+          {
+            "name": "Live Nation Presale",
+            "start": "2026-06-10T15:00:00Z",
+            "end": "2026-06-11T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 40,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "Z7r9jZ1A707JF",

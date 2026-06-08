@@ -1,7 +1,7 @@
 {
   "site": "Byline Bank Aragon Ballroom",
-  "last_run": "2026-06-08T14:14:34.233630Z",
-  "count": 27,
+  "last_run": "2026-06-08T19:43:30.207561Z",
+  "count": 28,
   "events": [
     {
       "slug": "vv178Z_eGkS8QpU4",
@@ -1012,6 +1012,67 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_G2K6co6",
+      "name": "Dexter and The Moonrocks",
+      "location": "Aragon Ballroom, Chicago",
+      "date": "Sat, Nov 28, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/dexter-and-the-moonrocks-chicago-illinois-11-28-2026/event/040064C3D31ED447",
+      "sales": {
+        "public_start": "2026-06-12T15:00:00Z",
+        "public_end": "2026-11-29T02:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-06-09T15:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-06-12T15:00:00Z",
+            "end": "2026-11-14T04:00:00Z"
+          },
+          {
+            "name": "Fan Club Presale",
+            "start": "2026-06-09T15:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-10T15:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-11T15:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vvG18Z_541e6wt",

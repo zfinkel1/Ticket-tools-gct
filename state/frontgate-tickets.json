@@ -1,7 +1,7 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-06-08T14:12:47.622612Z",
-  "count": 93,
+  "last_run": "2026-06-08T19:43:30.205978Z",
+  "count": 94,
   "events": [
     {
       "slug": "bonnaroo",
@@ -618,6 +618,35 @@
       "location": "Autódromo Hermanos Rodríguez",
       "date": "November 20, 2026",
       "url": "https://www.frontgatetickets.com/events/corona-capital"
+    },
+    {
+      "slug": "coca-cola-flow-fest",
+      "name": "Coca-Cola Flow fest",
+      "location": "Autódromo Hermanos Rodríguez",
+      "date": "November 28, 2026",
+      "url": "https://www.frontgatetickets.com/events/coca-cola-flow-fest",
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "edc-mexico",

@@ -1,7 +1,7 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-08T14:15:17.762032Z",
-  "count": 95,
+  "last_run": "2026-06-08T19:43:30.211272Z",
+  "count": 96,
   "events": [
     {
       "slug": "rZ7HnEZ1AfjMjK",
@@ -499,18 +499,18 @@
     },
     {
       "slug": "rZ7HnEZ1Af0UbN",
-      "name": "Earlybirds Club",
+      "name": "*SOLD OUT* Earlybirds Club",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Jul 18, 2026 · 6:00 PM",
-      "url": "https://www.ticketweb.com/event/earlybirds-club-thalia-hall-tickets/14936623",
+      "url": "https://www.ticketweb.com/event/sold-out-earlybirds-club-thalia-hall-tickets/14936623",
       "sales": {
         "public_start": "2026-05-28T15:00:00Z",
         "public_end": "2026-07-18T23:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 39.96,
-        "max": 299.03,
+        "min": 0.0,
+        "max": 0.0,
         "currency": "USD",
         "type": "standard"
       }
@@ -880,8 +880,8 @@
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 29.89,
+        "max": 46.39,
         "currency": "USD",
         "type": "standard"
       }
@@ -1011,6 +1011,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Af0SAN",
+      "name": "Shoshana Bean",
+      "location": "Thalia Hall, Chicago",
+      "date": "Sun, Sep 20, 2026 · 7:30 PM",
+      "url": "https://www.ticketweb.com/event/shoshana-bean-thalia-hall-tickets/14933163",
+      "sales": {
+        "public_start": "2026-06-11T15:00:00Z",
+        "public_end": "2026-09-21T00:30:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af-9fS",
@@ -1435,29 +1475,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 42,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 4,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af0oqd",
