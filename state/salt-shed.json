@@ -1,21 +1,8 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-06-08T05:03:07.268550Z",
-  "count": 74,
+  "last_run": "2026-06-08T09:57:07.157353Z",
+  "count": 73,
   "events": [
-    {
-      "slug": "vv1k8Z_67aG7iGvX",
-      "name": "Bleachers Forever",
-      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
-      "date": "Sun, Jun 7, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/bleachers-forever-chicago-illinois-06-07-2026/event/0400647109B0C07E",
-      "sales": {
-        "public_start": "2026-03-20T15:00:00Z",
-        "public_end": "2026-06-08T02:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "vv178Z_7GkRGSzgZ",
       "name": "James Blake with Swavay- Trying Times Tour",

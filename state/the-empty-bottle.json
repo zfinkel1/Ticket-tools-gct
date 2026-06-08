@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-08T05:03:11.635696Z",
-  "count": 99,
+  "last_run": "2026-06-08T09:57:13.885236Z",
+  "count": 98,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfO4uS",
-      "name": "Nothing-Assumed feat. Sports Boyfriend (Album Release) / Living Thing / Airport 77",
-      "location": "Empty Bottle, Chicago",
-      "date": "Sun, Jun 7, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/nothing-assumed-feat-sports-boyfriend-empty-bottle-tickets/14815373",
-      "sales": {
-        "public_start": "2026-03-31T15:00:00Z",
-        "public_end": "2026-06-08T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 20.39,
-        "max": 20.39,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af-waK",
       "name": "FREE MONDAY w/ Prathloons (Album Release) / Hannah Frey / Able Baker",

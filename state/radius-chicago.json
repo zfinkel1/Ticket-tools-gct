@@ -1,6 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-06-08T05:03:09.945840Z",
+  "last_run": "2026-06-08T09:57:31.313068Z",
   "count": 10,
   "events": [
     {
@@ -9,13 +9,6 @@
       "location": "",
       "date": "Jun 7, 2026",
       "url": "https://www.radius-chicago.com/events/detail/1447618"
-    },
-    {
-      "slug": "1447626",
-      "name": "BEYOND WONDERLAND AFTERPARTY Excision Detox Set Tigue McKay, Ayjay",
-      "location": "",
-      "date": "Jun 7, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1447626"
     },
     {
       "slug": "1404527",
@@ -72,6 +65,35 @@
       "location": "",
       "date": "Jul 30, 2026",
       "url": "https://www.radius-chicago.com/events/detail/1462593"
+    },
+    {
+      "slug": "1459476",
+      "name": "OFFICIAL LOLLAPALOOZA AFTERSHOW DJ Trixie Mattel",
+      "location": "",
+      "date": "Jul 31, 2026",
+      "url": "https://www.radius-chicago.com/events/detail/1459476",
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
