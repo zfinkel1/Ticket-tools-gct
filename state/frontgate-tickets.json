@@ -1,22 +1,8 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-06-08T00:11:05.052461Z",
-  "count": 95,
+  "last_run": "2026-06-08T05:02:28.466271Z",
+  "count": 93,
   "events": [
-    {
-      "slug": "railbird-festival",
-      "name": "Railbird Festival",
-      "location": "Lexington, KY",
-      "date": "June 6, 2026",
-      "url": "https://www.frontgatetickets.com/events/railbird-festival"
-    },
-    {
-      "slug": "beyond-wonderland-chicago",
-      "name": "Beyond Wonderland Chicago",
-      "location": "Chicago, IL",
-      "date": "June 6, 2026",
-      "url": "https://www.frontgatetickets.com/events/beyond-wonderland-chicago"
-    },
     {
       "slug": "bonnaroo",
       "name": "Bonnaroo",
