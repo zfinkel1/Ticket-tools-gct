@@ -1,15 +1,8 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-06-08T09:57:31.313068Z",
+  "last_run": "2026-06-08T14:15:17.763934Z",
   "count": 10,
   "events": [
-    {
-      "slug": "1447618",
-      "name": "BEYOND WONDERLAND AFTERPARTY Tiësto XONIC, STVN LEON",
-      "location": "",
-      "date": "Jun 7, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1447618"
-    },
     {
       "slug": "1404527",
       "name": "Radius Open Air Cassian Adam Sellouk, Kamino, Tash",
@@ -71,7 +64,14 @@
       "name": "OFFICIAL LOLLAPALOOZA AFTERSHOW DJ Trixie Mattel",
       "location": "",
       "date": "Jul 31, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1459476",
+      "url": "https://www.radius-chicago.com/events/detail/1459476"
+    },
+    {
+      "slug": "1461500",
+      "name": "OFFICIAL LOLLAPALOOZA AFTERSHOW horsegiirL",
+      "location": "",
+      "date": "Jul 31, 2026",
+      "url": "https://www.radius-chicago.com/events/detail/1461500",
       "score_data": {
         "score": 35,
         "rec": "watch",

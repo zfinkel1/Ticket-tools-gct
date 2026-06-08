@@ -1,7 +1,7 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-06-08T09:57:08.896501Z",
-  "count": 62,
+  "last_run": "2026-06-08T14:15:17.759806Z",
+  "count": 63,
   "events": [
     {
       "slug": "vv178Z_7GkMBGifJ",
@@ -1503,6 +1503,62 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_GaoQlTZ",
+      "name": "EPIK HIGH 3.0 NORTH AMERICAN TOUR",
+      "location": "House of Blues Chicago",
+      "date": "Wed, Oct 7, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/epik-high-30-north-american-tour-chicago-illinois-10-07-2026/event/040064C2516ABFC0",
+      "sales": {
+        "public_start": "2026-06-12T16:00:00Z",
+        "public_end": "2026-10-07T23:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-06-11T16:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-06-12T16:00:00Z",
+            "end": "2026-09-09T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-10T16:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-11T16:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 38,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178Z_aGkM-Cz0K",
