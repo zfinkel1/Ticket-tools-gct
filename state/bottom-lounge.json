@@ -1,6 +1,6 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-06-09T19:17:31.669224Z",
+  "last_run": "2026-06-09T21:20:15.818644Z",
   "count": 44,
   "events": [
     {
@@ -127,29 +127,7 @@
         "max": 19.77,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 41,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfJv3K",
@@ -167,29 +145,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 42,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Afr_-d",

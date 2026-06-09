@@ -1,6 +1,6 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-09T19:17:31.668433Z",
+  "last_run": "2026-06-09T21:19:10.645330Z",
   "count": 60,
   "events": [
     {
@@ -225,29 +225,7 @@
       "name": "Hot Flash Dance!",
       "location": "",
       "date": "Sat, Aug 15",
-      "url": "https://metrochicago.com/event/hot-flash-dance/metro-chicago/chicago-illinois/",
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://metrochicago.com/event/hot-flash-dance/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "eagles-of-death-metal-death-by-sexy-20th-anniversary-tour",
@@ -289,29 +267,7 @@
       "name": "Avalon Emerson &#038; The Charm",
       "location": "",
       "date": "Tue, Sep 15",
-      "url": "https://metrochicago.com/event/avalon-emerson-the-charm/sleeping-village/chicago--illinois/",
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://metrochicago.com/event/avalon-emerson-the-charm/sleeping-village/chicago--illinois/"
     },
     {
       "slug": "cabaret-voltaire",
