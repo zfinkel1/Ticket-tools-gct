@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-09T16:52:01.124948Z",
-  "count": 58,
+  "last_run": "2026-06-09T19:17:31.668433Z",
+  "count": 60,
   "events": [
     {
       "slug": "jane-remover",
@@ -221,6 +221,35 @@
       "url": "https://metrochicago.com/event/second-hand-news-we-will-never-forget-tonight/metro-chicago/chicago-illinois/"
     },
     {
+      "slug": "hot-flash-dance",
+      "name": "Hot Flash Dance!",
+      "location": "",
+      "date": "Sat, Aug 15",
+      "url": "https://metrochicago.com/event/hot-flash-dance/metro-chicago/chicago-illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "eagles-of-death-metal-death-by-sexy-20th-anniversary-tour",
       "name": "Eagles of Death Metal: Death By Sexy 20th Anniversary Tour",
       "location": "",
@@ -254,6 +283,35 @@
       "location": "",
       "date": "Sat, Aug 29",
       "url": "https://metrochicago.com/event/peter-hook-the-light-north-american-tour-2026-2/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "avalon-emerson-the-charm",
+      "name": "Avalon Emerson &#038; The Charm",
+      "location": "",
+      "date": "Tue, Sep 15",
+      "url": "https://metrochicago.com/event/avalon-emerson-the-charm/sleeping-village/chicago--illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "cabaret-voltaire",
@@ -337,58 +395,14 @@
       "name": "Militarie Gun",
       "location": "",
       "date": "Thu, Oct 01",
-      "url": "https://metrochicago.com/event/militarie-gun/metro-chicago/chicago-illinois/",
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://metrochicago.com/event/militarie-gun/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "boy-harsher",
       "name": "Boy Harsher",
       "location": "",
       "date": "Fri, Oct 02",
-      "url": "https://metrochicago.com/event/boy-harsher/metro-chicago/chicago-illinois/",
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://metrochicago.com/event/boy-harsher/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "pinhead-gunpowder",

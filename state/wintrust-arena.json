@@ -1,6 +1,6 @@
 {
   "site": "Wintrust Arena",
-  "last_run": "2026-06-09T16:52:01.140463Z",
+  "last_run": "2026-06-09T19:17:13.983742Z",
   "count": 24,
   "events": [
     {
@@ -383,77 +383,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 61,
-        "rec": "watch",
-        "components": {
-          "history": 25,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "14ev avg +26% margin, 100% profitable",
-          "why": "Worth watching — strong history (14ev avg +26% margin, 100% profitable); great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 14,
-        "avg_margin": 25.8,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 108.47,
-        "avg_cost_price": 83.78,
-        "display_name": "Ali Siddiq"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "the chicago theatre",
-          "tickets": 92,
-          "margin": 51.6
-        },
-        {
-          "venue": "tropicana showroom at tropicana casino - nj",
-          "tickets": 58,
-          "margin": 38.5
-        },
-        {
-          "venue": "texas trust cu theatre at grand prairie",
-          "tickets": 40,
-          "margin": 9.5
-        },
-        {
-          "venue": "robert kirk walker theatre",
-          "tickets": 24,
-          "margin": 16.0
-        },
-        {
-          "venue": "stifel theatre",
-          "tickets": 24,
-          "margin": 19.5
-        },
-        {
-          "venue": "balboa theatre - san diego",
-          "tickets": 24,
-          "margin": 9.2
-        },
-        {
-          "venue": "steven tanger center for the performing arts",
-          "tickets": 24,
-          "margin": 9.0
-        },
-        {
-          "venue": "taft theatre",
-          "tickets": 24,
-          "margin": 6.6
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     }
   ]
 }

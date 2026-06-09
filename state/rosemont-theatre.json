@@ -1,6 +1,6 @@
 {
   "site": "Rosemont Theatre",
-  "last_run": "2026-06-09T16:52:01.129999Z",
+  "last_run": "2026-06-09T19:17:08.336281Z",
   "count": 21,
   "events": [
     {
@@ -345,42 +345,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 78,
-        "rec": "buy",
-        "components": {
-          "history": 35,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg +131% margin, 100% profitable",
-          "why": "Strong buy — strong history (1ev avg +131% margin, 100% profitable); theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 1,
-        "avg_margin": 131.1,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 46.22,
-        "avg_cost_price": 20.0,
-        "display_name": "Codiciado"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [
-        {
-          "venue": "youtube theater at hollywood park",
-          "tickets": 12,
-          "margin": 131.1
-        }
-      ],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1kvZv0ftGAGzy6-",
