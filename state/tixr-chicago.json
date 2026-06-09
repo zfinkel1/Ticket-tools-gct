@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-06-08T21:29:08.389453Z",
+  "last_run": "2026-06-09T00:14:37.951923Z",
   "count": 20,
   "events": [
     {
@@ -13,29 +13,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "188657",
@@ -72,6 +50,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "194176",
+      "name": "Mexico vs South Africa | World Cup Viewing Party",
+      "location": "RiNo Bar",
+      "date": "Thu, Jun 11 at 1:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/mexico-vs-south-africa-world-cup-viewing-party-194176",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "192390",
@@ -127,18 +139,6 @@
       "location": "Gold Coast Social",
       "date": "Thu, Jun 11 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/gasolina-thursdays-21--192803",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "194093",
-      "name": "PR Fest Official After Party | Gold Coast Social",
-      "location": "Gold Coast Social",
-      "date": "Thu, Jun 11 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/pr-fest-official-after-party-gold-coast-social-194093",
       "sales": {
         "public_start": null,
         "public_end": null,
