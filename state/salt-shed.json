@@ -1,32 +1,8 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-06-09T04:39:42.709527Z",
-  "count": 74,
+  "last_run": "2026-06-09T08:24:13.786977Z",
+  "count": 73,
   "events": [
-    {
-      "slug": "vv178Z_7GkRGSzgZ",
-      "name": "James Blake with Swavay- Trying Times Tour",
-      "location": "The Salt Shed Indoors (Shed), Chicago",
-      "date": "Mon, Jun 8, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/james-blake-with-swavay-trying-times-chicago-illinois-06-08-2026/event/0400644BCCCF8D40",
-      "sales": {
-        "public_start": "2026-02-20T16:00:00Z",
-        "public_end": "2026-06-09T04:00:00Z",
-        "presales": [
-          {
-            "name": "Vault Presale",
-            "start": "2026-02-17T15:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-02-17T16:00:00Z",
-            "end": "2026-02-20T04:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1A7ZkodGkdm0zSM",
       "name": "Sierra Ferrell with The Brudi Brothers presented by Heineken",
