@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-09T11:40:10.613482Z",
-  "count": 56,
+  "last_run": "2026-06-09T16:52:01.124948Z",
+  "count": 58,
   "events": [
     {
       "slug": "jane-remover",
@@ -331,6 +331,64 @@
       "location": "",
       "date": "Tue, Sep 29",
       "url": "https://metrochicago.com/event/lambrini-girls/the-vic/chicago-illinois/"
+    },
+    {
+      "slug": "militarie-gun",
+      "name": "Militarie Gun",
+      "location": "",
+      "date": "Thu, Oct 01",
+      "url": "https://metrochicago.com/event/militarie-gun/metro-chicago/chicago-illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "boy-harsher",
+      "name": "Boy Harsher",
+      "location": "",
+      "date": "Fri, Oct 02",
+      "url": "https://metrochicago.com/event/boy-harsher/metro-chicago/chicago-illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "pinhead-gunpowder",

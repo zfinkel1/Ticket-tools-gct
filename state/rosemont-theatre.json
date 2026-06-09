@@ -1,7 +1,7 @@
 {
   "site": "Rosemont Theatre",
-  "last_run": "2026-06-09T11:41:10.134985Z",
-  "count": 20,
+  "last_run": "2026-06-09T16:52:01.129999Z",
+  "count": 21,
   "events": [
     {
       "slug": "vv1k8Z_AJpG7yFmY",
@@ -307,6 +307,80 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vv1A7ZkCdGkdEsQrV",
+      "name": "CODICIADO - Así Es La Vida Tour",
+      "location": "Rosemont Theatre",
+      "date": "Fri, Oct 9, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/codiciado-asi-es-la-vida-tour-rosemont-illinois-10-09-2026/event/04006383E7C5A7B4",
+      "sales": {
+        "public_start": "2025-12-12T16:00:00Z",
+        "public_end": "2026-10-10T02:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2025-12-11T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "Ticketmaster Presale",
+            "start": "2025-12-11T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2025-12-11T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2025-12-11T16:00:00Z",
+            "end": "2025-12-12T04:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2025-12-12T16:00:00Z",
+            "end": "2026-10-05T17:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 78,
+        "rec": "buy",
+        "components": {
+          "history": 35,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "1ev avg +131% margin, 100% profitable",
+          "why": "Strong buy — strong history (1ev avg +131% margin, 100% profitable); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 1,
+        "avg_margin": 131.1,
+        "profitable_pct": 100.0,
+        "avg_sell_price": 46.22,
+        "avg_cost_price": 20.0,
+        "display_name": "Codiciado"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "youtube theater at hollywood park",
+          "tickets": 12,
+          "margin": 131.1
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1kvZv0ftGAGzy6-",

@@ -1,7 +1,7 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-09T11:41:11.809230Z",
-  "count": 96,
+  "last_run": "2026-06-09T16:52:01.133256Z",
+  "count": 97,
   "events": [
     {
       "slug": "rZ7HnEZ1AfjMjK",
@@ -244,8 +244,8 @@
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 41.0,
+        "max": 47.43,
         "currency": "USD",
         "type": "standard"
       }
@@ -262,8 +262,8 @@
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 73.06,
+        "max": 73.06,
         "currency": "USD",
         "type": "standard"
       }
@@ -280,8 +280,8 @@
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 41.0,
+        "max": 47.43,
         "currency": "USD",
         "type": "standard"
       }
@@ -1065,6 +1065,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfP9rK",
+      "name": "Mari Froes",
+      "location": "Thalia Hall, Chicago",
+      "date": "Sun, Sep 27, 2026 · 7:30 PM",
+      "url": "https://www.ticketweb.com/event/mari-froes-thalia-hall-tickets/14957793",
+      "sales": {
+        "public_start": "2026-06-10T15:00:00Z",
+        "public_end": "2026-09-28T00:30:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "Z7r9jZ1A7-tf0",

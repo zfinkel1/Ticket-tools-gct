@@ -1,7 +1,7 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-06-09T11:41:14.398971Z",
-  "count": 41,
+  "last_run": "2026-06-09T16:52:01.135794Z",
+  "count": 42,
   "events": [
     {
       "slug": "rZ7HnEZ1Af0Z1K",
@@ -522,6 +522,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPM0S",
+      "name": "Wind Walkers - The \"I Don't Belong Here\" Tour w/ If Not For Me & True North",
+      "location": "Bottom Lounge, Chicago",
+      "date": "Sat, Oct 10, 2026 · 7:30 PM",
+      "url": "https://www.ticketweb.com/event/wind-walkers-the-bottom-lounge-tickets/14977933",
+      "sales": {
+        "public_start": "2026-06-10T16:00:00Z",
+        "public_end": "2026-10-11T00:30:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 28.27,
+        "max": 28.27,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 42,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af0_0d",

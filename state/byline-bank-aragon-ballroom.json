@@ -1,7 +1,7 @@
 {
   "site": "Byline Bank Aragon Ballroom",
-  "last_run": "2026-06-09T11:41:09.638082Z",
-  "count": 28,
+  "last_run": "2026-06-09T16:52:01.128447Z",
+  "count": 30,
   "events": [
     {
       "slug": "vv178Z_eGkS8QpU4",
@@ -594,6 +594,77 @@
       "price_range": null
     },
     {
+      "slug": "vvG18Z_GuCX117",
+      "name": "Jay Park featuring LNGSHOT: Serenades & Body Rolls",
+      "location": "Aragon Ballroom, Chicago",
+      "date": "Tue, Sep 15, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/jay-park-featuring-lngshot-serenades-body-chicago-illinois-09-15-2026/event/040064C34EF8A284",
+      "sales": {
+        "public_start": "2026-06-12T15:00:00Z",
+        "public_end": "2026-09-15T23:30:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-06-11T15:00:00Z",
+            "end": "2026-06-12T04:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-06-12T15:00:00Z",
+            "end": "2026-09-02T03:00:00Z"
+          },
+          {
+            "name": "Melon Membership Presale",
+            "start": "2026-06-10T15:00:00Z",
+            "end": "2026-06-12T04:59:00Z"
+          },
+          {
+            "name": "VIP Meet & Greet Presale",
+            "start": "2026-06-10T15:00:00Z",
+            "end": "2026-06-12T04:59:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-06-10T15:00:00Z",
+            "end": "2026-06-12T04:59:00Z"
+          },
+          {
+            "name": "VIP PACKAGES",
+            "start": "2026-06-12T15:00:00Z",
+            "end": "2026-09-10T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-11T15:00:00Z",
+            "end": "2026-06-12T04:59:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 34,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "vvG18Z_1UXB57f",
       "name": "wave to earth - the pieces tour",
       "location": "Aragon Ballroom, Chicago",
@@ -1012,6 +1083,78 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_G2hsrFm",
+      "name": "Underoath - Define the Great Line 20th Anniversary Tour",
+      "location": "Aragon Ballroom, Chicago",
+      "date": "Tue, Nov 24, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/underoath-define-the-great-line-20th-chicago-illinois-11-24-2026/event/040064C3DBC5E22E",
+      "sales": {
+        "public_start": "2026-06-12T15:00:00Z",
+        "public_end": "2026-11-25T00:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-06-09T16:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-06-12T15:00:00Z",
+            "end": "2026-10-28T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-10T15:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-11T15:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 14,
+        "rec": "skip",
+        "components": {
+          "history": -20,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "1ev avg -19% margin, 0% profitable",
+          "why": "Skip — weak history (1ev avg -19% margin, 0% profitable)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 1,
+        "avg_margin": -19.0,
+        "profitable_pct": 0.0,
+        "avg_sell_price": 78.46,
+        "avg_cost_price": 96.87,
+        "display_name": "Underoath"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "glc live at 20 monroe",
+          "tickets": 8,
+          "margin": -19.0
+        }
+      ],
+      "current_sold": {
+        "flare_event_id": 56818334,
+        "sh_id": null
+      },
+      "current_listing": null
     },
     {
       "slug": "vvG18Z_G2K6co6",

@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-06-09T11:41:09.065662Z",
-  "count": 73,
+  "last_run": "2026-06-09T16:52:01.125678Z",
+  "count": 74,
   "events": [
     {
       "slug": "vv1A7ZkodGkdm0zSM",
@@ -1816,6 +1816,70 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_G91pGFe",
+      "name": "Malcolm Todd: Do That Again Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Wed, Oct 7, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-chicago-illinois-10-07-2026/event/040064C5CA58C202",
+      "sales": {
+        "public_start": "2026-06-11T16:00:00Z",
+        "public_end": "2026-10-08T03:30:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-06-10T15:00:00Z",
+            "end": "2026-06-11T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-09T15:45:00Z",
+            "end": "2026-06-11T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-10T15:00:00Z",
+            "end": "2026-06-11T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-06-09T15:45:00Z",
+            "end": "2026-06-11T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-06-11T15:00:00Z",
+            "end": "2026-10-03T17:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": {
+        "flare_event_id": 56808810,
+        "sh_id": null
+      },
+      "current_listing": null
     },
     {
       "slug": "vv1A7Zko_Gkeyirew",

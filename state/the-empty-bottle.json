@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-09T11:41:15.488244Z",
-  "count": 97,
+  "last_run": "2026-06-09T16:52:01.136755Z",
+  "count": 100,
   "events": [
     {
       "slug": "rZ7HnEZ1Af0g4N",
@@ -418,6 +418,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfJZON",
+      "name": "Oyeme / Daarling / Hither / Flower Problem",
+      "location": "Empty Bottle, Chicago",
+      "date": "Tue, Jun 30, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/oyeme-daarling-hither-empty-bottle-tickets/14980823",
+      "sales": {
+        "public_start": "2026-06-09T15:00:00Z",
+        "public_end": "2026-07-01T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 34,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1AfZE_0",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
@@ -434,6 +474,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPM3K",
+      "name": "Leo / Over Under / Lonnie",
+      "location": "Empty Bottle, Chicago",
+      "date": "Sun, Jul 5, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/leo-over-under-empty-bottle-tickets/14977493",
+      "sales": {
+        "public_start": "2026-06-09T15:00:00Z",
+        "public_end": "2026-07-06T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfPtqS",
@@ -1602,6 +1682,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPMkd",
+      "name": "Packaging",
+      "location": "Empty Bottle, Chicago",
+      "date": "Thu, Nov 19, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/packaging-empty-bottle-tickets/14977183",
+      "sales": {
+        "public_start": "2026-06-09T15:00:00Z",
+        "public_end": "2026-11-20T03:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfZE-f",
