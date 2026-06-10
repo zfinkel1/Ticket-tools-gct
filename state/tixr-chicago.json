@@ -1,6 +1,6 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-06-10T08:58:52.599676Z",
+  "last_run": "2026-06-10T21:30:59.454207Z",
   "count": 20,
   "events": [
     {
@@ -67,7 +67,7 @@
       "slug": "192390",
       "name": "WORLD CUP 26 - MEXICO VS SOUTH AFRICA",
       "location": "Joy District",
-      "date": "Thu, Jun 11 at 12:00 PM CDT",
+      "date": "Thu, Jun 11 at 1:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-africa-192390",
       "sales": {
         "public_start": null,
@@ -197,10 +197,10 @@
     },
     {
       "slug": "192301",
-      "name": "PR Fest Official After Party | Galeria",
+      "name": "LA CASITA | Official PR Festival After Party",
       "location": "Galeria Chicago",
       "date": "Fri, Jun 12 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/pr-fest-official-after-party-galeria-192301",
+      "url": "https://www.tixr.com/groups/acro/events/la-casita-official-pr-festival-after-party-192301",
       "sales": {
         "public_start": null,
         "public_end": null,

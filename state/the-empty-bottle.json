@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-10T08:58:58.625156Z",
-  "count": 99,
+  "last_run": "2026-06-10T21:31:49.106160Z",
+  "count": 101,
   "events": [
     {
       "slug": "rZ7HnEZ1Afx7vd",
@@ -166,6 +166,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfJ6aS",
+      "name": "Sweat FM / SJOD / Dammit!",
+      "location": "Empty Bottle, Chicago",
+      "date": "Thu, Jun 18, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/sweat-fm-sjod-empty-bottle-tickets/14987273",
+      "sales": {
+        "public_start": "2026-06-10T15:00:00Z",
+        "public_end": "2026-06-19T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1AfZE07",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
@@ -221,10 +261,10 @@
     },
     {
       "slug": "rZ7HnEZ1AfqIAS",
-      "name": "Thee Marloes",
+      "name": "Thee Marloes / Hollyy",
       "location": "Empty Bottle, Chicago",
       "date": "Sun, Jun 21, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/thee-marloes-empty-bottle-tickets/14768173",
+      "url": "https://www.ticketweb.com/event/thee-marloes-hollyy-empty-bottle-tickets/14768173",
       "sales": {
         "public_start": "2026-03-13T15:00:00Z",
         "public_end": "2026-06-22T02:00:00Z",
@@ -331,11 +371,11 @@
       "slug": "rZ7HnEZ1Af-8Jd",
       "name": "Lydia Cash (Album Release) / Half Gringa / Mikey Harms",
       "location": "Empty Bottle, Chicago",
-      "date": "Fri, Jun 26, 2026 · 10:00 PM",
+      "date": "Fri, Jun 26, 2026 · 9:30 PM",
       "url": "https://www.ticketweb.com/event/lydia-cash-album-release-empty-bottle-tickets/14850983",
       "sales": {
         "public_start": "2026-04-15T15:00:00Z",
-        "public_end": "2026-06-27T03:00:00Z",
+        "public_end": "2026-06-27T02:30:00Z",
         "presales": []
       },
       "price_range": {
@@ -619,11 +659,11 @@
       "slug": "rZ7HnEZ1AfqMbd",
       "name": "Hunx and His Punx",
       "location": "Empty Bottle, Chicago",
-      "date": "Thu, Jul 16, 2026 · 11:00 PM",
+      "date": "Thu, Jul 16, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/hunx-and-his-punx-empty-bottle-tickets/14777603",
       "sales": {
         "public_start": "2026-03-13T15:00:00Z",
-        "public_end": "2026-07-17T04:00:00Z",
+        "public_end": "2026-07-17T02:00:00Z",
         "presales": []
       },
       "price_range": {
@@ -990,6 +1030,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPM4K",
+      "name": "Luz at the Edge: A Night of Music and Dance in Support of the Lit & Luz Festival",
+      "location": "Empty Bottle, Chicago",
+      "date": "Sat, Aug 8, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/luz-at-the-edge-a-empty-bottle-tickets/14977553",
+      "sales": {
+        "public_start": "2026-06-10T15:00:00Z",
+        "public_end": "2026-08-09T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 33.17,
+        "max": 65.1,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfPY3d",

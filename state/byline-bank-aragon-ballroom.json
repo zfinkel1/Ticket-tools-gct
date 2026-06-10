@@ -1,7 +1,7 @@
 {
   "site": "Byline Bank Aragon Ballroom",
-  "last_run": "2026-06-10T08:58:53.776924Z",
-  "count": 30,
+  "last_run": "2026-06-10T21:31:49.103667Z",
+  "count": 31,
   "events": [
     {
       "slug": "vv178Z_eGkS8QpU4",
@@ -345,6 +345,65 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_G2hfCds",
+      "name": "Eslabon Armado - Amor Nocturno",
+      "location": "Aragon Ballroom, Chicago",
+      "date": "Sat, Aug 15, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/eslabon-armado-amor-nocturno-chicago-illinois-08-15-2026/event/040064C3DB50E0F1",
+      "sales": {
+        "public_start": "2026-06-12T15:00:00Z",
+        "public_end": "2026-08-16T01:00:00Z",
+        "presales": [
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-11T17:00:00Z",
+            "end": "2026-06-12T04:59:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-11T16:00:00Z",
+            "end": "2026-06-12T04:59:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 61,
+        "rec": "watch",
+        "components": {
+          "history": 25,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "2ev avg +28% margin, 100% profitable",
+          "why": "Worth watching — strong history (2ev avg +28% margin, 100% profitable); great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 2,
+        "avg_margin": 27.6,
+        "profitable_pct": 100.0,
+        "avg_sell_price": 177.85,
+        "avg_cost_price": 138.95,
+        "display_name": "Eslabon Armado"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "rosemont theatre",
+          "tickets": 21,
+          "margin": 28.0
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vvG18Z_53Hylsm",

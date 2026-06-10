@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-06-10T08:58:53.255900Z",
-  "count": 74,
+  "last_run": "2026-06-10T21:31:49.100753Z",
+  "count": 76,
   "events": [
     {
       "slug": "vv1A7ZkodGkdm0zSM",
@@ -1755,6 +1755,64 @@
       "price_range": null
     },
     {
+      "slug": "vvG18Z_GE8mq0i",
+      "name": "Ministry and Acid Bath with Windhand",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
+      "date": "Sat, Oct 3, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/ministry-and-acid-bath-with-windhand-chicago-illinois-10-03-2026/event/040064C9D0B9D92C",
+      "sales": {
+        "public_start": "2026-06-12T15:00:00Z",
+        "public_end": "2026-10-04T02:30:00Z",
+        "presales": [
+          {
+            "name": "Salt Shed Online Presale",
+            "start": "2026-06-11T15:00:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-10T18:01:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          },
+          {
+            "name": "Rotten Records Presale",
+            "start": "2026-06-10T18:01:00Z",
+            "end": "2026-06-12T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 71,
+        "rec": "buy",
+        "components": {
+          "history": 35,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "1ev avg +1148% margin, 100% profitable",
+          "why": "Strong buy — strong history (1ev avg +1148% margin, 100% profitable); great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 1,
+        "avg_margin": 1148.1,
+        "profitable_pct": 100.0,
+        "avg_sell_price": 142.84,
+        "avg_cost_price": 11.44,
+        "display_name": "Ministry"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "vvG18Z_1NZsmbd",
       "name": "The Revivalists with Robert Randolph",
       "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
@@ -2055,6 +2113,62 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vv178Z_aGkSV90pF",
+      "name": "Sylvan Esso",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Thu, Oct 22, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/sylvan-esso-chicago-illinois-10-22-2026/event/0400649CF45E4588",
+      "sales": {
+        "public_start": "2026-06-12T15:00:00Z",
+        "public_end": "2026-10-23T04:00:00Z",
+        "presales": [
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-11T15:00:00Z",
+            "end": "2026-06-12T04:59:00Z"
+          },
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-06-11T17:00:00Z",
+            "end": "2026-06-12T04:59:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-06-11T15:00:00Z",
+            "end": "2026-06-12T04:59:00Z"
+          },
+          {
+            "name": "Jam Presale",
+            "start": "2026-06-11T15:00:00Z",
+            "end": "2026-06-12T04:59:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv1A7ZkoMGkeB3pBb",

@@ -1,7 +1,7 @@
 {
   "site": "Rivers Casino Des Plaines",
-  "last_run": "2026-06-10T08:58:44.035260Z",
-  "count": 9,
+  "last_run": "2026-06-10T21:31:49.100492Z",
+  "count": 10,
   "events": [
     {
       "slug": "blackberry-smoke",
@@ -65,6 +65,53 @@
       "location": "Rivers Casino Des Plaines",
       "date": "FRI, OCT 9",
       "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/tower-of-power"
+    },
+    {
+      "slug": "rodrigo-y-gabriela",
+      "name": "Rodrigo y Gabriela",
+      "location": "Rivers Casino Des Plaines",
+      "date": "FRI, OCT 30",
+      "url": "https://www.riverscasino.com/desplaines/entertainment/event-center/rodrigo-y-gabriela",
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 3,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "2ev avg +1% margin, 50% profitable",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": {
+        "events": 2,
+        "avg_margin": 0.8,
+        "profitable_pct": 50.0,
+        "avg_sell_price": 94.31,
+        "avg_cost_price": 105.77,
+        "display_name": "Rodrigo Y Gabriela"
+      },
+      "gct_venue_history": null,
+      "gct_artist_venues": [
+        {
+          "venue": "the chicago theatre",
+          "tickets": 14,
+          "margin": -23.5
+        },
+        {
+          "venue": "glc live at 20 monroe",
+          "tickets": 8,
+          "margin": 25.0
+        }
+      ],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
