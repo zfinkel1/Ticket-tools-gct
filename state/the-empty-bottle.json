@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-10T04:59:43.790605Z",
-  "count": 100,
+  "last_run": "2026-06-10T08:58:58.625156Z",
+  "count": 99,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af0g4N",
-      "name": "Muscle / Imelda Marcos / Repent",
-      "location": "Empty Bottle, Chicago",
-      "date": "Tue, Jun 9, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/muscle-imelda-marcos-empty-bottle-tickets/14935563",
-      "sales": {
-        "public_start": "2026-05-22T15:00:00Z",
-        "public_end": "2026-06-10T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 16.17,
-        "max": 16.17,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Afx7vd",
       "name": "Wendy Eisenberg and More Eaze / William Covert and Bruce Lamont",
