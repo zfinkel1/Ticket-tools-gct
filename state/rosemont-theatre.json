@@ -1,6 +1,6 @@
 {
   "site": "Rosemont Theatre",
-  "last_run": "2026-06-10T21:31:49.105221Z",
+  "last_run": "2026-06-11T06:28:55.415923Z",
   "count": 22,
   "events": [
     {
@@ -701,29 +701,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 43,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 8,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     }
   ]
 }

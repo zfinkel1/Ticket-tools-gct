@@ -1,6 +1,6 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-06-10T21:31:49.100753Z",
+  "last_run": "2026-06-11T06:28:54.840514Z",
   "count": 76,
   "events": [
     {
@@ -1781,36 +1781,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 71,
-        "rec": "buy",
-        "components": {
-          "history": 35,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "1ev avg +1148% margin, 100% profitable",
-          "why": "Strong buy — strong history (1ev avg +1148% margin, 100% profitable); great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": {
-        "events": 1,
-        "avg_margin": 1148.1,
-        "profitable_pct": 100.0,
-        "avg_sell_price": 142.84,
-        "avg_cost_price": 11.44,
-        "display_name": "Ministry"
-      },
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vvG18Z_1NZsmbd",
@@ -2146,29 +2117,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkoMGkeB3pBb",

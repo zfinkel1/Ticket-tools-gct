@@ -1,26 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-10T21:31:02.607149Z",
-  "count": 96,
+  "last_run": "2026-06-11T06:28:56.491375Z",
+  "count": 95,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af763f",
-      "name": "Yot Club – Simpleton Tour with Renny Conti",
-      "location": "Thalia Hall, Chicago",
-      "date": "Wed, Jun 10, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/yot-club-simpleton-tour-thalia-hall-tickets/14107494",
-      "sales": {
-        "public_start": "2026-01-28T16:00:00Z",
-        "public_end": "2026-06-11T01:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 35.6,
-        "max": 330.23,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af7IGf",
       "name": "*SOLD OUT* Boys and Girls in America 20 - The Hold Steady: Storytellers Set 'In the Round'",
