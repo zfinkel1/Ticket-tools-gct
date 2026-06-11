@@ -1,47 +1,8 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-06-11T06:28:54.840514Z",
-  "count": 76,
+  "last_run": "2026-06-11T22:59:57.424209Z",
+  "count": 75,
   "events": [
-    {
-      "slug": "vv1A7ZkodGkdm0zSM",
-      "name": "Sierra Ferrell with The Brudi Brothers presented by Heineken",
-      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
-      "date": "Wed, Jun 10, 2026 · 6:30 PM",
-      "url": "https://www.ticketmaster.com/sierra-ferrell-with-the-brudi-brothers-chicago-illinois-06-10-2026/event/04006443EE938CF7",
-      "sales": {
-        "public_start": "2026-02-12T16:00:00Z",
-        "public_end": "2026-06-11T02:30:00Z",
-        "presales": [
-          {
-            "name": "Salt Shed Online Presale",
-            "start": "2026-02-11T16:00:00Z",
-            "end": "2026-02-12T05:59:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-02-10T16:00:00Z",
-            "end": "2026-02-12T05:59:00Z"
-          },
-          {
-            "name": "Spotify Presale",
-            "start": "2026-02-11T18:00:00Z",
-            "end": "2026-02-12T05:59:00Z"
-          },
-          {
-            "name": "VIP Packages Presale",
-            "start": "2026-02-10T16:00:00Z",
-            "end": "2026-02-12T05:59:00Z"
-          },
-          {
-            "name": "VIP Package Onsale",
-            "start": "2026-02-12T16:00:00Z",
-            "end": "2026-06-04T03:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1A7ZkoAGkdIwnnT",
       "name": "Lupe Fiasco - Food & Liquor 20th Anniversary Tour",
@@ -1809,8 +1770,8 @@
     },
     {
       "slug": "vvG18Z_GKurBFe",
-      "name": "Malcolm Todd: Do That Again Tour",
-      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "name": "Malcolm Todd: Do That Again Tour (MOVED TO THE SALT SHED OUTDOORS)",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Tue, Oct 6, 2026 · 7:30 PM",
       "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-chicago-illinois-10-06-2026/event/040064C4CD7BA202",
       "sales": {
@@ -1848,12 +1809,12 @@
     },
     {
       "slug": "vvG18Z_G91pGFe",
-      "name": "Malcolm Todd: Do That Again Tour",
-      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "name": "Malcolm Todd: Do That Again Tour (MOVED TO THE SALT SHED OUTDOORS)",
+      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
       "date": "Wed, Oct 7, 2026 · 7:30 PM",
       "url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-chicago-illinois-10-07-2026/event/040064C5CA58C202",
       "sales": {
-        "public_start": "2026-06-11T16:00:00Z",
+        "public_start": "2026-06-11T15:40:00Z",
         "public_end": "2026-10-08T03:30:00Z",
         "presales": [
           {

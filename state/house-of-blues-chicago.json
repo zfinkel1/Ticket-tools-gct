@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-06-11T06:28:55.943172Z",
+  "last_run": "2026-06-11T22:59:58.414581Z",
   "count": 66,
   "events": [
     {
@@ -143,8 +143,8 @@
       "date": "Fri, Jun 19, 2026 · 8:00 PM",
       "url": "https://www.ticketmaster.com/6ixteenth-chicago-illinois-06-19-2026/event/040064C3D46BD682",
       "sales": {
-        "public_start": "2026-06-03T22:06:00Z",
-        "public_end": "2026-06-20T01:00:00Z",
+        "public_start": null,
+        "public_end": null,
         "presales": []
       },
       "price_range": null
