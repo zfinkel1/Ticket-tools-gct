@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-06-12T18:12:43.885043Z",
+  "last_run": "2026-06-12T20:28:08.290561Z",
   "count": 67,
   "events": [
     {
@@ -1377,11 +1377,6 @@
         "public_end": "2026-09-22T23:00:00Z",
         "presales": [
           {
-            "name": "Citi® Cardmember Presale",
-            "start": "2026-06-16T15:00:00Z",
-            "end": "2026-06-18T03:00:00Z"
-          },
-          {
             "name": "Citi® Cardmember Preferred Tickets",
             "start": "2026-06-18T15:00:00Z",
             "end": "2026-08-26T03:00:00Z"
@@ -1398,29 +1393,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 40,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 4,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vvG18Z_1NNu4Ga",

@@ -1,6 +1,6 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-12T18:12:43.884285Z",
+  "last_run": "2026-06-12T20:27:09.386517Z",
   "count": 61,
   "events": [
     {
@@ -211,29 +211,7 @@
       "name": "Furball: Market Days",
       "location": "",
       "date": "Fri, Aug 07",
-      "url": "https://metrochicago.com/event/furball-market-days-2/metro-chicago/chicago-illinois/",
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://metrochicago.com/event/furball-market-days-2/metro-chicago/chicago-illinois/"
     },
     {
       "slug": "good-hangs",

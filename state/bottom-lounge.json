@@ -1,6 +1,6 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-06-12T18:12:43.888178Z",
+  "last_run": "2026-06-12T20:28:10.378534Z",
   "count": 46,
   "events": [
     {
@@ -552,29 +552,7 @@
         "public_end": "2026-10-10T01:00:00Z",
         "presales": []
       },
-      "price_range": null,
-      "score_data": {
-        "score": 41,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 6,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — theater/club venue (high margin)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "rZ7HnEZ1AfPV4d",
@@ -619,7 +597,7 @@
       "date": "Fri, Oct 16, 2026 · 8:00 PM",
       "url": "https://www.ticketweb.com/event/hey-nothing-the-hound-bottom-lounge-tickets/14976983",
       "sales": {
-        "public_start": "2026-06-18T15:00:00Z",
+        "public_start": "2026-06-16T15:00:00Z",
         "public_end": "2026-10-17T01:00:00Z",
         "presales": []
       },
@@ -807,18 +785,18 @@
     },
     {
       "slug": "rZ7HnEZ1AfPsCK",
-      "name": "Michael Smoak",
+      "name": "Michael Smoak - The Purpose Progression: Understanding Your “Why”",
       "location": "Bottom Lounge, Chicago",
       "date": "Wed, Dec 16, 2026 · 7:00 PM",
-      "url": "https://www.ticketweb.com/event/michael-smoak-bottom-lounge-tickets/14971393",
+      "url": "https://www.ticketweb.com/event/michael-smoak-the-bottom-lounge-tickets/14971393",
       "sales": {
         "public_start": "2026-06-09T17:00:00Z",
         "public_end": "2026-12-17T01:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 39.6,
+        "max": 151.35,
         "currency": "USD",
         "type": "standard"
       }
