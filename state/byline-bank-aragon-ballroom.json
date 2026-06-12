@@ -1,6 +1,6 @@
 {
   "site": "Byline Bank Aragon Ballroom",
-  "last_run": "2026-06-12T20:28:19.777226Z",
+  "last_run": "2026-06-12T22:10:04.882272Z",
   "count": 31,
   "events": [
     {
@@ -923,7 +923,7 @@
           {
             "name": "Citi® Cardmember Presale",
             "start": "2026-06-16T16:00:00Z",
-            "end": "2026-06-17T03:00:00Z"
+            "end": "2026-06-17T13:00:00Z"
           },
           {
             "name": "Citi® Cardmember Preferred Tickets",
@@ -933,38 +933,16 @@
           {
             "name": "Artist Presale",
             "start": "2026-06-16T15:00:00Z",
-            "end": "2026-06-17T03:00:00Z"
+            "end": "2026-06-17T13:00:00Z"
           },
           {
             "name": "LIVE NATION PRESALE",
             "start": "2026-06-16T16:00:00Z",
-            "end": "2026-06-17T03:00:00Z"
+            "end": "2026-06-17T13:00:00Z"
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 35,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv1A7ZkobGkeTj_2e",

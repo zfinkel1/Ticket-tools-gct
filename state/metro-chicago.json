@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-12T20:27:09.386517Z",
-  "count": 61,
+  "last_run": "2026-06-12T22:10:17.305021Z",
+  "count": 62,
   "events": [
     {
       "slug": "jane-remover",
@@ -366,6 +366,38 @@
       "location": "",
       "date": "Fri, Oct 02",
       "url": "https://metrochicago.com/event/boy-harsher/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "boy-harsher-2",
+      "name": "Boy Harsher",
+      "location": "",
+      "date": "Sat, Oct 03",
+      "url": "https://metrochicago.com/event/boy-harsher-2/metro-chicago/chicago-illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": {
+        "flare_event_id": 56820509,
+        "sh_id": null
+      },
+      "current_listing": null
     },
     {
       "slug": "pinhead-gunpowder",

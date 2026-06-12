@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-12T20:28:08.855741Z",
+  "last_run": "2026-06-12T22:10:06.195568Z",
   "count": 94,
   "events": [
     {
@@ -409,18 +409,18 @@
     },
     {
       "slug": "rZ7HnEZ1AfP9bK",
-      "name": "Los de la Homan",
+      "name": "*CANCELLED* Los de la Homan",
       "location": "Thalia Hall, Chicago",
       "date": "Thu, Jul 16, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/los-de-la-homan-thalia-hall-tickets/14957613",
+      "url": "https://www.ticketweb.com/event/cancelled-los-de-la-homan-thalia-hall-tickets/14957613",
       "sales": {
         "public_start": "2026-06-04T17:00:00Z",
         "public_end": "2026-07-17T01:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 0.0,
-        "max": 0.0,
+        "min": 39.96,
+        "max": 330.23,
         "currency": "USD",
         "type": "standard"
       }
