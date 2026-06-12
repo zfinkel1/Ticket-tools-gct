@@ -1,67 +1,8 @@
 {
   "site": "United Center",
-  "last_run": "2026-06-11T23:00:02.618510Z",
-  "count": 73,
+  "last_run": "2026-06-12T09:16:36.933170Z",
+  "count": 72,
   "events": [
-    {
-      "slug": "vv178Z_dGkSaynE7",
-      "name": "Don Toliver: Octane Tour",
-      "location": "United Center, Chicago",
-      "date": "Thu, Jun 11, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/don-toliver-octane-tour-chicago-illinois-06-11-2026/event/0400643CC9E6A9C4",
-      "sales": {
-        "public_start": "2026-02-06T16:00:00Z",
-        "public_end": "2026-06-11T23:30:00Z",
-        "presales": [
-          {
-            "name": "LIVE NATION PRESALE",
-            "start": "2026-02-05T18:00:00Z",
-            "end": "2026-02-06T05:59:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Presale",
-            "start": "2026-02-04T16:00:00Z",
-            "end": "2026-02-06T05:59:00Z"
-          },
-          {
-            "name": "Citi® Cardmember Preferred Tickets",
-            "start": "2026-02-06T16:00:00Z",
-            "end": "2026-05-14T03:00:00Z"
-          },
-          {
-            "name": "VIP Packages Presale",
-            "start": "2026-02-04T16:00:00Z",
-            "end": "2026-02-06T05:59:00Z"
-          },
-          {
-            "name": "Artist Presale",
-            "start": "2026-02-05T16:00:00Z",
-            "end": "2026-02-06T05:59:00Z"
-          },
-          {
-            "name": "Ticketmaster Presale",
-            "start": "2026-02-05T18:00:00Z",
-            "end": "2026-02-06T05:59:00Z"
-          },
-          {
-            "name": "Venue Presale",
-            "start": "2026-02-05T18:00:00Z",
-            "end": "2026-02-06T05:59:00Z"
-          },
-          {
-            "name": "Spotify Presale",
-            "start": "2026-02-05T18:00:00Z",
-            "end": "2026-02-06T05:59:00Z"
-          },
-          {
-            "name": "VIP Package Onsale",
-            "start": "2026-02-06T16:00:00Z",
-            "end": "2026-06-07T17:00:00Z"
-          }
-        ]
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1A7Zk3aGkdvI9zf",
       "name": "The Strokes - Reality Awaits North America",

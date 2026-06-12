@@ -1,26 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-11T22:59:59.019477Z",
-  "count": 95,
+  "last_run": "2026-06-12T09:16:31.990231Z",
+  "count": 94,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af7IGf",
-      "name": "*SOLD OUT* Boys and Girls in America 20 - The Hold Steady: Storytellers Set 'In the Round'",
-      "location": "Thalia Hall, Chicago",
-      "date": "Thu, Jun 11, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/sold-out-boys-and-girls-thalia-hall-tickets/14128314",
-      "sales": {
-        "public_start": "2026-02-10T16:00:00Z",
-        "public_end": "2026-06-12T01:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfAZZ7",
       "name": "Josiah and the Bonnevilles - The Redline North America Tour with Max Alan and Brenna MacMillan presented by Thalia Hall & Metro",

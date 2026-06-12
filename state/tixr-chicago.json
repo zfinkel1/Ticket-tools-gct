@@ -1,104 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-06-11T23:00:28.048311Z",
+  "last_run": "2026-06-12T09:17:35.388550Z",
   "count": 20,
   "events": [
-    {
-      "slug": "188202",
-      "name": "Mexico vs South Africa Free World Cup Watch Party",
-      "location": "Ramova Theatre ",
-      "date": "Thu, Jun 11 at 2:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/mexico-vs-south-africa-free-world-cup-watch-party-188202",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "194176",
-      "name": "Mexico vs South Africa | World Cup Viewing Party",
-      "location": "RiNo Bar",
-      "date": "Thu, Jun 11 at 1:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/mexico-vs-south-africa-world-cup-viewing-party-194176",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "192390",
-      "name": "WORLD CUP 26 - MEXICO VS SOUTH AFRICA",
-      "location": "Joy District",
-      "date": "Thu, Jun 11 at 1:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-africa-192390",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "192396",
-      "name": "WORLD CUP 26 - MEXICO VS SOUTH AFRICA",
-      "location": "Reserv",
-      "date": "Thu, Jun 11 at 12:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-africa-192396",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "186883",
-      "name": "YL & Papo2oo4",
-      "location": "Ramova Loft",
-      "date": "Thu, Jun 11 at 7:30 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/yl-papo2oo4-186883",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "194092",
-      "name": "AZOTEA | Thursday Latin Rooftop Happy Hour",
-      "location": "Joy District",
-      "date": "Thu, Jun 11 at 6:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/azotea-thursday-latin-rooftop-happy-hour-194092",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "192803",
-      "name": "GASOLINA THURSDAYS (21+)",
-      "location": "Gold Coast Social",
-      "date": "Thu, Jun 11 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/gasolina-thursdays-21--192803",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "192298",
-      "name": "Puerto Rican Fest Official After Party | Rino Bar",
-      "location": "RiNo Bar",
-      "date": "Thu, Jun 11 at 11:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/puerto-rican-fest-official-after-party-rino-bar-192298",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "180584",
       "name": "Sonny Acres Rodeo June 12, 2026",
@@ -237,6 +141,256 @@
       "location": "Reserv",
       "date": "Sat, Jun 13 at 10:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185599",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "192304",
+      "name": "LA CASITA  | Official PR Fest After Party",
+      "location": "Galeria Chicago",
+      "date": "Sat, Jun 13 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/la-casita-official-pr-fest-after-party-192304",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "194102",
+      "name": "PR Fest Official After Party | Gold Coast Social",
+      "location": "Gold Coast Social",
+      "date": "Sat, Jun 13 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/pr-fest-official-after-party-gold-coast-social-194102",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "180590",
+      "name": "Sonny Acres Rodeo June 14, 2026",
+      "location": "Sonny Acres Farm",
+      "date": "Sun, Jun 14 at 2:00 PM CDT",
+      "url": "https://www.tixr.com/groups/sonnyacresfarm/events/sonny-acres-rodeo-june-14-2026-180590",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "179835",
+      "name": "LA CURA BRUNCH SUNDAYS (21+)",
+      "location": "Gold Coast Social",
+      "date": "Sun, Jun 14 at 11:00 AM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/la-cura-brunch-sundays-21--179835",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "179278",
+      "name": "Gxllium",
+      "location": "Ramova Loft",
+      "date": "Sun, Jun 14 at 7:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/gxllium-179278",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "194110",
+      "name": "PR Fest Official After Party | Gold Coast Social",
+      "location": "Gold Coast Social",
+      "date": "Sun, Jun 14 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/pr-fest-official-after-party-gold-coast-social-194110",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "188529",
+      "name": "WORLD CUP 26 - ARGENTINA VS ALGERIA",
+      "location": "Reserv",
+      "date": "Tue, Jun 16 at 7:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-argentina-vs-algeria-188529",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "194122",
+      "name": "Lost on the South Side: Luella's Southern Kitchen",
+      "location": "Off Hours Beer Garden",
+      "date": "Wed, Jun 17 at 5:00 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/lost-on-the-south-side-luella-s-southern-kitchen-194122",
       "sales": {
         "public_start": null,
         "public_end": null,

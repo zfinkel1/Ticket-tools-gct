@@ -1,6 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-06-11T23:00:28.049686Z",
+  "last_run": "2026-06-12T09:16:33.430648Z",
   "count": 10,
   "events": [
     {
@@ -43,29 +43,7 @@
       "name": "Boost+++ Radius Vendex, Hhunter b2b Gabber Elganza, Vladimir Dubyshkin, LSDXOXO, BIIANCO b2b Fenrick, DVS1 DJ Nobu, Alarico b2b Yanamaste, Beau Didier b2b Freeman713, Pageant Queens, Prosperity Room",
       "location": "",
       "date": "Jul 19, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1485528",
-      "score_data": {
-        "score": 35,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1485528"
     },
     {
       "slug": "1405850",
