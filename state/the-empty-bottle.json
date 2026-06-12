@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-12T09:16:35.757465Z",
-  "count": 99,
+  "last_run": "2026-06-12T18:12:43.889224Z",
+  "count": 101,
   "events": [
     {
       "slug": "rZ7HnEZ1AfZE_f",
@@ -809,6 +809,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfkKF7",
+      "name": "Teeth Kids (Album Release) / Stander / Mensa / Prime Angel Weather",
+      "location": "Empty Bottle, Chicago",
+      "date": "Tue, Jul 28, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/teeth-kids-album-release-empty-bottle-tickets/14193204",
+      "sales": {
+        "public_start": "2026-06-12T15:00:00Z",
+        "public_end": "2026-07-29T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 34,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1Af0Zad",
       "name": "Brotherkenzie",
       "location": "Empty Bottle, Chicago",
@@ -1422,6 +1462,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfPMbS",
+      "name": "Radioactivity",
+      "location": "Empty Bottle, Chicago",
+      "date": "Sat, Oct 3, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/radioactivity-empty-bottle-tickets/14977633",
+      "sales": {
+        "public_start": "2026-06-12T14:00:00Z",
+        "public_end": "2026-10-04T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 21.42,
+        "max": 21.42,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfZEPf",

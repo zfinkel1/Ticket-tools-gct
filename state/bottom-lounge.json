@@ -1,7 +1,7 @@
 {
   "site": "Bottom Lounge",
-  "last_run": "2026-06-12T09:16:34.662266Z",
-  "count": 45,
+  "last_run": "2026-06-12T18:12:43.888178Z",
+  "count": 46,
   "events": [
     {
       "slug": "rZ7HnEZ1Af0Z1K",
@@ -198,10 +198,10 @@
     },
     {
       "slug": "rZ7HnEZ1Af_OCK",
-      "name": "CMAT",
+      "name": "CMAT, Growing Boys",
       "location": "Bottom Lounge, Chicago",
       "date": "Wed, Jul 29, 2026 · 10:00 PM",
-      "url": "https://www.ticketweb.com/event/cmat-bottom-lounge-tickets/14660393",
+      "url": "https://www.ticketweb.com/event/cmat-growing-boys-bottom-lounge-tickets/14660393",
       "sales": {
         "public_start": "2026-05-26T15:00:00Z",
         "public_end": "2026-07-30T03:00:00Z",
@@ -540,6 +540,41 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "Z7r9jZ1A7P8bp",
+      "name": "Sawyer Hill (17+ Event)",
+      "location": "Bottom Lounge, Chicago",
+      "date": "Fri, Oct 9, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P8bp",
+      "sales": {
+        "public_start": "2026-06-12T15:00:00Z",
+        "public_end": "2026-10-10T01:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 41,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfPV4d",

@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-12T09:15:11.515726Z",
-  "count": 60,
+  "last_run": "2026-06-12T18:12:43.884285Z",
+  "count": 61,
   "events": [
     {
       "slug": "jane-remover",
@@ -205,6 +205,35 @@
       "location": "",
       "date": "Sun, Aug 02",
       "url": "https://metrochicago.com/event/ethel-cain/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "furball-market-days-2",
+      "name": "Furball: Market Days",
+      "location": "",
+      "date": "Fri, Aug 07",
+      "url": "https://metrochicago.com/event/furball-market-days-2/metro-chicago/chicago-illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "good-hangs",
