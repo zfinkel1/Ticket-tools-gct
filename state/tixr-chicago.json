@@ -1,44 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-06-13T07:55:30.014353Z",
+  "last_run": "2026-06-13T10:32:52.588248Z",
   "count": 20,
   "events": [
-    {
-      "slug": "192301",
-      "name": "LA CASITA | Official PR Festival After Party",
-      "location": "Galeria Chicago",
-      "date": "Fri, Jun 12 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/la-casita-official-pr-festival-after-party-192301",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "194100",
-      "name": "PR Fest Official After Party | Gold Coast Social",
-      "location": "Gold Coast Social",
-      "date": "Fri, Jun 12 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/pr-fest-official-after-party-gold-coast-social-194100",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "193974",
-      "name": "MIA | Latin Day Club | Reserv Rooftop",
-      "location": "Reserv",
-      "date": "Sat, Jun 13 at 2:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/mia-latin-day-club-reserv-rooftop-193974",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "180587",
       "name": "Sonny Acres Rodeo June 13, 2026",
@@ -205,29 +169,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "192391",
@@ -239,29 +181,7 @@
         "public_start": null,
         "public_end": null,
         "presales": []
-      },
-      "score_data": {
-        "score": 30,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 0,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "188507",
@@ -269,6 +189,30 @@
       "location": "Gold Coast Social",
       "date": "Thu, Jun 18 at 5:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-korea-188507",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "192768",
+      "name": "WORLD CUP 26 - MEXICO VS SOUTH KOREA",
+      "location": "Reserv",
+      "date": "Thu, Jun 18 at 7:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-korea-192768",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "192784",
+      "name": "WORLD CUP 26 - MEXICO VS SOUTH KOREA",
+      "location": "Joy District",
+      "date": "Thu, Jun 18 at 7:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-korea-192784",
       "sales": {
         "public_start": null,
         "public_end": null,
@@ -298,11 +242,45 @@
       "current_listing": null
     },
     {
-      "slug": "192768",
-      "name": "WORLD CUP 26 - MEXICO VS SOUTH KOREA",
-      "location": "Reserv",
-      "date": "Thu, Jun 18 at 7:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-korea-192768",
+      "slug": "193921",
+      "name": "GASOLINA THURSDAYS (21+)",
+      "location": "Gold Coast Social",
+      "date": "Thu, Jun 18 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/gasolina-thursdays-21--193921",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "192299",
+      "name": "RINOVRSE | Rino Bar",
+      "location": "RiNo Bar",
+      "date": "Thu, Jun 18 at 11:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/rinovrse-rino-bar-192299",
       "sales": {
         "public_start": null,
         "public_end": null,
