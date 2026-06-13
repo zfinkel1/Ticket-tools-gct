@@ -1,56 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-06-13T03:59:22.492159Z",
+  "last_run": "2026-06-13T07:55:30.014353Z",
   "count": 20,
   "events": [
-    {
-      "slug": "179277",
-      "name": "Naysayer",
-      "location": "Ramova Loft",
-      "date": "Fri, Jun 12 at 7:30 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/naysayer-179277",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188553",
-      "name": "USA vs Paraguay World Cup Watch Party",
-      "location": "Ramova Theatre ",
-      "date": "Fri, Jun 12 at 8:00 PM CDT",
-      "url": "https://www.tixr.com/groups/ramovatheatre/events/usa-vs-paraguay-world-cup-watch-party-188553",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "188525",
-      "name": "WORLD CUP 26 - USA VS PARAGUAY",
-      "location": "Reserv",
-      "date": "Fri, Jun 12 at 7:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-usa-vs-paraguay-188525",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
-    {
-      "slug": "191687",
-      "name": "DELIRIO FRIDAYS AT MOES CANTINA (21+)",
-      "location": "Moe's Cantina - River North",
-      "date": "Fri, Jun 12 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/365presents/events/delirio-fridays-at-moes-cantina-21--191687",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "192301",
       "name": "LA CASITA | Official PR Festival After Party",
@@ -237,6 +189,120 @@
       "location": "Gold Coast Social",
       "date": "Wed, Jun 17 at 7:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-colombia-vs-uzbekistan-188512",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "193603",
+      "name": "WORLD CUP 26 - COLOMBIA VS UZBEKISTAN",
+      "location": "Reserv",
+      "date": "Wed, Jun 17 at 8:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-colombia-vs-uzbekistan-193603",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "192391",
+      "name": "WORLD CUP 26 - MEXICO VS SOUTH KOREA",
+      "location": "Joy District",
+      "date": "Thu, Jun 18 at 6:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-korea-192391",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "188507",
+      "name": "WORLD CUP 26 - MEXICO VS SOUTH KOREA",
+      "location": "Gold Coast Social",
+      "date": "Thu, Jun 18 at 5:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-korea-188507",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "192768",
+      "name": "WORLD CUP 26 - MEXICO VS SOUTH KOREA",
+      "location": "Reserv",
+      "date": "Thu, Jun 18 at 7:00 PM CDT",
+      "url": "https://www.tixr.com/groups/365presents/events/world-cup-26-mexico-vs-south-korea-192768",
       "sales": {
         "public_start": null,
         "public_end": null,

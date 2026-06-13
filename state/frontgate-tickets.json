@@ -1,15 +1,8 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-06-13T03:58:33.822550Z",
-  "count": 95,
+  "last_run": "2026-06-13T07:53:57.872833Z",
+  "count": 94,
   "events": [
-    {
-      "slug": "bonnaroo",
-      "name": "Bonnaroo",
-      "location": "Manchester, TN",
-      "date": "June 11, 2026",
-      "url": "https://www.frontgatetickets.com/events/bonnaroo"
-    },
     {
       "slug": "vans-warped-tour",
       "name": "Vans Warped Tour - D.C.",
