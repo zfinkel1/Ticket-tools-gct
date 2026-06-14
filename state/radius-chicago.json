@@ -1,15 +1,8 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-06-13T23:34:46.629496Z",
+  "last_run": "2026-06-14T06:58:45.544653Z",
   "count": 10,
   "events": [
-    {
-      "slug": "1404527",
-      "name": "Radius Open Air Cassian Adam Sellouk, Kamino, Tash",
-      "location": "",
-      "date": "Jun 13, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1404527"
-    },
     {
       "slug": "1438076",
       "name": "PACO OSUNA IGLESIAS, RSQUARED, DANI RO",
@@ -72,6 +65,35 @@
       "location": "",
       "date": "Jul 31, 2026",
       "url": "https://www.radius-chicago.com/events/detail/1459476"
+    },
+    {
+      "slug": "1461500",
+      "name": "OFFICIAL LOLLAPALOOZA AFTERSHOW horsegiirL",
+      "location": "",
+      "date": "Jul 31, 2026",
+      "url": "https://www.radius-chicago.com/events/detail/1461500",
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

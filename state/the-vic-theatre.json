@@ -1,21 +1,8 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-06-13T23:34:47.112481Z",
-  "count": 52,
+  "last_run": "2026-06-14T06:58:23.976268Z",
+  "count": 51,
   "events": [
-    {
-      "slug": "Z7r9jZ1A70oxe",
-      "name": "Sabrina Cast Reunion 30 Year Anniversary Live",
-      "location": "Vic Theatre, Chicago",
-      "date": "Sat, Jun 13, 2026 · 7:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70oxe",
-      "sales": {
-        "public_start": "1900-01-01T18:00:00Z",
-        "public_end": "2026-06-14T00:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "Z7r9jZ1A7-44M",
       "name": "Honne w/ Beka",

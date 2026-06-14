@@ -1,26 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-13T23:34:45.840117Z",
-  "count": 93,
+  "last_run": "2026-06-14T06:58:22.381261Z",
+  "count": 92,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfjVxd",
-      "name": "DeVotchKa - “A Tribute to the Music of Little Miss Sunshine” with Sammy Tweedy",
-      "location": "Thalia Hall, Chicago",
-      "date": "Sat, Jun 13, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/devotchka-a-tribute-thalia-hall-tickets/14734883",
-      "sales": {
-        "public_start": "2025-12-12T17:00:00Z",
-        "public_end": "2026-06-14T01:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 46.39,
-        "max": 46.39,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfqxaK",
       "name": "Rostam - American Stories Tour with Henry Solomon presented by Thalia Hall and Audiotree",

@@ -1,15 +1,8 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-13T23:33:54.020993Z",
-  "count": 61,
+  "last_run": "2026-06-14T06:57:40.217723Z",
+  "count": 60,
   "events": [
-    {
-      "slug": "jane-remover-2",
-      "name": "Jane Remover",
-      "location": "",
-      "date": "Sat, Jun 13",
-      "url": "https://metrochicago.com/event/jane-remover-2/metro-chicago/chicago-illinois/"
-    },
     {
       "slug": "underscores-galleria-north-american-chapter",
       "name": "underscores: Galleria &#8211; North American Chapter",
