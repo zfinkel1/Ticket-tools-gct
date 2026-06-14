@@ -1,15 +1,8 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-06-14T06:58:45.544653Z",
+  "last_run": "2026-06-14T10:31:01.943023Z",
   "count": 10,
   "events": [
-    {
-      "slug": "1438076",
-      "name": "PACO OSUNA IGLESIAS, RSQUARED, DANI RO",
-      "location": "",
-      "date": "Jun 13, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1438076"
-    },
     {
       "slug": "1474786",
       "name": "Radius Open Air Claude VonStroke",
@@ -71,13 +64,20 @@
       "name": "OFFICIAL LOLLAPALOOZA AFTERSHOW horsegiirL",
       "location": "",
       "date": "Jul 31, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1461500",
+      "url": "https://www.radius-chicago.com/events/detail/1461500"
+    },
+    {
+      "slug": "1460685",
+      "name": "OFFICIAL LOLLAPALOOZA AFTERSHOW Duke Dumont",
+      "location": "",
+      "date": "Aug 1, 2026",
+      "url": "https://www.radius-chicago.com/events/detail/1460685",
       "score_data": {
-        "score": 35,
+        "score": 36,
         "rec": "watch",
         "components": {
           "history": 0,
-          "dow": 5,
+          "dow": 6,
           "pattern": 0,
           "pattern_labels": [],
           "venue_type": 0,
@@ -85,7 +85,7 @@
           "month": 0,
           "auto_loser": 0,
           "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
+          "why": "Worth watching — great day of week (+6)"
         }
       },
       "tier_predictions": [],
