@@ -1,6 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-06-14T10:31:01.943023Z",
+  "last_run": "2026-06-14T12:26:54.123363Z",
   "count": 10,
   "events": [
     {
@@ -71,29 +71,7 @@
       "name": "OFFICIAL LOLLAPALOOZA AFTERSHOW Duke Dumont",
       "location": "",
       "date": "Aug 1, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1460685",
-      "score_data": {
-        "score": 36,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 6,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — great day of week (+6)"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "url": "https://www.radius-chicago.com/events/detail/1460685"
     }
   ]
 }
