@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-06-14T20:53:55.393726Z",
+  "last_run": "2026-06-14T22:13:34.398968Z",
   "count": 20,
   "events": [
-    {
-      "slug": "180590",
-      "name": "Sonny Acres Rodeo June 14, 2026",
-      "location": "Sonny Acres Farm",
-      "date": "Sun, Jun 14 at 2:00 PM CDT",
-      "url": "https://www.tixr.com/groups/sonnyacresfarm/events/sonny-acres-rodeo-june-14-2026-180590",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "179835",
       "name": "LA CURA BRUNCH SUNDAYS (21+)",
@@ -242,6 +230,40 @@
         "public_end": null,
         "presales": []
       }
+    },
+    {
+      "slug": "180430",
+      "name": "High On Fire",
+      "location": "Ramova Theatre ",
+      "date": "Sat, Jun 20 at 9:30 PM CDT",
+      "url": "https://www.tixr.com/groups/ramovatheatre/events/high-on-fire-180430",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      },
+      "score_data": {
+        "score": 38,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }
