@@ -1,21 +1,8 @@
 {
   "site": "Subterranean",
-  "last_run": "2026-06-14T23:40:02.998195Z",
-  "count": 7,
+  "last_run": "2026-06-15T02:07:23.383737Z",
+  "count": 6,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7x7_p",
-      "name": "Vacations",
-      "location": "Subterranean, Chicago",
-      "date": "Sun, Jun 14, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x7_p",
-      "sales": {
-        "public_start": "1900-01-01T18:00:00Z",
-        "public_end": "2026-06-15T00:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "Z7r9jZ1A7x_FK",
       "name": "Wax Monkey",

@@ -1,21 +1,8 @@
 {
   "site": "The Vic Theatre",
-  "last_run": "2026-06-14T23:40:02.479146Z",
-  "count": 51,
+  "last_run": "2026-06-15T02:07:22.069665Z",
+  "count": 50,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7-44M",
-      "name": "Honne w/ Beka",
-      "location": "Vic Theatre, Chicago",
-      "date": "Sun, Jun 14, 2026 · 7:30 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-44M",
-      "sales": {
-        "public_start": "1900-01-01T06:00:00Z",
-        "public_end": "2026-06-15T00:30:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "Z7r9jZ1A7xd0w",
       "name": "Del Amitri (18 and Over)",
