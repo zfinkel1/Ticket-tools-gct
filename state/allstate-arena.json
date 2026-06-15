@@ -1,21 +1,8 @@
 {
   "site": "Allstate Arena",
-  "last_run": "2026-06-15T02:07:25.936613Z",
-  "count": 35,
+  "last_run": "2026-06-15T07:41:15.621504Z",
+  "count": 34,
   "events": [
-    {
-      "slug": "vv1A7ZkoVGkdQS_n1",
-      "name": "Chicago Wolves",
-      "location": "Allstate Arena, Rosemont",
-      "date": "Sun, Jun 14, 2026 · 3:00 PM",
-      "url": "https://www.ticketmaster.com/chicago-wolves-rosemont-illinois-06-14-2026/event/04006474DACD9A8A",
-      "sales": {
-        "public_start": "2026-06-09T16:00:00Z",
-        "public_end": "2026-06-14T22:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "vv1A7Zk8YGkeRlMgw",
       "name": "Carin Leon - De Sonora Para El Mundo Tour 2026",

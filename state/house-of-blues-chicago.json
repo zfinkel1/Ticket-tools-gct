@@ -1,21 +1,8 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-06-15T02:07:19.109014Z",
-  "count": 65,
+  "last_run": "2026-06-15T07:41:10.487700Z",
+  "count": 64,
   "events": [
-    {
-      "slug": "vvG18Z_573GTOg",
-      "name": "Power to the P-Pole: What a Time to Have PRIDE",
-      "location": "Backporch Stage at House of Blues Chicago",
-      "date": "Sun, Jun 14, 2026 · 6:00 PM",
-      "url": "https://www.ticketmaster.com/power-to-the-ppole-what-a-chicago-illinois-06-14-2026/event/040064B11233F835",
-      "sales": {
-        "public_start": "2026-05-18T08:17:00Z",
-        "public_end": "2026-06-14T23:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
     {
       "slug": "vv178Z_aGkR9pcZX",
       "name": "Chicago Comedy Club",

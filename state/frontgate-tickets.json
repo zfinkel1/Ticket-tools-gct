@@ -1,22 +1,8 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-06-15T02:06:12.761527Z",
-  "count": 94,
+  "last_run": "2026-06-15T07:40:11.343411Z",
+  "count": 92,
   "events": [
-    {
-      "slug": "vans-warped-tour",
-      "name": "Vans Warped Tour - D.C.",
-      "location": "Washington D.C.",
-      "date": "June 13, 2026",
-      "url": "https://www.frontgatetickets.com/events/vans-warped-tour"
-    },
-    {
-      "slug": "lionheart-music-festival",
-      "name": "Lionheart Music Festival",
-      "location": "Orlando, FL",
-      "date": "June 13, 2026",
-      "url": "https://www.frontgatetickets.com/events/lionheart-music-festival"
-    },
     {
       "slug": "apocalypse-zombieland",
       "name": "Apocalypse: Zombieland",

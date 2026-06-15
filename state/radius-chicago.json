@@ -1,15 +1,8 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-06-15T02:07:21.435078Z",
+  "last_run": "2026-06-15T07:41:35.172041Z",
   "count": 10,
   "events": [
-    {
-      "slug": "1474786",
-      "name": "Radius Open Air Claude VonStroke",
-      "location": "",
-      "date": "Jun 14, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1474786"
-    },
     {
       "slug": "1405864",
       "name": "underscores Galleria - North American Chapter umru",
@@ -72,6 +65,35 @@
       "location": "",
       "date": "Aug 1, 2026",
       "url": "https://www.radius-chicago.com/events/detail/1460685"
+    },
+    {
+      "slug": "1461595",
+      "name": "OFFICIAL LOLLAPALOOZA AFTERSHOW Max Styler",
+      "location": "",
+      "date": "Aug 1, 2026",
+      "url": "https://www.radius-chicago.com/events/detail/1461595",
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

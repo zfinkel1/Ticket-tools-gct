@@ -1,26 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-15T02:07:24.036559Z",
-  "count": 99,
+  "last_run": "2026-06-15T07:41:14.380849Z",
+  "count": 98,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Afx7FK",
-      "name": "The Devil Said Jump / Jennifer Femme / Lake Davi",
-      "location": "Empty Bottle, Chicago",
-      "date": "Sun, Jun 14, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/the-devil-said-jump-empty-bottle-tickets/14884213",
-      "sales": {
-        "public_start": "2026-04-28T15:00:00Z",
-        "public_end": "2026-06-15T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 16.17,
-        "max": 16.17,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af08qd",
       "name": "FREE MONDAY w/ dmb the etymology / Sun Queen / Gorilla Tuesday",
