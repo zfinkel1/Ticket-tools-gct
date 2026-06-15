@@ -1,20 +1,8 @@
 {
   "site": "Tixr — Chicago",
-  "last_run": "2026-06-15T07:41:35.171540Z",
+  "last_run": "2026-06-15T13:42:22.493550Z",
   "count": 20,
   "events": [
-    {
-      "slug": "194110",
-      "name": "PR Fest Official After Party | Gold Coast Social",
-      "location": "Gold Coast Social",
-      "date": "Sun, Jun 14 at 10:00 PM CDT",
-      "url": "https://www.tixr.com/groups/acro/events/pr-fest-official-after-party-gold-coast-social-194110",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
-      }
-    },
     {
       "slug": "188529",
       "name": "WORLD CUP 26 - ARGENTINA VS ALGERIA",
@@ -237,6 +225,18 @@
       "location": "Reserv",
       "date": "Sat, Jun 20 at 8:00 PM CDT",
       "url": "https://www.tixr.com/groups/365presents/events/mia-rooftop-saturdays-21--185600",
+      "sales": {
+        "public_start": null,
+        "public_end": null,
+        "presales": []
+      }
+    },
+    {
+      "slug": "192305",
+      "name": "La Casita | Galeria",
+      "location": "Galeria Chicago",
+      "date": "Sat, Jun 20 at 10:00 PM CDT",
+      "url": "https://www.tixr.com/groups/acro/events/la-casita-galeria-192305",
       "sales": {
         "public_start": null,
         "public_end": null,
