@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-15T13:42:10.939824Z",
-  "count": 98,
+  "last_run": "2026-06-15T18:19:39.181207Z",
+  "count": 100,
   "events": [
     {
       "slug": "rZ7HnEZ1Af08qd",
@@ -382,6 +382,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1Afkfr7",
+      "name": "FREE MONDAY w/ Faerie Dream (Album Release) / Bussy Kween Power Trip / Koinflip",
+      "location": "Empty Bottle, Chicago",
+      "date": "Mon, Jul 6, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/free-monday-w-faerie-dream-empty-bottle-tickets/14194784",
+      "sales": {
+        "public_start": "2026-06-15T15:00:00Z",
+        "public_end": "2026-07-07T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1AfPtqS",
       "name": "Otherworldly Ambiguity w/ Club Drippy / Bone Study / Shanti / Scum.ee",
       "location": "Empty Bottle, Chicago",
@@ -398,6 +438,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Afk9PV",
+      "name": "Suitor / Current Union TM / Alga / Bath Drawers",
+      "location": "Empty Bottle, Chicago",
+      "date": "Wed, Jul 8, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/suitor-current-union-tm-empty-bottle-tickets/14197974",
+      "sales": {
+        "public_start": "2026-06-15T15:00:00Z",
+        "public_end": "2026-07-09T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 16.17,
+        "max": 16.17,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af0YfS",
@@ -545,7 +625,7 @@
     },
     {
       "slug": "rZ7HnEZ1AfqMbd",
-      "name": "Hunx and His Punx",
+      "name": "Hunx and His Punx / Slippers",
       "location": "Empty Bottle, Chicago",
       "date": "Thu, Jul 16, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/hunx-and-his-punx-empty-bottle-tickets/14777603",
@@ -1551,10 +1631,10 @@
     },
     {
       "slug": "rZ7HnEZ1Af0z0N",
-      "name": "Genesis Owusu",
+      "name": "*SOLD OUT* Genesis Owusu",
       "location": "Empty Bottle, Chicago",
       "date": "Tue, Nov 10, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/genesis-owusu-empty-bottle-tickets/14938923",
+      "url": "https://www.ticketweb.com/event/sold-out-genesis-owusu-empty-bottle-tickets/14938923",
       "sales": {
         "public_start": "2026-05-27T15:00:00Z",
         "public_end": "2026-11-11T03:00:00Z",

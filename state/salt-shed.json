@@ -1,7 +1,7 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-06-15T13:42:04.346344Z",
-  "count": 71,
+  "last_run": "2026-06-15T18:19:39.175167Z",
+  "count": 73,
   "events": [
     {
       "slug": "rZ7HnEZ1Af0-fN",
@@ -2059,6 +2059,72 @@
       "price_range": null
     },
     {
+      "slug": "vvG18Z_GR6IX5F",
+      "name": "Sleeping With Sirens: An Ending In Itself Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Sun, Oct 25, 2026 · 7:00 PM",
+      "url": "https://www.ticketmaster.com/sleeping-with-sirens-an-ending-in-chicago-illinois-10-25-2026/event/040064CBC7A3E2C8",
+      "sales": {
+        "public_start": "2026-06-18T15:00:00Z",
+        "public_end": "2026-10-26T03:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-06-17T15:00:00Z",
+            "end": "2026-06-18T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-16T15:00:00Z",
+            "end": "2026-06-18T03:00:00Z"
+          },
+          {
+            "name": "VIP Package Presale",
+            "start": "2026-06-15T17:00:00Z",
+            "end": "2026-06-18T04:59:00Z"
+          },
+          {
+            "name": "VIP Package Onsale",
+            "start": "2026-06-18T15:00:00Z",
+            "end": "2026-10-19T03:00:00Z"
+          },
+          {
+            "name": "Siren Club Presale",
+            "start": "2026-06-15T17:00:00Z",
+            "end": "2026-06-18T03:00:00Z"
+          },
+          {
+            "name": "Siren Club Membership Presale",
+            "start": "2026-06-15T17:00:00Z",
+            "end": "2026-06-18T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "vvG18Z_1NdArnR",
       "name": "The Dresden Dolls",
       "location": "The Salt Shed Indoors (Shed), Chicago",
@@ -2250,6 +2316,82 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_GlvFWtL",
+      "name": "Fetty Wap: Nostalgia Tour",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Fri, Nov 20, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/fetty-wap-nostalgia-tour-chicago-illinois-11-20-2026/event/040064CAC123DA5F",
+      "sales": {
+        "public_start": "2026-06-18T15:00:00Z",
+        "public_end": "2026-11-21T05:00:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-06-17T15:00:00Z",
+            "end": "2026-06-18T03:00:00Z"
+          },
+          {
+            "name": "Fetty Wap Presale",
+            "start": "2026-06-16T15:00:00Z",
+            "end": "2026-06-18T03:00:00Z"
+          },
+          {
+            "name": "Fetty Wap Social Presale",
+            "start": "2026-06-16T17:00:00Z",
+            "end": "2026-06-18T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-17T15:00:00Z",
+            "end": "2026-06-18T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-06-16T15:00:00Z",
+            "end": "2026-06-18T14:45:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-06-18T15:00:00Z",
+            "end": "2026-11-16T18:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Fetty Wap: Nostalgia",
+        "name": "Fetty Wap: Nostalgia Tour",
+        "popularity": 75,
+        "followers": 5101322,
+        "city_streams": 133867,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178ZbwGklTPKsE",

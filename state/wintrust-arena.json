@@ -1,7 +1,7 @@
 {
   "site": "Wintrust Arena",
-  "last_run": "2026-06-15T13:42:12.931858Z",
-  "count": 23,
+  "last_run": "2026-06-15T18:19:39.183226Z",
+  "count": 24,
   "events": [
     {
       "slug": "vv17jZ_dGkD9yttP",
@@ -337,6 +337,47 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG1jZ_GRfKJpc",
+      "name": "Cash Money & No Limit Tour",
+      "location": "Wintrust Arena, Chicago",
+      "date": "Fri, Nov 13, 2026 · 8:00 PM",
+      "url": "https://www.ticketmaster.com/cash-money-no-limit-tour-chicago-illinois-11-13-2026/event/070064CBD44E65AD",
+      "sales": {
+        "public_start": "2026-06-19T15:00:00Z",
+        "public_end": "2026-11-14T04:00:00Z",
+        "presales": [
+          {
+            "name": "Presale Offer",
+            "start": "2026-06-17T15:00:00Z",
+            "end": "2026-06-19T04:59:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vvG1jZ_G9OqFIS",

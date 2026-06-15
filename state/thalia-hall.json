@@ -1,6 +1,6 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-15T13:42:07.195662Z",
+  "last_run": "2026-06-15T18:19:02.777865Z",
   "count": 91,
   "events": [
     {
@@ -90,18 +90,18 @@
     },
     {
       "slug": "rZ7HnEZ1AfvpZ7",
-      "name": "Tigers Jaw with Pool Kids and Bleary Eyed presented by Thalia Hall and Riot Fest",
+      "name": "*SOLD OUT* Tigers Jaw with Pool Kids and Bleary Eyed presented by Thalia Hall and Riot Fest",
       "location": "Thalia Hall, Chicago",
       "date": "Sun, Jun 21, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/tigers-jaw-with-pool-kids-thalia-hall-tickets/14056004",
+      "url": "https://www.ticketweb.com/event/sold-out-tigers-jaw-with-thalia-hall-tickets/14056004",
       "sales": {
         "public_start": "2026-01-08T15:00:00Z",
         "public_end": "2026-06-22T01:00:00Z",
         "presales": []
       },
       "price_range": {
-        "min": 36.64,
-        "max": 54.02,
+        "min": 0.0,
+        "max": 0.0,
         "currency": "USD",
         "type": "standard"
       }
