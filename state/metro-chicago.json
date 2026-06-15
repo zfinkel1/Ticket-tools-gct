@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-15T18:18:23.465090Z",
-  "count": 60,
+  "last_run": "2026-06-15T21:35:29.946787Z",
+  "count": 61,
   "events": [
     {
       "slug": "underscores-galleria-north-american-chapter",
@@ -387,6 +387,35 @@
       "location": "",
       "date": "Sun, Oct 11",
       "url": "https://metrochicago.com/event/butttootking-2/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "holywatr-deo-gratias-tour",
+      "name": "Holywatr &#8211; Deo Gratias Tour",
+      "location": "",
+      "date": "Tue, Oct 13",
+      "url": "https://metrochicago.com/event/holywatr-deo-gratias-tour/metro-chicago/chicago-illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "digable-planets-blowout-comb-30th-anniversary-tour",

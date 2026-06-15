@@ -1,7 +1,7 @@
 {
   "site": "FrontGate Tickets",
-  "last_run": "2026-06-15T18:18:22.138070Z",
-  "count": 92,
+  "last_run": "2026-06-15T21:35:29.945863Z",
+  "count": 93,
   "events": [
     {
       "slug": "apocalypse-zombieland",
@@ -646,6 +646,35 @@
       "location": "Washington, DC",
       "date": "June 5, 2027",
       "url": "https://www.frontgatetickets.com/events/project-glow"
+    },
+    {
+      "slug": "vans-warped-tour",
+      "name": "Vans Warped Tour - D.C.",
+      "location": "Washington D.C.",
+      "date": "June 19, 2027",
+      "url": "https://www.frontgatetickets.com/events/vans-warped-tour",
+      "score_data": {
+        "score": 36,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

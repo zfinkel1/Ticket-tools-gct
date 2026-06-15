@@ -1,7 +1,7 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-15T18:19:39.181207Z",
-  "count": 100,
+  "last_run": "2026-06-15T21:35:29.947359Z",
+  "count": 102,
   "events": [
     {
       "slug": "rZ7HnEZ1Af08qd",
@@ -292,6 +292,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfkbP7",
+      "name": "Magic The Gathering",
+      "location": "Empty Bottle, Chicago",
+      "date": "Sun, Jun 28, 2026 · 12:00 PM",
+      "url": "https://www.ticketweb.com/event/magic-the-gathering-empty-bottle-tickets/14198944",
+      "sales": {
+        "public_start": "2026-06-15T15:00:00Z",
+        "public_end": "2026-06-28T21:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1Af-e_K",
       "name": "Elujay / Khalil",
       "location": "Empty Bottle, Chicago",
@@ -346,6 +386,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfkbOV",
+      "name": "Universal Togetherness Band / Cote",
+      "location": "Empty Bottle, Chicago",
+      "date": "Wed, Jul 1, 2026 · 8:00 PM",
+      "url": "https://www.ticketweb.com/event/universal-togetherness-band-cote-empty-bottle-tickets/14198834",
+      "sales": {
+        "public_start": "2026-06-15T15:00:00Z",
+        "public_end": "2026-07-02T01:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1AfZE_0",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
@@ -397,29 +477,7 @@
         "max": 0.0,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 33,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 3,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1AfPtqS",
@@ -455,29 +513,7 @@
         "max": 16.17,
         "currency": "USD",
         "type": "standard"
-      },
-      "score_data": {
-        "score": 32,
-        "rec": "skip",
-        "components": {
-          "history": 0,
-          "dow": 2,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Skip — score too low to justify"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      }
     },
     {
       "slug": "rZ7HnEZ1Af0YfS",

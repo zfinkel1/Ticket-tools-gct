@@ -1,6 +1,6 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-06-15T18:19:39.175167Z",
+  "last_run": "2026-06-15T21:34:56.224706Z",
   "count": 73,
   "events": [
     {
@@ -2100,29 +2100,7 @@
           }
         ]
       },
-      "price_range": null,
-      "score_data": {
-        "score": 35,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vvG18Z_1NdArnR",
@@ -2359,39 +2337,7 @@
           }
         ]
       },
-      "price_range": null,
-      "enrichment": {
-        "source": "flare",
-        "artist_query": "Fetty Wap: Nostalgia",
-        "name": "Fetty Wap: Nostalgia Tour",
-        "popularity": 75,
-        "followers": 5101322,
-        "city_streams": 133867,
-        "url": null,
-        "genres": []
-      },
-      "score_data": {
-        "score": 35,
-        "rec": "watch",
-        "components": {
-          "history": 0,
-          "dow": 5,
-          "pattern": 0,
-          "pattern_labels": [],
-          "venue_type": 0,
-          "venue_blacklist": 0,
-          "month": 0,
-          "auto_loser": 0,
-          "history_label": "no history",
-          "why": "Worth watching — no history yet, neutral signals"
-        }
-      },
-      "tier_predictions": [],
-      "gct_history": null,
-      "gct_venue_history": null,
-      "gct_artist_venues": [],
-      "current_sold": null,
-      "current_listing": null
+      "price_range": null
     },
     {
       "slug": "vv178ZbwGklTPKsE",
