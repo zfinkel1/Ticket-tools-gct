@@ -1,8 +1,164 @@
 {
   "site": "Concord Music Hall",
-  "last_run": "2026-06-15T21:34:58.743346Z",
-  "count": 2,
+  "last_run": "2026-06-16T02:10:35.788664Z",
+  "count": 7,
   "events": [
+    {
+      "slug": "Z7r9jZ1A70Y7U",
+      "name": "999999999 (18 and Over)",
+      "location": "Concord Music Hall, Chicago",
+      "date": "Sat, Jun 27, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Y7U",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-06-28T03:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 44,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": {
+        "flare_event_id": 56551468,
+        "sh_id": null
+      },
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A700fk",
+      "name": "Panteon Rococo",
+      "location": "Concord Music Hall, Chicago",
+      "date": "Sun, Jun 28, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A700fk",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-06-28T23:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A7Pa_x",
+      "name": "Mura Masa (18 and Over)",
+      "location": "Concord Music Hall, Chicago",
+      "date": "Thu, Jul 9, 2026 · 10:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pa_x",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-07-10T03:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 41,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
+      "slug": "Z7r9jZ1A704rp",
+      "name": "Yaeji (18 and Over)",
+      "location": "Concord Music Hall, Chicago",
+      "date": "Sat, Jul 18, 2026 · 9:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A704rp",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-07-19T02:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Yaeji",
+        "name": "Yaeji",
+        "popularity": 52,
+        "followers": 460209,
+        "city_streams": 9562,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 44,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 6,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — great day of week (+6); theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": {
+        "flare_event_id": 56359273,
+        "sh_id": null
+      },
+      "current_listing": null
+    },
     {
       "slug": "Z7r9jZ1A70Uke",
       "name": "Boots w/ 2charm",
@@ -28,6 +184,44 @@
         "presales": []
       },
       "price_range": null
+    },
+    {
+      "slug": "Z7r9jZ1A70ous",
+      "name": "Hayla (18 and Over)",
+      "location": "Concord Music Hall, Chicago",
+      "date": "Thu, Aug 6, 2026 · 9:00 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ous",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-08-07T02:00:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 41,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": {
+        "flare_event_id": 56229973,
+        "sh_id": null
+      },
+      "current_listing": null
     }
   ]
 }
