@@ -1,6 +1,6 @@
 {
   "site": "Rosemont Theatre",
-  "last_run": "2026-06-16T12:34:23.150832Z",
+  "last_run": "2026-06-17T23:09:54.569133Z",
   "count": 23,
   "events": [
     {
@@ -602,6 +602,16 @@
             "name": "Memorial Day Promo",
             "start": "2026-05-22T15:00:00Z",
             "end": "2026-05-26T03:00:00Z"
+          },
+          {
+            "name": "Father's Day Promo",
+            "start": "2026-06-19T15:00:00Z",
+            "end": "2026-06-22T03:00:00Z"
+          },
+          {
+            "name": "Salsa Club Promotion",
+            "start": "2026-06-19T15:00:00Z",
+            "end": "2026-10-30T04:45:00Z"
           }
         ]
       },

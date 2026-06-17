@@ -1,6 +1,6 @@
 {
   "site": "House of Blues Chicago",
-  "last_run": "2026-06-16T12:34:23.904219Z",
+  "last_run": "2026-06-17T23:12:41.698831Z",
   "count": 65,
   "events": [
     {
@@ -42,19 +42,6 @@
             "end": "2026-06-19T01:30:00Z"
           }
         ]
-      },
-      "price_range": null
-    },
-    {
-      "slug": "vvG18Z_G2fQWQe",
-      "name": "6ixteenth",
-      "location": "Foundation Room at House of Blues Chicago",
-      "date": "Fri, Jun 19, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/6ixteenth-chicago-illinois-06-19-2026/event/040064C3D46BD682",
-      "sales": {
-        "public_start": null,
-        "public_end": null,
-        "presales": []
       },
       "price_range": null
     },
@@ -2018,6 +2005,62 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_GXO_AsR",
+      "name": "Yaelokre",
+      "location": "House of Blues Chicago",
+      "date": "Sun, Nov 29, 2026 · 6:00 PM",
+      "url": "https://www.ticketmaster.com/yaelokre-chicago-illinois-11-29-2026/event/040064CFA0645C6F",
+      "sales": {
+        "public_start": "2026-06-19T15:00:00Z",
+        "public_end": "2026-11-30T00:00:00Z",
+        "presales": [
+          {
+            "name": "Citi® Cardmember Presale",
+            "start": "2026-06-17T14:00:00Z",
+            "end": "2026-06-19T04:59:00Z"
+          },
+          {
+            "name": "Citi® Cardmember Preferred Tickets",
+            "start": "2026-06-19T15:00:00Z",
+            "end": "2026-11-01T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-17T14:00:00Z",
+            "end": "2026-06-19T04:59:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-18T14:00:00Z",
+            "end": "2026-06-19T04:59:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 41,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 6,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     }
   ]
 }

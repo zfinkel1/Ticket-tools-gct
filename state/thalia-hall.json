@@ -1,39 +1,8 @@
 {
   "site": "Thalia Hall",
-  "last_run": "2026-06-16T12:34:24.888166Z",
-  "count": 91,
+  "last_run": "2026-06-17T23:12:41.701132Z",
+  "count": 93,
   "events": [
-    {
-      "slug": "Z7r9jZ1A7-0CZ",
-      "name": "Deer Tick (17+ Event)",
-      "location": "Thalia Hall, Chicago",
-      "date": "Tue, Jun 16, 2026 · 8:00 PM",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-0CZ",
-      "sales": {
-        "public_start": "2026-03-13T15:00:00Z",
-        "public_end": "2026-06-17T01:00:00Z",
-        "presales": []
-      },
-      "price_range": null
-    },
-    {
-      "slug": "rZ7HnEZ1Afq9AK",
-      "name": "Deer Tick with Jobi Riccio",
-      "location": "Thalia Hall, Chicago",
-      "date": "Tue, Jun 16, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/deer-tick-with-jobi-riccio-thalia-hall-tickets/14757153",
-      "sales": {
-        "public_start": "2026-03-10T16:00:00Z",
-        "public_end": "2026-06-17T01:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 39.96,
-        "max": 66.63,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1AfAf37",
       "name": "*CANCELLED* Enter Shikari: North America 2026 with Boston Manor and Initiate presented by Thalia Hall and Riot Fest",
@@ -426,6 +395,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1Afk480",
+      "name": "Sam Jay's Starting Lineup",
+      "location": "Thalia Hall, Chicago",
+      "date": "Thu, Jul 23, 2026 · 8:00 PM",
+      "url": "https://www.ticketweb.com/event/sam-jays-starting-lineup-thalia-hall-tickets/14195424",
+      "sales": {
+        "public_start": "2026-06-16T17:00:00Z",
+        "public_end": "2026-07-24T01:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 73.59,
+        "max": 489.35,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 41,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1Af-eFK",
       "name": "Kylesa with Yakuza and Cloud Rat",
       "location": "Thalia Hall, Chicago",
@@ -708,10 +717,10 @@
     },
     {
       "slug": "rZ7HnEZ1Af0E_d",
-      "name": "Club 1BD Chicago",
+      "name": "Club 1BD Chicago ft. DJ David & Hunny Bee",
       "location": "Thalia Hall, Chicago",
       "date": "Sat, Aug 15, 2026 · 8:00 PM",
-      "url": "https://www.ticketweb.com/event/club-1bd-chicago-thalia-hall-tickets/14927643",
+      "url": "https://www.ticketweb.com/event/club-1bd-chicago-ft-dj-thalia-hall-tickets/14927643",
       "sales": {
         "public_start": "2026-05-26T15:00:00Z",
         "public_end": "2026-08-16T04:59:00Z",
@@ -719,7 +728,7 @@
       },
       "price_range": {
         "min": 39.96,
-        "max": 392.63,
+        "max": 52.98,
         "currency": "USD",
         "type": "standard"
       }
@@ -815,6 +824,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfkoGV",
+      "name": "Earlybirds Club",
+      "location": "Thalia Hall, Chicago",
+      "date": "Fri, Aug 28, 2026 · 6:00 PM",
+      "url": "https://www.ticketweb.com/event/earlybirds-club-thalia-hall-tickets/14191334",
+      "sales": {
+        "public_start": "2026-06-18T15:00:00Z",
+        "public_end": "2026-08-28T23:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 39.96,
+        "max": 299.03,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1Af0sQK",
       "name": "Thalia Hall Free For All",
       "location": "Thalia Hall, Chicago",
@@ -903,6 +952,41 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "Z7r9jZ1A7PoQ_",
+      "name": "Shoshana Bean",
+      "location": "Thalia Hall, Chicago",
+      "date": "Sun, Sep 20, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PoQ_",
+      "sales": {
+        "public_start": "1900-01-01T06:00:00Z",
+        "public_end": "2026-09-21T00:30:00Z",
+        "presales": []
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 43,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af0SAN",
@@ -1544,6 +1628,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Afk4ZV",
+      "name": "Ibeyi",
+      "location": "Thalia Hall, Chicago",
+      "date": "Tue, Feb 2, 2027 · 8:00 PM",
+      "url": "https://www.ticketweb.com/event/ibeyi-thalia-hall-tickets/14195034",
+      "sales": {
+        "public_start": "2026-06-17T16:00:00Z",
+        "public_end": "2027-02-03T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 0.0,
+        "max": 0.0,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 42,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 4,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 8,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — theater/club venue (high margin)"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1Af7f-V",

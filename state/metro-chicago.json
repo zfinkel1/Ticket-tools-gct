@@ -1,7 +1,7 @@
 {
   "site": "Metro Chicago",
-  "last_run": "2026-06-16T12:33:33.865699Z",
-  "count": 61,
+  "last_run": "2026-06-17T23:12:41.693416Z",
+  "count": 63,
   "events": [
     {
       "slug": "underscores-galleria-north-american-chapter",
@@ -256,6 +256,35 @@
       "url": "https://metrochicago.com/event/peter-hook-the-light-north-american-tour-2026-2/metro-chicago/chicago-illinois/"
     },
     {
+      "slug": "ceremony",
+      "name": "Ceremony",
+      "location": "",
+      "date": "Sat, Sep 12",
+      "url": "https://metrochicago.com/event/ceremony/metro-chicago/chicago-illinois/",
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "avalon-emerson-the-charm",
       "name": "Avalon Emerson &#038; The Charm",
       "location": "",
@@ -401,6 +430,48 @@
       "location": "",
       "date": "Sun, Oct 18",
       "url": "https://metrochicago.com/event/digable-planets-blowout-comb-30th-anniversary-tour/metro-chicago/chicago-illinois/"
+    },
+    {
+      "slug": "whitney",
+      "name": "Whitney",
+      "location": "",
+      "date": "Thu, Oct 22",
+      "url": "https://metrochicago.com/event/whitney/metro-chicago/chicago-illinois/",
+      "enrichment": {
+        "source": "flare",
+        "artist_query": "Whitney",
+        "name": "Whitney",
+        "popularity": 52,
+        "followers": 276595,
+        "city_streams": 5637,
+        "url": null,
+        "genres": []
+      },
+      "score_data": {
+        "score": 30,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 0,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": {
+        "flare_event_id": 2901637,
+        "sh_id": null
+      },
+      "current_listing": null
     },
     {
       "slug": "plini-an-unnameable-desire-north-american-tour",

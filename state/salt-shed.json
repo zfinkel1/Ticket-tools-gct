@@ -1,26 +1,8 @@
 {
   "site": "Salt Shed",
-  "last_run": "2026-06-16T12:34:21.979208Z",
-  "count": 73,
+  "last_run": "2026-06-17T23:12:41.694453Z",
+  "count": 74,
   "events": [
-    {
-      "slug": "rZ7HnEZ1Af0-fN",
-      "name": "The 6th Annual Juneteenth Freedom Market",
-      "location": "The Salt Shed Outdoors (Fairgrounds), Chicago",
-      "date": "Tue, Jun 16, 2026 · 5:00 PM",
-      "url": "https://www.ticketweb.com/event/the-6th-annual-juneteenth-freedom-the-salt-shed-outdoors-fairgrounds-tickets/14921523",
-      "sales": {
-        "public_start": "2026-05-15T16:00:00Z",
-        "public_end": "2026-06-17T03:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 14.6,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "vv1A7Zko0GkdnbWn3",
       "name": "Marcus King Band - Darling Blue Tour Pt. 2",
@@ -1078,6 +1060,72 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_GTQTn2i",
+      "name": "ISAIAH RASHAD: Lil Sunny's Awful Road Trip",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Thu, Sep 3, 2026 · 6:30 PM",
+      "url": "https://www.ticketmaster.com/isaiah-rashad-lil-sunnys-awful-road-chicago-illinois-09-03-2026/event/040064CFDAFEA3EC",
+      "sales": {
+        "public_start": "2026-06-22T15:00:00Z",
+        "public_end": "2026-09-04T02:30:00Z",
+        "presales": [
+          {
+            "name": "The Salt Shed Online Presale",
+            "start": "2026-06-19T15:00:00Z",
+            "end": "2026-06-22T03:00:00Z"
+          },
+          {
+            "name": "LIVE NATION PRESALE",
+            "start": "2026-06-19T15:00:00Z",
+            "end": "2026-06-22T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Presale",
+            "start": "2026-06-19T15:00:00Z",
+            "end": "2026-06-22T03:00:00Z"
+          },
+          {
+            "name": "VIP Packages Onsale",
+            "start": "2026-06-22T15:00:00Z",
+            "end": "2026-08-30T17:00:00Z"
+          },
+          {
+            "name": "Artist Presale",
+            "start": "2026-06-18T15:00:00Z",
+            "end": "2026-06-22T03:00:00Z"
+          },
+          {
+            "name": "Artist Presale VIP Package",
+            "start": "2026-06-18T15:00:00Z",
+            "end": "2026-06-19T14:45:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vv178Z_dGkRMunYm",
@@ -2193,6 +2241,47 @@
         ]
       },
       "price_range": null
+    },
+    {
+      "slug": "vvG18Z_ueUZbii",
+      "name": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2' IN NORTH AMERICA",
+      "location": "The Salt Shed Indoors (Shed), Chicago",
+      "date": "Wed, Nov 4, 2026 · 7:30 PM",
+      "url": "https://www.ticketmaster.com/boynextdoor-tour-knock-on-vol2-in-chicago-illinois-11-04-2026/event/040064D0B6018B2C",
+      "sales": {
+        "public_start": "2026-06-26T21:00:00Z",
+        "public_end": "2026-11-05T04:30:00Z",
+        "presales": [
+          {
+            "name": "Weverse Presale",
+            "start": "2026-06-24T21:00:00Z",
+            "end": "2026-06-26T03:00:00Z"
+          }
+        ]
+      },
+      "price_range": null,
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "vvG18Z_1D9_cGm",

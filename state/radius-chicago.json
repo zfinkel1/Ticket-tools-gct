@@ -1,6 +1,6 @@
 {
   "site": "Radius Chicago",
-  "last_run": "2026-06-16T12:34:26.245821Z",
+  "last_run": "2026-06-17T23:12:41.703644Z",
   "count": 10,
   "events": [
     {
@@ -9,13 +9,6 @@
       "location": "",
       "date": "Jun 19, 2026",
       "url": "https://www.radius-chicago.com/events/detail/1405864"
-    },
-    {
-      "slug": "1445743",
-      "name": "CREEDS EARGASM GOD, ABAE",
-      "location": "",
-      "date": "Jun 19, 2026",
-      "url": "https://www.radius-chicago.com/events/detail/1445743"
     },
     {
       "slug": "1485528",
@@ -72,6 +65,38 @@
       "location": "",
       "date": "Aug 1, 2026",
       "url": "https://www.radius-chicago.com/events/detail/1461595"
+    },
+    {
+      "slug": "1099683",
+      "name": "MEAT XXL Market Days 2026",
+      "location": "",
+      "date": "Aug 7, 2026",
+      "url": "https://www.radius-chicago.com/events/detail/1099683",
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": {
+        "flare_event_id": 2817112,
+        "sh_id": null
+      },
+      "current_listing": null
     }
   ]
 }

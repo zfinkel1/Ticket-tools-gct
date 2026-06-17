@@ -1,6 +1,6 @@
 {
   "site": "United Center",
-  "last_run": "2026-06-16T12:34:29.915999Z",
+  "last_run": "2026-06-17T23:09:59.248797Z",
   "count": 72,
   "events": [
     {
@@ -11,7 +11,7 @@
       "url": "https://www.ticketmaster.com/the-strokes-reality-awaits-north-america-chicago-illinois-06-17-2026/event/04006489C1A17E14",
       "sales": {
         "public_start": "2026-04-17T15:00:00Z",
-        "public_end": "2026-06-17T23:00:00Z",
+        "public_end": "2026-06-18T00:00:00Z",
         "presales": [
           {
             "name": "VIP Packages Presale",

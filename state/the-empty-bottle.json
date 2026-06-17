@@ -1,44 +1,8 @@
 {
   "site": "The Empty Bottle",
-  "last_run": "2026-06-16T12:34:28.606213Z",
-  "count": 101,
+  "last_run": "2026-06-17T23:12:41.705746Z",
+  "count": 102,
   "events": [
-    {
-      "slug": "rZ7HnEZ1AfPMrK",
-      "name": "'Tini Tuesday",
-      "location": "Empty Bottle, Chicago",
-      "date": "Tue, Jun 16, 2026 · 5:00 PM",
-      "url": "https://www.ticketweb.com/event/tini-tuesday-empty-bottle-tickets/14977793",
-      "sales": {
-        "public_start": "2026-06-05T05:00:00Z",
-        "public_end": "2026-06-17T00:30:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 0.0,
-        "max": 0.0,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
-    {
-      "slug": "rZ7HnEZ1AfqZ_d",
-      "name": "City of the Sun / Alta Vista",
-      "location": "Empty Bottle, Chicago",
-      "date": "Tue, Jun 16, 2026 · 9:00 PM",
-      "url": "https://www.ticketweb.com/event/city-of-the-sun-empty-bottle-tickets/14740643",
-      "sales": {
-        "public_start": "2026-02-27T15:00:00Z",
-        "public_end": "2026-06-17T02:00:00Z",
-        "presales": []
-      },
-      "price_range": {
-        "min": 23.48,
-        "max": 23.48,
-        "currency": "USD",
-        "type": "standard"
-      }
-    },
     {
       "slug": "rZ7HnEZ1Af0YfN",
       "name": "Memory Card / imy3 / The Philadelphia Eagles / Cambodian SIM Card",
@@ -257,7 +221,7 @@
     },
     {
       "slug": "rZ7HnEZ1AfqSON",
-      "name": "*SOLD OUT* Prostitute / Lynyn (DJ)",
+      "name": "*SOLD OUT* Prostitute / Lynyn",
       "location": "Empty Bottle, Chicago",
       "date": "Sat, Jun 27, 2026 · 9:00 PM",
       "url": "https://www.ticketweb.com/event/sold-out-prostitute-lynyn-empty-bottle-tickets/14773823",
@@ -740,6 +704,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1Afkbvf",
+      "name": "Cel Ray (Record Release) / Negative Scanner / Fruit Looops / Bric a Brac DJs",
+      "location": "Empty Bottle, Chicago",
+      "date": "Fri, Jul 24, 2026 · 10:00 PM",
+      "url": "https://www.ticketweb.com/event/cel-ray-record-release-empty-bottle-tickets/14198054",
+      "sales": {
+        "public_start": "2026-06-17T15:00:00Z",
+        "public_end": "2026-07-25T03:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 20.39,
+        "max": 20.39,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 35,
+        "rec": "watch",
+        "components": {
+          "history": 0,
+          "dow": 5,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Worth watching — no history yet, neutral signals"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "Z7r9jZ1A70U8z",
@@ -1478,6 +1482,46 @@
       }
     },
     {
+      "slug": "rZ7HnEZ1AfFZu0",
+      "name": "Faux Real",
+      "location": "Empty Bottle, Chicago",
+      "date": "Thu, Oct 15, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/faux-real-empty-bottle-tickets/14200364",
+      "sales": {
+        "public_start": "2026-06-19T15:00:00Z",
+        "public_end": "2026-10-16T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 23.48,
+        "max": 23.48,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 33,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 3,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
+    },
+    {
       "slug": "rZ7HnEZ1AfZEr7",
       "name": "Hard Country Honky Tonk with The Hoyle Brothers",
       "location": "Empty Bottle, Chicago",
@@ -1512,6 +1556,46 @@
         "currency": "USD",
         "type": "standard"
       }
+    },
+    {
+      "slug": "rZ7HnEZ1AfJ63d",
+      "name": "Delicate Steve",
+      "location": "Empty Bottle, Chicago",
+      "date": "Wed, Oct 28, 2026 · 9:00 PM",
+      "url": "https://www.ticketweb.com/event/delicate-steve-empty-bottle-tickets/14987483",
+      "sales": {
+        "public_start": "2026-06-19T15:00:00Z",
+        "public_end": "2026-10-29T02:00:00Z",
+        "presales": []
+      },
+      "price_range": {
+        "min": 28.84,
+        "max": 28.84,
+        "currency": "USD",
+        "type": "standard"
+      },
+      "score_data": {
+        "score": 32,
+        "rec": "skip",
+        "components": {
+          "history": 0,
+          "dow": 2,
+          "pattern": 0,
+          "pattern_labels": [],
+          "venue_type": 0,
+          "venue_blacklist": 0,
+          "month": 0,
+          "auto_loser": 0,
+          "history_label": "no history",
+          "why": "Skip — score too low to justify"
+        }
+      },
+      "tier_predictions": [],
+      "gct_history": null,
+      "gct_venue_history": null,
+      "gct_artist_venues": [],
+      "current_sold": null,
+      "current_listing": null
     },
     {
       "slug": "rZ7HnEZ1AfOUjS",
