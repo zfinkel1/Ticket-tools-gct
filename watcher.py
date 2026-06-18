@@ -454,8 +454,11 @@ def main():
             exit_code = 1
             continue
 
-        # Optional throttling: skip sites that ran recently
-        min_hrs = site.get("min_interval_hours")
+        # Throttle: skip sites that ran recently. DEFAULT 1h (hourly) — new-show
+        # announcements appear daily/weekly, not minute-to-minute, so hourly
+        # catches them while keeping credit use tiny. Override per-site (TAO uses
+        # 0.25 = 15 min for late add-on drops).
+        min_hrs = site.get("min_interval_hours", 1.0)
         if min_hrs:
             state = load_state(site)
             last = state.get("last_run")

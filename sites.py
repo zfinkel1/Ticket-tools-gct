@@ -43,10 +43,11 @@ SITES = [
         "name": "TAO Nightclub Chicago",
         "parser": "taogroup",
         "venue_id": 131,
-        # Runs on the fast (every-5-min) workflow instead of the 15-min one
-        # because TAO drops add-ons close to event time and the extra cadence
-        # catches them while listings are still available.
+        # TAO drops add-ons close to event time, so it gets a faster 15-min
+        # cadence while everything else defaults to hourly. priority=fast keeps
+        # it on the frequent cron so the 15-min throttle can actually fire.
         "priority": "fast",
+        "min_interval_hours": 0.25,
     },
     {
         "name": "Salt Shed",
