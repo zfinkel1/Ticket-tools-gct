@@ -214,10 +214,28 @@ def build_email(by_site, baselined_sites=None):
                 pop = 0
             return -(int(score) * 100 + pop)
         events = sorted(events, key=_sort_key)
+        # Collapse same-name shows (multi-date runs + same-date dupes) into ONE
+        # row, so a 4-night residency or a 1pm+7pm Monster Jam doesn't fire 4-5
+        # near-identical alerts. Keep the best-scored instance's enrichment and
+        # list all its dates. Per-date tracking still happens via slug, so a
+        # genuinely new date added later still alerts (grouped under the name).
+        groups = {}
+        for e in events:  # already sorted by score desc, so [0] is the best
+            gkey = re.sub(r"[^a-z0-9]", "", (e.get("name", "") or "").lower())
+            groups.setdefault(gkey, []).append(e)
         rows = []
-        for e in events:
+        for evs in groups.values():
+            e = evs[0]
             name = html.escape(html.unescape(e.get("name", "Unnamed")))
-            date = html.escape(e.get("date") or "TBA")
+            _dates = []
+            for x in evs:
+                dd = (x.get("date") or "").strip()
+                if dd and dd not in _dates:
+                    _dates.append(dd)
+            if len(_dates) <= 1:
+                date = html.escape(_dates[0] if _dates else "TBA")
+            else:
+                date = html.escape(f"{len(_dates)} dates · " + " · ".join(_dates[:3]) + (" …" if len(_dates) > 3 else ""))
             loc = html.escape(e.get("location") or "")
             url = html.escape(e.get("url", "#"), quote=True)
             enrichment_html = _enrichment_html(e)
@@ -249,7 +267,7 @@ def build_email(by_site, baselined_sites=None):
             """)
         sections.append(f"""
           <h3 style="font-size:13px;letter-spacing:0.05em;color:#c9a227;text-transform:uppercase;margin:24px 0 10px;">
-            {html.escape(site_name)} &mdash; {len(events)} new
+            {html.escape(site_name)} &mdash; {len(groups)} new
           </h3>
           <table style="width:100%;border-collapse:collapse;background:#fafbff;border-radius:10px;overflow:hidden;border:1px solid #eee;">
             {''.join(rows)}
