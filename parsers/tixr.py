@@ -23,32 +23,20 @@ The API returns a JSON array of event objects. Each:
 """
 
 import json
-import os
 import urllib.parse
-import urllib.request
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
+from ._common import scrapfly_fetch
+
 
 def parse(site):
-    api_key = os.environ.get("SCRAPERAPI_KEY")
-    if not api_key:
-        raise RuntimeError("SCRAPERAPI_KEY not set — required for Tixr parser")
-
     city = site.get("city", "chicago")
     page_size = site.get("page_size", 50)
     target = f"https://www.tixr.com/api/events?city={urllib.parse.quote(city)}&page=1&pageSize={page_size}"
 
-    params = urllib.parse.urlencode({
-        "api_key": api_key,
-        "url": target,
-        "premium": "true",
-    })
-    sp_url = f"https://api.scraperapi.com?{params}"
-
-    req = urllib.request.Request(sp_url)
-    with urllib.request.urlopen(req, timeout=90) as r:
-        body = r.read().decode("utf-8", errors="ignore")
+    # Scrapfly (asp) bypasses DataDome on Tixr's JSON API — no render needed.
+    body = scrapfly_fetch(target)
 
     data = json.loads(body)
     if not isinstance(data, list):

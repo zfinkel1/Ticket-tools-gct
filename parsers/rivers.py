@@ -23,6 +23,8 @@ import urllib.parse
 import urllib.request
 from urllib.parse import urljoin, urlparse
 
+from ._common import scrapfly_fetch
+
 try:
     from playwright.sync_api import sync_playwright
     PLAYWRIGHT_AVAILABLE = True
@@ -72,11 +74,14 @@ def _fetch_via_playwright(url):
 
 def parse(site):
     url = site["url"]
-    api_key = os.environ.get("SCRAPERAPI_KEY")
-    if api_key:
-        html = _fetch_via_scraperapi(url, api_key)
-    else:
+    # Scrapfly (asp + render_js) bypasses Cloudflare and renders the Gatsby JS,
+    # replacing ScraperAPI. Playwright stays only as a local no-key fallback.
+    if os.environ.get("SCRAPFLY_KEY"):
+        html = scrapfly_fetch(url, render_js=True, wait_ms=3000)
+    elif PLAYWRIGHT_AVAILABLE:
         html = _fetch_via_playwright(url)
+    else:
+        raise RuntimeError("SCRAPFLY_KEY not set and Playwright unavailable")
 
     base = _base_url(url)
     events = []
