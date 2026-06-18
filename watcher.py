@@ -46,7 +46,11 @@ from enrich.stubhub import enrich_event_with_listing, current_listing_html
 from enrich.sales import sales_status_html, price_range_html
 from enrich.recommend import recommendation_html
 
-STATE_DIR = Path(__file__).parent / "state"
+# State lives next to the code by default (GitHub Actions commits it back), but
+# on Railway a VOLUME is mounted and we write state there so it survives
+# redeploys. Set RAILWAY_VOLUME_MOUNT_PATH (Railway does this automatically when
+# a volume is attached) to switch.
+STATE_DIR = Path(os.environ.get("RAILWAY_VOLUME_MOUNT_PATH") or str(Path(__file__).parent)) / "state"
 HEALTH_PATH = STATE_DIR / "health.json"
 
 # A site is "stale" if its last successful run is older than this. Triggers
