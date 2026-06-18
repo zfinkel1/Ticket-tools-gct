@@ -1,0 +1,5 @@
+# The watcher is stdlib-only, but this file must exist so Railway/Nixpacks
+# detects a Python app (without it the build can't determine how to build).
+# tzdata ships the IANA timezone database so zoneinfo (ZoneInfo("America/Chicago"))
+# works on Railway's minimal Linux image, where the system tz data may be absent.
+tzdata
