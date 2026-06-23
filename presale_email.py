@@ -90,6 +90,54 @@ def parse_presale_windows(s):
     return out
 
 
+# US state → IANA timezone (dominant tz per state). Used to convert the API's
+# venue-LOCAL presale times to Central. The CSV path doesn't need this (it has a
+# clean PresaleStartGMT column); this is only for the live API path.
+STATE_TZ = {
+    'CT': 'America/New_York', 'DE': 'America/New_York', 'FL': 'America/New_York',
+    'GA': 'America/New_York', 'IN': 'America/New_York', 'KY': 'America/New_York',
+    'ME': 'America/New_York', 'MD': 'America/New_York', 'MA': 'America/New_York',
+    'MI': 'America/New_York', 'NH': 'America/New_York', 'NJ': 'America/New_York',
+    'NY': 'America/New_York', 'NC': 'America/New_York', 'OH': 'America/New_York',
+    'PA': 'America/New_York', 'RI': 'America/New_York', 'SC': 'America/New_York',
+    'VT': 'America/New_York', 'VA': 'America/New_York', 'WV': 'America/New_York',
+    'DC': 'America/New_York',
+    'AL': 'America/Chicago', 'AR': 'America/Chicago', 'IL': 'America/Chicago',
+    'IA': 'America/Chicago', 'KS': 'America/Chicago', 'LA': 'America/Chicago',
+    'MN': 'America/Chicago', 'MS': 'America/Chicago', 'MO': 'America/Chicago',
+    'NE': 'America/Chicago', 'ND': 'America/Chicago', 'OK': 'America/Chicago',
+    'SD': 'America/Chicago', 'TN': 'America/Chicago', 'TX': 'America/Chicago',
+    'WI': 'America/Chicago',
+    'CO': 'America/Denver', 'ID': 'America/Denver', 'MT': 'America/Denver',
+    'NM': 'America/Denver', 'UT': 'America/Denver', 'WY': 'America/Denver',
+    'AZ': 'America/Phoenix',
+    'CA': 'America/Los_Angeles', 'NV': 'America/Los_Angeles',
+    'OR': 'America/Los_Angeles', 'WA': 'America/Los_Angeles',
+    'AK': 'America/Anchorage', 'HI': 'Pacific/Honolulu',
+}
+
+
+def central_from_local(s, state):
+    """Convert a pipe-delimited 'YYYY-MM-DD HH:MM:SS' string of venue-LOCAL times
+    to Central, using the event's state timezone. Leaves unparseable bits as-is."""
+    tzname = STATE_TZ.get((state or "").upper(), "America/Chicago")
+    try:
+        tz = ZoneInfo(tzname)
+    except Exception:
+        tz = CENTRAL
+    out = []
+    for chunk in str(s or "").split("|"):
+        chunk = chunk.strip()
+        if not chunk:
+            continue
+        try:
+            dt = datetime.strptime(chunk[:19], "%Y-%m-%d %H:%M:%S").replace(tzinfo=tz).astimezone(CENTRAL)
+            out.append(dt.strftime("%Y-%m-%d %H:%M:%S"))
+        except Exception:
+            out.append(chunk)
+    return "|".join(out)
+
+
 def load_from_file(path):
     """Read the presale list from a Flare CSV/Excel export and shape each event
     exactly like fetch_presale_api returns, so scoring/filtering are identical.
@@ -377,6 +425,11 @@ def main():
         if isinstance(events, dict):
             print("[presale-email] Flare API error:", events)
             return 1
+        # API presale times are venue-LOCAL — convert to Central (via state tz) so
+        # the digest's times match the CSV path. Done before caching so the cache
+        # is already Central too.
+        for ev in events:
+            ev["presale_start"] = central_from_local(ev.get("presale_start"), ev.get("state"))
         try:
             with open(cache, "w", encoding="utf-8") as f:
                 json.dump(events, f)
