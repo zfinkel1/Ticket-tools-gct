@@ -61,26 +61,30 @@ def _run_presale_email(reason):
     r = subprocess.run([sys.executable, PRESALE_EMAIL], cwd=HERE,
                        env={**os.environ, "SEND": "1"}, check=False)
     if r.returncode != 0:
-        # e.g. Flare 429 — leave it un-marked so the next tick retries
-        print(f"[presale] send failed (exit {r.returncode}) — will retry next tick", flush=True)
+        print(f"[presale] send exited {r.returncode} (not retrying today)", flush=True)
     return r.returncode == 0
 
 
 def maybe_run_presale_email():
     global _presale_sent_now
-    # One-off boot test (e.g. send to one address before the full rollout).
-    # Only latch as done on a SUCCESSFUL send, so a transient 429 retries.
+    # One-off boot test: fire AT MOST ONCE per process (per deploy), regardless of
+    # success/failure. The Flare /api/all-events endpoint is DAILY-capped AND counts
+    # failed (429) attempts, so retrying on failure would hammer the quota. To re-test,
+    # redeploy. Latches before running so a crash can't loop either.
     if os.environ.get("PRESALE_SEND_NOW") == "1" and not _presale_sent_now:
-        if _run_presale_email("PRESALE_SEND_NOW test"):
-            _presale_sent_now = True
+        _presale_sent_now = True
+        _run_presale_email("PRESALE_SEND_NOW test")
         return
     if os.environ.get("PRESALE_EMAIL_ENABLED") != "1":
         return
     now = datetime.now(CENTRAL) if CENTRAL else datetime.now()
     daystr = now.strftime("%Y-%m-%d")
+    # Daily trigger: attempt AT MOST ONCE per day. Mark the day BEFORE running so a
+    # 429/failure doesn't re-fire every tick (retrying a daily-capped pull is futile
+    # and just burns quota). A missed day waits for tomorrow.
     if now.hour >= PRESALE_HOUR and _presale_last_sent() != daystr:
-        if _run_presale_email(f"daily {PRESALE_HOUR}:00 Central"):
-            _mark_presale_sent(daystr)
+        _mark_presale_sent(daystr)
+        _run_presale_email(f"daily {PRESALE_HOUR}:00 Central")
 
 
 print(f"[worker] starting — running the watcher every {LOOP_SECONDS}s "
