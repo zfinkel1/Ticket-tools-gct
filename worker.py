@@ -67,22 +67,27 @@ def _run_presale_email(reason):
 
 def maybe_run_presale_email():
     global _presale_sent_now
-    # One-off boot test: fire AT MOST ONCE per process (per deploy), regardless of
-    # success/failure. The Flare /api/all-events endpoint is DAILY-capped AND counts
-    # failed (429) attempts, so retrying on failure would hammer the quota. To re-test,
-    # redeploy. Latches before running so a crash can't loop either.
-    if os.environ.get("PRESALE_SEND_NOW") == "1" and not _presale_sent_now:
-        _presale_sent_now = True
-        _run_presale_email("PRESALE_SEND_NOW test")
-        return
-    if os.environ.get("PRESALE_EMAIL_ENABLED") != "1":
-        return
     now = datetime.now(CENTRAL) if CENTRAL else datetime.now()
     daystr = now.strftime("%Y-%m-%d")
-    # Daily trigger: attempt AT MOST ONCE per day. Mark the day BEFORE running so a
-    # 429/failure doesn't re-fire every tick (retrying a daily-capped pull is futile
-    # and just burns quota). A missed day waits for tomorrow.
-    if now.hour >= PRESALE_HOUR and _presale_last_sent() != daystr:
+
+    # HARD GUARANTEE: the team gets AT MOST ONE digest per calendar day — full stop.
+    # Both the boot test and the daily trigger share this single persistent dated
+    # latch (on the Railway volume), so no combination of redeploys, restarts,
+    # crashes, 429s, or the test flag can ever double-send or hammer. We mark the
+    # day BEFORE running (a failed send still burns the day rather than retrying).
+    if _presale_last_sent() == daystr or _presale_sent_now:
+        return
+
+    # One-off boot test — fires once, then the dated latch blocks the rest of today.
+    if os.environ.get("PRESALE_SEND_NOW") == "1":
+        _presale_sent_now = True
+        _mark_presale_sent(daystr)
+        _run_presale_email("PRESALE_SEND_NOW test")
+        return
+
+    # Daily 2pm Central trigger.
+    if os.environ.get("PRESALE_EMAIL_ENABLED") == "1" and now.hour >= PRESALE_HOUR:
+        _presale_sent_now = True
         _mark_presale_sent(daystr)
         _run_presale_email(f"daily {PRESALE_HOUR}:00 Central")
 
