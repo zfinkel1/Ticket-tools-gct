@@ -58,24 +58,29 @@ def _mark_presale_sent(daystr):
 
 def _run_presale_email(reason):
     print(f"[presale] sending digest ({reason})…", flush=True)
-    subprocess.run([sys.executable, PRESALE_EMAIL], cwd=HERE,
-                   env={**os.environ, "SEND": "1"}, check=False)
+    r = subprocess.run([sys.executable, PRESALE_EMAIL], cwd=HERE,
+                       env={**os.environ, "SEND": "1"}, check=False)
+    if r.returncode != 0:
+        # e.g. Flare 429 — leave it un-marked so the next tick retries
+        print(f"[presale] send failed (exit {r.returncode}) — will retry next tick", flush=True)
+    return r.returncode == 0
 
 
 def maybe_run_presale_email():
     global _presale_sent_now
-    # One-off boot test (e.g. send to one address before the full rollout)
+    # One-off boot test (e.g. send to one address before the full rollout).
+    # Only latch as done on a SUCCESSFUL send, so a transient 429 retries.
     if os.environ.get("PRESALE_SEND_NOW") == "1" and not _presale_sent_now:
-        _run_presale_email("PRESALE_SEND_NOW test")
-        _presale_sent_now = True
+        if _run_presale_email("PRESALE_SEND_NOW test"):
+            _presale_sent_now = True
         return
     if os.environ.get("PRESALE_EMAIL_ENABLED") != "1":
         return
     now = datetime.now(CENTRAL) if CENTRAL else datetime.now()
     daystr = now.strftime("%Y-%m-%d")
     if now.hour >= PRESALE_HOUR and _presale_last_sent() != daystr:
-        _run_presale_email(f"daily {PRESALE_HOUR}:00 Central")
-        _mark_presale_sent(daystr)
+        if _run_presale_email(f"daily {PRESALE_HOUR}:00 Central"):
+            _mark_presale_sent(daystr)
 
 
 print(f"[worker] starting — running the watcher every {LOOP_SECONDS}s "
