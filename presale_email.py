@@ -34,6 +34,9 @@ CENTRAL = ZoneInfo("America/Chicago")
 DAYS_AHEAD = int(os.environ.get("DAYS_AHEAD", "1"))
 MAX_NATIONWIDE = int(os.environ.get("MAX_NATIONWIDE", "60"))
 SEND = os.environ.get("SEND") == "1"
+# Stopgap when the Flare API is rate-limited: read the presale list from a Flare
+# CSV/Excel export instead of the API. Same columns the Analyzer's upload uses.
+PRESALE_FILE = os.environ.get("PRESALE_FILE")
 FROM_EMAIL = os.environ.get("FROM_EMAIL", "noreply@sportscardnetwork.ai")
 # Presale recipients have their own var so they don't collide with the venue
 # watcher's ALERT_EMAIL on the shared Railway service. Falls back to ALERT_EMAIL.
@@ -60,6 +63,11 @@ DOWNSTATE_IL = {"springfield", "bloomington", "normal", "champaign", "peoria",
 
 def is_chicagoland(ev):
     city = (ev.get("city") or "").lower().strip()
+    state = (ev.get("state") or "").upper().strip()
+    # Chicagoland is all Illinois — guard against Flare's mislabeled rows
+    # (e.g. "Joliet, CA" / "Berkeley→Joliet, CA"), which is bad data on their end.
+    if state and state != "IL":
+        return False
     if city in DOWNSTATE_IL:
         return False
     if city in CHICAGOLAND:
@@ -79,6 +87,78 @@ def parse_presale_windows(s):
             out.append(datetime.strptime(chunk[:19], "%Y-%m-%d %H:%M:%S"))
         except Exception:
             pass
+    return out
+
+
+def load_from_file(path):
+    """Read the presale list from a Flare CSV/Excel export and shape each event
+    exactly like fetch_presale_api returns, so scoring/filtering are identical.
+    Columns match the Analyzer's upload: EventName, URL, VenueName, VenueLocation,
+    EventDate, PresaleName, PresaleStartLocalDate, Segment."""
+    import pandas as pd
+    df = pd.read_excel(path) if str(path).lower().endswith((".xlsx", ".xls")) else pd.read_csv(path)
+    US = {'AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA',
+          'ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK',
+          'OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC'}
+    CA = {'ON','BC','QC','AB','MB','SK','NS','NB','NL','PE','NT','YT','NU'}
+    events = {}
+    for _, row in df.iterrows():
+        name = str(row.get("EventName", "") or "").strip()
+        if not name or name == "nan":
+            continue
+        location = str(row.get("VenueLocation", "") or "").strip()
+        city, state, country = PA.parse_location(location)
+        if country == "CA" or state in CA:
+            continue
+        if country and country not in ("US", ""):
+            continue
+        if not country and state and state.strip().upper() not in US:
+            continue
+        url = str(row.get("URL", "") or "").strip()
+        key = url or name
+        ev = events.get(key)
+        if ev is None:
+            event_date = str(row.get("EventDate", "") or "").strip()
+            try:
+                event_date = pd.to_datetime(event_date).strftime("%Y-%m-%dT%H:%M:%S")
+            except Exception:
+                pass
+            ev = events[key] = {
+                "name": name, "url": url,
+                "venue": str(row.get("VenueName", "") or "").strip(),
+                "city": city, "state": state, "location": location or f"{city}, {state}",
+                "event_date": event_date, "days_out": PA.days_until(event_date),
+                "segment": str(row.get("Segment", "") or "").strip(),
+                "presales": [], "_starts": set(),
+            }
+        pn = str(row.get("PresaleName", "") or "").strip()
+        if pn and pn != "nan":
+            ev["presales"].append(pn)
+        # Use the GMT column and convert to Central so ALL times are one tz
+        # (PresaleStartLocalDate is each venue's local tz — not comparable).
+        ps = row.get("PresaleStartGMT")
+        try:
+            dt = pd.to_datetime(ps, utc=True).tz_convert("America/Chicago")
+            if pd.notna(dt):
+                ev["_starts"].add(dt.strftime("%Y-%m-%d %H:%M:%S"))
+        except Exception:
+            pass
+    out = []
+    for ev in events.values():
+        pl = [p.lower() for p in ev["presales"]]
+        ev["presale_start"] = "|".join(sorted(ev.pop("_starts")))
+        ev["presale_count"] = len(set(ev["presales"]))
+        ev["has_spotify"] = any("spotify" in p for p in pl)
+        ev["has_platinum"] = any("platinum" in p for p in pl)
+        ev["has_artist"] = any("artist" in p for p in pl)
+        ev["has_ln"] = any("live nation" in p for p in pl)
+        ev["has_vip"] = any("vip" in p for p in pl)
+        ev["has_citi"] = any("citi" in p for p in pl)
+        ev["has_amex"] = any("amex" in p or "american express" in p for p in pl)
+        ev["has_chase"] = any("chase" in p for p in pl)
+        ev["capacity"] = PA.get_cap(ev["venue"], ev["city"])
+        ev["category"] = PA.categorize_event(ev["name"], ev["segment"])
+        out.append(ev)
     return out
 
 
@@ -161,9 +241,31 @@ def hist_line(ev):
     m = h.get("avg_margin", 0) or 0
     n = h.get("events", 0)
     p = h.get("profitable_pct", 0) or 0
+    sell = h.get("avg_sell_price", 0) or 0
+    cost = h.get("avg_cost_price", 0) or 0
     color = "#1a9c4c" if m >= 15 else "#c98a00" if m >= 0 else "#c0392b"
+    money = ""
+    if sell:
+        money = f" · avg sale ${sell:,.0f}" + (f" / cost ${cost:,.0f}" if cost else "")
     return (f'<div style="font-size:11px;font-weight:700;color:{color}">'
-            f'\U0001F4CA {n} past · {m:+.0f}% margin · {p:.0f}% profitable</div>')
+            f'\U0001F4CA {n} past show{"s" if n != 1 else ""}{money} · {m:+.0f}% margin · {p:.0f}% profitable</div>')
+
+
+def buyunder_line(ev):
+    """Buy-under price + venue/artist comps from our av/vo/ao history tables
+    (local lookup, no API). Picks the tier we have the most data on."""
+    try:
+        data = PA.get_smart_buy_under(ev.get("name") or "", ev.get("venue") or "")
+    except Exception:
+        data = None
+    if not data:
+        return ""
+    tier, d = max(data.items(), key=lambda kv: kv[1].get("count", 0))
+    if not d.get("buy_under"):
+        return ""
+    return (f'<div style="font-size:11px;color:#1156cc">'
+            f'\U0001F4B0 {html.escape(tier)}: buy under <b>${d["buy_under"]:,.0f}</b> '
+            f'· {d.get("count", 0):,} comps @ avg ${d.get("avg_sell", 0):,.0f}</div>')
 
 
 def row_html(ev):
@@ -185,6 +287,7 @@ def row_html(ev):
   <td style="padding:8px 10px;border-bottom:1px solid #eee">
     {name_cell}
     {hist_line(ev)}
+    {buyunder_line(ev)}
     <div style="font-size:11px;color:#666">{html.escape(presales[:90])}</div>
   </td>
   <td style="padding:8px 10px;border-bottom:1px solid #eee;font-size:12px;color:#333">{venue}<div style="font-size:11px;color:#888">{loc}</div></td>
@@ -262,7 +365,10 @@ def main():
     print(f"[presale-email] target day: {target_day} (today {now.date()} Central, +{DAYS_AHEAD})")
 
     cache = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_flare_presale_cache.json")
-    if os.environ.get("USE_CACHE") == "1" and os.path.exists(cache):
+    if PRESALE_FILE:
+        events = load_from_file(PRESALE_FILE)
+        print(f"[presale-email] loaded {len(events)} events from file: {PRESALE_FILE}")
+    elif os.environ.get("USE_CACHE") == "1" and os.path.exists(cache):
         with open(cache, encoding="utf-8") as f:
             events = json.load(f)
         print(f"[presale-email] loaded {len(events)} events from cache")
