@@ -492,11 +492,20 @@ def main():
         new_events = [e for e in current if e["slug"] not in known]
         is_first_run = not state.get("last_run")
 
+        # Never SHRINK the known set. Some feeds (e.g. Radius Chicago's RSS)
+        # intermittently return 0 — or a partial list — under load/UA quirks. If we
+        # saved that thinner `current`, the dropped events would look "new" again
+        # the moment the feed recovered and re-alert (the Radius "6x a day" bug).
+        # So persist the UNION of what we see now + everything we already knew,
+        # capped to bound growth. `known`/new-detection still use `current` only.
+        cur_slugs = {e["slug"] for e in current}
+        to_save = (current + [e for e in state.get("events", []) if e["slug"] not in cur_slugs])[:1500]
+
         if is_first_run:
             print(f"[info] {name}: first run, baselining {len(current)} events")
             baselined_sites[name] = current
             # Defer save until email — keeps the baseline notice + state save atomic
-            pending_saves.append((site, current))
+            pending_saves.append((site, to_save))
         elif new_events:
             print(f"[info] {name}: {len(new_events)} NEW event(s)")
             new_by_site[name] = new_events
@@ -504,12 +513,12 @@ def main():
                 print(f"    + {e['name']} - {e.get('date','')} - {e['url']}")
             # Defer save until email succeeds, so a SendGrid failure doesn't
             # silently consume these new events.
-            pending_saves.append((site, current))
+            pending_saves.append((site, to_save))
         else:
             print(f"[info] {name}: no new events")
             # Safe to save immediately — nothing depends on email delivery.
             if not args.dry_run:
-                save_state(site, current)
+                save_state(site, to_save)
 
     # Send email if anything new (or if first-run baselines need to be reported)
     if new_by_site or baselined_sites:
