@@ -210,6 +210,33 @@ def load_from_file(path):
     return out
 
 
+def fmt_num(n):
+    n = int(n or 0)
+    if n >= 1_000_000:
+        return f"{n / 1_000_000:.1f}M"
+    if n >= 1_000:
+        return f"{n / 1_000:.0f}k"
+    return str(n)
+
+
+def city_demand_score(ev):
+    """Local fan demand: the artist's Spotify streams + YouTube views IN THIS
+    EVENT'S CITY (Flare gives the per-event number directly). Tiered off the
+    feed's percentiles — a strong local market is a real resale edge. API-path
+    only (the CSV export has no streaming data); returns 0 when absent."""
+    s = ev.get("city_streams") or 0
+    y = ev.get("youtube_views") or 0
+    pts = 0
+    if s >= 200_000:   pts += 8   # ~p95
+    elif s >= 100_000: pts += 6   # ~p90
+    elif s >= 47_000:  pts += 4   # ~p75
+    elif s >= 11_000:  pts += 2   # ~p50
+    if y >= 500_000:   pts += 6   # ~p90
+    elif y >= 107_000: pts += 4   # ~p75
+    elif y >= 23_000:  pts += 2   # ~p50
+    return pts
+
+
 def score_all(events):
     """Apply the Presale Analyzer scoring model to every event (no API calls)."""
     tour_counts = Counter(e["name"] for e in events)
@@ -239,6 +266,7 @@ def score_all(events):
         score += PA.tour_size_score(tour_counts[ev["name"]])
         score += PA.city_saturation_score(city_counts[(ev["name"], PA.get_metro(ev.get("city") or ""))])
         score += PA.city_market_score(ev.get("city") or "")
+        score += city_demand_score(ev)
 
         # GCT sales history — the strongest signal (our own avg margin / win rate)
         hist = PA.lookup_artist_history(ev.get("name") or "", getattr(PA, "_history_db", {}) or {})
@@ -299,6 +327,21 @@ def hist_line(ev):
             f'\U0001F4CA {n} past show{"s" if n != 1 else ""}{money} · {m:+.0f}% margin · {p:.0f}% profitable</div>')
 
 
+def city_line(ev):
+    """Artist's local streaming demand in the event's city (API path only)."""
+    s = ev.get("city_streams") or 0
+    y = ev.get("youtube_views") or 0
+    if not s and not y:
+        return ""
+    parts = []
+    if s:
+        parts.append(f"{fmt_num(s)} Spotify streams")
+    if y:
+        parts.append(f"{fmt_num(y)} YouTube views")
+    return (f'<div style="font-size:11px;color:#7a3fb0">'
+            f'\U0001F3A7 {" · ".join(parts)} in {html.escape(ev.get("city") or "this city")}</div>')
+
+
 def buyunder_line(ev):
     """Buy-under price + venue/artist comps from our av/vo/ao history tables
     (local lookup, no API). Picks the tier we have the most data on."""
@@ -334,6 +377,7 @@ def row_html(ev):
   </td>
   <td style="padding:8px 10px;border-bottom:1px solid #eee">
     {name_cell}
+    {city_line(ev)}
     {hist_line(ev)}
     {buyunder_line(ev)}
     <div style="font-size:11px;color:#666">{html.escape(presales[:90])}</div>

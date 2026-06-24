@@ -1692,6 +1692,7 @@ def fetch_presale_api():
             sp_followers = ev.get("spotify_followers")
             sp_pop = ev.get("spotify_popularity")
             city_streams = ev.get("spotify_city_streams")
+            yt_city_views = ev.get("youtube_city_views")
             if sp_followers:
                 try: sp_followers = int(sp_followers)
                 except: sp_followers = None
@@ -1701,6 +1702,9 @@ def fetch_presale_api():
             if city_streams:
                 try: city_streams = int(city_streams)
                 except: city_streams = None
+            if yt_city_views:
+                try: yt_city_views = int(yt_city_views)
+                except: yt_city_views = None
 
             # Extract TM ID from URL
             tm_event_id = ""
@@ -1757,6 +1761,7 @@ def fetch_presale_api():
                 "sp_followers": sp_followers,
                 "sp_pop": sp_pop,
                 "city_streams": city_streams,
+                "youtube_views": yt_city_views,
                 "tm_event_id": tm_event_id,
                 "flare_event_id": flare_id,
                 "tour_dates": 1,
