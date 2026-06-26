@@ -36,7 +36,8 @@ PRESALE_EMAIL = os.path.join(HERE, "presale_email.py")
 PRESALE_HOUR = int(os.environ.get("PRESALE_HOUR", "14"))
 STATE_DIR = os.environ.get("RAILWAY_VOLUME_MOUNT_PATH") or os.path.join(HERE, "state")
 PRESALE_LASTSENT = os.path.join(STATE_DIR, "presale_email_lastsent.txt")
-_presale_sent_now = False
+PRESALE_RETRY_MIN = int(os.environ.get("PRESALE_RETRY_MIN", "20"))  # minutes between retries
+_presale_last_attempt = 0.0  # epoch of the last send attempt this process
 
 
 def _presale_last_sent():
@@ -60,36 +61,39 @@ def _run_presale_email(reason):
     print(f"[presale] sending digest ({reason})…", flush=True)
     r = subprocess.run([sys.executable, PRESALE_EMAIL], cwd=HERE,
                        env={**os.environ, "SEND": "1"}, check=False)
-    if r.returncode != 0:
-        print(f"[presale] send exited {r.returncode} (not retrying today)", flush=True)
-    return r.returncode == 0
+    ok = r.returncode == 0
+    if not ok:
+        print(f"[presale] send exited {r.returncode} — will retry in ~{PRESALE_RETRY_MIN} min", flush=True)
+    return ok
 
 
 def maybe_run_presale_email():
-    global _presale_sent_now
+    global _presale_last_attempt
     now = datetime.now(CENTRAL) if CENTRAL else datetime.now()
     daystr = now.strftime("%Y-%m-%d")
 
-    # HARD GUARANTEE: the team gets AT MOST ONE digest per calendar day — full stop.
-    # Both the boot test and the daily trigger share this single persistent dated
-    # latch (on the Railway volume), so no combination of redeploys, restarts,
-    # crashes, 429s, or the test flag can ever double-send or hammer. We mark the
-    # day BEFORE running (a failed send still burns the day rather than retrying).
-    if _presale_last_sent() == daystr or _presale_sent_now:
+    # HARD GUARANTEE: AT MOST ONE *delivered* digest per calendar day. The persistent
+    # dated latch is written ONLY after a successful send, so a failed send (Flare
+    # 429, SendGrid hiccup, a transient error) does NOT burn the day — a later tick
+    # retries until it goes through (notably, after Flare's daily limit resets in the
+    # evening). Once delivered, the latch blocks any re-send for the rest of the day.
+    if _presale_last_sent() == daystr:
         return
 
-    # One-off boot test — fires once, then the dated latch blocks the rest of today.
-    if os.environ.get("PRESALE_SEND_NOW") == "1":
-        _presale_sent_now = True
-        _mark_presale_sent(daystr)
-        _run_presale_email("PRESALE_SEND_NOW test")
+    send_now = os.environ.get("PRESALE_SEND_NOW") == "1"
+    daily_due = os.environ.get("PRESALE_EMAIL_ENABLED") == "1" and now.hour >= PRESALE_HOUR
+    if not (send_now or daily_due):
         return
 
-    # Daily 2pm Central trigger.
-    if os.environ.get("PRESALE_EMAIL_ENABLED") == "1" and now.hour >= PRESALE_HOUR:
-        _presale_sent_now = True
-        _mark_presale_sent(daystr)
-        _run_presale_email(f"daily {PRESALE_HOUR}:00 Central")
+    # Throttle retries so a rate-limited/failed send recovers later in the day
+    # without hammering the Flare API on every 5-min tick.
+    if (time.time() - _presale_last_attempt) < PRESALE_RETRY_MIN * 60:
+        return
+    _presale_last_attempt = time.time()
+
+    reason = "PRESALE_SEND_NOW test" if send_now else f"daily {PRESALE_HOUR}:00 Central"
+    if _run_presale_email(reason):
+        _mark_presale_sent(daystr)  # latch ONLY on success
 
 
 print(f"[worker] starting — running the watcher every {LOOP_SECONDS}s "
