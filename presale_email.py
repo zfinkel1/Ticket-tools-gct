@@ -23,7 +23,7 @@ Env (same names as the venue watcher so it slots into that Railway service):
 Optional: DAYS_AHEAD (default 1), MAX_NATIONWIDE (default 60), SEND=1, TZ handled as America/Chicago.
 """
 
-import os, json, html, urllib.request
+import os, re, json, html, urllib.request
 from collections import Counter
 from datetime import datetime, timedelta, date
 from zoneinfo import ZoneInfo
@@ -74,6 +74,35 @@ def is_chicagoland(ev):
         return True
     # Anything Flare's metro map already folds into Chicago
     return PA.get_metro(city) == "chicago"
+
+
+def _norm_key(s):
+    return re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+
+
+def merge_tm_events(events, target_day):
+    """Supplement Flare with Ticketmaster Discovery presales. Flare's presale
+    fields are sparse (52 upcoming presales in the whole 28k-event feed on
+    7/6/26); TM carries the real presale calendar. Dedupe: drop the TM copy of
+    anything Flare already reports for the target day (TM event id first, then
+    normalized name+city). Never fatal — on any error the digest just degrades
+    back to Flare-only."""
+    try:
+        from tm_presales import fetch_tm_presales
+        tm_events = fetch_tm_presales(target_day)
+        flare_day = [e for e in events
+                     if any(w.date() == target_day for w in parse_presale_windows(e.get("presale_start")))]
+        seen_ids = {e.get("tm_event_id") for e in flare_day if e.get("tm_event_id")}
+        seen_nc = {(_norm_key(e.get("name")), _norm_key(e.get("city"))) for e in flare_day}
+        fresh = [t for t in tm_events
+                 if t.get("tm_event_id") not in seen_ids
+                 and (_norm_key(t.get("name")), _norm_key(t.get("city"))) not in seen_nc]
+        print(f"[presale-email] TM supplement: +{len(fresh)} events "
+              f"({len(tm_events) - len(fresh)} already covered by Flare)")
+        return events + fresh
+    except Exception as e:
+        print(f"[presale-email] TM supplement failed (continuing Flare-only): {e}")
+        return events
 
 
 def parse_presale_windows(s):
@@ -383,7 +412,7 @@ def row_html(ev):
     <div style="font-size:11px;color:#666">{html.escape(presales[:90])}</div>
   </td>
   <td style="padding:8px 10px;border-bottom:1px solid #eee;font-size:12px;color:#333">{venue}<div style="font-size:11px;color:#888">{loc}</div></td>
-  <td style="padding:8px 10px;border-bottom:1px solid #eee;font-size:12px;color:#333;white-space:nowrap">{fmt_event_date(ev.get('event_date'))}</td>
+  <td style="padding:8px 10px;border-bottom:1px solid #eee;font-size:12px;color:#333;white-space:nowrap">{fmt_event_date(ev.get('event_date'))}{f'<div style="font-size:10px;color:#888">{ev.get("shows_count")} shows</div>' if (ev.get('shows_count') or 0) > 1 else ''}</td>
   <td style="padding:8px 10px;border-bottom:1px solid #eee;font-size:12px;font-weight:700;color:#1156cc;white-space:nowrap">{fmt_time(ev['_open_time'])}</td>
   <td style="padding:8px 10px;border-bottom:1px solid #eee;font-size:12px;color:#333;text-align:right">{cap_s}</td>
 </tr>"""
@@ -425,7 +454,7 @@ def build_email(target_day, chi, nat, nat_total):
     </div>
     {sections}
     <div style="font-size:11px;color:#999;padding:8px 2px 24px">
-      Scored by the Presale Analyzer model (buy ≥40 · watch ≥25 · skip). Pulled live from Flare. Times Central.
+      Scored by the Presale Analyzer model (buy ≥40 · watch ≥25 · skip). Pulled live from Flare + Ticketmaster. Times Central.
     </div>
   </div>
 </body></html>"""
@@ -479,6 +508,7 @@ def main():
                 json.dump(events, f)
         except Exception:
             pass
+    events = merge_tm_events(events, target_day)
     score_all(events)
 
     todays = collect_for_day(events, target_day)
