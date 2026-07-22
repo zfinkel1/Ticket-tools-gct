@@ -110,11 +110,6 @@ SITES = [
         "venue_ids": ["KovZpZA17AEA"],
     },
     {
-        "name": "Bottom Lounge",
-        "parser": "ticketmaster",
-        "venue_ids": ["KovZpaoyCe"],
-    },
-    {
         "name": "Subterranean",
         "parser": "ticketmaster",
         # Main room + Downstairs run as separate TM venue records
@@ -124,11 +119,6 @@ SITES = [
         "name": "Sleeping Village",
         "parser": "ticketmaster",
         "venue_ids": ["KovZpa2h8e"],
-    },
-    {
-        "name": "The Empty Bottle",
-        "parser": "ticketmaster",
-        "venue_ids": ["KovZpZAId16A"],
     },
     {
         "name": "Avondale Music Hall",
